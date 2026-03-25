@@ -1,34 +1,57 @@
 <div align="center">
-  <img src="https://www.bisecthosting.com/images/CF/Monumental_Recipes/BH_Monumental_Recipes_Header.webp" alt="Alt text" width="80%" />
-</div>
 
-<div align="center">
-  <p>Welcome to Monumental Recipes!</p>
-</div>
+# 📦 Monumental Recipes
 
-<div align="center">
-  <p>a system designed to enhance your crafting experience by centralizing all custom recipes introduced in my modpacks. It gives players easy access to a wide range of unique crafting options, all carefully integrated into the modpack’s progression and gameplay mechanics.</p>
-</div>
+Monumental Recipes is a core mod that enhances the crafting experience by centralizing all custom recipes used across my modpacks.
 
+It provides a structured and scalable system for managing unique recipes, ensuring they integrate seamlessly with progression and overall gameplay design.
 
-<div align="center">
-  <img src="https://www.bisecthosting.com/images/CF/Monumental_Recipes/BH_Monumental_Recipes_Featured.webp" alt="Alt text" width="80%" />
-</div>
+---
 
+## 🚀 Features
 
-<div align="center">
-  
-  <p>1.. Custom Recipes: The mod contains an extensive collection of custom-made recipes that extend beyond the default crafting recipes in Minecraft. These recipes may include new item combinations, specialized tools, powerful weapons, advanced armor sets, unique decorative blocks, and more.
+- Centralized repository for custom recipes  
+- Designed specifically for Monumental modpacks  
+- Supports progression-based crafting systems  
+- Simplifies recipe management and future expansion  
+- Conditional recipe loading based on installed mods/items  
 
+---
 
+## ⚙️ Purpose
 
-It's essential to follow the recommended usage guidelines and ensure that Modern's Monumental Recipes is installed correctly alongside Monumental Experience to avoid compatibility issues with other modpacks.
+Monumental Recipes serves as the backbone for custom crafting within the Monumental Experience series.
 
-Enjoy the expanded crafting possibilities and enhanced gameplay experience provided by Modern's Monumental Recipes within the Monumental Experience modpack. Happy crafting!</p>
-</div>
+Each recipe is carefully designed to align with progression, balance, and gameplay flow—making crafting more meaningful and consistent.
 
-<div align="center">
-  <a href="https://bisecthosting.com/moderngamingworld" target="_blank">
-    <img src="https://www.bisecthosting.com/images/CF/Monumental_Recipes/BH_Monumental_Recipes_Promo.webp" alt="Alt text" width="80%" />
-  </a>
+---
+
+## 📥 Installation
+
+1. Install Minecraft Forge or NeoForge (compatible version)  
+2. Download the latest release of Monumental Recipes  
+3. Place the `.jar` file into your `mods` folder  
+4. Launch the game  
+
+---
+
+## 📌 Notes
+
+- Primarily designed for use within Monumental modpacks  
+- Fully compatible with other modpacks  
+- Recipes are conditionally loaded and will only appear if the required mods or items are present  
+
+---
+
+## 🐞 Support
+
+If you encounter any issues or bugs, please open an issue on this repository.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.  
+See the `LICENSE` file for more details.
+
 </div>
