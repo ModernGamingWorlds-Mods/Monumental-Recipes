@@ -19,7 +19,7 @@ It provides a structured and scalable system for managing unique recipes, ensuri
 ## 🚀 Features
 
 - Centralized repository for custom recipes  
-- Designed specifically for Monumental modpacks  
+- Designed specifically for My custom modpacks  
 - Supports progression-based crafting systems  
 - Simplifies recipe management and future expansion  
 
