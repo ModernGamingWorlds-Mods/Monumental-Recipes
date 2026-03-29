@@ -16,7 +16,7 @@ Monumental Recipes is a core library mod that centralizes custom crafting recipe
 
 It provides a clean, scalable foundation for progression-focused crafting while keeping recipe management consistent across supported Minecraft versions.
 
-</div>
+
 
 ---
 
@@ -62,7 +62,7 @@ Each recipe is created to support clear progression, improve consistency, and re
 
 ## 🧩 Compatibility Notes
 
-- Primarily built for the Monumental Experience ecosystem
+- Primarily built to create more challenging recipes for ModernGamingWorld's modpacks
 - Can be included in other modpacks where applicable
 - Recipes are conditionally loaded based on required mods/items for stability
 
@@ -81,3 +81,5 @@ If you find a bug or compatibility problem, please open an issue in this reposit
 ## 📄 License
 
 Licensed under the **MIT License**. See [`LICENSE`](LICENSE) for full details.
+
+</div>
