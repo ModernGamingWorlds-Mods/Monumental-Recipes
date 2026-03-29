@@ -10,142 +10,74 @@
 
 <br><br>
 
-Monumental Recipes is a core mod that enhances the crafting experience by centralizing all custom recipes used across my modpacks.
+# Monumental Recipes
 
-It provides a structured and scalable system for managing unique recipes, ensuring they integrate seamlessly with progression and overall gameplay design.
+Monumental Recipes is a core library mod that centralizes custom crafting recipes used across the **Monumental Experience** modpack series.
 
----
+It provides a clean, scalable foundation for progression-focused crafting while keeping recipe management consistent across supported Minecraft versions.
 
-## 🚀 Features
-
-- Centralized repository for custom recipes  
-- Designed specifically for my custom modpacks  
-- Supports progression-based crafting systems  
-- Simplifies recipe management and future expansion  
+</div>
 
 ---
 
-## ⚙️ Purpose
+## ✨ Features
 
-Monumental Recipes serves as the backbone for custom crafting within the Monumental Experience series.
-
-Each recipe is carefully designed to align with progression, balance, and gameplay flow—making crafting more meaningful and consistent.
+- Centralized recipe definitions for easier maintenance
+- Designed for progression-based gameplay and balance
+- Cross-version support for Forge and NeoForge targets
+- Reliable recipe loading with compatibility-focused design
 
 ---
 
-## 🛠️ Development Setup (Forge + NeoForge multi-version)
+## 🎯 Project Purpose
 
-This project is set up to support the following target combinations with the **Stonecutter Dev** IntelliJ plugin.
+This project acts as the recipe backbone for Monumental Experience packs.  
+Each recipe is created to support clear progression, improve consistency, and reduce maintenance overhead as the packs evolve.
 
-### Supported targets
+---
 
-#### Forge
+## ✅ Supported Versions
 
+### Forge
 - 1.16.5
 - 1.18.2
 - 1.19.2
 - 1.20.1
 
-#### NeoForge
-
+### NeoForge
 - 1.20.1
 - 1.21.1
 - 26.1
 
-### 1) Install tools
+---
 
-1. Install **IntelliJ IDEA**.
-2. Install the **Stonecutter Dev** plugin from JetBrains Marketplace:  
-   <https://plugins.jetbrains.com/plugin/25044-stonecutter-dev>
-3. Install a matching JDK for your target MC versions (JDK 17 for older targets, JDK 21 for newer 1.21+ targets).
+## 📦 Installation
 
-### 2) Recommended project layout
-
-```text
-Monumental-Recipes/
-├─ build.gradle.kts
-├─ settings.gradle.kts
-├─ gradle.properties
-├─ versions/
-│  ├─ forge-1.18.2/
-│  ├─ forge-1.19.2/
-│  ├─ forge-1.20.1/
-│  ├─ neoforge-1.20.1/
-│  ├─ neoforge-1.21.1/
-│  └─ neoforge-26.1/
-└─ src/
-   └─ main/... (shared sources)
-```
-
-- Put common logic/resources in shared `src/main`.
-- Put per-version overrides inside each `versions/<target>/` folder.
-
-### 3) Stonecutter target matrix
-
-| Target key       | Loader   | Version |
-|------------------|----------|---------|
-| `forge1182`      | Forge    | 1.18.2  |
-| `forge1192`      | Forge    | 1.19.2  |
-| `forge1201`      | Forge    | 1.20.1  |
-| `neoforge1201`   | NeoForge | 1.20.1  |
-| `neoforge1211`   | NeoForge | 1.21.1  |
-| `neoforge261`    | NeoForge | 26.1    |
-
-Keep this table synchronized with your Stonecutter targets so switching environments is predictable.
-
-### 4) IntelliJ + Stonecutter workflow
-
-1. Open the repository in IntelliJ.
-2. Open the Stonecutter tool window.
-3. Register/import each target environment from your `versions/` directories.
-4. Mark shared/common source roots once.
-5. Generate or refresh run configurations per target (`Client`, `Server`, `Data`).
-6. Switch active target in Stonecutter before coding/testing a loader-specific change.
-
-### 5) Practical branching strategy
-
-- Keep **shared recipe/data logic** in common sources.
-- Gate loader-specific code behind clearly isolated source sets/targets.
-- Validate each target independently before release.
-- Publish artifacts with explicit names per target version.
-
-### 6) Minimum release checklist
-
-For every supported target in the matrix:
-
-- Gradle sync succeeds
-- Compile/build succeeds
-- Game launch works (Client at minimum)
-- Data generation/recipes load without errors
+1. Install a compatible version of **Minecraft Forge** or **NeoForge**.
+2. Download the latest release of **Monumental Recipes**.
+3. Place the `.jar` file in your Minecraft `mods` folder.
+4. Launch the game.
 
 ---
 
-## 📥 Installation
+## 🧩 Compatibility Notes
 
-1. Install Minecraft Forge **or** NeoForge (compatible version)  
-2. Download the latest release of Monumental Recipes  
-3. Place the `.jar` file into your `mods` folder  
-4. Launch the game  
-
----
-
-## 📌 Notes
-
-- Designed primarily for use within my custom modpacks  
-- Fully compatible with other modpacks  
-- Recipes only load if the required mods or items are present, ensuring stability and flexibility  
+- Primarily built for the Monumental Experience ecosystem
+- Can be included in other modpacks where applicable
+- Recipes are conditionally loaded based on required mods/items for stability
 
 ---
 
-## 🐞 Support
+## 🐞 Issues & Support
 
-If you encounter any issues or bugs, please open an issue on this repository.
+If you find a bug or compatibility problem, please open an issue in this repository with:
+- Minecraft version
+- Loader (Forge/NeoForge) and version
+- Mod list (if relevant)
+- Crash log or latest log excerpt
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License.  
-See the `LICENSE` file for more details.
-
-</div>
+Licensed under the **MIT License**. See [`LICENSE`](LICENSE) for full details.
