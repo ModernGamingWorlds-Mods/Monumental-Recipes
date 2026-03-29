@@ -41,6 +41,7 @@ This project is set up to support the following target combinations with the **S
 
 #### Forge
 
+- 1.16.5
 - 1.18.2
 - 1.19.2
 - 1.20.1
