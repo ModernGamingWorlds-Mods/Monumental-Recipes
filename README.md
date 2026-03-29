@@ -44,7 +44,7 @@ Each recipe is carefully designed to align with progression, balance, and gamepl
 
 ## 📌 Notes
 
-- Designed primarily for use within Monumental modpacks  
+- Designed primarily for use within my custom modpacks  
 - Fully compatible with other modpacks  
 - Recipes only load if the required mods or items are present, ensuring stability and flexibility  
 
