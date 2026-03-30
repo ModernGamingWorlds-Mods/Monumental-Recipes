@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+
+[[mods]]
+    modId="monumental_recipes"
+    version="${file.jarVersion}"
+    displayName="Monumental Recipes"
+    description='''
+        Centralizes custom crafting recipes for the Monumental Experience modpack series.
+    '''
+
+[[dependencies.monumental_recipes]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.monumental_recipes]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
