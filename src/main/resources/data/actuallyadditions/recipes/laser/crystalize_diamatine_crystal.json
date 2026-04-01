@@ -1,0 +1,10 @@
+{
+  "type": "actuallyadditions:laser",
+  "energy": 60,
+  "ingredient": {
+    "item": "create_new_age:overcharged_diamond"
+  },
+  "result": {
+    "item": "actuallyadditions:diamatine_crystal"
+  }
+}

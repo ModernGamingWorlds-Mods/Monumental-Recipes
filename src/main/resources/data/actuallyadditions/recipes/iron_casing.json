@@ -1,0 +1,34 @@
+{
+  "type": "create:mechanical_crafting",
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "actuallyadditions"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "acceptMirrored": false,
+  "key": {
+    "Q": {
+      "item": "actuallyadditions:black_quartz"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    },
+    "W": {
+      "tag": "forge:ingots/compressed_iron"
+    }
+  },
+  "pattern": [
+    "WSW",
+    "SQS",
+    "WSW"
+  ],
+  "result": {
+    "item": "actuallyadditions:iron_casing"
+  },
+  "show_notification": true
+}
