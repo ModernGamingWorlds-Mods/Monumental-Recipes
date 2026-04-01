@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    }
+  ],
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "ad_astra:desh_plates"
+    },
+    "G": {
+      "item": "ad_astra:gas_tank"
+    },
+    "H": {
+      "tag": "monumental_experience:hoppers"
+    },
+    "S": {
+      "tag": "ad_astra:steel_plates"
+    }
+  },
+  "pattern": [
+    "S#S",
+    "SGS",
+    "#H#"
+  ],
+  "result": {
+    "item": "ad_astra:water_pump"
+  },
+  "show_notification": true
+}

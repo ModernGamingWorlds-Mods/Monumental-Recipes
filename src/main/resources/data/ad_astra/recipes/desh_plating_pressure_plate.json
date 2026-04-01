@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    }
+  ],
+  "key": {
+    "A": {
+      "item": "ad_astra:desh_plating"
+    },
+    "B": {
+      "tag": "monumental_experience:tools/hammers"
+    }
+  },
+  "pattern": [
+    " A ",
+    " A ",
+    " B "
+  ],
+  "result": {
+    "item": "ad_astra:desh_plating_pressure_plate"
+  }
+}

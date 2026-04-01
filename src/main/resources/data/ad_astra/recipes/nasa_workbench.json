@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    }
+  ],
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "ad_astra:steel_plates"
+    },
+    "B": {
+      "tag": "ad_astra:steel_blocks"
+    },
+    "C": {
+      "tag": "forge:workbenches"
+    },
+    "T": {
+      "item": "immersiveengineering:rs_engineering"
+    },
+    "|": {
+      "tag": "forge:rods/iron"
+    }
+  },
+  "pattern": [
+    "|#|",
+    "TCT",
+    "#B#"
+  ],
+  "result": {
+    "item": "ad_astra:nasa_workbench"
+  },
+  "show_notification": true
+}

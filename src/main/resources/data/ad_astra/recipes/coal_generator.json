@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    }
+  ],
+  "key": {
+    "#": {
+      "item": "kubejs:compressed_iron_plate"
+    },
+    "F": {
+      "tag": "forge:furnaces"
+    },
+    "G": {
+      "item": "additionallanterns:stone_chain"
+    },
+    "H": {
+      "item": "pneumaticcraft:stone_base"
+    }
+  },
+  "pattern": [
+    "###",
+    "GFG",
+    "#H#"
+  ],
+  "result": {
+    "item": "ad_astra:coal_generator"
+  }
+}
