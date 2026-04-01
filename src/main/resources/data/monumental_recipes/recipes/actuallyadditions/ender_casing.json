@@ -1,0 +1,43 @@
+{
+  "type": "create:mechanical_crafting",
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "actuallyadditions"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "actuallyadditions"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "acceptMirrored": false,
+  "key": {
+    "R": {
+      "item": "actuallyadditions:black_quartz_block"
+    },
+    "S": {
+      "item": "actuallyadditions:empowered_diamatine_crystal"
+    },
+    "W": {
+      "tag": "forge:ender_pearls"
+    }
+  },
+  "pattern": [
+    "WSW",
+    "SRS",
+    "WSW"
+  ],
+  "result": {
+    "item": "actuallyadditions:ender_casing"
+  }
+}
