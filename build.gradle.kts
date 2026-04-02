@@ -5,6 +5,10 @@ plugins {
 group = "com.monumentalrecipes"
 version = providers.gradleProperty("mod_version").getOrElse("0.0.0-dev")
 
+subprojects {
+    version = rootProject.version
+}
+
 tasks.register("printStonecutterTargets") {
     group = "stonecutter"
     description = "Lists configured Stonecutter target directories."
