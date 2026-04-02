@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "ae2:annihilation_core"
+    },
+    "b": {
+      "item": "kubejs:compressed_iron_plate"
+    },
+    "c": {
+      "tag": "monumental_experience:pistons"
+    }
+  },
+  "pattern": [
+    " a ",
+    "bcb"
+  ],
+  "result": {
+    "item": "ae2:import_bus"
+  }
+}

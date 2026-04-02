@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "kubejs:compressed_iron_plate"
+    },
+    "B": {
+      "tag": "forge:furnaces"
+    },
+    "C": {
+      "item": "ae2:energy_acceptor"
+    }
+  },
+  "pattern": [
+    " AAA ",
+    " ABA ",
+    " ACA ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "ae2:vibration_chamber"
+  }
+}

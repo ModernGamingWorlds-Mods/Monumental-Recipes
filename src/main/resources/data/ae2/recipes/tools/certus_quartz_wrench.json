@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "framedblocks:framed_wrench"
+  },
+  "addition": {
+    "tag": "forge:gems/certus_quartz"
+  },
+  "result": {
+    "item": "ae2:certus_quartz_wrench"
+  },
+  "template": {
+    "tag": "forge:dusts/certus_quartz"
+  }
+}
