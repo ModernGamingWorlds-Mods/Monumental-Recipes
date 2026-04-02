@@ -47,7 +47,7 @@ Each recipe is created to support clear progression, improve consistency, and re
 ### NeoForge
 - 1.20.1
 - 1.21.1
-- 26.1
+- 26.1.1
 
 ---
 
