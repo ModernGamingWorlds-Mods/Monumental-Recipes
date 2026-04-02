@@ -19,7 +19,7 @@ dependencyResolutionManagement {
 rootProject.name = "Monumental-Recipes"
 
 plugins {
-    id("dev.kikugie.stonecutter") version "0.9"
+    id("dev.kikugie.stonecutter") version "0.7.11"
 }
 
 stonecutter {
@@ -32,5 +32,13 @@ stonecutter {
         version("neoforge-1.20.1", "1.20.1")
         version("neoforge-1.21.1", "1.21.1")
         version("neoforge-26.1", "26.1")
+
+        mapBuilds { _, data ->
+            when {
+                data.project.startsWith("forge-") -> "forge.gradle.kts"
+                data.project == "neoforge-1.20.1" -> "neoforge-legacy.gradle.kts"
+                else -> "neoforge.gradle.kts"
+            }
+        }
     }
 }

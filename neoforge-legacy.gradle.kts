@@ -1,14 +1,18 @@
 plugins {
     java
-    id("net.neoforged.gradle.userdev") version "7.0.+"
+    id("net.neoforged.gradle.userdev") version "7.0.157"
 }
 
-val minecraftVersion: String by project
-val neoforgeVersion: String by project
-val javaVersion: String by project
+val minecraft_version: String by project
+val neoforge_version: String by project
+val java_version: String by project
+
+group = "com.monumentalrecipes"
+version = providers.gradleProperty("mod_version").getOrElse("0.0.0-dev")
+base.archivesName.set("monumental_recipes-neoforge-$minecraft_version")
 
 java {
-    toolchain.languageVersion.set(JavaLanguageVersion.of(javaVersion.toInt()))
+    toolchain.languageVersion.set(JavaLanguageVersion.of(java_version.toInt()))
 }
 
 runs {
@@ -23,7 +27,8 @@ runs {
 
 sourceSets {
     main {
-        java.setSrcDirs(listOf(rootProject.projectDir.resolve("src/neoforge/java")))
+        // NeoForge 1.20.1 still uses net.minecraftforge package names, so use the Forge sources
+        java.setSrcDirs(listOf(rootProject.projectDir.resolve("src/forge/java")))
         resources.setSrcDirs(listOf(
             rootProject.projectDir.resolve("src/main/resources"),
             project.file("src/main/resources")
@@ -31,20 +36,24 @@ sourceSets {
     }
 }
 
+repositories {
+    mavenCentral()
+    maven("https://maven.neoforged.net/releases")
+}
+
 dependencies {
-    implementation("net.neoforged:neoforge:$neoforgeVersion")
+    implementation("net.neoforged:forge:$neoforge_version")
 }
 
 tasks.withType<Jar> {
     manifest {
-        attributes(
+        attributes(mapOf(
             "Specification-Title"        to "monumental_recipes",
             "Specification-Vendor"       to "ModernGamingWorlds",
             "Specification-Version"      to "1",
             "Implementation-Title"       to project.name,
             "Implementation-Version"     to project.version,
-            "Implementation-Vendor"      to "ModernGamingWorlds",
-            "Implementation-Timestamp"   to java.time.LocalDateTime.now()
-        )
+            "Implementation-Vendor"      to "ModernGamingWorlds"
+        ))
     }
 }
