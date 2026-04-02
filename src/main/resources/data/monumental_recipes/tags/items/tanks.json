@@ -1,0 +1,164 @@
+{
+  "values": [
+    {
+      "id": "ae2:sky_stone_tank",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ae2"
+        }
+      ]
+    },
+    {
+      "id": "create:fluid_tank",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        }
+      ]
+    },
+    {
+      "id": "mekanism:basic_fluid_tank",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mekanism"
+        }
+      ]
+    },
+    {
+      "id": "mekanism:advanced_fluid_tank",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mekanism"
+        }
+      ]
+    },
+    {
+      "id": "mekanism:ultimate_fluid_tank",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mekanism"
+        }
+      ]
+    },
+    {
+      "id": "#pneumaticcraft:fluid_tanks",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "pneumaticcraft"
+        }
+      ]
+    },
+    {
+      "id": "rftoolscontrol:tank",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "rftoolscontrol"
+        }
+      ]
+    },
+    {
+      "id": "rftoolsutility:tank",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "rftoolsutility"
+        }
+      ]
+    },
+    {
+      "id": "cyclic:tank",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "cyclic"
+        }
+      ]
+    },
+    {
+      "id": "enderio:pressurized_fluid_tank",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "enderio"
+        }
+      ]
+    },
+    {
+      "id": "enderio:fluid_tank",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "enderio"
+        }
+      ]
+    },
+    {
+      "id": "tconstruct:scorched_ingot_tank",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "tconstruct"
+        }
+      ]
+    },
+    {
+      "id": "tconstruct:scorched_fuel_tank",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "tconstruct"
+        }
+      ]
+    },
+    {
+      "id": "tconstruct:seared_ingot_tank",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "tconstruct"
+        }
+      ]
+    },
+    {
+      "id": "tconstruct:seared_fuel_tank",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "tconstruct"
+        }
+      ]
+    },
+    {
+      "id": "forestry:raintank",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "forestry"
+        }
+      ]
+    }
+  ]
+}

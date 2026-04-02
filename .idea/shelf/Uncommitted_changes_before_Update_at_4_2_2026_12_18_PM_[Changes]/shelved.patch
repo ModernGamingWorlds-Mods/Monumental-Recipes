@@ -1,0 +1,315 @@
+Index: .idea/runConfigurations/Stonecutter_switchToforge-1.18.2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/runConfigurations/Stonecutter_switchToforge-1.18.2.xml b/.idea/runConfigurations/Stonecutter_switchToforge-1.18.2.xml
+new file mode 100644
+--- /dev/null	(date 1775104352848)
++++ b/.idea/runConfigurations/Stonecutter_switchToforge-1.18.2.xml	(date 1775104352848)
+@@ -0,0 +1,22 @@
++<configuration name="Switch to forge-1.18.2" type="GradleRunConfiguration" factoryName="Gradle" folderName="Stonecutter">
++    <ExternalSystemSettings>
++        <option name="executionName"/>
++        <option name="externalProjectPath" value="$PROJECT_DIR$"/>
++        <option name="externalSystemIdString" value="GRADLE"/>
++        <option name="scriptParameters"/>
++        <option name="taskDescriptions">
++            <list/>
++        </option>
++        <option name="taskNames">
++            <list>
++                <option value=":stonecutterSwitchToforge-1.18.2"/>
++            </list>
++        </option>
++        <option name="vmOptions"/>
++    </ExternalSystemSettings>
++    <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
++    <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
++    <DebugAllEnabled>false</DebugAllEnabled>
++    <RunAsTest>false</RunAsTest>
++    <method v="2"/>
++</configuration>
+\ No newline at end of file
+Index: .idea/runConfigurations/Stonecutter_switchToforge-1.19.2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/runConfigurations/Stonecutter_switchToforge-1.19.2.xml b/.idea/runConfigurations/Stonecutter_switchToforge-1.19.2.xml
+new file mode 100644
+--- /dev/null	(date 1775104352805)
++++ b/.idea/runConfigurations/Stonecutter_switchToforge-1.19.2.xml	(date 1775104352805)
+@@ -0,0 +1,22 @@
++<configuration name="Switch to forge-1.19.2" type="GradleRunConfiguration" factoryName="Gradle" folderName="Stonecutter">
++    <ExternalSystemSettings>
++        <option name="executionName"/>
++        <option name="externalProjectPath" value="$PROJECT_DIR$"/>
++        <option name="externalSystemIdString" value="GRADLE"/>
++        <option name="scriptParameters"/>
++        <option name="taskDescriptions">
++            <list/>
++        </option>
++        <option name="taskNames">
++            <list>
++                <option value=":stonecutterSwitchToforge-1.19.2"/>
++            </list>
++        </option>
++        <option name="vmOptions"/>
++    </ExternalSystemSettings>
++    <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
++    <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
++    <DebugAllEnabled>false</DebugAllEnabled>
++    <RunAsTest>false</RunAsTest>
++    <method v="2"/>
++</configuration>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(date 1775104352878)
++++ b/.idea/compiler.xml	(date 1775104352878)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <bytecodeTargetLevel target="21" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/runConfigurations/Stonecutter_switchToneoforge-1.21.1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/runConfigurations/Stonecutter_switchToneoforge-1.21.1.xml b/.idea/runConfigurations/Stonecutter_switchToneoforge-1.21.1.xml
+new file mode 100644
+--- /dev/null	(date 1775104352715)
++++ b/.idea/runConfigurations/Stonecutter_switchToneoforge-1.21.1.xml	(date 1775104352715)
+@@ -0,0 +1,22 @@
++<configuration name="Switch to neoforge-1.21.1" type="GradleRunConfiguration" factoryName="Gradle" folderName="Stonecutter">
++    <ExternalSystemSettings>
++        <option name="executionName"/>
++        <option name="externalProjectPath" value="$PROJECT_DIR$"/>
++        <option name="externalSystemIdString" value="GRADLE"/>
++        <option name="scriptParameters"/>
++        <option name="taskDescriptions">
++            <list/>
++        </option>
++        <option name="taskNames">
++            <list>
++                <option value=":stonecutterSwitchToneoforge-1.21.1"/>
++            </list>
++        </option>
++        <option name="vmOptions"/>
++    </ExternalSystemSettings>
++    <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
++    <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
++    <DebugAllEnabled>false</DebugAllEnabled>
++    <RunAsTest>false</RunAsTest>
++    <method v="2"/>
++</configuration>
+\ No newline at end of file
+Index: .idea/runConfigurations/Stonecutter_switchToforge-1.16.5.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/runConfigurations/Stonecutter_switchToforge-1.16.5.xml b/.idea/runConfigurations/Stonecutter_switchToforge-1.16.5.xml
+new file mode 100644
+--- /dev/null	(date 1775104352692)
++++ b/.idea/runConfigurations/Stonecutter_switchToforge-1.16.5.xml	(date 1775104352692)
+@@ -0,0 +1,22 @@
++<configuration name="Switch to forge-1.16.5" type="GradleRunConfiguration" factoryName="Gradle" folderName="Stonecutter">
++    <ExternalSystemSettings>
++        <option name="executionName"/>
++        <option name="externalProjectPath" value="$PROJECT_DIR$"/>
++        <option name="externalSystemIdString" value="GRADLE"/>
++        <option name="scriptParameters"/>
++        <option name="taskDescriptions">
++            <list/>
++        </option>
++        <option name="taskNames">
++            <list>
++                <option value=":stonecutterSwitchToforge-1.16.5"/>
++            </list>
++        </option>
++        <option name="vmOptions"/>
++    </ExternalSystemSettings>
++    <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
++    <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
++    <DebugAllEnabled>false</DebugAllEnabled>
++    <RunAsTest>false</RunAsTest>
++    <method v="2"/>
++</configuration>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1775104352774)
++++ b/.idea/vcs.xml	(date 1775104352774)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/runConfigurations/Stonecutter_switchToforge-1.20.1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/runConfigurations/Stonecutter_switchToforge-1.20.1.xml b/.idea/runConfigurations/Stonecutter_switchToforge-1.20.1.xml
+new file mode 100644
+--- /dev/null	(date 1775104352742)
++++ b/.idea/runConfigurations/Stonecutter_switchToforge-1.20.1.xml	(date 1775104352742)
+@@ -0,0 +1,22 @@
++<configuration name="Switch to forge-1.20.1" type="GradleRunConfiguration" factoryName="Gradle" folderName="Stonecutter">
++    <ExternalSystemSettings>
++        <option name="executionName"/>
++        <option name="externalProjectPath" value="$PROJECT_DIR$"/>
++        <option name="externalSystemIdString" value="GRADLE"/>
++        <option name="scriptParameters"/>
++        <option name="taskDescriptions">
++            <list/>
++        </option>
++        <option name="taskNames">
++            <list>
++                <option value=":stonecutterSwitchToforge-1.20.1"/>
++            </list>
++        </option>
++        <option name="vmOptions"/>
++    </ExternalSystemSettings>
++    <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
++    <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
++    <DebugAllEnabled>false</DebugAllEnabled>
++    <RunAsTest>false</RunAsTest>
++    <method v="2"/>
++</configuration>
+\ No newline at end of file
+Index: .idea/runConfigurations/Stonecutter_switchToneoforge-26.1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/runConfigurations/Stonecutter_switchToneoforge-26.1.xml b/.idea/runConfigurations/Stonecutter_switchToneoforge-26.1.xml
+new file mode 100644
+--- /dev/null	(date 1775104352605)
++++ b/.idea/runConfigurations/Stonecutter_switchToneoforge-26.1.xml	(date 1775104352605)
+@@ -0,0 +1,22 @@
++<configuration name="Switch to neoforge-26.1" type="GradleRunConfiguration" factoryName="Gradle" folderName="Stonecutter">
++    <ExternalSystemSettings>
++        <option name="executionName"/>
++        <option name="externalProjectPath" value="$PROJECT_DIR$"/>
++        <option name="externalSystemIdString" value="GRADLE"/>
++        <option name="scriptParameters"/>
++        <option name="taskDescriptions">
++            <list/>
++        </option>
++        <option name="taskNames">
++            <list>
++                <option value=":stonecutterSwitchToneoforge-26.1"/>
++            </list>
++        </option>
++        <option name="vmOptions"/>
++    </ExternalSystemSettings>
++    <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
++    <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
++    <DebugAllEnabled>false</DebugAllEnabled>
++    <RunAsTest>false</RunAsTest>
++    <method v="2"/>
++</configuration>
+\ No newline at end of file
+Index: .idea/runConfigurations/Stonecutter_switchToneoforge-1.20.1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/runConfigurations/Stonecutter_switchToneoforge-1.20.1.xml b/.idea/runConfigurations/Stonecutter_switchToneoforge-1.20.1.xml
+new file mode 100644
+--- /dev/null	(date 1775104352670)
++++ b/.idea/runConfigurations/Stonecutter_switchToneoforge-1.20.1.xml	(date 1775104352670)
+@@ -0,0 +1,22 @@
++<configuration name="Switch to neoforge-1.20.1" type="GradleRunConfiguration" factoryName="Gradle" folderName="Stonecutter">
++    <ExternalSystemSettings>
++        <option name="executionName"/>
++        <option name="externalProjectPath" value="$PROJECT_DIR$"/>
++        <option name="externalSystemIdString" value="GRADLE"/>
++        <option name="scriptParameters"/>
++        <option name="taskDescriptions">
++            <list/>
++        </option>
++        <option name="taskNames">
++            <list>
++                <option value=":stonecutterSwitchToneoforge-1.20.1"/>
++            </list>
++        </option>
++        <option name="vmOptions"/>
++    </ExternalSystemSettings>
++    <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
++    <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
++    <DebugAllEnabled>false</DebugAllEnabled>
++    <RunAsTest>false</RunAsTest>
++    <method v="2"/>
++</configuration>
+\ No newline at end of file
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+new file mode 100644
+--- /dev/null	(date 1775104352648)
++++ b/.idea/gradle.xml	(date 1775104352648)
+@@ -0,0 +1,23 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="GradleMigrationSettings" migrationVersion="1" />
++  <component name="GradleSettings">
++    <option name="linkedExternalProjectsSettings">
++      <GradleProjectSettings>
++        <option name="externalProjectPath" value="$PROJECT_DIR$" />
++        <option name="modules">
++          <set>
++            <option value="$PROJECT_DIR$" />
++            <option value="$PROJECT_DIR$/versions/forge-1.16.5" />
++            <option value="$PROJECT_DIR$/versions/forge-1.18.2" />
++            <option value="$PROJECT_DIR$/versions/forge-1.19.2" />
++            <option value="$PROJECT_DIR$/versions/forge-1.20.1" />
++            <option value="$PROJECT_DIR$/versions/neoforge-1.20.1" />
++            <option value="$PROJECT_DIR$/versions/neoforge-1.21.1" />
++            <option value="$PROJECT_DIR$/versions/neoforge-26.1" />
++          </set>
++        </option>
++      </GradleProjectSettings>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1775104352582)
++++ b/.idea/misc.xml	(date 1775104352582)
+@@ -0,0 +1,5 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="temurin-21" project-jdk-type="JavaSDK" />
++</project>
+\ No newline at end of file

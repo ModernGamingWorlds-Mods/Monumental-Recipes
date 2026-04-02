@@ -1,0 +1,64 @@
+{
+  "values": [
+    {
+      "id": "ars_nouveau:wixie_cauldron",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ars_nouveau"
+        }
+      ]
+    },
+    {
+      "id": "hexerei:mixing_cauldron",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "hexerei"
+        }
+      ]
+    },
+    {
+      "id": "minecraft:cauldron",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "minecraft"
+        }
+      ]
+    },
+    {
+      "id": "mcwholidays:cauldron",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mcwholidays"
+        }
+      ]
+    },
+    {
+      "id": "reliquary:apothecary_cauldron",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "reliquary"
+        }
+      ]
+    },
+    {
+      "id": "securitycraft:reinforced_cauldron",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "securitycraft"
+        }
+      ]
+    }
+  ]
+}

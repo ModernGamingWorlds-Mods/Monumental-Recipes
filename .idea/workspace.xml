@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d65e21f-afcc-4eb4-82c6-44af6d0dda41" name="Changes" comment="Updated gradle to 9.4.0">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Stonecutter_switchToforge-1.18.2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Stonecutter_switchToforge-1.19.2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Stonecutter_switchToforge-1.20.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Stonecutter_switchToneoforge-1.20.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Stonecutter_switchToneoforge-1.21.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Stonecutter_switchToneoforge-26.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/monumental_recipes/recipes/.gitkeep" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Monumental-Recipes" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Monumental-Recipes" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Monumental-Recipes" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ModernGamingWorld&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ModernGamingWorlds-Mods/Monumental-Recipes&quot;,
+    &quot;accountId&quot;: &quot;e180409e-6ecb-4be1-a185-5c447d00cdb5&quot;
+  }
+}</component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="C:\Users\ModernGamingWorld\.gradle\wrapper\dists\gradle-9.0.0-bin\d6wjpkvcgsg3oed0qlfss3wgl\gradle-9.0.0" javaHome="C:\Program Files\Eclipse Adoptium\jdk-21.0.10.7-hotspot" gradleVersion="9.0.0" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3BdlbURLIwt4lslvMic9kl6lz3R" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Gradle.Monumental-Recipes [build].executor": "Run",
+    "Gradle.Upgrade Gradle wrapper.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "external.system.has.shared.sources": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ModernGamingWorld/IdeaProjects/Monumental-Recipes/src/main/resources/data",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ModernGamingWorld\IdeaProjects\Monumental-Recipes\src\main\resources\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Monumental-Recipes [build]">
+    <configuration name="forge-1.18.2 - Client" type="Application" factoryName="Application">
+      <envs>
+        <env name="MOD_CLASSES" value="monumental_recipes%%C:\Users\ModernGamingWorld\IdeaProjects\Monumental-Recipes\versions\forge-1.18.2\build\classes\java\main;monumental_recipes%%C:\Users\ModernGamingWorld\IdeaProjects\Monumental-Recipes\versions\forge-1.18.2\build\resources\main" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="Monumental-Recipes.forge-1.18.2.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.18.2\\build\\moddev\\clientRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.18.2\\build\\moddev\\clientRunVmArgs.txt -Dfml.modFolders=monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.18.2\\build\\classes\\java\\main;monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.18.2\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/versions/forge-1.18.2/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="forge-1.18.2 - Server" type="Application" factoryName="Application">
+      <envs>
+        <env name="MOD_CLASSES" value="monumental_recipes%%C:\Users\ModernGamingWorld\IdeaProjects\Monumental-Recipes\versions\forge-1.18.2\build\classes\java\main;monumental_recipes%%C:\Users\ModernGamingWorld\IdeaProjects\Monumental-Recipes\versions\forge-1.18.2\build\resources\main" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="Monumental-Recipes.forge-1.18.2.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.18.2\\build\\moddev\\serverRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.18.2\\build\\moddev\\serverRunVmArgs.txt -Dfml.modFolders=monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.18.2\\build\\classes\\java\\main;monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.18.2\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/versions/forge-1.18.2/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="forge-1.19.2 - Client" type="Application" factoryName="Application">
+      <envs>
+        <env name="MOD_CLASSES" value="monumental_recipes%%C:\Users\ModernGamingWorld\IdeaProjects\Monumental-Recipes\versions\forge-1.19.2\build\classes\java\main;monumental_recipes%%C:\Users\ModernGamingWorld\IdeaProjects\Monumental-Recipes\versions\forge-1.19.2\build\resources\main" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="Monumental-Recipes.forge-1.19.2.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.19.2\\build\\moddev\\clientRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.19.2\\build\\moddev\\clientRunVmArgs.txt -Dfml.modFolders=monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.19.2\\build\\classes\\java\\main;monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.19.2\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/versions/forge-1.19.2/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="forge-1.19.2 - Server" type="Application" factoryName="Application">
+      <envs>
+        <env name="MOD_CLASSES" value="monumental_recipes%%C:\Users\ModernGamingWorld\IdeaProjects\Monumental-Recipes\versions\forge-1.19.2\build\classes\java\main;monumental_recipes%%C:\Users\ModernGamingWorld\IdeaProjects\Monumental-Recipes\versions\forge-1.19.2\build\resources\main" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="Monumental-Recipes.forge-1.19.2.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.19.2\\build\\moddev\\serverRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.19.2\\build\\moddev\\serverRunVmArgs.txt -Dfml.modFolders=monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.19.2\\build\\classes\\java\\main;monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.19.2\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/versions/forge-1.19.2/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="forge-1.20.1 - Client" type="Application" factoryName="Application">
+      <envs>
+        <env name="MOD_CLASSES" value="monumental_recipes%%C:\Users\ModernGamingWorld\IdeaProjects\Monumental-Recipes\versions\forge-1.20.1\build\classes\java\main;monumental_recipes%%C:\Users\ModernGamingWorld\IdeaProjects\Monumental-Recipes\versions\forge-1.20.1\build\resources\main" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="Monumental-Recipes.forge-1.20.1.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.20.1\\build\\moddev\\clientRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.20.1\\build\\moddev\\clientRunVmArgs.txt -Dfml.modFolders=monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.20.1\\build\\classes\\java\\main;monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.20.1\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/versions/forge-1.20.1/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="forge-1.20.1 - Server" type="Application" factoryName="Application">
+      <envs>
+        <env name="MOD_CLASSES" value="monumental_recipes%%C:\Users\ModernGamingWorld\IdeaProjects\Monumental-Recipes\versions\forge-1.20.1\build\classes\java\main;monumental_recipes%%C:\Users\ModernGamingWorld\IdeaProjects\Monumental-Recipes\versions\forge-1.20.1\build\resources\main" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="Monumental-Recipes.forge-1.20.1.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.20.1\\build\\moddev\\serverRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.20.1\\build\\moddev\\serverRunVmArgs.txt -Dfml.modFolders=monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.20.1\\build\\classes\\java\\main;monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\forge-1.20.1\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/versions/forge-1.20.1/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="neoforge-1.20.1 - Client" type="Application" factoryName="Application">
+      <envs>
+        <env name="MOD_CLASSES" value="monumental_recipes%%C:\Users\ModernGamingWorld\IdeaProjects\Monumental-Recipes\versions\neoforge-1.20.1\build\classes\java\main;monumental_recipes%%C:\Users\ModernGamingWorld\IdeaProjects\Monumental-Recipes\versions\neoforge-1.20.1\build\resources\main" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="Monumental-Recipes.neoforge-1.20.1.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-1.20.1\\build\\moddev\\clientRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-1.20.1\\build\\moddev\\clientRunVmArgs.txt -Dfml.modFolders=monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-1.20.1\\build\\classes\\java\\main;monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-1.20.1\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/versions/neoforge-1.20.1/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="neoforge-1.20.1 - Server" type="Application" factoryName="Application">
+      <envs>
+        <env name="MOD_CLASSES" value="monumental_recipes%%C:\Users\ModernGamingWorld\IdeaProjects\Monumental-Recipes\versions\neoforge-1.20.1\build\classes\java\main;monumental_recipes%%C:\Users\ModernGamingWorld\IdeaProjects\Monumental-Recipes\versions\neoforge-1.20.1\build\resources\main" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="Monumental-Recipes.neoforge-1.20.1.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-1.20.1\\build\\moddev\\serverRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-1.20.1\\build\\moddev\\serverRunVmArgs.txt -Dfml.modFolders=monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-1.20.1\\build\\classes\\java\\main;monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-1.20.1\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/versions/neoforge-1.20.1/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="neoforge-1.21.1 - Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="Monumental-Recipes.neoforge-1.21.1.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-1.21.1\\build\\moddev\\clientRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-1.21.1\\build\\moddev\\clientRunVmArgs.txt -Dfml.modFolders=monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-1.21.1\\build\\classes\\java\\main;monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-1.21.1\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/versions/neoforge-1.21.1/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="neoforge-1.21.1 - Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="Monumental-Recipes.neoforge-1.21.1.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-1.21.1\\build\\moddev\\serverRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-1.21.1\\build\\moddev\\serverRunVmArgs.txt -Dfml.modFolders=monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-1.21.1\\build\\classes\\java\\main;monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-1.21.1\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/versions/neoforge-1.21.1/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="neoforge-26.1 - Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="Monumental-Recipes.neoforge-26.1.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-26.1\\build\\moddev\\clientRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-26.1\\build\\moddev\\clientRunVmArgs.txt -Dfml.modFolders=monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-26.1\\build\\classes\\java\\main;monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-26.1\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/versions/neoforge-26.1/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="neoforge-26.1 - Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="Monumental-Recipes.neoforge-26.1.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-26.1\\build\\moddev\\serverRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-26.1\\build\\moddev\\serverRunVmArgs.txt -Dfml.modFolders=monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-26.1\\build\\classes\\java\\main;monumental_recipes%%C:\\Users\\ModernGamingWorld\\IdeaProjects\\Monumental-Recipes\\versions\\neoforge-26.1\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/versions/neoforge-26.1/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Monumental-Recipes [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Monumental-Recipes [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d65e21f-afcc-4eb4-82c6-44af6d0dda41" name="Changes" comment="" />
+      <created>1774826900001</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774826900001</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added Actually additions custom recipes">
+      <option name="closed" value="true" />
+      <created>1775086464127</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775086464129</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Ad Astra">
+      <option name="closed" value="true" />
+      <created>1775087819808</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1775087819808</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated gradle to 9.4.0">
+      <option name="closed" value="true" />
+      <created>1775088436990</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775088436990</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Actually additions custom recipes" />
+    <MESSAGE value="Added Ad Astra" />
+    <MESSAGE value="Updated gradle to 9.4.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated gradle to 9.4.0" />
+  </component>
+</project>

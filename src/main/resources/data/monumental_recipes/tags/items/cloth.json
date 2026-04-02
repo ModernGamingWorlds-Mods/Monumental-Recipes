@@ -1,0 +1,84 @@
+{
+  "values": [
+    {
+      "id": "eidolon:tattered_cloth",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "eidolon"
+        }
+      ]
+    },
+    {
+      "id": "forbidden_arcanus:cloth",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "forbidden_arcanus"
+        }
+      ]
+    },
+    {
+      "id": "reliquary:cloth",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "reliquary"
+        }
+      ]
+    },
+    {
+      "id": "reliquary:crimson_cloth",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "reliquary"
+        }
+      ]
+    },
+    {
+      "id": "hexerei:cloth",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "hexerei"
+        }
+      ]
+    },
+    {
+      "id": "botania:manaweave_cloth",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "botania"
+        }
+      ]
+    },
+    {
+      "id": "#create:table_cloths",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        }
+      ]
+    },
+    {
+      "id": "tconstruct:silky_cloth",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "tconstruct"
+        }
+      ]
+    }
+  ]
+}

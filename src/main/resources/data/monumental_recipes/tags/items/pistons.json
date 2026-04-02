@@ -1,0 +1,94 @@
+{
+  "values": [
+    {
+      "id": "create:mechanical_piston",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        }
+      ]
+    },
+    {
+      "id": "create:sticky_mechanical_piston",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        }
+      ]
+    },
+    {
+      "id": "minecraft:sticky_piston",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "minecraft"
+        }
+      ]
+    },
+    {
+      "id": "minecraft:piston",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "minecraft"
+        }
+      ]
+    },
+    {
+      "id": "multipiston:multipistonblock",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "multipiston"
+        }
+      ]
+    },
+    {
+      "id": "securitycraft:reinforced_piston",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "securitycraft"
+        }
+      ]
+    },
+    {
+      "id": "securitycraft:reinforced_sticky_piston",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "securitycraft"
+        }
+      ]
+    },
+    {
+      "id": "essentials:multi_piston",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "essentials"
+        }
+      ]
+    },
+    {
+      "id": "essentials:multi_piston_sticky",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "essentials"
+        }
+      ]
+    }
+  ]
+}

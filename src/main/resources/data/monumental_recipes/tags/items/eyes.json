@@ -1,0 +1,204 @@
+{
+  "values": [
+    {
+      "id": "botania:third_eye",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "botania"
+        }
+      ]
+    },
+    {
+      "id": "minecraft:ender_eye",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "minecraft"
+        }
+      ]
+    },
+    {
+      "id": "reliquary:salamander_eye",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "reliquary"
+        }
+      ]
+    },
+    {
+      "id": "cyclic:ender_eye_reuse",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "cyclic"
+        }
+      ]
+    },
+    {
+      "id": "upgrade_aquatic:elder_eye",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "upgrade_aquatic"
+        }
+      ]
+    },
+    {
+      "id": "enigmaticlegacy:extradimensional_eye",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "enigmaticlegacy"
+        }
+      ]
+    },
+    {
+      "id": "endrem:exotic_eye",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "endrem"
+        }
+      ]
+    },
+    {
+      "id": "endrem:guardian_eye",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "endrem"
+        }
+      ]
+    },
+    {
+      "id": "cataclysm:mech_eye",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "cataclysm"
+        }
+      ]
+    },
+    {
+      "id": "cataclysm:flame_eye",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "cataclysm"
+        }
+      ]
+    },
+    {
+      "id": "cataclysm:void_eye",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "cataclysm"
+        }
+      ]
+    },
+    {
+      "id": "cataclysm:monstrous_eye",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "cataclysm"
+        }
+      ]
+    },
+    {
+      "id": "cataclysm:abyss_eye",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "cataclysm"
+        }
+      ]
+    },
+    {
+      "id": "cataclysm:desert_eye",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "cataclysm"
+        }
+      ]
+    },
+    {
+      "id": "cataclysm:cursed_eye",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "cataclysm"
+        }
+      ]
+    },
+    {
+      "id": "cataclysm:storm_eye",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "cataclysm"
+        }
+      ]
+    },
+    {
+      "id": "undead_revamp2:huntereye",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "undead_revamp2"
+        }
+      ]
+    },
+    {
+      "id": "naturesaura:eye",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "naturesaura"
+        }
+      ]
+    },
+    {
+      "id": "alexsmobs:void_worm_eye",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "alexsmobs"
+        }
+      ]
+    },
+    {
+      "id": "alexsmobs:guster_eye",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "alexsmobs"
+        }
+      ]
+    }
+  ]
+}
