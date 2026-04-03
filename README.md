@@ -39,7 +39,6 @@ Each recipe is created to support clear progression, improve consistency, and re
 ## ✅ Supported Versions
 
 ### Forge
-- 1.16.5
 - 1.18.2
 - 1.19.2
 - 1.20.1
