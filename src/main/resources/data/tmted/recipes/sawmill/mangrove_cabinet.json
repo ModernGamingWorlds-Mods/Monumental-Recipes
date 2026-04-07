@@ -1,0 +1,31 @@
+{
+    "type":"immersiveengineering:sawmill",
+    "energy":1600,
+    "input":
+    {
+        "item":"farmersdelight:mangrove_cabinet"
+    },
+    "result":
+    {
+        "count":3,
+        "item":"minecraft:mangrove_slab"
+    },
+    "secondaries":
+    [
+        {
+            "output":
+            {
+                "item":"thermal:sawdust"
+            },
+            "stripping":false
+        },
+        {
+            "output":
+            {
+                "count":1,
+                "item":"minecraft:mangrove_trapdoor"
+            },
+            "stripping":false
+        }
+    ]
+}
