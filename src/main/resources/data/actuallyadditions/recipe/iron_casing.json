@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "Q": {
+      "item": "actuallyadditions:black_quartz"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    },
+    "W": {
+      "tag": "forge:ingots/compressed_iron"
+    }
+  },
+  "pattern": [
+    "WSW",
+    "SQS",
+    "WSW"
+  ],
+  "result": {
+    "item": "actuallyadditions:iron_casing"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "actuallyadditions"
+    }
+  ]
+}

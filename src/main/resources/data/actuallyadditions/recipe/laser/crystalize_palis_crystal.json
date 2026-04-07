@@ -1,0 +1,20 @@
+{
+  "type": "actuallyadditions:laser",
+  "energy": 40,
+  "ingredient": {
+    "item": "compressedcreativity:brass_gilded_lapis_lazuli"
+  },
+  "result": {
+    "item": "actuallyadditions:palis_crystal"
+  },
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "actuallyadditions"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "compressedcreativity"
+    }
+  ]
+}

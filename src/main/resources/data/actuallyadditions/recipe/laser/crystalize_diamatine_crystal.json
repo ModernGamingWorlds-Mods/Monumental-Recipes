@@ -1,0 +1,20 @@
+{
+  "type": "actuallyadditions:laser",
+  "energy": 60,
+  "ingredient": {
+    "item": "create_new_age:overcharged_diamond"
+  },
+  "result": {
+    "item": "actuallyadditions:diamatine_crystal"
+  },
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "actuallyadditions"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create_new_age"
+    }
+  ]
+}
