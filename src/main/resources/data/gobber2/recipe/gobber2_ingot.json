@@ -20,24 +20,6 @@
       "id": "gobber2:gobber2_ingot"
     }
   ],
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "appflux"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "gobber2"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "supplementaries"
-    }
-  ],
   "conditions": [
     {
       "type": "forge:mod_loaded",

@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d65e21f-afcc-4eb4-82c6-44af6d0dda41" name="Changes" comment="Fixed Minecraft custom recipes">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aether/loot_tables/chests/ruined_portal.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aether/loot_tables/chests/ruined_portal.json" afterDir="false" />
+    <list default="true" id="0d65e21f-afcc-4eb4-82c6-44af6d0dda41" name="Changes" comment="Easy Mob Farm iceandfire log spam">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/gobber2/recipe/gobber2_ingot.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/gobber2/recipe/gobber2_ingot.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/gobber2/recipe/gobber2_ingot_nether.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/gobber2/recipe/gobber2_ingot_nether.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -414,7 +416,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775599283727</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added loading conditions to Aether to prevent errors">
+      <option name="closed" value="true" />
+      <created>1775600355545</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1775600355545</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Easy Mob Farm iceandfire log spam">
+      <option name="closed" value="true" />
+      <created>1775600385536</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1775600385536</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,6 +448,8 @@
     <MESSAGE value="Adde Aether recipes from the sky pack" />
     <MESSAGE value="More sky pack recipe additions" />
     <MESSAGE value="Fixed Minecraft custom recipes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Minecraft custom recipes" />
+    <MESSAGE value="Added loading conditions to Aether to prevent errors" />
+    <MESSAGE value="Easy Mob Farm iceandfire log spam" />
+    <option name="LAST_COMMIT_MESSAGE" value="Easy Mob Farm iceandfire log spam" />
   </component>
 </project>
