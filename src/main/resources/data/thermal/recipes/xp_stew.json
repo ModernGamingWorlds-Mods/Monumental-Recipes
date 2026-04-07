@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:crops/barley"
+    },
+    {
+      "tag": "forge:crops/barley"
+    },
+    {
+      "tag": "forge:crops/eggplant"
+    },
+    {
+      "tag": "forge:crops/spinach"
+    },
+    {
+      "tag": "forge:crops/spinach"
+    },
+    {
+      "item": "minecraft:experience_bottle"
+    },
+    {
+      "tag": "forge:bowls"
+    }
+  ],
+  "result": {
+    "item": "thermal:xp_stew"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

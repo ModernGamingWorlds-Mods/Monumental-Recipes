@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "X": {
+      "tag": "forge:rods/aluminum"
+    },
+    "C": {
+      "tag": "minecraft:terracotta"
+    },
+    "W": {
+      "item": "immersiveengineering:wirecoil_steel"
+    }
+  },
+  "pattern": [
+    "  W  ",
+    " CXC ",
+    " CXC ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 2,
+    "item": "immersiveengineering:connector_hv_relay"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

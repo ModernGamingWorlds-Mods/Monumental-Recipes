@@ -1,0 +1,46 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "C": {
+      "item": "thermal:machine_frame"
+    },
+    "I": {
+      "tag": "forge:gears/copper"
+    },
+    "P": {
+      "item": "thermal:rf_coil"
+    },
+    "X": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "Y": {
+      "tag": "chipped:bricks"
+    }
+  },
+  "pattern": [
+    "  X  ",
+    " YCY ",
+    " IPI ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermal:machine_furnace"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

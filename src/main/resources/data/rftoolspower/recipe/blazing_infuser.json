@@ -1,0 +1,46 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "key": {
+    "F": {
+      "item": "rftoolsbase:machine_frame"
+    },
+    "X": {
+      "item": "handcrafted:blaze_trophy"
+    },
+    "s": {
+      "item": "rftoolsbase:dimensionalshard"
+    }
+  },
+  "pattern": [
+    "  X  ",
+    " sFs ",
+    "  X  ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolspower:blazing_infuser"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "handcrafted"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rftoolsbase"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "handcrafted"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsbase"
+    }
+  ]
+}

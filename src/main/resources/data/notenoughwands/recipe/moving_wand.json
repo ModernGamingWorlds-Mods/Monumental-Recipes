@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "tag": "monumental:conveyors"
+  },
+  "addition": {
+    "item": "notenoughwands:wand_core"
+  },
+  "result": {
+    "id": "notenoughwands:moving_wand"
+  },
+  "template": {
+    "item": "apotheosis:sigil_of_withdrawal"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "apotheosis"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "notenoughwands"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "apotheosis"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "notenoughwands"
+    }
+  ]
+}

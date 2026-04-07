@@ -1,0 +1,36 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "G": {
+      "item": "thermal:upgrade_augment_3"
+    },
+    "I": {
+      "item": "immersiveengineering:electron_tube"
+    },
+    "T": {
+      "tag": "forge:plates/copper"
+    }
+  },
+  "pattern": [
+    "  G  ",
+    "  I  ",
+    "  T  ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "immersiveengineering:circuit_board"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

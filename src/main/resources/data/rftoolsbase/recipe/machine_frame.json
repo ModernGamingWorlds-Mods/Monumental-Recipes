@@ -1,0 +1,39 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "key": {
+    "i": {
+      "tag": "c:plates/enderium"
+    },
+    "p": {
+      "tag": "c:gears/lapis"
+    },
+    "q": {
+      "tag": "c:sheetmetals/steel"
+    },
+    "r": {
+      "tag": "c:sheetmetals/electrum"
+    }
+  },
+  "pattern": [
+    " qpq ",
+    " rir ",
+    " qpq ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolsbase:machine_frame"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rftoolsbase"
+    }
+  ]
+}

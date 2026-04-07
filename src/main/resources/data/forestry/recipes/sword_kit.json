@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "tag": "minecraft:swords"
+    },
+    {
+      "item": "forestry:carton"
+    }
+  ],
+  "result": {
+    "item": "forestry:sword_kit"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    }
+  ]
+}

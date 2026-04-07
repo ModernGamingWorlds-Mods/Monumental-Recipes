@@ -1,0 +1,57 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "ICI",
+    "rFr",
+    "jgj"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:sheetmetals/steel"
+    },
+    "C": {
+      "item": "immersiveengineering:coil_mv"
+    },
+    "g": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "r": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "F": {
+      "item": "rftoolsbase:machine_frame"
+    },
+    "j": {
+      "item": "kubejs:compressed_iron_plate"
+    }
+  },
+  "result": {
+    "item": "xnet:controller"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsbase"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "xnet"
+    }
+  ]
+}

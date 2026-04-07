@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    "ESE",
+    " E "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:nether_star"
+    },
+    "E": {
+      "item": "mysticalagriculture:enderman_essence"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:ender_star"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

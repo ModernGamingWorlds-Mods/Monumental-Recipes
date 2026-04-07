@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:bow"
+  },
+  "addition": {
+    "tag": "forge:ingots/gold"
+  },
+  "result": {
+    "item": "ironbows:golden_bow"
+  },
+  "template": {
+    "tag": "forge:plates/diamond"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironbows"
+    }
+  ]
+}

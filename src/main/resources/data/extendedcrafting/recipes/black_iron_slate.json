@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "forge:ingots/black_iron"
+    },
+    "B": {
+      "tag": "monumental_recipes:tools/hammers"
+    }
+  },
+  "pattern": [
+    " A ",
+    " A ",
+    " B "
+  ],
+  "result": {
+    "item": "extendedcrafting:black_iron_slate"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

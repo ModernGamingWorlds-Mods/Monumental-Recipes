@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "tag": "forge:glass"
+    },
+    "M": {
+      "tag": "forge:gems/diamond"
+    },
+    "S": {
+      "item": "ironchest:gold_chest"
+    },
+    "X": {
+      "tag": "forge:gears/diamond"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "MSM",
+    "GXG"
+  ],
+  "result": {
+    "item": "ironchest:diamond_chest"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironchest"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "compressium:obsidian_5"
+    },
+    "A": {
+      "tag": "forge:ingots/netherite"
+    },
+    "B": {
+      "item": "minecraft:book"
+    },
+    "T": {
+      "item": "enchantinginfuser:enchanting_infuser"
+    }
+  },
+  "pattern": [
+    " B ",
+    "A#A",
+    "#T#"
+  ],
+  "result": {
+    "item": "enchantinginfuser:advanced_enchanting_infuser"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enchantinginfuser"
+    }
+  ]
+}

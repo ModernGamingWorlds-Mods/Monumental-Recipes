@@ -1,0 +1,43 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "PSP",
+    "SRS",
+    "PSP"
+  ],
+  "key": {
+    "P": {
+      "item": "refinedstorage:advanced_processor"
+    },
+    "S": {
+      "item": "refinedstorage:1024k_fluid_storage_part"
+    },
+    "R": {
+      "tag": "monumental:tanks"
+    }
+  },
+  "result": {
+    "id": "refinedstorage:4096k_fluid_storage_part",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
+}

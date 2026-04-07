@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecolonies:raw_noodle"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "tag": "forge:bowls"
+    },
+    {
+      "tag": "forge:crops/garlic"
+    }
+  ],
+  "result": {
+    "item": "minecolonies:pasta_tomato"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "minecolonies"
+    }
+  ]
+}

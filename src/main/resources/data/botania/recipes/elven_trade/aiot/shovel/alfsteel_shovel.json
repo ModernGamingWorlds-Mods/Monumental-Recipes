@@ -1,0 +1,22 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "aiotbotania:terra_shovel"
+    },
+    {
+      "tag": "forge:ingots/alfsteel"
+    }
+  ],
+  "output": [
+    {
+      "item": "aiotbotania:alfsteel_shovel"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aiotbotania"
+    }
+  ]
+}

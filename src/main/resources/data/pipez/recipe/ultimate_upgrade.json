@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NRN",
+    "RUR",
+    "NRN"
+  ],
+  "key": {
+    "N": {
+      "item": "mysticalagriculture:netherite_essence"
+    },
+    "R": {
+      "tag": "c:storage_blocks/redstone"
+    },
+    "U": {
+      "item": "pipez:advanced_upgrade"
+    }
+  },
+  "result": {
+    "id": "pipez:ultimate_upgrade",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pipez"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pipez"
+    }
+  ]
+}

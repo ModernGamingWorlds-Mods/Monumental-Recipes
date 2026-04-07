@@ -1,0 +1,42 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "W": {
+      "item": "mekanism:steel_casing"
+    },
+    "A": {
+      "tag": "forge:circuits/basic"
+    },
+    "C": {
+      "item": "mekanism:electrolytic_core"
+    },
+    "X": {
+      "tag": "mekanism:alloys/infused"
+    },
+    "O": {
+      "tag": "forge:plates/osmium"
+    }
+  },
+  "pattern": [
+    " OWO ",
+    " XCX ",
+    " OAO ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanismgenerators:gas_burning_generator"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanismgenerators"
+    }
+  ]
+}

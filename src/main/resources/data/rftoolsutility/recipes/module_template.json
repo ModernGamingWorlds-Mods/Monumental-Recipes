@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "rftoolsbase:infused_diamond"
+    },
+    "i": {
+      "item": "mysticalagriculture:compressed_iron_essence"
+    },
+    "s": {
+      "item": "rftoolsbase:dimensionalshard"
+    }
+  },
+  "pattern": [
+    "sis",
+    "iXi",
+    "sis"
+  ],
+  "result": {
+    "item": "rftoolsutility:module_template"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsbase"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsutility"
+    }
+  ]
+}

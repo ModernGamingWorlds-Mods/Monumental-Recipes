@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "c:plates/bronze"
+    },
+    "B": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "C": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "pattern": [
+    "BAB",
+    "ACA",
+    "BAB"
+  ],
+  "result": {
+    "id": "mekanism:superheating_element"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
+}

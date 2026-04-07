@@ -1,0 +1,24 @@
+{
+  "type": "enderio:tank",
+  "fluid": {
+    "amount": 250,
+    "fluid": "create_enchantment_industry:experience"
+  },
+  "input": {
+    "item": "minecraft:glass_bottle"
+  },
+  "is_emptying": false,
+  "output": {
+    "item": "minecraft:experience_bottle"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create_enchantment_industry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enderio"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "E": {
+      "tag": "botania:elementium_ingots"
+    },
+    "P": {
+      "tag": "botania:petals"
+    },
+    "W": {
+      "tag": "botania:dreamwood_logs"
+    }
+  },
+  "pattern": [
+    " WWW ",
+    " EP  ",
+    " WWW ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "botania:elven_spreader"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

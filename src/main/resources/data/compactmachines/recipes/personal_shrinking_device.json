@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "E": {
+      "tag": "forge:ender_pearls"
+    },
+    "I": {
+      "tag": "forge:ingots/compressed_iron"
+    },
+    "P": {
+      "tag": "forge:glass_panes"
+    }
+  },
+  "pattern": [
+    " P ",
+    "EBE",
+    " I "
+  ],
+  "result": {
+    "item": "compactmachines:personal_shrinking_device"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compactmachines"
+    }
+  ]
+}

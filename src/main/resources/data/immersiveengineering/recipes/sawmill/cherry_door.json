@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 800,
+  "input": {
+    "item": "minecraft:cherry_door"
+  },
+  "result": {
+    "item": "minecraft:cherry_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "item": "thermal:sawdust"
+      },
+      "stripping": false
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " AB",
+    "CDA",
+    "EC "
+  ],
+  "key": {
+    "A": [
+      {
+        "tag": "c:ingots/iron"
+      }
+    ],
+    "B": [
+      {
+        "tag": "c:gears/iron"
+      }
+    ],
+    "C": [
+      {
+        "tag": "c:ingots/copper"
+      }
+    ],
+    "D": [
+      {
+        "item": "create:gearbox"
+      }
+    ],
+    "E": [
+      {
+        "tag": "c:gears/copper"
+      }
+    ]
+  },
+  "result": {
+    "id": "immersive_aircraft:industrial_gears"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

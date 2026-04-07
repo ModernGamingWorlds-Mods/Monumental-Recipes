@@ -1,0 +1,43 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "IXI",
+    "XBX",
+    "IXI"
+  ],
+  "key": {
+    "B": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "X": {
+      "item": "refinedstorage:4k_storage_part"
+    },
+    "I": {
+      "item": "refinedstorage:improved_processor"
+    }
+  },
+  "result": {
+    "id": "refinedstorage:16k_storage_part",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
+}

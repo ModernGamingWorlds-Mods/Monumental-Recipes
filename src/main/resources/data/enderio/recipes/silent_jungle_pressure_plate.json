@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:jungle_pressure_plate"
+    },
+    "B": {
+      "tag": "monumental_recipes:tools/hammers"
+    },
+    "C": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "pattern": [
+    " A ",
+    " C ",
+    " B "
+  ],
+  "result": {
+    "item": "enderio:silent_jungle_pressure_plate"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enderio"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:diamond_boots"
+  },
+  "addition": {
+    "item": "forcecraft:force_stick"
+  },
+  "result": {
+    "item": "forcecraft:force_boots"
+  },
+  "template": {
+    "tag": "forge:plates/diamond"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forcecraft"
+    }
+  ]
+}

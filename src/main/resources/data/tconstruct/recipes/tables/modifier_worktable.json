@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "sss",
+    "r r",
+    "r r"
+  ],
+  "key": {
+    "r": {
+      "tag": "tconstruct:workstation_rock"
+    },
+    "s": {
+      "tag": "tconstruct:seared_blocks"
+    }
+  },
+  "result": {
+    "item": "tconstruct:modifier_worktable"
+  },
+  "acceptMirrored": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "kubejs:compressed_iron_plate"
+    },
+    {
+      "item": "minecraft:smooth_stone"
+    }
+  ],
+  "result": [
+    {
+      "item": "pneumaticcraft:reinforced_stone",
+      "count": 2
+    }
+  ],
+  "energy": 2500,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
+}

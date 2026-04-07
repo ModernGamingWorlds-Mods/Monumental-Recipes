@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "M": {
+      "tag": "c:plates/gold"
+    },
+    "S": {
+      "item": "ironchest:iron_chest"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MSM",
+    "MMM"
+  ],
+  "result": {
+    "id": "ironchest:gold_chest"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ironchest"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironchest"
+    }
+  ]
+}

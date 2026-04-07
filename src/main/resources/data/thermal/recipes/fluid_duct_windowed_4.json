@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "tag": "forge:plates/bronze"
+    },
+    "G": {
+      "tag": "thermal:glass/hardened"
+    },
+    "B": {
+      "item": "pipez:fluid_pipe"
+    }
+  },
+  "pattern": [
+    "CGC",
+    " B "
+  ],
+  "result": {
+    "count": 4,
+    "item": "thermal:fluid_duct_windowed"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pipez"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:cooking_pots"
+    },
+    {
+      "tag": "forge:bowls"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "tag": "forge:pasta"
+    },
+    {
+      "tag": "forge:salad_ingredients"
+    },
+    {
+      "tag": "forge:vegetables"
+    }
+  ],
+  "category": "meals",
+  "result": {
+    "item": "farmersdelight:vegetable_noodles"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ]
+}

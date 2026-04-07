@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "tag": "c:ingots/gold"
+    },
+    {
+      "item": "ironcoals:iron_coal"
+    }
+  ],
+  "results": [
+    {
+      "id": "ironcoals:gold_coal",
+      "count": 2
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ironcoals"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironcoals"
+    }
+  ]
+}

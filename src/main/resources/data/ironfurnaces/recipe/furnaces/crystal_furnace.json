@@ -1,0 +1,46 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "A": {
+      "tag": "c:glass_blocks"
+    },
+    "B": {
+      "item": "ironfurnaces:diamond_furnace"
+    },
+    "C": {
+      "tag": "monumental:eyes"
+    }
+  },
+  "pattern": [
+    " AAA ",
+    " ABA ",
+    " ACA ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ironfurnaces:crystal_furnace"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ironfurnaces"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironfurnaces"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental"
+    }
+  ]
+}

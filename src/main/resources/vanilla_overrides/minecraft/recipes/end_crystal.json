@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": {
+      "tag": "monumental_recipes:eyes"
+    },
+    "G": {
+      "item": "thermal:enderium_glass"
+    },
+    "T": {
+      "item": "minecraft:ghast_tear"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GEG",
+    "GTG"
+  ],
+  "result": {
+    "item": "minecraft:end_crystal"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

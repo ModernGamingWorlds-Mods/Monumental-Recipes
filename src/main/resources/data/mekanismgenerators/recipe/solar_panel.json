@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "item": "ae2:quartz_glass"
+    },
+    "O": {
+      "tag": "c:plates/osmium"
+    },
+    "R": {
+      "item": "extendedcrafting:redstone_ingot"
+    },
+    "A": {
+      "tag": "mekanism:alloys/infused"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "RAR",
+    "OOO"
+  ],
+  "result": {
+    "id": "mekanismgenerators:solar_panel"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
+}

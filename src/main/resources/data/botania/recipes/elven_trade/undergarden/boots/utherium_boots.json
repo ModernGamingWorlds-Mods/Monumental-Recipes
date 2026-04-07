@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_boots"
+    },
+    {
+      "tag": "forge:ingots/utherium"
+    }
+  ],
+  "output": [
+    {
+      "item": "undergarden:utherium_boots"
+    }
+  ]
+}

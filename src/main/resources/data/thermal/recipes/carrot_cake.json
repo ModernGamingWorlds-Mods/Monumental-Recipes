@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:milk_bucket"
+    },
+    "B": {
+      "item": "minecraft:sugar"
+    },
+    "C": {
+      "tag": "forge:crops/wheat"
+    },
+    "D": {
+      "tag": "forge:crops/carrot"
+    },
+    "E": {
+      "tag": "forge:eggs"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "BEB",
+    "CDC"
+  ],
+  "result": {
+    "item": "thermal:carrot_cake"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

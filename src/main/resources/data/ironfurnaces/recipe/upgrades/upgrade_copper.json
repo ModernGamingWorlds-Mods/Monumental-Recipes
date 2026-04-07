@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "c:ingots/copper"
+    },
+    "X": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "id": "ironfurnaces:upgrade_copper"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ironfurnaces"
+    }
+  ]
+}

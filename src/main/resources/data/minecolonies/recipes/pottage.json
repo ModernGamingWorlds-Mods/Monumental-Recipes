@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecolonies:durum"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "tag": "forge:crops/garlic"
+    },
+    {
+      "tag": "forge:bowls"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:carrot"
+    }
+  ],
+  "result": {
+    "item": "minecolonies:pottage"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "minecolonies"
+    }
+  ]
+}

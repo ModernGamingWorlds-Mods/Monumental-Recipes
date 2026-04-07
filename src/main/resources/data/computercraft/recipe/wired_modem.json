@@ -1,0 +1,31 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "pneumaticcraft:reinforced_stone"
+    },
+    "B": {
+      "tag": "c:ender_pearls"
+    }
+  },
+  "result": {
+    "id": "computercraft:wired_modem"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
+}

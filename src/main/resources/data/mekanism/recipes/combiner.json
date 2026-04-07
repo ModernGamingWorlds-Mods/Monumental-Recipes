@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "pneumaticcraft:reinforced_stone"
+    },
+    "B": {
+      "tag": "forge:circuits/elite"
+    },
+    "C": {
+      "tag": "mekanism:alloys/reinforced"
+    },
+    "D": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "pattern": [
+    "CBC",
+    "ADA",
+    "CBC"
+  ],
+  "result": {
+    "item": "mekanism:combiner"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
+}

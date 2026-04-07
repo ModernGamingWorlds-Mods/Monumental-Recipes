@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "w": {
+      "tag": "c:wires/aluminum"
+    },
+    "a": {
+      "tag": "c:wires/steel"
+    },
+    "s": {
+      "item": "actuallyadditions:basic_coil"
+    }
+  },
+  "pattern": [
+    " w ",
+    "asa",
+    " w "
+  ],
+  "result": {
+    "id": "immersiveengineering:wirecoil_steel",
+    "count": 2
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "actuallyadditions"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "actuallyadditions"
+    }
+  ]
+}

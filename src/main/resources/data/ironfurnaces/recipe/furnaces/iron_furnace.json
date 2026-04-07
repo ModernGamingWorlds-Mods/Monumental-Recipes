@@ -1,0 +1,36 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "A": {
+      "tag": "c:plates/iron"
+    },
+    "B": {
+      "item": "minecraft:furnace"
+    },
+    "C": {
+      "tag": "c:storage_blocks/iron"
+    }
+  },
+  "pattern": [
+    " AAA ",
+    " CBC ",
+    " AAA ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ironfurnaces:iron_furnace"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ironfurnaces"
+    }
+  ]
+}

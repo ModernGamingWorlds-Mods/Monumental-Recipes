@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "B": {
+      "tag": "c:gears/electrum"
+    },
+    "C": {
+      "tag": "mekanism:alloys/infused"
+    },
+    "D": {
+      "item": "actuallyadditions:advanced_coil"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "result": {
+    "id": "mekanism:energy_tablet"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "actuallyadditions"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "actuallyadditions"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:treated_wood"
+    },
+    "B": {
+      "item": "kubejs:compressed_iron_plate"
+    },
+    "C": {
+      "item": "thermal:redstone_servo"
+    }
+  },
+  "pattern": [
+    " ABA ",
+    " BCB ",
+    " ABA ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:machine_frame_pity"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "industrialforegoing"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

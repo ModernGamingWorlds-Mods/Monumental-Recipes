@@ -1,0 +1,22 @@
+{
+  "type": "mekanism:sawing",
+  "input": {
+    "ingredient": {
+      "item": "minecraft:spruce_pressure_plate"
+    }
+  },
+  "mainOutput": {
+    "item": "minecraft:spruce_planks"
+  },
+  "secondaryChance": 0.25,
+  "secondaryOutput": {
+    "count": 2,
+    "item": "thermal:sawdust"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

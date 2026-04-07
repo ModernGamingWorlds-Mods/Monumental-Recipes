@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "Z": {
+      "tag": "c:dyes/black"
+    },
+    "i": {
+      "item": "doggytalents:energizer_stick"
+    },
+    "r": {
+      "item": "extendedcrafting:redstone_component"
+    }
+  },
+  "pattern": [
+    " r ",
+    "rir",
+    " Z "
+  ],
+  "result": {
+    "id": "rftoolsutility:energy_module"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "doggytalents"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "doggytalents"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

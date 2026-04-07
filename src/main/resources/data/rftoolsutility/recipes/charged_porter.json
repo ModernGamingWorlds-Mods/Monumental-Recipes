@@ -1,0 +1,40 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "O": {
+      "tag": "monumental_recipes:eyes"
+    },
+    "I": {
+      "tag": "forge:plates/steel"
+    },
+    "R": {
+      "item": "extendedcrafting:redstone_catalyst"
+    }
+  },
+  "pattern": [
+    " IOI ",
+    " ORO ",
+    "  O  ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "rftoolsutility:charged_porter"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsutility"
+    }
+  ]
+}

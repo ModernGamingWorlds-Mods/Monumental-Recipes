@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "prefab"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "prefab:item_sickle_diamond"
+    },
+    {
+      "tag": "forge:ingots/netherite"
+    }
+  ],
+  "output": [
+    {
+      "item": "prefab:item_sickle_netherite"
+    }
+  ]
+}

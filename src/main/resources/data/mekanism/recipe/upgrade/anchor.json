@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "ae2:quartz_glass"
+    },
+    "B": {
+      "tag": "c:dusts/diamond"
+    },
+    "C": {
+      "item": "minecraft:respawn_anchor"
+    }
+  },
+  "pattern": [
+    " A ",
+    "CBC",
+    " A "
+  ],
+  "result": {
+    "id": "mekanism:upgrade_anchor",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
+}

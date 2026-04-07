@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "pneumaticcraft:assembly_laser"
+    },
+    "B": {
+      "tag": "forge:ingots/steel"
+    },
+    "C": {
+      "item": "mekanism:basic_energy_cube"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BCA",
+    "BBB"
+  ],
+  "result": {
+    "item": "mekanism:laser_amplifier"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
+}

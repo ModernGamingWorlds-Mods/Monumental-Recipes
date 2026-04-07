@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:flour"
+    },
+    {
+      "item": "croptopia:flour"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "croptopia_additions:frosting"
+    },
+    {
+      "item": "croptopia_additions:frosting"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "croptopia_additions:cupcake",
+    "count": 7
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia_additions"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "sophisticatedbackpacks:tool_swapper_upgrade"
+  },
+  "addition": {
+    "item": "notenoughwands:wand_core"
+  },
+  "result": {
+    "item": "notenoughwands:swapping_wand"
+  },
+  "template": {
+    "tag": "monumental_recipes:tools/hammers"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "notenoughwands"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sophisticatedbackpacks"
+    }
+  ]
+}

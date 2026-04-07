@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A  ",
+    " B ",
+    "  B"
+  ],
+  "key": {
+    "A": {
+      "tag": "minecraft:stone_crafting_materials"
+    },
+    "B": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "structurize:sceptergold"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "structurize"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "structurize"
+    }
+  ]
+}

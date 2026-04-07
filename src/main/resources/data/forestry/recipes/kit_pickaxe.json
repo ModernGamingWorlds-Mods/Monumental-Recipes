@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "tag": "minecraft:pickaxes"
+    },
+    {
+      "item": "forestry:carton"
+    }
+  ],
+  "result": {
+    "item": "forestry:kit_pickaxe"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    }
+  ]
+}

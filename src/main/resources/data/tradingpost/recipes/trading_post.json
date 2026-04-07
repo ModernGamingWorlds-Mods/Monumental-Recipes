@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "item": "mysticalagriculture:emerald_essence"
+    },
+    "E": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    " G ",
+    "EEE",
+    "S S"
+  ],
+  "result": {
+    "item": "tradingpost:trading_post"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tradingpost"
+    }
+  ]
+}

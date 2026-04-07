@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "minecraft:glass_bottle"
+    },
+    "A": {
+      "item": "mysticalagriculture:air_essence"
+    },
+    "D": {
+      "item": "mysticalagriculture:dragon_egg_essence"
+    }
+  },
+  "pattern": [
+    " D ",
+    "ABA",
+    " D "
+  ],
+  "result": {
+    "item": "minecraft:dragon_breath"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

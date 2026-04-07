@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "mekanism:electric_pump"
+    },
+    "B": {
+      "tag": "c:circuits/basic"
+    },
+    "C": {
+      "tag": "c:plates/bronze"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "BAB",
+    "CCC"
+  ],
+  "result": {
+    "id": "mekanism:fluidic_plenisher"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
+}

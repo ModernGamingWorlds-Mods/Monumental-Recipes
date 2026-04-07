@@ -1,0 +1,49 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "tag": "chipped:soul_sand"
+    },
+    {
+      "tag": "chipped:soul_sand"
+    },
+    {
+      "tag": "chipped:soul_sand"
+    },
+    {
+      "tag": "chipped:soul_sand"
+    },
+    {
+      "tag": "forge:gravel"
+    },
+    {
+      "tag": "forge:gravel"
+    },
+    {
+      "tag": "forge:gravel"
+    },
+    {
+      "tag": "forge:gravel"
+    }
+  ],
+  "results": [
+    {
+      "item": "tconstruct:nether_grout",
+      "count": 8
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ]
+}

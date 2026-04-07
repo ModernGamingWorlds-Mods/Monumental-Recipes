@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:chainmail_helmet"
+  },
+  "addition": {
+    "tag": "forge:storage_blocks/glowstone"
+  },
+  "result": {
+    "item": "cyclic:glowing_helmet"
+  },
+  "template": {
+    "tag": "monumental_recipes:chains"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

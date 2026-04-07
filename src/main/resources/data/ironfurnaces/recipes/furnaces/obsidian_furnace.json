@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:obsidian"
+    },
+    "B": {
+      "item": "ironfurnaces:emerald_furnace"
+    },
+    "C": {
+      "tag": "forge:rods/blaze"
+    }
+  },
+  "pattern": [
+    " ACA ",
+    " CBC ",
+    " ACA ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "ironfurnaces:obsidian_furnace"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironfurnaces"
+    }
+  ]
+}

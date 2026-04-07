@@ -62,10 +62,6 @@ if (isModern) {
 
 sourceSets {
     main {
-        java.setSrcDirs(listOf(
-            if (isModern) rootProject.projectDir.resolve("src/neoforge/java")
-            else rootProject.projectDir.resolve("src/forge/java")
-        ))
         resources.setSrcDirs(listOf(
             rootProject.projectDir.resolve("src/main/resources"),
             project.file("src/main/resources")

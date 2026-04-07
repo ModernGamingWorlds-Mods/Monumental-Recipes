@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "immersiveengineering:treated_wood_slab"
+    },
+    "B": {
+      "tag": "c:rods/iron"
+    }
+  },
+  "pattern": [
+    " A ",
+    " B ",
+    " A "
+  ],
+  "result": {
+    "id": "createaddition:spool",
+    "count": 4
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

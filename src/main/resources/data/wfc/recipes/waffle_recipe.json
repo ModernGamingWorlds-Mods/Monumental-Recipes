@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:butters"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "croptopia:flour"
+    },
+    {
+      "item": "wfc:waffle_iron"
+    },
+    {
+      "item": "croptopia:flour"
+    }
+  ],
+  "result": {
+    "item": "wfc:waffle",
+    "count": 4
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "wfc"
+    }
+  ]
+}

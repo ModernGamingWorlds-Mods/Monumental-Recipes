@@ -1,0 +1,23 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "chipped:mangrove_planks"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:plate_wood_mangrove"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    }
+  ]
+}

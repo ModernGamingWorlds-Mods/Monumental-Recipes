@@ -1,0 +1,23 @@
+{
+  "type": "bloodmagic:altar",
+  "altarSyphon": 500,
+  "consumptionRate": 5,
+  "drainRate": 1,
+  "input": {
+    "item": "bloodmagic:soulsnare"
+  },
+  "output": {
+    "item": "botania:mana_string"
+  },
+  "upgradeLevel": 0,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodmagic"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

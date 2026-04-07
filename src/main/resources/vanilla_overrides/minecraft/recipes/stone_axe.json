@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:wooden_axe"
+  },
+  "addition": {
+    "tag": "forge:stone"
+  },
+  "result": {
+    "item": "minecraft:stone_axe"
+  },
+  "template": {
+    "tag": "forge:rods/wooden"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

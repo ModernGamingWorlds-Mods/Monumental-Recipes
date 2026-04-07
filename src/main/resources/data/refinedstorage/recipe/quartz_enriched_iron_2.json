@@ -1,0 +1,29 @@
+{
+  "type": "create:compacting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "extendedcrafting:black_iron_ingot"
+    },
+    {
+      "tag": "c:silicon"
+    }
+  ],
+  "results": [
+    {
+      "id": "refinedstorage:quartz_enriched_iron"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

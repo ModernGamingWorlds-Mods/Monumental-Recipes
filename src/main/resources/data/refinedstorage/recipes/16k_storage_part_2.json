@@ -1,0 +1,36 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "B": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "X": {
+      "item": "refinedstorage:4k_storage_part"
+    },
+    "I": {
+      "item": "refinedstorage:improved_processor"
+    }
+  },
+  "pattern": [
+    " IXI ",
+    " XBX ",
+    " IXI ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "refinedstorage:16k_storage_part"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mysticalagradditions:supremium_apple"
+    }
+  ],
+  "results": [
+    {
+      "id": "mysticalagradditions:insanium_apple"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagradditions"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagradditions"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "crabbersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:cooking_pots"
+          },
+          {
+            "item": "farmersdelight:cooked_rice"
+          },
+          {
+            "tag": "forge:onions"
+          },
+          {
+            "tag": "forge:shrimp"
+          },
+          {
+            "item": "minecraft:carrot"
+          },
+          {
+            "tag": "forge:bowls"
+          }
+        ],
+        "result": {
+          "item": "crabbersdelight:shrimp_fried_rice"
+        }
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "crabbersdelight"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ]
+}

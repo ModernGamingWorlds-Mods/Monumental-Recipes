@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "chipped:sand"
+    },
+    {
+      "tag": "chipped:sand"
+    }
+  ],
+  "result": {
+    "item": "snad:snad"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "snad"
+    }
+  ]
+}

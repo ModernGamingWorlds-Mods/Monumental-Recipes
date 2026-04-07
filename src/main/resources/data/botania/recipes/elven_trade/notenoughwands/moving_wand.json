@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "notenoughwands"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "tag": "monumental_recipes:conveyors"
+    },
+    {
+      "item": "notenoughwands:wand_core"
+    }
+  ],
+  "output": [
+    {
+      "item": "notenoughwands:moving_wand"
+    }
+  ]
+}

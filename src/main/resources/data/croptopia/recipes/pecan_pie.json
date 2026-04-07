@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:pecans"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:doughs"
+    },
+    {
+      "item": "croptopia:frying_pan"
+    }
+  ],
+  "result": {
+    "item": "croptopia:pecan_pie"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
+}

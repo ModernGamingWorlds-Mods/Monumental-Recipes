@@ -1,0 +1,60 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "E": {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    "G": {
+      "item": "ae2:cell_component_1k"
+    },
+    "X": {
+      "item": "ae2:quartz_vibrant_glass"
+    },
+    "I": {
+      "tag": "c:silicon"
+    },
+    "B": {
+      "item": "extendedcrafting:redstone_component"
+    }
+  },
+  "pattern": [
+    " IEI ",
+    " XGX ",
+    " IBI ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "refinedstorage:1k_storage_part"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
+}

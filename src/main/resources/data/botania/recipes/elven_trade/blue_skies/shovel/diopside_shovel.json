@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "blue_skies"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_shovel"
+    },
+    {
+      "tag": "blue_skies:gems/diopside"
+    }
+  ],
+  "output": [
+    {
+      "item": "blue_skies:diopside_shovel"
+    }
+  ]
+}

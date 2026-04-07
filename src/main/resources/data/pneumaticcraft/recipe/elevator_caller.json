@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:stone_button"
+    },
+    "P": {
+      "tag": "c:plastic"
+    },
+    "R": {
+      "tag": "c:stone"
+    }
+  },
+  "pattern": [
+    "BPB",
+    "PRP",
+    "BPB"
+  ],
+  "result": {
+    "item": "pneumaticcraft:elevator_caller"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
+}

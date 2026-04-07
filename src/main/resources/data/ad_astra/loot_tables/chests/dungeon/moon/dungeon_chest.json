@@ -1,20 +1,8 @@
 {
   "type": "minecraft:chest",
   "pools": [
-
-    // 🔵 Ad Astra Pool
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 2.0,
-        "max": 5.0
-      },
-      "conditions": [
-        {
-          "condition": "forge:mod_loaded",
-          "modid": "ad_astra"
-        }
-      ],
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -23,175 +11,147 @@
         },
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 20.0,
+                "min": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "ad_astra:moon_sand",
-          "weight": 40,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 10.0,
-                "max": 20.0
-              }
-            }
-          ]
+          "weight": 40
         },
         {
           "type": "minecraft:item",
-          "name": "ad_astra:cheese",
-          "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_count",
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              }
+                "max": 10.0,
+                "min": 5.0
+              },
+              "function": "minecraft:set_count"
             }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "ad_astra:raw_desh",
-          "weight": 7,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 6.0
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "ad_astra:ice_shard",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 9.0,
-                "max": 18.0
-              }
-            }
-          ]
-        }
-      ]
-    },
-
-    // 🟢 Mystical Agriculture Pool
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 2.0,
-        "max": 5.0
-      },
-      "conditions": [
-        {
-          "condition": "forge:mod_loaded",
-          "modid": "mysticalagriculture"
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
+          ],
           "name": "mysticalagriculture:ice_essence",
-          "weight": 20,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 5.0,
-                "max": 10.0
-              }
-            }
-          ]
+          "weight": 20
         },
         {
           "type": "minecraft:item",
-          "name": "mysticalagriculture:zombie_essence",
-          "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_count",
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "min": 4.0,
-                "max": 8.0
-              }
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "ad_astra:cheese",
+          "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "mysticalagriculture:skeleton_essence",
-          "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_count",
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 6.0
-              }
+                "max": 6.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "ad_astra:raw_desh",
+          "weight": 7
         },
         {
           "type": "minecraft:item",
-          "name": "mysticalagriculture:emerald_essence",
-          "weight": 30,
           "functions": [
             {
-              "function": "minecraft:set_count",
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 6.0
-              }
+                "max": 12.0,
+                "min": 8.0
+              },
+              "function": "minecraft:set_count"
             }
-          ]
-        }
-      ]
-    },
-
-    // 🟡 Vanilla / Always Safe Pool
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 3.0,
-        "max": 8.0
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
+          ],
           "name": "minecraft:raw_iron",
-          "weight": 10,
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_count",
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "min": 8.0,
-                "max": 12.0
-              }
+                "max": 18.0,
+                "min": 9.0
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "ad_astra:ice_shard",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mysticalagriculture:zombie_essence",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mysticalagriculture:skeleton_essence",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mysticalagriculture:emerald_essence",
+          "weight": 30
         },
         {
           "type": "minecraft:item",
@@ -200,16 +160,26 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:book",
-          "weight": 5,
           "functions": [
             {
               "function": "minecraft:enchant_randomly"
             }
-          ]
+          ],
+          "name": "minecraft:book",
+          "weight": 5
         }
-      ]
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 8.0,
+        "min": 3.0
+      }
     }
-
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    }
   ]
 }

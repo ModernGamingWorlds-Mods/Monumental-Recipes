@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XSX",
+    "SSS",
+    "S S"
+  ],
+  "key": {
+    "X": {
+      "tag": "forge:rods/wooden"
+    },
+    "S": {
+      "tag": "forge:ingots/copper"
+    }
+  },
+  "result": {
+    "item": "minecraft:bell"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

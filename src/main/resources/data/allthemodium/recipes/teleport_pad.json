@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "allthemodium",
+  "key": {
+    "a": {
+      "tag": "forge:ingots/ender_ingot"
+    },
+    "n": {
+      "tag": "forge:nuggets/allthemodium"
+    }
+  },
+  "pattern": [
+    " n ",
+    "nan",
+    " n "
+  ],
+  "result": {
+    "item": "allthemodium:teleport_pad"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ]
+}

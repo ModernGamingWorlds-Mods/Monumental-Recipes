@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "chipped:black_wool"
+    },
+    "L": {
+      "tag": "pneumaticcraft:upgrade_components"
+    },
+    "X": {
+      "tag": "c:plastics"
+    }
+  },
+  "pattern": [
+    "LXL",
+    "XCX",
+    "LXL"
+  ],
+  "result": {
+    "id": "pneumaticcraft:flippers_upgrade"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
+}

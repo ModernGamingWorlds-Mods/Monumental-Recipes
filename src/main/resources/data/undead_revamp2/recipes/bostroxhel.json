@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "addition": {
+    "item": "undead_revamp2:bostroxingot"
+  },
+  "result": {
+    "item": "undead_revamp2:bostroxset_helmet"
+  },
+  "template": {
+    "tag": "forge:plates/netherite"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
+}

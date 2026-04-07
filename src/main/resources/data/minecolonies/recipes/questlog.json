@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "tag": "forge:leather"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "T": {
+      "item": "structurize:sceptergold"
+    },
+    "X": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "XTX",
+    "LPL",
+    "XPX"
+  ],
+  "result": {
+    "item": "minecolonies:questlog"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "minecolonies"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "structurize"
+    }
+  ]
+}

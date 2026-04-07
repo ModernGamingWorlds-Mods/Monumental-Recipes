@@ -6,5 +6,15 @@
   },
   "result": {
     "item": "actuallyadditions:palis_crystal"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "actuallyadditions"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressedcreativity"
+    }
+  ]
 }

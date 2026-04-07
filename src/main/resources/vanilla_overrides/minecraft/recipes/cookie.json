@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:grain"
+    },
+    "X": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+  "pattern": [
+    "#X#"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:cookie"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

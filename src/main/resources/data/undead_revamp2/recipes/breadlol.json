@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cde",
+    "afa"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:crops/wheat"
+    },
+    "b": {
+      "tag": "chipped:brown_mushroom"
+    },
+    "c": {
+      "tag": "forge:crops/carrot"
+    },
+    "d": {
+      "item": "undead_revamp2:ancientbread"
+    },
+    "e": {
+      "item": "mysticalagriculture:chicken_essence"
+    },
+    "f": {
+      "tag": "chipped:red_mushroom"
+    }
+  },
+  "result": {
+    "item": "undead_revamp2:coffinbroad",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
+}

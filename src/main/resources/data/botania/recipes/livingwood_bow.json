@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "botania:mana_string"
+  },
+  "addition": {
+    "item": "botania:livingwood_twig"
+  },
+  "result": {
+    "item": "botania:livingwood_bow"
+  },
+  "template": {
+    "tag": "forge:rods/wooden"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

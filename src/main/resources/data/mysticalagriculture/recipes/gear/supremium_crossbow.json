@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mysticalagriculture:imperium_crossbow"
+  },
+  "addition": {
+    "item": "mysticalagriculture:supremium_block"
+  },
+  "result": {
+    "item": "mysticalagriculture:supremium_crossbow"
+  },
+  "template": {
+    "item": "mysticalagriculture:imperium_essence"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

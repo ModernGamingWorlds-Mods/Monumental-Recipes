@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "d": {
+      "tag": "c:gems/mana_diamond"
+    },
+    "s": {
+      "item": "rftoolsbase:dimensionalshard"
+    }
+  },
+  "pattern": [
+    "sss",
+    "sds",
+    "sss"
+  ],
+  "result": {
+    "id": "rftoolsbase:infused_diamond"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rftoolsbase"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsbase"
+    }
+  ]
+}

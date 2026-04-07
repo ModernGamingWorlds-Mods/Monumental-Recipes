@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:cherries"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:cooking_pots"
+    }
+  ],
+  "result": {
+    "item": "croptopia:cherry_jam"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
+}

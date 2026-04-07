@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bettershears3"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "bettershears3:netherite_shears"
+    },
+    {
+      "item": "bettershears3:warden_heart"
+    }
+  ],
+  "output": [
+    {
+      "item": "bettershears3:warden_shears"
+    }
+  ]
+}

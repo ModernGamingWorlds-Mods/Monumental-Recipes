@@ -1,0 +1,59 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sophisticatedbackpacks"
+    }
+  ],
+  "key": {
+    "E": {
+      "tag": "c:ender_pearls"
+    },
+    "I": {
+      "tag": "c:ingots/compressed_iron"
+    },
+    "L": {
+      "tag": "c:gems/lapis"
+    },
+    "P": {
+      "item": "immersiveengineering:toolupgrade_shield_magnet"
+    },
+    "R": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "K": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    }
+  },
+  "pattern": [
+    "EIE",
+    "IPI",
+    "RKL"
+  ],
+  "result": {
+    "id": "sophisticatedbackpacks:magnet_upgrade"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "sophisticatedbackpacks"
+    }
+  ]
+}

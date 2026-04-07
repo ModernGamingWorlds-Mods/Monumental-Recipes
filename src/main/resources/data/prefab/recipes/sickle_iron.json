@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "prefab:item_sickle_stone"
+  },
+  "addition": {
+    "tag": "forge:ingots/iron"
+  },
+  "result": {
+    "item": "prefab:item_sickle_iron"
+  },
+  "template": {
+    "tag": "forge:rods/iron"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "prefab"
+    }
+  ]
+}

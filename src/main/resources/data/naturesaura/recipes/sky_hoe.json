@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:diamond_hoe"
+  },
+  "addition": {
+    "item": "naturesaura:sky_ingot"
+  },
+  "result": {
+    "item": "naturesaura:sky_hoe"
+  },
+  "template": {
+    "tag": "forge:plates/diamond"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "naturesaura"
+    }
+  ]
+}

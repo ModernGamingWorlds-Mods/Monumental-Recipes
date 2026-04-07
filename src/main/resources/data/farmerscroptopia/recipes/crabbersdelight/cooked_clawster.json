@@ -1,0 +1,36 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "crabbersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:cooking_pots"
+          },
+          {
+            "item": "crabbersdelight:clawster"
+          },
+          {
+            "tag": "forge:bowls"
+          }
+        ],
+        "result": {
+          "item": "crabbersdelight:cooked_clawster"
+        }
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "crabbersdelight"
+    }
+  ]
+}

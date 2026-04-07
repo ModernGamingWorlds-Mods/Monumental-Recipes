@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "createchromaticreturn:glowing_ingot"
+  },
+  "addition": {
+    "item": "notenoughwands:wand_core"
+  },
+  "result": {
+    "item": "notenoughwands:illumination_wand"
+  },
+  "template": {
+    "tag": "forge:storage_blocks/glowstone"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "createchromaticreturn"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "notenoughwands"
+    }
+  ]
+}

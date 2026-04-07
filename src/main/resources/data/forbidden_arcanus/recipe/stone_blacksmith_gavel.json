@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "forbidden_arcanus:wooden_blacksmith_gavel"
+  },
+  "addition": {
+    "tag": "minecraft:stone_tool_materials"
+  },
+  "result": {
+    "id": "forbidden_arcanus:stone_blacksmith_gavel"
+  },
+  "template": {
+    "tag": "minecraft:logs"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
+  ]
+}

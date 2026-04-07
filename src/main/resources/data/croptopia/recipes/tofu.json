@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:cooking_pots"
+    },
+    {
+      "tag": "forge:water_bottles"
+    },
+    {
+      "tag": "forge:soybeans"
+    }
+  ],
+  "result": {
+    "item": "croptopia:tofu",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
+}

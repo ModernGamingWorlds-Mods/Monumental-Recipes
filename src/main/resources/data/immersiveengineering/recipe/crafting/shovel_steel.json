@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_shovel"
+  },
+  "addition": {
+    "tag": "c:ingots/steel"
+  },
+  "result": {
+    "id": "immersiveengineering:shovel_steel"
+  },
+  "template": {
+    "tag": "c:plates/iron"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

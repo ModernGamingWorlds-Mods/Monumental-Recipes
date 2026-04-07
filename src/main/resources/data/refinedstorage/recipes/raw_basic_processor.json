@@ -1,0 +1,33 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "extendedcrafting:black_iron_ingot"
+    },
+    {
+      "tag": "forge:silicon"
+    },
+    {
+      "item": "extendedcrafting:redstone_catalyst"
+    },
+    {
+      "item": "refinedstorage:processor_binding"
+    }
+  ],
+  "results": [
+    {
+      "item": "refinedstorage:raw_basic_processor"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
+}

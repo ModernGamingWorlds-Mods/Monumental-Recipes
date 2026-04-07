@@ -1,0 +1,50 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCBA",
+    "BDDDB",
+    "CDEDC",
+    "BDDDB",
+    "ABCBA"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:silicon"
+    },
+    "B": {
+      "item": "ae2:smooth_sky_stone_block"
+    },
+    "C": {
+      "item": "refinedstorage:advanced_processor"
+    },
+    "D": {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    "E": {
+      "item": "refinedstorage:machine_casing"
+    }
+  },
+  "result": {
+    "id": "refinedstorage:controller"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
+}

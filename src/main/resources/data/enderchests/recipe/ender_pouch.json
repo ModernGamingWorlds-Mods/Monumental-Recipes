@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DFD",
+    "FEF",
+    "DGD"
+  ],
+  "key": {
+    "D": {
+      "tag": "c:dyes"
+    },
+    "E": {
+      "item": "mekanism:teleportation_core"
+    },
+    "F": {
+      "tag": "c:leathers"
+    },
+    "G": {
+      "tag": "c:wools"
+    }
+  },
+  "result": {
+    "id": "enderchests:ender_pouch"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
+}

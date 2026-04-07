@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:stone_pickaxe"
+    },
+    {
+      "tag": "forge:sandstone"
+    }
+  ],
+  "output": [
+    {
+      "item": "cyclic:sandstone_pickaxe"
+    }
+  ]
+}

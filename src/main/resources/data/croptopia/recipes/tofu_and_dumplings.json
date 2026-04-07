@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:doughs"
+    },
+    {
+      "tag": "forge:chile_peppers"
+    },
+    {
+      "tag": "forge:tofu"
+    },
+    {
+      "tag": "forge:cooking_pots"
+    }
+  ],
+  "result": {
+    "item": "croptopia:tofu_and_dumplings",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
+}

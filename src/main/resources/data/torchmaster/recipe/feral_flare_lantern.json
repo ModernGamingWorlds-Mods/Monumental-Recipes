@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "T": {
+      "tag": "c:ingots/deorum"
+    },
+    "G": {
+      "tag": "c:glass_blocks"
+    },
+    "D": {
+      "item": "createchromaticreturn:glowing_ingot"
+    }
+  },
+  "pattern": [
+    " T ",
+    "GDG",
+    " T "
+  ],
+  "result": {
+    "id": "torchmaster:feral_flare_lantern"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createchromaticreturn"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "createchromaticreturn"
+    }
+  ]
+}

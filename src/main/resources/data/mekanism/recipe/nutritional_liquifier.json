@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "tag": "c:circuits/basic"
+    },
+    "X": {
+      "item": "mekanism:steel_casing"
+    },
+    "R": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "D": {
+      "tag": "monumental:bowls"
+    }
+  },
+  "pattern": [
+    "RCR",
+    "DXD",
+    "RCR"
+  ],
+  "result": {
+    "id": "mekanism:nutritional_liquifier"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental"
+    }
+  ]
+}

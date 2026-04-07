@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    "D": {
+      "item": "refinedstorage:destruction_core"
+    },
+    "R": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "M": {
+      "item": "refinedstorage:cable"
+    },
+    "I": {
+      "item": "refinedstorage:improved_processor"
+    }
+  },
+  "pattern": [
+    "EDE",
+    "RMR",
+    "EIE"
+  ],
+  "result": {
+    "id": "refinedstorage:destructor"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
+}

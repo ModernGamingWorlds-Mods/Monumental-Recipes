@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:cooking_pots"
+    },
+    {
+      "item": "croptopia:water_bottle"
+    },
+    {
+      "item": "croptopia_additions:rice_flour"
+    }
+  ],
+  "result": {
+    "item": "croptopia_additions:rice_noodle",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia_additions"
+    }
+  ]
+}

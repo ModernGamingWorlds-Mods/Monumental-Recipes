@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:chainmail_helmet"
+    },
+    {
+      "tag": "forge:storage_blocks/glowstone"
+    }
+  ],
+  "output": [
+    {
+      "item": "cyclic:glowing_helmet"
+    }
+  ]
+}

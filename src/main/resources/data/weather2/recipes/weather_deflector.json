@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "tag": "forge:dusts/redstone"
+    },
+    "I": {
+      "item": "weather2:weather_item"
+    },
+    "X": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "pattern": [
+    "XDX",
+    "DID",
+    "XDX"
+  ],
+  "result": {
+    "item": "weather2:weather_deflector"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "weather2"
+    }
+  ]
+}

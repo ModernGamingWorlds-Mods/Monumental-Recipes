@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ha ",
+    "a  ",
+    "   "
+  ],
+  "key": {
+    "h": {
+      "tag": "monumental_recipes:tools/hammers"
+    },
+    "a": {
+      "tag": "chipped:cherry_planks"
+    }
+  },
+  "result": {
+    "item": "kubejs:plate_wood_cherry"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

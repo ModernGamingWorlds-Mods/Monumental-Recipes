@@ -1,0 +1,46 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "P": {
+      "item": "refinedstorage:improved_processor"
+    },
+    "S": {
+      "item": "refinedstorage:256k_fluid_storage_part"
+    },
+    "R": {
+      "tag": "monumental:tanks"
+    }
+  },
+  "pattern": [
+    " PSP ",
+    " SRS ",
+    " PSP ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "refinedstorage:1024k_fluid_storage_part"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
+}

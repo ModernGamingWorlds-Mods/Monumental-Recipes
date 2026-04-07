@@ -1,0 +1,25 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "monumental:wooden_plates"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:part_plate_small_wood"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental"
+    }
+  ]
+}

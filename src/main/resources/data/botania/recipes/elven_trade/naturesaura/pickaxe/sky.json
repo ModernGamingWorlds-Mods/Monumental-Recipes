@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "naturesaura"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    {
+      "tag": "forge:gems/diamond"
+    }
+  ],
+  "output": [
+    {
+      "item": "naturesaura:sky_pickaxe"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:cooking_pots"
+    },
+    {
+      "tag": "forge:bowls"
+    },
+    {
+      "tag": "forge:bones"
+    },
+    [
+      {
+        "item": "minecraft:glow_berries"
+      },
+      {
+        "tag": "forge:mushrooms"
+      },
+      {
+        "item": "minecraft:hanging_roots"
+      },
+      {
+        "item": "minecraft:glow_lichen"
+      }
+    ]
+  ],
+  "category": "meals",
+  "result": {
+    "item": "farmersdelight:bone_broth"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "#": {
+      "tag": "forge:plates/iron"
+    },
+    "X": {
+      "tag": "minecraft:stone_tool_materials"
+    }
+  },
+  "pattern": [
+    " ### ",
+    " #X# ",
+    " ### ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "item": "ironfurnaces:upgrade_iron"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironfurnaces"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:tools/fishing_rods"
+    },
+    {
+      "item": "minecraft:kelp"
+    }
+  ],
+  "result": {
+    "item": "sushigocrafting:seaweed_on_a_stick"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sushigocrafting"
+    }
+  ]
+}

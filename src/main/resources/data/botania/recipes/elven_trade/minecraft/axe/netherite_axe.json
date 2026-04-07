@@ -1,0 +1,22 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_axe"
+    },
+    {
+      "tag": "forge:ingots/netherite"
+    }
+  ],
+  "output": [
+    {
+      "item": "minecraft:netherite_axe"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

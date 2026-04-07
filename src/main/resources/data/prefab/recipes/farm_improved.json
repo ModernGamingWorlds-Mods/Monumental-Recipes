@@ -1,0 +1,41 @@
+{
+  "type": "prefab:condition_crafting_shaped",
+  "configName": "Moderate Farm",
+  "group": "Moderate Farm",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ebe"
+  ],
+  "key": {
+    "a": {
+      "item": "prefab:item_heap_of_timber"
+    },
+    "b": {
+      "item": "compressium:stone_1"
+    },
+    "c": {
+      "item": "compressium:dirt_2"
+    },
+    "d": {
+      "tag": "forge:buckets/water"
+    },
+    "e": {
+      "item": "prefab:item_pile_of_bricks"
+    }
+  },
+  "result": {
+    "item": "prefab:item_farm_improved",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "prefab"
+    }
+  ]
+}

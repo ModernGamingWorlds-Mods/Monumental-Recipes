@@ -1,0 +1,54 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "minecraft:lava"
+  },
+  "ingredients": [
+    {
+      "tag": "forge:ingots/obsidian"
+    },
+    {
+      "item": "forbidden_arcanus:corrupti_dust"
+    },
+    {
+      "tag": "forge:ingots/obsidian"
+    },
+    {
+      "tag": "botania:livingwood_logs"
+    },
+    {
+      "tag": "botania:livingwood_logs"
+    },
+    {
+      "tag": "botania:livingwood_logs"
+    },
+    {
+      "tag": "forge:ingots/obsidian"
+    },
+    {
+      "item": "forbidden_arcanus:corrupti_dust"
+    }
+  ],
+  "output": {
+    "item": "mysticalagriculture:infusion_altar"
+  },
+  "liquidOutput": {
+    "fluid": "minecraft:lava"
+  },
+  "fluidLevelsConsumed": 1500,
+  "heatRequirement": "heated",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "mekanism:hdpe_pellet"
+    }
+  ],
+  "results": [
+    {
+      "id": "mekanism:hdpe_sheet"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
+}

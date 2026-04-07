@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "C": {
+      "tag": "forge:rods/blaze"
+    },
+    "L": {
+      "item": "minecraft:netherite_sword"
+    },
+    "R": {
+      "item": "cataclysm:ignitium_ingot"
+    }
+  },
+  "pattern": [
+    "  R  ",
+    "  R  ",
+    "  R  ",
+    "CCRCC",
+    "  L  "
+  ],
+  "result": {
+    "count": 1,
+    "item": "cataclysm:the_incinerator"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cataclysm"
+    }
+  ]
+}

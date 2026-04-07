@@ -1,0 +1,41 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "extendedcrafting:basic_catalyst"
+    },
+    {
+      "item": "extendedcrafting:redstone_catalyst"
+    },
+    {
+      "item": "extendedcrafting:ender_catalyst"
+    },
+    {
+      "item": "extendedcrafting:enhanced_ender_catalyst"
+    },
+    {
+      "item": "extendedcrafting:crystaltine_catalyst"
+    },
+    {
+      "item": "extendedcrafting:ultimate_catalyst"
+    }
+  ],
+  "results": [
+    {
+      "id": "extendedcrafting:the_ultimate_catalyst"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

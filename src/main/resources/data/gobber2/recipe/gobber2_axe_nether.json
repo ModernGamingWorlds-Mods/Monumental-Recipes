@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "addition": {
+    "tag": "c:ingots/gobber_nether"
+  },
+  "result": {
+    "id": "gobber2:gobber2_axe_nether"
+  },
+  "template": {
+    "tag": "c:plates/netherite"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "gobber2"
+    }
+  ]
+}

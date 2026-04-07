@@ -1,0 +1,22 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "tag": "forge:rods/wooden"
+    },
+    {
+      "item": "blue_skies:starlit_planks"
+    }
+  ],
+  "output": [
+    {
+      "item": "blue_skies:starlit_spear"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "blue_skies"
+    }
+  ]
+}

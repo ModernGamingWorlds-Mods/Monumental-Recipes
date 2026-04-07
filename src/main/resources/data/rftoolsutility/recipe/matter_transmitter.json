@@ -1,0 +1,68 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "o": {
+      "tag": "monumental:eyes"
+    },
+    "F": {
+      "item": "rftoolsbase:machine_frame"
+    },
+    "r": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "i": {
+      "tag": "c:sheetmetals/steel"
+    },
+    "s": {
+      "item": "cyclic:eye_redstone"
+    }
+  },
+  "pattern": [
+    " oso ",
+    " rFr ",
+    " iii ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolsutility:matter_transmitter"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cyclic"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rftoolsbase"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsbase"
+    }
+  ]
+}

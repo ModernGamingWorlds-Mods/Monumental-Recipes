@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mysticalagriculture:prudentium_shears"
+  },
+  "addition": {
+    "item": "mysticalagriculture:tertium_gemstone"
+  },
+  "result": {
+    "id": "mysticalagriculture:tertium_shears"
+  },
+  "template": {
+    "item": "mysticalagriculture:prudentium_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

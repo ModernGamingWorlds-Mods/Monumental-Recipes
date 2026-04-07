@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "forge:bowls"
+    },
+    "i": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "i",
+    "#"
+  ],
+  "result": {
+    "item": "croptopia:mortar_and_pestle"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
+}

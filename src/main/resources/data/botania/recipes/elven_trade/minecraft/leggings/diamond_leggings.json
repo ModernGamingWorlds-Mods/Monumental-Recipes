@@ -1,0 +1,22 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:golden_leggings"
+    },
+    {
+      "tag": "forge:gems/diamond"
+    }
+  ],
+  "output": [
+    {
+      "item": "minecraft:diamond_leggings"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

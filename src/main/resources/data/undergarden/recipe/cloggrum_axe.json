@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:stone_axe"
+  },
+  "addition": {
+    "tag": "c:ingots/cloggrum"
+  },
+  "result": {
+    "id": "undergarden:cloggrum_axe"
+  },
+  "template": {
+    "tag": "c:stones"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ]
+}

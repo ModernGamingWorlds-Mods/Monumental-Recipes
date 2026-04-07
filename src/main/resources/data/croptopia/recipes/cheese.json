@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:cooking_pots"
+    },
+    {
+      "tag": "forge:milks"
+    },
+    {
+      "tag": "forge:salts"
+    }
+  ],
+  "result": {
+    "item": "croptopia:cheese",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
+}

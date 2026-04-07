@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "monumental_recipes:chunks/coal"
+    },
+    "B": {
+      "tag": "forge:rods/wooden"
+    },
+    "C": {
+      "tag": "minecraft:soul_fire_base_blocks"
+    }
+  },
+  "pattern": [
+    " A ",
+    " B ",
+    " C "
+  ],
+  "result": {
+    "item": "minecraft:soul_torch",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

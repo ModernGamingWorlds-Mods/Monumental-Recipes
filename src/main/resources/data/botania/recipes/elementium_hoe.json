@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_hoe"
+  },
+  "addition": {
+    "tag": "forge:ingots/elementium"
+  },
+  "result": {
+    "item": "botania:elementium_hoe"
+  },
+  "template": {
+    "tag": "forge:nuggets/elementium"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

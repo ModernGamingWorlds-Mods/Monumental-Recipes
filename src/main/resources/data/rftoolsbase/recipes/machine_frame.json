@@ -1,0 +1,39 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "i": {
+      "item": "thermal:enderium_glass"
+    },
+    "p": {
+      "tag": "forge:gears/lapis"
+    },
+    "q": {
+      "tag": "forge:sheetmetals/steel"
+    },
+    "r": {
+      "tag": "forge:sheetmetals/electrum"
+    }
+  },
+  "pattern": [
+    " qpq ",
+    " rir ",
+    " qpq ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "rftoolsbase:machine_frame"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsbase"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

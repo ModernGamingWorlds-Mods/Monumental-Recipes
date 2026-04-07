@@ -1,62 +1,46 @@
 {
   "type": "minecraft:entity",
   "pools": [
-
-    // 🟢 Mystical Agriculture Drop
     {
       "rolls": 1,
-      "conditions": [
-        {
-          "condition": "forge:mod_loaded",
-          "modid": "mysticalagriculture"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mysticalagriculture:zombie_essence",
           "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
+                "max": 3.0,
+                "type": "minecraft:uniform"
               }
             }
-          ]
-        }
-      ]
-    },
-
-    // 🔵 Ad Astra Drop
-    {
-      "rolls": 1,
-      "conditions": [
-        {
-          "condition": "forge:mod_loaded",
-          "modid": "ad_astra"
-        }
-      ],
-      "entries": [
+          ],
+          "name": "mysticalagriculture:zombie_essence"
+        },
         {
           "type": "minecraft:item",
-          "name": "ad_astra:ice_shard",
           "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 2.0
+                "max": 2.0,
+                "type": "minecraft:uniform"
               }
             }
-          ]
+          ],
+          "name": "ad_astra:ice_shard"
         }
       ]
     }
-
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    }
   ]
 }

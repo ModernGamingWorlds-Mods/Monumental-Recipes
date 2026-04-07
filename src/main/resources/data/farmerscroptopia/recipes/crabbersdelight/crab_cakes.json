@@ -1,0 +1,48 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "crabbersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:cooking_pots"
+          },
+          {
+            "tag": "forge:crabs"
+          },
+          {
+            "tag": "forge:dough"
+          },
+          {
+            "tag": "forge:milks"
+          },
+          {
+            "item": "minecraft:egg"
+          },
+          {
+            "tag": "forge:onions"
+          },
+          {
+            "tag": "forge:bowls"
+          }
+        ],
+        "result": {
+          "item": "crabbersdelight:crab_cakes"
+        }
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "crabbersdelight"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "supplementaries:cage"
+  },
+  "addition": {
+    "item": "notenoughwands:advanced_wand_core"
+  },
+  "result": {
+    "item": "notenoughwands:capturing_wand"
+  },
+  "template": {
+    "item": "naturalist:bug_net"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "naturalist"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "notenoughwands"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ]
+}

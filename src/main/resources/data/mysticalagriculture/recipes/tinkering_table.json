@@ -1,0 +1,29 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "GGG",
+    "EGE",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "botania:livingrock"
+    },
+    "E": {
+      "item": "mysticalagriculture:soulium_dust"
+    }
+  },
+  "result": {
+    "item": "mysticalagriculture:tinkering_table"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

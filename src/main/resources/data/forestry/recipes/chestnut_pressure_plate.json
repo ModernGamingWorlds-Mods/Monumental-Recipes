@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "forestry:chestnut_planks"
+    },
+    "B": {
+      "tag": "monumental_recipes:tools/hammers"
+    },
+    "C": {
+      "item": "forestry:chestnut_fireproof_planks"
+    }
+  },
+  "pattern": [
+    " A ",
+    " C ",
+    " B "
+  ],
+  "result": {
+    "item": "forestry:chestnut_pressure_plate"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

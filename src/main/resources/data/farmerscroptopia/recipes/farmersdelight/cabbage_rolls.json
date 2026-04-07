@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:cooking_pots"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "tag": "farmersdelight:cabbage_roll_ingredients"
+    }
+  ],
+  "category": "misc",
+  "result": {
+    "item": "farmersdelight:cabbage_rolls"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:torches"
+    },
+    "A": {
+      "item": "minecraft:seagrass"
+    }
+  },
+  "pattern": [
+    "#",
+    "A"
+  ],
+  "result": {
+    "item": "minecraft:sea_pickle"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

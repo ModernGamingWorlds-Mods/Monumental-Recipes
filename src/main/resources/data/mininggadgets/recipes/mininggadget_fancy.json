@@ -1,0 +1,43 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "S": {
+      "tag": "forge:plates/diamond"
+    },
+    "Q": {
+      "tag": "monumental_recipes:lasers"
+    },
+    "E": {
+      "tag": "forge:plates/steel"
+    },
+    "Z": {
+      "item": "enderio:redstone_alloy_ingot"
+    }
+  },
+  "pattern": [
+    " SEE ",
+    " SQZ ",
+    " SEE ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "mininggadgets:mininggadget_fancy"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enderio"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mininggadgets"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

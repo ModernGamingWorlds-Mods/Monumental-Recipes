@@ -1,11 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "forge:conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ad_astra"
-    }
-  ],
   "key": {
     "#": {
       "item": "kubejs:compressed_iron_plate"
@@ -27,5 +21,23 @@
   ],
   "result": {
     "item": "ad_astra:coal_generator"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "additionallanterns"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
 }

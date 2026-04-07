@@ -1,0 +1,42 @@
+{
+  "type": "forestry:centrifuge",
+  "input": {
+    "item": "mobees:bee_comb_coal"
+  },
+  "products": [
+    {
+      "chance": 0.8,
+      "item": "forestry:beeswax"
+    },
+    {
+      "chance": 0.2,
+      "item": "inventorypets:nugget_coal",
+      "count": 3
+    },
+    {
+      "chance": 0.5,
+      "item": "inventorypets:nugget_coal",
+      "count": 2
+    },
+    {
+      "chance": 1,
+      "item": "inventorypets:nugget_coal",
+      "count": 1
+    }
+  ],
+  "time": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "inventorypets"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
+}

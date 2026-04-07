@@ -1,0 +1,37 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "extendedcrafting:ender_star"
+    },
+    {
+      "tag": "forge:silicon"
+    },
+    {
+      "item": "extendedcrafting:redstone_catalyst"
+    },
+    {
+      "item": "refinedstorage:processor_binding"
+    }
+  ],
+  "results": [
+    {
+      "item": "extradisks:raw_withering_processor"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extradisks"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
+}

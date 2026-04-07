@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_hoe"
+  },
+  "addition": {
+    "item": "naturesaura:infused_iron"
+  },
+  "result": {
+    "id": "naturesaura:infused_iron_hoe"
+  },
+  "template": {
+    "tag": "c:plates/iron"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "naturesaura"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "naturesaura"
+    }
+  ]
+}

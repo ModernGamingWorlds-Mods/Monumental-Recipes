@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "forbidden_arcanus:aurum_planks"
+    },
+    "B": {
+      "tag": "monumental:tools/hammers"
+    }
+  },
+  "pattern": [
+    " A ",
+    " A ",
+    " B "
+  ],
+  "result": {
+    "id": "forbidden_arcanus:aurum_pressure_plate"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental"
+    }
+  ]
+}

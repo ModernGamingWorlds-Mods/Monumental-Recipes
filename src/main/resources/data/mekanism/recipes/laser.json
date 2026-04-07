@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "pneumaticcraft:assembly_program_laser"
+    },
+    "B": {
+      "item": "mekanism:steel_casing"
+    },
+    "C": {
+      "tag": "mekanism:alloys/reinforced"
+    },
+    "D": {
+      "item": "mekanism:energy_tablet"
+    }
+  },
+  "pattern": [
+    "CD ",
+    "CBA",
+    "CD "
+  ],
+  "result": {
+    "item": "mekanism:laser"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
+}

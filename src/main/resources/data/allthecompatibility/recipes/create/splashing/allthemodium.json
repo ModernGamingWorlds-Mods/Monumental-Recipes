@@ -1,0 +1,20 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "allthemodium:allthemodium_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "allthemodium:allthemodium_nugget",
+      "count": 4
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ]
+}

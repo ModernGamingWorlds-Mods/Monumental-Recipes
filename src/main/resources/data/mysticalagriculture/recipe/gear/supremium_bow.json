@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mysticalagriculture:imperium_bow"
+  },
+  "addition": {
+    "item": "mysticalagriculture:supremium_block"
+  },
+  "result": {
+    "id": "mysticalagriculture:supremium_bow"
+  },
+  "template": {
+    "item": "mysticalagriculture:imperium_essence"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

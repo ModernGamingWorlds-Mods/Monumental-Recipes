@@ -1,0 +1,38 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "bottom": {
+      "item": "create:andesite_alloy"
+    },
+    "middle": {
+      "item": "immersiveengineering:mold_rod"
+    },
+    "top": {
+      "tag": "c:ingots/signalum"
+    }
+  },
+  "mode": "press",
+  "result": {
+    "id": "alltheores:signalum_rod"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

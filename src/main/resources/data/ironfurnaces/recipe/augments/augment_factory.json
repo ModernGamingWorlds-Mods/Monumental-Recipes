@@ -1,0 +1,56 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#R#",
+    "PXP",
+    "#S#"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:stones"
+    },
+    "P": {
+      "tag": "c:paper"
+    },
+    "R": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "X": {
+      "tag": "monumental:piston"
+    },
+    "S": {
+      "item": "mekanism:basic_smelting_factory"
+    }
+  },
+  "result": {
+    "id": "ironfurnaces:augment_factory"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental"
+    }
+  ]
+}

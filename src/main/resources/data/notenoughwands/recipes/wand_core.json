@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "forcecraft:force_rod"
+    },
+    "n": {
+      "tag": "forge:plates/gold"
+    }
+  },
+  "pattern": [
+    "Xn ",
+    "nXn",
+    " nX"
+  ],
+  "result": {
+    "item": "notenoughwands:wand_core"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forcecraft"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "notenoughwands"
+    }
+  ]
+}

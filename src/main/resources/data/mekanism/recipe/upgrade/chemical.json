@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "ae2:quartz_glass"
+    },
+    "B": {
+      "tag": "c:dusts/iron"
+    },
+    "C": {
+      "item": "mekanism:restrictive_transporter"
+    }
+  },
+  "pattern": [
+    " A ",
+    "CBC",
+    " A "
+  ],
+  "result": {
+    "id": "mekanism:upgrade_gas",
+    "count": 2
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
+}

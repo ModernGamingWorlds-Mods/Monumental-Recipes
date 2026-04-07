@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "tag": "monumental:eyes"
+    },
+    "I": {
+      "tag": "c:ingots/enhanced_ender_ingot"
+    },
+    "C": {
+      "tag": "c:player_workstations/crafting_tables"
+    }
+  },
+  "pattern": [
+    "EEE",
+    "ICI",
+    "III"
+  ],
+  "result": {
+    "id": "extendedcrafting:ender_crafter"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental"
+    }
+  ]
+}

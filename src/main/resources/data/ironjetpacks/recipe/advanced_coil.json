@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "c:plates/gold"
+    },
+    "B": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "C": {
+      "item": "actuallyadditions:advanced_coil"
+    }
+  },
+  "pattern": [
+    " AB",
+    "ACA",
+    "BA "
+  ],
+  "result": {
+    "id": "ironjetpacks:advanced_coil"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "actuallyadditions"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "actuallyadditions"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

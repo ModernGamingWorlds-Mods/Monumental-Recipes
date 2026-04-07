@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "R": {
+      "item": "minecraft:piston"
+    },
+    "P": {
+      "item": "compressium:stone_1"
+    },
+    "T": {
+      "tag": "minecraft:planks"
+    },
+    "X": {
+      "tag": "forge:slimeballs"
+    }
+  },
+  "pattern": [
+    "TTT",
+    "PXP",
+    "PRP"
+  ],
+  "result": {
+    "item": "minecraft:sticky_piston",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "tag": "c:ingots/steel"
+    }
+  ],
+  "pressure": 4,
+  "results": [
+    {
+      "id": "pneumaticcraft:ingot_iron_compressed",
+      "count": 2
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
+}

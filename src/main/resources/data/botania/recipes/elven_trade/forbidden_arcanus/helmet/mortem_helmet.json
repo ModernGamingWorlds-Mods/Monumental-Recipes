@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:leather_helmet"
+    },
+    {
+      "item": "forbidden_arcanus:cloth"
+    }
+  ],
+  "output": [
+    {
+      "item": "forbidden_arcanus:mortem_helmet"
+    }
+  ]
+}

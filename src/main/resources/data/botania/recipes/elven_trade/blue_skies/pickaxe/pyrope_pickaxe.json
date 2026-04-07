@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "blue_skies"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_pickaxe"
+    },
+    {
+      "tag": "blue_skies:gems/pyrope"
+    }
+  ],
+  "output": [
+    {
+      "item": "blue_skies:pyrope_pickaxe"
+    }
+  ]
+}

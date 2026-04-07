@@ -1,0 +1,57 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "A": {
+      "tag": "c:ingots/netherite"
+    },
+    "B": {
+      "item": "ironfurnaces:obsidian_furnace"
+    },
+    "C": {
+      "tag": "chipped:magma_block"
+    },
+    "D": {
+      "item": "compressedblocks:c1_soul_sand"
+    }
+  },
+  "pattern": [
+    " ACA ",
+    " CBC ",
+    " ADA ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ironfurnaces:netherite_furnace"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "compressedblocks"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ironfurnaces"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressedblocks"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironfurnaces"
+    }
+  ]
+}

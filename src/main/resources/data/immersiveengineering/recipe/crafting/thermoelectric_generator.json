@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "X": {
+      "item": "immersiveengineering:circuit_board"
+    },
+    "C": {
+      "tag": "c:sheetmetals/constantan"
+    },
+    "T": {
+      "item": "immersiveengineering:coil_hv"
+    },
+    "S": {
+      "tag": "c:sheetmetals/steel"
+    }
+  },
+  "pattern": [
+    " SSS ",
+    " CXC ",
+    " CTC ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:thermoelectric_generator"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

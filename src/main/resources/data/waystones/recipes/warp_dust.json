@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/diamond"
+    },
+    {
+      "tag": "forge:ender_pearls"
+    },
+    {
+      "tag": "forge:dyes/purple"
+    }
+  ],
+  "results": [
+    {
+      "item": "waystones:warp_dust",
+      "count": 2
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "waystones"
+    }
+  ]
+}

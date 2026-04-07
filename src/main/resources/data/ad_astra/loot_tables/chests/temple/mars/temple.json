@@ -1,204 +1,216 @@
 {
   "type": "minecraft:chest",
   "pools": [
-
-    // 🔵 Ad Astra Pool
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 2.0,
-        "max": 5.0
-      },
-      "conditions": [
-        {
-          "condition": "forge:mod_loaded",
-          "modid": "ad_astra"
-        }
-      ],
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 14.0,
+                "min": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "ad_astra:mars_sand",
-          "weight": 40,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "add": false,
-              "count": { "type": "minecraft:uniform", "min": 6.0, "max": 14.0 }
-            }
-          ]
+          "weight": 40
         },
         {
           "type": "minecraft:item",
-          "name": "ad_astra:ice_shard",
-          "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_count",
               "add": false,
-              "count": { "type": "minecraft:uniform", "min": 6.0, "max": 12.0 }
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 5.0
+              },
+              "function": "minecraft:set_count"
             }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "ad_astra:raw_ostrum",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "add": false,
-              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
-            }
-          ]
-        }
-      ]
-    },
-
-    // 🟢 Mystical Agriculture Pool
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 2.0,
-        "max": 5.0
-      },
-      "conditions": [
-        {
-          "condition": "forge:mod_loaded",
-          "modid": "mysticalagriculture"
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
+          ],
           "name": "mysticalagriculture:ice_essence",
-          "weight": 40,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "add": false,
-              "count": { "type": "minecraft:uniform", "min": 5.0, "max": 10.0 }
-            }
-          ]
+          "weight": 40
         },
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "ad_astra:ice_shard",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 15.0,
+                "min": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "mysticalagriculture:iron_essence",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "add": false,
-              "count": { "type": "minecraft:uniform", "min": 5.0, "max": 15.0 }
-            }
-          ]
+          "weight": 10
         },
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "ad_astra:raw_ostrum",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 9.0,
+                "min": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "mysticalagriculture:emerald_essence",
-          "weight": 30,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "add": false,
-              "count": { "type": "minecraft:uniform", "min": 6.0, "max": 9.0 }
-            }
-          ]
+          "weight": 30
         },
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "mysticalagriculture:diamond_essence",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "add": false,
-              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 4.0 }
-            }
-          ]
+          "weight": 5
         },
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "mysticalagriculture:redstone_essence",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "add": false,
-              "count": { "type": "minecraft:uniform", "min": 6.0, "max": 12.0 }
-            }
-          ]
+          "weight": 5
         },
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "mysticalagriculture:skeleton_essence",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "add": false,
-              "count": { "type": "minecraft:uniform", "min": 4.0, "max": 8.0 }
-            }
-          ]
+          "weight": 10
         },
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "mysticalagriculture:spider_essence",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "add": false,
-              "count": { "type": "minecraft:uniform", "min": 3.0, "max": 6.0 }
-            }
-          ]
+          "weight": 10
         },
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "mysticalagriculture:zombie_essence",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "add": false,
-              "count": { "type": "minecraft:uniform", "min": 5.0, "max": 10.0 }
-            }
-          ]
-        }
-      ]
-    },
-
-    // 🟡 Vanilla Pool (Always Loads)
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 3.0,
-        "max": 8.0
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:stick",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "add": false,
-              "count": { "type": "minecraft:uniform", "min": 5.0, "max": 10.0 }
-            }
-          ]
+          "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:glow_berries",
-          "weight": 5,
           "functions": [
             {
-              "function": "minecraft:set_count",
               "add": false,
-              "count": { "type": "minecraft:uniform", "min": 4.0, "max": 8.0 }
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 5.0
+              },
+              "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "name": "minecraft:stick",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:glow_berries",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -217,16 +229,26 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:book",
-          "weight": 20,
           "functions": [
             {
               "function": "minecraft:enchant_randomly"
             }
-          ]
+          ],
+          "name": "minecraft:book",
+          "weight": 20
         }
-      ]
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 8.0,
+        "min": 3.0
+      }
     }
-
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    }
   ]
 }

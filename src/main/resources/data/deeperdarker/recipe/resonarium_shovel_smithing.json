@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "deeperdarker:resonarium_plate"
+  },
+  "base": {
+    "item": "minecraft:iron_shovel"
+  },
+  "result": {
+    "id": "deeperdarker:resonarium_shovel"
+  },
+  "template": {
+    "tag": "c:plates/iron"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "deeperdarker"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "deeperdarker"
+    }
+  ]
+}

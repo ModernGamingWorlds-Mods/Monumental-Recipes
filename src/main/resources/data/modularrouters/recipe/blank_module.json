@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "tag": "c:nuggets/gold"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "R": {
+      "item": "extendedcrafting:redstone_component"
+    }
+  },
+  "pattern": [
+    " R ",
+    "PPP",
+    "GGG"
+  ],
+  "result": {
+    "count": 6,
+    "id": "modularrouters:blank_module"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

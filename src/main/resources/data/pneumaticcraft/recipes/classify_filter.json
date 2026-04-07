@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pneumaticcraft:logistics_core"
+    },
+    {
+      "tag": "forge:plastic"
+    }
+  ],
+  "result": {
+    "item": "pneumaticcraft:classify_filter"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
+}

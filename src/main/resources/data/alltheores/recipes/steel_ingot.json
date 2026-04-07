@@ -1,0 +1,18 @@
+{
+  "type": "pneumaticcraft:explosion_crafting",
+  "input": {
+    "tag": "forge:ingots/iron"
+  },
+  "loss_rate": 15,
+  "results": [
+    {
+      "item": "alltheores:steel_ingot"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alltheores"
+    }
+  ]
+}

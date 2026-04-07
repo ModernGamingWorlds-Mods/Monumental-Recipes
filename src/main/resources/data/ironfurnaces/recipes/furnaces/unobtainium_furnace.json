@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "#": {
+      "tag": "forge:ingots/unobtainium"
+    },
+    "X": {
+      "tag": "forge:furnaces/vibranium"
+    },
+    "B": {
+      "tag": "forge:storage_blocks/unobtainium"
+    }
+  },
+  "pattern": [
+    " B#B ",
+    " #X# ",
+    " B#B ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "item": "ironfurnaces:unobtainium_furnace"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironfurnaces"
+    }
+  ]
+}

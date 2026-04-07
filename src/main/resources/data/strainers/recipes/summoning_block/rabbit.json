@@ -1,0 +1,19 @@
+{
+  "type": "strainers:summoning",
+  "blockBelow": "minecraft:dirt",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:nature_essence"
+    },
+    {
+      "item": "minecraft:rabbit_spawn_egg"
+    }
+  ],
+  "summonedMob": "minecraft:rabbit",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

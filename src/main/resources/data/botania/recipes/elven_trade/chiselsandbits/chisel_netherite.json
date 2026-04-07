@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chiselsandbits"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "chiselsandbits:chisel_diamond"
+    },
+    {
+      "tag": "forge:ingots/netherite"
+    }
+  ],
+  "output": [
+    {
+      "item": "chiselsandbits:chisel_netherite"
+    }
+  ]
+}

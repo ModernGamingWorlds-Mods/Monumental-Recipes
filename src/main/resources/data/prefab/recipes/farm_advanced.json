@@ -1,0 +1,44 @@
+{
+  "type": "prefab:condition_crafting_shaped",
+  "configName": "Advanced Farm",
+  "group": "Advanced Farm",
+  "pattern": [
+    "abc",
+    "ddd",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "prefab:item_ton_of_timber"
+    },
+    "b": {
+      "tag": "forge:storage_blocks/compressed_lights"
+    },
+    "c": {
+      "item": "prefab:item_pallet_of_bricks"
+    },
+    "d": {
+      "item": "compressium:dirt_2"
+    },
+    "e": {
+      "item": "compressium:stone_2"
+    },
+    "f": {
+      "item": "prefab:item_compressed_chest"
+    }
+  },
+  "result": {
+    "item": "prefab:item_farm_advanced",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "prefab"
+    }
+  ]
+}

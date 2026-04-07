@@ -1,0 +1,45 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "crabbersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:cooking_pots"
+          },
+          {
+            "tag": "forge:cooked_fishes"
+          },
+          {
+            "item": "minecraft:kelp"
+          },
+          {
+            "item": "minecraft:kelp"
+          },
+          {
+            "item": "minecraft:kelp"
+          },
+          {
+            "item": "minecraft:nautilus_shell"
+          }
+        ],
+        "result": {
+          "item": "crabbersdelight:stuffed_nautilus_shell"
+        }
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "crabbersdelight"
+    }
+  ]
+}

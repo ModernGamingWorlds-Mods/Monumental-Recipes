@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "apotheosis"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "villagersplus"
+    }
+  ],
+  "group": "something",
+  "pattern": [
+    " N ",
+    "GEG",
+    "BBB"
+  ],
+  "key": {
+    "N": {
+      "tag": "forge:ingots/compressed_iron"
+    },
+    "G": {
+      "item": "apotheosis:gem_dust"
+    },
+    "E": {
+      "item": "villagersplus:occultist_table"
+    },
+    "B": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "result": {
+    "item": "apotheosis:simple_reforging_table",
+    "count": 1
+  }
+}

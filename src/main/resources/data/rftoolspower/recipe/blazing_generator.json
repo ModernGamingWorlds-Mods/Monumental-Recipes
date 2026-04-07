@@ -1,0 +1,68 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "key": {
+    "p": {
+      "item": "rftoolsbase:machine_frame"
+    },
+    "q": {
+      "item": "rftoolspower:blazing_rod"
+    },
+    "r": {
+      "item": "extendedcrafting:redstone_catalyst"
+    },
+    "a": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "s": {
+      "item": "rftoolsbase:infused_enderpearl"
+    }
+  },
+  "pattern": [
+    " qsq ",
+    " rpr ",
+    " qaq ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolspower:blazing_generator"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rftoolsbase"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rftoolspower"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsbase"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolspower"
+    }
+  ]
+}

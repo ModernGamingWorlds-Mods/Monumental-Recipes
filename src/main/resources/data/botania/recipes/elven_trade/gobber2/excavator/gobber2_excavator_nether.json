@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gobber2"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_shovel"
+    },
+    {
+      "tag": "forge:rods/gobber_rod_nether"
+    }
+  ],
+  "output": [
+    {
+      "item": "gobber2:gobber2_excavator_nether"
+    }
+  ]
+}

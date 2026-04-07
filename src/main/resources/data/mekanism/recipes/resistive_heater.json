@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "B": {
+      "tag": "forge:ingots/tin"
+    },
+    "C": {
+      "item": "mekanism:energy_tablet"
+    },
+    "D": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "pattern": [
+    "BAB",
+    "ADA",
+    "BCB"
+  ],
+  "result": {
+    "item": "mekanism:resistive_heater"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "minecraft:fire_charge"
+    },
+    "P": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "T": {
+      "item": "minecraft:tnt"
+    },
+    "W": {
+      "tag": "forge:plastic"
+    }
+  },
+  "pattern": [
+    " T ",
+    "WPW",
+    "WFW"
+  ],
+  "result": {
+    "item": "pneumaticcraft:micromissiles"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
+}

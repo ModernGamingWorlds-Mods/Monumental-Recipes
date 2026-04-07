@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:gems/lapis"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "thermal:lapis_dust",
+      "count": 2
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

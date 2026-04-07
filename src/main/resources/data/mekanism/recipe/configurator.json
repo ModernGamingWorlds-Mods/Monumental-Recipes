@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "mekanism:energy_tablet"
+    },
+    "B": {
+      "tag": "mekanism:alloys/infused"
+    },
+    "C": {
+      "item": "mysticalagriculture:lapis_lazuli_essence"
+    },
+    "D": {
+      "tag": "c:rods/steel"
+    }
+  },
+  "pattern": [
+    " BC",
+    " AB",
+    "D  "
+  ],
+  "result": {
+    "id": "mekanism:configurator"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

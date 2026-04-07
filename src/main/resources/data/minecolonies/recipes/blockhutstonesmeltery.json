@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:stone_bricks"
+    },
+    "F": {
+      "tag": "forge:furnaces"
+    },
+    "T": {
+      "item": "structurize:sceptergold"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "XTX",
+    "AFA",
+    "XXX"
+  ],
+  "result": {
+    "item": "minecolonies:blockhutstonesmeltery"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "minecolonies"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "structurize"
+    }
+  ]
+}

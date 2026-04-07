@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "tag": "forge:crops/garlic"
+    },
+    {
+      "tag": "forge:bowls"
+    },
+    {
+      "item": "minecolonies:cooked_rice"
+    }
+  ],
+  "result": {
+    "item": "minecolonies:congee"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "minecolonies"
+    }
+  ]
+}

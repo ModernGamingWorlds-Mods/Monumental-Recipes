@@ -1,0 +1,63 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "P": {
+      "tag": "c:plates/diamond"
+    },
+    "B": {
+      "item": "mininggadgets:mininggadget_fancy"
+    },
+    "Q": {
+      "item": "mininggadgets:upgrade_empty"
+    },
+    "W": {
+      "item": "enderio:basic_capacitor"
+    },
+    "Z": {
+      "item": "create:electron_tube"
+    },
+    "E": {
+      "tag": "c:plates/iron"
+    }
+  },
+  "pattern": [
+    " PWE ",
+    " QBZ ",
+    " PWE ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mininggadgets:mininggadget"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enderio"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mininggadgets"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enderio"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mininggadgets"
+    }
+  ]
+}

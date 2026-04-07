@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "tag": "c:glass_blocks"
+    },
+    "M": {
+      "tag": "c:ingots/compressed_iron"
+    },
+    "S": {
+      "item": "ironchest:copper_chest"
+    }
+  },
+  "pattern": [
+    "MGM",
+    "GSG",
+    "MGM"
+  ],
+  "result": {
+    "id": "ironchest:iron_chest"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ironchest"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironchest"
+    }
+  ]
+}

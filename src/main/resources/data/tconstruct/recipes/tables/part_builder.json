@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "pp",
+    "ww"
+  ],
+  "key": {
+    "p": {
+      "item": "tconstruct:pattern"
+    },
+    "w": {
+      "tag": "tconstruct:planklike"
+    }
+  },
+  "result": {
+    "item": "tconstruct:part_builder"
+  },
+  "acceptMirrored": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ]
+}

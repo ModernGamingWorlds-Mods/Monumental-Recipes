@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "tag": "immersiveengineering:treated_wood"
+    },
+    "S": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "create:cogwheel"
+    },
+    "V": {
+      "tag": "c:plates/iron"
+    }
+  },
+  "pattern": [
+    "VBV",
+    "SCS",
+    "VBV"
+  ],
+  "result": {
+    "id": "create:millstone"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

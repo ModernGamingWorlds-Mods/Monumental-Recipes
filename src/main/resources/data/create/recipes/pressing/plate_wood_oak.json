@@ -1,0 +1,23 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "chipped:oak_planks"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:plate_wood_oak"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    }
+  ]
+}

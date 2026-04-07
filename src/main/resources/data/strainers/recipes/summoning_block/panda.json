@@ -1,0 +1,19 @@
+{
+  "type": "strainers:summoning",
+  "blockBelow": "minecraft:bamboo_block",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:slime_essence"
+    },
+    {
+      "item": "minecraft:panda_spawn_egg"
+    }
+  ],
+  "summonedMob": "minecraft:panda",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

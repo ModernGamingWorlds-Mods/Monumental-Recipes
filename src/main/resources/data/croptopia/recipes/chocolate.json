@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "tag": "forge:butters"
+    },
+    {
+      "tag": "forge:cooking_pots"
+    }
+  ],
+  "result": {
+    "item": "croptopia:chocolate",
+    "count": 4
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
+}

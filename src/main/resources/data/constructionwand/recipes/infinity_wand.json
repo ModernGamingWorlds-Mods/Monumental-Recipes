@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "constructionwand:diamond_wand"
+  },
+  "addition": {
+    "item": "notenoughwands:advanced_wand_core"
+  },
+  "result": {
+    "item": "constructionwand:infinity_wand"
+  },
+  "template": {
+    "tag": "forge:plates/diamond"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "constructionwand"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "notenoughwands"
+    }
+  ]
+}

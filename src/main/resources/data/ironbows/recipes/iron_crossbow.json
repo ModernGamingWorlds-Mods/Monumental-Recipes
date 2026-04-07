@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:crossbow"
+  },
+  "addition": {
+    "tag": "forge:ingots/iron"
+  },
+  "result": {
+    "item": "ironbows:iron_crossbow"
+  },
+  "template": {
+    "tag": "forge:string"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironbows"
+    }
+  ]
+}

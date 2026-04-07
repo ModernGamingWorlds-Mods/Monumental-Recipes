@@ -1,0 +1,38 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "bottom": {
+      "tag": "c:silicon"
+    },
+    "middle": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "top": {
+      "item": "extradisks:raw_withering_processor"
+    }
+  },
+  "mode": "press",
+  "result": {
+    "id": "extradisks:withering_processor"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extradisks"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extradisks"
+    }
+  ]
+}

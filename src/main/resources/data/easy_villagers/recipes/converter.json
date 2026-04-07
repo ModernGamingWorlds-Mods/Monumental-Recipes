@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GFG",
+    "ICI"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass_panes/colorless"
+    },
+    "I": {
+      "tag": "forge:ingots/compressed_iron"
+    },
+    "F": {
+      "item": "mysticalagriculture:zombie_essence"
+    },
+    "C": {
+      "item": "compressium:stone_3"
+    }
+  },
+  "result": {
+    "item": "easy_villagers:converter"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "easy_villagers"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

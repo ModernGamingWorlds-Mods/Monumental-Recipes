@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:diamond_pickaxe"
+  },
+  "addition": {
+    "item": "mysticalagriculture:inferium_gemstone"
+  },
+  "result": {
+    "item": "mysticalagriculture:inferium_pickaxe"
+  },
+  "template": {
+    "item": "kubejs:stone_rod"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

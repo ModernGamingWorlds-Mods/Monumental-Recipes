@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "addition": {
+    "tag": "blue_skies:gems/diopside"
+  },
+  "result": {
+    "item": "blue_skies:diopside_chestplate"
+  },
+  "template": {
+    "tag": "forge:plates/netherite"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "blue_skies"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:diamond_leggings"
+  },
+  "addition": {
+    "tag": "forge:ingots/steeleaf"
+  },
+  "result": {
+    "item": "twilightforest:steeleaf_leggings"
+  },
+  "template": {
+    "tag": "forge:plates/diamond"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
+}

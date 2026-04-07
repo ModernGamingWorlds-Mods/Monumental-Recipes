@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "mysticalagriculture:dirt_essence"
+    },
+    "G": {
+      "item": "minecraft:grass"
+    }
+  },
+  "pattern": [
+    "G",
+    "D"
+  ],
+  "result": {
+    "item": "minecraft:grass_block"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

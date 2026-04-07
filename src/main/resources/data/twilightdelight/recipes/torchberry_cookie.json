@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "twilightforest:torchberries"
+    },
+    "B": {
+      "tag": "forge:crops/wheat"
+    }
+  },
+  "pattern": [
+    "BAB"
+  ],
+  "result": {
+    "count": 8,
+    "item": "twilightdelight:torchberry_cookie"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightdelight"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
+}

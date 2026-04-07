@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C"
+  ],
+  "key": {
+    "C": {
+      "item": "mysticalagriculture:coal_essence"
+    }
+  },
+  "result": {
+    "item": "inventorypets:nugget_coal",
+    "count": 8
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "inventorypets"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

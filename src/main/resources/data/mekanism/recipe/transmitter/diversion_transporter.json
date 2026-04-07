@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "kubejs:compressed_iron_plate"
+    },
+    "B": {
+      "item": "extendedcrafting:redstone_ingot"
+    },
+    "C": {
+      "item": "mekanism:restrictive_transporter"
+    }
+  },
+  "pattern": [
+    " B ",
+    "ACA",
+    " B "
+  ],
+  "result": {
+    "id": "mekanism:diversion_transporter",
+    "count": 2
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
+}

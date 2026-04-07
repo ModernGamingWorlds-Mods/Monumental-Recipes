@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "undergarden:cloggrum_pickaxe"
+    },
+    {
+      "tag": "forge:ingots/forgotten_metal"
+    }
+  ],
+  "output": [
+    {
+      "item": "undergarden:forgotten_pickaxe"
+    }
+  ]
+}

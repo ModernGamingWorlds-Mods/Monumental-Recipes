@@ -1,0 +1,64 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "kubejs:compressed_iron_plate"
+    },
+    "B": {
+      "tag": "c:gears/electrum"
+    },
+    "C": {
+      "tag": "monumental:piston"
+    },
+    "D": {
+      "tag": "industrialforegoing:machine_frame/pity"
+    },
+    "E": {
+      "item": "immersiveengineering:fluid_pump"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:fluid_extractor"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "industrialforegoing"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "industrialforegoing"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental"
+    }
+  ]
+}

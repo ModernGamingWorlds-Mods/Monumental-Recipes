@@ -1,0 +1,46 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "z": {
+      "item": "extendedcrafting:luminessence"
+    },
+    "F": {
+      "item": "rftoolsbase:machine_frame"
+    },
+    "R": {
+      "item": "extendedcrafting:redstone_catalyst"
+    }
+  },
+  "pattern": [
+    " RzR ",
+    " zFz ",
+    " RzR ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolsutility:matter_beamer"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rftoolsbase"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsbase"
+    }
+  ]
+}

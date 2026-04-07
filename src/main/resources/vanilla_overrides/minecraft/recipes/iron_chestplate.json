@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:chainmail_chestplate"
+  },
+  "addition": {
+    "tag": "forge:ingots/iron"
+  },
+  "result": {
+    "item": "minecraft:iron_chestplate"
+  },
+  "template": {
+    "tag": "monumental_recipes:chains"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

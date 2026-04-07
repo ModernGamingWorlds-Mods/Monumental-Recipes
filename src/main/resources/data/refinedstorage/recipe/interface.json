@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "refinedstorage:importer"
+    },
+    "E": {
+      "item": "refinedstorage:exporter"
+    },
+    "M": {
+      "item": "refinedstorage:machine_casing"
+    },
+    "R": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "U": {
+      "item": "refinedstorage:quartz_enriched_iron"
+    }
+  },
+  "pattern": [
+    "UIU",
+    "RMR",
+    "UEU"
+  ],
+  "result": {
+    "id": "refinedstorage:interface"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
+}

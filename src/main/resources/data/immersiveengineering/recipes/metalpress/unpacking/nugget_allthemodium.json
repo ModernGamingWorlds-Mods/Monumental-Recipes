@@ -1,0 +1,18 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "energy": 2400,
+  "input": {
+    "item": "allthemodium:allthemodium_ingot"
+  },
+  "mold": "immersiveengineering:mold_unpacking",
+  "result": {
+    "count": 4,
+    "item": "allthemodium:allthemodium_nugget"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "addition": {
+    "tag": "monumental:dragon_scales"
+  },
+  "result": {
+    "id": "forbidden_arcanus:draco_arcanus_boots"
+  },
+  "template": {
+    "tag": "c:plates/netherite"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental"
+    }
+  ]
+}

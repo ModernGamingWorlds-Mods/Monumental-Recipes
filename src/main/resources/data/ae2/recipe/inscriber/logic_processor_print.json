@@ -1,0 +1,30 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "bottom": {
+      "tag": "c:silicon"
+    },
+    "middle": {
+      "tag": "c:plates/electrum"
+    },
+    "top": {
+      "item": "ae2:logic_processor_press"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "id": "ae2:printed_logic_processor"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
+}

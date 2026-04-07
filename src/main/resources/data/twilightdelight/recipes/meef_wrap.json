@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:bread"
+    },
+    {
+      "tag": "twilightdelight:meef_cooked"
+    },
+    {
+      "tag": "forge:salad_ingredients"
+    },
+    {
+      "tag": "forge:crops/onion"
+    }
+  ],
+  "result": {
+    "item": "twilightdelight:meef_wrap"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightdelight"
+    }
+  ]
+}

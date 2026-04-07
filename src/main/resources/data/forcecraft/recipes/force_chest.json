@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_chestplate"
+  },
+  "addition": {
+    "item": "forcecraft:force_stick"
+  },
+  "result": {
+    "item": "forcecraft:force_chest"
+  },
+  "template": {
+    "tag": "forge:plates/iron"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forcecraft"
+    }
+  ]
+}

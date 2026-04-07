@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:cooking_pots"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "category": "misc",
+  "result": {
+    "item": "farmersdelight:glow_berry_custard"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "undead_revamp2:aciddicsackbowl"
+    }
+  ],
+  "result": {
+    "item": "undead_revamp2:spiiterfriedegg",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
+}

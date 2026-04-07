@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:clay"
+    },
+    {
+      "tag": "forge:gravel"
+    },
+    {
+      "tag": "forge:sand"
+    },
+    {
+      "tag": "forge:sand"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 500
+    }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:concrete",
+      "count": 4
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

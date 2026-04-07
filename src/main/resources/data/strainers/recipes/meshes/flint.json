@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SLS",
+    "LLL",
+    "SXS"
+  ],
+  "key": {
+    "L": {
+      "item": "mysticalagriculture:stone_essence"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    },
+    "X": {
+      "item": "mysticalagriculture:fire_essence"
+    }
+  },
+  "result": {
+    "item": "strainers:flint_mesh"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "strainers"
+    }
+  ]
+}

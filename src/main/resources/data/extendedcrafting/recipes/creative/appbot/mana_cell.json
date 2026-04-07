@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "appbot"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ],
+  "type": "extendedcrafting:compressor",
+  "powerCost": 500000,
+  "inputCount": 10000,
+  "ingredient": {
+    "item": "appbot:mana_storage_cell_256k"
+  },
+  "catalyst": {
+    "item": "extendedcrafting:the_ultimate_catalyst"
+  },
+  "result": {
+    "item": "appbot:creative_mana_cell"
+  }
+}

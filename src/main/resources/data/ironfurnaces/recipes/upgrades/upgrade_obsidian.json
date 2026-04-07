@@ -1,0 +1,34 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "#": {
+      "item": "mysticalagriculture:obsidian_essence"
+    },
+    "X": {
+      "tag": "forge:gems/emerald"
+    },
+    "S": {
+      "tag": "forge:rods/blaze"
+    }
+  },
+  "pattern": [
+    " ### ",
+    " #S# ",
+    " #X# ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "item": "ironfurnaces:upgrade_obsidian"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironfurnaces"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

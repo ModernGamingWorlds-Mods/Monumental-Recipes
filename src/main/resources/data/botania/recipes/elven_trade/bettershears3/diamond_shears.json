@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bettershears3"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "bettershears3:gold_shears"
+    },
+    {
+      "tag": "forge:storage_blocks/diamond"
+    }
+  ],
+  "output": [
+    {
+      "item": "bettershears3:diamond_shears"
+    }
+  ]
+}

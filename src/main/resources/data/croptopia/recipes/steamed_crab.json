@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "1": {
+      "tag": "forge:crabs"
+    },
+    "2": {
+      "tag": "forge:water_bottles"
+    },
+    "3": {
+      "tag": "forge:cooking_pots"
+    }
+  },
+  "pattern": [
+    "1",
+    "2",
+    "3"
+  ],
+  "result": {
+    "item": "croptopia:steamed_crab"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
+}

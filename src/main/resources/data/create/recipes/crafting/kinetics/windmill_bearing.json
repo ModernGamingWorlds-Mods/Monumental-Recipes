@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "C": {
+      "tag": "forge:stone"
+    },
+    "I": {
+      "item": "create:shaft"
+    },
+    "S": {
+      "item": "weather2:wind_turbine"
+    }
+  },
+  "pattern": [
+    " B ",
+    "SCS",
+    " I "
+  ],
+  "result": {
+    "item": "create:windmill_bearing"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "weather2"
+    }
+  ]
+}

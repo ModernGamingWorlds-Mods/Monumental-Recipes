@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "enderio:dark_steel_pressure_plate"
+    },
+    "B": {
+      "tag": "monumental:tools/hammers"
+    },
+    "C": {
+      "tag": "c:wools"
+    }
+  },
+  "pattern": [
+    " A ",
+    " C ",
+    " B "
+  ],
+  "result": {
+    "id": "enderio:silent_dark_steel_pressure_plate"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enderio"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enderio"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental"
+    }
+  ]
+}

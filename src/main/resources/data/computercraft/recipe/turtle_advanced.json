@@ -1,0 +1,34 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:plates/electrum"
+    },
+    "B": {
+      "item": "computercraft:computer_advanced"
+    },
+    "C": {
+      "tag": "c:chests/wooden"
+    }
+  },
+  "result": {
+    "id": "computercraft:turtle_advanced"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "computercraft"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "computercraft"
+    }
+  ]
+}

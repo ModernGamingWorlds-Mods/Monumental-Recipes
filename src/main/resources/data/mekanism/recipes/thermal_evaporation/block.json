@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "extendedcrafting:redstone_ingot_block"
+    },
+    "B": {
+      "tag": "forge:plates/iron"
+    },
+    "C": {
+      "tag": "monumental_recipes:tanks"
+    }
+  },
+  "pattern": [
+    "BAB",
+    "ACA",
+    "BAB"
+  ],
+  "result": {
+    "item": "mekanism:thermal_evaporation_block"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

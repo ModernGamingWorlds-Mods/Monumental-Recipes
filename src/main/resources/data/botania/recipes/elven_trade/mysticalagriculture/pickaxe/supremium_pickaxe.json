@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:imperium_pickaxe"
+    },
+    {
+      "item": "mysticalagriculture:supremium_gemstone"
+    }
+  ],
+  "output": [
+    {
+      "item": "mysticalagriculture:supremium_pickaxe"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "crabbersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:cooking_pots"
+          },
+          [
+            {
+              "tag": "forge:cooked_seafood"
+            },
+            {
+              "tag": "forge:raw_seafood"
+            }
+          ],
+          {
+            "tag": "forge:onions"
+          },
+          {
+            "tag": "forge:rice"
+          },
+          {
+            "item": "minecraft:carrot"
+          },
+          {
+            "tag": "forge:milks"
+          },
+          {
+            "tag": "forge:bowls"
+          }
+        ],
+        "result": {
+          "item": "crabbersdelight:bisque"
+        }
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "crabbersdelight"
+    }
+  ]
+}

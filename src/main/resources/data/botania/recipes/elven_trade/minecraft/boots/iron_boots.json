@@ -1,0 +1,22 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:chainmail_boots"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    }
+  ],
+  "output": [
+    {
+      "item": "minecraft:iron_boots"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

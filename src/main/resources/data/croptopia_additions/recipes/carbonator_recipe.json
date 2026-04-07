@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:ingots/compressed_iron"
+    },
+    "b": {
+      "tag": "monumental_recipes:hoppers"
+    },
+    "c": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "result": {
+    "item": "croptopia_additions:carbonation_machine",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia_additions"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

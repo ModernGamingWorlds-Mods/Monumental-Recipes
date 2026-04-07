@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "forge:crops/wheat"
+    },
+    "B": {
+      "tag": "forge:milk"
+    },
+    "C": {
+      "item": "twilightforest:liveroot"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BCB",
+    "AAA"
+  ],
+  "result": {
+    "count": 12,
+    "item": "twilightforest:maze_wafer"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
+}
