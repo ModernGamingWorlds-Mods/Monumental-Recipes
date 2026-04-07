@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "stevescarts"
+    }
+  ],
+  "pattern": [
+    "#X#",
+    "XGX",
+    "#X#"
+  ],
+  "key": {
+    "X": {
+      "tag": "forge:ingots/compressed_iron"
+    },
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "#": {
+      "item": "botania:redstone_root"
+    }
+  },
+  "result": {
+    "item": "stevescarts:component_simple_pcb"
+  }
+}

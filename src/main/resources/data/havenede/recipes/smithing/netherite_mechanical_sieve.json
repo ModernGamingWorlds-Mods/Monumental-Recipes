@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "havenede"
+    }
+  ],
+  "addition": {
+    "tag": "forge:storage_blocks/netherite"
+  },
+  "base": {
+    "item": "havenede:diamond_mechanical_sieve"
+  },
+  "result": {
+    "item": "havenede:netherite_mechanical_sieve"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

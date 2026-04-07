@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exdeorum"
+    }
+  ],
+  "base": {
+    "item": "exdeorum:stone_watering_can"
+  },
+  "addition": {
+    "tag": "forge:ingots/iron"
+  },
+  "result": {
+    "item": "exdeorum:iron_watering_can"
+  },
+  "template": {
+    "tag": "forge:plates/iron"
+  }
+}
