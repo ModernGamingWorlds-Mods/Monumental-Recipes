@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aether"
+    }
+  ],
+  "base": {
+    "item": "minecraft:wooden_sword"
+  },
+  "addition": {
+    "tag": "aether:skyroot_stick"
+  },
+  "result": {
+    "item": "aether:skyroot_sword"
+  },
+  "template": {
+    "tag": "aether:skyroot_tool_crafting"
+  }
+}
