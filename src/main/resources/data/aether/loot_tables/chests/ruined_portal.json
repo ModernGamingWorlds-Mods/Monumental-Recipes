@@ -259,4 +259,11 @@
     }
   ],
   "random_sequence": "aether:chests/ruined_portal"
+},
+"conditions": [
+{
+"type": "forge:mod_loaded",
+"modid": "ad_astra"
+}
+]
 }

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d65e21f-afcc-4eb4-82c6-44af6d0dda41" name="Changes" comment="More sky pack recipe additions">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0d65e21f-afcc-4eb4-82c6-44af6d0dda41" name="Changes" comment="Fixed Minecraft custom recipes">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aether/loot_tables/chests/ruined_portal.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aether/loot_tables/chests/ruined_portal.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -406,7 +406,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775598205113</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fixed Minecraft custom recipes">
+      <option name="closed" value="true" />
+      <created>1775599283727</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1775599283727</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,6 +429,7 @@
     <MESSAGE value="More ae2 changes" />
     <MESSAGE value="Adde Aether recipes from the sky pack" />
     <MESSAGE value="More sky pack recipe additions" />
-    <option name="LAST_COMMIT_MESSAGE" value="More sky pack recipe additions" />
+    <MESSAGE value="Fixed Minecraft custom recipes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Minecraft custom recipes" />
   </component>
 </project>

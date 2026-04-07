@@ -90,4 +90,11 @@
     }
   ],
   "random_sequence": "aether:chests/dungeon/bronze/bronze_dungeon_trash"
+},
+"conditions": [
+{
+"type": "forge:mod_loaded",
+"modid": "aether"
+}
+]
 }
