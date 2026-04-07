@@ -1,0 +1,23 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental"
+    }
+  ],
+  "energy": 2400,
+  "input": {
+    "tag": "monumental:wooden_plates"
+  },
+  "mold": "immersiveengineering:mold_plate",
+  "result": {
+    "id": "kubejs:part_plate_small_wood"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental"
+    }
+  ]
+}

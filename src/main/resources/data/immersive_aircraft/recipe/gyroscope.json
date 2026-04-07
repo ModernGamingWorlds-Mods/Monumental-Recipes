@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    " D "
+  ],
+  "key": {
+    "A": [
+      {
+        "item": "supplementaries:wind_vane"
+      }
+    ],
+    "B": [
+      {
+        "item": "mekanism:configuration_card"
+      }
+    ],
+    "C": [
+      {
+        "tag": "minecraft:compasses"
+      }
+    ],
+    "D": [
+      {
+        "item": "pneumaticcraft:entity_tracker_upgrade"
+      }
+    ]
+  },
+  "result": {
+    "id": "immersive_aircraft:gyroscope"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ]
+}

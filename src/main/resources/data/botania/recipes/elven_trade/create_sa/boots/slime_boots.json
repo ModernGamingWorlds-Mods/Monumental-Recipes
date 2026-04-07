@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create_sa"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:chainmail_boots"
+    },
+    {
+      "tag": "forge:slimeballs"
+    }
+  ],
+  "output": [
+    {
+      "item": "create_sa:slime_boots"
+    }
+  ]
+}

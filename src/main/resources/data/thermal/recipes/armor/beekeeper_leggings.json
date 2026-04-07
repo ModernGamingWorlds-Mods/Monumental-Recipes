@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:leather_leggings"
+  },
+  "addition": {
+    "item": "thermal:beekeeper_fabric"
+  },
+  "result": {
+    "item": "thermal:beekeeper_leggings"
+  },
+  "template": {
+    "tag": "forge:leather"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

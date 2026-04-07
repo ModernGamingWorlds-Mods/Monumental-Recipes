@@ -1,0 +1,22 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "tag": "forge:string"
+    },
+    {
+      "tag": "forge:rods/wooden"
+    }
+  ],
+  "output": [
+    {
+      "item": "minecraft:bow"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

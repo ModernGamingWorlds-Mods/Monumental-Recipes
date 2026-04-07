@@ -35,7 +35,6 @@ legacyForge {
 
 sourceSets {
     main {
-        java.setSrcDirs(listOf(rootProject.projectDir.resolve("src/forge/java")))
         resources.setSrcDirs(listOf(
             rootProject.projectDir.resolve("src/main/resources"),
             project.file("src/main/resources")

@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FCF",
+    "SAS",
+    "FSF"
+  ],
+  "key": {
+    "F": [
+      {
+        "item": "rebornstorage:multiblock_frame"
+      }
+    ],
+    "C": [
+      {
+        "tag": "forge:chests"
+      }
+    ],
+    "S": [
+      {
+        "item": "refinedstorage:1k_storage_part"
+      }
+    ],
+    "A": [
+      {
+        "item": "refinedstorage:advanced_processor"
+      }
+    ]
+  },
+  "result": {
+    "item": "rebornstorage:multiblock_storage"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rebornstorage"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
+}

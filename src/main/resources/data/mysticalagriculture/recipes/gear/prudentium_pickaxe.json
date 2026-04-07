@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mysticalagriculture:inferium_pickaxe"
+  },
+  "addition": {
+    "item": "mysticalagriculture:prudentium_gemstone"
+  },
+  "result": {
+    "item": "mysticalagriculture:prudentium_pickaxe"
+  },
+  "template": {
+    "item": "mysticalagriculture:inferium_essence"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

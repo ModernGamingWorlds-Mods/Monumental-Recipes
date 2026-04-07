@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:stone_shovel"
+  },
+  "addition": {
+    "item": "blue_skies:lunar_cobblestone"
+  },
+  "result": {
+    "item": "blue_skies:lunar_stone_shovel"
+  },
+  "template": {
+    "tag": "forge:stone"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "blue_skies"
+    }
+  ]
+}

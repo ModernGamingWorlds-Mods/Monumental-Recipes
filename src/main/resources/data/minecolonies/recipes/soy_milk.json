@@ -1,0 +1,20 @@
+{
+  "type": "minecolonies:zero_waste",
+  "ingredients": [
+    {
+      "item": "minecolonies:large_water_bottle"
+    },
+    {
+      "tag": "forge:crops/soybean"
+    }
+  ],
+  "result": {
+    "item": "minecolonies:large_soy_milk_bottle"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "minecolonies"
+    }
+  ]
+}

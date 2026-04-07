@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "extendedcrafting:black_iron_slate"
+    },
+    {
+      "item": "extendedcrafting:luminessence"
+    },
+    {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    {
+      "item": "extendedcrafting:crystaltine_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "extendedcrafting:crystaltine_component"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

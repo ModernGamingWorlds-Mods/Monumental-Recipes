@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "tag": "quark:stone_tool_materials"
+  },
+  "addition": {
+    "item": "notenoughwands:wand_core"
+  },
+  "result": {
+    "item": "constructionwand:stone_wand"
+  },
+  "template": {
+    "tag": "forge:stone"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "constructionwand"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "notenoughwands"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "quark"
+    }
+  ]
+}

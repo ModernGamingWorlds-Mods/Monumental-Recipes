@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "d": {
+      "tag": "forge:dyes/blue"
+    },
+    "k": {
+      "item": "ae2:printed_logic_processor"
+    },
+    "p": {
+      "tag": "forge:paper"
+    }
+  },
+  "pattern": [
+    " k ",
+    "ddd",
+    "ppp"
+  ],
+  "result": {
+    "item": "immersiveengineering:blueprint",
+    "nbt": {
+      "blueprint": "components"
+    }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

@@ -1,11 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "forge:conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ad_astra"
-    }
-  ],
   "category": "misc",
   "key": {
     "#": {
@@ -23,5 +17,11 @@
   "result": {
     "item": "ad_astra:blue_flag"
   },
-  "show_notification": true
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    }
+  ]
 }

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "tag": "forge:cooking_pots"
+    },
+    {
+      "item": "croptopia:nutmeg"
+    },
+    {
+      "item": "croptopia:garlic"
+    },
+    {
+      "item": "croptopia:food_press"
+    }
+  ],
+  "result": {
+    "item": "croptopia_additions:bratwurst",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia_additions"
+    }
+  ]
+}

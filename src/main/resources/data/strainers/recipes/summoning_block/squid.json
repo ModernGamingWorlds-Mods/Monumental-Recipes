@@ -1,0 +1,19 @@
+{
+  "type": "strainers:summoning",
+  "fluidBelow": "minecraft:water",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:squid_essence"
+    },
+    {
+      "item": "minecraft:squid_spawn_egg"
+    }
+  ],
+  "summonedMob": "minecraft:squid",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

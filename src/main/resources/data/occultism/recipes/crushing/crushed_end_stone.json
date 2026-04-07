@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:end_stones"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "occultism:crushed_end_stone",
+      "count": 2
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "occultism"
+    }
+  ]
+}

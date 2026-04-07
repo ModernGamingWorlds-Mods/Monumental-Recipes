@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mythicbotany"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "mythicbotany:muspelheim_rune"
+    },
+    {
+      "tag": "forge:ingots/elementium"
+    }
+  ],
+  "output": [
+    {
+      "item": "mythicbotany:fire_ring"
+    }
+  ]
+}

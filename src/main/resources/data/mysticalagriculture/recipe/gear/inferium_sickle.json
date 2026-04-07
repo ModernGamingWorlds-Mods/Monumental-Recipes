@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "tag": "monumental:wooden_plates"
+  },
+  "addition": {
+    "item": "mysticalagriculture:inferium_gemstone"
+  },
+  "result": {
+    "id": "mysticalagriculture:inferium_sickle"
+  },
+  "template": {
+    "tag": "c:plates/diamond"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

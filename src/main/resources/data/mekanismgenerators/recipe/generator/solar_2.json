@@ -1,0 +1,52 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "A": {
+      "tag": "mekanism:alloys/infused"
+    },
+    "I": {
+      "tag": "c:circuits/basic"
+    },
+    "O": {
+      "item": "mekanism:energy_tablet"
+    },
+    "E": {
+      "tag": "c:plates/osmium"
+    },
+    "Q": {
+      "item": "mekanismgenerators:solar_panel"
+    }
+  },
+  "pattern": [
+    " QQQ ",
+    " AIA ",
+    " OEO ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismgenerators:solar_generator"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanismgenerators"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanismgenerators"
+    }
+  ]
+}

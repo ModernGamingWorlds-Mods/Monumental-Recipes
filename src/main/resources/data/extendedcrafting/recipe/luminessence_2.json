@@ -1,0 +1,42 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "count": 2,
+      "item": "thermal:glowstone_mushroom_spores"
+    },
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "count": 2,
+      "item": "cyclic:spark"
+    }
+  ],
+  "pressure": 5.0,
+  "results": [
+    {
+      "id": "extendedcrafting:luminessence",
+      "count": 2
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cyclic"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

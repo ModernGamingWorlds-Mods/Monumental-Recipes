@@ -2,16 +2,15 @@
 
 ## Project Structure & Module Organization
 
-This is a multi-version Minecraft mod using **Stonecutter 0.9** with **Gradle 9.4.1** for cross-version builds. The key architectural pattern:
+A pure datapack mod providing centralized recipes for the **Monumental Experience** modpack series, built with **Stonecutter 0.9** and **Gradle 9.4.1** for cross-version Minecraft builds.
 
-- `src/forge/java/` — shared Java source for all Forge versions (also used by NeoForge 1.20.1 which shares forge package names)
-- `src/neoforge/java/` — shared Java source for NeoForge 1.21.1+
-- `src/main/resources/` — shared resources (datapack recipes live in `data/monumental_recipes/recipes/`)
-- `versions/<loader>-<mc_version>/` — per-target `gradle.properties` and version-specific resources (e.g., `mods.toml`, `pack.mcmeta`)
+- `src/main/java/com/monumentalrecipes/` — unified Java source using Stonecutter comment directives (`//? if mc:`) for version-conditional code
+- `src/main/resources/data/<mod_name>/` — recipe JSON files organized by target mod (e.g., `ad_astra/`, `mekanism/`, `thermal/`)
+- `versions/<loader>-<mc_version>/` — per-target `gradle.properties` and version-specific resources (`mods.toml`, `pack.mcmeta`)
 
 Two loader-level build scripts at root are selected via Stonecutter `mapBuilds`:
 - `forge.gradle.kts` — uses `net.neoforged.moddev.legacyforge` for all Forge targets
-- `neoforge.gradle.kts` — uses `net.neoforged.moddev` for modern NeoForge, `net.neoforged.moddev.legacyforge` for NeoForge 1.20.1 (via `use_legacy_moddev` property)
+- `neoforge.gradle.kts` — uses `net.neoforged.moddev` for modern NeoForge (>=1.21), `net.neoforged.moddev.legacyforge` for NeoForge 1.20.1 (via `use_legacy_moddev` property)
 
 Plugins are declared in `stonecutter.gradle.kts` with `apply false` and applied conditionally in loader scripts.
 
@@ -28,21 +27,24 @@ Plugins are declared in `stonecutter.gradle.kts` with `apply false` and applied 
 # Run client/server for a specific version
 ./gradlew :neoforge-1.21.1:runClient
 ./gradlew :forge-1.20.1:runServer
+
+# List configured Stonecutter targets
+./gradlew printStonecutterTargets
 ```
 
 ## Supported Targets
 
-| Loader   | Versions              |
-|----------|-----------------------|
+| Loader   | Versions                |
+|----------|-------------------------|
 | Forge    | 1.18.2, 1.19.2, 1.20.1 |
-| NeoForge | 1.20.1, 1.21.1, 26.1 |
+| NeoForge | 1.20.1, 1.21.1, 26.1   |
 
-Each target has its own `gradle.properties` defining `minecraft_version`, `java_version`, `loader`, and the loader-specific version.
+Each target has its own `versions/<target>/gradle.properties` defining `minecraft_version`, `java_version`, `loader`, and loader-specific version properties.
 
 ## Adding Recipes
 
-Recipes go in `src/main/resources/data/monumental_recipes/recipes/`. These are standard Minecraft datapack JSON recipes shared across all versions. Version-specific resources belong in the corresponding `versions/<target>/src/main/resources/` directory.
+Recipe JSONs go in `src/main/resources/data/<mod_name>/recipes/`. These are standard Minecraft datapack recipes shared across all versions. Recipes that override vanilla go in `src/main/resources/vanilla_overrides/`. Version-specific resources belong in `versions/<target>/src/main/resources/`.
 
 ## Commit & Pull Request Guidelines
 
-Commit messages use imperative mood, describing the change directly. Branch names follow the pattern `<author>/<description>`.
+Commit messages use imperative mood, describing the change directly (e.g., "Fix mod version not propagating to subprojects"). AI-assisted PR branches follow the pattern `claude/<description>` or `codex/<description>`.

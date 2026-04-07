@@ -1,0 +1,33 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "tag": "chipped:oak_planks",
+      "count": 4
+    },
+    {
+      "item": "thermal:press_packing_2x2_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "kubejs:plate_wood_oak",
+      "count": 2
+    }
+  ],
+  "energy": 2400,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "value": [
+        {
+          "item": "thermal:glowstone_mushroom_spores"
+        },
+        {
+          "item": "thermal:glowstone_mushroom_spores"
+        }
+      ],
+      "count": 4
+    },
+    {
+      "value": [
+        {
+          "item": "cyclic:spark"
+        },
+        {
+          "item": "cyclic:spark"
+        }
+      ],
+      "count": 4
+    }
+  ],
+  "result": [
+    {
+      "id": "extendedcrafting:luminessence",
+      "count": 2
+    }
+  ],
+  "energy": 12000,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cyclic"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

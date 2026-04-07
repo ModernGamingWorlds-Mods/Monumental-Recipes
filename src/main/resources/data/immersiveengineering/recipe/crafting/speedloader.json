@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": {
+      "item": "immersiveengineering:component_iron"
+    },
+    "i": {
+      "tag": "c:rods/iron"
+    },
+    "s": {
+      "tag": "c:plastics"
+    }
+  },
+  "pattern": [
+    "is ",
+    "sc ",
+    "   "
+  ],
+  "result": {
+    "id": "immersiveengineering:speedloader"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

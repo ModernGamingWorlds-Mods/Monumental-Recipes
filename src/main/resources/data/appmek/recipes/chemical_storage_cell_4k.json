@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "ae2:quartz_glass"
+    },
+    "A": {
+      "tag": "forge:ingots/osmium"
+    },
+    "B": {
+      "item": "ae2:cell_component_4k"
+    },
+    "D": {
+      "item": "appmek:chemical_cell_housing"
+    }
+  },
+  "pattern": [
+    "XDX",
+    "DBD",
+    "AAA"
+  ],
+  "result": {
+    "item": "appmek:chemical_storage_cell_4k"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "appmek"
+    }
+  ]
+}

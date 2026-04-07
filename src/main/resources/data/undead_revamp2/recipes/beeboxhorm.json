@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "chipped:oak_planks"
+    },
+    {
+      "tag": "chipped:oak_planks"
+    },
+    {
+      "tag": "chipped:oak_planks"
+    },
+    {
+      "item": "undead_revamp2:beespheromones"
+    },
+    {
+      "tag": "chipped:oak_planks"
+    },
+    {
+      "tag": "chipped:oak_planks"
+    },
+    {
+      "tag": "chipped:oak_planks"
+    }
+  ],
+  "result": {
+    "item": "minecraft:beehive",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "tag": "forge:string"
+  },
+  "addition": {
+    "tag": "forge:ingots/neptunium"
+  },
+  "result": {
+    "item": "aquaculture:neptunium_bow"
+  },
+  "template": {
+    "tag": "forge:string"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aquaculture"
+    }
+  ]
+}

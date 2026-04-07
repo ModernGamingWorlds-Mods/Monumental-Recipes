@@ -1,0 +1,48 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "brewinandchewin"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:cooking_pots"
+          },
+          {
+            "tag": "forge:cheese"
+          },
+          {
+            "tag": "forge:eggs"
+          },
+          {
+            "tag": "forge:eggs"
+          },
+          {
+            "tag": "forge:vegetables/onion"
+          },
+          {
+            "tag": "forge:vegetables/carrot"
+          },
+          {
+            "tag": "forge:bowls"
+          }
+        ],
+        "result": {
+          "item": "brewinandchewin:vegetable_omelet"
+        }
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ]
+}

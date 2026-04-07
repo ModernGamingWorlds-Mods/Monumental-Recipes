@@ -1,0 +1,54 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "o": {
+      "tag": "monumental_recipes:eyes"
+    },
+    "F": {
+      "item": "rftoolsbase:machine_frame"
+    },
+    "r": {
+      "item": "extendedcrafting:redstone_catalyst"
+    },
+    "i": {
+      "tag": "forge:sheetmetals/steel"
+    },
+    "s": {
+      "item": "cyclic:eye_redstone"
+    }
+  },
+  "pattern": [
+    " iii ",
+    " rFr ",
+    " oso ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "rftoolsutility:matter_receiver"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsbase"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsutility"
+    }
+  ]
+}

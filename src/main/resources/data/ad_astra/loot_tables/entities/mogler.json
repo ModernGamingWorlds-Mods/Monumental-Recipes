@@ -1,27 +1,18 @@
 {
   "type": "minecraft:entity",
   "pools": [
-
-    // 🟢 Zombie Essence (Mystical Agriculture)
     {
       "rolls": 1,
-      "conditions": [
-        {
-          "condition": "forge:mod_loaded",
-          "modid": "mysticalagriculture"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mysticalagriculture:zombie_essence",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 2.0,
-                "max": 4.0
+                "max": 4.0,
+                "type": "minecraft:uniform"
               }
             },
             {
@@ -31,31 +22,23 @@
                 "max": 1.0
               }
             }
-          ]
+          ],
+          "name": "mysticalagriculture:zombie_essence"
         }
       ]
     },
-
-    // 🟢 Cow Essence (Mystical Agriculture)
     {
       "rolls": 1,
-      "conditions": [
-        {
-          "condition": "forge:mod_loaded",
-          "modid": "mysticalagriculture"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mysticalagriculture:cow_essence",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 0.0,
-                "max": 1.0
+                "max": 1.0,
+                "type": "minecraft:uniform"
               }
             },
             {
@@ -65,10 +48,16 @@
                 "max": 1.0
               }
             }
-          ]
+          ],
+          "name": "mysticalagriculture:cow_essence"
         }
       ]
     }
-
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "modernrecipes"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_leggings"
+    },
+    {
+      "item": "modernrecipes:compressed_iron_plate"
+    }
+  ],
+  "output": [
+    {
+      "item": "pneumaticcraft:compressed_iron_leggings"
+    }
+  ]
+}

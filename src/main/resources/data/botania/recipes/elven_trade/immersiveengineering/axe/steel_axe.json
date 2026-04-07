@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_axe"
+    },
+    {
+      "tag": "forge:ingots/steel"
+    }
+  ],
+  "output": [
+    {
+      "item": "immersiveengineering:axe_steel"
+    }
+  ]
+}

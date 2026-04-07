@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "tag": "monumental_recipes:hoppers"
+    },
+    "I": {
+      "tag": "monumental_recipes:pistons"
+    }
+  },
+  "pattern": [
+    "I",
+    "H",
+    "I"
+  ],
+  "result": {
+    "item": "croptopia:food_press"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": {
+      "tag": "forge:ingots/gold"
+    },
+    "I": {
+      "item": "extendedcrafting:redstone_ingot"
+    },
+    "C": {
+      "item": "rftoolsutility:crafter3"
+    }
+  },
+  "pattern": [
+    "EEE",
+    "ICI",
+    "III"
+  ],
+  "result": {
+    "item": "extendedcrafting:flux_crafter"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsutility"
+    }
+  ]
+}

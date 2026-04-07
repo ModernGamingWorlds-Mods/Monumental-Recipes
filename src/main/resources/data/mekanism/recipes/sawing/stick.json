@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:sawing",
+  "input": {
+    "ingredient": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "mainOutput": {
+    "item": "thermal:sawdust"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

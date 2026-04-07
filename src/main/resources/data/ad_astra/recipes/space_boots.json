@@ -1,11 +1,5 @@
 {
   "type": "minecraft:smithing_transform",
-  "forge:conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ad_astra"
-    }
-  ],
   "base": {
     "item": "minecraft:iron_boots"
   },
@@ -17,5 +11,11 @@
   },
   "template": {
     "tag": "forge:plates/steel"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    }
+  ]
 }

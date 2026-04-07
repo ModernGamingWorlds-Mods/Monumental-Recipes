@@ -1,0 +1,28 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "allthemodium:allthemodium_ingot"
+    },
+    {
+      "item": "thermal:press_unpacking_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "allthemodium:allthemodium_nugget",
+      "count": 4
+    }
+  ],
+  "energy": 2400,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

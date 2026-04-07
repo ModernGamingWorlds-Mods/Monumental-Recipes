@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:dyes/red"
+    },
+    "E": {
+      "tag": "c:plastics"
+    },
+    "X": {
+      "tag": "c:chests/wooden"
+    }
+  },
+  "pattern": [
+    "CEC",
+    "EXE",
+    "CEC"
+  ],
+  "result": {
+    "id": "pneumaticcraft:diagnostic_subroutine"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
+}

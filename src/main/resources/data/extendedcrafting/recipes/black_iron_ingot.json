@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/compressed_iron"
+    },
+    {
+      "tag": "forge:dyes/black"
+    }
+  ],
+  "results": [
+    {
+      "item": "extendedcrafting:black_iron_ingot"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

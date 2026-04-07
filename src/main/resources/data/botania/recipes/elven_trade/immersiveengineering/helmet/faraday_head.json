@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:leather_helmet"
+    },
+    {
+      "tag": "forge:plates/aluminum"
+    }
+  ],
+  "output": [
+    {
+      "item": "immersiveengineering:armor_faraday_head"
+    }
+  ]
+}

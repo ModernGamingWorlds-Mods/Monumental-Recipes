@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "blue_skies"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:wooden_sword"
+    },
+    {
+      "item": "blue_skies:bluebright_planks"
+    }
+  ],
+  "output": [
+    {
+      "item": "blue_skies:bluebright_sword"
+    }
+  ]
+}

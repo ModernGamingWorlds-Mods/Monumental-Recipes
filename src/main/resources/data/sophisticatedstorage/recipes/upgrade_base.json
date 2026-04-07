@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "tag": "minecraft:planks"
+    },
+    "E": {
+      "tag": "forge:plates/steel"
+    },
+    "W": {
+      "tag": "forge:leather"
+    }
+  },
+  "pattern": [
+    "GEG",
+    "EWE",
+    "GEG"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:upgrade_base"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sophisticatedstorage"
+    }
+  ]
+}

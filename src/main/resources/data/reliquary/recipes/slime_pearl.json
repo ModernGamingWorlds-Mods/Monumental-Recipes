@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "tag": "forge:ingots/compressed_iron"
+    },
+    "I": {
+      "tag": "forge:slimeballs"
+    }
+  },
+  "pattern": [
+    "III",
+    "ISI",
+    "III"
+  ],
+  "result": {
+    "item": "reliquary:slime_pearl"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "reliquary"
+    }
+  ]
+}

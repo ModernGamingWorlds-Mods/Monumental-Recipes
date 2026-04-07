@@ -1,0 +1,19 @@
+{
+  "type": "strainers:summoning",
+  "blockBelow": "minecraft:stone",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:glowstone_essence"
+    },
+    {
+      "item": "minecraft:witch_spawn_egg"
+    }
+  ],
+  "summonedMob": "minecraft:witch",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

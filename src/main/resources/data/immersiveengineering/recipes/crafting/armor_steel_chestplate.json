@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_chestplate"
+  },
+  "addition": {
+    "tag": "forge:plates/steel"
+  },
+  "result": {
+    "item": "immersiveengineering:armor_faraday_chestplate"
+  },
+  "template": {
+    "tag": "forge:plates/iron"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

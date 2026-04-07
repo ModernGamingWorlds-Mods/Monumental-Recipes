@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "item": "kubejs:compressed_iron_plate"
+    },
+    "A": {
+      "tag": "forge:pellets/polonium"
+    },
+    "T": {
+      "item": "mekanism:teleportation_core"
+    },
+    "I": {
+      "tag": "forge:ingots/lead"
+    }
+  },
+  "pattern": [
+    "IAI",
+    "AGA",
+    "ITI"
+  ],
+  "result": {
+    "item": "mekanism:qio_dashboard"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
+}

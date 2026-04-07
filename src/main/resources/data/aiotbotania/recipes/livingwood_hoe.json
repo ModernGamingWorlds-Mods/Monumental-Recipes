@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:wooden_hoe"
+  },
+  "addition": {
+    "tag": "botania:livingwood_logs"
+  },
+  "result": {
+    "item": "aiotbotania:livingwood_hoe"
+  },
+  "template": {
+    "tag": "monumental_recipes:wooden_plates"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aiotbotania"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

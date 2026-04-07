@@ -1,17 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
-  "forge:conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ad_astra"
-    }
-  ],
   "key": {
     "A": {
       "item": "ad_astra:glacian_planks"
     },
     "B": {
-      "tag": "monumental_experience:tools/hammers"
+      "tag": "monumental_recipes:tools/hammers"
     }
   },
   "pattern": [
@@ -21,5 +15,15 @@
   ],
   "result": {
     "item": "ad_astra:glacian_pressure_plate"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
 }

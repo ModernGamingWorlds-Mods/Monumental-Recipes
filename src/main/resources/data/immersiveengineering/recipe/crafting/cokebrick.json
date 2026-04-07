@@ -1,0 +1,50 @@
+{
+  "type": "create:compacting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "immersiveengineering:alloybrick"
+    },
+    {
+      "item": "immersiveengineering:alloybrick"
+    },
+    {
+      "item": "immersiveengineering:alloybrick"
+    },
+    {
+      "item": "immersiveengineering:alloybrick"
+    },
+    {
+      "tag": "chipped:sandstone"
+    },
+    {
+      "tag": "c:concretes"
+    }
+  ],
+  "results": [
+    {
+      "id": "immersiveengineering:cokebrick",
+      "count": 2
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:aurum_wood"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "forbidden_arcanus:stripped_aurum_wood"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
+  ]
+}

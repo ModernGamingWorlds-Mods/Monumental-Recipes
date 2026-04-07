@@ -1,0 +1,56 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "GEG",
+    "EWE",
+    "IAI"
+  ],
+  "key": {
+    "G": {
+      "item": "ae2:quartz_vibrant_glass"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "I": {
+      "item": "refinedstorage:improved_processor"
+    },
+    "A": {
+      "item": "refinedstorage:advanced_processor"
+    },
+    "W": {
+      "item": "refinedstorage:storage_housing"
+    }
+  },
+  "result": {
+    "id": "extradisks:advanced_storage_housing"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
+}

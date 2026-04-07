@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": {
+      "tag": "forge:dusts/bronze"
+    },
+    "i": {
+      "item": "create:andesite_alloy"
+    },
+    "s": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "pattern": [
+    "isi",
+    "scs",
+    "isi"
+  ],
+  "result": {
+    "item": "immersiveengineering:component_steel"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

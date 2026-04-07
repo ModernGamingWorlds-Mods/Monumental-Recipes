@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "yxy",
+    "aca"
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:workbench"
+    },
+    "y": {
+      "tag": "forge:ingots/iron"
+    },
+    "a": {
+      "tag": "minecraft:logs"
+    },
+    "c": {
+      "item": "kubejs:clay_plate"
+    },
+    "#": {
+      "item": "minecraft:brick"
+    }
+  },
+  "result": {
+    "item": "chipped:mason_table"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "blue_skies"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_leggings"
+    },
+    {
+      "tag": "blue_skies:gems/aquite"
+    }
+  ],
+  "output": [
+    {
+      "item": "blue_skies:aquite_leggings"
+    }
+  ]
+}

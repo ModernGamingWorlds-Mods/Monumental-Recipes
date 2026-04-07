@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/steel"
+    },
+    "/": {
+      "item": "minecraft:brick"
+    }
+  },
+  "pattern": [
+    " ##",
+    " ##",
+    "/  "
+  ],
+  "result": {
+    "item": "farmersdelight:skillet"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ]
+}

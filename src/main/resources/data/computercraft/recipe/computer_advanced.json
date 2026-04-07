@@ -1,0 +1,34 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:plates/electrum"
+    },
+    "B": {
+      "item": "computercraft:computer_normal"
+    },
+    "C": {
+      "tag": "c:gears/electrum"
+    }
+  },
+  "result": {
+    "id": "computercraft:computer_advanced"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "computercraft"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "computercraft"
+    }
+  ]
+}

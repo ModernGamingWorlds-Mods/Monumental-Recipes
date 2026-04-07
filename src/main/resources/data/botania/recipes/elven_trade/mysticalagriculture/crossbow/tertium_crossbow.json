@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:prudentium_crossbow"
+    },
+    {
+      "item": "mysticalagriculture:tertium_block"
+    }
+  ],
+  "output": [
+    {
+      "item": "mysticalagriculture:tertium_crossbow"
+    }
+  ]
+}

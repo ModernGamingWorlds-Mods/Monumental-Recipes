@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "alexscaves:gingerbread_crumbs"
+    },
+    {
+      "item": "alexscaves:gingerbread_crumbs"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "tag": "forge:crops/carrot"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "tag": "forge:books"
+    }
+  ],
+  "result": {
+    "item": "alexscaves:alex_meal"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ]
+}

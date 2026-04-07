@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "tag": "c:player_workstations/crafting_tables"
+    },
+    "M": {
+      "item": "immersiveengineering:heavy_engineering"
+    },
+    "T": {
+      "tag": "c:plates/steel"
+    },
+    "Q": {
+      "item": "immersiveengineering:wirecoil_redstone"
+    }
+  },
+  "pattern": [
+    "QTQ",
+    "CMC",
+    "QTQ"
+  ],
+  "result": {
+    "id": "rftoolsutility:crafter1"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  a",
+    "ha ",
+    "   "
+  ],
+  "key": {
+    "h": {
+      "tag": "monumental:tools/hammers"
+    },
+    "a": {
+      "tag": "c:stones"
+    }
+  },
+  "result": {
+    "id": "kubejs:stone_rod"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental"
+    }
+  ]
+}

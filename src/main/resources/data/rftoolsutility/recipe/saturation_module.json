@@ -1,0 +1,44 @@
+{
+  "type": "rftoolsutility:syringe",
+  "key": {
+    "P": {
+      "item": "rftoolsutility:module_template"
+    },
+    "S": {
+      "item": "rftoolsutility:syringe"
+    },
+    "f": {
+      "item": "mysticalagriculture:zombie_essence"
+    }
+  },
+  "mob": "minecraft:zombie",
+  "pattern": [
+    "fSf",
+    "fPf",
+    "fff"
+  ],
+  "result": {
+    "id": "rftoolsutility:saturation_module"
+  },
+  "syringe": 1,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rftoolsutility"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsutility"
+    }
+  ]
+}

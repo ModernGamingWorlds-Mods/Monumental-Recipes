@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "F#F",
+    "#C#",
+    "F#F"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:beds"
+    },
+    "C": {
+      "tag": "minecraft:compasses"
+    },
+    "F": {
+      "item": "opolisutilities:ender_pearl_fragment"
+    }
+  },
+  "result": {
+    "item": "opolisutilities:home_stone"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "opolisutilities"
+    }
+  ]
+}

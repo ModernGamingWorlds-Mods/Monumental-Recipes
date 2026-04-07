@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "aeinfinitybooster:infinity_card"
+    },
+    "b": {
+      "tag": "forge:nether_stars"
+    },
+    "c": {
+      "tag": "monumental_recipes:eyes"
+    }
+  },
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "result": {
+    "item": "aeinfinitybooster:dimension_card"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aeinfinitybooster"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

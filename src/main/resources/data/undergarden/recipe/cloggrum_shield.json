@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "tag": "minecraft:planks"
+  },
+  "addition": {
+    "tag": "c:ingots/cloggrum"
+  },
+  "result": {
+    "id": "undergarden:cloggrum_shield"
+  },
+  "template": {
+    "tag": "c:stones"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ]
+}

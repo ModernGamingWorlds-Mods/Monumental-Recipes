@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "botania:mana_spreader"
+  },
+  "addition": {
+    "tag": "forge:dusts/redstone"
+  },
+  "result": {
+    "item": "botania:redstone_spreader"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

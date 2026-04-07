@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "waystones:warp_stone"
+    },
+    {
+      "item": "botania:livingrock"
+    },
+    {
+      "tag": "forge:ingots/obsidian"
+    }
+  ],
+  "results": [
+    {
+      "item": "waystones:waystone"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "waystones"
+    }
+  ]
+}

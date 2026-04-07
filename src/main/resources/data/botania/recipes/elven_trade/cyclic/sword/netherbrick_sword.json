@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_sword"
+    },
+    {
+      "item": "minecraft:nether_bricks"
+    }
+  ],
+  "output": [
+    {
+      "item": "cyclic:netherbrick_sword"
+    }
+  ]
+}

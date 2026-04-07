@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "W": {
+      "tag": "c:strings"
+    },
+    "G": {
+      "tag": "c:leathers"
+    },
+    "S": {
+      "tag": "c:ingots/gold"
+    }
+  },
+  "pattern": [
+    "WGW",
+    "G G",
+    "GSG"
+  ],
+  "result": {
+    "id": "toolbelt:pouch"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "toolbelt"
+    }
+  ]
+}

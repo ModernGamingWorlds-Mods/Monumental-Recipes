@@ -1,0 +1,55 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "thermal:glowstone_mushroom_spores"
+    },
+    {
+      "item": "cyclic:spark"
+    },
+    {
+      "item": "thermal:glowstone_mushroom_spores"
+    },
+    {
+      "item": "cyclic:spark"
+    },
+    {
+      "item": "thermal:glowstone_mushroom_spores"
+    },
+    {
+      "item": "cyclic:spark"
+    },
+    {
+      "item": "thermal:glowstone_mushroom_spores"
+    },
+    {
+      "item": "cyclic:spark"
+    }
+  ],
+  "results": [
+    {
+      "id": "extendedcrafting:luminessence"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cyclic"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

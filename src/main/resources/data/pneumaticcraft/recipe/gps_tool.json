@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "R": {
+      "item": "extendedcrafting:redstone_ingot"
+    },
+    "P": {
+      "tag": "c:paper"
+    },
+    "G": {
+      "item": "immersiveengineering:insulating_glass"
+    },
+    "D": {
+      "tag": "c:gears/diamond"
+    },
+    "S": {
+      "item": "immersiveengineering:wirecoil_redstone"
+    }
+  },
+  "pattern": [
+    "SRS",
+    "PGP",
+    "PDP"
+  ],
+  "result": {
+    "id": "pneumaticcraft:gps_tool"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

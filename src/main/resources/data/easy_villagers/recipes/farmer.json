@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GWG",
+    "IDI"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass_panes/colorless"
+    },
+    "I": {
+      "tag": "forge:ingots/compressed_iron"
+    },
+    "D": {
+      "tag": "chipped:dirt"
+    },
+    "W": {
+      "item": "compressedcreativity:mesh_splashing"
+    }
+  },
+  "result": {
+    "item": "easy_villagers:farmer"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressedcreativity"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "easy_villagers"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:leather_boots"
+  },
+  "addition": {
+    "tag": "monumental_recipes:chains"
+  },
+  "result": {
+    "item": "minecraft:chainmail_boots"
+  },
+  "template": {
+    "tag": "forge:leather"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

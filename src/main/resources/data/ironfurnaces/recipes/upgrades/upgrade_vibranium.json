@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "#": {
+      "tag": "forge:ingots/vibranium"
+    },
+    "X": {
+      "tag": "forge:ingots/allthemodium"
+    },
+    "B": {
+      "tag": "forge:storage_blocks/vibranium"
+    }
+  },
+  "pattern": [
+    " B#B ",
+    " #X# ",
+    " B#B ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "item": "ironfurnaces:upgrade_vibranium"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironfurnaces"
+    }
+  ]
+}

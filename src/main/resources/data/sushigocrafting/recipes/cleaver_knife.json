@@ -1,0 +1,45 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "forge:item_exists",
+              "item": "sushigocrafting:cleaver_knife"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "I": {
+            "tag": "forge:ingots/iron"
+          },
+          "S": {
+            "tag": "forge:rods/wooden"
+          }
+        },
+        "pattern": [
+          " II",
+          "II ",
+          "S  "
+        ],
+        "result": {
+          "item": "sushigocrafting:cleaver_knife"
+        },
+        "show_notification": true
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sushigocrafting"
+    }
+  ]
+}

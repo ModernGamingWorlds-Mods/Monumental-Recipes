@@ -1,0 +1,44 @@
+{
+  "type": "create:compacting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:sandstone"
+    },
+    {
+      "tag": "forge:sandstone"
+    },
+    {
+      "tag": "forge:sandstone"
+    },
+    {
+      "tag": "forge:sandstone"
+    },
+    {
+      "item": "compressium:sand_2"
+    },
+    {
+      "tag": "chipped:bricks"
+    }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:alloybrick",
+      "count": 2
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

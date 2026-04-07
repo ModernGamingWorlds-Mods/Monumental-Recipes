@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:slimeballs"
+    },
+    {
+      "tag": "forge:slimeballs"
+    },
+    {
+      "item": "undead_revamp2:acidsack"
+    },
+    {
+      "tag": "forge:slimeballs"
+    },
+    {
+      "tag": "forge:slimeballs"
+    }
+  ],
+  "result": {
+    "item": "undead_revamp2:f_iresack",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
+}

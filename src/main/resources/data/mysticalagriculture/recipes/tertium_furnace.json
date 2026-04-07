@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mysticalagriculture:prudentium_furnace"
+  },
+  "addition": {
+    "item": "mysticalagriculture:tertium_block"
+  },
+  "result": {
+    "item": "mysticalagriculture:tertium_furnace"
+  },
+  "template": {
+    "item": "mysticalagriculture:prudentium_essence"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

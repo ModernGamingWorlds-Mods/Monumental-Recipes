@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:greenbean"
+    },
+    {
+      "item": "croptopia:greenbean"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "croptopia:onion"
+    },
+    {
+      "tag": "forge:bowls"
+    }
+  ],
+  "result": {
+    "item": "croptopia_additions:green_bean_casserole",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia_additions"
+    }
+  ]
+}

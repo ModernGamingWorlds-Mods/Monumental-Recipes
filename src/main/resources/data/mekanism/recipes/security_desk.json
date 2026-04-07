@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "ae2:quartz_glass"
+    },
+    "B": {
+      "tag": "forge:circuits/elite"
+    },
+    "C": {
+      "tag": "forge:ingots/steel"
+    },
+    "D": {
+      "item": "mekanism:steel_casing"
+    },
+    "E": {
+      "item": "mekanism:teleportation_core"
+    }
+  },
+  "pattern": [
+    "CAC",
+    "BDB",
+    "CEC"
+  ],
+  "result": {
+    "item": "mekanism:security_desk"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
+}

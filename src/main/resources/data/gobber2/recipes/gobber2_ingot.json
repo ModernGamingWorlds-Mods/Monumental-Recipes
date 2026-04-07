@@ -1,0 +1,41 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "gobber2:gobber2_glob"
+    },
+    {
+      "item": "appflux:printed_energy_processor"
+    },
+    {
+      "item": "forbidden_arcanus:purifying_soap"
+    },
+    {
+      "item": "extendedcrafting:luminessence"
+    }
+  ],
+  "results": [
+    {
+      "item": "gobber2:gobber2_ingot"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "appflux"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gobber2"
+    }
+  ]
+}

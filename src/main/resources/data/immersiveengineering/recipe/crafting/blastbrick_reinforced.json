@@ -1,0 +1,29 @@
+{
+  "type": "create:compacting",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "tag": "c:plates/steel"
+    },
+    {
+      "item": "immersiveengineering:blastbrick"
+    }
+  ],
+  "results": [
+    {
+      "id": "immersiveengineering:blastbrick_reinforced"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

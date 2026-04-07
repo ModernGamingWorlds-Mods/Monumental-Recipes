@@ -1,0 +1,50 @@
+{
+  "type": "create:compacting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "chipped:sandstone"
+    },
+    {
+      "tag": "chipped:sandstone"
+    },
+    {
+      "tag": "chipped:sandstone"
+    },
+    {
+      "tag": "chipped:sandstone"
+    },
+    {
+      "item": "compressedblocks:c1_sand"
+    },
+    {
+      "tag": "chipped:bricks"
+    }
+  ],
+  "results": [
+    {
+      "id": "immersiveengineering:alloybrick",
+      "count": 2
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "compressedblocks"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressedblocks"
+    }
+  ]
+}

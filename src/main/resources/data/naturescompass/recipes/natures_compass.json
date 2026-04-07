@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:compass"
+  },
+  "addition": {
+    "tag": "minecraft:saplings"
+  },
+  "result": {
+    "item": "naturescompass:naturescompass"
+  },
+  "template": {
+    "tag": "minecraft:logs"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "naturescompass"
+    }
+  ]
+}

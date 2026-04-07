@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gobber2"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "gobber2:gobber2_sword_end"
+    },
+    {
+      "item": "gobber2:gobber2_staff_sniper"
+    }
+  ],
+  "output": [
+    {
+      "item": "gobber2:gobber2_sword_sniper"
+    }
+  ]
+}

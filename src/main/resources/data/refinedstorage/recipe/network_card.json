@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "Q": {
+      "item": "refinedstorage:advanced_processor"
+    },
+    "W": {
+      "tag": "c:plastics"
+    },
+    "S": {
+      "item": "refinedstorage:quartz_enriched_iron"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "WQW",
+    "SSS"
+  ],
+  "result": {
+    "id": "refinedstorage:network_card"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
+}

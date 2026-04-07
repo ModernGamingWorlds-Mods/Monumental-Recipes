@@ -1,0 +1,34 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "occultism:spirit_attuned_gem"
+  },
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:conjuration_essence"
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "occultism:datura"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    }
+  ],
+  "sourceCost": 500,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "occultism"
+    }
+  ]
+}

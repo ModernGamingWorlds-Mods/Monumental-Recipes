@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "mysticalagriculture:amethyst_essence"
+    },
+    "B": {
+      "item": "minecraft:bone_block"
+    },
+    "D": {
+      "item": "mysticalagriculture:diamond_essence"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "BAB",
+    "BBB"
+  ],
+  "result": {
+    "item": "minecraft:sculk_catalyst"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

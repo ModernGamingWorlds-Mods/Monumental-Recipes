@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "pneumaticcraft:pneumatic_cylinder"
+    },
+    "P": {
+      "tag": "forge:plastic"
+    }
+  },
+  "pattern": [
+    "CP",
+    "PC"
+  ],
+  "result": {
+    "item": "pneumaticcraft:elevator_base"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "brewinandchewin"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:cooking_pots"
+          },
+          {
+            "item": "brewinandchewin:scarlet_cheese_wedge"
+          },
+          {
+            "tag": "forge:vegetables/potato"
+          },
+          {
+            "tag": "forge:dough"
+          },
+          {
+            "item": "minecraft:nether_wart"
+          },
+          {
+            "tag": "farmersdelight:cabbage_roll_ingredients"
+          },
+          {
+            "tag": "forge:bowls"
+          }
+        ],
+        "result": {
+          "item": "brewinandchewin:scarlet_pierogi"
+        }
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ]
+}

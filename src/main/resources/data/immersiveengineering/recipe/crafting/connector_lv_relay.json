@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "X": {
+      "tag": "c:rods/copper"
+    },
+    "C": {
+      "tag": "minecraft:terracotta"
+    },
+    "W": {
+      "item": "immersiveengineering:wirecoil_copper"
+    }
+  },
+  "pattern": [
+    "  W  ",
+    " CXC ",
+    " CXC ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 2,
+    "id": "immersiveengineering:connector_lv_relay"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

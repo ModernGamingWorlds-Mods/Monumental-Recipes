@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:leather_helmet"
+    },
+    {
+      "item": "thermal:beekeeper_fabric"
+    }
+  ],
+  "output": [
+    {
+      "item": "thermal:beekeeper_helmet"
+    }
+  ]
+}

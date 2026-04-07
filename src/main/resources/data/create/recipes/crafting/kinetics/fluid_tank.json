@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:fluid_pipe"
+    },
+    "B": {
+      "tag": "forge:plates/copper"
+    },
+    "C": {
+      "tag": "forge:barrels/wooden"
+    }
+  },
+  "pattern": [
+    " B ",
+    "ACA",
+    " B "
+  ],
+  "result": {
+    "item": "create:fluid_tank"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

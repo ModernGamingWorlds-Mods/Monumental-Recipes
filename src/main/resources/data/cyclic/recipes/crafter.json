@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "compressium:diamond_1"
+    },
+    "B": {
+      "item": "toms_storage:ts.adv_wireless_terminal"
+    },
+    "C": {
+      "tag": "monumental_recipes:pistons"
+    },
+    "D": {
+      "item": "cyclic:gem_amber"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "result": {
+    "item": "cyclic:crafter"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "toms_storage"
+    }
+  ]
+}

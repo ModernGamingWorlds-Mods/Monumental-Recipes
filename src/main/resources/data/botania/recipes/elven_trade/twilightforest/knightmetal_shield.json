@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "tag": "twilightforest:towerwood"
+    },
+    {
+      "tag": "forge:ingots/knightmetal"
+    }
+  ],
+  "output": [
+    {
+      "item": "twilightforest:knightmetal_shield"
+    }
+  ]
+}

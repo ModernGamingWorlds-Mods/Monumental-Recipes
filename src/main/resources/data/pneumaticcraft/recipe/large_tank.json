@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "tag": "c:gems/diamond"
+    },
+    "M": {
+      "item": "pneumaticcraft:medium_tank"
+    },
+    "P": {
+      "tag": "c:plastics"
+    },
+    "T": {
+      "item": "pneumaticcraft:advanced_pressure_tube"
+    }
+  },
+  "pattern": [
+    "PMP",
+    "DTD",
+    "PMP"
+  ],
+  "result": {
+    "id": "pneumaticcraft:large_tank"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
+}

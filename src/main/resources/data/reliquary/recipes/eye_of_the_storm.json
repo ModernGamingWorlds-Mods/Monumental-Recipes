@@ -1,0 +1,45 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "output": {
+    "item": "reliquary:eye_of_the_storm"
+  },
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:ender_pearl"
+      }
+    }
+  ],
+  "reagent": [
+    {
+      "item": "thermal:lightning_charge"
+    }
+  ],
+  "sourceCost": 2000,
+  "tier": 2,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "reliquary"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "prefab:condition_crafting_shaped",
+  "configName": "Jail",
+  "group": "Jail",
+  "pattern": [
+    "aaa",
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_bars"
+    },
+    "b": {
+      "item": "compressium:stone_3"
+    },
+    "c": {
+      "item": "compressium:dirt_2"
+    },
+    "d": {
+      "item": "compressium:stone_2"
+    }
+  },
+  "result": {
+    "item": "prefab:item_jail",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "prefab"
+    }
+  ]
+}

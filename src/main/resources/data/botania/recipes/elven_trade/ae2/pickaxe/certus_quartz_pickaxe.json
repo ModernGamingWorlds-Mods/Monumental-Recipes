@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_pickaxe"
+    },
+    {
+      "tag": "forge:gems/certus_quartz"
+    }
+  ],
+  "output": [
+    {
+      "item": "ae2:certus_quartz_pickaxe"
+    }
+  ]
+}

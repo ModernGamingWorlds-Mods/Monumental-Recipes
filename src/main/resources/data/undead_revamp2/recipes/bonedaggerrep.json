@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "undead_revamp2:heavytooth"
+    },
+    "b": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "undead_revamp2:bonedagger",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
+}

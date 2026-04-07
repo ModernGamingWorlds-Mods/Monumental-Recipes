@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "forcecraft:force_rod"
+    },
+    "B": {
+      "item": "enchantinginfuser:enchanting_infuser"
+    },
+    "C": {
+      "item": "hexerei:infused_fabric"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "CBC",
+    "ACA"
+  ],
+  "result": {
+    "item": "forcecraft:infuser"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enchantinginfuser"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forcecraft"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    }
+  ]
+}

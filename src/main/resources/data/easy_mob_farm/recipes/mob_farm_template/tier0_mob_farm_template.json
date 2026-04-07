@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "|||",
+    "|#|",
+    "|T|"
+  ],
+  "key": {
+    "|": {
+      "tag": "forge:ingots/copper"
+    },
+    "#": {
+      "tag": "forge:glass"
+    },
+    "T": {
+      "tag": "monumental_recipes:hoppers"
+    }
+  },
+  "result": {
+    "item": "easy_mob_farm:tier0_mob_farm_template"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "easy_mob_farm"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

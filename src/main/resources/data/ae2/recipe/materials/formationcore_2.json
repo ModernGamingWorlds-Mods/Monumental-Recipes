@@ -1,0 +1,33 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "tag": "c:gems/certus_quartz"
+    },
+    {
+      "tag": "c:dusts/fluix"
+    },
+    {
+      "item": "ae2:logic_processor"
+    }
+  ],
+  "pressure": 4,
+  "results": [
+    {
+      "id": "ae2:formation_core",
+      "count": 2
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
+}

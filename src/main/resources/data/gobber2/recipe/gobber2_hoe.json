@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_hoe"
+  },
+  "addition": {
+    "tag": "c:ingots/gobber"
+  },
+  "result": {
+    "id": "gobber2:gobber2_hoe"
+  },
+  "template": {
+    "tag": "c:plates/netherite"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "gobber2"
+    }
+  ]
+}

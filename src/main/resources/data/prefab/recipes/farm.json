@@ -1,0 +1,41 @@
+{
+  "type": "prefab:condition_crafting_shaped",
+  "configName": "Farm",
+  "group": "Farm",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:seeds/wheat"
+    },
+    "b": {
+      "item": "prefab:item_bundle_of_timber"
+    },
+    "c": {
+      "item": "compressium:dirt_1"
+    },
+    "d": {
+      "tag": "minecraft:wool"
+    },
+    "e": {
+      "tag": "forge:buckets/water"
+    }
+  },
+  "result": {
+    "item": "prefab:item_farm",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "prefab"
+    }
+  ]
+}

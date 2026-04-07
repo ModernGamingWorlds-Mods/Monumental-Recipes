@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aiotbotania"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:stone_sword"
+    },
+    {
+      "item": "botania:livingrock"
+    }
+  ],
+  "output": [
+    {
+      "item": "aiotbotania:livingrock_sword"
+    }
+  ]
+}

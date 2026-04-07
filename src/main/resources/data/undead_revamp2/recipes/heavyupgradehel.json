@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "undead_revamp2:heavyupgrade"
+  },
+  "base": {
+    "item": "minecraft:leather_helmet"
+  },
+  "addition": {
+    "tag": "forge:dyes/green"
+  },
+  "result": {
+    "item": "undead_revamp2:primodialarmour_helmet"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
+}

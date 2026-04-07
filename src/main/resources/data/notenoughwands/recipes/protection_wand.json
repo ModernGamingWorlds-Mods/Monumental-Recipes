@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "framedblocks:framed_key"
+  },
+  "addition": {
+    "item": "notenoughwands:advanced_wand_core"
+  },
+  "result": {
+    "item": "notenoughwands:protection_wand"
+  },
+  "template": {
+    "tag": "minecraft:logs"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "framedblocks"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "notenoughwands"
+    }
+  ]
+}

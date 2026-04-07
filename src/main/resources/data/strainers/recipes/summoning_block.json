@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "minecraft:hay_block"
+    },
+    "S": {
+      "item": "mysticalagriculture:stone_essence"
+    },
+    "W": {
+      "item": "mysticalagriculture:nature_essence"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "SHS",
+    "SSS"
+  ],
+  "result": {
+    "item": "strainers:summoning_block"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "strainers"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "tag": "forge:dusts/redstone"
+    },
+    "X": {
+      "item": "weather2:weather_item"
+    }
+  },
+  "pattern": [
+    "X X",
+    "DXD",
+    "X X"
+  ],
+  "result": {
+    "item": "weather2:wind_vane"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "weather2"
+    }
+  ]
+}

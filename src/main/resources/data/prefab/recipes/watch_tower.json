@@ -1,0 +1,38 @@
+{
+  "type": "prefab:condition_crafting_shaped",
+  "configName": "Watch Tower",
+  "group": "Watch Tower",
+  "pattern": [
+    "bbb",
+    "cbd",
+    "cad"
+  ],
+  "key": {
+    "a": {
+      "item": "compressium:stone_1"
+    },
+    "b": {
+      "item": "compressium:stone_2"
+    },
+    "c": {
+      "tag": "forge:storage_blocks/iron"
+    },
+    "d": {
+      "tag": "forge:storage_blocks/copper"
+    }
+  },
+  "result": {
+    "item": "prefab:item_watch_tower",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "prefab"
+    }
+  ]
+}

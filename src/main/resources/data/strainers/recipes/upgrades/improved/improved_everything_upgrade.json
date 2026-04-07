@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "strainers:improved_duration_upgrade"
+    },
+    {
+      "item": "strainers:improved_mesh_upgrade"
+    },
+    {
+      "item": "strainers:improved_input_upgrade"
+    },
+    {
+      "item": "strainers:improved_output_upgrade"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "strainers:improved_everything_upgrade"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "strainers"
+    }
+  ]
+}

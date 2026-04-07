@@ -1,0 +1,17 @@
+{
+  "type": "naturesaura:altar",
+  "input": {
+    "tag": "c:ingots/compressed_iron"
+  },
+  "output": {
+    "id": "naturesaura:infused_iron"
+  },
+  "aura": 15000,
+  "time": 80,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "naturesaura"
+    }
+  ]
+}

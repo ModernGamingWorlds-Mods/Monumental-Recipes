@@ -1,18 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
-  "forge:conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ad_astra"
-    }
-  ],
   "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:iron_ingot"
     },
     "P": {
-      "tag": "monumental_experience:pistons"
+      "tag": "monumental_recipes:pistons"
     }
   },
   "pattern": [
@@ -23,5 +17,15 @@
   "result": {
     "item": "ad_astra:compressor"
   },
-  "show_notification": true
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
 }

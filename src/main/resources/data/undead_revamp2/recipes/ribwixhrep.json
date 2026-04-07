@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "undead_revamp2:cloogerribs"
+    },
+    {
+      "tag": "forge:bread"
+    }
+  ],
+  "result": {
+    "item": "undead_revamp2:clogggerribswithbun",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
+}

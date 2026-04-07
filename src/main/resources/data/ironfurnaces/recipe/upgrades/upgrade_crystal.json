@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "c:glass_blocks"
+    },
+    "X": {
+      "tag": "c:plates/diamond"
+    },
+    "E": {
+      "tag": "monumental:eyes"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "#E#"
+  ],
+  "result": {
+    "id": "ironfurnaces:upgrade_crystal"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental"
+    }
+  ]
+}

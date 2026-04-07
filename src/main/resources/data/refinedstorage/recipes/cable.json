@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    "G": {
+      "item": "ae2:quartz_vibrant_glass"
+    },
+    "R": {
+      "item": "ae2:fluix_glass_cable"
+    }
+  },
+  "pattern": [
+    "EEE",
+    "GRG",
+    "EEE"
+  ],
+  "result": {
+    "item": "refinedstorage:cable",
+    "count": 6
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "P": {
+      "item": "enderio:redstone_alloy_ingot"
+    },
+    "B": {
+      "tag": "forge:gears/diamond"
+    },
+    "Q": {
+      "item": "immersiveengineering:insulating_glass"
+    },
+    "W": {
+      "tag": "forge:gems/lapis"
+    }
+  },
+  "pattern": [
+    " PWP ",
+    " QBQ ",
+    " PWP ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "mininggadgets:upgrade_empty"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enderio"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mininggadgets"
+    }
+  ]
+}

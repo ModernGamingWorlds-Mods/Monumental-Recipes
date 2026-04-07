@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "forge:plates/iron"
+    },
+    "B": {
+      "item": "immersiveengineering:insulating_glass"
+    },
+    "C": {
+      "tag": "forge:gems/lapis"
+    },
+    "D": {
+      "tag": "forge:gears/emerald"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "AEA",
+    "DBD",
+    "ACA"
+  ],
+  "result": {
+    "item": "buildinggadgets2:gadget_copy_paste"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "buildinggadgets2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

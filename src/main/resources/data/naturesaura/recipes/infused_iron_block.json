@@ -1,0 +1,21 @@
+{
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "botania:alchemy_catalyst"
+  },
+  "input": {
+    "tag": "forge:storage_blocks/compressed_iron"
+  },
+  "mana": 3000,
+  "output": {
+    "count": 1,
+    "item": "naturesaura:infused_iron_block"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "naturesaura"
+    }
+  ]
+}

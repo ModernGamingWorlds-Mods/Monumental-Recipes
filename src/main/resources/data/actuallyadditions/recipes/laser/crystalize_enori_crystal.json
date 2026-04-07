@@ -6,5 +6,11 @@
   },
   "result": {
     "item": "actuallyadditions:enori_crystal"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "actuallyadditions"
+    }
+  ]
 }

@@ -1,0 +1,60 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "a": {
+      "tag": "c:ingots/iron"
+    },
+    "b": {
+      "tag": "'c:player_workstations/crafting_tables"
+    },
+    "c": {
+      "item": "ae2:annihilation_core"
+    },
+    "d": {
+      "item": "ae2:formation_core"
+    },
+    "e": {
+      "item": "refinedstorage:pattern"
+    }
+  },
+  "pattern": [
+    " aba ",
+    " ced ",
+    " aba ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2:pattern_provider"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "'c"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "'c"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
+}

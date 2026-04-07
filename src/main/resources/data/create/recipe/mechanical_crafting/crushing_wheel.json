@@ -1,0 +1,49 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "B": {
+      "item": "create:large_cogwheel"
+    },
+    "C": {
+      "tag": "c:sheetmetals/iron"
+    },
+    "D": {
+      "tag": "immersiveengineering:treated_wood"
+    }
+  },
+  "pattern": [
+    " AAA ",
+    "ACDCA",
+    "ADBDA",
+    "ACDCA",
+    " AAA "
+  ],
+  "result": {
+    "count": 2,
+    "id": "create:crushing_wheel"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chiselsandbits"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "chiselsandbits:chisel_gold"
+    },
+    {
+      "tag": "forge:storage_blocks/diamond"
+    }
+  ],
+  "output": [
+    {
+      "item": "chiselsandbits:chisel_diamond"
+    }
+  ]
+}

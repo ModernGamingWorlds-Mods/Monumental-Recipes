@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  y",
+    "axa",
+    "bca"
+  ],
+  "key": {
+    "x": {
+      "tag": "c:player_workstations/crafting_tables"
+    },
+    "y": {
+      "tag": "c:ingots/iron"
+    },
+    "a": {
+      "tag": "minecraft:logs"
+    },
+    "b": {
+      "tag": "minecraft:axes"
+    },
+    "c": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "chipped:carpenters_table"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chipped"
+    }
+  ]
+}

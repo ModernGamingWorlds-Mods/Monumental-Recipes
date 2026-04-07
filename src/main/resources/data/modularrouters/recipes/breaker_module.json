@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "tag": "forge:tools/pickaxes"
+  },
+  "addition": {
+    "item": "modularrouters:blank_module"
+  },
+  "result": {
+    "item": "modularrouters:breaker_module"
+  },
+  "template": {
+    "tag": "forge:plates/iron"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "modularrouters"
+    }
+  ]
+}

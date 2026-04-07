@@ -1,0 +1,34 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "allthemodium:unobtainium_allthemodium_alloy_ingot"
+  },
+  "pedestalItems": [
+    {
+      "item": "allthemodium:allthemodium_ingot"
+    },
+    {
+      "tag": "forge:heart"
+    },
+    {
+      "item": "allthemodium:unobtainium_ingot"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "compressium:soulsand_3"
+    }
+  ],
+  "sourceCost": 10000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    }
+  ]
+}

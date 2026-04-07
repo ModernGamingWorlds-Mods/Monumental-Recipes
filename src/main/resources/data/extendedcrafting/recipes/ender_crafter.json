@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ],
+  "pattern": [
+    "EEE",
+    "ICI",
+    "III"
+  ],
+  "key": {
+    "E": {
+      "tag": "monumental_recipes:eyes"
+    },
+    "I": {
+      "tag": "forge:ingots/enhanced_ender_ingot"
+    },
+    "C": {
+      "tag": "forge:workbench"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:ender_crafter"
+  }
+}

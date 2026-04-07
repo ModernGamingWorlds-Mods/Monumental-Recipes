@@ -1,0 +1,25 @@
+{
+  "type": "cyclic:melter",
+  "ingredients": [
+    {
+      "item": "cyclic:experience_food"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "energy": {
+    "rfpertick": 100,
+    "ticks": 160
+  },
+  "result": {
+    "fluid": "create_enchantment_industry:experience",
+    "count": 1100
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ]
+}

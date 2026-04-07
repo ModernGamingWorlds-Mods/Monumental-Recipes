@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "aquaculture:iron_hook"
+  },
+  "addition": {
+    "tag": "forge:plates/iron"
+  },
+  "result": {
+    "item": "aquaculture:heavy_hook"
+  },
+  "template": {
+    "tag": "forge:plates/iron"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aquaculture"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "createaddition:rolling",
+  "input": {
+    "tag": "c:ingots/nickel"
+  },
+  "result": {
+    "item": "alltheores:nickel_rod",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alltheores"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "alltheores"
+    }
+  ]
+}

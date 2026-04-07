@@ -1,0 +1,32 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "count": 1,
+      "item": "kubejs:compressed_iron_plate"
+    },
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "count": 1,
+      "item": "minecraft:smooth_stone"
+    }
+  ],
+  "pressure": 5.0,
+  "results": [
+    {
+      "item": "pneumaticcraft:reinforced_stone",
+      "count": 2
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
+}

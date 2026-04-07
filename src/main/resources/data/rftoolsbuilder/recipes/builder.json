@@ -1,0 +1,51 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "qsq",
+    "rpr",
+    "qaq"
+  ],
+  "key": {
+    "q": {
+      "item": "immersiveengineering:alloybrick"
+    },
+    "p": {
+      "item": "rftoolsbase:machine_frame"
+    },
+    "r": {
+      "item": "extendedcrafting:redstone_catalyst"
+    },
+    "s": {
+      "item": "rftoolsbase:infused_enderpearl"
+    },
+    "a": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "rftoolsbuilder:builder"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsbase"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsbuilder"
+    }
+  ]
+}

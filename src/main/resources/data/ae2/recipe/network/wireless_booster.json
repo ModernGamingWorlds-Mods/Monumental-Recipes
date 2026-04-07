@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "tag": "c:dusts/fluix"
+    },
+    "b": {
+      "tag": "c:gems/certus_quartz"
+    },
+    "c": {
+      "tag": "c:dusts/ender_pearl"
+    },
+    "d": {
+      "item": "extendedcrafting:black_iron_ingot"
+    }
+  },
+  "pattern": [
+    "abc",
+    "ddd"
+  ],
+  "result": {
+    "id": "ae2:wireless_booster"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

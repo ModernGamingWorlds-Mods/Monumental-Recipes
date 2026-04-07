@@ -1,27 +1,18 @@
 {
   "type": "minecraft:entity",
   "pools": [
-
-    // 🟢 Zombie Essence (Mystical Agriculture)
     {
       "rolls": 1,
-      "conditions": [
-        {
-          "condition": "forge:mod_loaded",
-          "modid": "mysticalagriculture"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mysticalagriculture:zombie_essence",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 2.0,
-                "max": 4.0
+                "max": 4.0,
+                "type": "minecraft:uniform"
               }
             },
             {
@@ -29,12 +20,12 @@
               "conditions": [
                 {
                   "condition": "minecraft:entity_properties",
-                  "entity": "this",
                   "predicate": {
                     "flags": {
                       "is_on_fire": true
                     }
-                  }
+                  },
+                  "entity": "this"
                 }
               ]
             },
@@ -45,31 +36,23 @@
                 "max": 1.0
               }
             }
-          ]
+          ],
+          "name": "mysticalagriculture:zombie_essence"
         }
       ]
     },
-
-    // 🟡 Cheese (Ad Astra)
     {
       "rolls": 1,
-      "conditions": [
-        {
-          "condition": "forge:mod_loaded",
-          "modid": "ad_astra"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ad_astra:cheese",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 0.0,
-                "max": 1.0
+                "max": 1.0,
+                "type": "minecraft:uniform"
               }
             },
             {
@@ -79,10 +62,16 @@
                 "max": 1.0
               }
             }
-          ]
+          ],
+          "name": "ad_astra:cheese"
         }
       ]
     }
-
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    }
   ]
 }

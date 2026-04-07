@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bettershears3"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "bettershears3:cobble_shears"
+    },
+    {
+      "tag": "minecraft:planks"
+    }
+  ],
+  "output": [
+    {
+      "item": "bettershears3:wooden_shears"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "item": "create:polished_rose_quartz"
+    },
+    "I": {
+      "tag": "forge:plates/electrum"
+    },
+    "R": {
+      "tag": "forge:gears/signalum"
+    },
+    "X": {
+      "item": "thermal:upgrade_augment_1"
+    }
+  },
+  "pattern": [
+    "IGI",
+    "RXR",
+    "IGI"
+  ],
+  "result": {
+    "item": "thermal:upgrade_augment_2"
+  }
+}

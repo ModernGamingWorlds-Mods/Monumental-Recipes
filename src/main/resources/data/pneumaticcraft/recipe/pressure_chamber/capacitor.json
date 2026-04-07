@@ -1,0 +1,44 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "tag": "c:plastics"
+    },
+    {
+      "item": "createaddition:capacitor"
+    },
+    {
+      "item": "immersiveengineering:wirecoil_electrum"
+    },
+    {
+      "tag": "c:slimeballs"
+    }
+  ],
+  "pressure": 4,
+  "results": [
+    {
+      "id": "pneumaticcraft:capacitor",
+      "count": 1
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createaddition"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "createaddition"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "chipped:spruce_planks"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:plate_wood_spruce"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chipped"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    }
+  ]
+}

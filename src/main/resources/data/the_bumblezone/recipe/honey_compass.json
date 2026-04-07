@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:compass"
+  },
+  "addition": {
+    "tag": "the_bumblezone:buckets/honey"
+  },
+  "result": {
+    "id": "the_bumblezone:honey_compass"
+  },
+  "template": {
+    "id": "the_bumblezone:honey_crystal_shards"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "the_bumblezone"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "the_bumblezone"
+    }
+  ]
+}

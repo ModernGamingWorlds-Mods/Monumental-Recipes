@@ -1,0 +1,22 @@
+{
+  "type": "ad_astra:compressing",
+  "cookingtime": 800,
+  "energy": 20,
+  "ingredient": {
+    "tag": "forge:ingots/iridium"
+  },
+  "result": {
+    "count": 1,
+    "id": "alltheores:iridium_plate"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alltheores"
+    }
+  ]
+}

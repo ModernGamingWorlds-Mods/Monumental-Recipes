@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GBG",
+    "IWI"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass_panes/colorless"
+    },
+    "I": {
+      "tag": "forge:ingots/compressed_iron"
+    },
+    "B": {
+      "tag": "minecraft:beds"
+    },
+    "W": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "easy_villagers:breeder"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "easy_villagers"
+    }
+  ]
+}

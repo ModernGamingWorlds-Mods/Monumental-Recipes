@@ -1,0 +1,35 @@
+{
+  "type": "create:compacting",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "extendedcrafting:crystaltine_component"
+    },
+    {
+      "item": "extendedcrafting:crystaltine_component"
+    },
+    {
+      "item": "extendedcrafting:crystaltine_component"
+    },
+    {
+      "item": "extendedcrafting:crystaltine_component"
+    },
+    {
+      "item": "extendedcrafting:black_iron_ingot"
+    },
+    {
+      "item": "extendedcrafting:black_iron_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "extendedcrafting:crystaltine_catalyst"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

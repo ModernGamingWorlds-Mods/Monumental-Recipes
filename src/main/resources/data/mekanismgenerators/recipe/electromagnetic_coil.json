@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "tag": "c:ingots/steel"
+    },
+    "I": {
+      "tag": "c:plates/electrum"
+    },
+    "E": {
+      "item": "mekanism:energy_tablet"
+    }
+  },
+  "pattern": [
+    "SIS",
+    "IEI",
+    "SIS"
+  ],
+  "result": {
+    "id": "mekanismgenerators:electromagnetic_coil"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "strainers:summoning",
+  "blockBelow": "minecraft:stone",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:creeper_essence"
+    },
+    {
+      "item": "minecraft:creeper_spawn_egg"
+    }
+  ],
+  "summonedMob": "minecraft:creeper",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

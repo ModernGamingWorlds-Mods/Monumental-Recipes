@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "pneumaticcraft:reinforced_stone"
+    },
+    "T": {
+      "item": "pneumaticcraft:pressure_tube"
+    },
+    "F": {
+      "tag": "c:furnaces"
+    }
+  },
+  "pattern": [
+    "III",
+    "ITI",
+    "IFI"
+  ],
+  "result": {
+    "id": "pneumaticcraft:air_compressor"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
+}

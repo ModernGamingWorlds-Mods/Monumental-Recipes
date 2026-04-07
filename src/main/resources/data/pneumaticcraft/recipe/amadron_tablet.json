@@ -1,0 +1,34 @@
+{
+  "type": "pneumaticcraft:crafting_shaped_pressurizable",
+  "key": {
+    "C": {
+      "item": "pneumaticcraft:air_canister"
+    },
+    "G": {
+      "item": "pneumaticcraft:gps_tool"
+    },
+    "P": {
+      "tag": "c:plastics"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PGP",
+    "PCP"
+  ],
+  "result": {
+    "id": "pneumaticcraft:amadron_tablet"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
+}

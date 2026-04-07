@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GEG",
+    "CSC",
+    "GRG"
+  ],
+  "key": {
+    "G": {
+      "item": "alexscaves:gingerbread_crumbs"
+    },
+    "E": {
+      "item": "alexscaves:radiant_essence"
+    },
+    "R": {
+      "tag": "forge:dusts/redstone"
+    },
+    "S": {
+      "item": "minecraft:smoker"
+    },
+    "C": {
+      "item": "alexscaves:candy_cane"
+    }
+  },
+  "result": {
+    "item": "alexscaves:confection_oven"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "P": {
+      "item": "refinedstorage:advanced_processor"
+    },
+    "C": {
+      "tag": "refinedstorage:crafter"
+    },
+    "G": {
+      "item": "ae2:semi_dark_monitor"
+    },
+    "E": {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    "M": {
+      "item": "refinedstorage:machine_casing"
+    }
+  },
+  "pattern": [
+    "PCG",
+    "EMG",
+    "PCG"
+  ],
+  "result": {
+    "item": "refinedstorage:crafter_manager"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
+}

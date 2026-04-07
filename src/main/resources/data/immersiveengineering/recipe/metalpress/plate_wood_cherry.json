@@ -1,0 +1,23 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    }
+  ],
+  "energy": 2400,
+  "input": {
+    "tag": "chipped:cherry_planks"
+  },
+  "mold": "immersiveengineering:mold_plate",
+  "result": {
+    "id": "kubejs:plate_wood_cherry"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chipped"
+    }
+  ]
+}

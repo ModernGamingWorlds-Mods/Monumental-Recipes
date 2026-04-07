@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:leather_chestplate"
+  },
+  "addition": {
+    "tag": "forge:plates/aluminum"
+  },
+  "result": {
+    "item": "immersiveengineering:armor_faraday_chestplate"
+  },
+  "template": {
+    "tag": "forge:leather"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}
