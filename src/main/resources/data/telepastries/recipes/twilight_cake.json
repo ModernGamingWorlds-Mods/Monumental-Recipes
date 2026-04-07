@@ -6,6 +6,10 @@
         {
           "type": "forge:mod_loaded",
           "modid": "twilightforest"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "telepastries"
         }
       ],
       "recipe": {
