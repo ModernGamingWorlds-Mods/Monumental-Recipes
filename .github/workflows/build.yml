@@ -1,0 +1,147 @@
+name: Build & Publish
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 25
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '25'
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Extract version from tag
+        id: version
+        run: echo "version=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
+
+      - name: Build all variants
+        run: ./gradlew chiseledBuild
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: versions/*/build/libs/!(*-sources).jar
+          generate_release_notes: true
+
+      - name: Publish forge-1.18.2
+        continue-on-error: true
+        uses: Kir-Antipov/mc-publish@v3
+        with:
+          curseforge-id: ${{ vars.CURSEFORGE_ID }}
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          modrinth-id: ${{ vars.MODRINTH_ID }}
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          fail-mode: skip
+          files: versions/forge-1.18.2/build/libs/!(*-sources).jar
+          name: "Monumental Recipes ${{ github.ref_name }} for 1.18.2 Forge"
+          version: "${{ github.ref_name }}+1.18.2-forge"
+          version-type: release
+          changelog: "See release notes on GitHub."
+          game-versions: "1.18.2"
+          loaders: "forge"
+          java: "17"
+
+      - name: Publish forge-1.19.2
+        continue-on-error: true
+        uses: Kir-Antipov/mc-publish@v3
+        with:
+          curseforge-id: ${{ vars.CURSEFORGE_ID }}
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          modrinth-id: ${{ vars.MODRINTH_ID }}
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          fail-mode: skip
+          files: versions/forge-1.19.2/build/libs/!(*-sources).jar
+          name: "Monumental Recipes ${{ github.ref_name }} for 1.19.2 Forge"
+          version: "${{ github.ref_name }}+1.19.2-forge"
+          version-type: release
+          changelog: "See release notes on GitHub."
+          game-versions: "1.19.2"
+          loaders: "forge"
+          java: "17"
+
+      - name: Publish forge-1.20.1
+        continue-on-error: true
+        uses: Kir-Antipov/mc-publish@v3
+        with:
+          curseforge-id: ${{ vars.CURSEFORGE_ID }}
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          modrinth-id: ${{ vars.MODRINTH_ID }}
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          fail-mode: skip
+          files: versions/forge-1.20.1/build/libs/!(*-sources).jar
+          name: "Monumental Recipes ${{ github.ref_name }} for 1.20.1 Forge"
+          version: "${{ github.ref_name }}+1.20.1-forge"
+          version-type: release
+          changelog: "See release notes on GitHub."
+          game-versions: "1.20.1"
+          loaders: "forge"
+          java: "17"
+
+      - name: Publish neoforge-1.20.1
+        continue-on-error: true
+        uses: Kir-Antipov/mc-publish@v3
+        with:
+          curseforge-id: ${{ vars.CURSEFORGE_ID }}
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          modrinth-id: ${{ vars.MODRINTH_ID }}
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          fail-mode: skip
+          files: versions/neoforge-1.20.1/build/libs/!(*-sources).jar
+          name: "Monumental Recipes ${{ github.ref_name }} for 1.20.1 NeoForge"
+          version: "${{ github.ref_name }}+1.20.1-neoforge"
+          version-type: release
+          changelog: "See release notes on GitHub."
+          game-versions: "1.20.1"
+          loaders: "neoforge"
+          java: "17"
+
+      - name: Publish neoforge-1.21.1
+        continue-on-error: true
+        uses: Kir-Antipov/mc-publish@v3
+        with:
+          curseforge-id: ${{ vars.CURSEFORGE_ID }}
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          modrinth-id: ${{ vars.MODRINTH_ID }}
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          fail-mode: skip
+          files: versions/neoforge-1.21.1/build/libs/!(*-sources).jar
+          name: "Monumental Recipes ${{ github.ref_name }} for 1.21.1 NeoForge"
+          version: "${{ github.ref_name }}+1.21.1-neoforge"
+          version-type: release
+          changelog: "See release notes on GitHub."
+          game-versions: "1.21.1"
+          loaders: "neoforge"
+          java: "21"
+
+      - name: Publish neoforge-26.1
+        continue-on-error: true
+        uses: Kir-Antipov/mc-publish@v3
+        with:
+          curseforge-id: ${{ vars.CURSEFORGE_ID }}
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          modrinth-id: ${{ vars.MODRINTH_ID }}
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          fail-mode: skip
+          files: versions/neoforge-26.1/build/libs/!(*-sources).jar
+          name: "Monumental Recipes ${{ github.ref_name }} for 26.1 NeoForge"
+          version: "${{ github.ref_name }}+26.1-neoforge"
+          version-type: release
+          changelog: "See release notes on GitHub."
+          game-versions: "26.1"
+          loaders: "neoforge"
+          java: "25"
