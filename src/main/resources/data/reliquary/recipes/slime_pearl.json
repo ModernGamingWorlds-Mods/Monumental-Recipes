@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "B": {
+    "S": {
       "tag": "forge:ingots/compressed_iron"
     },
     "I": {
