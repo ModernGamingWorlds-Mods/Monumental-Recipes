@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d65e21f-afcc-4eb4-82c6-44af6d0dda41" name="Changes" comment="Added Cobblemon condition recipes">
+    <list default="true" id="0d65e21f-afcc-4eb4-82c6-44af6d0dda41" name="Changes" comment="Disabled Exdeorum extra mesh recipes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -489,7 +489,31 @@
       <option name="project" value="LOCAL" />
       <updated>1775608377151</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fixed Botania Redstone Spreader recipe">
+      <option name="closed" value="true" />
+      <created>1775628812051</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1775628812051</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updated Forge version">
+      <option name="closed" value="true" />
+      <created>1775628945854</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1775628945854</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Disabled Exdeorum extra mesh recipes">
+      <option name="closed" value="true" />
+      <created>1775674836203</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1775674836203</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,6 +535,9 @@
     <MESSAGE value="Actually Additions NeoForge" />
     <MESSAGE value="Fixed Telepastries condition" />
     <MESSAGE value="Added Cobblemon condition recipes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Cobblemon condition recipes" />
+    <MESSAGE value="Fixed Botania Redstone Spreader recipe" />
+    <MESSAGE value="Updated Forge version" />
+    <MESSAGE value="Disabled Exdeorum extra mesh recipes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Disabled Exdeorum extra mesh recipes" />
   </component>
 </project>

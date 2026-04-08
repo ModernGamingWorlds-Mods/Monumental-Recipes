@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:workbench",
+    "#blue_skies:crafting_tables",
+    "#biomesweavegone:crafting_tables",
+    "immersiveengineering:craftingtable"
+  ]
+}
