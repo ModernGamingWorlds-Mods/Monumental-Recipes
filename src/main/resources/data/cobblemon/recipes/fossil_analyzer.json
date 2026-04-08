@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "cobblemon"
+        }
+    ],
+    "pattern": [
+        "DAD",
+        "IGI",
+        "DRD"
+    ],
+    "key": {
+        "I": {
+            "item": "mysticalagriculture:iron_essence"
+        },
+        "D": {
+            "item": "minecraft:cobbled_deepslate"
+        },
+        "G": {
+            "tag": "forge:glass"
+        },
+        "R": {
+            "tag": "forge:dusts/redstone"
+        },
+        "A": {
+            "tag": "forge:gems/amethyst"
+        }
+    },
+    "result": {
+        "item": "cobblemon:fossil_analyzer"
+    }
+}
