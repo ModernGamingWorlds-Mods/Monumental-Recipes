@@ -79,11 +79,11 @@
       "required": false
     }
   ]
-},
-"conditions": [
-{
-"type": "forge:mod_loaded",
-"modid": "cobblemon"
-}
-]
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cobblemon"
+    }
+  ]
 }
