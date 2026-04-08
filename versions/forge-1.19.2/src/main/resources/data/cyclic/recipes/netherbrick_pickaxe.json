@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_pickaxe"
+  },
+  "addition": {
+    "item": "minecraft:nether_bricks"
+  },
+  "result": {
+    "item": "cyclic:netherbrick_pickaxe"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ]
+}

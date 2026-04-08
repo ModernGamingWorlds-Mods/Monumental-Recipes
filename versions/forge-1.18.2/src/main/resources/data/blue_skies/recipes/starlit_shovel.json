@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:wooden_shovel"
+  },
+  "addition": {
+    "item": "blue_skies:starlit_planks"
+  },
+  "result": {
+    "item": "blue_skies:starlit_shovel"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "blue_skies"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

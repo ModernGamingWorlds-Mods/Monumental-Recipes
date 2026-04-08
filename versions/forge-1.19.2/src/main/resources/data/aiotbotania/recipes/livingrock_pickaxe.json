@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:stone_pickaxe"
+  },
+  "addition": {
+    "item": "botania:livingrock"
+  },
+  "result": {
+    "item": "aiotbotania:livingrock_pickaxe"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aiotbotania"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

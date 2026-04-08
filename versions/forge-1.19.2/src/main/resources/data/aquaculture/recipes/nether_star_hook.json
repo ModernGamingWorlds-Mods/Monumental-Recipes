@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "aquaculture:diamond_hook"
+  },
+  "addition": {
+    "tag": "forge:nether_stars"
+  },
+  "result": {
+    "item": "aquaculture:nether_star_hook"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aquaculture"
+    }
+  ]
+}

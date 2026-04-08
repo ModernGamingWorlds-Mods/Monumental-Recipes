@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "forbidden_arcanus:wooden_blacksmith_gavel"
+  },
+  "addition": {
+    "tag": "minecraft:stone_tool_materials"
+  },
+  "result": {
+    "item": "forbidden_arcanus:stone_blacksmith_gavel"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

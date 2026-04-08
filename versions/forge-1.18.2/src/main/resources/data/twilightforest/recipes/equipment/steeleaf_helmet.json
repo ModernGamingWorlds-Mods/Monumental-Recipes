@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_helmet"
+  },
+  "addition": {
+    "tag": "forge:ingots/steeleaf"
+  },
+  "result": {
+    "item": "twilightforest:steeleaf_helmet"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
+}

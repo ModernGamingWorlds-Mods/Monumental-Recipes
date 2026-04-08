@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:compass"
+  },
+  "addition": {
+    "item": "minecraft:cracked_stone_bricks"
+  },
+  "result": {
+    "item": "explorerscompass:explorerscompass"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "explorerscompass"
+    }
+  ]
+}

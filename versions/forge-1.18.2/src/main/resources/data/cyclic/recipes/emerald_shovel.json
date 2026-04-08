@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_shovel"
+  },
+  "addition": {
+    "tag": "forge:gems/emerald"
+  },
+  "result": {
+    "item": "cyclic:emerald_shovel"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ]
+}

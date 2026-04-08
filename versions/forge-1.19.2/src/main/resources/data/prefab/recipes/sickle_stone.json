@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "prefab:item_sickle_wood"
+  },
+  "addition": {
+    "tag": "forge:stone"
+  },
+  "result": {
+    "item": "prefab:item_sickle_stone"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "prefab"
+    }
+  ]
+}

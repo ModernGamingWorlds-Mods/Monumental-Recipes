@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_shovel"
+  },
+  "addition": {
+    "tag": "blue_skies:gems/charoite"
+  },
+  "result": {
+    "item": "blue_skies:charoite_shovel"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "blue_skies"
+    }
+  ]
+}

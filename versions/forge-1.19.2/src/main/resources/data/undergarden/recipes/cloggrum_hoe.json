@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:stone_hoe"
+  },
+  "addition": {
+    "tag": "forge:ingots/cloggrum"
+  },
+  "result": {
+    "item": "undergarden:cloggrum_hoe"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ]
+}

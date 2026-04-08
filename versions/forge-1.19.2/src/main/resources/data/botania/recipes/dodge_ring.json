@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "botania:rune_air"
+  },
+  "addition": {
+    "tag": "forge:ingots/manasteel"
+  },
+  "result": {
+    "item": "botania:dodge_ring"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "pneumaticcraft:scuba_upgrade"
+  },
+  "addition": {
+    "tag": "forge:ingots/copper"
+  },
+  "result": {
+    "item": "create:copper_diving_boots"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
+}

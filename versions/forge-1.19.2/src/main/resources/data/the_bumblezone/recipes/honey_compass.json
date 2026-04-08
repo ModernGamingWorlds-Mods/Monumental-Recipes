@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:compass"
+  },
+  "addition": {
+    "tag": "the_bumblezone:buckets/honey"
+  },
+  "result": {
+    "item": "the_bumblezone:honey_compass"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "the_bumblezone"
+    }
+  ]
+}

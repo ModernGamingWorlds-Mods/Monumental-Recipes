@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_axe"
+  },
+  "addition": {
+    "tag": "forge:gems/emerald"
+  },
+  "result": {
+    "item": "cyclic:emerald_axe"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ]
+}

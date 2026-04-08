@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_leggings"
+  },
+  "addition": {
+    "tag": "forge:gems/emerald"
+  },
+  "result": {
+    "item": "cyclic:emerald_leggings"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ]
+}

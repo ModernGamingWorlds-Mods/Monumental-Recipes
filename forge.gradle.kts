@@ -36,14 +36,19 @@ legacyForge {
 sourceSets {
     main {
         resources.setSrcDirs(listOf(
-            rootProject.projectDir.resolve("src/main/resources"),
-            project.file("src/main/resources")
+            project.file("src/main/resources"),
+            rootProject.projectDir.resolve("src/main/resources")
         ))
     }
 }
 
 tasks.named("createMinecraftArtifacts") {
     dependsOn("stonecutterGenerate")
+}
+
+tasks.processResources {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    // Version-specific resources listed first take priority over shared resources
 }
 
 tasks.withType<JavaCompile>().configureEach {

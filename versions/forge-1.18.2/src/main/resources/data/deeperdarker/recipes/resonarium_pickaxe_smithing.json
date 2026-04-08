@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "deeperdarker:resonarium_plate"
+  },
+  "base": {
+    "item": "minecraft:iron_pickaxe"
+  },
+  "result": {
+    "item": "deeperdarker:resonarium_pickaxe"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "deeperdarker"
+    }
+  ]
+}

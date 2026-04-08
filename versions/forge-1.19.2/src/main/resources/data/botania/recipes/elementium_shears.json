@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:shears"
+  },
+  "addition": {
+    "tag": "forge:storage_blocks/elementium"
+  },
+  "result": {
+    "item": "botania:elementium_shears"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_hoe"
+  },
+  "addition": {
+    "tag": "forge:gems/certus_quartz"
+  },
+  "result": {
+    "item": "ae2:certus_quartz_hoe"
+  }
+}
