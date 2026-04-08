@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:golden_leggings"
+  },
+  "addition": {
+    "tag": "forge:gems/diamond"
+  },
+  "result": {
+    "item": "undead_revamp2:cloggerarmor_leggings"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
+}

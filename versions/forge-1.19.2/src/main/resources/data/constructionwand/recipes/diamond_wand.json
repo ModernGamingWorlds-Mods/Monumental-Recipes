@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "constructionwand:iron_wand"
+  },
+  "addition": {
+    "item": "notenoughwands:wand_core"
+  },
+  "result": {
+    "item": "constructionwand:diamond_wand"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "constructionwand"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "notenoughwands"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_axe"
+  },
+  "addition": {
+    "item": "enigmaticlegacy:etherium_ingot"
+  },
+  "result": {
+    "item": "enigmaticlegacy:etherium_axe"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enigmaticlegacy"
+    }
+  ]
+}

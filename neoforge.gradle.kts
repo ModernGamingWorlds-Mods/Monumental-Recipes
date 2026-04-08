@@ -63,8 +63,8 @@ if (isModern) {
 sourceSets {
     main {
         resources.setSrcDirs(listOf(
-            rootProject.projectDir.resolve("src/main/resources"),
-            project.file("src/main/resources")
+            project.file("src/main/resources"),
+            rootProject.projectDir.resolve("src/main/resources")
         ))
     }
 }
@@ -78,6 +78,8 @@ tasks.withType<JavaCompile>().configureEach {
 }
 
 tasks.processResources {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    // Version-specific resources listed first take priority over shared resources
     if (isModern) {
         exclude("META-INF/mods.toml")
     } else {

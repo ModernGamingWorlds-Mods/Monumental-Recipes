@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "forbidden_arcanus:golden_blacksmith_gavel"
+  },
+  "addition": {
+    "tag": "forge:gems/diamond"
+  },
+  "result": {
+    "item": "forbidden_arcanus:diamond_blacksmith_gavel"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_axe"
+  },
+  "addition": {
+    "tag": "forge:ingots/ironwood"
+  },
+  "result": {
+    "item": "twilightforest:ironwood_axe"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
+}

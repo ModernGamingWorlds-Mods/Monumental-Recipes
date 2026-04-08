@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_helmet"
+  },
+  "addition": {
+    "tag": "forge:ingots/elementium"
+  },
+  "result": {
+    "item": "botania:elementium_helmet"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:stone_sword"
+  },
+  "addition": {
+    "item": "botania:livingrock"
+  },
+  "result": {
+    "item": "aiotbotania:livingrock_sword"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aiotbotania"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "mysticalagriculture:tertium_axe"
+  },
+  "addition": {
+    "item": "mysticalagriculture:imperium_gemstone"
+  },
+  "result": {
+    "item": "mysticalagriculture:imperium_axe"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

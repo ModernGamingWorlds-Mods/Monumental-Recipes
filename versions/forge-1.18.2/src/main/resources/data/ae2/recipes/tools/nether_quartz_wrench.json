@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "framedblocks:framed_wrench"
+  },
+  "addition": {
+    "tag": "forge:gems/quartz"
+  },
+  "result": {
+    "item": "ae2:nether_quartz_wrench"
+  }
+}

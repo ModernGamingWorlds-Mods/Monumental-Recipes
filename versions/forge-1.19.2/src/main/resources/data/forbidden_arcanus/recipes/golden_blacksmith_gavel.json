@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "forbidden_arcanus:iron_blacksmith_gavel"
+  },
+  "addition": {
+    "tag": "forge:ingots/gold"
+  },
+  "result": {
+    "item": "forbidden_arcanus:golden_blacksmith_gavel"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
+  ]
+}

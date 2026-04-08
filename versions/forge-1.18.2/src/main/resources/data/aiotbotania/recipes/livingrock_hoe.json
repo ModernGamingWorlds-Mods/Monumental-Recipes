@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:stone_hoe"
+  },
+  "addition": {
+    "item": "botania:livingrock"
+  },
+  "result": {
+    "item": "aiotbotania:livingrock_hoe"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aiotbotania"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_shovel"
+  },
+  "addition": {
+    "tag": "forge:gems/quartz"
+  },
+  "result": {
+    "item": "ae2:nether_quartz_shovel"
+  }
+}

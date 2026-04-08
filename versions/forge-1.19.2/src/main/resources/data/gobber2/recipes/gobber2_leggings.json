@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "addition": {
+    "tag": "forge:ingots/gobber"
+  },
+  "result": {
+    "item": "gobber2:gobber2_leggings"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gobber2"
+    }
+  ]
+}

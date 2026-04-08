@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_hoe"
+  },
+  "addition": {
+    "tag": "forge:ingots/terrasteel"
+  },
+  "result": {
+    "item": "aiotbotania:terra_hoe"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aiotbotania"
+    }
+  ]
+}

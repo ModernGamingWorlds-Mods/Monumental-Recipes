@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_boots"
+  },
+  "addition": {
+    "tag": "forge:ingots/manasteel"
+  },
+  "result": {
+    "item": "botania:manasteel_boots"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

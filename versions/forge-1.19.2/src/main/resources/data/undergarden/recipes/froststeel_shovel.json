@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_shovel"
+  },
+  "addition": {
+    "tag": "forge:ingots/froststeel"
+  },
+  "result": {
+    "item": "undergarden:froststeel_shovel"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_boots"
+  },
+  "addition": {
+    "item": "naturesaura:sky_ingot"
+  },
+  "result": {
+    "item": "naturesaura:sky_shoes"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "naturesaura"
+    }
+  ]
+}

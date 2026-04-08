@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "createchromaticreturn:glowing_ingot"
+  },
+  "addition": {
+    "item": "notenoughwands:wand_core"
+  },
+  "result": {
+    "item": "notenoughwands:illumination_wand"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "createchromaticreturn"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "notenoughwands"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "toms_storage:ts.wireless_terminal"
+  },
+  "addition": {
+    "tag": "forge:ingots/netherite"
+  },
+  "result": {
+    "item": "toms_storage:ts.adv_wireless_terminal"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "toms_storage"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "mysticalagriculture:diamond_scythe"
+  },
+  "addition": {
+    "item": "enigmaticlegacy:etherium_ingot"
+  },
+  "result": {
+    "item": "enigmaticlegacy:etherium_scythe"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enigmaticlegacy"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

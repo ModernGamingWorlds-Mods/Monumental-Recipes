@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:leather_chestplate"
+  },
+  "addition": {
+    "tag": "forge:dyes/green"
+  },
+  "result": {
+    "item": "undead_revamp2:primodialarmour_chestplate"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
+}

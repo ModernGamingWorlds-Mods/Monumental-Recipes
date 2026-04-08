@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_chestplate"
+  },
+  "addition": {
+    "item": "naturesaura:infused_iron"
+  },
+  "result": {
+    "item": "naturesaura:infused_iron_chest"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "naturesaura"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_chestplate"
+  },
+  "addition": {
+    "tag": "forge:ingots/cloggrum"
+  },
+  "result": {
+    "item": "undergarden:cloggrum_chestplate"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:leather_chestplate"
+  },
+  "addition": {
+    "item": "thermal:beekeeper_fabric"
+  },
+  "result": {
+    "item": "thermal:beekeeper_chestplate"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

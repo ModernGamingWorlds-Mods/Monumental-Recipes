@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_pickaxe"
+  },
+  "addition": {
+    "item": "ae2:fluix_block"
+  },
+  "result": {
+    "item": "ae2:fluix_pickaxe"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_chestplate"
+  },
+  "addition": {
+    "item": "naturesaura:depth_ingot"
+  },
+  "result": {
+    "item": "naturesaura:depth_chest"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "naturesaura"
+    }
+  ]
+}

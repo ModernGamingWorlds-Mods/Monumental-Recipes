@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_hoe"
+  },
+  "addition": {
+    "item": "minecraft:nether_bricks"
+  },
+  "result": {
+    "item": "cyclic:netherbrick_hoe"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ]
+}
