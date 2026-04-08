@@ -54,12 +54,11 @@
       "id": "wythers:snowy_thermal_taiga",
       "required": false
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cobblemon"
+    }
   ]
-},
-"conditions": [
-{
-"type": "forge:mod_loaded",
-"modid": "cobblemon"
-}
-]
 }

@@ -71,12 +71,11 @@
       "id": "wythers:tundra",
       "required": false
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    }
   ]
-},
-"conditions": [
-{
-"type": "forge:mod_loaded",
-"modid": "ad_astra"
-}
-]
 }
