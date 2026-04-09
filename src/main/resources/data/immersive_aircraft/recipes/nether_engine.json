@@ -8,12 +8,12 @@
   "key": {
     "A": [
       {
-        "item": "mekanism:bio_fuel"
+        "item": "reliquary:molten_core"
       }
     ],
     "B": [
       {
-        "tag": "c:ingots/gold"
+        "tag": "forge:ingots/netherite"
       }
     ],
     "C": [
@@ -23,23 +23,13 @@
     ],
     "D": [
       {
-        "tag": "c:plates/aluminum"
+        "tag": "forge:plates/steel"
       }
     ]
   },
   "result": {
-    "id": "immersive_aircraft:eco_engine"
+    "item": "immersive_aircraft:nether_engine"
   },
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "immersive_aircraft"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "mekanism"
-    }
-  ],
   "conditions": [
     {
       "type": "forge:mod_loaded",
@@ -47,7 +37,7 @@
     },
     {
       "type": "forge:mod_loaded",
-      "modid": "mekanism"
+      "modid": "reliquary"
     }
   ]
 }

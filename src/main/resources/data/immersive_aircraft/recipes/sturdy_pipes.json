@@ -23,18 +23,8 @@
     ]
   },
   "result": {
-    "id": "immersive_aircraft:sturdy_pipes"
+    "item": "immersive_aircraft:sturdy_pipes"
   },
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "create"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "immersiveengineering"
-    }
-  ],
   "conditions": [
     {
       "type": "forge:mod_loaded",

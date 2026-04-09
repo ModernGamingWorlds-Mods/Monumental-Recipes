@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "pattern": [
+    "AA   ",
+    " AA  ",
+    " CBC ",
+    "  AA ",
+    "   AA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:ingots/steel"
+    },
+    "B": {
+      "tag": "forge:gears/steel"
+    },
+    "C": {
+      "tag": "forge:plates/aluminum"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "immersive_aircraft:propeller"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersive_aircraft"
+    }
+  ]
+}

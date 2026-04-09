@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " AB",
+    "CCA",
+    "CC "
+  ],
+  "key": {
+    "A": [
+      {
+        "tag": "forge:plates/iron"
+      }
+    ],
+    "B": [
+      {
+        "tag": "forge:ingots/steel"
+      }
+    ],
+    "C": [
+      {
+        "tag": "forge:rubber"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:improved_landing_gear"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersive_aircraft"
+    }
+  ]
+}

@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d65e21f-afcc-4eb4-82c6-44af6d0dda41" name="Changes" comment="Disabled Exdeorum extra mesh recipes">
+    <list default="true" id="0d65e21f-afcc-4eb4-82c6-44af6d0dda41" name="Changes" comment="Merged naturesaura.js kubejs server script into mod">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/immersive_aircraft/recipe/eco_engine.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/immersive_aircraft/recipe/engine.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/immersive_aircraft/recipe/enhanced_propeller.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/immersive_aircraft/recipe/gyroscope.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/immersive_aircraft/recipe/hull.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/immersive_aircraft/recipe/improved_landing_gear.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/immersive_aircraft/recipe/industrial_gears.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/immersive_aircraft/recipe/nether_engine.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/immersive_aircraft/recipe/propeller.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/immersive_aircraft/recipe/sail.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/immersive_aircraft/recipe/steel_boiler.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/immersive_aircraft/recipe/sturdy_pipes.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,30 +103,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Gradle.Monumental-Recipes [:forge-1.19.2:build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Monumental-Recipes [:forge-1.20.1:build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Monumental-Recipes [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;external.system.has.shared.sources&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ModernGamingWorld/IdeaProjects/Monumental-Recipes/src/main/resources/data&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Gradle.Monumental-Recipes [:forge-1.19.2:build].executor": "Run",
+    "Gradle.Monumental-Recipes [:forge-1.20.1:build].executor": "Run",
+    "Gradle.Monumental-Recipes [build].executor": "Run",
+    "Gradle.Upgrade Gradle wrapper.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "external.system.has.shared.sources": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ModernGamingWorld/IdeaProjects/Monumental-Recipes/src/main/resources/data/naturesaura/recipes/altar",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ModernGamingWorld\IdeaProjects\Monumental-Recipes\src\main\resources\data\naturesaura\recipes\altar" />
       <recent name="C:\Users\ModernGamingWorld\IdeaProjects\Monumental-Recipes\src\main\resources\data" />
     </key>
   </component>
@@ -513,7 +526,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775674836203</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added missing Forge tags">
+      <option name="closed" value="true" />
+      <created>1775692700469</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1775692700469</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Merged naturesaura.js kubejs server script into mod">
+      <option name="closed" value="true" />
+      <created>1775709277146</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1775709277146</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,6 +567,8 @@
     <MESSAGE value="Fixed Botania Redstone Spreader recipe" />
     <MESSAGE value="Updated Forge version" />
     <MESSAGE value="Disabled Exdeorum extra mesh recipes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Disabled Exdeorum extra mesh recipes" />
+    <MESSAGE value="Added missing Forge tags" />
+    <MESSAGE value="Merged naturesaura.js kubejs server script into mod" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merged naturesaura.js kubejs server script into mod" />
   </component>
 </project>

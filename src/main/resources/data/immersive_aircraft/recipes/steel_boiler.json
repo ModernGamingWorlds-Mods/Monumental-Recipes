@@ -8,7 +8,7 @@
   "key": {
     "A": [
       {
-        "tag": "c:ingots/steel"
+        "tag": "forge:ingots/steel"
       }
     ],
     "B": [
@@ -23,18 +23,8 @@
     ]
   },
   "result": {
-    "id": "immersive_aircraft:steel_boiler"
+    "item": "immersive_aircraft:steel_boiler"
   },
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "immersive_aircraft"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "mekanism"
-    }
-  ],
   "conditions": [
     {
       "type": "forge:mod_loaded",

@@ -1,6 +1,6 @@
 {
   "type": "create:mechanical_crafting",
-  "accept_mirrored": false,
+  "acceptMirrored": false,
   "pattern": [
     " C ",
     "PFP",
@@ -8,32 +8,22 @@
   ],
   "key": {
     "F": {
-      "tag": "c:furnaces"
+      "tag": "forge:furnaces"
     },
     "C": {
-      "tag": "c:cobblestones"
+      "tag": "forge:cobblestones"
     },
     "I": {
       "item": "immersive_aircraft:boiler"
     },
     "P": {
-      "tag": "monumental:piston"
+      "tag": "monumental_recipes:piston"
     }
   },
   "result": {
     "count": 1,
-    "id": "immersive_aircraft:engine"
+    "item": "immersive_aircraft:engine"
   },
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "immersive_aircraft"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "monumental"
-    }
-  ],
   "conditions": [
     {
       "type": "forge:mod_loaded",
@@ -41,7 +31,7 @@
     },
     {
       "type": "forge:mod_loaded",
-      "modid": "monumental"
+      "modid": "monumental_recipes"
     }
   ]
 }
