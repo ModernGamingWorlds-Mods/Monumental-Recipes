@@ -10,7 +10,7 @@
   ],
   "key": {
     "A": {
-      "item": "immersiveengineering:treated_wood_horizontal"
+      "item": "supplementaries:rope"
     },
     "B": {
       "item": "immersiveengineering:hemp_fabric"
@@ -27,6 +27,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "immersiveengineering"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
     },
     {
       "type": "forge:mod_loaded",
