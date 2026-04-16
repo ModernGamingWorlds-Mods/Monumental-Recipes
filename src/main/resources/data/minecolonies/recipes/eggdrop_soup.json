@@ -21,11 +21,5 @@
   "result": {
     "count": 2,
     "item": "minecolonies:eggdrop_soup"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "minecolonies"
-    }
-  ]
+  }
 }

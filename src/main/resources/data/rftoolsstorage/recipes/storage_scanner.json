@@ -28,15 +28,5 @@
   "result": {
     "count": 1,
     "item": "rftoolsstorage:storage_scanner"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rftoolsstorage"
-    }
-  ]
+  }
 }

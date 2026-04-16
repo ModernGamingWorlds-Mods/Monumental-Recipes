@@ -22,11 +22,5 @@
   "result": {
     "count": 1,
     "item": "cataclysm:the_incinerator"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "cataclysm"
-    }
-  ]
+  }
 }

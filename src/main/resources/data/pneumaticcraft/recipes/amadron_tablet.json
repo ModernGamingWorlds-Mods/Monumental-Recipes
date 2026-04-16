@@ -18,11 +18,5 @@
   ],
   "result": {
     "item": "pneumaticcraft:amadron_tablet"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pneumaticcraft"
-    }
-  ]
+  }
 }

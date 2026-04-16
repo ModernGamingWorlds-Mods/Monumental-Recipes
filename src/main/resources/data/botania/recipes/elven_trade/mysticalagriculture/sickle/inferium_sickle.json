@@ -2,11 +2,15 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
+      "modid": "botania"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "prefab"
+      "type": "forge:item_exists",
+      "item": "mysticalagriculture:inferium_sickle"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "prefab:item_sickle_wood"
     }
   ],
   "type": "botania:elven_trade",

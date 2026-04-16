@@ -15,15 +15,5 @@
   ],
   "result": {
     "item": "notenoughwands:wand_core"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "forcecraft"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "notenoughwands"
-    }
-  ]
+  }
 }

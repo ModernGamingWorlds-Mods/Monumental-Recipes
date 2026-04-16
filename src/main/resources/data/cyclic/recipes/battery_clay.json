@@ -19,15 +19,5 @@
   "result": {
     "item": "cyclic:battery_clay",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "cyclic"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "kubejs"
-    }
-  ]
+  }
 }

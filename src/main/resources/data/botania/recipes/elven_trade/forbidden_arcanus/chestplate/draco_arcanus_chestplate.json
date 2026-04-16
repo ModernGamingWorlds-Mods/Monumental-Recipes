@@ -2,7 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "forbidden_arcanus"
+      "modid": "botania"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "forbidden_arcanus:draco_arcanus_chestplate"
     }
   ],
   "type": "botania:elven_trade",

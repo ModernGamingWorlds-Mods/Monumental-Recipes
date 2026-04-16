@@ -17,11 +17,5 @@
   ],
   "result": {
     "item": "minecolonies:cabochis"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "minecolonies"
-    }
-  ]
+  }
 }

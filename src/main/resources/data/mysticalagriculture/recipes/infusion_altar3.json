@@ -36,19 +36,5 @@
     "fluid": "minecraft:lava"
   },
   "fluidLevelsConsumed": 1500,
-  "heatRequirement": "heated",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "apotheosis"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "botania"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    }
-  ]
+  "heatRequirement": "heated"
 }

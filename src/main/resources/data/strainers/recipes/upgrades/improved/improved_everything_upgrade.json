@@ -17,11 +17,5 @@
   "result": {
     "count": 1,
     "item": "strainers:improved_everything_upgrade"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "strainers"
-    }
-  ]
+  }
 }

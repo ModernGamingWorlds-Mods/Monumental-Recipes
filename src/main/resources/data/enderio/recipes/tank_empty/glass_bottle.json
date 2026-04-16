@@ -10,15 +10,5 @@
   "is_emptying": true,
   "output": {
     "item": "minecraft:glass_bottle"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "create_enchantment_industry"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "enderio"
-    }
-  ]
+  }
 }

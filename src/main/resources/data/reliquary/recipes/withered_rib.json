@@ -15,15 +15,5 @@
   ],
   "result": {
     "item": "reliquary:withered_rib"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "reliquary"
-    }
-  ]
+  }
 }

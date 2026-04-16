@@ -11,15 +11,5 @@
   },
   "template": {
     "tag": "forge:stone"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "chiselsandbits"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rechiseled"
-    }
-  ]
+  }
 }

@@ -25,11 +25,5 @@
     {
       "item": "extendedcrafting:the_ultimate_component"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    }
   ]
 }

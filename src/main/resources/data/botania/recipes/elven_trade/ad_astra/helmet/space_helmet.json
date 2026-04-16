@@ -2,7 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "ad_astra"
+      "modid": "botania"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "ad_astra:space_helmet"
     }
   ],
   "type": "botania:elven_trade",

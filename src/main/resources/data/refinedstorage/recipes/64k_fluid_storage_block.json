@@ -21,15 +21,5 @@
   ],
   "result": {
     "item": "refinedstorage:64k_fluid_storage_block"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "refinedstorage"
-    }
-  ]
+  }
 }

@@ -11,15 +11,5 @@
   },
   "template": {
     "tag": "forge:plates/diamond"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "cyclic"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    }
-  ]
+  }
 }

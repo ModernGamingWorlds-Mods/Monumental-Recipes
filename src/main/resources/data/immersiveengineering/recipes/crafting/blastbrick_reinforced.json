@@ -13,11 +13,5 @@
     {
       "item": "immersiveengineering:blastbrick_reinforced"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    }
   ]
 }

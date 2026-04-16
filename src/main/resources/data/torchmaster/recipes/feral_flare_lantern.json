@@ -18,15 +18,5 @@
   ],
   "result": {
     "item": "torchmaster:feral_flare_lantern"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "createchromaticreturn"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "torchmaster"
-    }
-  ]
+  }
 }

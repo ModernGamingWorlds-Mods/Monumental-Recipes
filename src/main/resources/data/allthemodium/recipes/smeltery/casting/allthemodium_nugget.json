@@ -8,11 +8,5 @@
     "amount": 25
   },
   "result": "allthemodium:allthemodium_nugget",
-  "cooling_time": 29,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "tconstruct"
-    }
-  ]
+  "cooling_time": 29
 }

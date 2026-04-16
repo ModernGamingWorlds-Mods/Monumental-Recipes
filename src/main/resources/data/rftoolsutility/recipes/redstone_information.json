@@ -18,15 +18,5 @@
   ],
   "result": {
     "item": "rftoolsutility:redstone_information"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rftoolsutility"
-    }
-  ]
+  }
 }

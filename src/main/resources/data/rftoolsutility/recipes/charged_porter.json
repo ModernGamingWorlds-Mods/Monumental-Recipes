@@ -3,7 +3,7 @@
   "acceptMirrored": false,
   "key": {
     "O": {
-      "tag": "monumental_recipes:eyes"
+      "tag": "monumental_experience:eyes"
     },
     "I": {
       "tag": "forge:plates/steel"
@@ -22,19 +22,5 @@
   "result": {
     "count": 1,
     "item": "rftoolsutility:charged_porter"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rftoolsutility"
-    }
-  ]
+  }
 }

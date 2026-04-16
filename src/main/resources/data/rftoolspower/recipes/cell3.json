@@ -22,15 +22,5 @@
   "result": {
     "count": 1,
     "item": "rftoolspower:cell3"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rftoolspower"
-    }
-  ]
+  }
 }

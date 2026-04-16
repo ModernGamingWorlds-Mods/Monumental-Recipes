@@ -25,27 +25,5 @@
   "result": {
     "count": 1,
     "item": "rftoolsbuilder:builder"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pneumaticcraft"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rftoolsbase"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rftoolsbuilder"
-    }
-  ]
+  }
 }

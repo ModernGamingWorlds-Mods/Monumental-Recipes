@@ -5,6 +5,7 @@
       "rolls": 2.0,
       "bonus_rolls": 0.0,
       "entries": [
+
         {
           "type": "minecraft:item",
           "weight": 50,
@@ -59,12 +60,6 @@
           "name": "minecraft:creeper_head"
         }
       ]
-    }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "graveyard"
     }
   ]
 }

@@ -20,15 +20,5 @@
   "result": {
     "item": "enderio:ensouled_chassis"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "enderio"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "occultism"
-    }
-  ]
+  "show_notification": true
 }

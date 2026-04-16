@@ -9,11 +9,5 @@
     {
       "item": "forbidden_arcanus:stripped_cherry_log"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "forbidden_arcanus"
-    }
   ]
 }

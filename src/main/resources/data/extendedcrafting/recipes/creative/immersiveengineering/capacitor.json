@@ -5,8 +5,12 @@
       "modid": "extendedcrafting"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
+      "type": "forge:item_exists",
+      "item": "immersiveengineering:capacitor_creative"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "immersiveengineering:capacitor_hv"
     }
   ],
   "type": "extendedcrafting:compressor",

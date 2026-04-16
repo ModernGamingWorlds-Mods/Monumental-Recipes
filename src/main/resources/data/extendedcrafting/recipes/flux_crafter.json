@@ -18,15 +18,5 @@
   ],
   "result": {
     "item": "extendedcrafting:flux_crafter"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rftoolsutility"
-    }
-  ]
+  }
 }

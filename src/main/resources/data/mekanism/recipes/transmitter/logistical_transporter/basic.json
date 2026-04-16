@@ -18,19 +18,5 @@
   "result": {
     "count": 4,
     "item": "mekanism:basic_logistical_transporter"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "hangglider"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "kubejs"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mekanism"
-    }
-  ]
+  }
 }

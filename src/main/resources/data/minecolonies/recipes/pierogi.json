@@ -20,11 +20,5 @@
   ],
   "result": {
     "item": "minecolonies:pierogi"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "minecolonies"
-    }
-  ]
+  }
 }

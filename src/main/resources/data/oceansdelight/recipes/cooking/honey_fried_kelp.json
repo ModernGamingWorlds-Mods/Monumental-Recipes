@@ -25,15 +25,5 @@
         }
       }
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "oceansdelight"
-    }
   ]
 }

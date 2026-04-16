@@ -9,11 +9,5 @@
       "item": "minecraft:ghast_spawn_egg"
     }
   ],
-  "summonedMob": "minecraft:ghast",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    }
-  ]
+  "summonedMob": "minecraft:ghast"
 }

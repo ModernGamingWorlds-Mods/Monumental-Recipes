@@ -8,7 +8,7 @@
       "item": "minecraft:dispenser"
     },
     "C": {
-      "tag": "monumental_recipes:cauldrons"
+      "tag": "minecraft:cauldrons"
     },
     "S": {
       "item": "minecraft:smooth_stone"
@@ -24,15 +24,5 @@
   ],
   "result": {
     "item": "create:schematicannon"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "compressium"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "create"
-    }
-  ]
+  }
 }

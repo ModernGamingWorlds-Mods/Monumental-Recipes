@@ -21,15 +21,5 @@
     "count": 4,
     "item": "create:fluid_pipe"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "create"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  "show_notification": true
 }

@@ -8,15 +8,5 @@
     "amount": 100
   },
   "temperature": 5000,
-  "time": 150,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "allthemodium"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "tconstruct"
-    }
-  ]
+  "time": 150
 }

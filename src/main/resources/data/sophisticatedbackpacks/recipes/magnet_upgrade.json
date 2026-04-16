@@ -2,16 +2,8 @@
   "type": "sophisticatedcore:upgrade_next_tier",
   "conditions": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "sophisticatedbackpacks"
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:magnet_upgrade"
     }
   ],
   "key": {

@@ -24,15 +24,5 @@
   },
   "result": {
     "item": "rsrequestify:crafting_emitter"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "refinedstorage"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rsrequestify"
-    }
-  ]
+  }
 }

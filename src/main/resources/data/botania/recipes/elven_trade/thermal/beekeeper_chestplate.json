@@ -2,7 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "thermal"
+      "modid": "botania"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "thermal:beekeeper_chestplate"
     }
   ],
   "type": "botania:elven_trade",

@@ -16,15 +16,5 @@
   ],
   "result": {
     "item": "tconstruct:netherite_item_frame"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "tconstruct"
-    }
-  ]
+  }
 }

@@ -16,24 +16,10 @@
       "item": "immersiveengineering:gunpowder_barrel"
     },
     "G": {
-      "tag": "forge:ingots/gold"
+      "tag": "forge:ingots/gold" 
     },
     "O": {
       "item": "compressium:emerald_3"
     }
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "compressium"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "inventorypets"
-    }
-  ]
+  }
 }

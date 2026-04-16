@@ -26,15 +26,5 @@
   "result": {
     "item": "croptopia_additions:eggplant_curry",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia_additions"
-    }
-  ]
+  }
 }

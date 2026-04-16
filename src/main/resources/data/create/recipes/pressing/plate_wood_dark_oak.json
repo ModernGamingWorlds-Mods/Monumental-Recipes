@@ -9,15 +9,5 @@
     {
       "item": "kubejs:plate_wood_dark_oak"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "chipped"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "kubejs"
-    }
   ]
 }

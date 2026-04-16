@@ -26,15 +26,5 @@
   "result": {
     "item": "ad_astra:nasa_workbench"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ad_astra"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    }
-  ]
+  "show_notification": true
 }

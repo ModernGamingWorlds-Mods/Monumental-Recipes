@@ -21,19 +21,5 @@
   ],
   "result": {
     "item": "rftoolsbuilder:shape_card_def"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pneumaticcraft"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rftoolsbuilder"
-    }
-  ]
+  }
 }

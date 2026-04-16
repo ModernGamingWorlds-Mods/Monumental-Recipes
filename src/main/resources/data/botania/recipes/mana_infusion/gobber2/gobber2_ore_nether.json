@@ -11,15 +11,5 @@
   "output": {
     "count": 2,
     "item": "gobber2:gobber2_ore_nether"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "compressium"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "gobber2"
-    }
-  ]
+  }
 }

@@ -13,7 +13,7 @@
       "tag": "forge:gears/electrum"
     },
     "C": {
-      "tag": "monumental_recipes:pistons"
+      "tag": "monumental_experience:pistons"
     },
     "D": {
       "tag": "industrialforegoing:machine_frame/pity"
@@ -24,23 +24,5 @@
   },
   "result": {
     "item": "industrialforegoing:fluid_extractor"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "industrialforegoing"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "kubejs"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+  }
 }

@@ -1,12 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "iCi",
+  	"iCi",
     "pep",
     "ici"
   ],
   "key": {
-    "i": {
+  	"i": {
       "tag": "forge:ingots/compressed_iron"
     },
     "e": {
@@ -24,11 +24,5 @@
   },
   "result": {
     "item": "toms_trading_network:vending_machine"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "toms_trading_network"
-    }
-  ]
+  }
 }

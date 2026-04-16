@@ -43,11 +43,5 @@
         }
       ]
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "graveyard"
-    }
   ]
 }

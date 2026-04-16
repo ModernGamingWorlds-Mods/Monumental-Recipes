@@ -1,24 +1,14 @@
 {
   "type": "opolisutilities:drying_table",
-  "ingredient": [
-    {
-      "item": "opolisutilities:bundled_flesh"
-    }
+  "ingredient":[
+  {
+    "item": "opolisutilities:bundled_flesh"
+  }
   ],
   "count": 1,
   "duration": 80,
   "output": {
     "item": "mysticalagriculture:cow_essence",
     "count": 2
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "opolisutilities"
-    }
-  ]
+  }
 }

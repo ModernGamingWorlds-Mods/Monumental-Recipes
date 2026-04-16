@@ -59,15 +59,5 @@
       "item": "alltheores:zinc_ingot"
     }
   ],
-  "heatRequirement": "heated",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "alltheores"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "create"
-    }
-  ]
+  "heatRequirement": "heated"
 }

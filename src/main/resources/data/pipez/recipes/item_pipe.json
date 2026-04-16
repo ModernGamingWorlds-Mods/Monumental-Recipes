@@ -19,19 +19,5 @@
   "result": {
     "item": "pipez:item_pipe",
     "count": 16
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "essentials"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pipez"
-    }
-  ]
+  }
 }

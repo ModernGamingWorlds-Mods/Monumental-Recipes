@@ -2,7 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
+      "modid": "botania"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "immersiveengineering:armor_faraday_head"
     }
   ],
   "type": "botania:elven_trade",

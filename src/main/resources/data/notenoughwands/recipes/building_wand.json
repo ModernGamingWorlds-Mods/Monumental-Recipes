@@ -11,19 +11,5 @@
   },
   "template": {
     "item": "cyclic:shape_data"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "cyclic"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "notenoughwands"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "quark"
-    }
-  ]
+  }
 }

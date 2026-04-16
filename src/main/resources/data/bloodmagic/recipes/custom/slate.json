@@ -1,21 +1,11 @@
 {
-  "type": "naturesaura:altar",
-  "input": {
-    "item": "ars_nouveau:glyph_rune"
-  },
-  "output": {
-    "item": "bloodmagic:blankslate"
-  },
-  "aura": 27000,
-  "time": 2625,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_nouveau"
+    "type": "naturesaura:altar",
+    "input": {
+        "item": "ars_nouveau:glyph_rune"
     },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "bloodmagic"
-    }
-  ]
+    "output": {
+        "item": "bloodmagic:blankslate"
+    },
+    "aura": 27000,
+    "time": 2625
 }

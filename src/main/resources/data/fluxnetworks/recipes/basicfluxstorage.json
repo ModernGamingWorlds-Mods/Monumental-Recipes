@@ -15,15 +15,5 @@
   ],
   "result": {
     "item": "fluxnetworks:basic_flux_storage"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "fluxnetworks"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  }
 }

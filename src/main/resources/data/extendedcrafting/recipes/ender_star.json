@@ -15,15 +15,5 @@
   },
   "result": {
     "item": "extendedcrafting:ender_star"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    }
-  ]
+  }
 }

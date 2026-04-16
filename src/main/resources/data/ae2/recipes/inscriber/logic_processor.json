@@ -1,11 +1,5 @@
 {
   "type": "ae2:inscriber",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ae2"
-    }
-  ],
   "ingredients": {
     "bottom": {
       "tag": "forge:silicon"

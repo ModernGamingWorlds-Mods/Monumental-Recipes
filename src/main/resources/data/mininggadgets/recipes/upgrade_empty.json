@@ -25,19 +25,5 @@
   "result": {
     "count": 1,
     "item": "mininggadgets:upgrade_empty"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "enderio"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mininggadgets"
-    }
-  ]
+  }
 }

@@ -175,11 +175,5 @@
         "min": 3.0
       }
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "aether"
-    }
   ]
 }

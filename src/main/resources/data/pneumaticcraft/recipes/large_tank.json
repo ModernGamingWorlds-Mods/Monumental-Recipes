@@ -25,11 +25,5 @@
   "result": {
     "item": "pneumaticcraft:large_tank"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pneumaticcraft"
-    }
-  ]
+  "show_notification": true
 }

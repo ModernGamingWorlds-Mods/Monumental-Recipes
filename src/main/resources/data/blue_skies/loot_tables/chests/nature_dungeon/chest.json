@@ -313,11 +313,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "blue_skies:chests/nature_dungeon/chest",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "blue_skies"
-    }
-  ]
+  "random_sequence": "blue_skies:chests/nature_dungeon/chest"
 }

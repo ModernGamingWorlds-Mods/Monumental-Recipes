@@ -1,21 +1,15 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "toms_storage:ts.painted_trim"
-    },
-    {
+  	{
+  		"item": "toms_storage:ts.painted_trim"
+  	},
+  	{
       "tag": "forge:buckets/water"
-    }
+  	}
   ],
   "result": {
     "item": "toms_storage:ts.trim",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "toms_storage"
-    }
-  ]
+  }
 }

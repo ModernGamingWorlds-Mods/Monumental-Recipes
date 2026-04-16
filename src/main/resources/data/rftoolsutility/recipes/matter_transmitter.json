@@ -3,7 +3,7 @@
   "acceptMirrored": false,
   "key": {
     "o": {
-      "tag": "monumental_recipes:eyes"
+      "tag": "monumental_experience:eyes"
     },
     "F": {
       "item": "rftoolsbase:machine_frame"
@@ -28,27 +28,5 @@
   "result": {
     "count": 1,
     "item": "rftoolsutility:matter_transmitter"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "cyclic"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rftoolsbase"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rftoolsutility"
-    }
-  ]
+  }
 }

@@ -28,11 +28,5 @@
   "result": {
     "count": 1,
     "item": "thermal:machine_refinery"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  }
 }

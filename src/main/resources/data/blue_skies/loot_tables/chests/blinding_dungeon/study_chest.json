@@ -125,11 +125,5 @@
       }
     }
   ],
-  "random_sequence": "blue_skies:chests/blinding_dungeon/study_chest",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "blue_skies"
-    }
-  ]
+  "random_sequence": "blue_skies:chests/blinding_dungeon/study_chest"
 }

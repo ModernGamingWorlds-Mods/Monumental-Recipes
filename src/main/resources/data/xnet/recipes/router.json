@@ -22,36 +22,10 @@
       "item": "kubejs:compressed_iron_plate"
     },
     "F": {
-      "tag": "monumental_recipes:eyes"
+      "tag": "monumental_experience:eyes"
     }
   },
   "result": {
     "item": "xnet:router"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "kubejs"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rftoolsbase"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "xnet"
-    }
-  ]
+  }
 }

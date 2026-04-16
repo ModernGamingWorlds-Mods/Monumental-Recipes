@@ -1,12 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " qP",
+  	" qP",
     "CcE",
     " DP"
   ],
   "key": {
-    "P": {
+  	"P": {
       "tag": "minecraft:planks"
     },
     "c": {
@@ -27,11 +27,5 @@
   },
   "result": {
     "item": "toms_storage:ts.inventory_cable_connector"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "toms_storage"
-    }
-  ]
+  }
 }

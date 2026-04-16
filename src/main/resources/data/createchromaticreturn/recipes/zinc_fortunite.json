@@ -62,19 +62,5 @@
       "item": "alltheores:zinc_ingot"
     }
   ],
-  "heatRequirement": "superheated",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "alltheores"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "create"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "createchromaticreturn"
-    }
-  ]
+  "heatRequirement": "superheated"
 }

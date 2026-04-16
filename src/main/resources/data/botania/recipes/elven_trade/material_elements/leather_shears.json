@@ -2,7 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "material_elements"
+      "modid": "botania"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "material_elements:leather_shears"
     }
   ],
   "type": "botania:elven_trade",

@@ -288,11 +288,5 @@
       ]
     }
   ],
-  "type": "minecraft:chest",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "dungeons_arise"
-    }
-  ]
+  "type": "minecraft:chest"
 }

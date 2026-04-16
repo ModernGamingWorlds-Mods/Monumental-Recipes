@@ -37,15 +37,5 @@
   ],
   "result": {
     "item": "occultism:soul_gem"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "occultism"
-    }
-  ]
+  }
 }

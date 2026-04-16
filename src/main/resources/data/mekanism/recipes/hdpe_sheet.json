@@ -9,11 +9,5 @@
     {
       "item": "mekanism:hdpe_sheet"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mekanism"
-    }
   ]
 }

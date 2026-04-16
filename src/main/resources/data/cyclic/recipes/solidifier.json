@@ -28,23 +28,5 @@
   "result": {
     "count": 1,
     "item": "cyclic:solidifier"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "create"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "createaddition"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "cyclic"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    }
-  ]
+  }
 }

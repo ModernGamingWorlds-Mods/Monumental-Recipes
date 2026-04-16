@@ -8,11 +8,5 @@
     "amount": 100
   },
   "result": "allthemodium:vibranium_ingot",
-  "cooling_time": 104,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "tconstruct"
-    }
-  ]
+  "cooling_time": 104
 }

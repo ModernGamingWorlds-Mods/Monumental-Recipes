@@ -19,11 +19,5 @@
     {
       "item": "gobber2:gobber2_ingot_end"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "gobber2"
-    }
   ]
 }

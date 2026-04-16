@@ -26,19 +26,5 @@
       "item": "immersiveengineering:alloybrick",
       "count": 2
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "chipped"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "compressium"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    }
   ]
 }

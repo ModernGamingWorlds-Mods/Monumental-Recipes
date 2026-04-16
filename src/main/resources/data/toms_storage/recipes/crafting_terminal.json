@@ -1,12 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "cdc",
+  	"cdc",
     "dtd",
     "cdc"
   ],
   "key": {
-    "d": {
+  	"d": {
       "tag": "forge:gems/diamond"
     },
     "c": {
@@ -18,11 +18,5 @@
   },
   "result": {
     "item": "toms_storage:ts.crafting_terminal"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "toms_storage"
-    }
-  ]
+  }
 }

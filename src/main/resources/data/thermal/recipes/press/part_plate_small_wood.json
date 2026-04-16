@@ -2,7 +2,7 @@
   "type": "thermal:press",
   "ingredients": [
     {
-      "tag": "monumental_recipes:wooden_plates",
+      "tag": "monumental_experience:wooden_plates",
       "count": 4
     },
     {
@@ -15,19 +15,5 @@
       "count": 2
     }
   ],
-  "energy": 2400,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "kubejs"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  "energy": 2400
 }

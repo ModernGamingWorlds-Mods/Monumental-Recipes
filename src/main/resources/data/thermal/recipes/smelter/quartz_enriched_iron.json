@@ -2,11 +2,15 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
+      "modid": "thermal"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "refinedstorage"
+      "type": "forge:item_exists",
+      "item": "extendedcrafting:black_iron_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "refinedstorage:quartz_enriched_iron"
     }
   ],
   "type": "thermal:smelter",

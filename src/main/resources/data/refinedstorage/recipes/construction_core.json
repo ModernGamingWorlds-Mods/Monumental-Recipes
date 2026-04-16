@@ -13,11 +13,5 @@
     {
       "item": "refinedstorage:construction_core"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "refinedstorage"
-    }
   ]
 }

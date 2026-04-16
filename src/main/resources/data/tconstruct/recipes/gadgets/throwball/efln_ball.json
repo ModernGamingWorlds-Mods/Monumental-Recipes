@@ -18,15 +18,5 @@
   ],
   "result": {
     "item": "tconstruct:efln_ball"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "tconstruct"
-    }
-  ]
+  }
 }

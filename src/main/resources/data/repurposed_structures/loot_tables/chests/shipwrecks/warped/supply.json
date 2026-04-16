@@ -166,8 +166,8 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Explosion:{Colors:[I;0], FadeColors:[I;2988471], Trail:1b, Flicker:1b, Type:4b}}"
+              "function":"set_nbt",
+              "tag":"{Explosion:{Colors:[I;0], FadeColors:[I;2988471], Trail:1b, Flicker:1b, Type:4b}}"
             }
           ]
         },
@@ -185,8 +185,8 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Explosion:{Colors:[I;2988471], FadeColors:[I;0], Trail:1b, Flicker:1b, Type:4b}}"
+              "function":"set_nbt",
+              "tag":"{Explosion:{Colors:[I;2988471], FadeColors:[I;0], Trail:1b, Flicker:1b, Type:4b}}"
             }
           ]
         },
@@ -385,12 +385,6 @@
           ]
         }
       ]
-    }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "repurposed_structures"
     }
   ]
 }

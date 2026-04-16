@@ -21,11 +21,5 @@
     "count": 12,
     "item": "twilightforest:maze_wafer"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "twilightforest"
-    }
-  ]
+  "show_notification": true
 }

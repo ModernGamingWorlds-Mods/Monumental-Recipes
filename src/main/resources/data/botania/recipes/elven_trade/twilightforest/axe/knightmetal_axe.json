@@ -2,7 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "twilightforest"
+      "modid": "botania"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "twilightforest:knightmetal_axe"
     }
   ],
   "type": "botania:elven_trade",

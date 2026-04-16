@@ -24,11 +24,5 @@
   ],
   "result": {
     "item": "thermal:fluid_cell"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  }
 }

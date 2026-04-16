@@ -24,19 +24,5 @@
   ],
   "result": {
     "item": "pneumaticcraft:gps_tool"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pneumaticcraft"
-    }
-  ]
+  }
 }

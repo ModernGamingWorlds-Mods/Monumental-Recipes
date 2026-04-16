@@ -17,11 +17,5 @@
   ],
   "result": {
     "item": "ironfurnaces:upgrade_copper"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ironfurnaces"
-    }
-  ]
+  }
 }

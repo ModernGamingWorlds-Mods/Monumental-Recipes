@@ -34,11 +34,5 @@
   "result": {
     "item": "croptopia:fruit_cake",
     "count": 3
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia"
-    }
-  ]
+  }
 }

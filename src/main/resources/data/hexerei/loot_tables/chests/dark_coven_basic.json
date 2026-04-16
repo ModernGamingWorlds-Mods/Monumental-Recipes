@@ -152,6 +152,7 @@
           "name": "hexerei:sage",
           "weight": 40
         },
+
         {
           "type": "minecraft:item",
           "functions": [
@@ -272,11 +273,5 @@
       }
     }
   ],
-  "random_sequence": "hexerei:chests/nature_coven_1",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "hexerei"
-    }
-  ]
+  "random_sequence": "hexerei:chests/nature_coven_1"
 }

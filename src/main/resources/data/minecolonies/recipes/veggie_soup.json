@@ -23,11 +23,5 @@
   ],
   "result": {
     "item": "minecolonies:veggie_soup"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "minecolonies"
-    }
-  ]
+  }
 }

@@ -1,4 +1,14 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "minecraft:golden_leggings"
+    }
+  ],
   "type": "botania:elven_trade",
   "ingredients": [
     {
@@ -11,12 +21,6 @@
   "output": [
     {
       "item": "minecraft:golden_leggings"
-    }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "botania"
     }
   ]
 }

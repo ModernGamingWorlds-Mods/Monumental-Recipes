@@ -22,19 +22,5 @@
   "result": {
     "count": 16,
     "item": "xnet:netcable_green"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "xnet"
-    }
-  ]
+  }
 }

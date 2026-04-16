@@ -17,15 +17,5 @@
       "item": "mysticalagriculture:prosperity_ingot",
       "count": 2
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "forbidden_arcanus"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    }
   ]
 }

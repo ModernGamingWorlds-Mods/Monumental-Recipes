@@ -10,16 +10,6 @@
     "item": "forbidden_arcanus:stone_blacksmith_gavel"
   },
   "template": {
-    "tag": "monumental_recipes:wooden_plates"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "forbidden_arcanus"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+    "tag": "monumental_experience:wooden_plates"
+  }
 }

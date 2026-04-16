@@ -23,15 +23,5 @@
   "result": {
     "item": "twilightdelight:fiery_cooking_pot"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "twilightdelight"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "twilightforest"
-    }
-  ]
+  "show_notification": true
 }

@@ -11,15 +11,5 @@
   },
   "template": {
     "tag": "forge:storage_blocks/glowstone"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "createchromaticreturn"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "notenoughwands"
-    }
-  ]
+  }
 }

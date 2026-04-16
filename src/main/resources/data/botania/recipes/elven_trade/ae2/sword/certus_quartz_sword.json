@@ -2,7 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "ae2"
+      "modid": "botania"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "ae2:certus_quartz_sword"
     }
   ],
   "type": "botania:elven_trade",

@@ -20,11 +20,5 @@
   ],
   "result": {
     "item": "minecolonies:kimchi"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "minecolonies"
-    }
-  ]
+  }
 }

@@ -10,7 +10,7 @@
       "tag": "forge:ingots/compressed_iron"
     },
     "X": {
-      "tag": "monumental_recipes:hoppers"
+      "tag": "monumental_experience:hoppers"
     }
   },
   "result": {
@@ -18,8 +18,8 @@
   },
   "conditions": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
+      "type": "quark:flag",
+      "flag": "minecart_upgrade"
     }
   ]
 }

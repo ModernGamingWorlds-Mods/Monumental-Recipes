@@ -8,7 +8,7 @@
       "item": "toms_storage:ts.adv_wireless_terminal"
     },
     "C": {
-      "tag": "monumental_recipes:pistons"
+      "tag": "monumental_experience:pistons"
     },
     "D": {
       "item": "cyclic:gem_amber"
@@ -21,23 +21,5 @@
   ],
   "result": {
     "item": "cyclic:crafter"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "compressium"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "cyclic"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "toms_storage"
-    }
-  ]
+  }
 }

@@ -29,15 +29,5 @@
   "result": {
     "item": "wfc:sweet_waffle_with_chocolate",
     "count": 4
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "wfc"
-    }
-  ]
+  }
 }

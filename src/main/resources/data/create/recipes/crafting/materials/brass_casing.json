@@ -19,19 +19,5 @@
   "result": {
     "item": "create:brass_casing",
     "count": 4
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "create"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "createdeco"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "supplementaries"
-    }
-  ]
+  }
 }

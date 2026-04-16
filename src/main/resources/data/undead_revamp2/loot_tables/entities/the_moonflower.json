@@ -52,11 +52,5 @@
       ]
     }
   ],
-  "random_sequence": "undead_revamp2:entities/the_moonflower",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "undead_revamp2"
-    }
-  ]
+  "random_sequence": "undead_revamp2:entities/the_moonflower"
 }

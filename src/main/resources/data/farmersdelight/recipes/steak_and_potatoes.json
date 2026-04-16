@@ -20,11 +20,5 @@
   ],
   "result": {
     "item": "farmersdelight:steak_and_potatoes"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "farmersdelight"
-    }
-  ]
+  }
 }

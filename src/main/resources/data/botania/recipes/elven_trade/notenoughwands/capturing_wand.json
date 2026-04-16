@@ -2,11 +2,15 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "notenoughwands"
+      "modid": "botania"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "supplementaries"
+      "type": "forge:item_exists",
+      "item": "notenoughwands:capturing_wand"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "supplementaries:cage"
     }
   ],
   "type": "botania:elven_trade",

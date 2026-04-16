@@ -22,19 +22,5 @@
   "result": {
     "item": "fluxnetworks:flux_controller",
     "count": 4
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "fluxnetworks"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pneumaticcraft"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  }
 }

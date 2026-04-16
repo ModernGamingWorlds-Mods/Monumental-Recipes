@@ -11,11 +11,5 @@
   },
   "template": {
     "item": "mysticalagriculture:inferium_essence"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    }
-  ]
+  }
 }

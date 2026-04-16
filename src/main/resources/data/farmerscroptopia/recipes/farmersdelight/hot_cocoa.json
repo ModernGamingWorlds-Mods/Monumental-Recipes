@@ -23,11 +23,5 @@
   "category": "drinks",
   "result": {
     "item": "farmersdelight:hot_cocoa"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "farmersdelight"
-    }
-  ]
+  }
 }

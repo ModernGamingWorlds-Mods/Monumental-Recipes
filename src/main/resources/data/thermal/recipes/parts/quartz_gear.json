@@ -2,11 +2,15 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "create"
+      "modid": "thermal"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
+      "type": "forge:item_exists",
+      "item": "thermal:quartz_gear"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "create:andesite_alloy"
     }
   ],
   "type": "minecraft:crafting_shaped",

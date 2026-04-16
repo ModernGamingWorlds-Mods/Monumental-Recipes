@@ -18,19 +18,5 @@
   ],
   "result": {
     "item": "forcecraft:infuser"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "enchantinginfuser"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "forcecraft"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "hexerei"
-    }
-  ]
+  }
 }

@@ -25,15 +25,5 @@
   "result": {
     "item": "cyclic:uncrafter",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "compressium"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "cyclic"
-    }
-  ]
+  }
 }

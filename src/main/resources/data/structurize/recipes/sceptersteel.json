@@ -9,17 +9,11 @@
     "A": {
       "tag": "forge:ingots/iron"
     },
-    "B": {
+    "S": {
       "tag": "forge:rods/wooden"
     }
   },
   "result": {
     "item": "structurize:sceptersteel"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "structurize"
-    }
-  ]
+  }
 }

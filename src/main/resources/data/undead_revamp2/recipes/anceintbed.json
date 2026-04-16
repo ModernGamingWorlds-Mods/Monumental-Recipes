@@ -6,11 +6,5 @@
   "ingredient": {
     "tag": "forge:bread"
   },
-  "result": "undead_revamp2:ancientbread",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "undead_revamp2"
-    }
-  ]
+  "result": "undead_revamp2:ancientbread"
 }

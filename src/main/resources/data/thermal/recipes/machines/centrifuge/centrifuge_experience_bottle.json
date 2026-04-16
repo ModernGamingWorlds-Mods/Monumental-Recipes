@@ -12,15 +12,5 @@
       "amount": 250
     }
   ],
-  "energy": 400,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "create_enchantment_industry"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  "energy": 400
 }

@@ -1,15 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "forestry"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "industrialforestry"
-    }
-  ],
+  "conditions": [{ "type": "forge:mod_loaded", "modid": "forestry" }],
   "group": "addon_speed",
   "pattern": [
     " R ",
@@ -17,21 +8,10 @@
     " G "
   ],
   "key": {
-    "C": {
-      "tag": "forge:ingots/copper"
-    },
-    "R": {
-      "tag": "forge:dusts/redstone"
-    },
-    "S": {
-      "item": "forestry:sturdy_machine"
-    },
-    "G": {
-      "item": "minecraft:sugar"
-    }
+    "C": { "tag": "forge:ingots/copper" },
+    "R": { "tag": "forge:dusts/redstone" },
+    "S": { "item": "forestry:sturdy_machine" },
+    "G": { "item": "minecraft:sugar" }
   },
-  "result": {
-    "item": "industrialforestry:speed_upgrade_1",
-    "count": 1
-  }
+  "result": { "item": "industrialforestry:speed_upgrade_1", "count": 1 }
 }

@@ -240,11 +240,5 @@
         }
       ]
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "repurposed_structures"
-    }
   ]
 }

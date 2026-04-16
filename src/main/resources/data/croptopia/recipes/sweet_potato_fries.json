@@ -17,11 +17,5 @@
   "result": {
     "item": "croptopia:sweet_potato_fries",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia"
-    }
-  ]
+  }
 }

@@ -13,11 +13,5 @@
     {
       "item": "fluxnetworks:flux_dust"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "fluxnetworks"
-    }
   ]
 }

@@ -23,11 +23,5 @@
     "count": 2,
     "item": "croptopia:macaron"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia"
-    }
-  ]
+  "show_notification": true
 }

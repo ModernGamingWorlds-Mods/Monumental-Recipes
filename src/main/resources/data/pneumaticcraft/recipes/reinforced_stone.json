@@ -14,15 +14,5 @@
       "item": "pneumaticcraft:reinforced_stone",
       "count": 2
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "kubejs"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pneumaticcraft"
-    }
   ]
 }

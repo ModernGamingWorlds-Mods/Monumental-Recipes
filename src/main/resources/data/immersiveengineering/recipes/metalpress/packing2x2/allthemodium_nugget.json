@@ -1,20 +1,15 @@
 {
-  "type": "immersiveengineering:metal_press",
-  "energy": 2400,
-  "input": {
-    "base_ingredient": {
-      "tag": "forge:nuggets/allthemodium"
+    "type": "immersiveengineering:metal_press",
+    "energy": 2400,
+    "input": {
+        "base_ingredient":
+        {
+            "tag": "forge:nuggets/allthemodium"
+        },
+        "count":4
     },
-    "count": 4
-  },
-  "mold": "immersiveengineering:mold_packing_4",
-  "result": {
-    "tag": "forge:ingots/allthemodium"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
+    "mold": "immersiveengineering:mold_packing_4",
+    "result": {
+        "tag": "forge:ingots/allthemodium"
     }
-  ]
 }

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "conditions": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
+      "type": "cucumber:feature_flag",
+      "flag": "extendedcrafting:ender_crafter"
     }
   ],
   "pattern": [
@@ -17,7 +13,7 @@
   ],
   "key": {
     "E": {
-      "tag": "monumental_recipes:eyes"
+      "tag": "monumental_experience:eyes"
     },
     "I": {
       "tag": "forge:ingots/enhanced_ender_ingot"

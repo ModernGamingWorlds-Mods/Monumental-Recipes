@@ -15,15 +15,5 @@
   },
   "result": {
     "item": "strainers:string_mesh"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "strainers"
-    }
-  ]
+  }
 }

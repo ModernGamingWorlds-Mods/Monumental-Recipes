@@ -26,11 +26,5 @@
   ],
   "result": {
     "item": "thermal:xp_stew"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  }
 }

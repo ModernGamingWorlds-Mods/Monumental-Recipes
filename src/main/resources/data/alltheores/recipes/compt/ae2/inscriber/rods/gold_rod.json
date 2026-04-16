@@ -2,15 +2,19 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "alltheores"
+      "modid": "ae2"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "create"
+      "type": "forge:item_exists",
+      "item": "alltheores:gold_rod"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
+      "type": "forge:item_exists",
+      "item": "immersiveengineering:mold_rod"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "create:andesite_alloy"
     }
   ],
   "type": "ae2:inscriber",

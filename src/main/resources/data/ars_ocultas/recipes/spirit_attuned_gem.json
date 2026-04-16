@@ -20,15 +20,5 @@
       "item": "minecraft:enchanted_golden_apple"
     }
   ],
-  "sourceCost": 500,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_nouveau"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "occultism"
-    }
-  ]
+  "sourceCost": 500
 }

@@ -19,15 +19,5 @@
   "result": {
     "item": "pipez:fluid_pipe",
     "count": 16
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pipez"
-    }
-  ]
+  }
 }

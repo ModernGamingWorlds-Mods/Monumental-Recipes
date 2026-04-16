@@ -20,15 +20,5 @@
   "result": {
     "item": "rftoolsutility:slowness_module"
   },
-  "syringe": 1,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rftoolsutility"
-    }
-  ]
+  "syringe": 1
 }

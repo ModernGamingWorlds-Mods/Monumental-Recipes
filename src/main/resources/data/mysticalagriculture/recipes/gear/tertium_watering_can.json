@@ -34,11 +34,5 @@
     {
       "item": "mysticalagriculture:tertium_watering_can"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    }
   ]
 }

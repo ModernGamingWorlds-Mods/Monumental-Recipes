@@ -21,15 +21,5 @@
   "result": {
     "item": "xnet:advanced_connector_green",
     "count": 2
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "xnet"
-    }
-  ]
+  }
 }

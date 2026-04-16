@@ -1,12 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "PCP",
+  	"PCP",
     "aGg",
     "PEP"
   ],
   "key": {
-    "P": {
+  	"P": {
       "tag": "minecraft:planks"
     },
     "a": {
@@ -27,15 +27,5 @@
   },
   "result": {
     "item": "toms_storage:ts.wireless_terminal"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "chipped"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "toms_storage"
-    }
-  ]
+  }
 }

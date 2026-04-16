@@ -11,19 +11,5 @@
   },
   "template": {
     "tag": "forge:stone"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "constructionwand"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "notenoughwands"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "quark"
-    }
-  ]
+  }
 }

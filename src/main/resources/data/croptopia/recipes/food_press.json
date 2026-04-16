@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "H": {
-      "tag": "monumental_recipes:hoppers"
+      "tag": "monumental_experience:hoppers"
     },
     "I": {
-      "tag": "monumental_recipes:pistons"
+      "tag": "monumental_experience:pistons"
     }
   },
   "pattern": [
@@ -17,15 +17,5 @@
   "result": {
     "item": "croptopia:food_press"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+  "show_notification": true
 }

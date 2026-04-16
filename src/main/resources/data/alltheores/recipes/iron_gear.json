@@ -16,15 +16,5 @@
   "result": {
     "count": 1,
     "item": "alltheores:iron_gear"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "alltheores"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "create"
-    }
-  ]
+  }
 }

@@ -1,20 +1,19 @@
 {
-  "type": "actuallyadditions:laser",
-  "energy": 60,
-  "ingredient": {
-    "item": "ironcoals:iron_coal"
-  },
-  "result": {
-    "item": "actuallyadditions:void_crystal"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "actuallyadditions"
+    "type": "actuallyadditions:laser",
+    "energy": 60,
+    "ingredient": {
+        "item": "ironcoals:iron_coal"
     },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ironcoals"
-    }
-  ]
+    "result": {
+        "item": "actuallyadditions:void_crystal"
+    },
+    "conditions": [{
+            "type": "forge:mod_loaded",
+            "modid": "ironcoals"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "actuallyadditions"
+        }
+    ]
 }

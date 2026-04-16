@@ -32,11 +32,5 @@
   "result": {
     "item": "croptopia:the_big_breakfast"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia"
-    }
-  ]
+  "show_notification": true
 }

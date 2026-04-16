@@ -13,11 +13,5 @@
     {
       "item": "extendedcrafting:black_iron_ingot"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    }
   ]
 }

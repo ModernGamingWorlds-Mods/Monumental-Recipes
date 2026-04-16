@@ -15,11 +15,5 @@
   ],
   "result": {
     "item": "thermal:press_gear_die"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  }
 }

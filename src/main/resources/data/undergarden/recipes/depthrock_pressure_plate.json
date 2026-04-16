@@ -5,7 +5,7 @@
       "item": "undergarden:depthrock"
     },
     "B": {
-      "tag": "monumental_recipes:tools/hammers"
+      "tag": "monumental_experience:tools/hammers"
     }
   },
   "pattern": [
@@ -15,15 +15,5 @@
   ],
   "result": {
     "item": "undergarden:depthrock_pressure_plate"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "undergarden"
-    }
-  ]
+  }
 }

@@ -8,7 +8,7 @@
       "tag": "forge:plates/diamond"
     },
     "E": {
-      "tag": "monumental_recipes:eyes"
+      "tag": "monumental_experience:eyes"
     }
   },
   "pattern": [
@@ -20,15 +20,5 @@
   ],
   "result": {
     "item": "ironfurnaces:upgrade_crystal"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ironfurnaces"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+  }
 }

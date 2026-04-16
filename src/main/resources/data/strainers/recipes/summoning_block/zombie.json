@@ -5,15 +5,9 @@
     {
       "item": "mysticalagriculture:zombie_essence"
     },
-    {
-      "item": "minecraft:zombie_spawn_egg"
-    }
+         {
+           "item": "minecraft:zombie_spawn_egg"
+         }
   ],
-  "summonedMob": "minecraft:zombie",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    }
-  ]
+  "summonedMob": "minecraft:zombie"
 }

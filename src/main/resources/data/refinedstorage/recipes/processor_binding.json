@@ -8,25 +8,25 @@
       "item": "immersiveengineering:hemp_fiber"
     },
     {
-      "tag": "monumental_recipes:cloth"
+      "tag": "monumental_experience:cloth"
     },
     {
       "item": "industrialforegoing:pink_slime_ingot"
     },
     {
-      "tag": "monumental_recipes:cloth"
+      "tag": "monumental_experience:cloth"
     },
     {
       "item": "immersiveengineering:hemp_fiber"
     },
     {
-      "tag": "monumental_recipes:cloth"
+      "tag": "monumental_experience:cloth"
     },
     {
       "item": "industrialforegoing:pink_slime_ingot"
     },
     {
-      "tag": "monumental_recipes:cloth"
+      "tag": "monumental_experience:cloth"
     }
   ],
   "output": {
@@ -36,23 +36,5 @@
     "fluid": "minecraft:lava"
   },
   "fluidLevelsConsumed": 1500,
-  "heatRequirement": "heated",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "industrialforegoing"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "refinedstorage"
-    }
-  ]
+  "heatRequirement": "heated"
 }

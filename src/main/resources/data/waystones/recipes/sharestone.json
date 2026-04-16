@@ -16,15 +16,5 @@
     {
       "item": "waystones:sharestone"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "chipped"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "waystones"
-    }
   ]
 }

@@ -19,15 +19,5 @@
   "result": {
     "item": "mekanism:upgrade_gas",
     "count": 2
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ae2"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mekanism"
-    }
-  ]
+  }
 }

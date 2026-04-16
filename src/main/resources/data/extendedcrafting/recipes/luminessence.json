@@ -29,22 +29,8 @@
   ],
   "results": [
     {
-      "item": "extendedcrafting:luminessence",
-      "count": 4
-    }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "cyclic"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
+    "item": "extendedcrafting:luminessence",
+    "count": 4
     }
   ]
 }

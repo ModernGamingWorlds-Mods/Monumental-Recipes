@@ -11,19 +11,5 @@
   },
   "template": {
     "item": "naturalist:bug_net"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "naturalist"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "notenoughwands"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "supplementaries"
-    }
-  ]
+  }
 }

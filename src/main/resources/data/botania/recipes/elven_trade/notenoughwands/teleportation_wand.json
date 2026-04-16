@@ -2,11 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
+      "modid": "botania"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "notenoughwands"
+      "type": "forge:item_exists",
+      "item": "notenoughwands:teleportation_wand"
     }
   ],
   "type": "botania:elven_trade",

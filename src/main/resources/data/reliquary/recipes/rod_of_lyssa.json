@@ -16,11 +16,5 @@
   ],
   "result": {
     "item": "reliquary:rod_of_lyssa"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "reliquary"
-    }
-  ]
+  }
 }

@@ -20,11 +20,5 @@
   "category": "meals",
   "result": {
     "item": "farmersdelight:fish_stew"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "farmersdelight"
-    }
-  ]
+  }
 }

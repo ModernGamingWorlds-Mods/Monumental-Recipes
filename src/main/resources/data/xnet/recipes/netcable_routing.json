@@ -19,23 +19,5 @@
   "result": {
     "item": "xnet:netcable_routing",
     "count": 16
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "computercraft"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "xnet"
-    }
-  ]
+  }
 }

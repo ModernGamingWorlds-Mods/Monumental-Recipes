@@ -19,15 +19,5 @@
   "result": {
     "count": 1,
     "item": "immersiveengineering:coil_hv"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "createaddition"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    }
-  ]
+  }
 }

@@ -2,7 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "reliquary"
+      "modid": "botania"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "reliquary:shears_of_winter"
     }
   ],
   "type": "botania:elven_trade",

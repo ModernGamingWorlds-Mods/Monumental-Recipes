@@ -25,11 +25,5 @@
   "result": {
     "count": 1,
     "item": "rftoolsbase:machine_infuser"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rftoolsbase"
-    }
-  ]
+  }
 }

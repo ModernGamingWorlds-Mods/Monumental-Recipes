@@ -24,11 +24,5 @@
   ],
   "result": {
     "item": "immersiveengineering:workbench"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    }
-  ]
+  }
 }

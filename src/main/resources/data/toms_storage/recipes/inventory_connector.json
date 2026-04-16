@@ -1,12 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "PCP",
+  	"PCP",
     "cDc",
     "PEP"
   ],
   "key": {
-    "P": {
+  	"P": {
       "tag": "minecraft:planks"
     },
     "c": {
@@ -24,11 +24,5 @@
   },
   "result": {
     "item": "toms_storage:ts.inventory_connector"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "toms_storage"
-    }
-  ]
+  }
 }

@@ -23,11 +23,5 @@
   ],
   "result": {
     "item": "minecolonies:pasta_tomato"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "minecolonies"
-    }
-  ]
+  }
 }

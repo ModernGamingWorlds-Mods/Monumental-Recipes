@@ -17,11 +17,5 @@
   "result": {
     "item": "actuallyadditions:basic_coil"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "actuallyadditions"
-    }
-  ]
+  "show_notification": true
 }

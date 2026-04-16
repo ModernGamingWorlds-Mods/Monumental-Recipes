@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "S S",
+  	"S S",
     " C ",
     "S S"
   ],
@@ -16,11 +16,5 @@
   "result": {
     "item": "toms_storage:ts.inventory_cable_framed",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "toms_storage"
-    }
-  ]
+  }
 }

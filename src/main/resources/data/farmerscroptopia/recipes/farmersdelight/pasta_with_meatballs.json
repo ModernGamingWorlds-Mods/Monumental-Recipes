@@ -20,11 +20,5 @@
   "category": "meals",
   "result": {
     "item": "farmersdelight:pasta_with_meatballs"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "farmersdelight"
-    }
-  ]
+  }
 }

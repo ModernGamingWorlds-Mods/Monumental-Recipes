@@ -18,15 +18,5 @@
   "result": {
     "item": "waystones:return_scroll",
     "count": 3
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "naturesaura"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "waystones"
-    }
-  ]
+  }
 }

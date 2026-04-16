@@ -21,19 +21,5 @@
   ],
   "result": {
     "item": "charginggadgets:charging_station"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "charginggadgets"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pneumaticcraft"
-    }
-  ]
+  }
 }

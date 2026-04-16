@@ -26,15 +26,5 @@
   ],
   "result": {
     "item": "twilightdelight:ghast_brain_salad"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "twilightdelight"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "twilightforest"
-    }
-  ]
+  }
 }

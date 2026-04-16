@@ -11,15 +11,5 @@
   ],
   "result": {
     "item": "snad:suol_snad"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "chipped"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "snad"
-    }
-  ]
+  }
 }

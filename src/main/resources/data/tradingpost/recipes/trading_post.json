@@ -18,15 +18,5 @@
   ],
   "result": {
     "item": "tradingpost:trading_post"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "tradingpost"
-    }
-  ]
+  }
 }

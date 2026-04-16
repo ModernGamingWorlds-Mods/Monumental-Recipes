@@ -26,11 +26,5 @@
       "item": "immersiveengineering:cokebrick",
       "count": 2
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    }
   ]
 }

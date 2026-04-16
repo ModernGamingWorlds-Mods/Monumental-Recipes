@@ -11,11 +11,5 @@
   ],
   "result": {
     "item": "forestry:kit_pickaxe"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "forestry"
-    }
-  ]
+  }
 }

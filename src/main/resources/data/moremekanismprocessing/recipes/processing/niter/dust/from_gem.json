@@ -1,17 +1,11 @@
 {
-  "type": "mekanism:crushing",
-  "input": {
-    "ingredient": {
-      "tag": "forge:gems/niter"
+    "type": "mekanism:crushing",
+    "input": {
+        "ingredient": {
+            "tag": "forge:gems/niter"
+        }
+    },
+    "output": {
+        "item": "thermal:niter_dust"
     }
-  },
-  "output": {
-    "item": "thermal:niter_dust"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
 }

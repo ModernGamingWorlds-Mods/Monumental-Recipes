@@ -1,20 +1,15 @@
 {
-  "type": "immersiveengineering:metal_press",
-  "energy": 2400,
-  "input": {
-    "base_ingredient": {
-      "tag": "forge:nuggets/vibranium"
+    "type": "immersiveengineering:metal_press",
+    "energy": 2400,
+    "input": {
+        "base_ingredient":
+        {
+            "tag": "forge:nuggets/vibranium"
+        },
+        "count":4
     },
-    "count": 4
-  },
-  "mold": "immersiveengineering:mold_packing_4",
-  "result": {
-    "tag": "forge:ingots/vibranium"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
+    "mold": "immersiveengineering:mold_packing_4",
+    "result": {
+        "tag": "forge:ingots/vibranium"
     }
-  ]
 }

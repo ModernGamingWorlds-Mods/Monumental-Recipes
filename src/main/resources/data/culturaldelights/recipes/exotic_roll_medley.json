@@ -31,11 +31,5 @@
   ],
   "result": {
     "item": "culturaldelights:exotic_roll_medley"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "culturaldelights"
-    }
-  ]
+  }
 }

@@ -21,19 +21,5 @@
   ],
   "result": {
     "item": "rebornstorage:larger_item_disk"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rebornstorage"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "refinedstorage"
-    }
-  ]
+  }
 }

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "base": {
-    "tag": "monumental_recipes:conveyors"
+    "tag": "monumental_experience:conveyors"
   },
   "addition": {
     "item": "notenoughwands:wand_core"
@@ -11,19 +11,5 @@
   },
   "template": {
     "item": "apotheosis:sigil_of_withdrawal"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "apotheosis"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "notenoughwands"
-    }
-  ]
+  }
 }

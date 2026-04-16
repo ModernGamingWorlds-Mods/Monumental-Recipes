@@ -10,16 +10,6 @@
     "item": "blue_skies:maple_pickaxe"
   },
   "template": {
-    "tag": "monumental_recipes:wooden_plates"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "blue_skies"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+    "tag": "monumental_experience:wooden_plates"
+  }
 }

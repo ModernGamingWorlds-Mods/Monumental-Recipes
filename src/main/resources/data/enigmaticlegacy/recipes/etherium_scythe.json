@@ -4,22 +4,12 @@
     "item": "mysticalagriculture:diamond_scythe"
   },
   "addition": {
-    "item": "enigmaticlegacy:etherium_ingot"
+      "item": "enigmaticlegacy:etherium_ingot"
   },
   "result": {
     "item": "enigmaticlegacy:etherium_scythe"
   },
   "template": {
     "item": "enigmaticlegacy:ender_rod"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "enigmaticlegacy"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    }
-  ]
+  }
 }

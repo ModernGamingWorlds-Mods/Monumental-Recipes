@@ -69,11 +69,5 @@
         "min": 6.0
       }
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "betterjungletemples"
-    }
   ]
 }

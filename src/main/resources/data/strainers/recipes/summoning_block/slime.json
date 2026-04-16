@@ -5,15 +5,9 @@
     {
       "item": "mysticalagriculture:slime_essence"
     },
-    {
-      "item": "minecraft:slime_spawn_egg"
-    }
+         {
+           "item": "minecraft:slime_spawn_egg"
+         }
   ],
-  "summonedMob": "minecraft:slime",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    }
-  ]
+  "summonedMob": "minecraft:slime"
 }

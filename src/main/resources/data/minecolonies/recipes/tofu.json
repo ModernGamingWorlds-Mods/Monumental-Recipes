@@ -8,11 +8,5 @@
   ],
   "result": {
     "item": "minecolonies:tofu"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "minecolonies"
-    }
-  ]
+  }
 }

@@ -2,7 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "notenoughwands"
+      "modid": "botania"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "notenoughwands:acceleration_wand"
     }
   ],
   "type": "botania:elven_trade",

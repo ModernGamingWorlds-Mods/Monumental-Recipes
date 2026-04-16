@@ -10,11 +10,5 @@
       "count": 6,
       "item": "forbidden_arcanus:cherry_planks"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "forbidden_arcanus"
-    }
   ]
 }

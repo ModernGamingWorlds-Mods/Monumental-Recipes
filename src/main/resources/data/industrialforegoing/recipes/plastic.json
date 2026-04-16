@@ -6,11 +6,5 @@
   "ingredient": {
     "tag": "forge:rubber"
   },
-  "result": "industrialforegoing:plastic",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "industrialforegoing"
-    }
-  ]
+  "result": "industrialforegoing:plastic"
 }

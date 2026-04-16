@@ -6,11 +6,5 @@
   "ingredient": {
     "tag": "pneumaticcraft:smooth_plastic_bricks"
   },
-  "result": "industrialforegoing:plastic",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pneumaticcraft"
-    }
-  ]
+  "result": "industrialforegoing:plastic"
 }

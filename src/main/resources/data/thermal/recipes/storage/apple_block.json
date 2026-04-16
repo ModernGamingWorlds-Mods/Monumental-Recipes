@@ -13,11 +13,5 @@
   "result": {
     "count": 1,
     "item": "thermal:apple_block"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  }
 }

@@ -1,15 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "apotheosis"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "villagersplus"
-    }
-  ],
+  "conditions": [{
+	"type": "apotheosis:module",
+    "module": "adventure"
+  }],
   "group": "something",
   "pattern": [
     " N ",
@@ -20,13 +14,13 @@
     "N": {
       "tag": "forge:ingots/compressed_iron"
     },
-    "G": {
+	"G": {
       "item": "apotheosis:gem_dust"
     },
-    "E": {
+	"E": {
       "item": "villagersplus:occultist_table"
     },
-    "B": {
+	"B": {
       "item": "minecraft:smooth_stone"
     }
   },

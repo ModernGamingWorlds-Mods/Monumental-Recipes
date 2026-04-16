@@ -18,11 +18,5 @@
   },
   "result": {
     "item": "opolisutilities:home_stone"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "opolisutilities"
-    }
-  ]
+  }
 }

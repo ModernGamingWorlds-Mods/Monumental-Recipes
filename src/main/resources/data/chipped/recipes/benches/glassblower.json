@@ -27,11 +27,5 @@
   },
   "result": {
     "item": "chipped:glassblower"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "chipped"
-    }
-  ]
+  }
 }

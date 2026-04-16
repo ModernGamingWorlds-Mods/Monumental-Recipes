@@ -12,15 +12,5 @@
   "result": {
     "item": "opolisutilities:bundled_flesh",
     "count": 2
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "opolisutilities"
-    }
-  ]
+  }
 }

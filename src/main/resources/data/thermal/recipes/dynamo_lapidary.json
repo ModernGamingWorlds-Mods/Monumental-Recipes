@@ -28,15 +28,5 @@
   "result": {
     "count": 1,
     "item": "thermal:dynamo_lapidary"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  }
 }

@@ -2,7 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "create_sa"
+      "modid": "botania"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "create_sa:zinc_boots"
     }
   ],
   "type": "botania:elven_trade",

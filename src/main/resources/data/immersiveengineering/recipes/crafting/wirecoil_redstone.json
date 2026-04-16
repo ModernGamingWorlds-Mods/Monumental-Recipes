@@ -19,15 +19,5 @@
   "result": {
     "item": "immersiveengineering:wirecoil_redstone",
     "count": 2
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "createaddition"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    }
-  ]
+  }
 }

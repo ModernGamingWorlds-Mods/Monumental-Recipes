@@ -14,15 +14,5 @@
       "item": "allthemodium:vibranium_ingot"
     }
   ],
-  "energy": 400,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "allthemodium"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  "energy": 400
 }

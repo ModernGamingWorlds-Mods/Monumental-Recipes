@@ -17,15 +17,5 @@
   ],
   "result": {
     "item": "pneumaticcraft:heat_sink"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pneumaticcraft"
-    }
-  ]
+  }
 }

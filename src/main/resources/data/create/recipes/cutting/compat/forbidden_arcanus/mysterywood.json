@@ -9,11 +9,5 @@
     {
       "item": "forbidden_arcanus:stripped_aurum_wood"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "forbidden_arcanus"
-    }
   ]
 }

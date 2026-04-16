@@ -21,15 +21,5 @@
   ],
   "result": {
     "item": "refinedstorage:4k_storage_disk"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "refinedstorage"
-    }
-  ]
+  }
 }

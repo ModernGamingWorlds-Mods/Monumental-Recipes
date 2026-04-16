@@ -23,15 +23,5 @@
   ],
   "result": {
     "item": "twilightdelight:borer_tear_soup"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "twilightdelight"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "twilightforest"
-    }
-  ]
+  }
 }

@@ -15,19 +15,5 @@
   ],
   "result": {
     "item": "mekanism:basic_chemical_tank"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "kubejs"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mekanism"
-    }
-  ]
+  }
 }

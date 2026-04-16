@@ -27,15 +27,5 @@
   "result": {
     "item": "undead_revamp2:huntersackpink",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "undead_revamp2"
-    }
-  ]
+  }
 }

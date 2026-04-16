@@ -14,11 +14,5 @@
   "result": {
     "item": "wfc:banana_waffle",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "wfc"
-    }
-  ]
+  }
 }

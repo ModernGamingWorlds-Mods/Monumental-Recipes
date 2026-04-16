@@ -75,11 +75,5 @@
       }
     }
   ],
-  "random_sequence": "hexerei:chests/nature_coven_coffer",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "hexerei"
-    }
-  ]
+  "random_sequence": "hexerei:chests/nature_coven_coffer"
 }

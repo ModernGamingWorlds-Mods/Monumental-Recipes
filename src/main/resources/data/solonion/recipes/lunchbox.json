@@ -1,25 +1,19 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " A ",
-    "ABA",
-    "AAA"
-  ],
-  "key": {
-    "A": {
-      "tag": "forge:ingots/iron"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " A ",
+        "ABA",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/iron"
+        },
+        "B": {
+            "item": "solonion:lunchbag"
+        }
     },
-    "B": {
-      "item": "solonion:lunchbag"
+    "result": {
+        "item": "solonion:lunchbox"
     }
-  },
-  "result": {
-    "item": "solonion:lunchbox"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "solonion"
-    }
-  ]
 }

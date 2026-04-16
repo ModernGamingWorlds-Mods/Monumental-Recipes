@@ -5,8 +5,12 @@
       "modid": "extendedcrafting"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagradditions"
+      "type": "forge:item_exists",
+      "item": "mysticalagradditions:creative_essence"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "mysticalagradditions:insanium_essence"
     }
   ],
   "type": "extendedcrafting:compressor",

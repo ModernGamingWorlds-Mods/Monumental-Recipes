@@ -24,19 +24,5 @@
       "count": 1
     }
   ],
-  "time": 20,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "forestry"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "inventorypets"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mobees"
-    }
-  ]
+  "time": 20
 }

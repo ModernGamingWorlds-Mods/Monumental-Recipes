@@ -9,7 +9,7 @@
       "item": "refinedstorage:basic_processor"
     },
     "G": {
-      "tag": "monumental_recipes:tanks"
+      "tag": "monumental_experience:tanks"
     }
   },
   "pattern": [
@@ -22,15 +22,5 @@
   "result": {
     "count": 1,
     "item": "refinedstorage:256k_fluid_storage_part"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "refinedstorage"
-    }
-  ]
+  }
 }

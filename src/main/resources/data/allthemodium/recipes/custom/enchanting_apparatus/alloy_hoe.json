@@ -29,11 +29,5 @@
       "item": "allthemodium:allthemodium_hoe"
     }
   ],
-  "sourceCost": 5000,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "allthemodium"
-    }
-  ]
+  "sourceCost": 5000
 }

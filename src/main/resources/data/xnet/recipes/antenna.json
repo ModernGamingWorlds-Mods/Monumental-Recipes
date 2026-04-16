@@ -15,19 +15,5 @@
   ],
   "result": {
     "item": "xnet:antenna"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "graveyard"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "xnet"
-    }
-  ]
+  }
 }

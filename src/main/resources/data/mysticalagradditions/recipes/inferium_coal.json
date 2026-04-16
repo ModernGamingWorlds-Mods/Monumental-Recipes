@@ -16,15 +16,5 @@
     {
       "item": "mysticalagradditions:inferium_coal"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagradditions"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    }
   ]
 }

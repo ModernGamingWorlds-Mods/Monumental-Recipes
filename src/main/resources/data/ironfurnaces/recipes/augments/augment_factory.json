@@ -24,19 +24,5 @@
   },
   "result": {
     "item": "ironfurnaces:augment_factory"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ironfurnaces"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mekanism"
-    }
-  ]
+  }
 }

@@ -17,11 +17,5 @@
   "result": {
     "item": "weather2:wind_vane"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "weather2"
-    }
-  ]
+  "show_notification": true
 }

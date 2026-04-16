@@ -36,11 +36,5 @@
     "count": 3,
     "item": "croptopia:pumpkin_bars"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia"
-    }
-  ]
+  "show_notification": true
 }

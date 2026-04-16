@@ -19,11 +19,5 @@
   "result": {
     "item": "reliquary:mob_charm_fragment",
     "nbt": "{entity:\"minecraft:wither_skeleton\"}"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "reliquary"
-    }
-  ]
+  }
 }

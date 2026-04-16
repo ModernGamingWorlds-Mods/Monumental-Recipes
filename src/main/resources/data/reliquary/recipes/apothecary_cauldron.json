@@ -11,7 +11,7 @@
         "type": "minecraft:crafting_shaped",
         "key": {
           "C": {
-            "tag": "monumental_recipes:cauldrons"
+            "tag": "minecraft:cauldrons"
           },
           "G": {
             "item": "reliquary:catalyzing_gland"
@@ -35,12 +35,6 @@
           "item": "reliquary:apothecary_cauldron"
         }
       }
-    }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "reliquary"
     }
   ]
 }

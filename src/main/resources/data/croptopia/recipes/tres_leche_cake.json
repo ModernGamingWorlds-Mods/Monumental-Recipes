@@ -26,11 +26,5 @@
   "result": {
     "item": "croptopia:tres_leche_cake",
     "count": 2
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia"
-    }
-  ]
+  }
 }

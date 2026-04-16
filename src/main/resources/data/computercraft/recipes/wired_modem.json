@@ -15,15 +15,5 @@
   },
   "result": {
     "item": "computercraft:wired_modem"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "computercraft"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pneumaticcraft"
-    }
-  ]
+  }
 }

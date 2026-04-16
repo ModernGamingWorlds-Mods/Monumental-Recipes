@@ -17,11 +17,5 @@
   "result": {
     "item": "croptopia:steamed_rice",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia"
-    }
-  ]
+  }
 }

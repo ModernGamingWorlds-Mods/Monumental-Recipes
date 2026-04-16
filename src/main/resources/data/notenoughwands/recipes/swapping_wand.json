@@ -10,20 +10,6 @@
     "item": "notenoughwands:swapping_wand"
   },
   "template": {
-    "tag": "monumental_recipes:tools/hammers"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "notenoughwands"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "sophisticatedbackpacks"
-    }
-  ]
+    "tag": "monumental_experience:tools/hammers"
+  }
 }

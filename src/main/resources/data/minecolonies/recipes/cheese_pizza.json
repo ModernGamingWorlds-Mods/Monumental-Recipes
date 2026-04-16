@@ -27,11 +27,5 @@
   "result": {
     "count": 2,
     "item": "minecolonies:cheese_pizza"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "minecolonies"
-    }
-  ]
+  }
 }

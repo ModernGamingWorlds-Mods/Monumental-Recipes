@@ -8,11 +8,5 @@
     "amount": 100
   },
   "result": "allthemodium:allthemodium_ingot",
-  "cooling_time": 74,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "tconstruct"
-    }
-  ]
+  "cooling_time": 74
 }

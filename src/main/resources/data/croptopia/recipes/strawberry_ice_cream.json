@@ -20,11 +20,5 @@
   ],
   "result": {
     "item": "croptopia:strawberry_ice_cream"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia"
-    }
-  ]
+  }
 }

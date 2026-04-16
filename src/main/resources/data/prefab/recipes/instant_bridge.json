@@ -18,15 +18,5 @@
   "result": {
     "item": "prefab:item_instant_bridge",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "compressium"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "prefab"
-    }
-  ]
+  }
 }

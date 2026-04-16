@@ -9,7 +9,7 @@
       "item": "ironfurnaces:diamond_furnace"
     },
     "C": {
-      "tag": "monumental_recipes:eyes"
+      "tag": "monumental_experience:eyes"
     }
   },
   "pattern": [
@@ -22,15 +22,5 @@
   "result": {
     "count": 1,
     "item": "ironfurnaces:crystal_furnace"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ironfurnaces"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+  }
 }

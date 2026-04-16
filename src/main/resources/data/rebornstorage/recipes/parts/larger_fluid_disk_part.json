@@ -29,15 +29,5 @@
   },
   "result": {
     "item": "rebornstorage:larger_fluid_disk_part"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rebornstorage"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "refinedstorage"
-    }
-  ]
+  }
 }

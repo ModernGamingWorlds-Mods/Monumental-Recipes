@@ -25,11 +25,5 @@
   "result": {
     "item": "croptopia:chocolate_ice_cream",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia"
-    }
-  ]
+  }
 }

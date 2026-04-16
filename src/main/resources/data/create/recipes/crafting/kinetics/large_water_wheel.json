@@ -15,11 +15,5 @@
   ],
   "result": {
     "item": "create:large_water_wheel"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "create"
-    }
-  ]
+  }
 }

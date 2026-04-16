@@ -5,15 +5,9 @@
     {
       "item": "mysticalagriculture:nature_essence"
     },
-    {
-      "item": "minecraft:horse_spawn_egg"
-    }
+         {
+           "item": "minecraft:horse_spawn_egg"
+         }
   ],
-  "summonedMob": "minecraft:horse",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    }
-  ]
+  "summonedMob": "minecraft:horse"
 }

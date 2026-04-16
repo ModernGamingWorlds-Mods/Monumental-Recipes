@@ -9,23 +9,13 @@
       "item": "fluxnetworks:flux_dust"
     },
     {
-      "tag": "monumental_recipes:eyes"
+      "tag": "monumental_experience:eyes"
     }
   ],
   "results": [
     {
       "item": "fluxnetworks:flux_core",
       "count": 2
-    }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "fluxnetworks"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
     }
   ]
 }

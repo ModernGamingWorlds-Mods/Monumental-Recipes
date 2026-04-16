@@ -8,7 +8,7 @@
       "tag": "forge:plates/zinc"
     },
     "S": {
-      "tag": "monumental_recipes:tools/hammers"
+      "tag": "monumental_experience:tools/hammers"
     }
   },
   "pattern": [
@@ -18,15 +18,5 @@
   ],
   "result": {
     "item": "create:andesite_alloy"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "create"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+  }
 }

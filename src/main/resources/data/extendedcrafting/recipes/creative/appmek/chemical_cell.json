@@ -2,11 +2,15 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "appmek"
+      "modid": "extendedcrafting"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
+      "type": "forge:item_exists",
+      "item": "appmek:creative_chemical_cell"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "appmek:chemical_storage_cell_256k"
     }
   ],
   "type": "extendedcrafting:compressor",

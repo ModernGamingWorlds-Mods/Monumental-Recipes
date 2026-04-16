@@ -18,15 +18,5 @@
   },
   "result": {
     "item": "strainers:improved_input_upgrade"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "opolisutilities"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "strainers"
-    }
-  ]
+  }
 }

@@ -2,7 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "occultism"
+      "modid": "thermal"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "occultism:crushed_end_stone"
     }
   ],
   "type": "thermal:pulverizer",

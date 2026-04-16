@@ -24,15 +24,5 @@
   ],
   "result": {
     "item": "rftoolspower:dimensionalcell"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rftoolspower"
-    }
-  ]
+  }
 }

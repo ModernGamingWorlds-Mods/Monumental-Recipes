@@ -19,15 +19,5 @@
     {
       "item": "refinedstorage:raw_basic_processor"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "refinedstorage"
-    }
   ]
 }

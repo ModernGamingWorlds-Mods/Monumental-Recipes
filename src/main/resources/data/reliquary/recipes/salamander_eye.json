@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "monumental_recipes:eyes"
+      "tag": "monumental_experience:eyes"
     },
     {
       "item": "reliquary:molten_core"
@@ -16,15 +16,5 @@
   ],
   "result": {
     "item": "reliquary:salamander_eye"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "reliquary"
-    }
-  ]
+  }
 }

@@ -8,7 +8,7 @@
       "tag": "forge:ingots/gold"
     },
     "C": {
-      "tag": "monumental_recipes:tools/hammers"
+      "tag": "monumental_experience:tools/hammers"
     }
   },
   "pattern": [
@@ -18,15 +18,5 @@
   ],
   "result": {
     "item": "framedblocks:framed_gold_pressure_plate"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "framedblocks"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+  }
 }

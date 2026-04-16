@@ -18,15 +18,5 @@
   ],
   "result": {
     "item": "toolbelt:pouch"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "material_elements"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "toolbelt"
-    }
-  ]
+  }
 }

@@ -12,11 +12,5 @@
     {
       "item": "aquaculture:nether_star_hook"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "aquaculture"
-    }
   ]
 }

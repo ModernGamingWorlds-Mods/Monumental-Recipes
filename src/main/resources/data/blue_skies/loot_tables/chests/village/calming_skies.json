@@ -99,11 +99,5 @@
       }
     }
   ],
-  "random_sequence": "blue_skies:chests/village/calming_skies",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "blue_skies"
-    }
-  ]
+  "random_sequence": "blue_skies:chests/village/calming_skies"
 }

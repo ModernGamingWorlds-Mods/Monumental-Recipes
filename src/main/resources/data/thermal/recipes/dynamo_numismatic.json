@@ -28,15 +28,5 @@
   "result": {
     "count": 1,
     "item": "thermal:dynamo_numismatic"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  }
 }

@@ -5,15 +5,5 @@
     "amount": 100
   },
   "temperature": 1500,
-  "output": "allthemodium:allthemodium",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "allthemodium"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "tconstruct"
-    }
-  ]
+  "output": "allthemodium:allthemodium"
 }

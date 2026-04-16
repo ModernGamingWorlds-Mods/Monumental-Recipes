@@ -20,11 +20,5 @@
   "category": "drinks",
   "result": {
     "item": "farmersdelight:apple_cider"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "farmersdelight"
-    }
-  ]
+  }
 }

@@ -23,15 +23,5 @@
   "result": {
     "item": "wfc:dutch_waffles",
     "count": 8
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "wfc"
-    }
-  ]
+  }
 }

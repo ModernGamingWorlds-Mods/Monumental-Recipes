@@ -17,11 +17,5 @@
   "result": {
     "item": "eidolon:wooden_altar",
     "count": 4
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "eidolon"
-    }
-  ]
+  }
 }

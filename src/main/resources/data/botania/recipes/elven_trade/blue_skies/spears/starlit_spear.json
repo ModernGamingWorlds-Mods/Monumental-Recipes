@@ -12,11 +12,5 @@
     {
       "item": "blue_skies:starlit_spear"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "blue_skies"
-    }
   ]
 }

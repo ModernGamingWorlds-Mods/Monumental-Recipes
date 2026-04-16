@@ -17,11 +17,5 @@
   ],
   "result": {
     "item": "minecolonies:pasta_plain"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "minecolonies"
-    }
-  ]
+  }
 }

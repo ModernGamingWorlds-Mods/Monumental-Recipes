@@ -14,25 +14,11 @@
       "tag": "chipped:redstone_block"
     },
     "P": {
-      "tag": "monumental_recipes:pistons"
+      "tag": "monumental_experience:pistons"
     }
   },
   "result": {
     "item": "multipiston:multipistonblock",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "chipped"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "multipiston"
-    }
-  ]
+  }
 }

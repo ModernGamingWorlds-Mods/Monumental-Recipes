@@ -17,11 +17,5 @@
   ],
   "result": {
     "item": "ironfurnaces:upgrade_iron"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ironfurnaces"
-    }
-  ]
+  }
 }

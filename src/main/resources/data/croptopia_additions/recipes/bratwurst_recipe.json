@@ -23,15 +23,5 @@
   "result": {
     "item": "croptopia_additions:bratwurst",
     "count": 3
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia_additions"
-    }
-  ]
+  }
 }

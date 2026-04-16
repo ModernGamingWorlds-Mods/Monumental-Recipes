@@ -2,11 +2,15 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "ae2"
+      "modid": "extendedcrafting"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
+      "type": "forge:item_exists",
+      "item": "ae2:creative_item_cell"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "ae2:item_storage_cell_256k"
     }
   ],
   "type": "extendedcrafting:compressor",

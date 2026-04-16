@@ -224,8 +224,8 @@
           "weight": 30,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{BlockEntityTag:{Patterns:[{Pattern:bri,Color:15},{Pattern:bri,Color:8},{Pattern:gru,Color:12},{Pattern:bts,Color:15},{Pattern:tts,Color:15},{Pattern:ms,Color:15},{Pattern:mr,Color:15},{Pattern:flo,Color:0},{Pattern:flo,Color:12},{Pattern:flo,Color:7},{Pattern:sc,Color:15},{Pattern:flo,Color:15}]}}"
+              "function":"set_nbt",
+              "tag":"{BlockEntityTag:{Patterns:[{Pattern:bri,Color:15},{Pattern:bri,Color:8},{Pattern:gru,Color:12},{Pattern:bts,Color:15},{Pattern:tts,Color:15},{Pattern:ms,Color:15},{Pattern:mr,Color:15},{Pattern:flo,Color:0},{Pattern:flo,Color:12},{Pattern:flo,Color:7},{Pattern:sc,Color:15},{Pattern:flo,Color:15}]}}"
             }
           ]
         },
@@ -241,12 +241,6 @@
           ]
         }
       ]
-    }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "repurposed_structures"
     }
   ]
 }

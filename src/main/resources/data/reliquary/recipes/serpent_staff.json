@@ -5,7 +5,7 @@
       "item": "reliquary:chelicerae"
     },
     "E": {
-      "tag": "monumental_recipes:eyes"
+      "tag": "monumental_experience:eyes"
     },
     "K": {
       "item": "reliquary:kraken_shell_fragment"
@@ -21,15 +21,5 @@
   ],
   "result": {
     "item": "reliquary:serpent_staff"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "reliquary"
-    }
-  ]
+  }
 }

@@ -11,11 +11,5 @@
   ],
   "result": {
     "item": "forestry:axe_kit"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "forestry"
-    }
-  ]
+  }
 }

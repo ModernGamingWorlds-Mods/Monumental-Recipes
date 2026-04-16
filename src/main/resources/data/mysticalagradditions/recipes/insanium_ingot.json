@@ -16,15 +16,5 @@
     {
       "item": "mysticalagradditions:insanium_ingot"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagradditions"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    }
   ]
 }

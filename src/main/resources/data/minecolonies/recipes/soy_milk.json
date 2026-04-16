@@ -10,11 +10,5 @@
   ],
   "result": {
     "item": "minecolonies:large_soy_milk_bottle"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "minecolonies"
-    }
-  ]
+  }
 }

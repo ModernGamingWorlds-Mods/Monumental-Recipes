@@ -18,11 +18,5 @@
       "item": "thermal:sawdust"
     }
   },
-  "time": 5,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  "time": 5
 }

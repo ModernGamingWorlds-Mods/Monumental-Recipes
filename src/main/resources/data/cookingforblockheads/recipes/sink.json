@@ -18,15 +18,5 @@
     "D": {
       "item": "compressedcreativity:mesh_splashing"
     }
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "compressedcreativity"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "cookingforblockheads"
-    }
-  ]
+  }
 }

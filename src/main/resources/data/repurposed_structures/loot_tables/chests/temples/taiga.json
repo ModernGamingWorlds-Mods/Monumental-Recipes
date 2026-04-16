@@ -169,8 +169,8 @@
           "weight": 2
         },
         {
-          "name": "minecraft:wild_armor_trim_smithing_template",
-          "type": "minecraft:item",
+           "name": "minecraft:wild_armor_trim_smithing_template",
+         "type": "minecraft:item",
           "functions": [
             {
               "add": false,
@@ -204,8 +204,8 @@
           "weight": 30,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{BlockEntityTag:{Patterns:[{Pattern:gra,Color:13},{Pattern:gra,Color:13},{Pattern:gra,Color:12},{Pattern:mr,Color:15},{Pattern:flo,Color:15},{Pattern:bri,Color:15},{Pattern:bri,Color:15},{Pattern:bo,Color:1},{Pattern:bo,Color:12},{Pattern:bo,Color:15},{Pattern:moj,Color:14},{Pattern:moj,Color:4}]}}"
+              "function":"set_nbt",
+              "tag":"{BlockEntityTag:{Patterns:[{Pattern:gra,Color:13},{Pattern:gra,Color:13},{Pattern:gra,Color:12},{Pattern:mr,Color:15},{Pattern:flo,Color:15},{Pattern:bri,Color:15},{Pattern:bri,Color:15},{Pattern:bo,Color:1},{Pattern:bo,Color:12},{Pattern:bo,Color:15},{Pattern:moj,Color:14},{Pattern:moj,Color:4}]}}"
             }
           ]
         },
@@ -232,12 +232,6 @@
           ]
         }
       ]
-    }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "repurposed_structures"
     }
   ]
 }

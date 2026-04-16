@@ -28,15 +28,5 @@
   "result": {
     "count": 1,
     "item": "thermal:machine_bottler"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pneumaticcraft"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  }
 }

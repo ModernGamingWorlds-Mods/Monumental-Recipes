@@ -2,10 +2,6 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "ad_astra"
-    },
-    {
-      "type": "forge:mod_loaded",
       "modid": "thermal"
     }
   ],

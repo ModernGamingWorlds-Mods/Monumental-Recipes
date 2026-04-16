@@ -1,12 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " q ",
+  	" q ",
     "pcp",
     " q "
   ],
   "key": {
-    "q": {
+  	"q": {
       "tag": "forge:gems/quartz"
     },
     "p": {
@@ -18,11 +18,5 @@
   },
   "result": {
     "item": "toms_storage:ts.inventory_cable_connector_filtered"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "toms_storage"
-    }
-  ]
+  }
 }

@@ -21,15 +21,5 @@
   ],
   "result": {
     "item": "mekanism:configurator"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mekanism"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    }
-  ]
+  }
 }

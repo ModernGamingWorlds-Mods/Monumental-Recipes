@@ -17,11 +17,5 @@
   "result": {
     "item": "thermal:tin_gear"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  "show_notification": true
 }

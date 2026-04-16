@@ -1,25 +1,19 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " A ",
-    "ABA",
-    "AAA"
-  ],
-  "key": {
-    "A": {
-      "tag": "forge:ingots/gold"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " A ",
+        "ABA",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/gold"
+        },
+        "B": {
+            "item": "solonion:lunchbox"
+        }
     },
-    "B": {
-      "item": "solonion:lunchbox"
+    "result": {
+        "item": "solonion:golden_lunchbox"
     }
-  },
-  "result": {
-    "item": "solonion:golden_lunchbox"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "solonion"
-    }
-  ]
 }

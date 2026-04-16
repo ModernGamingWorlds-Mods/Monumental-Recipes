@@ -4,22 +4,12 @@
     "item": "minecraft:wooden_sword"
   },
   "addition": {
-    "item": "undead_revamp2:bostroxingot"
+      "item": "undead_revamp2:bostroxingot"
   },
   "result": {
     "item": "undead_revamp2:bostroxsword"
   },
   "template": {
-    "tag": "monumental_recipes:wooden_plates"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "undead_revamp2"
-    }
-  ]
+      "tag": "monumental_experience:wooden_plates"
+  }
 }

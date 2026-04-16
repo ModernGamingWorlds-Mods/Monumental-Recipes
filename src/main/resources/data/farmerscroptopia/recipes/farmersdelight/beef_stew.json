@@ -20,11 +20,5 @@
   "category": "meals",
   "result": {
     "item": "farmersdelight:beef_stew"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "farmersdelight"
-    }
-  ]
+  }
 }

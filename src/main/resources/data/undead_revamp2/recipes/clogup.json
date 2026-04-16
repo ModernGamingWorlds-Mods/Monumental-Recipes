@@ -20,11 +20,5 @@
   "result": {
     "item": "undead_revamp2:cloggerupgrade",
     "count": 2
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "undead_revamp2"
-    }
-  ]
+  }
 }

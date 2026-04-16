@@ -21,11 +21,5 @@
   "result": {
     "item": "undead_revamp2:f_iresack",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "undead_revamp2"
-    }
-  ]
+  }
 }

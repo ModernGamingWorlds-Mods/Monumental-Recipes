@@ -23,15 +23,5 @@
   "result": {
     "item": "enchantinginfuser:enchanting_infuser"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "compressium"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "enchantinginfuser"
-    }
-  ]
+  "show_notification": true
 }

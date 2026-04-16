@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","key":{"d":{"tag":"c:dyes/blue"},"k":{"item":"ae2:printed_logic_processor"},"p":{"tag":"c:paper"}},"pattern":[" k ","ddd","ppp"],"result":{"id":"immersiveengineering:blueprint","nbt":{"blueprint":"components"}}}

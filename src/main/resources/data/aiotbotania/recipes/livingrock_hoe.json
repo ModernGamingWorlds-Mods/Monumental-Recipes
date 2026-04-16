@@ -11,15 +11,5 @@
   },
   "template": {
     "tag": "forge:stone"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "aiotbotania"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "botania"
-    }
-  ]
+  }
 }

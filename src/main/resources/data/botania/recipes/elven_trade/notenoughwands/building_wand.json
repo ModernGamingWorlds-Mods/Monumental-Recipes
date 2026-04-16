@@ -2,11 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "notenoughwands"
+      "modid": "botania"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "quark"
+      "type": "forge:item_exists",
+      "item": "notenoughwands:building_wand"
     }
   ],
   "type": "botania:elven_trade",

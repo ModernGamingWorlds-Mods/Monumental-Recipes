@@ -283,11 +283,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "twilightforest:chests/tree_cache",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "twilightforest"
-    }
-  ]
+  "random_sequence": "twilightforest:chests/tree_cache"
 }

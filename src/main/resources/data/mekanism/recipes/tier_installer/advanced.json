@@ -21,11 +21,5 @@
   ],
   "result": {
     "item": "mekanism:advanced_tier_installer"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mekanism"
-    }
-  ]
+  }
 }

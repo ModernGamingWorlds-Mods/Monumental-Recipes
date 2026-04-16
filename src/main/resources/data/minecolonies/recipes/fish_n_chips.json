@@ -20,11 +20,5 @@
   ],
   "result": {
     "item": "minecolonies:fish_n_chips"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "minecolonies"
-    }
-  ]
+  }
 }

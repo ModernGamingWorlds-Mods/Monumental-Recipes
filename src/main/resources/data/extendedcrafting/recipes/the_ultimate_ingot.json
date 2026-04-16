@@ -37,11 +37,5 @@
     {
       "item": "extendedcrafting:the_ultimate_ingot"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    }
   ]
 }

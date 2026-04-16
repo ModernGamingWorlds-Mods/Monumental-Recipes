@@ -13,11 +13,5 @@
       "chance": 1.25
     }
   ],
-  "energy": 1000,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  "energy": 1000
 }

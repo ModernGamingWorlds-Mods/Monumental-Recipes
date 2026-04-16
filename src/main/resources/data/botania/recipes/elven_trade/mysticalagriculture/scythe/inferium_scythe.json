@@ -2,11 +2,15 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "cyclic"
+      "modid": "botania"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
+      "type": "forge:item_exists",
+      "item": "mysticalagriculture:inferium_scythe"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "cyclic:scythe_leaves"
     }
   ],
   "type": "botania:elven_trade",

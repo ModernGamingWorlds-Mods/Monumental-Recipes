@@ -5,7 +5,7 @@
       "item": "ae2:quartz_glass"
     },
     "A": {
-      "tag": "c:ingots/osmium"
+      "tag": "forge:ingots/osmium"
     },
     "B": {
       "item": "ae2:cell_component_256k"

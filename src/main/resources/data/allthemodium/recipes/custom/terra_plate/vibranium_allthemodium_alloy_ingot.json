@@ -14,11 +14,5 @@
   "mana": 1000000,
   "result": {
     "item": "allthemodium:vibranium_allthemodium_alloy_ingot"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "allthemodium"
-    }
-  ]
+  }
 }

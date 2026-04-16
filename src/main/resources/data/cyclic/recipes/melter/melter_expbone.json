@@ -1,25 +1,19 @@
 {
-  "type": "cyclic:melter",
-  "ingredients": [
-    {
-      "item": "cyclic:experience_food"
-    },
-    {
-      "tag": "forge:bones"
-    }
-  ],
-  "energy": {
-    "rfpertick": 100,
-    "ticks": 160
-  },
-  "result": {
-    "fluid": "create_enchantment_industry:experience",
-    "count": 1020
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "cyclic"
-    }
-  ]
+	"type": "cyclic:melter",
+	"ingredients": [
+		{
+			"item": "cyclic:experience_food"
+		},
+		{
+			"tag": "forge:bones"
+		}
+	],
+	"energy": {
+		"rfpertick": 100,
+		"ticks": 160
+	},
+	"result": {
+		"fluid": "create_enchantment_industry:experience",
+		"count": 1020
+	}
 }

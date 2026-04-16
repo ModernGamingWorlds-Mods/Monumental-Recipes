@@ -2,11 +2,15 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "ae2"
+      "modid": "botania"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "framedblocks"
+      "type": "forge:item_exists",
+      "item": "ae2:nether_quartz_wrench"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "framedblocks:framed_wrench"
     }
   ],
   "type": "botania:elven_trade",

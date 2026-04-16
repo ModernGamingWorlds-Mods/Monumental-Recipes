@@ -8,11 +8,5 @@
     {
       "item": "pneumaticcraft:ingot_iron_compressed"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pneumaticcraft"
-    }
   ]
 }

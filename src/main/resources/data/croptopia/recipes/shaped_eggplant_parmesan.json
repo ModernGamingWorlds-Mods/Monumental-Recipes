@@ -31,11 +31,5 @@
   "result": {
     "item": "croptopia:eggplant_parmesan",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia"
-    }
-  ]
+  }
 }

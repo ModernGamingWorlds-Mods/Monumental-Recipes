@@ -28,15 +28,5 @@
   "result": {
     "count": 1,
     "item": "mekanismgenerators:gas_burning_generator"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mekanism"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mekanismgenerators"
-    }
-  ]
+  }
 }

@@ -23,11 +23,5 @@
   "category": "meals",
   "result": {
     "item": "farmersdelight:chicken_soup"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "farmersdelight"
-    }
-  ]
+  }
 }

@@ -8,7 +8,7 @@
       "tag": "forge:plates/iron"
     },
     "C": {
-      "tag": "monumental_recipes:tanks"
+      "tag": "monumental_experience:tanks"
     }
   },
   "pattern": [
@@ -18,19 +18,5 @@
   ],
   "result": {
     "item": "mekanism:thermal_evaporation_block"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mekanism"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+  }
 }

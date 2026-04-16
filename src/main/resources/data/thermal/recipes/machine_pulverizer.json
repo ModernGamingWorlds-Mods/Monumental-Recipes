@@ -12,7 +12,7 @@
       "item": "thermal:rf_coil"
     },
     "X": {
-      "tag": "monumental_recipes:pistons"
+      "tag": "monumental_experience:pistons"
     },
     "Y": {
       "tag": "forge:storage_blocks/flint"
@@ -28,15 +28,5 @@
   "result": {
     "count": 1,
     "item": "thermal:machine_pulverizer"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  }
 }

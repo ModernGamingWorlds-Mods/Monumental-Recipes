@@ -2,11 +2,15 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "constructionwand"
+      "modid": "botania"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "notenoughwands"
+      "type": "forge:item_exists",
+      "item": "constructionwand:diamond_wand"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "notenoughwands:wand_core"
     }
   ],
   "type": "botania:elven_trade",

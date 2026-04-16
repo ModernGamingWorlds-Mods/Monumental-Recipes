@@ -27,15 +27,5 @@
   "result": {
     "item": "prefab:item_warehouse_improved",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "compressium"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "prefab"
-    }
-  ]
+  }
 }

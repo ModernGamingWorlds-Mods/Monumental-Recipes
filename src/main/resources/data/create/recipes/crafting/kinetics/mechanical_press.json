@@ -11,7 +11,7 @@
       "item": "create:andesite_casing"
     },
     "I": {
-      "tag": "monumental_recipes:pistons"
+      "tag": "monumental_experience:pistons"
     },
     "B": {
       "item": "create:shaft"
@@ -24,15 +24,5 @@
   ],
   "result": {
     "item": "create:mechanical_press"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "create"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+  }
 }

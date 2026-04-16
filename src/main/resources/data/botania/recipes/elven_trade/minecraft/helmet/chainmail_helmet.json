@@ -2,7 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
+      "modid": "botania"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "minecraft:chainmail_helmet"
     }
   ],
   "type": "botania:elven_trade",
@@ -11,7 +15,7 @@
       "item": "minecraft:leather_helmet"
     },
     {
-      "tag": "monumental_recipes:chains"
+      "tag": "monumental_experience:chains"
     }
   ],
   "output": [

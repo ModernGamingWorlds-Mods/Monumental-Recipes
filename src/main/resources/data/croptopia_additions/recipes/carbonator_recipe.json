@@ -10,7 +10,7 @@
       "tag": "forge:ingots/compressed_iron"
     },
     "b": {
-      "tag": "monumental_recipes:hoppers"
+      "tag": "monumental_experience:hoppers"
     },
     "c": {
       "tag": "forge:dusts/redstone"
@@ -19,15 +19,5 @@
   "result": {
     "item": "croptopia_additions:carbonation_machine",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia_additions"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+  }
 }

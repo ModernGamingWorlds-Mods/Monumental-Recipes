@@ -18,11 +18,5 @@
   ],
   "result": {
     "item": "refinedstorage:network_card"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "refinedstorage"
-    }
-  ]
+  }
 }

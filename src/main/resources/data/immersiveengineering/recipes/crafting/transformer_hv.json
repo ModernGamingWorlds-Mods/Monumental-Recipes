@@ -25,11 +25,5 @@
   "result": {
     "count": 1,
     "item": "immersiveengineering:transformer_hv"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    }
-  ]
+  }
 }

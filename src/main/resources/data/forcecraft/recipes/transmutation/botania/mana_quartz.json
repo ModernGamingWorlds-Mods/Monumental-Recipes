@@ -1,6 +1,7 @@
 {
-  "type": "forcecraft:infuser",
-  "ingredient": {
+  "type":"forcecraft:infuser",
+  "ingredient": 
+  {
     "item": "create:polished_rose_quartz"
   },
   "center": {
@@ -9,18 +10,8 @@
   "tier": 2,
   "time": 30,
   "output": {
-    "item": "botania:quartz_mana",
+    "item":"botania:quartz_mana",
     "count": 2
   },
-  "result": "forcecraft:item",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "botania"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "create"
-    }
-  ]
+  "result": "forcecraft:item"
 }

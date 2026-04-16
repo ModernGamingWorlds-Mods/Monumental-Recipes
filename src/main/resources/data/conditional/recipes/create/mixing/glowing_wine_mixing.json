@@ -3,11 +3,7 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "'forge"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "vinery"
+      "modid": "create"
     }
   ],
   "recipe": {

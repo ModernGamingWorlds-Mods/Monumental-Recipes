@@ -21,11 +21,5 @@
       "item": "immersiveengineering:insulating_glass"
     }
   ],
-  "time": 100,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    }
-  ]
+  "time": 100
 }

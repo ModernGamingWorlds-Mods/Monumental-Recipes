@@ -18,15 +18,5 @@
     "O": {
       "item": "compressium:emerald_4"
     }
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "compressium"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "inventorypets"
-    }
-  ]
+  }
 }

@@ -14,11 +14,5 @@
   "category": "misc",
   "result": {
     "item": "farmersdelight:cooked_rice"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "farmersdelight"
-    }
-  ]
+  }
 }

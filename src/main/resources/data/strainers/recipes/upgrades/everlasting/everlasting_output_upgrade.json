@@ -18,15 +18,5 @@
   },
   "result": {
     "item": "strainers:everlasting_output_upgrade"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "strainers"
-    }
-  ]
+  }
 }

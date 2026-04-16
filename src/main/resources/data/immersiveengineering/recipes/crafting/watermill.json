@@ -19,11 +19,5 @@
   "result": {
     "count": 1,
     "item": "immersiveengineering:watermill"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    }
-  ]
+  }
 }

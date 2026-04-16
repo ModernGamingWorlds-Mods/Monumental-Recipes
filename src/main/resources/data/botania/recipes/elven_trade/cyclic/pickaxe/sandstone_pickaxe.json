@@ -2,7 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "cyclic"
+      "modid": "botania"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "cyclic:sandstone_pickaxe"
     }
   ],
   "type": "botania:elven_trade",

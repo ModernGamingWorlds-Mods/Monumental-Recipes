@@ -28,11 +28,5 @@
   "result": {
     "count": 2,
     "item": "immersiveengineering:capacitor_lv"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    }
-  ]
+  }
 }

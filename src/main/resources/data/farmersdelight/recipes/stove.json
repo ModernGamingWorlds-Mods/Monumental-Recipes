@@ -20,11 +20,5 @@
   "result": {
     "item": "farmersdelight:stove"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "farmersdelight"
-    }
-  ]
+  "show_notification": true
 }

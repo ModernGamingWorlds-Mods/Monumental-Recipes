@@ -24,11 +24,5 @@
   ],
   "result": {
     "item": "reliquary:glowing_water"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "reliquary"
-    }
-  ]
+  }
 }

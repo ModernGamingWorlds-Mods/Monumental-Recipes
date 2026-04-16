@@ -10,16 +10,6 @@
     "item": "forbidden_arcanus:mortem_helmet"
   },
   "template": {
-    "tag": "monumental_recipes:chains"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "forbidden_arcanus"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+    "tag": "monumental_experience:chains"
+  }
 }

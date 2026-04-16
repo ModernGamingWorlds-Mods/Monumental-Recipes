@@ -2,7 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "monsterplus"
+      "modid": "botania"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "monsterplus:crystal_chestplate"
     }
   ],
   "type": "botania:elven_trade",

@@ -29,15 +29,5 @@
   },
   "result": {
     "item": "rebornstorage:multiblock_cpu"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rebornstorage"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "refinedstorage"
-    }
-  ]
+  }
 }

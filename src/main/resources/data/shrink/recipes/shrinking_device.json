@@ -21,19 +21,5 @@
   ],
   "result": {
     "item": "shrink:shrinking_device"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rftoolsbase"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "shrink"
-    }
-  ]
+  }
 }

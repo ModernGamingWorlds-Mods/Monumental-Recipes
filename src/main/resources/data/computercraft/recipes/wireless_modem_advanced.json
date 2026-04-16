@@ -15,19 +15,5 @@
   },
   "result": {
     "item": "computercraft:wireless_modem_advanced"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "computercraft"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pneumaticcraft"
-    }
-  ]
+  }
 }

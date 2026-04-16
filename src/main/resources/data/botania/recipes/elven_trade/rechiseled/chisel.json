@@ -2,11 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "chiselsandbits"
+      "modid": "botania"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "rechiseled"
+      "type": "forge:item_exists",
+      "item": "rechiseled:chisel"
     }
   ],
   "type": "botania:elven_trade",

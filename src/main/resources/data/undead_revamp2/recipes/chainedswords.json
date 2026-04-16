@@ -23,11 +23,5 @@
   "result": {
     "item": "undead_revamp2:chainsword",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "undead_revamp2"
-    }
-  ]
+  }
 }

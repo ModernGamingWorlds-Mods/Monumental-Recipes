@@ -10,20 +10,6 @@
     "item": "aiotbotania:livingwood_hoe"
   },
   "template": {
-    "tag": "monumental_recipes:wooden_plates"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "aiotbotania"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "botania"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+    "tag": "monumental_experience:wooden_plates"
+  }
 }

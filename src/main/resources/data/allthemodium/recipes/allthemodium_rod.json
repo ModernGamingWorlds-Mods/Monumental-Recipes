@@ -7,7 +7,7 @@
       "tag": "forge:ingots/allthemodium"
     },
     "b": {
-      "tag": "monumental_recipes:tools/hammers"
+      "tag": "monumental_experience:tools/hammers"
     }
   },
   "pattern": [
@@ -18,15 +18,5 @@
   "result": {
     "item": "allthemodium:allthemodium_rod"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "allthemodium"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+  "show_notification": true
 }

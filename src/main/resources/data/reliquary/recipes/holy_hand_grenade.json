@@ -17,15 +17,5 @@
   "result": {
     "count": 4,
     "item": "reliquary:holy_hand_grenade"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "reliquary"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  }
 }

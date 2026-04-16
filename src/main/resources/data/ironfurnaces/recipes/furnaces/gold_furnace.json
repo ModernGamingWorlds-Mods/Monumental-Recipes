@@ -22,11 +22,5 @@
   "result": {
     "count": 1,
     "item": "ironfurnaces:gold_furnace"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ironfurnaces"
-    }
-  ]
+  }
 }

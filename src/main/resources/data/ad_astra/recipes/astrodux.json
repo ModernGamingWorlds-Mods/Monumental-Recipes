@@ -7,6 +7,12 @@
       ]
     }
   ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "patchouli"
+    }
+  ],
   "type": "patchouli:shaped_book_recipe",
   "pattern": [
     "#/#",
@@ -24,19 +30,5 @@
       "tag": "forge:books"
     }
   },
-  "book": "ad_astra:astrodux",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ad_astra"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "fabric"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "patchouli"
-    }
-  ]
+  "book": "ad_astra:astrodux"
 }

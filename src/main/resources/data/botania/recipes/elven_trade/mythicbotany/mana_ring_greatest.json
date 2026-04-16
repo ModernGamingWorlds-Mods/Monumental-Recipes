@@ -5,8 +5,8 @@
       "modid": "botania"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "mythicbotany"
+      "type": "forge:item_exists",
+      "item": "mythicbotany:mana_ring_greatest"
     }
   ],
   "type": "botania:elven_trade",

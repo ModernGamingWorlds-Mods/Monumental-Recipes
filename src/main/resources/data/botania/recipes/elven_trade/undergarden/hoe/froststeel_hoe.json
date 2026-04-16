@@ -2,7 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "undergarden"
+      "modid": "botania"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "undergarden:froststeel_hoe"
     }
   ],
   "type": "botania:elven_trade",

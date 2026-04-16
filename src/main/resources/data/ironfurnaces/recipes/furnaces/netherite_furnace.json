@@ -25,15 +25,5 @@
   "result": {
     "count": 1,
     "item": "ironfurnaces:netherite_furnace"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "compressium"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ironfurnaces"
-    }
-  ]
+  }
 }

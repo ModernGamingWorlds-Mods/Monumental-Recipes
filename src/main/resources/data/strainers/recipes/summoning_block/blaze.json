@@ -9,11 +9,5 @@
       "item": "minecraft:blaze_spawn_egg"
     }
   ],
-  "summonedMob": "minecraft:blaze",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "strainers"
-    }
-  ]
+  "summonedMob": "minecraft:blaze"
 }

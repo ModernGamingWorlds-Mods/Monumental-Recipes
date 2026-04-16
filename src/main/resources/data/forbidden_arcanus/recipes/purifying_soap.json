@@ -22,11 +22,5 @@
     {
       "item": "forbidden_arcanus:purifying_soap"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "forbidden_arcanus"
-    }
   ]
 }

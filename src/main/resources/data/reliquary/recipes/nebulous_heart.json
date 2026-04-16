@@ -17,11 +17,5 @@
   "result": {
     "item": "reliquary:nebulous_heart"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "reliquary"
-    }
-  ]
+  "show_notification": true
 }

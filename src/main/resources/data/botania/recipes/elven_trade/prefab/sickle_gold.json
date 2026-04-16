@@ -2,7 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "prefab"
+      "modid": "botania"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "prefab:item_sickle_gold"
     }
   ],
   "type": "botania:elven_trade",

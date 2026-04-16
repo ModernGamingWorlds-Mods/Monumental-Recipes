@@ -28,15 +28,5 @@
   "result": {
     "count": 1,
     "item": "mekanismgenerators:heat_generator"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "kubejs"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mekanismgenerators"
-    }
-  ]
+  }
 }

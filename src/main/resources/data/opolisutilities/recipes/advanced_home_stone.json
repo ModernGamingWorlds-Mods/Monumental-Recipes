@@ -18,15 +18,5 @@
   },
   "result": {
     "item": "opolisutilities:advanced_home_stone"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "opolisutilities"
-    }
-  ]
+  }
 }

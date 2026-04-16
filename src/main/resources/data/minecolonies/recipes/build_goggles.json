@@ -26,15 +26,5 @@
   "result": {
     "item": "minecolonies:build_goggles"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "minecolonies"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "structurize"
-    }
-  ]
+  "show_notification": true
 }

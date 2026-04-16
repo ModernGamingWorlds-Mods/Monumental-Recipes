@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "A": {
-      "tag": "monumental_recipes:tools/hammers"
+      "tag": "monumental_experience:tools/hammers"
     },
     "B": {
       "tag": "forge:nuggets/allthemodium"
@@ -16,15 +16,5 @@
   "result": {
     "count": 1,
     "item": "allthemodium:allthemodium_ingot"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "allthemodium"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+  }
 }

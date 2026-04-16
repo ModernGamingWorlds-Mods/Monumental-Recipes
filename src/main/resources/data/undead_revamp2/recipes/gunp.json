@@ -22,11 +22,5 @@
   "result": {
     "item": "minecraft:gunpowder",
     "count": 8
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "undead_revamp2"
-    }
-  ]
+  }
 }

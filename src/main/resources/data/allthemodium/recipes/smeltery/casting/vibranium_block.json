@@ -5,15 +5,5 @@
     "amount": 900
   },
   "result": "allthemodium:vibranium_block",
-  "cooling_time": 944,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "allthemodium"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "tconstruct"
-    }
-  ]
+  "cooling_time": 944
 }

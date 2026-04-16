@@ -8,7 +8,7 @@
       "item": "extendedcrafting:redstone_component"
     },
     "C": {
-      "tag": "c:plates/osmium"
+      "tag": "forge:plates/osmium"
     }
   },
   "pattern": [

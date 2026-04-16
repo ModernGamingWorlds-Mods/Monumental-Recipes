@@ -22,11 +22,5 @@
     {
       "item": "extendedcrafting:enhanced_redstone_component"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    }
   ]
 }

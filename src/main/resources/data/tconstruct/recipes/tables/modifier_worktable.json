@@ -16,11 +16,5 @@
   "result": {
     "item": "tconstruct:modifier_worktable"
   },
-  "acceptMirrored": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "tconstruct"
-    }
-  ]
+  "acceptMirrored": true
 }

@@ -5,7 +5,7 @@
       "item": "forestry:acacia_desert_planks"
     },
     "B": {
-      "tag": "monumental_recipes:tools/hammers"
+      "tag": "monumental_experience:tools/hammers"
     },
     "C": {
       "item": "forestry:acacia_desert_fireproof_planks"
@@ -18,15 +18,5 @@
   ],
   "result": {
     "item": "forestry:acacia_desert_pressure_plate"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "forestry"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+  }
 }

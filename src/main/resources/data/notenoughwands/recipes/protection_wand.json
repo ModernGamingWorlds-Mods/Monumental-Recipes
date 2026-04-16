@@ -11,15 +11,5 @@
   },
   "template": {
     "tag": "minecraft:logs"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "framedblocks"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "notenoughwands"
-    }
-  ]
+  }
 }

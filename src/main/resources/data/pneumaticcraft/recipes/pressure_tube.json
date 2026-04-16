@@ -16,11 +16,5 @@
   "result": {
     "item": "pneumaticcraft:pressure_tube",
     "count": 4
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pneumaticcraft"
-    }
-  ]
+  }
 }

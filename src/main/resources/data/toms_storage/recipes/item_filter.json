@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "RSR",
+  	"RSR",
     "SWS",
     "RSR"
   ],
   "key": {
-    "R": {
+  	"R": {
       "tag": "forge:dusts/redstone"
     },
     "W": {
-      "tag": "minecraft:wool"
+    	"tag": "minecraft:wool"
     },
     "S": {
       "tag": "forge:rods/wooden"
@@ -19,11 +19,5 @@
   "result": {
     "item": "toms_storage:ts.item_filter",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "toms_storage"
-    }
-  ]
+  }
 }

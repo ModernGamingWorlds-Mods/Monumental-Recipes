@@ -2,11 +2,15 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
+      "modid": "thermal"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
+      "type": "forge:item_exists",
+      "item": "thermal:upgrade_augment_1"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "extendedcrafting:redstone_catalyst"
     }
   ],
   "type": "minecraft:crafting_shaped",

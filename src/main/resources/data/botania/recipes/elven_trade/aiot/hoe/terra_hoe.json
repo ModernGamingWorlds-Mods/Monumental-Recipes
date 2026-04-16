@@ -2,7 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "aiotbotania"
+      "modid": "botania"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "aiotbotania:terra_hoe"
     }
   ],
   "type": "botania:elven_trade",

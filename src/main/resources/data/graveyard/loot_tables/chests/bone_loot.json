@@ -5,6 +5,7 @@
       "rolls": 3.0,
       "bonus_rolls": 0.0,
       "entries": [
+
         {
           "type": "minecraft:item",
           "weight": 10,
@@ -69,12 +70,6 @@
           "name": "minecraft:cobweb"
         }
       ]
-    }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "graveyard"
     }
   ]
 }

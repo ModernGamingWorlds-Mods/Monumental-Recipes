@@ -11,15 +11,5 @@
   "result": {
     "item": "inventorypets:nugget_coal",
     "count": 8
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "inventorypets"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    }
-  ]
+  }
 }

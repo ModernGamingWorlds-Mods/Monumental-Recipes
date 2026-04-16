@@ -1,17 +1,11 @@
 {
-  "type": "mekanism:enriching",
-  "input": {
-    "ingredient": {
-      "tag": "forge:dusts/niter"
+    "type": "mekanism:enriching",
+    "input": {
+        "ingredient": {
+            "tag": "forge:dusts/niter"
+        }
+    },
+    "output": {
+        "item": "thermal:niter"
     }
-  },
-  "output": {
-    "item": "thermal:niter"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
 }

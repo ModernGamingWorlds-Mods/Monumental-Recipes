@@ -14,14 +14,8 @@
   ],
   "results": [
     {
-      "item": "cyclic:spark",
-      "count": 4
-    }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "cyclic"
+    "item": "cyclic:spark",
+    "count": 4
     }
   ]
 }

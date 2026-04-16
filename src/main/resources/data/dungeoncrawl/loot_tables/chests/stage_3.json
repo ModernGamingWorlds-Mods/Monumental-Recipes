@@ -487,11 +487,5 @@
       }
     }
   ],
-  "random_sequence": "dungeoncrawl:chests/stage_3",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "dungeoncrawl"
-    }
-  ]
+  "random_sequence": "dungeoncrawl:chests/stage_3"
 }

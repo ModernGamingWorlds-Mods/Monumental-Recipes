@@ -262,11 +262,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "twilightforest:chests/foundation_basement",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "twilightforest"
-    }
-  ]
+  "random_sequence": "twilightforest:chests/foundation_basement"
 }

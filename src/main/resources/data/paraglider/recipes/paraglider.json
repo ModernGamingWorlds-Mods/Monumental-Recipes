@@ -17,15 +17,5 @@
   "result": {
     "item": "paraglider:paraglider"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "paraglider"
-    }
-  ]
+  "show_notification": true
 }

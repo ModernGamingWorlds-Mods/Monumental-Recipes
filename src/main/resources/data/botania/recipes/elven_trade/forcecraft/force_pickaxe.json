@@ -2,7 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "forcecraft"
+      "modid": "botania"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "forcecraft:force_pickaxe"
     }
   ],
   "type": "botania:elven_trade",

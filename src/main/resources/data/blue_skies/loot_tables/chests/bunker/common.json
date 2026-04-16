@@ -61,11 +61,5 @@
       }
     }
   ],
-  "random_sequence": "blue_skies:chests/bunker/common",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "blue_skies"
-    }
-  ]
+  "random_sequence": "blue_skies:chests/bunker/common"
 }

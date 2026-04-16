@@ -23,11 +23,5 @@
   "result": {
     "item": "farmersdelight:cooking_pot"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "farmersdelight"
-    }
-  ]
+  "show_notification": true
 }

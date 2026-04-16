@@ -9,17 +9,11 @@
     "P": {
       "item": "minecraft:paper"
     },
-    "C": {
+	"C": {
       "tag": "forge:clocks"
     }
   },
   "result": {
     "item": "sereneseasons:calendar"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "sereneseasons"
-    }
-  ]
+  }
 }

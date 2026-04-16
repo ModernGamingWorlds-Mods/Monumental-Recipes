@@ -5,15 +5,9 @@
     {
       "item": "mysticalagriculture:nature_essence"
     },
-    {
-      "item": "minecraft:rabbit_spawn_egg"
-    }
+         {
+           "item": "minecraft:rabbit_spawn_egg"
+         }
   ],
-  "summonedMob": "minecraft:rabbit",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    }
-  ]
+  "summonedMob": "minecraft:rabbit"
 }

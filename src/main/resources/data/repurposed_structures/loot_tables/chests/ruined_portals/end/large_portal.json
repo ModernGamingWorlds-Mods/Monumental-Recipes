@@ -292,8 +292,8 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Explosion:{Colors:[I;8073150], FadeColors:[I;12801229], Trail:1b, Flicker:1b, Type:2b}}"
+              "function":"set_nbt",
+              "tag":"{Explosion:{Colors:[I;8073150], FadeColors:[I;12801229], Trail:1b, Flicker:1b, Type:2b}}"
             }
           ]
         },
@@ -386,8 +386,8 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Explosion:{Colors:[I;12801229], FadeColors:[I;8073150], Trail:1b, Flicker:1b, Type:2b}}"
+              "function":"set_nbt",
+              "tag":"{Explosion:{Colors:[I;12801229], FadeColors:[I;8073150], Trail:1b, Flicker:1b, Type:2b}}"
             }
           ]
         },
@@ -485,8 +485,8 @@
           "weight": 30,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{BlockEntityTag:{Patterns:[{Pattern:bri,Color:14},{Pattern:bri,Color:10},{Pattern:mc,Color:15},{Pattern:ss,Color:1},{Pattern:ss,Color:14},{Pattern:bri,Color:15},{Pattern:gra,Color:10},{Pattern:gru,Color:14},{Pattern:bo,Color:15},{Pattern:bo,Color:15}]}}"
+              "function":"set_nbt",
+              "tag":"{BlockEntityTag:{Patterns:[{Pattern:bri,Color:14},{Pattern:bri,Color:10},{Pattern:mc,Color:15},{Pattern:ss,Color:1},{Pattern:ss,Color:14},{Pattern:bri,Color:15},{Pattern:gra,Color:10},{Pattern:gru,Color:14},{Pattern:bo,Color:15},{Pattern:bo,Color:15}]}}"
             }
           ]
         },
@@ -500,18 +500,12 @@
               "count": 2
             },
             {
-              "function": "set_nbt",
-              "tag": "{Explosion:{Colors:[I;12801229], FadeColors:[I;8073150], Trail:1b, Flicker:1b, Type:2b}}"
+              "function":"set_nbt",
+              "tag":"{Explosion:{Colors:[I;12801229], FadeColors:[I;8073150], Trail:1b, Flicker:1b, Type:2b}}"
             }
           ]
         }
       ]
-    }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "repurposed_structures"
     }
   ]
 }

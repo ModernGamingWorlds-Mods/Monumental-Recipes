@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "S": {
-      "tag": "monumental_recipes:wooden_plates"
+      "tag": "monumental_experience:wooden_plates"
     },
     "C": {
       "item": "create:andesite_alloy"
@@ -19,15 +19,5 @@
   "result": {
     "item": "create:large_cogwheel",
     "count": 2
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "create"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+  }
 }

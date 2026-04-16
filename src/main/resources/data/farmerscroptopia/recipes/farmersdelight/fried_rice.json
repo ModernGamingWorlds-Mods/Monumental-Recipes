@@ -23,11 +23,5 @@
   "category": "meals",
   "result": {
     "item": "farmersdelight:fried_rice"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "farmersdelight"
-    }
-  ]
+  }
 }

@@ -24,19 +24,5 @@
   },
   "result": {
     "item": "industrialforegoing:latex_processing_unit"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "industrialforegoing"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "kubejs"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  }
 }

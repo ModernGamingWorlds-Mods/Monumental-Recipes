@@ -5,7 +5,7 @@
     "CFC",
     "RPR"
   ],
-  "key": {
+  "key":{
     "R": {
       "tag": "forge:dusts/redstone"
     },
@@ -24,15 +24,5 @@
   },
   "result": {
     "item": "rsrequestify:requester"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "refinedstorage"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rsrequestify"
-    }
-  ]
+  }
 }

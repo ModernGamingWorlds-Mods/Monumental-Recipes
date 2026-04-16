@@ -18,11 +18,5 @@
   },
   "result": {
     "item": "strainers:everlasting_duration_upgrade"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "strainers"
-    }
-  ]
+  }
 }

@@ -14,11 +14,5 @@
   ],
   "result": {
     "item": "create:basin"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "create"
-    }
-  ]
+  }
 }

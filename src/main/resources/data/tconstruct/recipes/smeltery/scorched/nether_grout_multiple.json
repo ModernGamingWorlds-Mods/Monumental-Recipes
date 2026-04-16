@@ -35,15 +35,5 @@
       "item": "tconstruct:nether_grout",
       "count": 8
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "chipped"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "tconstruct"
-    }
   ]
 }

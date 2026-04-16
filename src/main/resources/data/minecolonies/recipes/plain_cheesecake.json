@@ -26,11 +26,5 @@
   ],
   "result": {
     "item": "minecolonies:plain_cheesecake"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "minecolonies"
-    }
-  ]
+  }
 }

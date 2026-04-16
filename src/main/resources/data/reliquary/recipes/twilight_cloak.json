@@ -18,11 +18,5 @@
   ],
   "result": {
     "item": "reliquary:twilight_cloak"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "reliquary"
-    }
-  ]
+  }
 }

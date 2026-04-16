@@ -1,1 +1,0 @@
-{"type":"mekanism:metallurgic_infusing","chemicalInput":{"amount":20,"tag":"mekanism:redstone"},"itemInput":{"ingredient":{"tag":"c:ingots/compressed_iron"}},"output":{"id":"mekanism:basic_control_circuit"}}

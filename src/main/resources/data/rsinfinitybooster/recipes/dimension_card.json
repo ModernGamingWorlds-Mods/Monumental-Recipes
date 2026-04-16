@@ -20,11 +20,5 @@
   "result": {
     "item": "rsinfinitybooster:dimension_card"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "rsinfinitybooster"
-    }
-  ]
+  "show_notification": true
 }

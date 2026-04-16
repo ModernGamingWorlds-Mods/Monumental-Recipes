@@ -21,11 +21,5 @@
   ],
   "result": {
     "item": "mekanism:supercharged_coil"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mekanism"
-    }
-  ]
+  }
 }

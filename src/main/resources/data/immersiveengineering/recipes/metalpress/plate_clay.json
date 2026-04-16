@@ -1,17 +1,1 @@
-{
-  "type": "immersiveengineering:metal_press",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "kubejs"
-    }
-  ],
-  "energy": 2400,
-  "input": {
-    "tag": "forge:storage_blocks/clay"
-  },
-  "mold": "immersiveengineering:mold_plate",
-  "result": {
-    "item": "kubejs:clay_plate"
-  }
-}
+{"type":"immersiveengineering:metal_press","conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:storage_blocks/clay"}},{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:storage_blocks/clay"}}],"energy":2400,"input":{"tag":"forge:storage_blocks/clay"},"mold":"immersiveengineering:mold_plate","result":{"item":"kubejs:clay_plate"}}

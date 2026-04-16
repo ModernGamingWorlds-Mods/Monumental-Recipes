@@ -23,15 +23,5 @@
   "result": {
     "item": "create:windmill_bearing"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "create"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "weather2"
-    }
-  ]
+  "show_notification": true
 }

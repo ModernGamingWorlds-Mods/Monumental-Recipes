@@ -5,7 +5,7 @@
       "item": "forestry:giganteum_planks"
     },
     "B": {
-      "tag": "monumental_recipes:tools/hammers"
+      "tag": "monumental_experience:tools/hammers"
     },
     "C": {
       "item": "forestry:giganteum_fireproof_planks"
@@ -18,15 +18,5 @@
   ],
   "result": {
     "item": "forestry:giganteum_pressure_plate"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "forestry"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+  }
 }

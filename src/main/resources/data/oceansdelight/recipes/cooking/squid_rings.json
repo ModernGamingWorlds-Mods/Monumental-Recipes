@@ -28,11 +28,5 @@
         }
       }
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "oceansdelight"
-    }
   ]
 }

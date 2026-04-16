@@ -21,11 +21,5 @@
   ],
   "result": {
     "item": "ironfurnaces:upgrade_vibranium"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ironfurnaces"
-    }
-  ]
+  }
 }

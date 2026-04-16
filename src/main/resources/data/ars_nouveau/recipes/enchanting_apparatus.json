@@ -18,11 +18,5 @@
   ],
   "result": {
     "item": "ars_nouveau:enchanting_apparatus"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_nouveau"
-    }
-  ]
+  }
 }

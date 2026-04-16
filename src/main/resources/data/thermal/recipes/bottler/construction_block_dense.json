@@ -2,7 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "buildinggadgets"
+      "modid": "thermal"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "buildinggadgets:construction_block_dense"
     }
   ],
   "type": "thermal:bottler",

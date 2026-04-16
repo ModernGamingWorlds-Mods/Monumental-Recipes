@@ -19,7 +19,7 @@
       "tag": "forge:gears/platinum"
     },
     "E": {
-      "tag": "monumental_recipes:jars"
+      "tag": "monumental_experience:jars"
     },
     "F": {
       "item": "gendustry:upgrade_frame"
@@ -27,23 +27,5 @@
   },
   "result": {
     "item": "tiab:time_in_a_bottle"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "gendustry"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "tiab"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "tombstone"
-    }
-  ]
+  }
 }

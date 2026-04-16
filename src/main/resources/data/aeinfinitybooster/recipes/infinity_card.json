@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "a": {
-      "tag": "monumental_recipes:eyes"
+      "tag": "monumental_experience:eyes"
     },
     "b": {
       "tag": "forge:nether_stars"
@@ -21,19 +21,5 @@
   ],
   "result": {
     "item": "aeinfinitybooster:infinity_card"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ae2"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "aeinfinitybooster"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+  }
 }

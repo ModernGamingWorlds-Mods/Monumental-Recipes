@@ -15,19 +15,5 @@
   ],
   "result": {
     "item": "reliquary:witch_hat"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "easy_mob_farm"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "handcrafted"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "reliquary"
-    }
-  ]
+  }
 }

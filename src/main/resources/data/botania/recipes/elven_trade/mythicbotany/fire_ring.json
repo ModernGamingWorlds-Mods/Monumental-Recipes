@@ -2,7 +2,11 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "mythicbotany"
+      "modid": "botania"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "mythicbotany:fire_ring"
     }
   ],
   "type": "botania:elven_trade",

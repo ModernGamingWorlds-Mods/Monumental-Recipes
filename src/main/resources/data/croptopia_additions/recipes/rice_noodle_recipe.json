@@ -14,15 +14,5 @@
   "result": {
     "item": "croptopia_additions:rice_noodle",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia_additions"
-    }
-  ]
+  }
 }

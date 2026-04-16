@@ -24,11 +24,5 @@
   ],
   "result": {
     "item": "mekanism:solar_neutron_activator"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mekanism"
-    }
-  ]
+  }
 }

@@ -11,11 +11,5 @@
   },
   "template": {
     "tag": "forge:plates/iron"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "botania"
-    }
-  ]
+  }
 }

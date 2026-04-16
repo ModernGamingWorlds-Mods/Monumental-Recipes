@@ -15,11 +15,5 @@
   ],
   "result": {
     "item": "ironchest:iron_chest"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ironchest"
-    }
-  ]
+  }
 }

@@ -19,19 +19,5 @@
   "result": {
     "item": "cyclic:trash",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "cyclic"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "kubejs"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "storagedrawers"
-    }
-  ]
+  }
 }

@@ -865,8 +865,8 @@
           "weight": 30,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{BlockEntityTag:{Patterns:[{Pattern:gru,Color:14},{Pattern:gru,Color:15},{Pattern:gra,Color:12},{Pattern:hhb,Color:7},{Pattern:ss,Color:15},{Pattern:pig,Color:8},{Pattern:tts,Color:15},{Pattern:bo,Color:15},{Pattern:ms,Color:8},{Pattern:ms,Color:7},{Pattern:ms,Color:15},{Pattern:tts,Color:15}]}}"
+              "function":"set_nbt",
+              "tag":"{BlockEntityTag:{Patterns:[{Pattern:gru,Color:14},{Pattern:gru,Color:15},{Pattern:gra,Color:12},{Pattern:hhb,Color:7},{Pattern:ss,Color:15},{Pattern:pig,Color:8},{Pattern:tts,Color:15},{Pattern:bo,Color:15},{Pattern:ms,Color:8},{Pattern:ms,Color:7},{Pattern:ms,Color:15},{Pattern:tts,Color:15}]}}"
             }
           ]
         },
@@ -876,18 +876,12 @@
           "weight": 20,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{Explosion:{Type:2b,Flicker:1b,Trail:1b,Colors:[I;11743532,6719955],FadeColors:[I;8073150,12801229]}}"
+              "function":"set_nbt",
+              "tag":"{Explosion:{Type:2b,Flicker:1b,Trail:1b,Colors:[I;11743532,6719955],FadeColors:[I;8073150,12801229]}}"
             }
           ]
         }
       ]
-    }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "repurposed_structures"
     }
   ]
 }

@@ -292,11 +292,5 @@
       "rolls": 4
     }
   ],
-  "random_sequence": "immersiveengineering:chests/engineers_house",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    }
-  ]
+  "random_sequence": "immersiveengineering:chests/engineers_house"
 }

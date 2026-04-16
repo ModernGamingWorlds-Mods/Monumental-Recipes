@@ -5,7 +5,7 @@
       "item": "biomeswevegone:willow_planks"
     },
     "B": {
-      "tag": "monumental_recipes:tools/hammers"
+      "tag": "monumental_experience:tools/hammers"
     }
   },
   "pattern": [
@@ -15,15 +15,5 @@
   ],
   "result": {
     "item": "biomeswevegone:willow_pressure_plate"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "biomeswevegone"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+  }
 }

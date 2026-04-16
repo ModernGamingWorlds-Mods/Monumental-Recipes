@@ -34,11 +34,5 @@
   "result": {
     "item": "croptopia:beef_wellington",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia"
-    }
-  ]
+  }
 }

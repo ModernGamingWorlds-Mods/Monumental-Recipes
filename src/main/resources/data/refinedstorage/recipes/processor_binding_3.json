@@ -9,7 +9,7 @@
     {
       "type": "pneumaticcraft:stacked_item",
       "count": 2,
-      "tag": "monumental_recipes:cloth"
+      "tag": "monumental_experience:cloth"
     },
     {
       "type": "pneumaticcraft:stacked_item",
@@ -21,24 +21,6 @@
   "results": [
     {
       "item": "refinedstorage:processor_binding"
-    }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "immersiveengineering"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "industrialforegoing"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "refinedstorage"
     }
   ]
 }

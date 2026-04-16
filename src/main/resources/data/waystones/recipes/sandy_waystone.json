@@ -16,11 +16,5 @@
     {
       "item": "waystones:sandy_waystone"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "waystones"
-    }
   ]
 }

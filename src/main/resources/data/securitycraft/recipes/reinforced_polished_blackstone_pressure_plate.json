@@ -5,7 +5,7 @@
       "item": "securitycraft:reinforced_polished_blackstone"
     },
     "B": {
-      "tag": "monumental_recipes:tools/hammers"
+      "tag": "monumental_experience:tools/hammers"
     }
   },
   "pattern": [
@@ -15,15 +15,5 @@
   ],
   "result": {
     "item": "securitycraft:reinforced_polished_blackstone_pressure_plate"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "securitycraft"
-    }
-  ]
+  }
 }

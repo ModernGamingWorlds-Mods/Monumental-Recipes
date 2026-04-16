@@ -18,15 +18,5 @@
   ],
   "result": {
     "item": "mekanism:module_base"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mekanism"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "modularrouters"
-    }
-  ]
+  }
 }

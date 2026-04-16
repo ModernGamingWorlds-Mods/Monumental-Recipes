@@ -11,15 +11,5 @@
   ],
   "result": {
     "item": "tconstruct:reversed_gold_item_frame"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "tconstruct"
-    }
-  ]
+  }
 }

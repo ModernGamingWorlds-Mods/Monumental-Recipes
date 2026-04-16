@@ -1,20 +1,19 @@
 {
-  "type": "actuallyadditions:laser",
-  "energy": 40,
-  "ingredient": {
-    "item": "compressedcreativity:brass_gilded_lapis_lazuli"
-  },
-  "result": {
-    "item": "actuallyadditions:palis_crystal"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "actuallyadditions"
+    "type": "actuallyadditions:laser",
+    "energy": 40,
+    "ingredient": {
+        "item": "compressedcreativity:brass_gilded_lapis_lazuli"
     },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "compressedcreativity"
-    }
-  ]
+    "result": {
+        "item": "actuallyadditions:palis_crystal"
+    },
+    "conditions": [{
+            "type": "forge:mod_loaded",
+            "modid": "compressedcreativity"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "actuallyadditions"
+        }
+    ]
 }

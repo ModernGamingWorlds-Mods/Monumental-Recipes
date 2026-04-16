@@ -4,18 +4,12 @@
     "item": "minecraft:netherite_boots"
   },
   "addition": {
-    "item": "undead_revamp2:bostroxingot"
+      "item": "undead_revamp2:bostroxingot"
   },
   "result": {
     "item": "undead_revamp2:bostroxset_boots"
   },
   "template": {
-    "tag": "forge:plates/netherite"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "undead_revamp2"
-    }
-  ]
+      "tag": "forge:plates/netherite"
+  }
 }

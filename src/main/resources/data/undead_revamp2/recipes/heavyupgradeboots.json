@@ -11,11 +11,5 @@
   },
   "result": {
     "item": "undead_revamp2:primodialarmour_boots"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "undead_revamp2"
-    }
-  ]
+  }
 }

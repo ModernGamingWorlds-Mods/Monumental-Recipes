@@ -20,15 +20,5 @@
   "result": {
     "item": "actuallyadditions:ring"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "actuallyadditions"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  "show_notification": true
 }

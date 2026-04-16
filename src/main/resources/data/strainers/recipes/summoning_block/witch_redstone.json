@@ -5,15 +5,9 @@
     {
       "item": "mysticalagriculture:redstone_essence"
     },
-    {
-      "item": "minecraft:witch_spawn_egg"
-    }
+         {
+           "item": "minecraft:witch_spawn_egg"
+         }
   ],
-  "summonedMob": "minecraft:witch",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    }
-  ]
+  "summonedMob": "minecraft:witch"
 }

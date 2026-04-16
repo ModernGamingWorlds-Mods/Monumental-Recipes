@@ -5,7 +5,7 @@
       "item": "xnet:connector_routing"
     },
     "B": {
-      "tag": "monumental_recipes:eyes"
+      "tag": "monumental_experience:eyes"
     },
     "C": {
       "tag": "forge:plates/diamond"
@@ -20,19 +20,5 @@
   ],
   "result": {
     "item": "xnet:advanced_connector_routing"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "xnet"
-    }
-  ]
+  }
 }

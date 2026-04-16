@@ -29,15 +29,5 @@
   "result": {
     "item": "twilightdelight:meef_wellington_block"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "farmersdelight"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "twilightdelight"
-    }
-  ]
+  "show_notification": true
 }

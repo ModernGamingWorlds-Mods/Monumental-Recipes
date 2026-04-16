@@ -17,11 +17,5 @@
   "result": {
     "item": "ad_astra:gas_tank"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ad_astra"
-    }
-  ]
+  "show_notification": true
 }

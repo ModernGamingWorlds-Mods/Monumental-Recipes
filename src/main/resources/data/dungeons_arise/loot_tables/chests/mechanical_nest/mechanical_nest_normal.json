@@ -231,11 +231,5 @@
         }
       ]
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "dungeons_arise"
-    }
   ]
 }

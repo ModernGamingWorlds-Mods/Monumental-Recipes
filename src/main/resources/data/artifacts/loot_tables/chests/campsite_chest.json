@@ -423,11 +423,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "artifacts:chests/campsite_chest",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "artifacts"
-    }
-  ]
+  "random_sequence": "artifacts:chests/campsite_chest"
 }

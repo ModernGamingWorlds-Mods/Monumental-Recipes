@@ -6,7 +6,7 @@
       "item": "minecraft:iron_ingot"
     },
     "P": {
-      "tag": "monumental_recipes:pistons"
+      "tag": "monumental_experience:pistons"
     }
   },
   "pattern": [
@@ -17,15 +17,5 @@
   "result": {
     "item": "ad_astra:compressor"
   },
-  "show_notification": true,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ad_astra"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+  "show_notification": true
 }

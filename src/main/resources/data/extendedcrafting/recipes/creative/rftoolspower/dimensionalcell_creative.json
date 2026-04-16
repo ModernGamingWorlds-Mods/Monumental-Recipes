@@ -5,8 +5,12 @@
       "modid": "extendedcrafting"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "rftoolspower"
+      "type": "forge:item_exists",
+      "item": "rftoolspower:dimensionalcell_creative"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "rftoolspower:dimensionalcell_advanced"
     }
   ],
   "type": "extendedcrafting:compressor",

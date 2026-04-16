@@ -7,11 +7,6 @@
   "lavaNeed": 1000,
   "waterConsume": 0,
   "lavaConsume": 0,
-  "type": "industrialforegoing:stonework_generate",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "industrialforegoing"
-    }
-  ]
+  "type": "industrialforegoing:stonework_generate"
 }
+

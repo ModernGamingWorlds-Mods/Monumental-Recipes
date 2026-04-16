@@ -24,11 +24,5 @@
   },
   "result": {
     "item": "chipped:carpenters_table"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "chipped"
-    }
-  ]
+  }
 }

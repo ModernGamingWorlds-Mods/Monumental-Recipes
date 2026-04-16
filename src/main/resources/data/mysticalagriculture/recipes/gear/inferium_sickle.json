@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "base": {
-    "tag": "monumental_recipes:wooden_plates"
+    "tag": "monumental_experience:wooden_plates"
   },
   "addition": {
     "item": "mysticalagriculture:inferium_gemstone"
@@ -11,15 +11,5 @@
   },
   "template": {
     "tag": "forge:plates/diamond"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mysticalagriculture"
-    }
-  ]
+  }
 }

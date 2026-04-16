@@ -20,11 +20,5 @@
   ],
   "result": {
     "item": "farmersdelight:roasted_mutton_chops"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "farmersdelight"
-    }
-  ]
+  }
 }

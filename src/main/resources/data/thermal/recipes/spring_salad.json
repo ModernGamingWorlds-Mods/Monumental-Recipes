@@ -26,11 +26,5 @@
   ],
   "result": {
     "item": "thermal:spring_salad"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  }
 }

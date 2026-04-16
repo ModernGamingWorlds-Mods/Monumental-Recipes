@@ -8,7 +8,7 @@
       "tag": "forge:nether_stars"
     },
     "c": {
-      "tag": "monumental_recipes:eyes"
+      "tag": "monumental_experience:eyes"
     }
   },
   "pattern": [
@@ -18,15 +18,5 @@
   ],
   "result": {
     "item": "aeinfinitybooster:dimension_card"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "aeinfinitybooster"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+  }
 }

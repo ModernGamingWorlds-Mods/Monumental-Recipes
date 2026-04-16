@@ -23,11 +23,5 @@
   ],
   "result": {
     "item": "minecolonies:pottage"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "minecolonies"
-    }
-  ]
+  }
 }

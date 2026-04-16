@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:smithing_transform",
+  "type": "minecraft:smithing",
   "base": {
     "item": "botania:mana_spreader"
   },
@@ -8,11 +8,5 @@
   },
   "result": {
     "item": "botania:redstone_spreader"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "botania"
-    }
-  ]
+  }
 }

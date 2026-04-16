@@ -25,11 +25,5 @@
   "result": {
     "count": 1,
     "item": "ironcoals:aeon_coal"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ironcoals"
-    }
-  ]
+  }
 }

@@ -18,11 +18,5 @@
   },
   "result": {
     "item": "botania:apothecary_taiga"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "botania"
-    }
-  ]
+  }
 }

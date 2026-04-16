@@ -1,18 +1,12 @@
 {
-  "type": "mekanism:enriching",
-  "input": {
-    "ingredient": {
-      "tag": "forge:ores/niter"
+    "type": "mekanism:enriching",
+    "input": {
+        "ingredient": {
+            "tag": "forge:ores/niter"
+        }
+    },
+    "output": {
+        "count": 2,
+        "item": "thermal:niter"
     }
-  },
-  "output": {
-    "count": 2,
-    "item": "thermal:niter"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
 }

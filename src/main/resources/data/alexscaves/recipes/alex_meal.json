@@ -25,11 +25,5 @@
   ],
   "result": {
     "item": "alexscaves:alex_meal"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "alexscaves"
-    }
-  ]
+  }
 }

@@ -2,11 +2,15 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "create"
+      "modid": "thermal"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
+      "type": "forge:item_exists",
+      "item": "thermal:upgrade_augment_2"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "create:polished_rose_quartz"
     }
   ],
   "type": "minecraft:crafting_shaped",

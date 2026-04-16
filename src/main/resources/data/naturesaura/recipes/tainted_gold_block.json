@@ -1,21 +1,11 @@
 {
-  "type": "naturesaura:altar",
-  "input": {
-    "item": "compressium:gold_1"
-  },
-  "output": {
-    "item": "naturesaura:tainted_gold_block"
-  },
-  "aura": 27000,
-  "time": 2625,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "compressium"
+    "type": "naturesaura:altar",
+    "input": {
+        "item": "compressium:gold_1"
     },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "naturesaura"
-    }
-  ]
+    "output": {
+        "item": "naturesaura:tainted_gold_block"
+    },
+    "aura": 27000,
+    "time": 2625
 }

@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "B": {
-      "tag": "monumental_recipes:pistons"
+      "tag": "monumental_experience:pistons"
     },
     "S": {
       "item": "create:cogwheel"
@@ -21,15 +21,5 @@
   ],
   "result": {
     "item": "create:mechanical_piston"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "create"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+  }
 }

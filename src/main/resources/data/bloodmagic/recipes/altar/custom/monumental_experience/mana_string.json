@@ -9,15 +9,5 @@
   "output": {
     "item": "botania:mana_string"
   },
-  "upgradeLevel": 0,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "bloodmagic"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "botania"
-    }
-  ]
+  "upgradeLevel": 0
 }

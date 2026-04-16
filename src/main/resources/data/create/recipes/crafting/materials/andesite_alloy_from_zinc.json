@@ -36,11 +36,5 @@
     "fluid": "minecraft:lava"
   },
   "fluidLevelsConsumed": 250,
-  "heatRequirement": "heated",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "create"
-    }
-  ]
+  "heatRequirement": "heated"
 }

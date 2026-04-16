@@ -12,11 +12,5 @@
     {
       "item": "aiotbotania:alfsteel_shovel"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "aiotbotania"
-    }
   ]
 }

@@ -11,15 +11,5 @@
   "result": {
     "item": "suppsquared:daub_frame_slab",
     "count": 6
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "supplementaries"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "suppsquared"
-    }
-  ]
+  }
 }

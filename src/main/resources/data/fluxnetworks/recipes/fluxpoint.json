@@ -18,11 +18,5 @@
   ],
   "result": {
     "item": "fluxnetworks:flux_point"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "fluxnetworks"
-    }
-  ]
+  }
 }

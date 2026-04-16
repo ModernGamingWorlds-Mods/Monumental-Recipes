@@ -11,11 +11,5 @@
   "output": {
     "count": 1,
     "item": "botania:mana_diamond_block"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "botania"
-    }
-  ]
+  }
 }

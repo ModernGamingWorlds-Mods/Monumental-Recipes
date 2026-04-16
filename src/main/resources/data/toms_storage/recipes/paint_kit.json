@@ -1,12 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "RGB",
+  	"RGB",
     "iaW",
     "bS "
   ],
   "key": {
-    "b": {
+  	"b": {
       "tag": "forge:buckets/water"
     },
     "a": {
@@ -22,23 +22,17 @@
       "tag": "forge:dyes/blue"
     },
     "W": {
-      "tag": "minecraft:wool"
+    	"tag": "minecraft:wool"
     },
     "S": {
-      "tag": "forge:rods/wooden"
+    	"tag": "forge:rods/wooden"
     },
-    "i": {
-      "tag": "forge:dyes/black"
+	"i": {
+    	"tag": "forge:dyes/black"
     }
   },
   "result": {
     "item": "toms_storage:ts.paint_kit",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "toms_storage"
-    }
-  ]
+  }
 }

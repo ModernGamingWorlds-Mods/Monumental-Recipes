@@ -6,7 +6,7 @@
       "tag": "forge:plates/diamond"
     },
     "Q": {
-      "tag": "monumental_recipes:lasers"
+      "tag": "monumental_experience:lasers"
     },
     "E": {
       "tag": "forge:plates/iron"
@@ -25,19 +25,5 @@
   "result": {
     "count": 1,
     "item": "mininggadgets:mininggadget_simple"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "enderio"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "mininggadgets"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    }
-  ]
+  }
 }

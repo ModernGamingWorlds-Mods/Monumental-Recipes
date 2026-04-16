@@ -17,11 +17,5 @@
   "result": {
     "item": "croptopia:noodle",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "croptopia"
-    }
-  ]
+  }
 }

@@ -13,11 +13,5 @@
     {
       "item": "create:rose_quartz"
     }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "create"
-    }
   ]
 }

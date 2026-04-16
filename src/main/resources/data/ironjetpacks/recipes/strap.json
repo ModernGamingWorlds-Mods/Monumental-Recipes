@@ -18,11 +18,5 @@
   ],
   "result": {
     "item": "ironjetpacks:strap"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ironjetpacks"
-    }
-  ]
+  }
 }

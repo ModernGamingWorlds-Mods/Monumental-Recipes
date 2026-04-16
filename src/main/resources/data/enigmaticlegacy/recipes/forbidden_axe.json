@@ -2,16 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "conditions": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "arsomega"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "botania"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "enigmaticlegacy"
+      "type": "enigmaticlegacy:is_enabled",
+      "item": "enigmaticlegacy:forbidden_axe"
     }
   ],
   "pattern": [
