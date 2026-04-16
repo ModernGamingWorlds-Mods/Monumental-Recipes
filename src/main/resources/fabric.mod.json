@@ -1,22 +1,13 @@
 {
   "schemaVersion": 1,
-  "id": "${id}",
-  "version": "${version}",
-
-  "name": "${name}",
-  "description": "${description}",
-  "authors": [],
-  "contact": {},
-
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "${group}.ExampleMod"
-    ]
+  "id": "monumental_recipes",
+  "version": "1.0.5",
+  "name": "Monumental Recipes",
+  "description": "Centralized custom recipes for the Monumental Experience modpack series.",
+  "authors": ["ModernGamingWorld"],
+  "contact": {
+    "sources": "https://github.com/ModernGamingWorlds-Mods/Monumental-Recipes"
   },
-  "depends": {
-    "fabricloader": "*",
-    "fabric-api": ">=${fabricVersion}",
-    "minecraft": ">=${minecraftVersion}"
-  }
+  "license": "MIT",
+  "environment": "*"
 }

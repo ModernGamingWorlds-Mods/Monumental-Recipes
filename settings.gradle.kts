@@ -14,6 +14,7 @@ pluginManagement {
 plugins {
     id("gg.meza.stonecraft") version "1.9.+"
     id("dev.kikugie.stonecutter") version "0.8.+"
+    id("me.modmuss50.mod-publish-plugin") version "1.1.0" apply false
 }
 
 stonecutter {
@@ -21,15 +22,17 @@ stonecutter {
     kotlinController = true
     shared {
         fun mc(version: String, vararg loaders: String) {
-            // Make the relevant version directories named "1.20.2-fabric", "1.20.2-forge", etc.
             for (it in loaders) version("$version-$it", version)
         }
 
-        mc("1.21.4", "fabric", "neoforge")
+        mc("1.20.1", "forge")
+        mc("1.19.2", "forge")
+        mc("1.18.2", "forge")
+        mc("1.21.1", "neoforge")
 
-        vcsVersion = "1.21.4-fabric"
+        vcsVersion = "1.20.1-forge"
     }
     create(rootProject)
 }
 
-rootProject.name = "YourModName"
+rootProject.name = "Monumental Recipes"

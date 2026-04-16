@@ -1,63 +1,89 @@
-# Stonecraft-template
+<div align="center">
 
-Set up a new multi-loader, multi-version mod project with Stonecraft.
+<img src="https://www.bisecthosting.com/images/CF/Monumental_Recipes/BH_Monumental_Recipes_Header.webp" alt="Monumental Recipes" />
 
-- [ ] Update the gradle.properties file with your mod details
-- [ ] Update the settings.gradle.kts file with the versions you want to support and the mod name on the bottom
-- [ ] Rename the group folders in the src folder to match your mod.group
-- [ ] Rename the `yourmodid.accesswidener` file in `src/main/resources` to match your actual mod.id
-- [ ] Update the .releaserc.json file's discord notification section with your mod details - or remove the section if you don't want it
-- [ ] Check if the java version is what you want it to be in `.github/workflows/build.yml` (`java-version: 21`)
-- [ ] Check if you need the datagen step in the `.github/workflows/build.yml` file. If you don't, remove it.
-- [ ] If you're not running gametests (which you should), then remove all references to `chiseledGameTest` in the `.github/workflows/build.yml` file
-- [ ] Set up the environment variables in GitHub
+<br><br>
 
-## Bootstrap with GitHub Actions
+<a href="https://bisecthosting.com/ModernGamingWorld">
+  <img src="https://www.bisecthosting.com/images/CF/Monumental_Recipes/BH_Monumental_Recipes_Promo.webp" alt="BisectHosting" />
+</a>
 
-The template comes with the `.github/workflows/bootstrap.yml` file that automates the above steps for you.
-Just naviate to the Actions tab of your repository and run the `🪄 Initialise Stonecraft template` workflow manually.
+<br><br>
 
-## Environment Variables
+# Monumental Recipes
 
-- `GH_TOKEN` **Secret** - Your Personal GitHub token
-- `MODRINTH_ID` **Variable** - Your Modrinth mod ID
-- `MODRINTH_TOKEN` **Secret** - Your Modrinth API token
-- `CURSEFORGE_ID` **Variable** - Your Curseforge mod ID
-- `CURSEFORGE_TOKEN` **Secret** - Your Curseforge API token
-- `CURSEFORGE_SLUG` **Secret** - Your Curseforge mod slug
-- `DISCORD_WEBHOOK` **Secret** - Your Discord webhook URL to use for notifications. This needs to be a bot token, not a user token.
+Monumental Recipes is a core library mod that centralizes custom crafting recipes used across the **Monumental Experience** modpack series.
 
-## GitHub Token How-To
+It provides a clean, scalable foundation for progression-focused crafting while keeping recipe management consistent across supported Minecraft versions.
 
-This is only needed if you're planning on releasing to Github, which is the default of this template.
 
-1. Go to your [GitHub settings](https://github.com/settings/tokens)
-2. Click on `Generate new token`
-3. I recommend using a classic token, but make sure to use a new one for each repo. Never reuse tokens to reduce the risk of a token being leaked.
-4. Give the token a name that makes sense to you (usually the repo name)
-5. Select the `repo` scope and whatever else you need. If you're not sure, just select `repo`.
 
-## Discord Webhook How-To
+---
 
-### Getting a bot token
+## ✨ Features
 
-1. Go to Discord's developer portal https://discord.com/developers/applications
-2. Create a new application if you don't have one already
-3. Go to the `Bot` section of the application and copy the token and paste it somewhere temporarily (I recommend secure notes in your preferred password manager)
+- Centralized recipe definitions for easier maintenance
+- Designed for progression-based gameplay and balance
+- Cross-version support for Forge and NeoForge targets
+- Reliable recipe loading with compatibility-focused design
 
-### Setting up the discord server
+---
 
-1. Invite the bot to your server where you want it to post notifications
-2. Go to the server settings and create a channel for the bot to post notifications in
-3. Go to your personal discord settings and enable developer mode in the Advanced section
-4. Right-click the channel you want the bot to post in and click `Copy Channel ID`
+## 🎯 Project Purpose
 
-### Setting up the webhook
+This project acts as the recipe backbone for Monumental Experience packs.  
+Each recipe is created to support clear progression, improve consistency, and reduce maintenance overhead as the packs evolve.
 
-1. Open up Postman or any other tool you're comfortable with to make a POST request
-2. Set the URL to `https://discord.com/api/v9/channels/{channel_id}/webhooks`
-3. Set the `Authorization` header to `Bot {your_bot_token}`
-4. Set the `Content-Type` header to `application/json`
-5. Set the body to `{"name": "Your Webhook Name"}`
-6. Send the request
-7. Copy the webhook URL from the response and paste it into the `DISCORD_WEBHOOK` environment variable
+---
+
+## ✅ Supported Versions
+
+### Forge
+- 1.18.2
+- 1.19.2
+- 1.20.1
+- 26.1.2
+- 26.1.2
+
+### Fabric
+- Coming Soon
+  
+### NeoForge
+- 1.20.1
+- 1.21.1
+- 26.1.2
+
+---
+
+## 📦 Installation
+
+1. Install a compatible version of **Minecraft Forge** or **NeoForge**.
+2. Download the latest release of **Monumental Recipes**.
+3. Place the `.jar` file in your Minecraft `mods` folder.
+4. Launch the game.
+
+---
+
+## 🧩 Compatibility Notes
+
+- Primarily built to create more challenging recipes for ModernGamingWorld's modpacks
+- Can be included in other modpacks where applicable
+- Recipes are conditionally loaded based on required mods/items for stability
+
+---
+
+## 🐞 Issues & Support
+
+If you find a bug or compatibility problem, please open an issue in this repository with:
+- Minecraft version
+- Loader (Forge/NeoForge) and version
+- Mod list (if relevant)
+- Crash log or latest log excerpt
+
+---
+
+## 📄 License
+
+Licensed under the **MIT License**. See [`LICENSE`](LICENSE) for full details.
+
+</div>
