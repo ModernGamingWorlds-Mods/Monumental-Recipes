@@ -1,0 +1,21 @@
+{
+  "modId": "undergarden",
+  "silent": true,
+  "group": {
+    "name": "undergarden Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": { "item": "minecraft:diamond", "count": 7 },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "undergarden:grongle_sapling"
+    },
+    {
+      "output": "undergarden:smogstem_sapling"
+    },
+    {
+      "output": "undergarden:wigglewood_sapling"
+    }
+  ]
+}

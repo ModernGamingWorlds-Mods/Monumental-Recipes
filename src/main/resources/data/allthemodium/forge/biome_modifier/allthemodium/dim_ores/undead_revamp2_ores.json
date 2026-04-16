@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#allthemodium:mining_features/mining_biomes",
+  "features": [
+    "allthemodium:bostrox_ore"
+  ],
+  "step": "underground_ores",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
+}

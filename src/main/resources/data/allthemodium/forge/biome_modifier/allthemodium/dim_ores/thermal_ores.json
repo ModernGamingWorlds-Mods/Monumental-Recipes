@@ -1,0 +1,17 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#allthemodium:mining_features/mining_biomes",
+  "features": [
+    "allthemodium:apatite_ore",
+    "allthemodium:cinnabar_ore",
+    "allthemodium:niter_ore",
+    "allthemodium:sulfur_ore"
+  ],
+  "step": "underground_ores",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

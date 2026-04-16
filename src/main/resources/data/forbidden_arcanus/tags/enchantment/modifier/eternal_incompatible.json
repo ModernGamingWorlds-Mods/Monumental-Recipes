@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:unbreaking",
+    "minecraft:mending",
+    "minecraft:nether_star",
+    "#alltheores:ore_hammers",
+    "apotheosis:potion_charm",
+    "bloodmagic:sanguinereverter",
+    "#occultism:miners/ores"
+  ]
+}

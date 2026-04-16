@@ -1,0 +1,16 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#allthemodium:mining_features/mining_biomes",
+  "features": [
+    "allthemodium:dimensional_shard_overworld",
+    "allthemodium:dimensional_shard_nether",
+    "allthemodium:dimensional_shard_end"
+  ],
+  "step": "underground_ores",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsbase"
+    }
+  ]
+}

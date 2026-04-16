@@ -1,0 +1,16 @@
+{
+  "modId": "occultism",
+  "silent": true,
+  "group": {
+    "name": "Occultism Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:nether_star"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {"output": "occultism:otherworld_sapling"},
+    {"output": "occultism:otherworld_sapling_natural"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "values": [
+      "eidolon:tattered_cloth",
+      "forbidden_arcanus:cloth",
+      "reliquary:cloth",
+      "reliquary:crimson_cloth",
+      "hexerei:cloth",
+      "botania:manaweave_cloth",
+      "#create:table_cloths",
+      "tconstruct:silky_cloth"
+  ]
+}

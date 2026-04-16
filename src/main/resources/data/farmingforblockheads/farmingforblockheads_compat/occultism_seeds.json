@@ -1,0 +1,15 @@
+{
+  "modId": "occultism",
+  "silent": true,
+  "group": {
+    "name": "Occultism Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": { "item": "minecraft:nether_star", "count": 1 },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": [
+    {
+      "output": "occultism:datura_seeds"
+    }
+  ]
+}

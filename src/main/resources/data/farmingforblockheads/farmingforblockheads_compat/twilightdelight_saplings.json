@@ -1,0 +1,15 @@
+{
+  "modId": "twilightdelight",
+  "silent": true,
+  "group": {
+    "name": "Twilight Delight Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": { "item": "minecraft:diamond", "count": 7 },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "twilightdelight:ironwood_sapling"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#allthemodium:mining_features/mining_biomes",
+  "features": [
+    "allthemodium:arcane_crystal_ore",
+    "allthemodium:runic_stone"
+  ],
+  "step": "underground_ores",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
+  ]
+}

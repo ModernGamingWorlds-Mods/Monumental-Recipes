@@ -1,0 +1,15 @@
+{
+  "modId": "ars_nouveau",
+  "silent": true,
+  "group": {
+    "name": "Ars Nouveau Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": { "item": "ars_nouveau:source_gem", "count": 1 },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": [
+    {
+      "output": "ars_nouveau:magebloom_crop"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ha ",
+    "a  ",
+    "   "
+  ],
+  "key": {
+    "h": {
+      "tag": "monumental_experience:tools/hammers"
+    },
+    "a": {
+      "tag": "chipped:mangrove_planks"
+    }
+  },
+  "result": {
+    "item": "kubejs:plate_wood_mangrove"
+  }
+} 

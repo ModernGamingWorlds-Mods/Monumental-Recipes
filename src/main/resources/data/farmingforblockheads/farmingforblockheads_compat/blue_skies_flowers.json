@@ -1,0 +1,48 @@
+{
+  "modId": "blue_skies",
+  "silent": true,
+  "group": {
+    "name": "Blue Skies Flowers",
+    "enabledByDefault": true,
+    "defaultPayment": { "item": "minecraft:gold_ingot", "count": 3 },
+    "defaultCategory": "farmingforblockheads:flowers"
+  },
+  "customEntries": [
+    {
+      "output": "blue_skies:briskbloom"
+    },
+    {
+      "output": "blue_skies:blaze_bud"
+    },
+    {
+      "output": "blue_skies:blush_blossom"
+    },
+    {
+      "output": "blue_skies:crystal_flower"
+    },
+    {
+      "output": "blue_skies:flare_floret"
+    },
+    {
+      "output": "blue_skies:frose"
+    },
+    {
+      "output": "blue_skies:lucentroot"
+    },
+    {
+      "output": "blue_skies:moonlit_bloom"
+    },
+    {
+      "output": "blue_skies:midday_bayhop"
+    },
+    {
+      "output": "blue_skies:nightcress"
+    },
+    {
+      "output": "blue_skies:polar_posy"
+    },
+    {
+      "output": "blue_skies:snowbloom"
+    }
+  ]
+}

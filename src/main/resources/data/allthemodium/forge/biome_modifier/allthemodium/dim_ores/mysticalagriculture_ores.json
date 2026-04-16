@@ -1,0 +1,20 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#allthemodium:mining_features/mining_biomes",
+  "features": [
+    "allthemodium:inferium_overworld_ore",
+    "allthemodium:inferium_nether_ore",
+    "allthemodium:inferium_end_ore",
+    "allthemodium:prosperity_overworld_ore",
+    "allthemodium:prosperity_nether_ore",
+    "allthemodium:prosperity_end_ore",
+    "allthemodium:soulium_nether_ore"
+  ],
+  "step": "underground_ores",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

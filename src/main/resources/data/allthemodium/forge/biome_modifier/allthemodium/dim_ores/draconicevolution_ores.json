@@ -1,0 +1,16 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#allthemodium:mining_features/mining_biomes",
+  "features": [
+    "allthemodium:draconium_overworld_ore",
+    "allthemodium:draconium_nether_ore",
+    "allthemodium:draconium_end_ore"
+  ],
+  "step": "underground_ores",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "draconicevolution"
+    }
+  ]
+}

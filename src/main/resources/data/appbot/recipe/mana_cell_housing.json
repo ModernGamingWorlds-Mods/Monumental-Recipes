@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "ae2:quartz_glass"
+    },
+    "B": {
+      "item": "botania:life_essence"
+    },
+    "C": {
+      "tag": "forge:ingots/manasteel"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "B B",
+    "CCC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "appbot:mana_cell_housing"
+  }
+}

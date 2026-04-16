@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "ae2:quartz_glass"
+    },
+    "A": {
+      "item": "appbot:mana_cell_housing"
+    },
+    "B": {
+      "item": "ae2:cell_component_256k"
+    },
+    "D": {
+      "item": "botania:life_essence"
+    }
+  },
+  "pattern": [
+    "XDX",
+    "DBD",
+    "AAA"
+  ],
+  "result": {
+    "id": "appbot:mana_storage_cell_256k"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "modId": "blue_skies",
+  "silent": true,
+  "group": {
+    "name": "Blue Skies Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": { "item": "minecraft:diamond", "count": 7 },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "blue_skies:bluebright_sapling"
+    },
+    {
+      "output": "blue_skies:comet_sapling"
+    },
+    {
+      "output": "blue_skies:comet_sapling"
+    },
+    {
+      "output": "blue_skies:crescent_fruit_sapling"
+    },
+    {
+      "output": "blue_skies:frostbright_sapling"
+    },
+    {
+      "output": "blue_skies:lunar_sapling"
+    },
+    {
+      "output": "blue_skies:maple_sapling"
+    },
+    {
+      "output": "blue_skies:starlit_sapling"
+    }
+  ]
+}

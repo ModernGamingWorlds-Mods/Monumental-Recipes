@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "applewood:apple_planks"
+    },
+    "B": {
+      "tag": "monumental_experience:tools/hammers"
+    }
+  },
+  "pattern": [
+    " A ",
+    " A ",
+    " B "
+  ],
+  "result": {
+    "id": "applewood:apple_pressure_plate"
+  }
+}

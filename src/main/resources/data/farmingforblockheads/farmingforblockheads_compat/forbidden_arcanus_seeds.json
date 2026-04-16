@@ -1,0 +1,15 @@
+{
+  "modId": "forbidden_arcanus",
+  "silent": true,
+  "group": {
+    "name": "Forbidden Arcanus Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": { "item": "minecraft:nether_star", "count": 1 },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": [
+    {
+      "output": "forbidden_arcanus:golden_orchid_seeds"
+    }
+  ]
+}

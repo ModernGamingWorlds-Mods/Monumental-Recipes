@@ -1,0 +1,21 @@
+{
+  "modId": "blue_skies",
+  "silent": true,
+  "group": {
+    "name": "Blue Skies Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": { "item": "minecraft:diamond", "count": 7 },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": [
+    {
+      "output": "blue_skies:pine_fruit_seeds"
+    },
+    {
+      "output": "blue_skies:winter_leaf_seeds"
+    },
+    {
+      "output": "blue_skies:scalefruit_seeds"
+    }
+  ]
+}
