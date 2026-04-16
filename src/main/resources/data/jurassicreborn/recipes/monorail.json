@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "jurassicreborn:ford_explorer",
+  "key": {
+    "C": {
+      "item": "jurassicreborn:unfinished_car"
+    },
+    "G": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "R": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "W": {
+      "item": "minecraft:glass_pane"
+    },
+    "Y": {
+      "tag": "forge:storage_blocks/iron"
+    }
+  },
+  "pattern": [
+    "RWG",
+    "GCR",
+    "YYY"
+  ],
+  "result": {
+    "item": "jurassicreborn:monorail"
+  },
+  "show_notification": true
+},
+"conditions": [
+{
+"type": "forge:mod_loaded",
+"modid": "jurassicreborn"
+}

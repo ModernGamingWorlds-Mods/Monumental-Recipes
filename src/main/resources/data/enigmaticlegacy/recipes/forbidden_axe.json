@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "arsomega"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enigmaticlegacy"
+    }
+  ],
+  "pattern": [
+    "ISI",
+    "PXP",
+    " R "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:diamond_axe"
+    },
+    "I": {
+      "tag": "forge:plates/netherite"
+    },
+    "P": {
+      "item": "minecraft:blaze_powder"
+    },
+    "R": {
+      "item": "botania:blaze_block"
+    },
+    "S": {
+      "item": "arsomega:glyph_wither_summon"
+    }
+  },
+  "result": {
+    "item": "enigmaticlegacy:forbidden_axe"
+  }
+}

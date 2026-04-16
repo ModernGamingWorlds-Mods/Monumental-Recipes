@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aether"
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:wooden_hoe"
+  },
+  "addition": {
+    "tag": "aether:skyroot_stick"
+  },
+  "result": {
+    "item": "aether:skyroot_hoe"
+  },
+  "template": {
+    "tag": "aether:skyroot_tool_crafting"
+  }
+}

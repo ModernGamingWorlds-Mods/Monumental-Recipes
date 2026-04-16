@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "chipped:sandstone"
+    },
+    {
+      "tag": "chipped:sandstone"
+    },
+    {
+      "tag": "chipped:sandstone"
+    },
+    {
+      "tag": "chipped:sandstone"
+    },
+    {
+      "item": "compressedblocks:c1_sand"
+    },
+    {
+      "tag": "chipped:bricks"
+    }
+  ],
+  "results": [
+    {
+      "id": "immersiveengineering:alloybrick",
+      "count": 2
+    }
+  ]
+}

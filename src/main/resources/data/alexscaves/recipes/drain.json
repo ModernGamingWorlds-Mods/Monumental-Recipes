@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "DRD",
+    "BBB"
+  ],
+  "key": {
+    "D": {
+      "item": "alexscaves:depth_charge"
+    },
+    "R": {
+      "tag": "forge:dusts/redstone"
+    },
+    "B": {
+      "tag": "forge:buckets/empty"
+    }
+  },
+  "result": {
+    "item": "alexscaves:drain",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ]
+}

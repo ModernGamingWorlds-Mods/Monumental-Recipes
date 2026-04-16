@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "#": {
+      "item": "minecraft:magma_block"
+    },
+    "X": {
+      "tag": "forge:obsidian"
+    },
+    "S": {
+      "tag": "minecraft:soul_fire_base_blocks"
+    },
+    "N": {
+      "tag": "forge:plates/netherite"
+    }
+  },
+  "pattern": [
+    " N#N ",
+    " #X# ",
+    " NSN ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "item": "ironfurnaces:upgrade_netherite"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironfurnaces"
+    }
+  ]
+}

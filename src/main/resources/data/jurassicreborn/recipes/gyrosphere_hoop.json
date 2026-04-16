@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "jurassicreborn:gyrosphere_hoop",
+  "key": {
+    "A": {
+      "tag": "forge:rods/iron"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "A A",
+    "AAA"
+  ],
+  "result": {
+    "item": "jurassicreborn:gyrosphere_hoop"
+  },
+  "show_notification": true
+},
+"conditions": [
+{
+"type": "forge:mod_loaded",
+"modid": "jurassicreborn"
+}

@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "cobblemon"
+        }
+    ],
+    "pattern": [
+        "CGC",
+        "IRI",
+        "IDI"
+    ],
+    "key": {
+        "C": {
+            "tag": "forge:ingots/copper"
+        },
+        "I": {
+            "item": "mysticalagriculture:iron_essence"
+        },
+        "G": {
+            "item": "mysticalagriculture:ghast_essence"
+        },
+        "D": {
+            "tag": "forge:gems/diamond"
+        },
+        "R": {
+            "item": "cobblemon:revive"
+        }
+    },
+    "result": {
+        "item": "cobblemon:healing_machine"
+    }
+}

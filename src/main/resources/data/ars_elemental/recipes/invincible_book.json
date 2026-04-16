@@ -1,0 +1,37 @@
+{
+  "type": "ars_elemental:netherite_upgrade",
+  "keepNbtOfReagent": true,
+  "pedestalItems": [
+    {
+      "item": {
+        "tag": "forge:ingots/netherite"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:earth_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:water_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:fire_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:water_essence"
+      }
+    }
+  ],
+  "reagent": [
+    {
+      "tag": "ars_nouveau:spellbook"
+    }
+  ],
+  "sourceCost" : 2000
+}

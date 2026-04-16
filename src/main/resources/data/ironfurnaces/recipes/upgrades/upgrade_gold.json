@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "#": {
+      "tag": "forge:plates/gold"
+    },
+    "X": {
+      "tag": "forge:plates/iron"
+    },
+    "Y": {
+      "tag": "forge:storage_blocks/gold"
+    }
+  },
+  "pattern": [
+    " ### ",
+    " #X# ",
+    " #Y# ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "item": "ironfurnaces:upgrade_gold"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironfurnaces"
+    }
+  ]
+}

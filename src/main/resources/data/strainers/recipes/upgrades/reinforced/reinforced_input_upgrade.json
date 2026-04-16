@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SMS",
+    "MCM",
+    "SMS"
+  ],
+  "key": {
+    "C": {
+      "item": "strainers:sturdy_input_upgrade"
+    },
+    "S": {
+      "tag": "forge:stone"
+    },
+    "M": {
+      "item": "minecraft:granite"
+    }
+  },
+  "result": {
+    "item": "strainers:reinforced_input_upgrade"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "strainers"
+    }
+  ]
+}

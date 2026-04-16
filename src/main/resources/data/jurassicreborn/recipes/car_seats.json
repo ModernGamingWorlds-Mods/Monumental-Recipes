@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:leather"
+    },
+    "B": {
+      "item": "minecraft:white_wool"
+    },
+    "C": {
+      "item": "minecraft:saddle"
+    },
+    "D": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "ACA",
+    "DDD"
+  ],
+  "result": {
+    "item": "jurassicreborn:car_seats"
+  },
+  "show_notification": true
+},
+"conditions": [
+{
+"type": "forge:mod_loaded",
+"modid": "jurassicreborn"
+}

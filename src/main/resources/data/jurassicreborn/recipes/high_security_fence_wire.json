@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "jurassicreborn:med_security_fence_wire"
+    },
+    "B": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "pattern": [
+    "AAA",
+    " B ",
+    "AAA"
+  ],
+  "result": {
+    "count": 6,
+    "item": "jurassicreborn:high_security_fence_wire"
+  },
+  "show_notification": true
+},
+"conditions": [
+{
+"type": "forge:mod_loaded",
+"modid": "jurassicreborn"
+}

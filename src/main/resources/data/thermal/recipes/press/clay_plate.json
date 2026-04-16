@@ -1,0 +1,29 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/clay",
+      "count": 4
+    },
+    {
+      "item": "thermal:press_packing_2x2_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "kubejs:clay_plate",
+      "count": 2
+    }
+  ],
+  "energy": 2400,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

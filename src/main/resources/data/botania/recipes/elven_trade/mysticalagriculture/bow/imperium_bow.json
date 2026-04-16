@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:tertium_bow"
+    },
+    {
+      "item": "mysticalagriculture:imperium_block"
+    }
+  ],
+  "output": [
+    {
+      "item": "mysticalagriculture:imperium_bow"
+    }
+  ]
+}

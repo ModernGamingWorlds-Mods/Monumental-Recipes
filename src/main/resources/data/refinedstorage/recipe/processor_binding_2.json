@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "immersiveengineering:hemp_fiber"
+    },
+    {
+      "item": "immersiveengineering:hemp_fiber"
+    },
+    {
+      "item": "hexerei:cloth"
+    },
+    {
+      "item": "industrialforegoing:pink_slime_ingot"
+    },
+    {
+      "item": "industrialforegoing:pink_slime_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "refinedstorage:processor_binding"
+    }
+  ]
+}

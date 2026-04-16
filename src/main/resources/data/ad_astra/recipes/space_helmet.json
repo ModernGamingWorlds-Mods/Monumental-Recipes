@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_helmet"
+  },
+  "addition": {
+    "tag": "forge:glass_panes"
+  },
+  "result": {
+    "item": "ad_astra:space_helmet"
+  },
+  "template": {
+    "tag": "forge:plates/iron"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    }
+  ]
+}

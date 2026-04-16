@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "exdeorum"
+		}
+	],
+	"category": "misc",
+	"key": {
+		"#": {
+			"tag": "forge:storage_blocks/compressed_iron"
+		},
+		"H": {
+			"tag": "monumental_recipes:hoppers"
+		},
+		"I": {
+			"tag": "forge:ingots/compressed_iron"
+		},
+		"T": {
+			"tag": "exdeorum:hammers"
+		}
+	},
+	"pattern": ["III", "ITI", "#H#"],
+	"result": {
+		"item": "exdeorum:mechanical_hammer"
+	},
+	"show_notification": true
+}

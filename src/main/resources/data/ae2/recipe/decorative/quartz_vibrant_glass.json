@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "c:ingots/refined_glowstone"
+    },
+    {
+      "item": "ae2:quartz_glass"
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:quartz_vibrant_glass"
+    }
+  ]
+}

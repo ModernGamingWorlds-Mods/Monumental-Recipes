@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia_additions:rice_noodle"
+    },
+    {
+      "item": "minecraft:chicken"
+    },
+    {
+      "item": "croptopia:frying_pan"
+    },
+    {
+      "item": "croptopia:chile_pepper"
+    },
+    {
+      "tag": "forge:bowls"
+    },
+    {
+      "item": "croptopia:olive_oil"
+    }
+  ],
+  "result": {
+    "item": "croptopia_additions:pad_thai",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia_additions"
+    }
+  ]
+}

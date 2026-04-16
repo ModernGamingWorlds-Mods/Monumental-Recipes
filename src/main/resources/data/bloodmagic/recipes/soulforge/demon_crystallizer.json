@@ -1,0 +1,34 @@
+{
+  "type": "bloodmagic:soulforge",
+  "drain": 100.0,
+  "input0": {
+    "item": "bloodmagic:soulforge"
+  },
+  "input1": {
+    "item": "ars_nouveau:glyph_rune"
+  },
+  "input2": {
+    "tag": "forge:gems/lapis"
+  },
+  "input3": {
+    "item": "botania:mana_glass"
+  },
+  "minimumDrain": 500.0,
+  "output": {
+    "item": "bloodmagic:demoncrystallizer"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodmagic"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

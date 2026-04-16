@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "monumental:wooden_plates"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:part_plate_small_wood"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "X": {
+      "item": "refinedstorage:64k_fluid_storage_part"
+    },
+    "I": {
+      "item": "refinedstorage:basic_processor"
+    },
+    "G": {
+      "tag": "monumental:tanks"
+    }
+  },
+  "pattern": [
+    " IXI ",
+    " XGX ",
+    " IXI ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "refinedstorage:256k_fluid_storage_part"
+  }
+}

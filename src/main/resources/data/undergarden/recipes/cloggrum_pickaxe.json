@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:stone_pickaxe"
+  },
+  "addition": {
+    "tag": "forge:ingots/cloggrum"
+  },
+  "result": {
+    "item": "undergarden:cloggrum_pickaxe"
+  },
+  "template": {
+    "tag": "forge:stone"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ]
+}

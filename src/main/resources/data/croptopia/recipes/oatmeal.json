@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:bowls"
+    },
+    {
+      "tag": "forge:oats"
+    },
+    {
+      "tag": "forge:milks"
+    }
+  ],
+  "result": {
+    "item": "croptopia:oatmeal",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
+}

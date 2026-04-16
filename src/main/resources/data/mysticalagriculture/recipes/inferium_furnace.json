@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "tag": "forge:furnaces"
+  },
+  "addition": {
+    "item": "mysticalagriculture:inferium_block"
+  },
+  "result": {
+    "item": "mysticalagriculture:inferium_furnace"
+  },
+  "template": {
+    "tag": "forge:plates/diamond"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

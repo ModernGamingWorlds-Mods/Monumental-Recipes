@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_hoe"
+  },
+  "addition": {
+    "tag": "c:gems/certus_quartz"
+  },
+  "result": {
+    "id": "ae2:certus_quartz_hoe"
+  },
+  "template": {
+    "tag": "c:plates/iron"
+  }
+}

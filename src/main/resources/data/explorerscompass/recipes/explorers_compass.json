@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:compass"
+  },
+  "addition": {
+    "item": "minecraft:cracked_stone_bricks"
+  },
+  "result": {
+    "item": "explorerscompass:explorerscompass"
+  },
+  "template": {
+    "tag": "forge:plates/iron"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "explorerscompass"
+    }
+  ]
+}

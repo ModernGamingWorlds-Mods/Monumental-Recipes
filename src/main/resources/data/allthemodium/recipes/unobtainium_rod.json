@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "allthemodium",
+  "key": {
+    "a": {
+      "tag": "forge:ingots/unobtainium"
+    },
+    "b": {
+      "tag": "monumental_recipes:tools/hammers"
+    }
+  },
+  "pattern": [
+    "b  ",
+    "a  ",
+    "a  "
+  ],
+  "result": {
+    "item": "allthemodium:unobtainium_rod"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

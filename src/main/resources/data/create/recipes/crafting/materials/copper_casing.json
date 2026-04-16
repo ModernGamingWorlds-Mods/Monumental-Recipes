@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "forge:sheetmetals/copper"
+    },
+    "C": {
+      "tag": "forge:plates/copper"
+    },
+    "S": {
+      "item": "supplementaries:timber_frame"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "CSC",
+    "AAA"
+  ],
+  "result": {
+    "item": "create:copper_casing",
+    "count": 4
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ]
+}

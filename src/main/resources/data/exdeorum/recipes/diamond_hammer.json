@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exdeorum"
+    }
+  ],
+  "base": {
+    "item": "exdeorum:golden_hammer"
+  },
+  "addition": {
+    "tag": "forge:gems/diamond"
+  },
+  "result": {
+    "item": "exdeorum:diamond_hammer"
+  },
+  "template": {
+    "tag": "forge:rods/wooden"
+  }
+}

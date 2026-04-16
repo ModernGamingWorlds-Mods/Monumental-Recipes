@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "minecraft:planks"
+    },
+    {
+      "tag": "minecraft:planks"
+    },
+    {
+      "tag": "minecraft:planks"
+    },
+    {
+      "tag": "minecraft:planks"
+    },
+    {
+      "fluidTag": "forge:creosote",
+      "amount": 500
+    }
+  ],
+  "results": [
+    {
+      "id": "immersiveengineering:treated_wood_horizontal",
+      "count": 2
+    }
+  ]
+}

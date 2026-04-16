@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:chainmail_leggings"
+  },
+  "addition": {
+    "item": "forcecraft:force_stick"
+  },
+  "result": {
+    "id": "forcecraft:force_legs"
+  },
+  "template": {
+    "tag": "monumental:chains"
+  }
+}

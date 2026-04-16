@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "chiselsandbits:chisel_stone"
+  },
+  "addition": {
+    "tag": "c:rods/iron"
+  },
+  "result": {
+    "id": "rechiseled:chisel"
+  },
+  "template": {
+    "tag": "c:stones"
+  }
+}

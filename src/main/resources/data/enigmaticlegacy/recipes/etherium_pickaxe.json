@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:diamond_pickaxe"
+  },
+  "addition": {
+    "item": "enigmaticlegacy:etherium_ingot"
+  },
+  "result": {
+    "item": "enigmaticlegacy:etherium_pickaxe"
+  },
+  "template": {
+    "item": "enigmaticlegacy:ender_rod"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enigmaticlegacy"
+    }
+  ]
+}

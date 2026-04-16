@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "tag": "forge:ingots/iron"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "C": {
+      "item": "jurassicreborn:keyboard"
+    },
+    "D": {
+      "item": "jurassicreborn:iron_rod"
+    },
+    "E": {
+      "item": "jurassicreborn:basic_circuit"
+    },
+    "F": {
+      "tag": "forge:storage_blocks/iron"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DED",
+    "DFD"
+  ],
+  "result": {
+    "item": "jurassicreborn:embryo_calcification_machine"
+  },
+  "show_notification": true
+},
+"conditions": [
+{
+"type": "forge:mod_loaded",
+"modid": "jurassicreborn"
+}

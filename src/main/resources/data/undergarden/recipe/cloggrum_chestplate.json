@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_chestplate"
+  },
+  "addition": {
+    "tag": "c:ingots/cloggrum"
+  },
+  "result": {
+    "id": "undergarden:cloggrum_chestplate"
+  },
+  "template": {
+    "tag": "c:plates/iron"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "key": {
+    "r": {
+      "item": "actuallyadditions:advanced_coil"
+    },
+    "R": {
+      "tag": "c:gears/compressed_iron"
+    },
+    "d": {
+      "tag": "c:plates/diamond"
+    },
+    "s": {
+      "tag": "c:plates/steel"
+    },
+    "a": {
+      "item": "extendedcrafting:redstone_catalyst"
+    }
+  },
+  "pattern": [
+    " sds ",
+    " rRr ",
+    " sas ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolspower:power_core1"
+  }
+}

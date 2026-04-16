@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SMS",
+    "MCM",
+    "SMS"
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:cobblestone"
+    },
+    "S": {
+      "tag": "forge:stone"
+    },
+    "M": {
+      "item": "mysticalagriculture:copper_essence"
+    }
+  },
+  "result": {
+    "item": "strainers:improved_output_upgrade"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "strainers"
+    }
+  ]
+}

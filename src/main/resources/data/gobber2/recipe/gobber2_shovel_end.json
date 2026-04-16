@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "addition": {
+    "tag": "c:ingots/gobber_end"
+  },
+  "result": {
+    "item": "gobber2:gobber2_shovel_end"
+  },
+  "template": {
+    "tag": "c:plates/netherite"
+  }
+}

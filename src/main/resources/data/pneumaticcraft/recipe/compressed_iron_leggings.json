@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_leggings"
+  },
+  "addition": {
+    "item": "kubejs:compressed_iron_plate"
+  },
+  "result": {
+    "id": "pneumaticcraft:compressed_iron_leggings"
+  },
+  "template": {
+    "tag": "c:plates/iron"
+  }
+}

@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:blueprint","category":"components","inputs":[{"tag":"c:plastics"},{"base_ingredient":{"item":"immersiveengineering:electron_tube"},"count":2},{"tag":"c:wires/aluminum"}],"result":{"id":"immersiveengineering:component_electronic_adv"}}

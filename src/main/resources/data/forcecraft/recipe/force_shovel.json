@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:stone_shovel"
+  },
+  "addition": {
+    "item": "forcecraft:force_stick"
+  },
+  "result": {
+    "id": "forcecraft:force_shovel"
+  },
+  "template": {
+    "tag": "c:stones"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "key": {
+    "A": {
+      "tag": "c:sheetmetals/steel"
+    },
+    "B": {
+      "item": "kubejs:compressed_iron_plate"
+    },
+    "C": {
+      "tag": "c:gems/fluix"
+    },
+    "D": {
+      "item": "immersiveengineering:charging_station"
+    }
+  },
+  "pattern": [
+    " ABA ",
+    " CDC ",
+    " ABA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2:charger"
+  }
+}

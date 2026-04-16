@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "minecraft:crafting_table"
+    },
+    "addition": {
+        "tag": "forge:plates/iron"
+    },
+    "result": {
+        "item": "minecraft:smithing_table"
+    },
+    "template": {
+        "tag": "forge:plates/iron"
+    }
+}

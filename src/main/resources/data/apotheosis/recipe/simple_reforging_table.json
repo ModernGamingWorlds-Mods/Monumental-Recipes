@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [{
+	"type": "apotheosis:module",
+    "module": "adventure"
+  }],
+  "group": "something",
+  "pattern": [
+    " N ",
+    "GEG",
+    "BBB"
+  ],
+  "key": {
+    "N": {
+      "tag": "c:ingots/compressed_iron"
+    },
+	"G": {
+      "item": "apotheosis:gem_dust"
+    },
+	"E": {
+      "item": "ars_nouveau:scribes_table"
+    },
+	"B": {
+      "tag": "chipped:smooth_stone"
+    }
+  },
+  "result": {
+    "id": "apotheosis:simple_reforging_table",
+    "count": 1
+  }
+}

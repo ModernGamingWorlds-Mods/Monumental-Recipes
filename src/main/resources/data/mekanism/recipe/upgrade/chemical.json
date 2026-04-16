@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "ae2:quartz_glass"
+    },
+    "B": {
+      "tag": "c:dusts/iron"
+    },
+    "C": {
+      "item": "mekanism:restrictive_transporter"
+    }
+  },
+  "pattern": [
+    " A ",
+    "CBC",
+    " A "
+  ],
+  "result": {
+    "id": "mekanism:upgrade_gas",
+    "count": 2
+  }
+}

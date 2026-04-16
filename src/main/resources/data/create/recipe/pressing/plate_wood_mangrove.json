@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "chipped:mangrove_planks"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:plate_wood_mangrove"
+    }
+  ]
+}

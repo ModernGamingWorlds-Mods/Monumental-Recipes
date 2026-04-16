@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:string"
+    },
+    "C": {
+      "tag": "forge:ingots/iron"
+    },
+    "D": {
+      "tag": "forge:ingots/gold"
+    },
+    "E": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "pattern": [
+    " AE",
+    "CCC",
+    "DDC"
+  ],
+  "result": {
+    "item": "jurassicreborn:uts15"
+  },
+  "show_notification": true
+},
+"conditions": [
+{
+"type": "forge:mod_loaded",
+"modid": "jurassicreborn"
+}

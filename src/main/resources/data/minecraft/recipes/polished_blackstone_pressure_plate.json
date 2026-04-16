@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:polished_blackstone"
+    },
+    "B": {
+      "tag": "monumental_experience:tools/hammers"
+    }
+  },
+  "pattern": [
+    " A ",
+    " A ",
+    " B "
+  ],
+  "result": {
+    "item": "minecraft:polished_blackstone_pressure_plate"
+  }
+}

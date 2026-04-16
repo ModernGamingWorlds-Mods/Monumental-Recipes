@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "ae2:quartz_glass"
+    },
+    "B": {
+      "tag": "c:dusts/diamond"
+    },
+    "C": {
+      "item": "minecraft:respawn_anchor"
+    }
+  },
+  "pattern": [
+    " A ",
+    "CBC",
+    " A "
+  ],
+  "result": {
+    "id": "mekanism:upgrade_anchor",
+    "count": 1
+  }
+}

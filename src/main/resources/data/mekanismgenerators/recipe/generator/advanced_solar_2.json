@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "P": {
+      "item": "mekanismgenerators:solar_generator"
+    },
+    "A": {
+      "tag": "mekanism:alloys/infused"
+    },
+    "I": {
+      "item": "kubejs:compressed_iron_plate"
+    }
+  },
+  "pattern": [
+    " PAP ",
+    " PAP ",
+    " III ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismgenerators:advanced_solar_generator"
+  }
+}

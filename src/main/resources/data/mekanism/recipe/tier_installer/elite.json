@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "mekanism:advanced_tier_installer"
+    },
+    "B": {
+      "tag": "c:circuits/elite"
+    },
+    "C": {
+      "tag": "c:gears/electrum"
+    },
+    "D": {
+      "tag": "mekanism:alloys/reinforced"
+    }
+  },
+  "pattern": [
+    "DBD",
+    "CAC",
+    "DBD"
+  ],
+  "result": {
+    "id": "mekanism:elite_tier_installer"
+  }
+}

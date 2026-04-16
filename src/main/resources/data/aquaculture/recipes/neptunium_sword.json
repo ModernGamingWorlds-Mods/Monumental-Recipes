@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "addition": {
+    "tag": "forge:ingots/neptunium"
+  },
+  "result": {
+    "item": "aquaculture:neptunium_sword"
+  },
+  "template": {
+    "tag": "forge:plates/netherite"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aquaculture"
+    }
+  ]
+}

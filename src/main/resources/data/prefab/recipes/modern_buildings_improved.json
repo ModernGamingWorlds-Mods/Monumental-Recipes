@@ -1,0 +1,38 @@
+{
+  "type": "prefab:condition_crafting_shaped",
+  "configName": "Modern Buildings",
+  "group": "Modern Buildings",
+  "pattern": [
+    "a a",
+    "bbb",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:storage_blocks/double_compressed_lights"
+    },
+    "b": {
+      "item": "compressium:stone_2"
+    },
+    "c": {
+      "tag": "forge:storage_blocks/iron"
+    },
+    "d": {
+      "item": "compressium:quartz_2"
+    }
+  },
+  "result": {
+    "item": "prefab:item_modern_buildings_improved",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "prefab"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "ad_astra:steel_plates"
+    },
+    "B": {
+      "tag": "forge:buckets/empty"
+    },
+    "F": {
+      "tag": "forge:furnaces"
+    }
+  },
+  "pattern": [
+    "###",
+    "BFB",
+    "###"
+  ],
+  "result": {
+    "item": "ad_astra:fuel_refinery"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    }
+  ]
+}

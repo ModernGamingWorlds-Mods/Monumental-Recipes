@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "kubejs:blueprint" },
+    { "tag": "forge:ingots/iron" },
+    { "tag": "forge:ingots/copper" }
+  ],
+  "result": {
+    "item": "kubejs:gyrodyne_blueprint"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersive_aircraft"
+    }
+  ]
+}

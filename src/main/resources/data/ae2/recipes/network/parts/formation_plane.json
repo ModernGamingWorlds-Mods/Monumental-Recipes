@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "tag": "forge:gems/fluix"
+    },
+    "b": {
+      "tag": "forge:plates/enderium"
+    },
+    "c": {
+      "item": "ae2:formation_core"
+    }
+  },
+  "pattern": [
+    "ab ",
+    "cb ",
+    "ab "
+  ],
+  "result": {
+    "item": "ae2:formation_plane"
+  }
+}

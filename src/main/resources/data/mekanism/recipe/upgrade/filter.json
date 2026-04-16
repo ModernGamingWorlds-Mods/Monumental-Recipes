@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "ae2:quartz_glass"
+    },
+    "B": {
+      "tag": "c:dusts/tin"
+    },
+    "C": {
+      "item": "mekanism:basic_mechanical_pipe"
+    }
+  },
+  "pattern": [
+    " A ",
+    "CBC",
+    " A "
+  ],
+  "result": {
+    "id": "mekanism:upgrade_filter",
+    "count": 2
+  }
+}

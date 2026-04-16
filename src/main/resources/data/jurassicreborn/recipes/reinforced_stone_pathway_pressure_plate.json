@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jurassicreborn"
+    }
+  ],
+  "key": {
+    "A": {
+      "item": "jurassicreborn:reinforced_stone_pathway"
+    },
+    "B": {
+      "tag": "monumental_recipes:tools/hammers"
+    }
+  },
+  "pattern": [
+    " A ",
+    " A ",
+    " B "
+  ],
+  "result": {
+    "item": "jurassicreborn:reinforced_stone_pathway_pressure_plate"
+  }
+},
+"conditions": [
+{
+"type": "forge:mod_loaded",
+"modid": "jurassicreborn"
+}

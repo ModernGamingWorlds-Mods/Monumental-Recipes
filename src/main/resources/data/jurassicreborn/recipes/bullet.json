@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "jurassicreborn:bullet",
+  "key": {
+    "A": {
+      "item": "minecraft:gunpowder"
+    },
+    "C": {
+      "tag": "forge:ingots/iron"
+    },
+    "E": {
+      "tag": "forge:ingots/gold"
+    }
+  },
+  "pattern": [
+    "AAE",
+    " EC"
+  ],
+  "result": {
+    "item": "jurassicreborn:bullet"
+  },
+  "show_notification": true
+},
+"conditions": [
+{
+"type": "forge:mod_loaded",
+"modid": "jurassicreborn"
+}

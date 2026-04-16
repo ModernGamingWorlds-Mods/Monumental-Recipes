@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:ingots/refined_glowstone"
+    },
+    "B": {
+      "item": "ae2:calculation_processor"
+    },
+    "C": {
+      "item": "ae2:cell_component_16k"
+    },
+    "D": {
+      "item": "ae2:quartz_glass"
+    }
+  },
+  "pattern": [
+    " ABA ",
+    " CDC ",
+    " ACA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2:cell_component_64k"
+  }
+}

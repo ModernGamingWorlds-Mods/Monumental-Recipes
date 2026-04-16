@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "structurize:sceptergold"
+    },
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GBG",
+    " S "
+  ],
+  "result": {
+    "item": "minecolonies:assistanthammer_gold"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "minecolonies"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "structurize"
+    }
+  ]
+}

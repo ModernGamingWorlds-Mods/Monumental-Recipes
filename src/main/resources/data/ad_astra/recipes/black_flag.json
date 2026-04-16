@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:black_wool"
+    },
+    "|": {
+      "tag": "forge:rods/steel"
+    }
+  },
+  "pattern": [
+    "|##",
+    "|##",
+    "|  "
+  ],
+  "result": {
+    "item": "ad_astra:black_flag"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    }
+  ]
+}

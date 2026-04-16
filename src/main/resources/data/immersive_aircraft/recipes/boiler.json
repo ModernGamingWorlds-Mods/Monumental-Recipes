@@ -1,0 +1,42 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "pattern": [
+    "AAAAA",
+    "ACECA",
+    "ACBCA",
+    "ACECA",
+    "ADDDA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:ingots/copper"
+    },
+    "B": {
+      "item": "create:steam_engine"
+    },
+    "C": {
+      "tag": "forge:furnaces"
+    },
+    "D": {
+      "item": "forge:plates/aluminum"
+    },
+    "E": {
+      "item": "forge:plates/aluminum"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "immersive_aircraft:boiler"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersive_aircraft"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

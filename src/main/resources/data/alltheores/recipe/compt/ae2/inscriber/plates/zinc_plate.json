@@ -1,0 +1,18 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "bottom": {
+      "item": "create:andesite_alloy"
+    },
+    "middle": {
+      "item": "immersiveengineering:mold_plate"
+    },
+    "top": {
+      "tag": "c:ingots/zinc"
+    }
+  },
+  "mode": "press",
+  "result": {
+    "id": "alltheores:zinc_plate"
+  }
+}

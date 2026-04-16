@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "create:layered_andesite"
+    },
+    "C": {
+      "item": "create:andesite_alloy"
+    },
+    "S": {
+      "item": "supplementaries:timber_frame"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "CSC",
+    "AAA"
+  ],
+  "result": {
+    "id": "create:andesite_casing",
+    "count": 4
+  }
+}

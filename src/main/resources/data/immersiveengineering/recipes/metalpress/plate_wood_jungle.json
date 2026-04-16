@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    }
+  ],
+  "energy": 2400,
+  "input": {
+    "tag": "chipped:jungle_planks"
+  },
+  "mold": "immersiveengineering:mold_plate",
+  "result": {
+    "item": "kubejs:plate_wood_jungle"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "type":"exdeorum:hammer",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "exdeorum"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "thermal"
+        }
+    ],
+    "ingredient": {
+        "tag":"minecraft:logs"
+    },
+    "result":"thermal:sawdust",
+    "result_amount": {
+        "type":"minecraft:uniform",
+    "max":8.0,
+    "min":3.0
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:plates/gold"
+    },
+    "B": {
+      "item": "ironfurnaces:iron_furnace"
+    },
+    "C": {
+      "tag": "forge:storage_blocks/gold"
+    }
+  },
+  "pattern": [
+    " AAA ",
+    " CBC ",
+    " AAA ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "ironfurnaces:gold_furnace"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironfurnaces"
+    }
+  ]
+}

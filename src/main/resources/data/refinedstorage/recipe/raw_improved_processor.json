@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "immersiveengineering:wirecoil_electrum"
+    },
+    {
+      "tag": "c:silicon"
+    },
+    {
+      "item": "extendedcrafting:redstone_catalyst"
+    },
+    {
+      "item": "refinedstorage:processor_binding"
+    },
+    {
+      "item": "immersiveengineering:wirecoil_electrum"
+    }
+  ],
+  "results": [
+    {
+      "id": "refinedstorage:raw_improved_processor"
+    }
+  ]
+}

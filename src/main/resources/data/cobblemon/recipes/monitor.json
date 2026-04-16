@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "cobblemon"
+        }
+    ],
+    "pattern": [
+        "III",
+        "CGC",
+        "IRI"
+    ],
+    "key": {
+        "I": {
+            "item": "mysticalagriculture:iron_essence"
+        },
+        "G": {
+            "tag": "forge:glass"
+        },
+        "C": {
+            "tag": "forge:ingots/copper"
+        },
+        "R": {
+            "item": "minecraft:redstone_torch"
+        }
+    },
+    "result": {
+        "item": "cobblemon:monitor"
+    }
+}

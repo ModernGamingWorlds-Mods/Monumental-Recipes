@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:chainmail_helmet"
+  },
+  "addition": {
+    "tag": "monumental:cloths"
+  },
+  "result": {
+    "id": "forbidden_arcanus:mortem_helmet"
+  },
+  "template": {
+    "tag": "c:chains"
+  }
+}

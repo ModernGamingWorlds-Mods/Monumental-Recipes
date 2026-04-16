@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cobblemon"
+    }
+  ],
+  "group": "wooden_pressure_plate",
+  "key": {
+    "A": {
+      "item": "cobblemon:apricorn_planks"
+    },
+    "B": {
+      "tag": "monumental_recipes:tools/hammers"
+    }
+  },
+  "pattern": [
+    " A ",
+    " A ",
+    " B "
+  ],
+  "result": {
+  "item": "cobblemon:apricorn_pressure_plate"
+  }
+}

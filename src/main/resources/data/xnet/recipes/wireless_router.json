@@ -1,0 +1,43 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "kubejs:compressed_iron_plate"
+    },
+    "B": {
+      "item": "cyclic:wireless_transmitter"
+    },
+    "C": {
+      "tag": "monumental_recipes:eyes"
+    },
+    "D": {
+      "item": "xnet:router"
+    }
+  },
+  "result": {
+    "item": "xnet:wireless_router"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "xnet"
+    }
+  ]
+}

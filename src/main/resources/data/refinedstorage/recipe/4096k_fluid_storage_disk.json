@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "M": {
+      "tag": "c:glass_blocks"
+    },
+    "R": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "P": {
+      "item": "refinedstorage:4096k_fluid_storage_part"
+    },
+    "E": {
+      "item": "refinedstorage:quartz_enriched_iron"
+    }
+  },
+  "pattern": [
+    "MRM",
+    "RPR",
+    "EEE"
+  ],
+  "result": {
+    "id": "refinedstorage:4096k_fluid_storage_disk"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "monumental_recipes:wooden_plates"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:part_plate_small_wood"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

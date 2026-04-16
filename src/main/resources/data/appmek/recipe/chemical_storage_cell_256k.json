@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "ae2:quartz_glass"
+    },
+    "A": {
+      "tag": "c:ingots/osmium"
+    },
+    "B": {
+      "item": "ae2:cell_component_256k"
+    },
+    "D": {
+      "item": "appmek:chemical_cell_housing"
+    }
+  },
+  "pattern": [
+    "XDX",
+    "DBD",
+    "AAA"
+  ],
+  "result": {
+    "id": "appmek:chemical_storage_cell_256k"
+  }
+}

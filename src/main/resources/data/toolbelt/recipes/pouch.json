@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "W": {
+      "tag": "forge:string"
+    },
+    "G": {
+      "item": "material_elements:leather_sheet"
+    },
+    "S": {
+      "tag": "forge:ingots/gold"
+    }
+  },
+  "pattern": [
+    "WGW",
+    "G G",
+    "GSG"
+  ],
+  "result": {
+    "item": "toolbelt:pouch"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "material_elements"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "toolbelt"
+    }
+  ]
+}

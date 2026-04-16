@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:diamond_axe"
+  },
+  "addition": {
+    "tag": "c:gems/utherium"
+  },
+  "result": {
+    "id": "undergarden:utherium_axe"
+  },
+  "template": {
+    "tag": "c:plates/diamond"
+  }
+}

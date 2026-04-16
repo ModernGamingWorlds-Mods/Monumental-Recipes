@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "addition": {
+    "tag": "c:ingots/neptunium"
+  },
+  "result": {
+    "id": "aquaculture:neptunium_axe"
+  },
+  "template": {
+    "tag": "c:plates/netherite"
+  }
+}

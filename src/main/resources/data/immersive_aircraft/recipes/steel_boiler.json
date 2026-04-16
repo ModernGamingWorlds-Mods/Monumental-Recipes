@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ACA",
+    "ABA"
+  ],
+  "key": {
+    "A": [
+      {
+        "tag": "forge:ingots/steel"
+      }
+    ],
+    "B": [
+      {
+        "item": "mekanism:boiler_valve"
+      }
+    ],
+    "C": [
+      {
+        "item": "immersive_aircraft:boiler"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:steel_boiler"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersive_aircraft"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
+}

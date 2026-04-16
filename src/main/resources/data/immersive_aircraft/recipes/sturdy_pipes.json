@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  A",
+    "BCB",
+    "A  "
+  ],
+  "key": {
+    "A": [
+      {
+        "item": "create:fluid_pipe"
+      }
+    ],
+    "B": [
+      {
+        "item": "immersiveengineering:fluid_pipe"
+      }
+    ],
+    "C": [
+      {
+        "item": "create:smart_fluid_pipe"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:sturdy_pipes"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

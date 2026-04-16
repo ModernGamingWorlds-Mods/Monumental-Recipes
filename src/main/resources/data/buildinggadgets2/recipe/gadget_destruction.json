@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "c:plates/iron"
+    },
+    "B": {
+      "item": "immersiveengineering:insulating_glass"
+    },
+    "C": {
+      "item": "mysticalagriculture:lapis_lazuli_essence"
+    },
+    "D": {
+      "tag": "c:dusts/ender_pearl"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "AEA",
+    "DBD",
+    "ACA"
+  ],
+  "result": {
+    "id": "buildinggadgets2:gadget_destruction"
+  }
+}

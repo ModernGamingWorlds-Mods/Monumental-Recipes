@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SMS",
+    "MCM",
+    "SMS"
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:cobblestone"
+    },
+    "S": {
+      "tag": "forge:stone"
+    },
+    "M": {
+      "item": "opolisutilities:resource_generator_2"
+    }
+  },
+  "result": {
+    "item": "strainers:improved_input_upgrade"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "opolisutilities"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "strainers"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_salmon"
+    },
+    {
+      "tag": "forge:avocados"
+    },
+    {
+      "item": "wfc:waffle"
+    }
+  ],
+  "result": {
+    "item": "wfc:salmon_waffle",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "wfc"
+    }
+  ]
+}

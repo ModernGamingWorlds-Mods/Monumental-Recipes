@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:glass_bottle"
+    },
+    "B": {
+      "tag": "chipped:nether_bricks"
+    },
+    "C": {
+      "tag": "forge:storage_blocks/quartz"
+    },
+    "D": {
+      "tag": "forge:gems/quartz"
+    }
+  },
+  "pattern": [
+    "A  ",
+    "BBC",
+    "D  "
+  ],
+  "result": {
+    "item": "forbidden_arcanus:soul_extractor"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
+  ]
+}

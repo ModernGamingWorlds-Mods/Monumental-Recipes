@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "havenede"
+    }
+  ],
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "forge:storage_blocks/diamond"
+    },
+    "G": {
+      "tag": "forge:glass"
+    },
+    "I": {
+      "tag": "chipped:iron_bars"
+    },
+    "M": {
+      "item": "havenede:golden_mechanical_sieve"
+    }
+  },
+  "pattern": [
+    "BGB",
+    "IMI",
+    "I I"
+  ],
+  "result": {
+    "item": "havenede:diamond_mechanical_sieve"
+  },
+  "show_notification": true
+}

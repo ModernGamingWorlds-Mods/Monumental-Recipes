@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:tertium_shears"
+    },
+    {
+      "item": "mysticalagriculture:imperium_gemstone"
+    }
+  ],
+  "output": [
+    {
+      "item": "mysticalagriculture:imperium_shears"
+    }
+  ]
+}

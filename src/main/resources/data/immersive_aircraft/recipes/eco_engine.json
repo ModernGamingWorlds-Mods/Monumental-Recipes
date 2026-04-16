@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": [
+      {
+        "item": "mekanism:bio_fuel"
+      }
+    ],
+    "B": [
+      {
+        "tag": "forge:ingots/gold"
+      }
+    ],
+    "C": [
+      {
+        "item": "immersive_aircraft:engine"
+      }
+    ],
+    "D": [
+      {
+        "tag": "forge:plates/aluminum"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:eco_engine"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersive_aircraft"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
+}

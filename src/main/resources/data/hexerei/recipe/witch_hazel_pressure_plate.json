@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "hexerei:witch_hazel_planks"
+    },
+    "B": {
+      "tag": "monumental:tools/hammers"
+    }
+  },
+  "pattern": [
+    " A ",
+    " A ",
+    " B "
+  ],
+  "result": {
+    "id": "hexerei:witch_hazel_pressure_plate"
+  }
+}

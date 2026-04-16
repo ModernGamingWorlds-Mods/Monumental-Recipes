@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "c:plates/electrum"
+    },
+    "B": {
+      "item": "kubejs:compressed_iron_plate"
+    },
+    "C": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "D": {
+      "item": "ae2:calculation_processor"
+    }
+  },
+  "pattern": [
+    "AB ",
+    "CDB",
+    "AB "
+  ],
+  "result": {
+    "id": "ae2:basic_card"
+  }
+}

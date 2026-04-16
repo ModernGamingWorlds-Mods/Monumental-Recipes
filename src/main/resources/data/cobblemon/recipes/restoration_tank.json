@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "cobblemon"
+        }
+    ],
+    "pattern": [
+        "III",
+        "GRG",
+        "GCG"
+    ],
+    "key": {
+        "I": {
+            "item": "mysticalagriculture:iron_essence"
+        },
+        "G": {
+            "tag": "forge:glass"
+        },
+        "R": {
+            "item": "cobblemon:revive"
+        },
+        "C": {
+            "item": "minecraft:composter"
+        }
+    },
+    "result": {
+        "item": "cobblemon:restoration_tank"
+    }
+}

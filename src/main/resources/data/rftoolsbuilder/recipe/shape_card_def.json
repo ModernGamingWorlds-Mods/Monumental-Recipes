@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "pneumaticcraft:reinforced_bricks"
+    },
+    "i": {
+      "tag": "c:ingots/compressed_iron"
+    },
+    "p": {
+      "tag": "c:paper"
+    },
+    "r": {
+      "item": "extendedcrafting:redstone_component"
+    }
+  },
+  "pattern": [
+    "pBp",
+    "rir",
+    "pBp"
+  ],
+  "result": {
+    "id": "rftoolsbuilder:shape_card_def"
+  }
+}

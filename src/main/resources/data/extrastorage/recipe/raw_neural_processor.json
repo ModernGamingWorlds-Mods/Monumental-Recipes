@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "tag": "c:player_workstations/crafting_tables"
+    },
+    {
+      "tag": "c:gems/quartz"
+    },
+    {
+      "tag": "c:obsidians"
+    },
+    {
+      "item": "refinedstorage:processor_binding"
+    }
+  ],
+  "results": [
+    {
+      "id": "extrastorage:raw_neural_processor"
+    }
+  ]
+}

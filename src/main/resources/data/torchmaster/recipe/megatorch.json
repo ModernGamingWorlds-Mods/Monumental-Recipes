@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "T": {
+      "item": "reliquary:sojourner_staff"
+    },
+    "G": {
+      "tag": "c:storage_blocks/gold"
+    },
+    "D": {
+      "tag": "c:storage_blocks/diamond"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "pattern": [
+    "TTT",
+    "GLG",
+    "DLD"
+  ],
+  "result": {
+    "id": "torchmaster:megatorch"
+  }
+}

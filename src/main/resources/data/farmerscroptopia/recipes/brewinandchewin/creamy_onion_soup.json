@@ -1,0 +1,45 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "brewinandchewin"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:cooking_pots"
+          },
+          {
+            "tag": "forge:cheese"
+          },
+          {
+            "tag": "forge:vegetables/onion"
+          },
+          {
+            "tag": "forge:vegetables"
+          },
+          {
+            "tag": "forge:bread"
+          },
+          {
+            "tag": "forge:bowls"
+          }
+        ],
+        "result": {
+          "item": "brewinandchewin:creamy_onion_soup"
+        }
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ]
+}

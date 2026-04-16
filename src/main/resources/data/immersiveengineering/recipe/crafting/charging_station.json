@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "X": {
+      "item": "create:electron_tube"
+    },
+    "T": {
+      "item": "immersiveengineering:connector_lv"
+    },
+    "S": {
+      "tag": "c:plates/iron"
+    },
+    "W": {
+      "item": "immersiveengineering:insulating_glass"
+    },
+    "A": {
+      "tag": "immersiveengineering:treated_wood"
+    },
+    "C": {
+      "item": "immersiveengineering:coil_lv"
+    }
+  },
+  "pattern": [
+    " STS ",
+    " WXW ",
+    " ACA ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 2,
+    "id": "immersiveengineering:charging_station"
+  }
+}

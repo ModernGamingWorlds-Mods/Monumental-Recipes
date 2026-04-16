@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "stevescarts"
+    }
+  ],
+  "category": "misc",
+  "key": {
+    "D": {
+      "tag": "forge:dyes"
+    },
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "S": {
+      "item": "minecraft:wheat_seeds"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "GSG",
+    "DDD"
+  ],
+  "result": {
+    "item": "havenanimalseeds:glow_squid_seed"
+  },
+  "show_notification": true
+}

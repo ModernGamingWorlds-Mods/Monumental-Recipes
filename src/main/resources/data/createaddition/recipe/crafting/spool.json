@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "immersiveengineering:treated_wood"
+    },
+    "B": {
+      "tag": "c:rods/iron"
+    }
+  },
+  "pattern": [
+    " A ",
+    " B ",
+    " A "
+  ],
+  "result": {
+    "id": "createaddition:spool"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "aeinfinitybooster:infinity_card"
+    },
+    "b": {
+      "tag": "c:nether_stars"
+    },
+    "c": {
+      "tag": "monumental:eyes"
+    }
+  },
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "result": {
+    "id": "aeinfinitybooster:dimension_card"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:crops/garlic"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "tag": "forge:bowls"
+    },
+    {
+      "tag": "forge:bowls"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecolonies:potato_soup"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "minecolonies"
+    }
+  ]
+}

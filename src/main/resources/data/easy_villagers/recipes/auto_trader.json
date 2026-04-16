@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GRG",
+    "INI"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass_panes/colorless"
+    },
+    "I": {
+      "tag": "forge:ingots/compressed_iron"
+    },
+    "R": {
+      "item": "easy_villagers:trader"
+    },
+    "N": {
+      "tag": "forge:ingots/netherite"
+    }
+  },
+  "result": {
+    "item": "easy_villagers:auto_trader"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "easy_villagers"
+    }
+  ]
+}

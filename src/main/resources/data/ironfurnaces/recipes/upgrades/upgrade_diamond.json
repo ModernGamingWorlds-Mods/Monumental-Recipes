@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "#": {
+      "tag": "forge:plates/diamond"
+    },
+    "X": {
+      "tag": "forge:plates/gold"
+    },
+    "G": {
+      "tag": "forge:glass"
+    }
+  },
+  "pattern": [
+    " ### ",
+    " GXG ",
+    " ### ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "item": "ironfurnaces:upgrade_diamond"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironfurnaces"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "ae2:quartz_glass"
+    },
+    "B": {
+      "tag": "c:ingots/refined_glowstone"
+    },
+    "C": {
+      "tag": "c:gems/certus_quartz"
+    },
+    "D": {
+      "item": "kubejs:compressed_iron_plate"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "DDD"
+  ],
+  "result": {
+    "count": 2,
+    "id": "ae2:blank_pattern"
+  }
+}

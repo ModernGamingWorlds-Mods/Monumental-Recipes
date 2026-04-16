@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:shield"
+  },
+  "addition": {
+    "tag": "immersiveengineering:treated_wood"
+  },
+  "result": {
+    "id": "immersiveengineering:shield"
+  },
+  "template": {
+    "tag": "c:rods/wooden"
+  }
+}

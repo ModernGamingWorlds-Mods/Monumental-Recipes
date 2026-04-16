@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersive_aircraft"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "AAA"
+  ],
+  "key": {
+    "A": [
+      {
+        "tag": "forge:ingots/steel"
+      }
+    ],
+    "B": [
+      {
+        "item": "immersive_aircraft:hull"
+      }
+    ],
+    "C": [
+      {
+        "tag": "forge:storage_blocks/steel"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:hull_reinforcement"
+  }
+}

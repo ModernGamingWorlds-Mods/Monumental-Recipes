@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "c:plates/iron"
+    },
+    "B": {
+      "tag": "c:player_workstations/crafting_tables"
+    },
+    "C": {
+      "item": "extendedcrafting:basic_component"
+    },
+    "D": {
+      "item": "extendedcrafting:basic_catalyst"
+    }
+  },
+  "pattern": [
+    "CDC",
+    "ABA",
+    "CDC"
+  ],
+  "result": {
+    "id": "extendedcrafting:basic_table"
+  }
+}

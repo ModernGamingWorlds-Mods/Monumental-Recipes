@@ -1,0 +1,32 @@
+{
+  "type": "prefab:condition_crafting_shaped",
+  "configName": "Villager Houses",
+  "group": "Villager Houses",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "prefab:item_bundle_of_timber"
+    },
+    "b": {
+      "item": "compressium:stone_1"
+    }
+  },
+  "result": {
+    "item": "prefab:item_villager_houses",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "prefab"
+    }
+  ]
+}

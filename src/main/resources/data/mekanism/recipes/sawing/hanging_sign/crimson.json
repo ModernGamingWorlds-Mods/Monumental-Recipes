@@ -1,0 +1,22 @@
+{
+  "type": "mekanism:sawing",
+  "input": {
+    "ingredient": {
+      "item": "minecraft:crimson_hanging_sign"
+    }
+  },
+  "mainOutput": {
+    "count": 2,
+    "item": "minecraft:crimson_planks"
+  },
+  "secondaryChance": 0.5,
+  "secondaryOutput": {
+    "item": "thermal:sawdust"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

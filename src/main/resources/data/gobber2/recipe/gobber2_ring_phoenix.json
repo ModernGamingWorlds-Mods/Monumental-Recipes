@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "gobber2:gobber2_ring_nether"
+  },
+  "addition": {
+    "tag": "chipped:magma_block"
+  },
+  "result": {
+    "id": "gobber2:gobber2_ring_phoenix"
+  },
+  "template": {
+    "tag": "c:plates/netherite"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "exdeorum"
+    }
+  ],
+  "base": {
+    "item": "exdeorum:wooden_hammer"
+  },
+  "addition": {
+    "tag": "minecraft:stone_tool_materials"
+  },
+  "result": {
+    "item": "exdeorum:stone_hammer"
+  },
+  "template": {
+    "tag": "forge:rods/wooden"
+  }
+}

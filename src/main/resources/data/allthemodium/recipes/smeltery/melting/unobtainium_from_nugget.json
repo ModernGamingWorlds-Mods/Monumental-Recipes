@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/unobtainium"
+  },
+  "result": {
+    "fluid": "allthemodium:molten_unobtainium",
+    "amount": 25
+  },
+  "temperature": 5000,
+  "time": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ]
+}

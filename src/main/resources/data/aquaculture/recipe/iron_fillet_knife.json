@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "aquaculture:stone_fillet_knife"
+  },
+  "addition": {
+    "tag": "c:ingots/iron"
+  },
+  "result": {
+    "id": "aquaculture:iron_fillet_knife"
+  },
+  "template": {
+    "tag": "c:plates/iron"
+  }
+}

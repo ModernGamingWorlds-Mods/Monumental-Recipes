@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "ae2:quartz_glass"
+    },
+    "A": {
+      "tag": "forge:ingots/compressed_iron"
+    },
+    "B": {
+      "tag": "forge:gems/certus_quartz"
+    },
+    "D": {
+      "item": "extendedcrafting:redstone_component"
+    }
+  },
+  "pattern": [
+    "XDX",
+    "DBD",
+    "AAA"
+  ],
+  "result": {
+    "item": "ae2:view_cell"
+  }
+}

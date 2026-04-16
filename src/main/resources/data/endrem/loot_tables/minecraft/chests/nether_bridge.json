@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "name": "eye_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "endrem:nether_eye",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "empty",
+          "weight": 75
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "endrem"
+    }
+  ]
+}

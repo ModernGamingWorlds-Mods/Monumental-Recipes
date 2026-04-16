@@ -1,0 +1,30 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "constructionwand"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "notenoughwands"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "quark"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "tag": "quark:stone_tool_materials"
+    },
+    {
+      "item": "notenoughwands:wand_core"
+    }
+  ],
+  "output": [
+    {
+      "item": "constructionwand:stone_wand"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "refinedstorage:basic_processor"
+    },
+    {
+      "tag": "c:gems/quartz"
+    }
+  ],
+  "results": [
+    {
+      "id": "refinedstorage:destruction_core"
+    }
+  ]
+}

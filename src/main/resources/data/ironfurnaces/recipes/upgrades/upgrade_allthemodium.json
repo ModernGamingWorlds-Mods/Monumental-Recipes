@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "#": {
+      "tag": "forge:ingots/allthemodium"
+    },
+    "X": {
+      "tag": "ironfurnaces:netherite_upgrade_crafting"
+    },
+    "B": {
+      "tag": "forge:storage_blocks/allthemodium"
+    }
+  },
+  "pattern": [
+    " B#B ",
+    " #X# ",
+    " B#B ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "item": "ironfurnaces:upgrade_allthemodium"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironfurnaces"
+    }
+  ]
+}

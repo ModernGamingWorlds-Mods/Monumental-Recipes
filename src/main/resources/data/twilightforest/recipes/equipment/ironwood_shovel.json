@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_shovel"
+  },
+  "addition": {
+    "tag": "forge:ingots/ironwood"
+  },
+  "result": {
+    "item": "twilightforest:ironwood_shovel"
+  },
+  "template": {
+    "tag": "forge:plates/iron"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
+}

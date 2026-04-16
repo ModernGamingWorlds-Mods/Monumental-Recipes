@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "minecraft:iron_bars"
+    },
+    "A": {
+      "tag": "forge:plates/iron"
+    },
+    "W": {
+      "item": "create:andesite_alloy"
+    },
+    "X": {
+      "item": "mysticalagriculture:fire_agglomeratio"
+    }
+  },
+  "pattern": [
+    "A A",
+    "SXS",
+    "WWW"
+  ],
+  "result": {
+    "item": "create:empty_blaze_burner"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

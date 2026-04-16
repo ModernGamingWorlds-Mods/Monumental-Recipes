@@ -1,0 +1,19 @@
+{
+  "type": "strainers:summoning",
+  "fluidBelow": "minecraft:lava",
+  "ingredients": [
+    {
+      "tag": "forge:rods/wooden"
+    },
+    {
+      "item": "minecraft:blaze_spawn_egg"
+    }
+  ],
+  "summonedMob": "minecraft:blaze",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "strainers"
+    }
+  ]
+}

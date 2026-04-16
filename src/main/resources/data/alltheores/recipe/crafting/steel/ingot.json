@@ -1,0 +1,12 @@
+{
+  "type": "pneumaticcraft:explosion_crafting",
+  "input": {
+    "tag": "c:ingots/iron"
+  },
+  "loss_rate": 15,
+  "results": [
+    {
+      "id": "alltheores:steel_ingot"
+    }
+  ]
+}

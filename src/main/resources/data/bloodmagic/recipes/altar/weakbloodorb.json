@@ -1,0 +1,23 @@
+{
+  "type": "bloodmagic:altar",
+  "altarSyphon": 2000,
+  "consumptionRate": 5,
+  "drainRate": 1,
+  "input": {
+    "item": "occultism:spirit_attuned_gem"
+  },
+  "output": {
+    "item": "bloodmagic:weakbloodorb"
+  },
+  "upgradeLevel": 0,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodmagic"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "occultism"
+    }
+  ]
+}

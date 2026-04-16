@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "monumental_experience:chunks/coal"
+    },
+    "B": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    " A ",
+    " B "
+  ],
+  "result": {
+    "item": "minecraft:torch",
+    "count": 2
+  }
+}

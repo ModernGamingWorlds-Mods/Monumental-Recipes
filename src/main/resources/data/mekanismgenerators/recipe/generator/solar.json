@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","key":{"#":{"item":"mekanismgenerators:solar_panel"},"A":{"tag":"mekanism:alloys/infused"},"E":{"item":"mekanism:energy_tablet"},"I":{"tag":"c:ingots/compressed_iron"},"O":{"tag":"c:ingots/osmium"}},"pattern":["###","AIA","OEO"],"result":{"id":"mekanismgenerators:solar_generator"}}

@@ -1,0 +1,30 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 800,
+  "input": [
+    {
+      "item": "minecraft:stripped_birch_log"
+    },
+    {
+      "item": "minecraft:stripped_birch_wood"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "minecraft:birch_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "item": "thermal:sawdust"
+      },
+      "stripping": false
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

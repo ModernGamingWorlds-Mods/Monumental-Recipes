@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_pickaxe"
+  },
+  "addition": {
+    "tag": "forge:ingots/elementium"
+  },
+  "result": {
+    "item": "botania:elementium_pickaxe"
+  },
+  "template": {
+    "tag": "forge:nuggets/elementium"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

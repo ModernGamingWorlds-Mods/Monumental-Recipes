@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "AMA",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:stone"
+    },
+    "A": {
+      "item": "cyclic:anvil"
+    },
+    "M": {
+      "item": "minecraft:smithing_table"
+    }
+  },
+  "result": {
+    "item": "opolisutilities:item_repairer"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "opolisutilities"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "jurassicreborn:amber_keychain",
+  "key": {
+    "A": {
+      "item": "jurassicreborn:amber_mosquito"
+    },
+    "B": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "result": {
+    "item": "jurassicreborn:amber_keychain"
+  },
+  "show_notification": true
+},
+"conditions": [
+{
+"type": "forge:mod_loaded",
+"modid": "jurassicreborn"
+}

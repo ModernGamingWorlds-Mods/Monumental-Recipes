@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "X": {
+      "tag": "monumental:tanks"
+    },
+    "I": {
+      "tag": "c:silicon"
+    },
+    "G": {
+      "item": "ae2:fluid_storage_cell_16k"
+    }
+  },
+  "pattern": [
+    " IGI ",
+    " GXG ",
+    " IGI ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "refinedstorage:64k_fluid_storage_part"
+  }
+}

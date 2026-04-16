@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:edelwood_boat"
+    },
+    {
+      "tag": "forge:chests/wooden"
+    }
+  ],
+  "result": {
+    "item": "forbidden_arcanus:edelwood_chest_boat",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
+  ]
+}

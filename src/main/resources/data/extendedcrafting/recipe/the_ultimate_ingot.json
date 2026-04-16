@@ -1,0 +1,41 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "extendedcrafting:black_iron_ingot"
+    },
+    {
+      "item": "extendedcrafting:black_iron_ingot"
+    },
+    {
+      "item": "extendedcrafting:redstone_ingot"
+    },
+    {
+      "item": "extendedcrafting:redstone_ingot"
+    },
+    {
+      "item": "extendedcrafting:ender_ingot"
+    },
+    {
+      "item": "extendedcrafting:ender_ingot"
+    },
+    {
+      "item": "extendedcrafting:enhanced_ender_ingot"
+    },
+    {
+      "item": "extendedcrafting:enhanced_ender_ingot"
+    },
+    {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    {
+      "item": "extendedcrafting:crystaltine_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "extendedcrafting:the_ultimate_ingot"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "values": [
+    {
+      "id": "minecraft:hopper",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "minecraft"
+        }
+      ]
+    },
+    {
+      "id": "naturesaura:grated_chute",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "naturesaura"
+        }
+      ]
+    },
+    {
+      "id": "pneumaticcraft:omnidirectional_hopper",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "pneumaticcraft"
+        }
+      ]
+    },
+    {
+      "id": "pneumaticcraft:liquid_hopper",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "pneumaticcraft"
+        }
+      ]
+    },
+    {
+      "id": "cyclic:hopper_fluid",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "cyclic"
+        }
+      ]
+    },
+    {
+      "id": "cyclic:hopper",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "cyclic"
+        }
+      ]
+    },
+    {
+      "id": "cyclic:hopper_gold",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "cyclic"
+        }
+      ]
+    },
+    {
+      "id": "toms_storage:ts.inventory_hopper_basic",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "toms_storage"
+        }
+      ]
+    },
+    {
+      "id": "thermal:device_hive_extractor",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "thermal"
+        }
+      ]
+    },
+    {
+      "id": "essentials:sorting_hopper",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "essentials"
+        }
+      ]
+    },
+    {
+      "id": "essentials:speed_hopper",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "essentials"
+        }
+      ]
+    },
+    {
+      "id": "enderio:impulse_hopper",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "enderio"
+        }
+      ]
+    },
+    {
+      "id": "immersive_aircraft:bamboo_hopper",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersive_aircraft"
+        }
+      ]
+    }
+  ]
+}

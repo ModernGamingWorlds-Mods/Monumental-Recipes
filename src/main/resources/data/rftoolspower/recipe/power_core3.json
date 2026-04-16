@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "key": {
+    "r": {
+      "item": "actuallyadditions:advanced_coil"
+    },
+    "R": {
+      "tag": "c:gears/compressed_iron"
+    },
+    "e": {
+      "tag": "c:gems/emerald"
+    },
+    "s": {
+      "item": "rftoolsbase:dimensionalshard"
+    },
+    "d": {
+      "tag": "c:plates/diamond"
+    }
+  },
+  "pattern": [
+    " sds ",
+    " rRr ",
+    " ses ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolspower:power_core3"
+  }
+}

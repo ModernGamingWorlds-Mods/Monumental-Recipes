@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:diamond_axe"
+  },
+  "addition": {
+    "item": "naturesaura:depth_ingot"
+  },
+  "result": {
+    "id": "naturesaura:depth_axe"
+  },
+  "template": {
+    "tag": "c:plates/diamond"
+  }
+}

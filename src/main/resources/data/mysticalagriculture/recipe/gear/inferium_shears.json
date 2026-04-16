@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "tag": "c:gems/diamond"
+  },
+  "addition": {
+    "item": "mysticalagriculture:inferium_gemstone"
+  },
+  "result": {
+    "id": "mysticalagriculture:inferium_shears"
+  },
+  "template": {
+    "tag": "c:plates/diamond"
+  }
+}

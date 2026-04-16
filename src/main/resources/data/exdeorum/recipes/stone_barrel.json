@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "exdeorum"
+		}
+	],
+	"category": "misc",
+	"key": {
+		"m": {
+			"item": "minecraft:stone_slab"
+		},
+		"s": {
+			"item": "minecraft:stone"
+		},
+		"a": {
+			"tag": "exdeorum:wooden_barrels"
+		}
+	},
+	"pattern": ["s s", "sas", "sms"],
+	"result": {
+		"item": "exdeorum:stone_barrel"
+	},
+	"show_notification": true
+}

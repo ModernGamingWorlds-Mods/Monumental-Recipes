@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/compressed_iron"
+    },
+    "S": {
+      "tag": "monumental_experience:wooden_plates"
+    }
+  },
+  "pattern": [
+    "# #",
+    "#S#",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:cauldron"
+  }
+}

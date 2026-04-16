@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "w": {
+      "tag": "c:wires/copper"
+    },
+    "s": {
+      "item": "actuallyadditions:basic_coil"
+    }
+  },
+  "pattern": [
+    " w ",
+    "wsw",
+    " w "
+  ],
+  "result": {
+    "id": "immersiveengineering:wirecoil_copper",
+    "count": 2
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:chainmail_helmet"
+  },
+  "addition": {
+    "tag": "forge:ingots/iron"
+  },
+  "result": {
+    "item": "minecraft:iron_helmet"
+  },
+  "template": {
+    "tag": "monumental_experience:chains"
+  }
+}

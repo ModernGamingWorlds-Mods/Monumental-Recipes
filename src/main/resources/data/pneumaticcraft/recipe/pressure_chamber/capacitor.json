@@ -1,0 +1,24 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "tag": "c:plastics"
+    },
+    {
+      "item": "createaddition:capacitor"
+    },
+    {
+      "item": "immersiveengineering:wirecoil_electrum"
+    },
+    {
+      "tag": "c:slimeballs"
+    }
+  ],
+  "pressure": 4,
+  "results": [
+    {
+      "id": "pneumaticcraft:capacitor",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "#": {
+      "item": "mysticalagriculture:emerald_essence"
+    },
+    "X": {
+      "tag": "forge:plates/diamond"
+    }
+  },
+  "pattern": [
+    " ### ",
+    " #X# ",
+    " ### ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "item": "ironfurnaces:upgrade_emerald"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironfurnaces"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

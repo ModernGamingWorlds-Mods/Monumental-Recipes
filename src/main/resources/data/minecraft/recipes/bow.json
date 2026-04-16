@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "tag": "forge:string"
+  },
+  "addition": {
+    "tag": "forge:rods/wooden"
+  },
+  "result": {
+    "item": "minecraft:bow"
+  },
+  "template": {
+    "tag": "forge:string"
+  }
+}

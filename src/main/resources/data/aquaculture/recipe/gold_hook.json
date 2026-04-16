@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "aquaculture:iron_hook"
+  },
+  "addition": {
+    "tag": "c:ingots/gold"
+  },
+  "result": {
+    "id": "aquaculture:gold_hook"
+  },
+  "template": {
+    "tag": "c:plates/iron"
+  }
+}

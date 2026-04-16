@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "W": {
+      "tag": "forge:string"
+    },
+    "G": {
+      "tag": "forge:leather"
+    },
+    "S": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "pattern": [
+    "WGW",
+    "G G",
+    "GSG"
+  ],
+  "result": {
+    "item": "toolbelt:belt"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "toolbelt"
+    }
+  ]
+}

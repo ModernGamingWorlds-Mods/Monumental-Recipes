@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:metal_press","conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"chipped:spruce_planks"}},{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"chipped:spruce_planks"}}],"energy":2400,"input":{"tag":"chipped:spruce_planks"},"mold":"immersiveengineering:mold_plate","result":{"id":"kubejs:plate_wood_spruce"}}

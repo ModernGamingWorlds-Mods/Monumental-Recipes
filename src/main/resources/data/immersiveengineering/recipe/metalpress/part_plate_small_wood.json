@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:metal_press","conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"monumental:wooden_plates"}},{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"monumental:wooden_plates"}}],"energy":2400,"input":{"tag":"monumental:wooden_plates"},"mold":"immersiveengineering:mold_plate","result":{"id":"kubejs:part_plate_small_wood"}}

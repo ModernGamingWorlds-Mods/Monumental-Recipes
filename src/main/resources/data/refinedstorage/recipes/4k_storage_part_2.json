@@ -1,0 +1,40 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "B": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "X": {
+      "item": "ae2:cell_component_1k"
+    },
+    "I": {
+      "item": "refinedstorage:basic_processor"
+    }
+  },
+  "pattern": [
+    " IXI ",
+    " XBX ",
+    " IXI ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "refinedstorage:4k_storage_part"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
+}

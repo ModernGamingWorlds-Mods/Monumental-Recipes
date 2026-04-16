@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "BBB"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:stone"
+    },
+    "B": {
+      "tag": "forge:cobblestone"
+    },
+    "C": {
+      "tag": "forge:buckets/empty"
+    }
+  },
+  "result": {
+    "item": "trashcans:liquid_trash_can"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "trashcans"
+    }
+  ]
+}

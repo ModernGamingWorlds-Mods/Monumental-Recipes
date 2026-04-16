@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "pattern": [
+    "qrq",
+    "rpr",
+    "qrq"
+  ],
+  "key": {
+    "q": {
+      "item": "immersiveengineering:treated_wood_horizontal"
+    },
+    "p": {
+      "tag": "c:plates/iron"
+    },
+    "r": {
+      "item": "framedblocks:framed_cube"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "immersive_aircraft:hull"
+  }
+}

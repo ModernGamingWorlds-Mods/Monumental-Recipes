@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:inferium_sword"
+    },
+    {
+      "item": "mysticalagriculture:prudentium_gemstone"
+    }
+  ],
+  "output": [
+    {
+      "item": "mysticalagriculture:prudentium_sword"
+    }
+  ]
+}

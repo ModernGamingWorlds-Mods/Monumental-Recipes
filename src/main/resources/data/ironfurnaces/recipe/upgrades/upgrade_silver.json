@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "c:plates/silver"
+    },
+    "X": {
+      "tag": "c:plates/copper"
+    },
+    "S": {
+      "tag": "minecraft:stone_tool_materials"
+    }
+  },
+  "pattern": [
+    "###",
+    "#S#",
+    "#X#"
+  ],
+  "result": {
+    "id": "ironfurnaces:upgrade_silver"
+  }
+}

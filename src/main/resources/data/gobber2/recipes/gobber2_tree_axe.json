@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "addition": {
+    "item": "gobber2:gobber2_block"
+  },
+  "result": {
+    "item": "gobber2:gobber2_tree_axe"
+  },
+  "template": {
+    "tag": "forge:plates/netherite"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gobber2"
+    }
+  ]
+}

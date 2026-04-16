@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "chipped:cherry_planks"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:plate_wood_cherry"
+    }
+  ]
+}

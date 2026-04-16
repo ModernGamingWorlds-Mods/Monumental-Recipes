@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "monumental_experience:essences/fire"
+    },
+    "B": {
+      "item": "immersive_aircraft:bomb_bay"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:fire_charge"
+  }
+}

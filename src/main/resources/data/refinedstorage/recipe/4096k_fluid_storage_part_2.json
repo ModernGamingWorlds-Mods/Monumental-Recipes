@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "P": {
+      "item": "refinedstorage:advanced_processor"
+    },
+    "S": {
+      "item": "refinedstorage:1024k_fluid_storage_part"
+    },
+    "R": {
+      "tag": "monumental:tanks"
+    }
+  },
+  "pattern": [
+    " PSP ",
+    " SRS ",
+    " PSP ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "refinedstorage:4096k_fluid_storage_part"
+  }
+}

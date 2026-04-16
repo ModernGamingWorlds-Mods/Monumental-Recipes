@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:crops/garlic"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "tag": "forge:crops/corn"
+    },
+    {
+      "tag": "forge:bowls"
+    },
+    {
+      "tag": "forge:bowls"
+    },
+    {
+      "item": "minecolonies:large_milk_bottle"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecolonies:corn_chowder"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "minecolonies"
+    }
+  ]
+}

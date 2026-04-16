@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "c:plates/iron"
+    },
+    "X": {
+      "tag": "c:plates/copper"
+    },
+    "G": {
+      "tag": "c:glass_blocks"
+    }
+  },
+  "pattern": [
+    "###",
+    "GXG",
+    "###"
+  ],
+  "result": {
+    "id": "ironfurnaces:upgrade_iron2"
+  }
+}

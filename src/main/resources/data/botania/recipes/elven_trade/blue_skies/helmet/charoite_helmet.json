@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "blue_skies"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_helmet"
+    },
+    {
+      "tag": "blue_skies:gems/charoite"
+    }
+  ],
+  "output": [
+    {
+      "item": "blue_skies:charoite_helmet"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:burrito"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:cooking_pots"
+    }
+  ],
+  "result": {
+    "item": "croptopia:chimichanga",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    " D "
+  ],
+  "key": {
+    "A": [
+      {
+        "item": "cyclic:detector_weather"
+      }
+    ],
+    "B": [
+      {
+        "item": "cyclic:location_data"
+      }
+    ],
+    "C": [
+      {
+        "tag": "minecraft:compasses"
+      }
+    ],
+    "D": [
+      {
+        "item": "doggytalents:flying_cape"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:gyroscope"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "doggytalents"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersive_aircraft"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_sword"
+    },
+    {
+      "item": "forbidden_arcanus:edelwood_stick"
+    }
+  ],
+  "output": [
+    {
+      "item": "forbidden_arcanus:reinforced_deorum_sword"
+    }
+  ]
+}

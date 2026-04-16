@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "biomesoplenty:pine_planks"
+    },
+    "B": {
+      "tag": "monumental:tools/hammers"
+    }
+  },
+  "pattern": [
+    " A ",
+    " A ",
+    " B "
+  ],
+  "result": {
+    "id": "biomesoplenty:pine_pressure_plate"
+  }
+}

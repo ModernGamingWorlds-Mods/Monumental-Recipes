@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": [
+      {
+        "item": "reliquary:molten_core"
+      }
+    ],
+    "B": [
+      {
+        "tag": "forge:ingots/netherite"
+      }
+    ],
+    "C": [
+      {
+        "item": "immersive_aircraft:engine"
+      }
+    ],
+    "D": [
+      {
+        "tag": "forge:plates/steel"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:nether_engine"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersive_aircraft"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "reliquary"
+    }
+  ]
+}

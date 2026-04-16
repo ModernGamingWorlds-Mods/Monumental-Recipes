@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iCi",
+    "pep",
+    "ici"
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:ingots/compressed_iron"
+    },
+    "e": {
+      "tag": "forge:gems/emerald"
+    },
+    "c": {
+      "tag": "forge:chests/wooden"
+    },
+    "C": {
+      "item": "minecraft:comparator"
+    },
+    "p": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "toms_trading_network:vending_machine"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "toms_trading_network"
+    }
+  ]
+}

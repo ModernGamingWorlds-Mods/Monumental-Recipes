@@ -1,0 +1,42 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "o": {
+      "tag": "forge:gears/enderium"
+    },
+    "F": {
+      "item": "immersiveengineering:heavy_engineering"
+    },
+    "g": {
+      "item": "immersiveengineering:electron_tube"
+    },
+    "T": {
+      "tag": "forge:sheetmetals/steel"
+    },
+    "s": {
+      "item": "immersiveengineering:circuit_board"
+    }
+  },
+  "pattern": [
+    " ToT ",
+    " gFg ",
+    " TsT ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "rftoolsstorage:storage_scanner"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsstorage"
+    }
+  ]
+}

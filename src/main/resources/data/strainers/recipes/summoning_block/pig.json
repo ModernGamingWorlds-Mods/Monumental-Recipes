@@ -1,0 +1,19 @@
+{
+  "type": "strainers:summoning",
+  "blockBelow": "minecraft:dirt",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:nature_essence"
+    },
+    {
+      "item": "minecraft:pig_spawn_egg"
+    }
+  ],
+  "summonedMob": "minecraft:pig",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

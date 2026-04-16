@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "E": {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    "G": {
+      "item": "ae2:cell_component_1k"
+    },
+    "X": {
+      "item": "ae2:quartz_vibrant_glass"
+    },
+    "I": {
+      "tag": "c:silicon"
+    },
+    "B": {
+      "item": "extendedcrafting:redstone_component"
+    }
+  },
+  "pattern": [
+    " IEI ",
+    " XGX ",
+    " IBI ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "refinedstorage:1k_storage_part"
+  }
+}

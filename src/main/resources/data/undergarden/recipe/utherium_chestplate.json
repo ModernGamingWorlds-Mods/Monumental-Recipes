@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "addition": {
+    "tag": "c:gems/utherium"
+  },
+  "result": {
+    "id": "undergarden:utherium_chestplate"
+  },
+  "template": {
+    "tag": "c:plates/netherite"
+  }
+}

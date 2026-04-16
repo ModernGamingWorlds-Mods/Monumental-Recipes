@@ -1,0 +1,51 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "farmersrespite"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:cooking_pots"
+          },
+          {
+            "item": "farmersrespite:yellow_tea_leaves"
+          },
+          {
+            "item": "farmersrespite:yellow_tea_leaves"
+          },
+          {
+            "tag": "forge:raw_chicken"
+          },
+          {
+            "tag": "forge:crops/cabbage"
+          },
+          {
+            "tag": "forge:crops/onion"
+          },
+          {
+            "tag": "forge:crops/rice"
+          },
+          {
+            "tag": "forge:bowls"
+          }
+        ],
+        "result": {
+          "item": "farmersrespite:tea_curry"
+        }
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersrespite"
+    }
+  ]
+}

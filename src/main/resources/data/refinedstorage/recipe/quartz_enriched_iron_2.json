@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "extendedcrafting:black_iron_ingot"
+    },
+    {
+      "tag": "c:silicon"
+    }
+  ],
+  "results": [
+    {
+      "id": "refinedstorage:quartz_enriched_iron"
+    }
+  ]
+}

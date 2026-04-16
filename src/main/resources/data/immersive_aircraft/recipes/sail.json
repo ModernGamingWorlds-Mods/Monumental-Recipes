@@ -1,0 +1,40 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "pattern": [
+    " C BA",
+    "CCCBA",
+    "CCCBA",
+    " CCBA",
+    "C CBA"
+  ],
+  "key": {
+    "A": {
+      "item": "supplementaries:rope"
+    },
+    "B": {
+      "item": "immersiveengineering:hemp_fabric"
+    },
+    "C": {
+      "item": "minecraft:white_banner"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "immersive_aircraft:sail"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersive_aircraft"
+    }
+  ]
+}

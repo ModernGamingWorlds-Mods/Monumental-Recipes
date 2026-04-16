@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:golden_blacksmith_gavel"
+    },
+    {
+      "tag": "forge:gems/diamond"
+    }
+  ],
+  "output": [
+    {
+      "item": "forbidden_arcanus:diamond_blacksmith_gavel"
+    }
+  ]
+}

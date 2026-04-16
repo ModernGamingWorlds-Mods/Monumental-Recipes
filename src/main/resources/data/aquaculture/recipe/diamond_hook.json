@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "aquaculture:gold_hook"
+  },
+  "addition": {
+    "tag": "c:gems/diamond"
+  },
+  "result": {
+    "id": "aquaculture:diamond_hook"
+  },
+  "template": {
+    "tag": "c:plates/diamond"
+  }
+}

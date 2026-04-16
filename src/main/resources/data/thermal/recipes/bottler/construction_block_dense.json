@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "buildinggadgets"
+    }
+  ],
+  "type": "thermal:bottler",
+  "ingredients": [
+    {
+      "tag": "forge:clay"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 1000
+    }
+  ],
+  "result": [
+    {
+      "item": "buildinggadgets:construction_block_dense"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GCG",
+    "GEG",
+    "GGG"
+  ],
+  "key": {
+    "E": {
+      "item": "alexscaves:radiant_essence"
+    },
+    "C": {
+      "item": "monumental_recipes:cauldrons"
+    },
+    "G": {
+      "tag": "forge:storage_blocks/gold"
+    }
+  },
+  "result": {
+    "item": "alexscaves:conversion_crucible",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexscaves"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

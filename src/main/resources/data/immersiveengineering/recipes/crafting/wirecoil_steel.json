@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "w": {
+      "tag": "forge:wires/aluminum"
+    },
+    "a": {
+      "tag": "forge:wires/steel"
+    },
+    "s": {
+      "item": "createaddition:spool"
+    }
+  },
+  "pattern": [
+    " w ",
+    "asa",
+    " w "
+  ],
+  "result": {
+    "item": "immersiveengineering:wirecoil_steel",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "createaddition"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

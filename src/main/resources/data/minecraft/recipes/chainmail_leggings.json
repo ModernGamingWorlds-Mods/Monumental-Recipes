@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:leather_leggings"
+  },
+  "addition": {
+    "tag": "monumental_experience:chains"
+  },
+  "result": {
+    "item": "minecraft:chainmail_leggings"
+  },
+  "template": {
+    "tag": "forge:leather"
+  }
+}

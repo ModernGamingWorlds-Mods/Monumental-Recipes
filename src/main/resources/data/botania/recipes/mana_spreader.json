@@ -1,0 +1,39 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "B": {
+      "tag": "forge:feathers"
+    },
+    "C": {
+      "tag": "botania:livingwood_logs"
+    },
+    "P": {
+      "tag": "forge:glass_panes"
+    },
+    "X": {
+      "item": "extendedcrafting:luminessence"
+    }
+  },
+  "pattern": [
+    " CCC ",
+    " XBP ",
+    " CCC ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "botania:mana_spreader"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

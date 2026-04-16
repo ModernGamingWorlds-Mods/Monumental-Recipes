@@ -1,0 +1,94 @@
+{
+  "values": [
+    {
+      "id": "cyclic:conveyor",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "cyclic"
+        }
+      ]
+    },
+    {
+      "id": "industrialforegoing:conveyor",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "industrialforegoing"
+        }
+      ]
+    },
+    {
+      "id": "immersiveengineering:conveyor_basic",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        }
+      ]
+    },
+    {
+      "id": "immersiveengineering:conveyor_redstone",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        }
+      ]
+    },
+    {
+      "id": "immersiveengineering:conveyor_dropper",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        }
+      ]
+    },
+    {
+      "id": "immersiveengineering:conveyor_vertical",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        }
+      ]
+    },
+    {
+      "id": "immersiveengineering:conveyor_splitter",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        }
+      ]
+    },
+    {
+      "id": "immersiveengineering:conveyor_extract",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersiveengineering"
+        }
+      ]
+    },
+    {
+      "id": "create:chain_conveyor",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        }
+      ]
+    }
+  ]
+}

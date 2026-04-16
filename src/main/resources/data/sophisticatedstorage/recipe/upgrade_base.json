@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "tag": "minecraft:planks"
+    },
+    "E": {
+      "tag": "c:plates/steel"
+    },
+    "W": {
+      "tag": "c:leathers"
+    }
+  },
+  "pattern": [
+    "GEG",
+    "EWE",
+    "GEG"
+  ],
+  "result": {
+    "id": "sophisticatedstorage:upgrade_base"
+  }
+}

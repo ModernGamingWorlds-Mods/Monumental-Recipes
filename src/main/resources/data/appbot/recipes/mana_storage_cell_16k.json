@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "ae2:quartz_glass"
+    },
+    "A": {
+      "item": "appbot:mana_cell_housing"
+    },
+    "B": {
+      "item": "ae2:cell_component_16k"
+    },
+    "D": {
+      "item": "botania:life_essence"
+    }
+  },
+  "pattern": [
+    "XDX",
+    "DBD",
+    "AAA"
+  ],
+  "result": {
+    "item": "appbot:mana_storage_cell_16k"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "appbot"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

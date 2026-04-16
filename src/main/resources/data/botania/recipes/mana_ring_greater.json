@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "botania:mana_ring"
+  },
+  "addition": {
+    "tag": "forge:ingots/terrasteel"
+  },
+  "result": {
+    "item": "botania:mana_ring_greater"
+  },
+  "template": {
+    "item": "ars_nouveau:ring_of_potential"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

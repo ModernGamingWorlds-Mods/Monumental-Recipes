@@ -1,0 +1,21 @@
+{
+  "type": "occultism:spirit_fire",
+  "ingredient": [
+    {
+      "item": "eidolon:lesser_soul_gem"
+    }
+  ],
+  "result": {
+    "item": "occultism:spirit_attuned_gem"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "eidolon"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "occultism"
+    }
+  ]
+}

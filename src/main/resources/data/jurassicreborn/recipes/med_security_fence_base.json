@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "tag": "forge:nuggets/iron"
+    },
+    "B": {
+      "tag": "forge:ingots/iron"
+    },
+    "C": {
+      "item": "minecraft:stone"
+    },
+    "D": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CCC",
+    "BDB"
+  ],
+  "result": {
+    "count": 6,
+    "item": "jurassicreborn:med_security_fence_base"
+  },
+  "show_notification": true
+},
+"conditions": [
+{
+"type": "forge:mod_loaded",
+"modid": "jurassicreborn"
+}

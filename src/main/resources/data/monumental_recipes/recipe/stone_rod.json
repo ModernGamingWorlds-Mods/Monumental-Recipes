@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  a",
+    "ha ",
+    "   "
+  ],
+  "key": {
+    "h": {
+      "tag": "monumental:tools/hammers"
+    },
+    "a": {
+      "tag": "c:stones"
+    }
+  },
+  "result": {
+    "id": "kubejs:stone_rod"
+  }
+} 

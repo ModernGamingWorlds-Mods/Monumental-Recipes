@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "undead_revamp2:heavytooth"
+    },
+    "b": {
+      "tag": "forge:cobblestone"
+    },
+    "c": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "undead_revamp2:toothmace",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
+}

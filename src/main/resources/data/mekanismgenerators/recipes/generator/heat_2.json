@@ -1,0 +1,42 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "W": {
+      "tag": "forge:plates/osmium"
+    },
+    "I": {
+      "item": "kubejs:compressed_iron_plate"
+    },
+    "C": {
+      "tag": "forge:plates/bronze"
+    },
+    "O": {
+      "tag": "forge:furnaces"
+    },
+    "F": {
+      "tag": "forge:circuits/basic"
+    }
+  },
+  "pattern": [
+    " III ",
+    " WOW ",
+    " CFC ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanismgenerators:heat_generator"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanismgenerators"
+    }
+  ]
+}

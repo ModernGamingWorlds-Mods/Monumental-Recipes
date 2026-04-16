@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "naturesaura"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_pickaxe"
+    },
+    {
+      "item": "naturesaura:infused_iron"
+    }
+  ],
+  "output": [
+    {
+      "item": "naturesaura:infused_iron_pickaxe"
+    }
+  ]
+}

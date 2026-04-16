@@ -1,0 +1,174 @@
+{
+  "values": [
+    {
+      "id": "ars_additions:xp_jar",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ars_additions"
+        }
+      ]
+    },
+    {
+      "id": "arseng:me_source_jar",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "arseng"
+        }
+      ]
+    },
+    {
+      "id": "bakery:jar",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "bakery"
+        }
+      ]
+    },
+    {
+      "id": "forbidden_arcanus:utrem_jar",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "forbidden_arcanus"
+        }
+      ]
+    },
+    {
+      "id": "mysticalagriculture:soul_jar",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mysticalagriculture"
+        }
+      ]
+    },
+    {
+      "id": "ars_additions:ender_source_jar",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ars_additions"
+        }
+      ]
+    },
+    {
+      "id": "ars_nouveau:source_jar",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ars_nouveau"
+        }
+      ]
+    },
+    {
+      "id": "ars_nouveau:potion_jar",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ars_nouveau"
+        }
+      ]
+    },
+    {
+      "id": "ars_nouveau:mob_jar",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ars_nouveau"
+        }
+      ]
+    },
+    {
+      "id": "ars_nouveau:jar_of_light",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ars_nouveau"
+        }
+      ]
+    },
+    {
+      "id": "ars_nouveau:void_jar",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ars_nouveau"
+        }
+      ]
+    },
+    {
+      "id": "cookingforblockheads:milk_jar",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "cookingforblockheads"
+        }
+      ]
+    },
+    {
+      "id": "hexerei:herb_jar",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "hexerei"
+        }
+      ]
+    },
+    {
+      "id": "supplementaries:jar",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "supplementaries"
+        }
+      ]
+    },
+    {
+      "id": "twilightforest:firefly_jar",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "twilightforest"
+        }
+      ]
+    },
+    {
+      "id": "twilightforest:cicada_jar",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "twilightforest"
+        }
+      ]
+    },
+    {
+      "id": "thermal:jar",
+      "required": false,
+      "_conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "thermal"
+        }
+      ]
+    }
+  ]
+}

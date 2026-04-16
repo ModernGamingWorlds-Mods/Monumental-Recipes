@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "industrialforestry"
+    }
+  ],
+  "group": "addon_efficiency",
+  "pattern": [
+    " L ",
+    "CSC",
+    " R "
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:ingots/copper"
+    },
+    "S": {
+      "item": "forestry:sturdy_machine"
+    },
+    "L": {
+      "tag": "forge:gems/lapis"
+    },
+    "R": {
+      "item": "minecraft:repeater"
+    }
+  },
+  "result": {
+    "item": "industrialforestry:efficiency_upgrade_1",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "allthemodium:piglich_heart",
+    "eidolon:zombie_heart",
+    "eidolon:wraith_heart",
+    "eidolon:withered_heart",
+    "reliquary:zombie_heart",
+    "reliquary:nebulous_heart",
+    "quark:diamond_heart"
+
+  ]
+}

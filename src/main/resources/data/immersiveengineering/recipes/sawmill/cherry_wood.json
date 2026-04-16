@@ -1,0 +1,34 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": {
+    "item": "minecraft:cherry_wood"
+  },
+  "result": {
+    "count": 6,
+    "item": "minecraft:cherry_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "item": "thermal:sawdust"
+      },
+      "stripping": true
+    },
+    {
+      "output": {
+        "item": "thermal:sawdust"
+      },
+      "stripping": false
+    }
+  ],
+  "stripped": {
+    "item": "minecraft:stripped_cherry_wood"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "R": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "A": {
+      "tag": "mekanism:alloys/infused"
+    },
+    "I": {
+      "item": "kubejs:compressed_iron_plate"
+    },
+    "C": {
+      "tag": "c:circuits/basic"
+    },
+    "B": {
+      "tag": "c:fuels/bio"
+    }
+  },
+  "pattern": [
+    "RAR",
+    "BCB",
+    "IAI"
+  ],
+  "result": {
+    "id": "mekanismgenerators:bio_generator"
+  }
+}

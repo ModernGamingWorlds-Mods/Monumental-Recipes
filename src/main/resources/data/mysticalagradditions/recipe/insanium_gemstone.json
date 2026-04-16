@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mysticalagriculture:supremium_gemstone"
+    }
+  ],
+  "results": [
+    {
+      "id": "mysticalagradditions:insanium_gemstone"
+    }
+  ]
+}

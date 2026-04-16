@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:leather_helmet"
+    },
+    {
+      "tag": "monumental_recipes:chains"
+    }
+  ],
+  "output": [
+    {
+      "item": "minecraft:chainmail_helmet"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "refinedstorage:basic_processor"
+    },
+    {
+      "tag": "forge:dusts/glowstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "refinedstorage:construction_core"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
+}

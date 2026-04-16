@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    {
+      "item": "mysticalagradditions:imperium_coal"
+    }
+  ],
+  "results": [
+    {
+      "id": "mysticalagradditions:supremium_coal",
+      "count": 2
+    }
+  ]
+}

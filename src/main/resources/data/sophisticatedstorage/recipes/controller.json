@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "storagedrawers:controller"
+    },
+    "C": {
+      "item": "minecraft:comparator"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "tag": "forge:stone"
+    }
+  },
+  "pattern": [
+    "SCS",
+    "PBP",
+    "SCS"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:controller"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sophisticatedstorage"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "storagedrawers"
+    }
+  ]
+}

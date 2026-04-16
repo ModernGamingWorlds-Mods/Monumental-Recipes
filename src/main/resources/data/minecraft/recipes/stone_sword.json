@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:wooden_sword"
+  },
+  "addition": {
+    "tag": "forge:stone"
+  },
+  "result": {
+    "item": "minecraft:stone_sword"
+  },
+  "template": {
+    "tag": "forge:rods/wooden"
+  }
+}

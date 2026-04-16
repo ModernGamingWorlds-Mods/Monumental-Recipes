@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "kubejs:compressed_iron_plate"
+    },
+    "B": {
+      "tag": "c:circuits/basic"
+    },
+    "C": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "D": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "pattern": [
+    "CBC",
+    "ADA",
+    "CBC"
+  ],
+  "result": {
+    "id": "mekanism:enrichment_chamber"
+  }
+}

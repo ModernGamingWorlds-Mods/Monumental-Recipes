@@ -1,0 +1,31 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [
+    {
+      "tag": "forge:dyes/green"
+    },
+    {
+      "tag": "forge:dusts/iron"
+    }
+  ],
+  "energy": 51200,
+  "input": {
+    "base_ingredient": {
+      "tag": "forge:sand"
+    },
+    "count": 2
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "immersiveengineering:insulating_glass"
+    }
+  ],
+  "time": 100,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "type": "prefab:condition_crafting_shaped",
+  "configName": "Aqua Base",
+  "group": "Aqua Base",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ede"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:glass"
+    },
+    "b": {
+      "item": "compressium:stone_1"
+    },
+    "c": {
+      "item": "minecraft:sea_lantern"
+    },
+    "d": {
+      "tag": "forge:storage_blocks/double_compressed_lights"
+    },
+    "e": {
+      "item": "compressium:stone_3"
+    }
+  },
+  "result": {
+    "item": "prefab:item_aqua_base",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "prefab"
+    }
+  ]
+}

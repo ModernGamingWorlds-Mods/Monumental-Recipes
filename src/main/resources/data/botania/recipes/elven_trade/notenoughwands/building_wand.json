@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "notenoughwands"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "quark"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "quark:moss_paste"
+    },
+    {
+      "item": "notenoughwands:wand_core"
+    }
+  ],
+  "output": [
+    {
+      "item": "notenoughwands:building_wand"
+    }
+  ]
+}

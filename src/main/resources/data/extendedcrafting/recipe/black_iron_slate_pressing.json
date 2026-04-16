@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/black_iron"
+    }
+  ],
+  "results": [
+    {
+      "id": "extendedcrafting:black_iron_slate"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "cyclic:hopper"
+    },
+    "L": {
+      "tag": "forge:plates/iron"
+    },
+    "D": {
+      "tag": "forge:rods/iron"
+    },
+    "B": {
+      "item": "immersiveengineering:component_iron"
+    }
+  },
+  "pattern": [
+    "B B",
+    "LXL",
+    " D "
+  ],
+  "result": {
+    "item": "minecraft:hopper",
+    "count": 2
+  }
+}

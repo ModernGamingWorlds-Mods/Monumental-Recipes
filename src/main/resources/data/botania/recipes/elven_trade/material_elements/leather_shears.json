@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "material_elements"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:shears"
+    },
+    {
+      "item": "material_elements:leather_sheet"
+    }
+  ],
+  "output": [
+    {
+      "item": "material_elements:leather_shears"
+    }
+  ]
+}

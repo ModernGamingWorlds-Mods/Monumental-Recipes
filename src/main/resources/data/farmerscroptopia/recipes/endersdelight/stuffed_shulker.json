@@ -1,0 +1,48 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "endersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:cooking_pots"
+          },
+          {
+            "item": "endersdelight:shulker_mollusk"
+          },
+          {
+            "item": "minecraft:chorus_fruit"
+          },
+          {
+            "tag": "forge:rice"
+          },
+          {
+            "tag": "forge:vegetables/tomato"
+          },
+          {
+            "item": "minecraft:brown_mushroom"
+          },
+          {
+            "item": "minecraft:shulker_shell"
+          }
+        ],
+        "result": {
+          "item": "endersdelight:stuffed_shulker"
+        }
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "endersdelight"
+    }
+  ]
+}

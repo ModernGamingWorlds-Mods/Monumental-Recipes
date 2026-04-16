@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "c:plates/gold"
+    },
+    "B": {
+      "item": "extendedcrafting:basic_table"
+    },
+    "C": {
+      "item": "extendedcrafting:advanced_component"
+    },
+    "D": {
+      "item": "extendedcrafting:advanced_catalyst"
+    }
+  },
+  "pattern": [
+    "CDC",
+    "ABA",
+    "CDC"
+  ],
+  "result": {
+    "id": "extendedcrafting:advanced_table"
+  }
+}

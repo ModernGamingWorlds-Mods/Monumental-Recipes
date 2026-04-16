@@ -1,0 +1,37 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "allthemodium:alloy_paxel"
+  },
+  "pedestalItems": [
+    {
+      "item": "allthemodium:alloy_sword"
+    },
+    {
+      "item": "allthemodium:alloy_pick"
+    },
+    {
+      "item": "allthemodium:alloy_shovel"
+    },
+    {
+      "item": "allthemodium:alloy_axe"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "doom:argent_paxel"
+    }
+  ],
+  "sourceCost": 10000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "doom"
+    }
+  ]
+}

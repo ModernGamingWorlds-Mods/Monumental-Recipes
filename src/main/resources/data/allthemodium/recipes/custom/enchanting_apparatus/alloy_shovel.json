@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "allthemodium:alloy_shovel"
+  },
+  "pedestalItems": [
+    {
+      "tag": "forge:ingots/unobtainium"
+    },
+    {
+      "tag": "forge:ingots/unobtainium_allthemodium_alloy"
+    },
+    {
+      "tag": "forge:ingots/allthemodium"
+    },
+    {
+      "tag": "forge:ingots/vibranium_allthemodium_alloy"
+    },
+    {
+      "tag": "forge:ingots/vibranium"
+    },
+    {
+      "tag": "forge:ingots/unobtainium_vibranium_alloy"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "allthemodium:allthemodium_shovel"
+    }
+  ],
+  "sourceCost": 5000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ]
+}

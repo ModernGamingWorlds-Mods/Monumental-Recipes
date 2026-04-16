@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_leggings"
+    },
+    {
+      "tag": "forge:gems/emerald"
+    }
+  ],
+  "output": [
+    {
+      "item": "cyclic:emerald_leggings"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "IGI",
+    "GXG",
+    "IGI"
+  ],
+  "key": {
+    "X": {
+      "tag": "monumental:tanks"
+    },
+    "I": {
+      "tag": "c:silicon"
+    },
+    "G": {
+      "item": "ae2:fluid_storage_cell_16k"
+    }
+  },
+  "result": {
+    "id": "refinedstorage:64k_fluid_storage_part",
+    "count": 1
+  }
+}

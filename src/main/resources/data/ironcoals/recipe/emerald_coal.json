@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "tag": "c:gems/emerald"
+    },
+    {
+      "item": "ironcoals:diamond_coal"
+    }
+  ],
+  "results": [
+    {
+      "id": "ironcoals:emerald_coal",
+      "count": 2
+    }
+  ]
+}

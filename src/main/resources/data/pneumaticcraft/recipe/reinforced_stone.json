@@ -1,0 +1,18 @@
+{
+  "type": "create:compacting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "kubejs:compressed_iron_plate"
+    },
+    {
+      "item": "minecraft:smooth_stone"
+    }
+  ],
+  "results": [
+    {
+      "id": "pneumaticcraft:reinforced_stone",
+      "count": 2
+    }
+  ]
+}

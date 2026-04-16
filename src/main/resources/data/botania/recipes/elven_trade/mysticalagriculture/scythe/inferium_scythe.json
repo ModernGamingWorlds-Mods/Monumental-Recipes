@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "cyclic:scythe_leaves"
+    },
+    {
+      "item": "mysticalagriculture:inferium_gemstone"
+    }
+  ],
+  "output": [
+    {
+      "item": "mysticalagriculture:inferium_scythe"
+    }
+  ]
+}

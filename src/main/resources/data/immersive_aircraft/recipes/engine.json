@@ -1,0 +1,52 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "pattern": [
+    "GGGGG",
+    "ADEDA",
+    "AEBEA",
+    "ADEDA",
+    "ACFCA"
+  ],
+  "key": {
+    "A": {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+    "B": {
+      "item": "createaddition:electric_motor"
+    },
+    "C": {
+      "item": "create:smart_fluid_pipe"
+    },
+    "D": {
+      "item": "create:belt_connector"
+    },
+    "E": {
+      "tag": "forge:gears/steel"
+    },
+    "F": {
+      "item": "immersive_aircraft:boiler"
+    },
+    "G": {
+      "item": "immersiveengineering:slab_sheetmetal_aluminum"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "immersive_aircraft:engine"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersive_aircraft"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

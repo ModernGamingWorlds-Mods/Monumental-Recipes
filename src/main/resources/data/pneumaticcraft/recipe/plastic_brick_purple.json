@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "tag": "c:dyes/purple"
+    },
+    "P": {
+      "tag": "c:plastics"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PDP",
+    "PPP"
+  ],
+  "result": {
+    "count": 8,
+    "id": "pneumaticcraft:plastic_brick_purple"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "addition": {
+    "tag": "forge:ingots/terrasteel"
+  },
+  "result": {
+    "item": "botania:terrasteel_leggings"
+  },
+  "template": {
+    "tag": "forge:plates/netherite"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

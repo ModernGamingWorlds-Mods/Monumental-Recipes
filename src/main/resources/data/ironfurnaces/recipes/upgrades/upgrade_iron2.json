@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "#": {
+      "tag": "forge:plates/iron"
+    },
+    "X": {
+      "tag": "forge:plates/copper"
+    },
+    "G": {
+      "tag": "forge:glass"
+    }
+  },
+  "pattern": [
+    " ### ",
+    " GXG ",
+    " ### ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "item": "ironfurnaces:upgrade_iron2"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironfurnaces"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mysticalagriculture:prudentium_crossbow"
+  },
+  "addition": {
+    "item": "mysticalagriculture:tertium_block"
+  },
+  "result": {
+    "id": "mysticalagriculture:tertium_crossbow"
+  },
+  "template": {
+    "item": "mysticalagriculture:prudentium_essence"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "aquaculture:iron_hook"
+    },
+    {
+      "tag": "forge:feathers"
+    }
+  ],
+  "output": [
+    {
+      "item": "aquaculture:light_hook"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aquaculture"
+    }
+  ]
+}

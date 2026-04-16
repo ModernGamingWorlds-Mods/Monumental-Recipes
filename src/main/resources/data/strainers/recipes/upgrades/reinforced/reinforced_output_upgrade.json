@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SMS",
+    "MCM",
+    "SMS"
+  ],
+  "key": {
+    "C": {
+      "item": "strainers:sturdy_output_upgrade"
+    },
+    "S": {
+      "tag": "forge:stone"
+    },
+    "M": {
+      "item": "mysticalagriculture:diamond_essence"
+    }
+  },
+  "result": {
+    "item": "strainers:reinforced_output_upgrade"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "strainers"
+    }
+  ]
+}

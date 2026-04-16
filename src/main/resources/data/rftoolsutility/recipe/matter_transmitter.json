@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "o": {
+      "tag": "monumental:eyes"
+    },
+    "F": {
+      "item": "rftoolsbase:machine_frame"
+    },
+    "r": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "i": {
+      "tag": "c:sheetmetals/steel"
+    },
+    "s": {
+      "item": "cyclic:eye_redstone"
+    }
+  },
+  "pattern": [
+    " oso ",
+    " rFr ",
+    " iii ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolsutility:matter_transmitter"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "1": {
+      "item": "croptopia:frying_pan"
+    },
+    "2": {
+      "item": "minecraft:bread"
+    },
+    "3": {
+      "tag": "forge:cheeses"
+    },
+    "4": {
+      "tag": "croptopia:pork_replacements"
+    },
+    "5": {
+      "tag": "forge:butters"
+    },
+    "6": {
+      "tag": "forge:flour"
+    },
+    "7": {
+      "tag": "forge:eggs"
+    }
+  },
+  "pattern": [
+    " 1 ",
+    "726",
+    "435"
+  ],
+  "result": {
+    "item": "croptopia:croque_madame"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
+}

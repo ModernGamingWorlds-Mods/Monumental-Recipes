@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:obsidian"
+    },
+    {
+      "item": "fluxnetworks:flux_dust"
+    },
+    {
+      "tag": "monumental_recipes:eyes"
+    }
+  ],
+  "results": [
+    {
+      "item": "fluxnetworks:flux_core",
+      "count": 2
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fluxnetworks"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

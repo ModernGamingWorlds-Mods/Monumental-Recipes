@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "addition": {
+    "tag": "monumental:dragon_scales"
+  },
+  "result": {
+    "id": "forbidden_arcanus:draco_arcanus_axe"
+  },
+  "template": {
+    "tag": "c:plates/netherite"
+  }
+}

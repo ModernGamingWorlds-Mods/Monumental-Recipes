@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "securitycraft:reinforced_stone"
+    },
+    "B": {
+      "tag": "monumental:tools/hammers"
+    }
+  },
+  "pattern": [
+    " A ",
+    " A ",
+    " B "
+  ],
+  "result": {
+    "id": "securitycraft:reinforced_stone_pressure_plate"
+  }
+}

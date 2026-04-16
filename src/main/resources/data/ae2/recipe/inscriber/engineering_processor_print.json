@@ -1,0 +1,18 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "bottom": {
+      "tag": "c:silicon"
+    },
+    "middle": {
+      "tag": "c:plates/enderium"
+    },
+    "top": {
+      "item": "ae2:engineering_processor_press"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "id": "ae2:printed_engineering_processor"
+  }
+}

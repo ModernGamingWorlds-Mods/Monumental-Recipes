@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:andesite"
+    },
+    "C": {
+      "tag": "c:plates/zinc"
+    },
+    "S": {
+      "tag": "monumental:tools/hammers"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "CSC",
+    "ACA"
+  ],
+  "result": {
+    "id": "create:andesite_alloy"
+  }
+}

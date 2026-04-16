@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:supremium_ingot"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    }
+  ],
+  "results": [
+    {
+      "id": "mysticalagradditions:insanium_ingot"
+    }
+  ]
+}

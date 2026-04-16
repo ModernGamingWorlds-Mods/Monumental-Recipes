@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "occultism"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    {
+      "tag": "forge:ingots/iesnium"
+    }
+  ],
+  "output": [
+    {
+      "item": "occultism:iesnium_pickaxe"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "compressium:cobblestone_1"
+    },
+    "R": {
+      "tag": "forge:dusts/redstone"
+    },
+    "X": {
+      "tag": "forge:bows"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SXS",
+    "SRS"
+  ],
+  "result": {
+    "item": "minecraft:dispenser"
+  }
+}

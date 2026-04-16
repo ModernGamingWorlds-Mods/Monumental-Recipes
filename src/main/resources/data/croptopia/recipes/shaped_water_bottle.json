@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "212",
+    " 2 "
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:buckets/water"
+    },
+    "2": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "croptopia:water_bottle",
+    "count": 16
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
+}

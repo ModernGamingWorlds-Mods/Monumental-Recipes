@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "tag": "forge:ingots/iron"
+    },
+    "B": {
+      "item": "jurassicreborn:dna_analyzer"
+    },
+    "C": {
+      "item": "jurassicreborn:computer_screen"
+    },
+    "D": {
+      "item": "jurassicreborn:disc_reader"
+    },
+    "E": {
+      "item": "jurassicreborn:keyboard"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CBA",
+    "DBE"
+  ],
+  "result": {
+    "item": "jurassicreborn:dna_sequencer"
+  },
+  "show_notification": true
+},
+"conditions": [
+{
+"type": "forge:mod_loaded",
+"modid": "jurassicreborn"
+}

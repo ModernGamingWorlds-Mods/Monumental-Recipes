@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forcecraft"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_boots"
+    },
+    {
+      "tag": "forge:rods/force"
+    }
+  ],
+  "output": [
+    {
+      "item": "forcecraft:force_boots"
+    }
+  ]
+}

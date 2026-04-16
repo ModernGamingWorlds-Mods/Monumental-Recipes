@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "chipped:spruce_planks"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:plate_wood_spruce"
+    }
+  ]
+}

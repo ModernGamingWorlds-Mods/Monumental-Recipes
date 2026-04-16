@@ -1,0 +1,42 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "pattern": [
+    "CCCCC",
+    "BEBEB",
+    "AFAFA",
+    "BEBEB",
+    "CCCCC"
+  ],
+  "key": {
+    "A": {
+      "item": "immersiveengineering:alu_scaffolding_standard"
+    },
+    "B": {
+      "item": "immersiveengineering:slab_sheetmetal_aluminum"
+    },
+    "C": {
+      "tag": "forge:treated_wood"
+    },
+    "E": {
+      "tag": "forge:plates/aluminum"
+    },
+    "F": {
+      "tag": "forge:gears/iron"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "immersive_aircraft:hull"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersive_aircraft"
+    }
+  ]
+}

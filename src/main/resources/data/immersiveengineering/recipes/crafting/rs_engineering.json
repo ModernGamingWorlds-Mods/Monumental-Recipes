@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "C": {
+      "tag": "forge:storage_blocks/redstone_alloy"
+    },
+    "W": {
+      "tag": "forge:plates/steel"
+    },
+    "S": {
+      "tag": "forge:gears/bronze"
+    },
+    "A": {
+      "tag": "forge:sheetmetals/iron"
+    }
+  },
+  "pattern": [
+    " AWA ",
+    " CSC ",
+    " AWA ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "immersiveengineering:rs_engineering"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

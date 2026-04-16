@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_badlands",
+	"#cobblemon:is_desert",
+	{
+      "id": "#biomeswevegone:sandy",
+      "required": false
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cobblemon"
+    }
+  ]
+}

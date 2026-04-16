@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:warm_ocean",
+	{
+      "id": "biomeswevegone:lush_stacks",
+      "required": false
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    }
+  ]
+}

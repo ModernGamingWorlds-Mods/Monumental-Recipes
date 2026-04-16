@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "jurassicreborn:basic_circuit"
+    },
+    "B": {
+      "tag": "forge:ingots/iron"
+    },
+    "C": {
+      "item": "minecraft:glass_pane"
+    },
+    "D": {
+      "tag": "forge:gems/diamond"
+    }
+  },
+  "pattern": [
+    "BDB",
+    "ACA",
+    "BDB"
+  ],
+  "result": {
+    "item": "jurassicreborn:paleo_pad"
+  },
+  "show_notification": true
+},
+"conditions": [
+{
+"type": "forge:mod_loaded",
+"modid": "jurassicreborn"
+}

@@ -1,0 +1,32 @@
+{
+  "type": "prefab:condition_crafting_shaped",
+  "configName": "Instant Bridge",
+  "group": "Instant Bridge",
+  "pattern": [
+    "aba",
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:torch"
+    },
+    "b": {
+      "item": "compressium:stone_2"
+    }
+  },
+  "result": {
+    "item": "prefab:item_instant_bridge",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "prefab"
+    }
+  ]
+}

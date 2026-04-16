@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "S": {
+      "tag": "c:plates/diamond"
+    },
+    "Q": {
+      "tag": "monumental:lasers"
+    },
+    "E": {
+      "tag": "c:plates/iron"
+    },
+    "Z": {
+      "item": "enderio:redstone_alloy_ingot"
+    }
+  },
+  "pattern": [
+    " SEE ",
+    " SQZ ",
+    " SEE ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mininggadgets:mininggadget_simple"
+  }
+}

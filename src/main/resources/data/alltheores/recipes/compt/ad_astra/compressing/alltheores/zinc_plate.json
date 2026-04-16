@@ -1,0 +1,22 @@
+{
+  "type": "ad_astra:compressing",
+  "cookingtime": 100,
+  "energy": 20,
+  "ingredient": {
+    "tag": "forge:ingots/zinc"
+  },
+  "result": {
+    "count": 1,
+    "id": "alltheores:zinc_plate"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alltheores"
+    }
+  ]
+}

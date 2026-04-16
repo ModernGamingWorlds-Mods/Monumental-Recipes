@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_axe"
+  },
+  "addition": {
+    "tag": "c:gems/certus_quartz"
+  },
+  "result": {
+    "id": "ae2:certus_quartz_axe"
+  },
+  "template": {
+    "tag": "c:plates/iron"
+  }
+}

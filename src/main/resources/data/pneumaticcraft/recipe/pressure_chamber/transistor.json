@@ -1,0 +1,24 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "immersiveengineering:wirecoil_redstone"
+    },
+    {
+      "item": "immersiveengineering:wirecoil_electrum"
+    },
+    {
+      "item": "create:electron_tube"
+    },
+    {
+      "tag": "c:plastics"
+    }
+  ],
+  "pressure": 4,
+  "results": [
+    {
+      "id": "pneumaticcraft:transistor",
+      "count": 2
+    }
+  ]
+}

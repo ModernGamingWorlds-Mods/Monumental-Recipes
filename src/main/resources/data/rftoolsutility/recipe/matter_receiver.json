@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "o": {
+      "tag": "monumental:eyes"
+    },
+    "F": {
+      "item": "rftoolsbase:machine_frame"
+    },
+    "r": {
+      "item": "extendedcrafting:redstone_catalyst"
+    },
+    "i": {
+      "tag": "c:sheetmetals/steel"
+    },
+    "s": {
+      "item": "enderio:redstone_alloy_grinding_ball"
+    }
+  },
+  "pattern": [
+    " iii ",
+    " rFr ",
+    " oso ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolsutility:matter_receiver"
+  }
+}

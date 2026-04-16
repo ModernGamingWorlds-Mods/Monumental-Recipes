@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:andesite"
+    },
+    "C": {
+      "tag": "forge:plates/zinc"
+    },
+    "S": {
+      "tag": "monumental_recipes:tools/hammers"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "CSC",
+    "ACA"
+  ],
+  "result": {
+    "item": "create:andesite_alloy"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

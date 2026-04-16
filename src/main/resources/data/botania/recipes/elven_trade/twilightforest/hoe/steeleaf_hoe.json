@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_hoe"
+    },
+    {
+      "tag": "forge:ingots/steeleaf"
+    }
+  ],
+  "output": [
+    {
+      "item": "twilightforest:steeleaf_hoe"
+    }
+  ]
+}

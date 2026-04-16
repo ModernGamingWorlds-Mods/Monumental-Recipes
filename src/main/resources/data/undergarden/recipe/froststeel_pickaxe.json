@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_pickaxe"
+  },
+  "addition": {
+    "tag": "c:ingots/froststeel"
+  },
+  "result": {
+    "id": "undergarden:froststeel_pickaxe"
+  },
+  "template": {
+    "tag": "c:plates/iron"
+  }
+}

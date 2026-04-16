@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "A": {
+      "tag": "c:plates/copper"
+    },
+    "B": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "pattern": [
+    " AAA ",
+    " ABA ",
+    " AAA ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ironfurnaces:copper_furnace"
+  }
+}

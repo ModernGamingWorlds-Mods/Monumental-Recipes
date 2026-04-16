@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "X": {
+      "tag": "c:rods/steel"
+    },
+    "C": {
+      "item": "immersiveengineering:waterwheel_segment"
+    }
+  },
+  "pattern": [
+    "  C  ",
+    " CXC ",
+    "  C  ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:watermill"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "b": {
+      "tag": "c:buckets/empty"
+    },
+    "F": {
+      "tag": "pneumaticcraft:fluid_tanks"
+    },
+    "G": {
+      "item": "immersiveengineering:insulating_glass"
+    },
+    "i": {
+      "tag": "c:plates/steel"
+    }
+  },
+  "pattern": [
+    " GGG ",
+    " bFb ",
+    " iii ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolsutility:tank"
+  }
+}

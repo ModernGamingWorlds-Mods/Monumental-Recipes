@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:bow"
+  },
+  "addition": {
+    "item": "forcecraft:force_stick"
+  },
+  "result": {
+    "id": "forcecraft:force_bow"
+  },
+  "template": {
+    "tag": "c:strings"
+  }
+}

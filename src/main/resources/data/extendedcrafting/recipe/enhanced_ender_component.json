@@ -1,0 +1,26 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "extendedcrafting:black_iron_slate"
+    },
+    {
+      "item": "extendedcrafting:luminessence"
+    },
+    {
+      "item": "extendedcrafting:enhanced_ender_ingot"
+    },
+    {
+      "item": "extendedcrafting:enhanced_ender_ingot"
+    },
+    {
+      "item": "extendedcrafting:enhanced_ender_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "extendedcrafting:enhanced_ender_component"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "strainers:summoning",
+  "blockBelow": "minecraft:netherrack",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:creeper_essence"
+    },
+    {
+      "item": "minecraft:ghast_spawn_egg"
+    }
+  ],
+  "summonedMob": "minecraft:ghast",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

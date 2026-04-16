@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "B": {
+      "tag": "forge:gems/certus_quartz"
+    },
+    "C": {
+      "item": "ae2:logic_processor"
+    }
+  },
+  "pattern": [
+    " ABA ",
+    " BCB ",
+    " ABA ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "ae2:cell_component_1k"
+  }
+}

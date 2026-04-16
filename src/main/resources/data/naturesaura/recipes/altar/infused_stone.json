@@ -1,0 +1,17 @@
+{
+  "type": "naturesaura:altar",
+  "input": {
+    "tag": "forge:storage_blocks/arcane_crystal"
+  },
+  "output": {
+    "item": "naturesaura:infused_stone"
+  },
+  "aura": 7500,
+  "time": 40,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "naturesaura"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "aquaculture:diamond_fishing_rod"
+  },
+  "addition": {
+    "tag": "forge:ingots/neptunium"
+  },
+  "result": {
+    "item": "aquaculture:neptunium_fishing_rod"
+  },
+  "template": {
+    "tag": "forge:plates/diamond"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aquaculture"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_leggings"
+  },
+  "addition": {
+    "tag": "minecraft:wool"
+  },
+  "result": {
+    "item": "ad_astra:space_pants"
+  },
+  "template": {
+    "tag": "forge:plates/steel"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    }
+  ]
+}

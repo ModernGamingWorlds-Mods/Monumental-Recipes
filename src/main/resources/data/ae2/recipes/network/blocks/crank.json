@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:rods/wooden"
+    },
+    "B": {
+      "tag": "forge:ingots/copper"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "  A",
+    "  B"
+  ],
+  "result": {
+    "item": "ae2:crank"
+  }
+}

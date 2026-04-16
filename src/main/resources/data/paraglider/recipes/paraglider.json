@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "1": {
+      "tag": "forge:rods/wooden"
+    },
+    "2": {
+      "item": "mysticalagriculture:cow_essence"
+    }
+  },
+  "pattern": [
+    "121",
+    "212",
+    "1 1"
+  ],
+  "result": {
+    "item": "paraglider:paraglider"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "paraglider"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "mekanism:elite_tier_installer"
+    },
+    "B": {
+      "tag": "c:circuits/ultimate"
+    },
+    "C": {
+      "tag": "c:gears/diamond"
+    },
+    "D": {
+      "tag": "mekanism:alloys/atomic"
+    }
+  },
+  "pattern": [
+    "DBD",
+    "CAC",
+    "DBD"
+  ],
+  "result": {
+    "id": "mekanism:ultimate_tier_installer"
+  }
+}

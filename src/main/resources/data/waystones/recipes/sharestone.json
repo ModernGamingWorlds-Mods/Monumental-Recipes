@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "waystones:warp_stone"
+    },
+    {
+      "tag": "chipped:mossy_stone_bricks"
+    },
+    {
+      "tag": "forge:ingots/obsidian"
+    }
+  ],
+  "results": [
+    {
+      "item": "waystones:sharestone"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "waystones"
+    }
+  ]
+}

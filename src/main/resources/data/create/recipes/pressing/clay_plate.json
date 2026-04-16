@@ -1,0 +1,19 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/clay"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:clay_plate"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    }
+  ]
+}

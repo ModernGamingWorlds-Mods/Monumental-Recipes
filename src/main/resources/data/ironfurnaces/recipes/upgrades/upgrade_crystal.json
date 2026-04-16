@@ -1,0 +1,34 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "#": {
+      "tag": "forge:glass"
+    },
+    "X": {
+      "tag": "forge:plates/diamond"
+    },
+    "E": {
+      "tag": "monumental_recipes:eyes"
+    }
+  },
+  "pattern": [
+    " ### ",
+    " #X# ",
+    " #E# ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "item": "ironfurnaces:upgrade_crystal"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironfurnaces"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

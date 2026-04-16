@@ -1,0 +1,42 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "patchouli"
+      ]
+    }
+  ],
+  "type": "patchouli:shaped_book_recipe",
+  "pattern": [
+    "#/#",
+    "/B/",
+    "#/#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:dyes/blue"
+    },
+    "/": {
+      "tag": "forge:ingots/iron"
+    },
+    "B": {
+      "tag": "forge:books"
+    }
+  },
+  "book": "ad_astra:astrodux",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fabric"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "patchouli"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [],
+  "inputFluid": "{Amount:250,FluidName:\"cyclic:xpjuice\"}",
+  "output": {
+    "count": 1,
+    "item": "minecraft:experience_bottle"
+  },
+  "processingTime": 5,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "industrialforegoing"
+    }
+  ]
+}

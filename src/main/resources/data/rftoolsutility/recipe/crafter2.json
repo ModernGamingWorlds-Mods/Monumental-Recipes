@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "tag": "c:player_workstations/crafting_tables"
+    },
+    "M": {
+      "item": "rftoolsutility:crafter1"
+    },
+    "T": {
+      "tag": "c:plates/steel"
+    },
+    "Q": {
+      "item": "immersiveengineering:wirecoil_redstone"
+    }
+  },
+  "pattern": [
+    "QTQ",
+    "CMC",
+    "QTQ"
+  ],
+  "result": {
+    "id": "rftoolsutility:crafter2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": {
+      "item": "mekanism:energy_tablet"
+    },
+    "R": {
+      "tag": "mekanism:alloys/reinforced"
+    },
+    "U": {
+      "tag": "c:circuits/ultimate"
+    },
+    "S": {
+      "tag": "c:ingots/elementium"
+    }
+  },
+  "pattern": [
+    "RER",
+    "RUR",
+    " S "
+  ],
+  "result": {
+    "id": "mekanism:atomic_disassembler"
+  }
+}

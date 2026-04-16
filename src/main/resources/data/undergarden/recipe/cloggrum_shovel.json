@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:stone_shovel"
+  },
+  "addition": {
+    "tag": "c:ingots/cloggrum"
+  },
+  "result": {
+    "id": "undergarden:cloggrum_shovel"
+  },
+  "template": {
+    "tag": "c:stones"
+  }
+}

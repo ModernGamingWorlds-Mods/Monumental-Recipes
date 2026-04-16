@@ -1,0 +1,18 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "bottom": {
+      "item": "create:andesite_alloy"
+    },
+    "middle": {
+      "item": "immersiveengineering:mold_rod"
+    },
+    "top": {
+      "tag": "c:ingots/nickel"
+    }
+  },
+  "mode": "press",
+  "result": {
+    "id": "alltheores:nickel_rod"
+  }
+}

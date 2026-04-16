@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": {
+      "item": "ae2:smooth_sky_stone_block"
+    },
+    "S": {
+      "item": "refinedstorage:quartz_enriched_iron_block"
+    },
+    "W": {
+      "item": "createchromaticreturn:refined_radiance"
+    }
+  },
+  "pattern": [
+    "WEW",
+    "ESE",
+    "WEW"
+  ],
+  "result": {
+    "item": "refinedstorage:machine_casing"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "createchromaticreturn"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
+}

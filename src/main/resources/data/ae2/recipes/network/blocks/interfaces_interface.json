@@ -1,0 +1,43 @@
+{
+  "type": "create:mechanical_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    }
+  ],
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "kubejs:compressed_iron_plate"
+    },
+    "B": {
+      "item": "ae2:quartz_glass"
+    },
+    "C": {
+      "item": "ae2:formation_core"
+    },
+    "D": {
+      "item": "ae2:annihilation_core"
+    }
+  },
+  "pattern": [
+    " ABA ",
+    " C D ",
+    " ABA ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "ae2:interface"
+  }
+}

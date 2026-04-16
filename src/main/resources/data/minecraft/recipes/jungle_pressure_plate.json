@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:jungle_planks"
+    },
+    "B": {
+      "tag": "monumental_experience:tools/hammers"
+    }
+  },
+  "pattern": [
+    " A ",
+    " A ",
+    " B "
+  ],
+  "result": {
+    "item": "minecraft:jungle_pressure_plate"
+  }
+}

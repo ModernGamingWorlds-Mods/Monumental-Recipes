@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "c:ingots/black_iron"
+    },
+    "B": {
+      "tag": "monumental:tools/hammers"
+    }
+  },
+  "pattern": [
+    " A ",
+    " A ",
+    " B "
+  ],
+  "result": {
+    "id": "extendedcrafting:black_iron_slate"
+  }
+}

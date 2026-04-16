@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "P": {
+      "tag": "c:sheetmetals/iron"
+    },
+    "B": {
+      "item": "immersiveengineering:circuit_board"
+    },
+    "Q": {
+      "item": "mininggadgets:upgrade_empty"
+    }
+  },
+  "pattern": [
+    " PPP ",
+    " QBQ ",
+    " PPP ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mininggadgets:modificationtable"
+  }
+}

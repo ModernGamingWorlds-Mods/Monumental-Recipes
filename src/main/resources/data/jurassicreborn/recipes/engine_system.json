@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_bars"
+    },
+    "B": {
+      "tag": "forge:ingots/iron"
+    },
+    "C": {
+      "item": "minecraft:lever"
+    },
+    "D": {
+      "item": "minecraft:comparator"
+    },
+    "E": {
+      "item": "minecraft:repeater"
+    },
+    "F": {
+      "item": "minecraft:cauldron"
+    },
+    "G": {
+      "item": "minecraft:stone_pressure_plate"
+    },
+    "H": {
+      "item": "minecraft:piston"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DEF",
+    "AGH"
+  ],
+  "result": {
+    "item": "jurassicreborn:engine_system"
+  },
+  "show_notification": true
+},
+"conditions": [
+{
+"type": "forge:mod_loaded",
+"modid": "jurassicreborn"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SMS",
+    "MCM",
+    "SMS"
+  ],
+  "key": {
+    "C": {
+      "item": "strainers:improved_duration_upgrade"
+    },
+    "S": {
+      "tag": "forge:stone"
+    },
+    "M": {
+      "tag": "forge:clocks"
+    }
+  },
+  "result": {
+    "item": "strainers:sturdy_duration_upgrade"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "strainers"
+    }
+  ]
+}

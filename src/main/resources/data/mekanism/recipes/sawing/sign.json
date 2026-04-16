@@ -1,0 +1,22 @@
+{
+  "type": "mekanism:sawing",
+  "input": {
+    "ingredient": {
+      "tag": "minecraft:signs"
+    }
+  },
+  "mainOutput": {
+    "count": 3,
+    "item": "minecraft:stick"
+  },
+  "secondaryChance": 0.25,
+  "secondaryOutput": {
+    "item": "thermal:sawdust"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

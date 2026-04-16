@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "tag": "forge:clocks"
+  },
+  "addition": {
+    "item": "notenoughwands:advanced_wand_core"
+  },
+  "result": {
+    "item": "notenoughwands:acceleration_wand"
+  },
+  "template": {
+    "item": "mekanism:upgrade_speed"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "notenoughwands"
+    }
+  ]
+}

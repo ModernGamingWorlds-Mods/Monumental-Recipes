@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "X": {
+      "tag": "immersiveengineering:treated_wood"
+    },
+    "T": {
+      "item": "immersiveengineering:electron_tube"
+    },
+    "C": {
+      "tag": "c:sheetmetals/aluminum"
+    },
+    "W": {
+      "tag": "c:sheetmetals/steel"
+    },
+    "A": {
+      "tag": "c:gears/lead"
+    }
+  },
+  "pattern": [
+    " WWW ",
+    " CAC ",
+    " XTX ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 2,
+    "item": "immersiveengineering:capacitor_hv"
+  }
+}

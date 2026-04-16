@@ -1,0 +1,30 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 800,
+  "input": [
+    {
+      "item": "minecraft:stripped_crimson_stem"
+    },
+    {
+      "item": "minecraft:stripped_crimson_hyphae"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "minecraft:crimson_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "item": "thermal:sawdust"
+      },
+      "stripping": false
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

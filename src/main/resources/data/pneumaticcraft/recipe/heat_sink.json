@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "immersiveengineering:toolupgrade_railgun_capacitors"
+    },
+    "I": {
+      "tag": "c:ingots/compressed_iron"
+    },
+    "G": {
+      "tag": "c:gears/electrum"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "IGI"
+  ],
+  "result": {
+    "id": "pneumaticcraft:heat_sink"
+  }
+}

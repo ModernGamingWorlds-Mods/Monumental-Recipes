@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "key": {
+    "p": {
+      "tag": "c:gears/electrum"
+    },
+    "q": {
+      "item": "rftoolsbase:dimensionalshard"
+    },
+    "r": {
+      "tag": "c:gems/diamond"
+    },
+    "s": {
+      "tag": "c:dusts/redstone"
+    }
+  },
+  "pattern": [
+    " qsq ",
+    " rpr ",
+    " qsq ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolsbase:machine_infuser"
+  }
+}

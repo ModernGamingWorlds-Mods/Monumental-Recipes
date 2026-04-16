@@ -1,0 +1,38 @@
+{
+  "type": "prefab:condition_crafting_shaped",
+  "configName": "Defense Bunker",
+  "group": "Defense Bunker",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:storage_blocks/iron"
+    },
+    "b": {
+      "tag": "forge:storage_blocks/double_compressed_lights"
+    },
+    "c": {
+      "item": "compressium:stone_3"
+    },
+    "d": {
+      "item": "compressium:obsidian_2"
+    }
+  },
+  "result": {
+    "item": "prefab:item_defense_bunker",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "prefab"
+    }
+  ]
+}

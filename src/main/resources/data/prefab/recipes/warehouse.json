@@ -1,0 +1,38 @@
+{
+  "type": "prefab:condition_crafting_shaped",
+  "configName": "Warehouse",
+  "group": "Warehouse",
+  "pattern": [
+    "a a",
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "compressium:stone_2"
+    },
+    "b": {
+      "item": "prefab:item_compressed_chest"
+    },
+    "c": {
+      "tag": "forge:storage_blocks/double_compressed_lights"
+    },
+    "d": {
+      "item": "compressium:stone_3"
+    }
+  },
+  "result": {
+    "item": "prefab:item_warehouse",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "prefab"
+    }
+  ]
+}

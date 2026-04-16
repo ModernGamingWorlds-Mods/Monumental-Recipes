@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "addition": {
+    "tag": "c:ingots/neptunium"
+  },
+  "result": {
+    "id": "aquaculture:neptunium_leggings"
+  },
+  "template": {
+    "tag": "c:plates/netherite"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_boots"
+  },
+  "addition": {
+    "tag": "minecraft:wool"
+  },
+  "result": {
+    "item": "ad_astra:space_boots"
+  },
+  "template": {
+    "tag": "forge:plates/steel"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    }
+  ]
+}

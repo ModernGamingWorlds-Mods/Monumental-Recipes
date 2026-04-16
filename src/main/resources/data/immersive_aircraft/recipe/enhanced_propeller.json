@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AB ",
+    " C ",
+    " BA"
+  ],
+  "key": {
+    "A": [
+      {
+        "tag": "c:ingots/copper"
+      }
+    ],
+    "B": [
+      {
+        "item": "immersive_aircraft:propeller"
+      }
+    ],
+    "C": [
+      {
+        "item": "supplementaries:cog_block"
+      }
+    ]
+  },
+  "result": {
+    "id": "immersive_aircraft:enhanced_propeller"
+  }
+}

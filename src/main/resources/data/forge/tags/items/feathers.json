@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:feather",
+    "alexsmobs:roadrunner_feather",
+    "alexsmobs:emu_feather",
+    "occultism:awakened_feather",
+    "reliquary:angelic_feather",
+    "reliquary:phoenix_down"
+  ]
+}

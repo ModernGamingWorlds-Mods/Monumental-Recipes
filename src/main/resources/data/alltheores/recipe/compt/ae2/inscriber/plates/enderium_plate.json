@@ -1,0 +1,18 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "bottom": {
+      "item": "create:andesite_alloy"
+    },
+    "middle": {
+      "item": "immersiveengineering:mold_plate"
+    },
+    "top": {
+      "tag": "c:ingots/enderium"
+    }
+  },
+  "mode": "press",
+  "result": {
+    "id": "alltheores:enderium_plate"
+  }
+}

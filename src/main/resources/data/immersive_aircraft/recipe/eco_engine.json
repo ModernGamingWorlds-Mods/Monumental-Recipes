@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": [
+      {
+        "item": "mekanism:bio_fuel"
+      }
+    ],
+    "B": [
+      {
+        "tag": "c:ingots/gold"
+      }
+    ],
+    "C": [
+      {
+        "item": "immersive_aircraft:engine"
+      }
+    ],
+    "D": [
+      {
+        "tag": "c:plates/aluminum"
+      }
+    ]
+  },
+  "result": {
+    "id": "immersive_aircraft:eco_engine"
+  }
+}

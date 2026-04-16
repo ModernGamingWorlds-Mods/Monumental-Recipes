@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "twilightdelight:torchberry_ice_cream"
+    },
+    {
+      "item": "neapolitan:chocolate_ice_cream"
+    },
+    {
+      "item": "neapolitan:strawberry_ice_cream"
+    },
+    {
+      "tag": "forge:bowls"
+    },
+    {
+      "tag": "forge:bowls"
+    },
+    {
+      "tag": "forge:bowls"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "twilightdelight:twilight_ice_cream"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "neapolitan"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightdelight"
+    }
+  ]
+}

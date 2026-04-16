@@ -1,0 +1,22 @@
+{
+  "type": "strainers:strainer",
+  "aboveFluid": "strainers:purified_water_fluid",
+  "chance": 0.25,
+  "chanceIncreasePerTier": 0.1,
+  "duration": 200,
+  "ingredients": [
+    {
+      "tag": "forge:dyes/green"
+    }
+  ],
+  "minMeshTier": 3,
+  "output": {
+    "item": "minecraft:slime_ball"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "strainers"
+    }
+  ]
+}

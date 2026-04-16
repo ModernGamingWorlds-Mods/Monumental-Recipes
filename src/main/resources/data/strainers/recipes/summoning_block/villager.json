@@ -1,0 +1,19 @@
+{
+  "type": "strainers:summoning",
+  "blockBelow": "minecraft:emerald_block",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:emerald_essence"
+    },
+    {
+      "item": "minecraft:villager_spawn_egg"
+    }
+  ],
+  "summonedMob": "minecraft:villager",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

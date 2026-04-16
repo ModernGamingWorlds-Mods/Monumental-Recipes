@@ -1,0 +1,46 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "C": {
+      "item": "thermal:rf_coil"
+    },
+    "I": {
+      "tag": "forge:plates/steel"
+    },
+    "X": {
+      "item": "immersiveengineering:circuit_board"
+    },
+    "Y": {
+      "tag": "pneumaticcraft:reinforced_stone"
+    },
+    "G": {
+      "tag": "forge:gears/steel"
+    }
+  },
+  "pattern": [
+    "  C  ",
+    " IGI ",
+    " YXY ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermal:dynamo_stirling"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

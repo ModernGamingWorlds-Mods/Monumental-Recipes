@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:fishing_rod"
+    },
+    {
+      "item": "mysticalagriculture:inferium_gemstone"
+    }
+  ],
+  "output": [
+    {
+      "item": "mysticalagriculture:inferium_fishing_rod"
+    }
+  ]
+}

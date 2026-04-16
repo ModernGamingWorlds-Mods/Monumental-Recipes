@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:stone_sword"
+  },
+  "addition": {
+    "tag": "c:ingots/cloggrum"
+  },
+  "result": {
+    "id": "undergarden:cloggrum_sword"
+  },
+  "template": {
+    "tag": "c:stones"
+  }
+}

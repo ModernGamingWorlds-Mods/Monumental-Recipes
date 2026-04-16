@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    {
+      "tag": "forge:ingots/fiery"
+    }
+  ],
+  "output": [
+    {
+      "item": "twilightforest:fiery_pickaxe"
+    }
+  ]
+}

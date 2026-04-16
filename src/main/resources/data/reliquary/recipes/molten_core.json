@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "M": {
+      "item": "minecraft:magma_block"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GMG",
+    "GGG"
+  ],
+  "result": {
+    "item": "reliquary:molten_core"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "reliquary"
+    }
+  ]
+}

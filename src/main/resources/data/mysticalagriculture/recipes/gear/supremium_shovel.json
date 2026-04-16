@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mysticalagriculture:imperium_shovel"
+  },
+  "addition": {
+    "item": "mysticalagriculture:supremium_gemstone"
+  },
+  "result": {
+    "item": "mysticalagriculture:supremium_shovel"
+  },
+  "template": {
+    "item": "mysticalagriculture:imperium_essence"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

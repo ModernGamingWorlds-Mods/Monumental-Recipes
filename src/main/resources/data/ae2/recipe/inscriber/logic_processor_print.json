@@ -1,0 +1,18 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "bottom": {
+      "tag": "c:silicon"
+    },
+    "middle": {
+      "tag": "c:plates/electrum"
+    },
+    "top": {
+      "item": "ae2:logic_processor_press"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "id": "ae2:printed_logic_processor"
+  }
+}

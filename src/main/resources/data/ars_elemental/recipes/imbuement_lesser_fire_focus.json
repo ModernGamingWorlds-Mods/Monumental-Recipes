@@ -1,0 +1,41 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "output": "ars_elemental:lesser_fire_focus",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "mysticalagriculture:fire_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:fire_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:fire_essence"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      }
+    }
+  ],
+  "source": 5000
+}

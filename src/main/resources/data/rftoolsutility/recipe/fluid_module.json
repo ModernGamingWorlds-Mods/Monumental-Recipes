@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "mysticalagriculture:water_agglomeratio"
+    },
+    "Z": {
+      "tag": "c:dyes/black"
+    },
+    "i": {
+      "item": "mysticalagriculture:compressed_iron_essence"
+    },
+    "r": {
+      "item": "extendedcrafting:redstone_component"
+    }
+  },
+  "pattern": [
+    " X ",
+    "rir",
+    " Z "
+  ],
+  "result": {
+    "id": "rftoolsutility:fluid_module"
+  }
+}

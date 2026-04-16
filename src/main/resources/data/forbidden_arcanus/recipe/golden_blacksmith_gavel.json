@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "forbidden_arcanus:iron_blacksmith_gavel"
+  },
+  "addition": {
+    "tag": "c:ingots/gold"
+  },
+  "result": {
+    "id": "forbidden_arcanus:golden_blacksmith_gavel"
+  },
+  "template": {
+    "tag": "c:plates/iron"
+  }
+}

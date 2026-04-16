@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "tag": "forge:tools/hoes"
+    },
+    {
+      "item": "forestry:carton"
+    }
+  ],
+  "result": {
+    "item": "forestry:hoe_kit"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    }
+  ]
+}

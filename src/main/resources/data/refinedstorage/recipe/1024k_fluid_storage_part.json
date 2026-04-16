@@ -1,0 +1,23 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "PSP",
+    "SRS",
+    "PSP"
+  ],
+  "key": {
+    "P": {
+      "item": "refinedstorage:improved_processor"
+    },
+    "S": {
+      "item": "refinedstorage:256k_fluid_storage_part"
+    },
+    "R": {
+      "tag": "monumental:tanks"
+    }
+  },
+  "result": {
+    "id": "refinedstorage:1024k_fluid_storage_part",
+    "count": 1
+  }
+}

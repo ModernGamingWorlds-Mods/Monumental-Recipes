@@ -1,0 +1,37 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:magnet_upgrade"
+    }
+  ],
+  "key": {
+    "E": {
+      "tag": "c:ender_pearls"
+    },
+    "I": {
+      "tag": "c:ingots/compressed_iron"
+    },
+    "L": {
+      "tag": "c:gems/lapis"
+    },
+    "P": {
+      "item": "immersiveengineering:toolupgrade_shield_magnet"
+    },
+    "R": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "K": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    }
+  },
+  "pattern": [
+    "EIE",
+    "IPI",
+    "RKL"
+  ],
+  "result": {
+    "id": "sophisticatedbackpacks:magnet_upgrade"
+  }
+}
