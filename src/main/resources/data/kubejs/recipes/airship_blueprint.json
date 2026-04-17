@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "kubejs:blueprint" },
+    { "tag": "minecraft:planks" },
+    { "tag": "minecraft:planks" }
+  ],
+  "result": {
+    "item": "kubejs:airship_blueprint"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersive_aircraft"
+    }
+  ]
+}

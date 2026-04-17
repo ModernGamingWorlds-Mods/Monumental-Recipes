@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "kubejs:blueprint" },
+    { "item": "minecraft:bamboo_block" },
+    { "item": "minecraft:bamboo_block" }
+  ],
+  "result": {
+    "item": "kubejs:quadrocopter_blueprint"
+  }
+}
