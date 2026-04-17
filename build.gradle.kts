@@ -70,6 +70,12 @@ tasks.processResources {
     } else {
         exclude("**/data/*/recipe/**")
     }
+    // NeoForge 1.21+ uses "loot table/" (singular), older versions use "loot tables/" (plural)
+    if (stonecutter.eval(minecraft, ">=1.21")) {
+        exclude("**/data/*/loot tables/**")
+    } else {
+        exclude("**/data/*/loot table/**")
+    }
 
     // Exclude Create worldgen from 1.19.2 and below
     if (stonecutter.eval(minecraft, "<1.20")) {
