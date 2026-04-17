@@ -1,0 +1,39 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "A": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "B": {
+      "item": "ae2:calculation_processor"
+    },
+    "C": {
+      "item": "ae2:cell_component_1k"
+    },
+    "D": {
+      "item": "ae2:quartz_glass"
+    }
+  },
+  "pattern": [
+    " ABA ",
+    " CDC ",
+    " ACA ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2:cell_component_4k"
+  },
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

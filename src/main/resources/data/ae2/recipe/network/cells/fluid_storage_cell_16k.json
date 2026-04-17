@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "ae2:quartz_glass"
+    },
+    "A": {
+      "tag": "c:ingots/copper"
+    },
+    "B": {
+      "item": "ae2:cell_component_16k"
+    },
+    "D": {
+      "item": "extendedcrafting:redstone_component"
+    }
+  },
+  "pattern": [
+    "XDX",
+    "DBD",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2:fluid_storage_cell_16k"
+  },
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

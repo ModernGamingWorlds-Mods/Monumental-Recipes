@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "A": {
+      "item": "ae2:sky_dust"
+    },
+    "B": {
+      "item": "ae2:calculation_processor"
+    },
+    "C": {
+      "item": "ae2:cell_component_64k"
+    },
+    "D": {
+      "item": "ae2:quartz_glass"
+    }
+  },
+  "pattern": [
+    " ABA ",
+    " CDC ",
+    " ACA ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2:cell_component_256k"
+  },
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
+}
