@@ -1,0 +1,19 @@
+{
+    "type": "actuallyadditions:laser",
+    "energy": 60,
+    "ingredient": {
+        "item": "ironcoals:iron_coal"
+    },
+    "result": {
+        "item": "actuallyadditions:void_crystal"
+    },
+    "conditions": [{
+            "type": "neoforge:mod_loaded",
+            "modid": "ironcoals"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "actuallyadditions"
+        }
+    ]
+}
