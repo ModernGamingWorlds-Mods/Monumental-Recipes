@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "monumental_experience:eyes"
+      "tag": "monumental_recipes:eyes"
     },
     {
       "item": "reliquary:molten_core"

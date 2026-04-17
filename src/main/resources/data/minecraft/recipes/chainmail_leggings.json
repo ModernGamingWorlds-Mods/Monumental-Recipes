@@ -4,7 +4,7 @@
     "item": "minecraft:leather_leggings"
   },
   "addition": {
-    "tag": "monumental_experience:chains"
+    "tag": "monumental_recipes:chains"
   },
   "result": {
     "item": "minecraft:chainmail_leggings"

@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "A": {
-      "tag": "monumental_experience:essences/fire"
+      "tag": "monumental_recipes:essences/fire"
     },
     "B": {
       "item": "immersive_aircraft:bomb_bay"

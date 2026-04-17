@@ -10,7 +10,7 @@
     "item": "cyclic:glowing_helmet"
   },
   "template": {
-    "tag": "monumental_experience:chains"
+    "tag": "monumental_recipes:chains"
   },
   "conditions": [
     {

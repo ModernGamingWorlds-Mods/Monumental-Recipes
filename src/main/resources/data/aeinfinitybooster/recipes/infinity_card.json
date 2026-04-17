@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "a": {
-      "tag": "monumental_experience:eyes"
+      "tag": "monumental_recipes:eyes"
     },
     "b": {
       "tag": "forge:nether_stars"

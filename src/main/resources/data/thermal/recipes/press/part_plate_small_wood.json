@@ -2,7 +2,7 @@
   "type": "thermal:press",
   "ingredients": [
     {
-      "tag": "monumental_experience:wooden_plates",
+      "tag": "monumental_recipes:wooden_plates",
       "count": 4
     },
     {

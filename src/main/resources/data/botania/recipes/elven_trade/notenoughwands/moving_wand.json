@@ -12,7 +12,7 @@
   "type": "botania:elven_trade",
   "ingredients": [
     {
-      "tag": "monumental_experience:conveyors"
+      "tag": "monumental_recipes:conveyors"
     },
     {
       "item": "notenoughwands:wand_core"

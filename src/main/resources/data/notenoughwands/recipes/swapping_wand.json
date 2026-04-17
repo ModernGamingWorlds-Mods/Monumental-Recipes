@@ -10,7 +10,7 @@
     "item": "notenoughwands:swapping_wand"
   },
   "template": {
-    "tag": "monumental_experience:tools/hammers"
+    "tag": "monumental_recipes:tools/hammers"
   },
   "conditions": [
     {

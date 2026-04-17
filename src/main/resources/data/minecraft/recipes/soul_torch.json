@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "A": {
-      "tag": "monumental_experience:chunks/coal"
+      "tag": "monumental_recipes:chunks/coal"
     },
     "B": {
       "tag": "forge:rods/wooden"

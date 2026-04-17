@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "E": {
-      "tag": "monumental_experience:eyes"
+      "tag": "monumental_recipes:eyes"
     },
     "G": {
       "item": "thermal:enderium_glass"

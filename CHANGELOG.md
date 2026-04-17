@@ -2,4 +2,4 @@
 - Fixed Publishing
 - Fixed missing blueprint recipes
 - Added Issue tracker to GitHub
-- Fixed data using monumental_experience tag name instead of monumental_recipes tag name
+- Fixed data using monumental_recipes tag name instead of monumental_recipes tag name

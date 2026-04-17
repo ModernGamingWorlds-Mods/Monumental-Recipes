@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "H": {
-      "tag": "monumental_experience:hoppers"
+      "tag": "monumental_recipes:hoppers"
     },
     "I": {
-      "tag": "monumental_experience:pistons"
+      "tag": "monumental_recipes:pistons"
     }
   },
   "pattern": [

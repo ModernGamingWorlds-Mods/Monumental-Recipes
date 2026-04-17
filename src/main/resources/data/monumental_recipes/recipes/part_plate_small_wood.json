@@ -7,10 +7,10 @@
   ],
   "key": {
     "h": {
-      "tag": "monumental_experience:tools/hammers"
+      "tag": "monumental_recipes:tools/hammers"
     },
     "a": {
-      "tag": "monumental_experience:wooden_plates"
+      "tag": "monumental_recipes:wooden_plates"
     }
   },
   "result": {

@@ -10,7 +10,7 @@
     "item": "undead_revamp2:bostroxsword"
   },
   "template": {
-    "tag": "monumental_experience:wooden_plates"
+    "tag": "monumental_recipes:wooden_plates"
   },
   "conditions": [
     {

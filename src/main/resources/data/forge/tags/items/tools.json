@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#monumental_experience:tools/hammers",
+    "#monumental_recipes:tools/hammers",
     "#forge:tools/wrench"
   ]
 }

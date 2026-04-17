@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "tag": "monumental_experience:wooden_plates"
+      "tag": "monumental_recipes:wooden_plates"
     },
     "O": {
       "tag": "forge:ingots/osmium"
