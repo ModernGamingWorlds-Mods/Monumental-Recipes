@@ -41,9 +41,14 @@ publishMods {
     changelog = rootProject.file("CHANGELOG.md").readText()
     type = BETA
 
+    val mcVersion = stonecutter.current.version
+    val mcTargets = project.property("mc_targets").toString().split(",").map { it.trim() }
+
     modrinth {
         projectId = "iF5z0VHr"
         accessToken = modrinthToken
+        minecraftVersions.addAll(mcTargets)
+        modLoaders.add(project.property("loader").toString())
     }
 
     curseforge {
