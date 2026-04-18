@@ -1,0 +1,37 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "pattern": [
+    "YXY",
+    "ZWZ",
+    "YXY"
+  ],
+  "key": {
+    "X": {
+      "item": "mysticalagriculture:imperium_essence"
+    },
+    "Y": {
+      "item": "mysticalagriculture:prosperity_shard"
+    },
+    "Z": {
+      "item": "mysticalagriculture:tertium_farmland"
+    },
+    "W": {
+      "item": "mysticalagriculture:prosperity_block"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "mysticalagriculture:imperium_farmland"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

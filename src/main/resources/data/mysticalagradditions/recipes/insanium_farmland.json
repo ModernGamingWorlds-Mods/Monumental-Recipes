@@ -1,0 +1,37 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "pattern": [
+    "YXY",
+    "ZWZ",
+    "YXY"
+  ],
+  "key": {
+    "X": {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    "Y": {
+      "item": "mysticalagriculture:prosperity_shard"
+    },
+    "Z": {
+      "item": "mysticalagriculture:supremium_farmland"
+    },
+    "W": {
+      "item": "mysticalagriculture:prosperity_block"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "mysticalagradditions:insanium_farmland"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagradditions"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}
