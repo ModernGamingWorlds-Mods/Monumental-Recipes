@@ -1,0 +1,48 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "output": "ars_elemental:lesser_water_focus",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "mysticalagriculture:water_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:water_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:water_essence"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      }
+    }
+  ],
+  "source": 5000
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ]
+}
