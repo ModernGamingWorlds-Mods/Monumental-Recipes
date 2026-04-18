@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "item": "mysticalagriculture:water_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:obsidian"
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

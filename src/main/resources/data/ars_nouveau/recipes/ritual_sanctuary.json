@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:blue_archwood_log"
+    },
+    {
+      "item": "mysticalagriculture:water_essence"
+    },
+    {
+      "item": "minecraft:sea_lantern"
+    }
+  ],
+  "result": {
+    "item": "ars_nouveau:ritual_sanctuary"
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

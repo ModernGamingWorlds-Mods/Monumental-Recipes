@@ -1,0 +1,25 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 55,
+  "inputItems": [
+    {
+      "item": {
+        "item": "mysticalagriculture:water_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:water_bucket"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_conjure_water"
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}
