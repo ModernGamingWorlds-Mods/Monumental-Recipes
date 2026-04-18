@@ -12,3 +12,6 @@
 
 ## Version 1.0.5
 - Excluded Farming for Blockheads market 1.20.1 support from 1.19.2
+
+## Version 1.0.6
+- Updated Ars Elemental & Ars Nouv recipes to use Mystical essence as replacements for Ars essences
