@@ -30,4 +30,11 @@
     }
   ],
   "sourceCost": 0
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ]
 }
