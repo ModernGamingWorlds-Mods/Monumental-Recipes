@@ -15,3 +15,6 @@
 
 ## Version 1.0.6
 - Updated Ars Elemental & Ars Nouv recipes to use Mystical essence as replacements for Ars essences
+
+## Version 1.0.7
+- Fixed Missing Mystical Farmland custom recipes
