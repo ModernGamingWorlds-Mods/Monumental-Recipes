@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "forge:gems/amethyst"
+    },
+    "g": {
+      "tag": "forge:ingots/gold"
+    }
+  },
+  "pattern": [
+    " g ",
+    "gag",
+    " g "
+  ],
+  "result": {
+    "item": "ars_additions:wayfinder"
+  },
+  "show_notification": true
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_additions"
+    }
+  ]
+}

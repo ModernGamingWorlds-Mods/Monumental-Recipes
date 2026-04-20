@@ -1,0 +1,37 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "ars_additions:xp_jar"
+  },
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:allow_scroll"
+    },
+    {
+      "tag": "forge:furnaces"
+    },
+    {
+      "tag": "forge:cobblestone"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "tag": "forge:gems/lapis"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "sourceCost": 0
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_additions"
+    }
+  ]
+}

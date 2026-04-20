@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "ars_additions:config",
+          "config": "ritual_enabled"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ars_additions"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "ars_nouveau:blue_archwood_log"
+          },
+          {
+            "item": "forge:nether_stars"
+          },
+          {
+            "item": "ars_nouveau:source_gem"
+          },
+          {
+            "item": "mysticalagriculture:earth_essence"
+          }
+        ],
+        "result": {
+          "item": "ars_additions:ritual_chunk_loading"
+        }
+      }
+    }
+  ]
+}
