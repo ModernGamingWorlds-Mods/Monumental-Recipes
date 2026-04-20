@@ -1,0 +1,34 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "ars_elemental:air_bangle"
+  },
+  "pedestalItems": [
+    {
+      "item": "mysticalagriculture:air_essence"
+    },
+    {
+      "item": "mysticalagriculture:air_essence"
+    },
+    {
+      "tag": "monumental_recipes:pistons"
+    },
+    {
+      "item": "mysticalagriculture:air_essence"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "ars_elemental:base_bangle"
+    }
+  ],
+  "sourceCost": 0
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "MCM",
+    "MMM"
+  ],
+  "key": {
+    "M" : {
+      "item" : "ars_nouveau:magebloom_fiber"
+    },
+    "C" : {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "result": {
+    "item": "ars_elemental:curio_bag"
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ]
+}

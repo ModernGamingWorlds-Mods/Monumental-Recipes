@@ -1,0 +1,30 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 27,
+  "inputItems": [
+    {
+      "item": {
+        "item": "mysticalagriculture:air_essence"
+      }
+    },
+    {
+      "item": {
+        "tag": "minecraft:wool"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_bars"
+      }
+    }
+  ],
+  "output": "ars_elemental:glyph_spark"
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ]
+}

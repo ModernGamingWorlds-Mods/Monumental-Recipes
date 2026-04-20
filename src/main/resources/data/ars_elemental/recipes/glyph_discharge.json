@@ -1,0 +1,30 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 55,
+  "inputItems": [
+    {
+      "item": {
+        "item": "minecraft:lightning_rod"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_elemental:flashpine_pod"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:air_essence"
+      }
+    }
+  ],
+  "output": "ars_elemental:glyph_discharge"
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ]
+}
