@@ -1,0 +1,28 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 27,
+  "inputItems": [
+    {
+      "item": {
+        "tag": "forge:feathers"
+      }
+    },
+    {
+      "item": {
+        "type": "forge:nbt",
+        "count": 1,
+        "item": "minecraft:potion",
+        "nbt": "{Potion:\"minecraft:slow_falling\"}"
+      }
+    }
+  ],
+  "output": "ars_artifice:glyph_falling"
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_artifice"
+    }
+  ]
+}
