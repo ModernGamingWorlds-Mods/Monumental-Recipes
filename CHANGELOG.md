@@ -24,3 +24,6 @@
 
 ## Version 1.0.9
 - Updated/Tweaked Ars Nouveau recipes
+
+## Version 1.0.10
+- Updated/Tweaked Ars Nouveau recipes
