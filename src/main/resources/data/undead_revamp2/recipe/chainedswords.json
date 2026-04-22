@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "undead_revamp2:heavytooth"
+    },
+    "b": {
+      "tag": "c:storage_blocks/redstone"
+    },
+    "c": {
+      "tag": "c:ingots/compressed_iron"
+    },
+    "d": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "result": {
+    "id": "undead_revamp2:chainsword",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
+}

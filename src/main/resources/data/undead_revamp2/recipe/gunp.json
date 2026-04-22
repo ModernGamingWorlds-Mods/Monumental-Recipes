@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bone_meal"
+    },
+    "b": {
+      "tag": "c:dusts/redstone"
+    },
+    "c": {
+      "item": "undead_revamp2:devilurchin"
+    },
+    "d": {
+      "tag": "minecraft:coals"
+    }
+  },
+  "result": {
+    "id": "minecraft:gunpowder",
+    "count": 8
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:gems/diamond"
+    },
+    "b": {
+      "item": "undead_revamp2:blockofbostrox"
+    },
+    "c": {
+      "item": "undead_revamp2:bostroxingot"
+    },
+    "d": {
+      "item": "undead_revamp2:huntereye"
+    },
+    "e": {
+      "tag": "c:storage_blocks/diamond"
+    },
+    "f": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "result": {
+    "id": "undead_revamp2:wincallerfan",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
+}
