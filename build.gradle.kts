@@ -72,9 +72,9 @@ tasks.processResources {
     }
     // NeoForge 1.21+ uses "loot table/" (singular), older versions use "loot tables/" (plural)
     if (stonecutter.eval(minecraft, ">=1.21")) {
-        exclude("**/data/*/loot tables/**")
+        exclude("**/data/*/loot_tables/**")
     } else {
-        exclude("**/data/*/loot table/**")
+        exclude("**/data/*/loot_table/**")
     }
 
     // Exclude Farming For Blockheads market support from 1.19.2 and below
