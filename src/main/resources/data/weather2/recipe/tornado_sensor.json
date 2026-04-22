@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "tag": "c:dusts/redstone"
+    },
+    "I": {
+      "item": "weather2:weather_item"
+    },
+    "X": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "pattern": [
+    "X X",
+    "DID",
+    "X X"
+  ],
+  "result": {
+    "id": "weather2:tornado_sensor"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "weather2"
+    }
+  ]
+}

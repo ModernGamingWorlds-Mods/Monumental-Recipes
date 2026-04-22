@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "tag": "c:dusts/redstone"
+    },
+    "X": {
+      "item": "weather2:weather_item"
+    }
+  },
+  "pattern": [
+    "X X",
+    "XDX",
+    "X X"
+  ],
+  "result": {
+    "id": "weather2:anemometer"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "weather2"
+    }
+  ]
+}
