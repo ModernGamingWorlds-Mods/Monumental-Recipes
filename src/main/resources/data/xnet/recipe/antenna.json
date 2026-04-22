@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "graveyard:dark_iron_bars"
+    },
+    "i": {
+      "item": "extendedcrafting:redstone_component"
+    }
+  },
+  "pattern": [
+    "IiI",
+    "IiI",
+    " i "
+  ],
+  "result": {
+    "id": "xnet:antenna"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "xnet"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "graveyard"
+    }
+  ]
+}

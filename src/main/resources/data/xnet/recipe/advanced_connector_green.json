@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "xnet:connector_green"
+    },
+    "d": {
+      "tag": "c:plates/diamond"
+    },
+    "o": {
+      "tag": "c:ender_pearls"
+    },
+    "r": {
+      "item": "extendedcrafting:redstone_component"
+    }
+  },
+  "pattern": [
+    "Co",
+    "dr"
+  ],
+  "result": {
+    "id": "xnet:advanced_connector_green",
+    "count": 2
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "xnet"
+    }
+  ]
+}

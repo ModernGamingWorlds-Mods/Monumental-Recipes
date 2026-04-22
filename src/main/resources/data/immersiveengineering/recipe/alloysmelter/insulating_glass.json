@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "c:dyes/green"
+    },
+    {
+      "tag": "c:dusts/iron"
+    },
+    {
+      "tag": "c:sands"
+    }
+  ],
+  "results": [
+    {
+      "id": "immersiveengineering:insulating_glass",
+      "count": 2
+    }
+  ]
+}

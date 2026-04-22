@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "G": {
+      "item": "pneumaticcraft:upgrade_matrix"
+    },
+    "I": {
+      "item": "immersiveengineering:electron_tube"
+    },
+    "T": {
+      "tag": "c:plates/copper"
+    }
+  },
+  "pattern": [
+    "  G  ",
+    "  I  ",
+    "  T  ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:circuit_board"
+  }
+}

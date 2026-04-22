@@ -1,0 +1,44 @@
+{
+    "type": "extendedcrafting:shaped_ender_crafter",
+    "pattern": ["ABA", "CDC", "EFE"],
+    "key": {
+        "A": {
+            "tag": "c:fences/steel"
+        },
+        "B": {
+            "item": "immersiveengineering:electron_tube"
+        },
+        "C": {
+            "item": "extendedcrafting:redstone_component"
+        },
+        "D": {
+            "item": "rftoolsbase:machine_frame"
+        },
+        "E": {
+            "item": "kubejs:compressed_iron_plate"
+        },
+        "F": {
+            "tag": "monumental_recipes:eyes"
+        }
+    },
+    "result": {
+        "id": "xnet:router"
+    },
+    "neoforge:conditions": [{
+        "type": "neoforge:mod_loaded",
+        "modid": "xnet"
+    }, {
+        "type": "neoforge:mod_loaded",
+        "modid": "rftoolsbase"
+    }, {
+        "type": "neoforge:mod_loaded",
+        "modid": "extendedcrafting"
+    }, {
+        "type": "neoforge:mod_loaded",
+        "modid": "immersiveengineering"
+    }, {
+        "type": "neoforge:registered",
+        "registry": "minecraft:item",
+        "value": "kubejs:compressed_iron_plate"
+    }]
+}

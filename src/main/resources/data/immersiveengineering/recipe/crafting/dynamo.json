@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "X": {
+      "item": "create:electron_tube"
+    },
+    "T": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "C": {
+      "tag": "c:sheetmetals/iron"
+    },
+    "S": {
+      "item": "immersiveengineering:coil_lv"
+    }
+  },
+  "pattern": [
+    " CTC ",
+    " XSX ",
+    " CCC ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:dynamo"
+  }
+}

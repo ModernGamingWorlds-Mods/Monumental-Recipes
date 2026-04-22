@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_axe"
+  },
+  "addition": {
+    "tag": "c:ingots/steel"
+  },
+  "result": {
+    "id": "immersiveengineering:axe_steel"
+  },
+  "template": {
+    "tag": "c:plates/iron"
+  }
+}

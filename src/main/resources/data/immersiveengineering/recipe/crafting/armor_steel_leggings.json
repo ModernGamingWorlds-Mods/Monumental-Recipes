@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_leggings"
+  },
+  "addition": {
+    "tag": "c:plates/steel"
+  },
+  "result": {
+    "id": "immersiveengineering:armor_steel_leggings"
+  },
+  "template": {
+    "tag": "c:plates/iron"
+  }
+}

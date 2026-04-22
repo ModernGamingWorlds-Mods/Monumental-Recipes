@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": {
+      "tag": "c:dusts/bronze"
+    },
+    "i": {
+      "item": "create:andesite_alloy"
+    },
+    "s": {
+      "tag": "c:plates/iron"
+    }
+  },
+  "pattern": [
+    "isi",
+    "scs",
+    "isi"
+  ],
+  "result": {
+    "id": "immersiveengineering:component_iron"
+  }
+}

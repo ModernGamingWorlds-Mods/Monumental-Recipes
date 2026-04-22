@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_pickaxe"
+  },
+  "addition": {
+    "tag": "c:ingots/steel"
+  },
+  "result": {
+    "item": "immersiveengineering:pickaxe_steel"
+  },
+  "template": {
+    "tag": "c:plates/iron"
+  }
+}

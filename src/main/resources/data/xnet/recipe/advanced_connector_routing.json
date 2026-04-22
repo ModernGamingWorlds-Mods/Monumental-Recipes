@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "xnet:connector_routing"
+    },
+    "B": {
+      "tag": "monumental_recipes:eyes"
+    },
+    "C": {
+      "tag": "c:plates/diamond"
+    },
+    "D": {
+      "item": "extendedcrafting:redstone_component"
+    }
+  },
+  "pattern": [
+    "AB ",
+    "CD "
+  ],
+  "result": {
+    "id": "xnet:advanced_connector_routing"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "xnet"
+    }
+  ]
+}

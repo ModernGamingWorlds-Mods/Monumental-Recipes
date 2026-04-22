@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "group": "woot_revived",
+  "key": {
+    "a": {
+      "item": "woot_revived:light_blue_dye_plate"
+    },
+    "b": {
+      "item": "woot_revived:diamond_enchanted_plate"
+    },
+    "c": {
+      "item": "woot_revived:gold_cell"
+    }
+  },
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "result": {
+    "id": "woot_revived:diamond_cell"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "woot_revived"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}
