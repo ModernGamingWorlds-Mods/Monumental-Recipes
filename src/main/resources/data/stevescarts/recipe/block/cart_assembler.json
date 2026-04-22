@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "stevescarts"
+    }
+  ],
+  "pattern": [
+    "X#X",
+    "#X#",
+    "R#R"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:stones"
+    },
+    "X": {
+      "tag": "c:ingots/compressed_iron"
+    },
+    "R": {
+      "item": "stevescarts:component_simple_pcb"
+    }
+  },
+  "result": {
+    "id": "stevescarts:blockcartassembler"
+  }
+}
