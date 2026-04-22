@@ -26,6 +26,17 @@
     {
       "type": "forge:mod_loaded",
       "modid": "xnet"
-    }
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "xnet"
+    },{
+      "type": "forge:item_exists",
+      "item": "kubejs:compressed_iron_plate"
+}
   ]
 }

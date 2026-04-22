@@ -23,6 +23,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "xnet"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
     }
   ]
 }

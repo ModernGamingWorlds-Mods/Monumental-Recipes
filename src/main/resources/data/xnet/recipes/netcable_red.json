@@ -27,6 +27,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "xnet"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
     }
   ]
 }
