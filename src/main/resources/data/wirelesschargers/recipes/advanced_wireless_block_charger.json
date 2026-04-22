@@ -25,10 +25,11 @@
   "result": {
     "item": "wirelesschargers:advanced_wireless_block_charger"
   },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "wirelesschargers"
-    }
-  ]
+    "conditions": [{
+        "type": "forge:mod_loaded",
+        "modid": "wirelesschargers"
+    },{
+        "type": "forge:item_exists",
+        "item": "ars_nouveau:blaze_fiber"
+    }]
 }
