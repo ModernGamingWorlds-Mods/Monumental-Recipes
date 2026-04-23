@@ -1,0 +1,42 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "C": {
+      "item": "thermal:machine_frame"
+    },
+    "I": {
+      "tag": "c:gears/constantan"
+    },
+    "P": {
+      "item": "thermal:rf_coil"
+    },
+    "X": {
+      "item": "minecraft:brewing_stand"
+    },
+    "Y": {
+      "tag": "thermal:glass/hardened"
+    }
+  },
+  "pattern": [
+    " XXX ",
+    " YCY ",
+    " IPI ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "thermal:machine_brewer"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

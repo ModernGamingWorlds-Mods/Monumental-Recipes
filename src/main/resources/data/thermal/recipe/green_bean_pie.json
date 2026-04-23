@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "tag": "c:eggs"
+    },
+    "G": {
+      "tag": "c:crops/green_bean"
+    },
+    "M": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "O": {
+      "tag": "c:crops/onion"
+    },
+    "W": {
+      "tag": "c:crops/wheat"
+    }
+  },
+  "pattern": [
+    "GMG",
+    "OEO",
+    " W "
+  ],
+  "result": {
+    "id": "thermal:green_bean_pie"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

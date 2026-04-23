@@ -1,0 +1,46 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "C": {
+      "item": "thermal:rf_coil"
+    },
+    "I": {
+      "tag": "c:plates/steel"
+    },
+    "G": {
+      "tag": "c:gears/gold"
+    },
+    "X": {
+      "item": "immersiveengineering:circuit_board"
+    },
+    "Y": {
+      "tag": "c:gears/lapis"
+    }
+  },
+  "pattern": [
+    "  C  ",
+    " IGI ",
+    " YXY ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "thermal:dynamo_lapidary"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

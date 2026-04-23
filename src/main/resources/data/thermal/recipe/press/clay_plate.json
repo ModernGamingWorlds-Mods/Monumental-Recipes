@@ -1,0 +1,30 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "tag": "c:storage_blocks/clay",
+      "count": 4
+    },
+    {
+      "item": "thermal:press_packing_2x2_die"
+    }
+  ],
+  "result": [
+    {
+      "id": "kubejs:clay_plate",
+      "count": 2
+    }
+  ],
+  "energy": 2400,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "value": "kubejs:clay_plate"
+    }
+  ]
+}

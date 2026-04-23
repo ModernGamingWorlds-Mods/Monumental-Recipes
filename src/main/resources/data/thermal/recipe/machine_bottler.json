@@ -1,0 +1,46 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "C": {
+      "item": "thermal:machine_frame"
+    },
+    "I": {
+      "tag": "c:gears/copper"
+    },
+    "P": {
+      "item": "thermal:rf_coil"
+    },
+    "X": {
+      "tag": "pneumaticcraft:fluid_tanks"
+    },
+    "Y": {
+      "tag": "thermal:glass/hardened"
+    }
+  },
+  "pattern": [
+    "  X  ",
+    " YCY ",
+    " IPI ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "thermal:machine_bottler"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

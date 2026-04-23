@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "value": "occultism:crushed_end_stone"
+    }
+  ],
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "value": [
+      {
+        "tag": "c:end_stones"
+      }
+    ],
+    "count": 2
+  },
+  "result": [
+    {
+      "id": "occultism:crushed_end_stone",
+      "count": 2
+    }
+  ],
+  "experience": 0.1
+}

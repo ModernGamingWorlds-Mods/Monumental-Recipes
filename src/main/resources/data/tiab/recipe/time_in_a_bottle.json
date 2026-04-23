@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AFA",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:ingots/rose_gold"
+    },
+    "B": {
+      "item": "tombstone:impregnated_diamond"
+    },
+    "C": {
+      "tag": "monumental_recipes:clocks"
+    },
+    "D": {
+      "tag": "c:gears/platinum"
+    },
+    "E": {
+      "tag": "monumental_recipes:jars"
+    },
+    "F": {
+      "item": "gendustry:upgrade_frame"
+    }
+  },
+  "result": {
+    "id": "tiab:time_in_a_bottle"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "undergarden"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "gendustry"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tombstone"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "value": "create:polished_rose_quartz"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "item": "create:polished_rose_quartz"
+    },
+    "I": {
+      "tag": "c:plates/electrum"
+    },
+    "R": {
+      "tag": "c:gears/signalum"
+    },
+    "X": {
+      "item": "thermal:upgrade_augment_1"
+    }
+  },
+  "pattern": [
+    "IGI",
+    "RXR",
+    "IGI"
+  ],
+  "result": {
+    "id": "thermal:upgrade_augment_2"
+  }
+}

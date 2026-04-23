@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "tag": "c:plates/bronze"
+    },
+    "L": {
+      "tag": "c:plates/lead"
+    },
+    "B": {
+      "item": "pipez:fluid_pipe"
+    }
+  },
+  "pattern": [
+    "CLC",
+    " B "
+  ],
+  "result": {
+    "count": 4,
+    "id": "thermal:fluid_duct"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pipez"
+    }
+  ]
+}

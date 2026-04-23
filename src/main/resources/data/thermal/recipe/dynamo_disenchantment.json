@@ -1,0 +1,46 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "C": {
+      "item": "thermal:rf_coil"
+    },
+    "I": {
+      "tag": "c:plates/iron"
+    },
+    "G": {
+      "tag": "c:gears/silver"
+    },
+    "X": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "Y": {
+      "item": "minecraft:experience_bottle"
+    }
+  },
+  "pattern": [
+    "  C  ",
+    " IGI ",
+    " YXY ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "thermal:dynamo_disenchantment"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

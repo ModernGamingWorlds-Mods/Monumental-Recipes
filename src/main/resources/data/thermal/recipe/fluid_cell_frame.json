@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "tag": "thermal:glass/hardened"
+    },
+    "I": {
+      "tag": "c:plates/bronze"
+    },
+    "E": {
+      "tag": "c:gears/bronze"
+    }
+  },
+  "pattern": [
+    "IGI",
+    "GEG",
+    "IGI"
+  ],
+  "result": {
+    "id": "thermal:fluid_cell_frame"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

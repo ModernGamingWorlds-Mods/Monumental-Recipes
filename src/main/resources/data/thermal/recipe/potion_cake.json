@@ -1,0 +1,35 @@
+{
+  "type": "cofh_core:crafting_shaped_potion",
+  "category": "misc",
+  "pattern": [
+    "ADA",
+    "BEB",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:milk_bucket"
+    },
+    "B": {
+      "item": "minecraft:sugar"
+    },
+    "C": {
+      "tag": "c:crops/amaranth"
+    },
+    "D": {
+      "item": "minecraft:potion"
+    },
+    "E": {
+      "tag": "c:eggs"
+    }
+  },
+  "result": {
+    "id": "thermal:potion_cake"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

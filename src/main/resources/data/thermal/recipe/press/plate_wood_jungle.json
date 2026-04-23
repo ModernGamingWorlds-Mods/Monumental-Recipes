@@ -1,0 +1,32 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "tag": "chipped:jungle_planks",
+      "count": 4
+    },
+    {
+      "item": "thermal:press_packing_2x2_die"
+    }
+  ],
+  "result": {
+    "id": "kubejs:plate_wood_jungle",
+    "count": 2
+  },
+  "energy": 2400,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "value": "kubejs:plate_wood_jungle"
+    }
+  ]
+}

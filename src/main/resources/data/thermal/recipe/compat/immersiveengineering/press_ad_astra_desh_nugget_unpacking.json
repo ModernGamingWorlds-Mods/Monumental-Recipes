@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ad_astra"
+    }
+  ],
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "tag": "c:ingots/desh",
+      "count": 1
+    },
+    {
+      "item": "thermal:press_unpacking_die"
+    }
+  ],
+  "result": [
+    {
+      "id": "ad_astra:desh_nugget",
+      "count": 9
+    }
+  ],
+  "energy": 400
+}

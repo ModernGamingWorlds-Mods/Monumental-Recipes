@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:leather_boots"
+  },
+  "addition": {
+    "item": "thermal:beekeeper_fabric"
+  },
+  "result": {
+    "item": "thermal:beekeeper_boots"
+  },
+  "template": {
+    "tag": "c:leather"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

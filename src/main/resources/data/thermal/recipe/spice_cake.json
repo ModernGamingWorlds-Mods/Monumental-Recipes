@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:milk_bucket"
+    },
+    "B": {
+      "item": "minecraft:honey_bottle"
+    },
+    "C": {
+      "tag": "c:crops/wheat"
+    },
+    "D": {
+      "tag": "c:crops/sadiroot"
+    },
+    "E": {
+      "tag": "c:eggs"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "BEB",
+    "CDC"
+  ],
+  "result": {
+    "id": "thermal:spice_cake"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

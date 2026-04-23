@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "value": "thermal:upgrade_augment_1"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "value": "extendedcrafting:redstone_catalyst"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "tag": "thermal:glass/hardened"
+    },
+    "I": {
+      "tag": "c:plates/invar"
+    },
+    "R": {
+      "item": "extendedcrafting:redstone_catalyst"
+    },
+    "X": {
+      "tag": "c:gears/electrum"
+    }
+  },
+  "pattern": [
+    "IGI",
+    "RXR",
+    "IGI"
+  ],
+  "result": {
+    "id": "thermal:upgrade_augment_1"
+  }
+}

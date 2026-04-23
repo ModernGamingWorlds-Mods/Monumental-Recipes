@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:crops/corn"
+    },
+    {
+      "tag": "c:crops/green_bean"
+    },
+    {
+      "tag": "c:crops/radish"
+    },
+    {
+      "tag": "c:crops/strawberry"
+    },
+    {
+      "tag": "c:crops/spinach"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "tag": "c:bowls"
+    }
+  ],
+  "result": {
+    "id": "thermal:spring_salad"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "C": {
+      "item": "thermal:rf_coil"
+    },
+    "I": {
+      "tag": "c:plates/iron"
+    },
+    "X": {
+      "item": "immersiveengineering:circuit_board"
+    },
+    "Y": {
+      "tag": "c:gears/invar"
+    }
+  },
+  "pattern": [
+    "  C  ",
+    " IYI ",
+    " YXY ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "thermal:dynamo_magmatic"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

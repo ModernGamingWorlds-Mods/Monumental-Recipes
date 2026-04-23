@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+  ],
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "thermal:obsidian_glass"
+    },
+    {
+      "item": "thermal:obsidian_glass"
+    },
+    {
+      "tag": "c:ingots/signalum"
+    }
+  ],
+  "results": [
+    {
+      "id": "thermal:signalum_glass",
+      "count": 2
+    }
+  ]
+}

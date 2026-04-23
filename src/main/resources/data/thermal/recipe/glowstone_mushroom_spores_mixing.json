@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "tag": "c:mushrooms"
+    },
+    {
+      "tag": "c:dusts/glowstone"
+    },
+    {
+      "item": "thermal:phytogro"
+    },
+    {
+      "item": "minecraft:experience_bottle"
+    }
+  ],
+  "results": [
+    {
+      "id": "thermal:glowstone_mushroom_spores",
+      "count": 4
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

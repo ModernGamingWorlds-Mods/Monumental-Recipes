@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "value": "extendedcrafting:black_iron_ingot"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "value": "extendedcrafting:black_iron_slate"
+    }
+  ],
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "value": [
+      {
+        "item": "extendedcrafting:black_iron_ingot"
+      }
+    ],
+    "count": 2
+  },
+  "result": [
+    {
+      "id": "extendedcrafting:black_iron_slate",
+      "count": 1
+    }
+  ],
+  "experience": 0.1
+}

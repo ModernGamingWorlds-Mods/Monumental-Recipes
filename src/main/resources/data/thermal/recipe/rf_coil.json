@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "P": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "X": {
+      "tag": "c:gears/electrum"
+    },
+    "W": {
+      "item": "immersiveengineering:wirecoil_redstone"
+    },
+    "Q": {
+      "tag": "c:rods/electrum"
+    }
+  },
+  "pattern": [
+    "WPQ",
+    "PXP",
+    "QPW"
+  ],
+  "result": {
+    "id": "thermal:rf_coil"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

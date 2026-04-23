@@ -1,0 +1,44 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "value": "create:polished_rose_quartz"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "value": "immersiveengineering:insulating_glass"
+    }
+  ],
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "create:polished_rose_quartz",
+      "count": 1
+    },
+    {
+      "value": [
+        {
+          "item": "immersiveengineering:insulating_glass"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "tag": "c:ingots/obsidian",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "id": "thermal:obsidian_glass",
+      "count": 2
+    }
+  ],
+  "energy": 4800
+}
