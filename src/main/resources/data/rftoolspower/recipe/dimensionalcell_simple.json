@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "R": {
+      "item": "extendedcrafting:redstone_catalyst"
+    },
+    "d": {
+      "tag": "c:gears/diamond"
+    },
+    "q": {
+      "item": "create:polished_rose_quartz"
+    },
+    "F": {
+      "item": "rftoolsbase:machine_frame"
+    }
+  },
+  "pattern": [
+    "RdR",
+    "qFq",
+    "RdR"
+  ],
+  "result": {
+    "id": "rftoolspower:dimensionalcell_simple"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rftoolspower"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rftoolsbase"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

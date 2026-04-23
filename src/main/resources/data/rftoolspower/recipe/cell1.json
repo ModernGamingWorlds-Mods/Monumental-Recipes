@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "key": {
+    "K": {
+      "item": "rftoolspower:power_core1"
+    },
+    "r": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "F": {
+      "item": "rftoolsbase:machine_frame"
+    }
+  },
+  "pattern": [
+    " rKr ",
+    " KFK ",
+    " rKr ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolspower:cell1"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rftoolspower"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rftoolsbase"
+    }
+  ]
+}

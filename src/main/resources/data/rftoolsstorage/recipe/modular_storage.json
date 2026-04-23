@@ -1,0 +1,46 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "o": {
+      "tag": "c:plates/steel"
+    },
+    "F": {
+      "item": "immersiveengineering:heavy_engineering"
+    },
+    "g": {
+      "tag": "c:gears/quartz"
+    },
+    "T": {
+      "tag": "c:sheetmetals/steel"
+    },
+    "s": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    " ToT ",
+    " gFg ",
+    " TsT ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolsstorage:modular_storage"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsstorage"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}
