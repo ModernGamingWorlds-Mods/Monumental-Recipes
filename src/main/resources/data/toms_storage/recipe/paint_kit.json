@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RGB",
+    "iaW",
+    "bS "
+  ],
+  "key": {
+    "b": {
+      "tag": "c:buckets/water"
+    },
+    "a": {
+      "tag": "c:buckets/empty"
+    },
+    "R": {
+      "tag": "c:dyes/red"
+    },
+    "G": {
+      "tag": "c:dyes/green"
+    },
+    "B": {
+      "tag": "c:dyes/blue"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    },
+    "S": {
+      "tag": "c:rods/wooden"
+    },
+    "i": {
+      "tag": "c:dyes/black"
+    }
+  },
+  "result": {
+    "id": "toms_storage:ts.paint_kit",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ]
+}

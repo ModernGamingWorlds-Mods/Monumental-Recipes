@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PcP",
+    " H "
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "c": {
+      "item": "toms_storage:ts.inventory_cable"
+    },
+    "H": {
+      "tag": "monumental_recipes:hoppers"
+    }
+  },
+  "result": {
+    "id": "toms_storage:ts.inventory_hopper_basic"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "toms_storage"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PCP",
+    "cGg",
+    "PCP"
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "c": {
+      "tag": "c:chests/wooden"
+    },
+    "C": {
+      "item": "minecraft:comparator"
+    },
+    "G": {
+      "tag": "chipped:glowstone"
+    },
+    "g": {
+      "tag": "c:glass_blocks"
+    }
+  },
+  "result": {
+    "id": "toms_storage:ts.storage_terminal"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "toms_storage"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chipped"
+    }
+  ]
+}
