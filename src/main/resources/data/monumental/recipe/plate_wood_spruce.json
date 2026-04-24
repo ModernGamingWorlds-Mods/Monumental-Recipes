@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ha ",
+    "a  ",
+    "   "
+  ],
+  "key": {
+    "h": {
+      "tag": "monumental:tools/hammers"
+    },
+    "a": {
+      "tag": "chipped:spruce_planks"
+    }
+  },
+  "result": {
+    "id": "kubejs:plate_wood_spruce"
+  }
+} 

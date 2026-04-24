@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "kubejs:compressed_iron_plate"
+    },
+    "C": {
+      "item": "enderio:glider_wing"
+    },
+    "B": {
+      "tag": "c:circuits/basic"
+    }
+  },
+  "pattern": [
+    "ACA",
+    " B "
+  ],
+  "result": {
+    "count": 4,
+    "id": "mekanism:basic_logistical_transporter"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mysticalagriculture:prudentium_fishing_rod"
+  },
+  "addition": {
+    "item": "mysticalagriculture:tertium_gemstone"
+  },
+  "result": {
+    "id": "mysticalagriculture:tertium_fishing_rod"
+  },
+  "template": {
+    "item": "mysticalagriculture:prudentium_essence"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "tag": "c:ingots/compressed_iron"
+    },
+    "T": {
+      "tag": "c:tanks/ender"
+    },
+    "A": {
+      "item": "thermal:upgrade_augment_2"
+    },
+    "X": {
+      "item": "extendedcrafting:redstone_component"
+    }
+  },
+  "pattern": [
+    "SXS",
+    "XTX",
+    "SAS"
+  ],
+  "result": {
+    "id": "pneumaticcraft:refinery"
+  }
+}

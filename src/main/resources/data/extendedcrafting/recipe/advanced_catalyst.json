@@ -1,0 +1,29 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "extendedcrafting:advanced_component"
+    },
+    {
+      "item": "extendedcrafting:advanced_component"
+    },
+    {
+      "item": "extendedcrafting:advanced_component"
+    },
+    {
+      "item": "extendedcrafting:advanced_component"
+    },
+    {
+      "item": "extendedcrafting:black_iron_ingot"
+    },
+    {
+      "item": "extendedcrafting:black_iron_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "extendedcrafting:advanced_catalyst"
+    }
+  ]
+}

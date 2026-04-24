@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:diamond_shovel"
+  },
+  "addition": {
+    "item": "mysticalagriculture:inferium_gemstone"
+  },
+  "result": {
+    "id": "mysticalagriculture:inferium_shovel"
+  },
+  "template": {
+    "tag": "c:plates/diamond"
+  }
+}

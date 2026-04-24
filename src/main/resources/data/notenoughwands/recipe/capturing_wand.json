@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "supplementaries:cage"
+  },
+  "addition": {
+    "item": "notenoughwands:advanced_wand_core"
+  },
+  "result": {
+    "id": "notenoughwands:capturing_wand"
+  },
+  "template": {
+    "item": "farmersdelight:safety_net"
+  }
+}

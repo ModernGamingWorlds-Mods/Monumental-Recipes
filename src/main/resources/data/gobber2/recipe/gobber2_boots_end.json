@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "addition": {
+    "tag": "c:ingots/gobber_end"
+  },
+  "result": {
+    "id": "gobber2:gobber2_boots_end"
+  },
+  "template": {
+    "tag": "c:plates/netherite"
+  }
+}

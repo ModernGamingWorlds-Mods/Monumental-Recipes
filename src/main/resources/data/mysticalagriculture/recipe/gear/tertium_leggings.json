@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mysticalagriculture:prudentium_leggings"
+  },
+  "addition": {
+    "item": "mysticalagriculture:tertium_gemstone"
+  },
+  "result": {
+    "id": "mysticalagriculture:tertium_leggings"
+  },
+  "template": {
+    "item": "mysticalagriculture:prudentium_essence"
+  }
+}

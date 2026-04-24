@@ -1,0 +1,13 @@
+{
+  "values": [
+    "create:mechanical_piston",
+    "create:sticky_mechanical_piston",
+    "minecraft:sticky_piston",
+    "minecraft:piston",
+    "multipiston:multipistonblock",
+    "securitycraft:reinforced_piston",
+    "securitycraft:reinforced_sticky_piston",
+    "essentials:multi_piston",
+    "essentials:multi_piston_sticky"
+  ]
+}

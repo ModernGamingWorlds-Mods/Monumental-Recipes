@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "t": {
+      "item": "mysticalagriculture:ghast_essence"
+    },
+    "x": {
+      "tag": "c:nether_stars"
+    },
+    "w": {
+      "item": "notenoughwands:wand_core"
+    },
+    "d": {
+      "tag": "c:gems/mana_diamond"
+    }
+  },
+  "pattern": [
+    " x ",
+    "twt",
+    " d "
+  ],
+  "result": {
+    "id": "notenoughwands:advanced_wand_core"
+  }
+}

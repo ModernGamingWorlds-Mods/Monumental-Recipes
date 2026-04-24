@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:chainmail_boots"
+  },
+  "addition": {
+    "tag": "monumental:cloths"
+  },
+  "result": {
+    "id": "forbidden_arcanus:mortem_boots"
+  },
+  "template": {
+    "tag": "c:chains"
+  }
+}

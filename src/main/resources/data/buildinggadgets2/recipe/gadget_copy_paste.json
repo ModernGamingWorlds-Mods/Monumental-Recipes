@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "c:plates/iron"
+    },
+    "B": {
+      "item": "immersiveengineering:insulating_glass"
+    },
+    "C": {
+      "tag": "c:gems/lapis"
+    },
+    "D": {
+      "item": "mysticalagriculture:emerald_essence"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "AEA",
+    "DBD",
+    "ACA"
+  ],
+  "result": {
+    "id": "buildinggadgets2:gadget_copy_paste"
+  }
+}

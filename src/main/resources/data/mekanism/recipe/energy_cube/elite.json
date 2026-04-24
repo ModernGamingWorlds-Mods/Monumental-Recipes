@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "mekanism:advanced_energy_cube"
+    },
+    "B": {
+      "item": "mekanism:energy_tablet"
+    },
+    "C": {
+      "tag": "c:plates/electrum"
+    },
+    "D": {
+      "tag": "mekanism:alloys/reinforced"
+    }
+  },
+  "pattern": [
+    "DBD",
+    "CAC",
+    "DBD"
+  ],
+  "result": {
+    "id": "mekanism:elite_energy_cube"
+  }
+}

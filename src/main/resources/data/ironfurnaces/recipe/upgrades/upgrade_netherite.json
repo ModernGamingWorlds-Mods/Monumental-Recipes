@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:magma_block"
+    },
+    "X": {
+      "tag": "c:obsidians"
+    },
+    "S": {
+      "tag": "minecraft:soul_fire_base_blocks"
+    },
+    "N": {
+      "tag": "c:plates/netherite"
+    }
+  },
+  "pattern": [
+    "N#N",
+    "#X#",
+    "NSN"
+  ],
+  "result": {
+    "id": "ironfurnaces:upgrade_netherite"
+  }
+}

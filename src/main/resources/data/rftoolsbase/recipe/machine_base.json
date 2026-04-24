@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "p": {
+      "tag": "c:gears/electrum"
+    },
+    "q": {
+      "tag": "pneumaticcraft:reinforced_stone"
+    },
+    "r": {
+      "tag": "c:plates/electrum"
+    }
+  },
+  "pattern": [
+    " qqq ",
+    " rpr ",
+    " qqq ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolsbase:machine_base"
+  }
+}

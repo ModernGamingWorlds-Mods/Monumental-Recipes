@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:diamond_axe"
+  },
+  "addition": {
+    "item": "naturesaura:sky_ingot"
+  },
+  "result": {
+    "id": "naturesaura:sky_axe"
+  },
+  "template": {
+    "tag": "c:plates/diamond"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mysticalagriculture:tertium_hoe"
+  },
+  "addition": {
+    "item": "mysticalagriculture:imperium_gemstone"
+  },
+  "result": {
+    "id": "mysticalagriculture:imperium_hoe"
+  },
+  "template": {
+    "item": "mysticalagriculture:tertium_essence"
+  }
+}

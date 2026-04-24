@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:crossbow"
+  },
+  "addition": {
+    "item": "mysticalagriculture:inferium_block"
+  },
+  "result": {
+    "id": "mysticalagriculture:inferium_crossbow"
+  },
+  "template": {
+    "tag": "c:plates/diamond"
+  }
+}

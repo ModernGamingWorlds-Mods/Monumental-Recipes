@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "A": {
+      "tag": "c:plates/diamond"
+    },
+    "B": {
+      "item": "ironfurnaces:gold_furnace"
+    },
+    "C": {
+      "tag": "c:storage_blocks/diamond"
+    }
+  },
+  "pattern": [
+    " AAA ",
+    " CBC ",
+    " AAA ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ironfurnaces:diamond_furnace"
+  }
+}

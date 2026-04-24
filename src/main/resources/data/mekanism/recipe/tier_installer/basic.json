@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "ae2:smooth_sky_stone_block"
+    },
+    "B": {
+      "tag": "c:circuits/basic"
+    },
+    "C": {
+      "item": "pneumaticcraft:compressed_iron_gear"
+    },
+    "D": {
+      "item": "extendedcrafting:redstone_component"
+    }
+  },
+  "pattern": [
+    "DBD",
+    "CAC",
+    "DBD"
+  ],
+  "result": {
+    "id": "mekanism:basic_tier_installer"
+  }
+}

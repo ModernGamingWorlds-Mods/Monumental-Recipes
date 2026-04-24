@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "tag": "c:ingots/enderium"
+    },
+    {
+      "tag": "c:ingots/enderium"
+    },
+    {
+      "tag": "c:ingots/enderium"
+    },
+    {
+      "tag": "c:ingots/enderium"
+    },
+    {
+      "item": "extendedcrafting:ender_star"
+    }
+  ],
+  "results": [
+    {
+      "id": "extendedcrafting:enhanced_ender_ingot"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "immersiveengineering:wirecoil_electrum"
+    },
+    {
+      "item": "immersiveengineering:wirecoil_redstone"
+    },
+    {
+      "tag": "c:plastics"
+    },
+    {
+      "item": "immersiveengineering:circuit_board"
+    }
+  ],
+  "pressure": 4,
+  "results": [
+    {
+      "id": "pneumaticcraft:empty_pcb",
+      "count": 2
+    }
+  ]
+}

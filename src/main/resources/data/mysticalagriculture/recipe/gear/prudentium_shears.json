@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mysticalagriculture:inferium_shears"
+  },
+  "addition": {
+    "item": "mysticalagriculture:prudentium_gemstone"
+  },
+  "result": {
+    "id": "mysticalagriculture:prudentium_shears"
+  },
+  "template": {
+    "item": "mysticalagriculture:inferium_essence"
+  }
+}

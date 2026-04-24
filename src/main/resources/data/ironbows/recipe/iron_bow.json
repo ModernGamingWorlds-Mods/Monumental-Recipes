@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:bow"
+  },
+  "addition": {
+    "tag": "c:ingots/iron"
+  },
+  "result": {
+    "id": "ironbows:iron_bow"
+  },
+  "template": {
+    "tag": "c:strings"
+  }
+}

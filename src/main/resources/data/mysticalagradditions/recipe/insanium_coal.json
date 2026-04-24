@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mysticalagradditions:supremium_coal"
+    }
+  ],
+  "results": [
+    {
+      "id": "mysticalagradditions:insanium_coal",
+      "count": 2
+    }
+  ]
+}

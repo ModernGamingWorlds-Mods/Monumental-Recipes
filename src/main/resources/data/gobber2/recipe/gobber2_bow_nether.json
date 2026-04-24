@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "tag": "c:strings"
+  },
+  "addition": {
+    "tag": "c:ingots/gobber_nether"
+  },
+  "result": {
+    "id": "gobber2:gobber2_bow_nether"
+  },
+  "template": {
+    "tag": "c:plates/netherite"
+  }
+}

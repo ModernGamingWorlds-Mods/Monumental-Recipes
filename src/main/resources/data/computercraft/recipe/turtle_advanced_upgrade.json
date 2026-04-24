@@ -1,0 +1,22 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:plates/electrum"
+    },
+    "B": {
+      "item": "computercraft:turtle_normal"
+    },
+    "C": {
+      "tag": "c:gears/electrum"
+    }
+  },
+  "result": {
+    "id": "computercraft:turtle_advanced"
+  }
+}

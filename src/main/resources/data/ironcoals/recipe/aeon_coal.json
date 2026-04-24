@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "A": {
+      "item": "ironcoals:emerald_coal"
+    },
+    "B": {
+      "tag": "c:storage_blocks/netherite"
+    },
+    "C": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "D": {
+      "tag": "c:nether_stars"
+    }
+  },
+  "pattern": [
+    " ACA ",
+    " DBD ",
+    " ACA ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ironcoals:aeon_coal"
+  }
+}

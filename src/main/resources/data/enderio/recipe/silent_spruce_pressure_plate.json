@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:spruce_pressure_plate"
+    },
+    "B": {
+      "tag": "monumental:tools/hammers"
+    },
+    "C": {
+      "tag": "c:wools"
+    }
+  },
+  "pattern": [
+    " A ",
+    " C ",
+    " B "
+  ],
+  "result": {
+    "id": "enderio:silent_spruce_pressure_plate"
+  }
+}

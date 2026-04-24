@@ -1,0 +1,29 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "extendedcrafting:redstone_component"
+    },
+    {
+      "item": "extendedcrafting:redstone_component"
+    },
+    {
+      "item": "extendedcrafting:redstone_component"
+    },
+    {
+      "item": "extendedcrafting:redstone_component"
+    },
+    {
+      "item": "extendedcrafting:black_iron_ingot"
+    },
+    {
+      "item": "extendedcrafting:black_iron_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "extendedcrafting:redstone_catalyst"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "BRB",
+    "III"
+  ],
+  "key": {
+    "B": {
+      "tag": "c:storage_blocks/redstone"
+    },
+    "I": {
+      "tag": "c:ingots/compressed_iron"
+    },
+    "R": {
+      "item": "extendedcrafting:redstone_component"
+    }
+  },
+  "result": {
+    "id": "pipez:energy_pipe",
+    "count": 16
+  }
+}

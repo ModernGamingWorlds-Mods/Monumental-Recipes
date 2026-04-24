@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "A": {
+      "tag": "c:plates/silver"
+    },
+    "B": {
+      "item": "ironfurnaces:copper_furnace"
+    }
+  },
+  "pattern": [
+    " AAA ",
+    " ABA ",
+    " AAA ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ironfurnaces:silver_furnace"
+  }
+}

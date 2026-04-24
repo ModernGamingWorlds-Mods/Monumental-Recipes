@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "gobber2:gobber2_sword_end"
+  },
+  "addition": {
+    "item": "gobber2:gobber2_ring_traveler"
+  },
+  "result": {
+    "id": "gobber2:gobber2_sword_traveler"
+  },
+  "template": {
+    "tag": "c:plates/netherite"
+  }
+}
