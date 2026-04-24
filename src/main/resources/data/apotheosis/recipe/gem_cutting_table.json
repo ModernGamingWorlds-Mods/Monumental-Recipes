@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "apotheosis:module",
+      "module": "adventure"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "apotheosis"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    }
+  ],
+  "group": "what",
+  "pattern": [
+    "TST",
+    "PGP",
+    "P P"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:smooth_stone"
+    },
+    "S": {
+      "item": "thermal:saw_blade"
+    },
+    "P": {
+      "tag": "planks"
+    },
+    "G": {
+      "item": "apotheosis:gem_dust"
+    }
+  },
+  "result": {
+    "id": "apotheosis:gem_cutting_table",
+    "count": 1
+  }
+}

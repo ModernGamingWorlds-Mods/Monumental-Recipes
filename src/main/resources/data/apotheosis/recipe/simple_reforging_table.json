@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "apotheosis:module",
+      "module": "adventure"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "apotheosis"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "villagersplus"
+    }
+  ],
+  "group": "something",
+  "pattern": [
+    " N ",
+    "GEG",
+    "BBB"
+  ],
+  "key": {
+    "N": {
+      "tag": "c:ingots/compressed_iron"
+    },
+    "G": {
+      "item": "apotheosis:gem_dust"
+    },
+    "E": {
+      "item": "villagersplus:occultist_table"
+    },
+    "B": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "result": {
+    "id": "apotheosis:simple_reforging_table",
+    "count": 1
+  }
+}

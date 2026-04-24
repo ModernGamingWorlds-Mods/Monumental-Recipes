@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "aquaculture:diamond_hook"
+  },
+  "addition": {
+    "tag": "c:nether_stars"
+  },
+  "result": {
+    "id": "aquaculture:nether_star_hook"
+  },
+  "template": {
+    "tag": "c:plates/diamond"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aquaculture"
+    }
+  ]
+}

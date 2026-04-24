@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "aquaculture:wooden_fillet_knife"
+  },
+  "addition": {
+    "tag": "c:cobblestones"
+  },
+  "result": {
+    "id": "aquaculture:stone_fillet_knife"
+  },
+  "template": {
+    "tag": "monumental_recipes:wooden_plates"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aquaculture"
+    }
+  ]
+}

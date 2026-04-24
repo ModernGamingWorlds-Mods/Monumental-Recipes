@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "aquaculture:iron_hook"
+  },
+  "addition": {
+    "tag": "c:feathers"
+  },
+  "result": {
+    "id": "aquaculture:light_hook"
+  },
+  "template": {
+    "tag": "c:plates/iron"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aquaculture"
+    }
+  ]
+}
