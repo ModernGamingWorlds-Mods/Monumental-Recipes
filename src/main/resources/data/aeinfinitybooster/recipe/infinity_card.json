@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "tag": "monumental_recipes:eyes"
+    },
+    "b": {
+      "tag": "c:nether_stars"
+    },
+    "c": {
+      "item": "ae2:wireless_booster"
+    },
+    "d": {
+      "tag": "c:ingots/netherite"
+    }
+  },
+  "pattern": [
+    "aca",
+    "cbc",
+    "ddd"
+  ],
+  "result": {
+    "id": "aeinfinitybooster:infinity_card"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aeinfinitybooster"
+    }
+  ]
+}

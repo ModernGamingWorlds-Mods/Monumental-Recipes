@@ -1,0 +1,39 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "item": "alltheores:platinum_gear"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "item": "thermal:press_gear_die"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "item": "create:andesite_alloy"
+    }
+  ],
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "bottom": {
+      "item": "create:andesite_alloy"
+    },
+    "middle": {
+      "item": "thermal:press_gear_die"
+    },
+    "top": {
+      "tag": "c:ingots/platinum"
+    }
+  },
+  "mode": "press",
+  "result": {
+    "id": "alltheores:platinum_gear"
+  }
+}

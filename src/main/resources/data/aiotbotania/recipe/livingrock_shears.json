@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:shears"
+  },
+  "addition": {
+    "item": "botania:livingrock"
+  },
+  "result": {
+    "id": "aiotbotania:livingrock_shears"
+  },
+  "template": {
+    "tag": "c:stones"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aiotbotania"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}
