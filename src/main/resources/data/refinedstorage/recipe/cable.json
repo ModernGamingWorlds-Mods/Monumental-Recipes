@@ -23,7 +23,7 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "undergarden"
+      "modid": "refinedstorage"
     },
     {
       "type": "neoforge:mod_loaded",

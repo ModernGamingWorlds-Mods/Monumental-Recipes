@@ -2,27 +2,30 @@
   "type": "pneumaticcraft:pressure_chamber",
   "inputs": [
     {
+      "count": 1,
       "item": "refinedstorage:basic_processor"
     },
     {
-      "tag": "forge:dusts/glowstone"
+      "count": 1,
+      "tag": "c:dusts/glowstone"
     }
   ],
   "pressure": 4.0,
   "results": [
     {
-      "item": "refinedstorage:construction_core",
-      "count": 1
+      "count": 1,
+      "id": "refinedstorage:construction_core"
     }
-  ],
+  ]
+},
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "undergarden"
+      "modid": "refinedstorage"
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
+      "modid": "pneumaticcraft"
     }
   ]
 }

@@ -20,12 +20,16 @@
     "ERE"
   ],
   "result": {
-    "item": "refinedstorage:4096k_fluid_storage_block"
+    "id": "refinedstorage:4096k_fluid_storage_block"
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "refinedstorage"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
     }
   ]
 }
