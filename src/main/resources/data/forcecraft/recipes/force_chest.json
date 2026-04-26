@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "base": {
-    "item": "minecraft:iron_chestplate"
+    "item": "minecraft:diamond_chestplate"
   },
   "addition": {
     "item": "forcecraft:force_stick"
@@ -10,7 +10,7 @@
     "item": "forcecraft:force_chest"
   },
   "template": {
-    "tag": "forge:plates/iron"
+    "tag": "forge:plates/diamond"
   },
   "conditions": [
     {

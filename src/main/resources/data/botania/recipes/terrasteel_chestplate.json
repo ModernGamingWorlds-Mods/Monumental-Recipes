@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "base": {
-    "item": "minecraft:iron_chestplate"
+    "item": "minecraft:netherite_chestplate"
   },
   "addition": {
     "tag": "forge:ingots/terrasteel"
@@ -10,7 +10,7 @@
     "item": "botania:terrasteel_chestplate"
   },
   "template": {
-    "tag": "forge:nuggets/terrasteel"
+    "tag": "forge:plates/netherite"
   },
   "conditions": [
     {

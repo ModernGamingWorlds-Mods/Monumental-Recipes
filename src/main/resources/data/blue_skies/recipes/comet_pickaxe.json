@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "base": {
-    "item": "minecraft:wooden_axe"
+    "item": "minecraft:wooden_pickaxe"
   },
   "addition": {
     "item": "blue_skies:comet_planks"

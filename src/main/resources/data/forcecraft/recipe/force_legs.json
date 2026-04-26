@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "base": {
-    "item": "minecraft:chainmail_leggings"
+    "item": "minecraft:diamond_leggings"
   },
   "addition": {
     "item": "forcecraft:force_stick"
@@ -10,6 +10,6 @@
     "id": "forcecraft:force_legs"
   },
   "template": {
-    "tag": "monumental:chains"
+    "tag": "c:plates/diamond"
   }
 }
