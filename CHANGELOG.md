@@ -27,3 +27,8 @@
 
 ## Version 1.0.10
 - Updated/Tweaked Ars Nouveau recipes
+
+## Version 1.0.11
+- Misc recipe fixes
+- Updated 1.21.1 NeoForge version to it's latest version
+- Added Ice and Fire 1.21.1 custom loot tables
