@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
   "type": "ars_nouveau:enchanting_apparatus",
   "keepNbtOfReagent": false,
   "output": {
@@ -6,16 +12,16 @@
   },
   "pedestalItems": [
     {
-      "tag": "monumental_recipes:hopper"
+      "tag": "monumental_recipes:hoppers"
     },
     {
-      "tag": "monumental_recipes:hopper"
+      "tag": "monumental_recipes:hoppers"
     },
     {
-      "tag": "monumental_recipes:hopper"
+      "tag": "monumental_recipes:hoppers"
     },
     {
-      "tag": "monumental_recipes:hopper"
+      "tag": "monumental_recipes:hoppers"
     }
   ],
   "reagent": [
@@ -24,11 +30,4 @@
     }
   ],
   "sourceCost": 0
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_nouveau"
-    }
-  ]
 }

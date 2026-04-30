@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_artifice"
+    }
+  ],
   "type": "ars_nouveau:glyph",
   "count": 1,
   "exp": 27,
@@ -18,11 +24,4 @@
     }
   ],
   "output": "ars_artifice:glyph_falling"
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_artifice"
-    }
-  ]
 }

@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
   "type": "ars_nouveau:enchantment",
   "enchantment": "minecraft:punch",
   "level": 2,
@@ -30,11 +36,4 @@
     }
   ],
   "sourceCost": 4000
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_nouveau"
-    }
-  ]
 }

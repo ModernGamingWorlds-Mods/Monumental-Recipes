@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
   "type": "ars_nouveau:enchantment",
   "enchantment": "minecraft:quick_charge",
   "level": 3,
@@ -35,11 +41,4 @@
     }
   ],
   "sourceCost": 6000
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_nouveau"
-    }
-  ]
 }

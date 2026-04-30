@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_additions"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
@@ -24,15 +30,4 @@
     "id": "ars_additions:handy_haversack"
   },
   "show_notification": true
-},
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "ars_additions"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "chipped"
-    }
-  ]
 }

@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ],
   "type": "ars_nouveau:imbuement",
   "count": 1,
   "input": {
@@ -28,11 +34,4 @@
     }
   ],
   "source": 5000
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_elemental"
-    }
-  ]
 }

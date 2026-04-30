@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ],
   "type": "ars_nouveau:enchanting_apparatus",
   "keepNbtOfReagent": false,
   "output": {
@@ -27,11 +33,4 @@
     }
   ],
   "sourceCost": 0
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_elemental"
-    }
-  ]
 }

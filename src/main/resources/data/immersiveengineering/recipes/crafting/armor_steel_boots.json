@@ -7,7 +7,7 @@
     "tag": "forge:plates/steel"
   },
   "result": {
-    "item": "immersiveengineering:armor_faraday_boots"
+    "item": "immersiveengineering:armor_steel_boots"
   },
   "template": {
     "tag": "forge:plates/iron"

@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ],
   "type": "ars_nouveau:glyph",
   "count": 1,
   "exp": 27,
@@ -15,11 +21,4 @@
     }
   ],
   "output": "ars_elemental:glyph_undead_filter"
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_elemental"
-    }
-  ]
 }

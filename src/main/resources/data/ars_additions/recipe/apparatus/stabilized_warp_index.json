@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_additions"
+    }
+  ],
   "type": "ars_nouveau:enchanting_apparatus",
   "keepNbtOfReagent": false,
   "output": {
@@ -21,11 +27,4 @@
     }
   ],
   "sourceCost": 0
-},
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "ars_additions"
-    }
-  ]
 }

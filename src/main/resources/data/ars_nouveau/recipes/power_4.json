@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
   "type": "ars_nouveau:enchantment",
   "enchantment": "minecraft:power",
   "level": 4,
@@ -45,11 +51,4 @@
     }
   ],
   "sourceCost": 6500
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_nouveau"
-    }
-  ]
 }

@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
@@ -18,11 +24,4 @@
     "item": "ars_nouveau:orange_sbed"
   },
   "show_notification": true
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_nouveau"
-    }
-  ]
 }

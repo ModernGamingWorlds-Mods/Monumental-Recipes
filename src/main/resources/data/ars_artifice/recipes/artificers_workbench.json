@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_artifice"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
@@ -24,11 +30,4 @@
     "item": "ars_artifice:artificers_workbench"
   },
   "show_notification": true
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_artifice"
-    }
-  ]
 }

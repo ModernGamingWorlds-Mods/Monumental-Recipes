@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
@@ -21,11 +27,4 @@
     "item": "ars_elemental:advanced_prism"
   },
   "show_notification": true
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_elemental"
-    }
-  ]
 }

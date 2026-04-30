@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ],
   "type": "ars_elemental:armor_upgrade",
   "output": {
     "item": "ars_elemental:fire_leggings"

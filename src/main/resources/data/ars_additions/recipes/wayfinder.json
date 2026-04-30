@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_additions"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
@@ -18,11 +24,4 @@
     "item": "ars_additions:wayfinder"
   },
   "show_notification": true
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_additions"
-    }
-  ]
 }

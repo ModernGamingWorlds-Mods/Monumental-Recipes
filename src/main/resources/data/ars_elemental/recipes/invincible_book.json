@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ],
   "type": "ars_elemental:netherite_upgrade",
   "keepNbtOfReagent": true,
   "pedestalItems": [
@@ -34,11 +40,4 @@
     }
   ],
   "sourceCost" : 2000
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_elemental"
-    }
-  ]
 }

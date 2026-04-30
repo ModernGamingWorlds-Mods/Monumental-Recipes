@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ],
   "type": "ars_elemental:armor_upgrade",
   "output": {
     "item": "ars_elemental:earth_robes"
@@ -32,11 +38,4 @@
   ],
   "sourceCost": 7000,
   "tier": 3
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_elemental"
-    }
-  ]
 }

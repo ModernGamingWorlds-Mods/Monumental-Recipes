@@ -8,29 +8,26 @@
       "type": "neoforge:mod_loaded",
       "modid": "mysticalagriculture"
     }
-  ]
-}
-      "recipe": {
-        "type": "minecraft:crafting_shapeless",
-        "category": "misc",
-        "ingredients": [
-          {
-            "item": "ars_nouveau:blue_archwood_log"
-          },
-          {
-            "item": "c:nether_stars"
-          },
-          {
-            "item": "ars_nouveau:source_gem"
-          },
-          {
-            "item": "mysticalagriculture:earth_essence"
-          }
-        ],
-        "result": {
-          "id": "ars_additions:ritual_chunk_loading"
-        }
+  ],
+  "recipe": {
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      {
+        "item": "ars_nouveau:blue_archwood_log"
+      },
+      {
+        "item": "c:nether_stars"
+      },
+      {
+        "item": "ars_nouveau:source_gem"
+      },
+      {
+        "item": "mysticalagriculture:earth_essence"
       }
+    ],
+    "result": {
+      "id": "ars_additions:ritual_chunk_loading"
     }
-  ]
+  }
 }

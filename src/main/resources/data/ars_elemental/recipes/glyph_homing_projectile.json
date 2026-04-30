@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ],
   "type": "ars_nouveau:glyph",
   "count": 1,
   "exp": 160,
@@ -25,11 +31,4 @@
     }
   ],
   "output": "ars_elemental:glyph_homing_projectile"
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_elemental"
-    }
-  ]
 }
