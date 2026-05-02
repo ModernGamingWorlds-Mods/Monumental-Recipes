@@ -38,3 +38,6 @@
 
 ## Version 1.0.13
 - Merged Pull Request #3 by Cyn to fix More recipe conditions
+
+## Version 1.0.14
+- Merged Pull Request #4 by Cyn to fix More recipe issues
