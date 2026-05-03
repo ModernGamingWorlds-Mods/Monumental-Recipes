@@ -10,6 +10,6 @@
     "id": "notenoughwands:swapping_wand"
   },
   "template": {
-    "tag": "monumental:tools/hammers"
+    "tag": "monumental_recipes:tools/hammers"
   }
 }

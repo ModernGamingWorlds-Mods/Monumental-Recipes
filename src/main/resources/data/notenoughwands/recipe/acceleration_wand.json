@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "base": {
-    "tag": "monumental:clocks"
+    "tag": "monumental_recipes:clocks"
   },
   "addition": {
     "item": "notenoughwands:advanced_wand_core"

@@ -10,7 +10,7 @@
       "item": "minecraft:redstone_torch"
     },
     "P": {
-      "tag": "monumental:piston"
+      "tag": "monumental_recipespiston"
     },
     "_": {
       "tag": "minecraft:wooden_slabs"

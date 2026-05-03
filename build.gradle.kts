@@ -78,6 +78,16 @@ tasks.processResources {
         exclude("**/data/*/loot_table/**")
     }
 
+    // NeoForge 1.21+ uses "loot_table/" (singular), older versions use "loot_tables/" (plural)
+    if (stonecutter.eval(minecraft, ">=1.21")) {
+        exclude("**/data/forbidden_arcanus/forbidden_arcanus/**")
+    }
+
+    // NeoForge 1.21+ uses "loot_table/" (singular), older versions use "loot_tables/" (plural)
+    if (stonecutter.eval(minecraft, ">=1.21")) {
+        exclude("**/data/immersiveengineering/worldgen/**")
+    }
+
     // Exclude Farming For Blockheads market support from 1.19.2 and below
     if (stonecutter.eval(minecraft, "<1.20")) {
         exclude("**/data/farmingforblockheads/farmingforblockheads_compat/**")

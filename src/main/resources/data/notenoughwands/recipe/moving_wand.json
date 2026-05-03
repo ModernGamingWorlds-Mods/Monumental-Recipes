@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "base": {
-    "tag": "monumental:conveyors"
+    "tag": "monumental_recipes:conveyors"
   },
   "addition": {
     "item": "notenoughwands:wand_core"

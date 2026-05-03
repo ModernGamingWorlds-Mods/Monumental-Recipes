@@ -8,7 +8,7 @@
       "tag": "c:plates/zinc"
     },
     "S": {
-      "tag": "monumental:tools/hammers"
+      "tag": "monumental_recipes:tools/hammers"
     }
   },
   "pattern": [

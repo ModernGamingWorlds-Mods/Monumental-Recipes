@@ -4,7 +4,7 @@
     "item": "minecraft:chainmail_boots"
   },
   "addition": {
-    "tag": "monumental:cloths"
+    "tag": "monumental_recipes:cloths"
   },
   "result": {
     "id": "forbidden_arcanus:mortem_boots"

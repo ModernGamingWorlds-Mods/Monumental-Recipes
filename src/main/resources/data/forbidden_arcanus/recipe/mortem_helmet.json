@@ -4,7 +4,7 @@
     "item": "minecraft:chainmail_helmet"
   },
   "addition": {
-    "tag": "monumental:cloths"
+    "tag": "monumental_recipes:cloths"
   },
   "result": {
     "id": "forbidden_arcanus:mortem_helmet"

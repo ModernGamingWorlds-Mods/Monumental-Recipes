@@ -16,7 +16,7 @@
       "item": "extendedcrafting:redstone_component"
     },
     "X": {
-      "tag": "monumental:piston"
+      "tag": "monumental_recipes:piston"
     },
     "S": {
       "item": "mekanism:basic_smelting_factory"
