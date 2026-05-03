@@ -23,20 +23,19 @@
       "tag": "forge:gems/diamond"
     },
     {
-      "item": "forge:storage_blocks/quartz"
+      "tag": "forge:storage_blocks/quartz"
     },
     {
-      "item": "forge:storage_blocks/quartz"
+      "tag": "forge:storage_blocks/quartz"
     },
     {
-      "tag": "forge:rods/blaze_rod"
+      "tag": "forge:rods/blaze"
     },
     {
-      "tag": "forge:rods/blaze_rod"
+      "tag": "forge:rods/blaze"
     }
   ],
-  "result":
-  {
+  "result": {
     "item": "ars_nouveau:apprentice_spell_book"
   }
 }
