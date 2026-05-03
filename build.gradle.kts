@@ -87,3 +87,15 @@ tasks.processResources {
         exclude("**/data/create/worldgen/**")
     }
 }
+
+// Ensure vanilla assets are downloaded before runDatagen executes.
+// Forge data generators read the assets directory (lang files, model templates, etc.),
+// and on fresh CI runners that directory doesn't exist until downloadAssets has run.
+afterEvaluate {
+    tasks.matching { it.name == "runDatagen" }.configureEach {
+        val downloadAssets = tasks.findByName("downloadAssets")
+        if (downloadAssets != null) {
+            dependsOn(downloadAssets)
+        }
+    }
+}
