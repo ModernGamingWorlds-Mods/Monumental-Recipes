@@ -44,3 +44,8 @@
 
 ## Version 1.0.15
 - Fixed Nature's Aura leaves compatibility with Separated Leaves mod
+- Fixed misc code issues within the mod
+
+## Version 1.0.16
+- (1.19.2) Fixed missing smithing table recipes for some mods
+- Fixed more broken conditions
