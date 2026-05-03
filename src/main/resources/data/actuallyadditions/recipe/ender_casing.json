@@ -20,7 +20,7 @@
   "result": {
     "id": "actuallyadditions:ender_casing"
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "actuallyadditions"

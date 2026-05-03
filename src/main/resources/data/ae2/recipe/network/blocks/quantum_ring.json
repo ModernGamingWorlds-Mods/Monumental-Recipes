@@ -25,7 +25,7 @@
   "result": {
     "id": "ae2:quantum_ring"
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "ae2"

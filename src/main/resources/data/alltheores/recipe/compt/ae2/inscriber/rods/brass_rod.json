@@ -1,19 +1,19 @@
 {
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "ae2"
     },
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "alltheores:brass_rod"
     },
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "immersiveengineering:mold_rod"
     },
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "create:andesite_alloy"
     }
   ],

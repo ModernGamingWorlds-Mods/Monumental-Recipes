@@ -1,1 +1,27 @@
-{"type":"immersiveengineering:metal_press","conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"c:storage_blocks/clay"}},{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:storage_blocks/clay"}}],"energy":2400,"input":{"tag":"c:storage_blocks/clay"},"mold":"immersiveengineering:mold_plate","result":{"id":"kubejs:clay_plate"}}
+{
+  "type": "immersiveengineering:metal_press",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:storage_blocks/clay"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:storage_blocks/clay"
+      }
+    }
+  ],
+  "energy": 2400,
+  "input": {
+    "tag": "c:storage_blocks/clay"
+  },
+  "mold": "immersiveengineering:mold_plate",
+  "result": {
+    "id": "kubejs:clay_plate"
+  }
+}

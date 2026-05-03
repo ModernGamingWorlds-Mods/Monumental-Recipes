@@ -113,9 +113,9 @@
     }
   ],
   "random_sequence": "twilightforest:chests/graveyard",
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "twilightforest"
     }
   ]

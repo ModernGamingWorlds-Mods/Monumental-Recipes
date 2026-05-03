@@ -23,7 +23,7 @@
     "count": 1,
     "id": "ae2:cell_component_1k"
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "ae2"

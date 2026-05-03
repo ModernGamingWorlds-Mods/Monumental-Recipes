@@ -22,7 +22,7 @@
   "result": {
     "id": "ae2:crafting_unit"
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "ae2"

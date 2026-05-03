@@ -16,7 +16,7 @@
   "result": {
     "id": "ae2:crank"
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "ae2"

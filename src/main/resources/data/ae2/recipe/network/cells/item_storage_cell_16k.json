@@ -22,7 +22,7 @@
   "result": {
     "id": "ae2:item_storage_cell_16k"
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "ae2"

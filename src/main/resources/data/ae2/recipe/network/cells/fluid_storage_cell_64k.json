@@ -23,7 +23,7 @@
     "count": 1,
     "id": "ae2:fluid_storage_cell_64k"
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "ae2"

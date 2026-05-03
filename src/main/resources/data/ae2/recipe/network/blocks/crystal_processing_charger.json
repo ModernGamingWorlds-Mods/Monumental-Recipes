@@ -26,7 +26,7 @@
     "count": 1,
     "id": "ae2:charger"
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "ae2"

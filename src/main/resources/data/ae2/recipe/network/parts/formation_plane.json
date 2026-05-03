@@ -19,7 +19,7 @@
   "result": {
     "id": "ae2:formation_plane"
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "ae2"

@@ -80,12 +80,46 @@ tasks.processResources {
 
     // NeoForge 1.21+ uses "loot_table/" (singular), older versions use "loot_tables/" (plural)
     if (stonecutter.eval(minecraft, ">=1.21")) {
-        exclude("**/data/forbidden_arcanus/forbidden_arcanus/**")
+        exclude("**/data/*/tags/items")
+    } else {
+        exclude("**/data/*/tags/item")
     }
 
     // NeoForge 1.21+ uses "loot_table/" (singular), older versions use "loot_tables/" (plural)
     if (stonecutter.eval(minecraft, ">=1.21")) {
+        exclude("**/data/*/tags/blocks")
+    } else {
+        exclude("**/data/*/tags/block")
+    }
+
+    // NeoForge 1.21+ uses "loot_table/" (singular), older versions use "loot_tables/" (plural)
+    if (stonecutter.eval(minecraft, ">=1.21")) {
+        exclude("**/data/forbidden_arcanus/forbidden_arcanus/**")
+    }
+
+    // NeoForge 1.21+ immersive current worldgen crashes upon load
+    if (stonecutter.eval(minecraft, ">=1.21")) {
         exclude("**/data/immersiveengineering/worldgen/**")
+    }
+
+    // NeoForge 1.21+ thermal current worldgen crashes upon load
+    if (stonecutter.eval(minecraft, ">=1.21")) {
+        exclude("**/data/thermal/worldgen/**")
+    }
+
+    // NeoForge 1.21+ eidolon current worldgen crashes upon load
+    if (stonecutter.eval(minecraft, ">=1.21")) {
+        exclude("**/data/eidolon/worldgen/**")
+    }
+
+    // NeoForge 1.21+ crashes upon including this
+    if (stonecutter.eval(minecraft, ">=1.21")) {
+        exclude("**/data/allthemodium/**")
+    }
+
+    // NeoForge 1.21+ mod does not exist
+    if (stonecutter.eval(minecraft, ">=1.21")) {
+        exclude("**/data/ad_astra/**")
     }
 
     // Exclude Farming For Blockheads market support from 1.19.2 and below

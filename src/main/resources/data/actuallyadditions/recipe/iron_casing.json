@@ -21,7 +21,7 @@
     "id": "actuallyadditions:iron_casing"
   },
   "show_notification": true,
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge",
       "modid": "actuallyadditions"

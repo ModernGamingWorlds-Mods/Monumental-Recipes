@@ -23,7 +23,7 @@
     "count": 1,
     "item": "ae2:vibration_chamber"
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "ae2"

@@ -29,9 +29,9 @@
     "count": 1,
     "item": "thermal:dynamo_numismatic"
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "thermal"
     }
   ]

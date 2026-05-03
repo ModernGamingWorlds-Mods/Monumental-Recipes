@@ -18,7 +18,7 @@
     "id": "actuallyadditions:basic_coil"
   },
   "show_notification": true,
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "actuallyadditions"

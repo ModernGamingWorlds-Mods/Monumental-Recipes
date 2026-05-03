@@ -1,1 +1,27 @@
-{"type":"immersiveengineering:metal_press","conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"c:ingots/compressed_iron"}},{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"c:ingots/compressed_iron"}}],"energy":2400,"input":{"tag":"c:ingots/compressed_iron"},"mold":"immersiveengineering:mold_plate","result":{"id":"kubejs:compressed_iron_plate"}}
+{
+  "type": "immersiveengineering:metal_press",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/compressed_iron"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/compressed_iron"
+      }
+    }
+  ],
+  "energy": 2400,
+  "input": {
+    "tag": "c:ingots/compressed_iron"
+  },
+  "mold": "immersiveengineering:mold_plate",
+  "result": {
+    "id": "kubejs:compressed_iron_plate"
+  }
+}

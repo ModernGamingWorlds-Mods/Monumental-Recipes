@@ -299,9 +299,9 @@
     }
   ],
   "random_sequence": "twilightforest:chests/labyrinth_vault",
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "twilightforest"
     }
   ]

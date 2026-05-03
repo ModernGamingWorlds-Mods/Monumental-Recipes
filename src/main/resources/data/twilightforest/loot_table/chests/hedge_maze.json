@@ -274,9 +274,9 @@
     }
   ],
   "random_sequence": "twilightforest:chests/hedge_maze",
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "twilightforest"
     }
   ]

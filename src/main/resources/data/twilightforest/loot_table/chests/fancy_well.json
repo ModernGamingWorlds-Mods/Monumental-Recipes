@@ -232,9 +232,9 @@
     }
   ],
   "random_sequence": "twilightforest:chests/fancy_well",
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "twilightforest"
     }
   ]

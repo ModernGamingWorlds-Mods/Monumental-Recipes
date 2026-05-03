@@ -1,15 +1,15 @@
 {
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "extendedcrafting"
     },
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "mysticalagradditions:creative_essence"
     },
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "mysticalagradditions:insanium_essence"
     }
   ],

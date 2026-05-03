@@ -1,14 +1,16 @@
 {
-    "type": "actuallyadditions:laser",
-    "energy": 80,
-    "ingredient": {
-        "tag": "c:ingots/compressed_iron"
-    },
-    "result": {
-        "id": "actuallyadditions:enori_crystal"
-    },
-    "conditions": [{
-        "type": "neoforge:mod_loaded",
-        "modid": "actuallyadditions"
-    }]
+  "type": "actuallyadditions:laser",
+  "energy": 80,
+  "ingredient": {
+    "tag": "c:ingots/compressed_iron"
+  },
+  "result": {
+    "id": "actuallyadditions:enori_crystal"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "actuallyadditions"
+    }
+  ]
 }

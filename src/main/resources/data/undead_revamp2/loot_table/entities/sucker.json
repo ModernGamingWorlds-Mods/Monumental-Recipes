@@ -50,9 +50,9 @@
     }
   ],
   "random_sequence": "undead_revamp2:entities/sucker",
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "undead_revamp2"
     }
   ]

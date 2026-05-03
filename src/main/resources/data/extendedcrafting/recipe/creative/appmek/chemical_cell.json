@@ -1,15 +1,15 @@
 {
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "extendedcrafting"
     },
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "appmek:creative_chemical_cell"
     },
     {
-      "type": "forge:item_exists",
+      "type": "neoforge:item_exists",
       "item": "appmek:chemical_storage_cell_256k"
     }
   ],

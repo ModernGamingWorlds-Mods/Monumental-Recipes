@@ -12,9 +12,9 @@
   "template": {
     "tag": "c:plates/netherite"
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "undead_revamp2"
     }
   ]
