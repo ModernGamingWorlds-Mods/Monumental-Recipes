@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:tertium_ingot"
+    },
+    {
+      "item": "mysticalagriculture:imperium_essence"
+    },
+    {
+      "item": "mysticalagriculture:imperium_essence"
+    }
+  ],
+  "results": [
+    {
+      "id": "mysticalagriculture:imperium_ingot"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

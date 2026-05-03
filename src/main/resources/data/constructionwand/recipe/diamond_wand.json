@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "constructionwand:iron_wand"
+  },
+  "addition": {
+    "item": "notenoughwands:wand_core"
+  },
+  "result": {
+    "id": "constructionwand:diamond_wand"
+  },
+  "template": {
+    "tag": "c:plates/gold"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "notenoughwands"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "constructionwand"
+    }
+  ]
+}

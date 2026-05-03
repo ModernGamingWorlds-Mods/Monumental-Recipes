@@ -1,0 +1,32 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "IRI",
+    "RSR",
+    "SRS"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/compressed_iron"
+    },
+    "R": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "S": {
+      "item": "compressium:stone_2"
+    }
+  },
+  "result": {
+    "id": "mysticalagriculture:machine_frame"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "tag": "quark:stone_tool_materials"
+  },
+  "addition": {
+    "item": "notenoughwands:wand_core"
+  },
+  "result": {
+    "id": "constructionwand:stone_wand"
+  },
+  "template": {
+    "tag": "c:stones"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "notenoughwands"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "constructionwand"
+    }
+  ]
+}

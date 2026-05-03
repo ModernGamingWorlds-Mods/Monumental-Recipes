@@ -1,0 +1,37 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "pattern": [
+    "YXY",
+    "ZWZ",
+    "YXY"
+  ],
+  "key": {
+    "X": {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    "Y": {
+      "item": "mysticalagriculture:prosperity_shard"
+    },
+    "Z": {
+      "item": "mysticalagriculture:imperium_farmland"
+    },
+    "W": {
+      "item": "mysticalagriculture:prosperity_block"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:supremium_farmland"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

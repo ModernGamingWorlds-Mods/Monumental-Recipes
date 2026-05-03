@@ -1,0 +1,29 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "GGG",
+    "EGE",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "botania:livingrock"
+    },
+    "E": {
+      "item": "mysticalagriculture:soulium_dust"
+    }
+  },
+  "result": {
+    "id": "mysticalagriculture:tinkering_table"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}
