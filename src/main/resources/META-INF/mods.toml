@@ -5,7 +5,7 @@ license = "MIT"
 
 [[mods]]
 modId = "monumental_recipes"
-version = "1.0.14"
+version = "1.0.15"
 displayName = "Monumental Recipes"
 authors = "ModernGamingWorld"
 description = '''

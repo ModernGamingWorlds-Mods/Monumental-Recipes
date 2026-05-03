@@ -70,7 +70,8 @@ tasks.processResources {
     } else {
         exclude("**/data/*/recipe/**")
     }
-    // NeoForge 1.21+ uses "loot table/" (singular), older versions use "loot tables/" (plural)
+
+    // NeoForge 1.21+ uses "loot_table/" (singular), older versions use "loot_tables/" (plural)
     if (stonecutter.eval(minecraft, ">=1.21")) {
         exclude("**/data/*/loot_tables/**")
     } else {
@@ -87,15 +88,19 @@ tasks.processResources {
         exclude("**/data/create/worldgen/**")
     }
 }
-
-// Ensure vanilla assets are downloaded before runDatagen executes.
-// Forge data generators read the assets directory (lang files, model templates, etc.),
-// and on fresh CI runners that directory doesn't exist until downloadAssets has run.
-afterEvaluate {
-    tasks.matching { it.name == "runDatagen" }.configureEach {
-        val downloadAssets = tasks.findByName("downloadAssets")
-        if (downloadAssets != null) {
-            dependsOn(downloadAssets)
+tasks.named("processResources") {
+    doLast {
+        if (stonecutter.eval(minecraft, ">=1.21")) {
+            val outputDir = layout.buildDirectory.dir("resources/main").get().asFile
+            outputDir.mkdirs()
+            outputDir.resolve("pack.mcmeta").writeText("""
+                {
+                  "pack": {
+                    "pack_format": 48,
+                    "description": "Monumental Recipes"
+                  }
+                }
+            """.trimIndent())
         }
     }
 }

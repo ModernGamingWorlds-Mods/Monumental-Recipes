@@ -1,20 +1,6 @@
 {
   "pack": {
-    //? if <1.19 {
-    /*"pack_format": 8,*/
-    //?} else if <1.20 {
-    /*"pack_format": 9,*/
-    //?} else if <1.21 {
-    "pack_format": 15,
-    //?} else {
-    /*"pack_format": 34,*/
-    //?}
-    "description": "Monumental Recipes"
-  }
-  //? if >=1.21 {
-  /*,
-  "data": {
-    "pack_format": 48
-  }
-  *///?}
+    "pack_format": ${packVersion},
+"description": "Monumental Recipes"
+}
 }
