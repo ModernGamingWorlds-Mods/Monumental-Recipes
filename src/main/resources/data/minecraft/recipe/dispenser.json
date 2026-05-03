@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "compressium:cobblestone_1"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "X": {
+      "tag": "c:bows"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SXS",
+    "SRS"
+  ],
+  "result": {
+    "id": "minecraft:dispenser"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

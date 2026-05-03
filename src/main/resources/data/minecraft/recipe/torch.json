@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "monumental_recipes:chunks/coal"
+    },
+    "B": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "pattern": [
+    " A ",
+    " B "
+  ],
+  "result": {
+    "id": "minecraft:torch",
+    "count": 2
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

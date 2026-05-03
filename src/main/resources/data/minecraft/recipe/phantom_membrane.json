@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "c:feathers"
+    },
+    "B": {
+      "item": "minecraft:cobweb"
+    },
+    "C": {
+      "tag": "monumental_recipes:cloth"
+    }
+  },
+  "pattern": [
+    "  A",
+    " AB",
+    "ABC"
+  ],
+  "result": {
+    "id": "minecraft:phantom_membrane"
+  },
+  "count": 2
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

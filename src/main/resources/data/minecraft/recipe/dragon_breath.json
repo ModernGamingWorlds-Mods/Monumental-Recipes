@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "minecraft:glass_bottle"
+    },
+    "A": {
+      "item": "mysticalagriculture:air_essence"
+    },
+    "D": {
+      "item": "mysticalagriculture:dragon_egg_essence"
+    }
+  },
+  "pattern": [
+    " D ",
+    "ABA",
+    " D "
+  ],
+  "result": {
+    "id": "minecraft:dragon_breath"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

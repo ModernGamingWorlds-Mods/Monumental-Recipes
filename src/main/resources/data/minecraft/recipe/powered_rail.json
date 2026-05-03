@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "monumental_recipes:wooden_plates"
+    },
+    "R": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "X": {
+      "tag": "c:plates/gold"
+    }
+  },
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "result": {
+    "count": 6,
+    "id": "minecraft:powered_rail"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

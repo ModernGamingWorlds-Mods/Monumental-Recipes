@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:leather_boots"
+  },
+  "addition": {
+    "tag": "monumental_recipes:chains"
+  },
+  "result": {
+    "id": "minecraft:chainmail_boots"
+  },
+  "template": {
+    "tag": "c:leathers"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "tag": "c:glass_blocks"
+    },
+    "Q": {
+      "tag": "c:gems/quartz"
+    },
+    "W": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "QQQ",
+    "WWW"
+  ],
+  "result": {
+    "id": "minecraft:daylight_detector"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

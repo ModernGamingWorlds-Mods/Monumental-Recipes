@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:chainmail_helmet"
+  },
+  "addition": {
+    "tag": "c:ingots/iron"
+  },
+  "result": {
+    "id": "minecraft:iron_helmet"
+  },
+  "template": {
+    "tag": "monumental_recipes:chains"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "compressium:obsidian_1"
+    },
+    "B": {
+      "tag": "c:books"
+    },
+    "D": {
+      "tag": "c:plates/diamond"
+    }
+  },
+  "pattern": [
+    " B ",
+    "D#D",
+    "###"
+  ],
+  "result": {
+    "id": "minecraft:enchanting_table"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

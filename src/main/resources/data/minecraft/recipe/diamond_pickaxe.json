@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:golden_pickaxe"
+  },
+  "addition": {
+    "tag": "c:gems/diamond"
+  },
+  "result": {
+    "id": "minecraft:diamond_pickaxe"
+  },
+  "template": {
+    "tag": "c:plates/gold"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

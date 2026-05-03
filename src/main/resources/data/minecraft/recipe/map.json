@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "domum_ornamentum:paper_extra"
+    },
+    "X": {
+      "tag": "minecraft:compasses"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "id": "minecraft:map"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "domum_ornamentum"
+    }
+  ]
+}

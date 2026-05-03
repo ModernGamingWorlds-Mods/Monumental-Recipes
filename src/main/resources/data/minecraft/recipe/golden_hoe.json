@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_hoe"
+  },
+  "addition": {
+    "tag": "c:ingots/gold"
+  },
+  "result": {
+    "id": "minecraft:golden_hoe"
+  },
+  "template": {
+    "tag": "c:plates/iron"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

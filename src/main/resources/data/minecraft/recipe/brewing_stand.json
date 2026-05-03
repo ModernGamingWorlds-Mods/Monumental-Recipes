@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "minecraft:stone_crafting_materials"
+    },
+    "B": {
+      "tag": "c:rods/blaze"
+    }
+  },
+  "pattern": [
+    " B ",
+    "###"
+  ],
+  "result": {
+    "id": "minecraft:brewing_stand"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

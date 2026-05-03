@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "S": {
+      "tag": "monumental_recipes:wooden_plates"
+    },
+    "X": {
+      "tag": "forge:ingots/compressed_iron"
+    }
+  },
+  "pattern": [
+    "XSX",
+    "X#X",
+    "XSX"
+  ],
+  "result": {
+    "count": 6,
+    "id": "minecraft:activator_rail"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

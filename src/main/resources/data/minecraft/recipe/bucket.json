@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "i": {
+      "tag": "c:plates/iron"
+    }
+  },
+  "pattern": [
+    "   ",
+    " i ",
+    "i i"
+  ],
+  "result": {
+    "id": "minecraft:bucket"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

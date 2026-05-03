@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "tag": "c:ingots/iron"
+  },
+  "addition": {
+    "tag": "minecraft:planks"
+  },
+  "result": {
+    "id": "minecraft:shield"
+  },
+  "template": {
+    "tag": "c:plates/iron"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

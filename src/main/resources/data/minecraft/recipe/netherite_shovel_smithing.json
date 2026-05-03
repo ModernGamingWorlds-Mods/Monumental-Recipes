@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:diamond_shovel"
+  },
+  "addition": {
+    "tag": "c:ingots/netherite"
+  },
+  "result": {
+    "id": "minecraft:netherite_shovel"
+  },
+  "template": {
+    "tag": "c:plates/diamond"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

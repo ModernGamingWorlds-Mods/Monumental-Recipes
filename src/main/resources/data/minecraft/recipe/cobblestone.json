@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  
+    "S A"
+  ],
+  
+  "key": {
+    "S": {
+      "tag": "c:buckets/water"
+    },
+    "A": {
+      "tag": "c:buckets/lava"
+    }    
+  },
+  "result": {
+    "id": "minecraft:cobblestone"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

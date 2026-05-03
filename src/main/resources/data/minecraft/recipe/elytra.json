@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "#X#",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "X": {
+      "item": "mysticalagriculture:netherite_essence"
+    },
+    "S": {
+      "tag": "c:strings"
+    }
+  },
+  "result": {
+    "id": "minecraft:elytra"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

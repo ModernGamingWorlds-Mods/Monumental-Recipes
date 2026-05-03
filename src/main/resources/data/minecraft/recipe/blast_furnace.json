@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "compressium:stone_1"
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "X": {
+      "tag": "c:furnaces"
+    }
+  },
+  "pattern": [
+    "III",
+    "IXI",
+    "###"
+  ],
+  "result": {
+    "id": "minecraft:blast_furnace"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

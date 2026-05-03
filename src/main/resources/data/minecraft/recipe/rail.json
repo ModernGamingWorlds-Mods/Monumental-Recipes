@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "monumental_recipes:wooden_plates"
+    },
+    "X": {
+      "tag": "c:ingots/compressed_iron"
+    }
+  },
+  "pattern": [
+    "X X",
+    "X#X",
+    "X X"
+  ],
+  "result": {
+    "count": 16,
+    "id": "minecraft:rail"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

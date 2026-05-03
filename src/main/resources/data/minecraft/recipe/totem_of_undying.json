@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "c:storage_blocks/emerald"
+    },
+    "B": {
+      "tag": "c:ingots/soularium"
+    },
+    "C": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "E": {
+      "item": "minecraft:respawn_anchor"
+    }
+  },
+  "pattern": [
+    "AEA",
+    "BCB",
+    " B "
+  ],
+  "result": {
+    "id": "minecraft:totem_of_undying"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:stone_sword"
+  },
+  "addition": {
+    "tag": "c:ingots/iron"
+  },
+  "result": {
+    "id": "minecraft:iron_sword"
+  },
+  "template": {
+    "item": "kubejs:stone_rod"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

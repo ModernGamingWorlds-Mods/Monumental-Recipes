@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:wooden_sword"
+  },
+  "addition": {
+    "tag": "c:stones"
+  },
+  "result": {
+    "id": "minecraft:stone_sword"
+  },
+  "template": {
+    "tag": "c:rods/wooden"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}

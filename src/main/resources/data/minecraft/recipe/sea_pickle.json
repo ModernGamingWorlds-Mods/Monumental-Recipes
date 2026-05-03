@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "c:torches"
+    },
+    "A": {
+      "item": "minecraft:seagrass"
+    }
+  },
+  "pattern": [
+    "#",
+    "A"
+  ],
+  "result": {
+    "id": "minecraft:sea_pickle"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ]
+}
