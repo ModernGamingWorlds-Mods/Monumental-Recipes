@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "1": {
+      "tag": "c:rods/wooden"
+    },
+    "2": {
+      "item": "mysticalagriculture:cow_essence"
+    }
+  },
+  "pattern": [
+    "121",
+    "212",
+    "1 1"
+  ],
+  "result": {
+    "id": "paraglider:paraglider"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "paraglider"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "R R",
+    "PPP"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "R": {
+      "tag": "chipped:redstone_block"
+    },
+    "P": {
+      "tag": "monumental_recipes:pistons"
+    }
+  },
+  "result": {
+    "id": "multipiston:multipistonblock",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "multipiston"
+    }
+  ]
+}

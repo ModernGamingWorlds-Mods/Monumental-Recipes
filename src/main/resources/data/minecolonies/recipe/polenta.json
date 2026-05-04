@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecolonies:cornmeal"
+    },
+    {
+      "item": "minecolonies:cornmeal"
+    },
+    {
+      "item": "minecolonies:large_water_bottle"
+    },
+    {
+      "tag": "c:bowls"
+    },
+    {
+      "tag": "c:bowls"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecolonies:polenta"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecolonies"
+    }
+  ]
+}

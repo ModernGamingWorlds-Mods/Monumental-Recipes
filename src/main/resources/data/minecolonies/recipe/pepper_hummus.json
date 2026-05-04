@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:crops/bellpepper"
+    },
+    {
+      "tag": "c:crops/bellpepper"
+    },
+    {
+      "tag": "c:crops/garlic"
+    },
+    {
+      "item": "minecolonies:chickpea"
+    },
+    {
+      "item": "minecolonies:chickpea"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecolonies:pepper_hummus"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecolonies"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ha ",
+    "a  ",
+    "   "
+  ],
+  "key": {
+    "h": {
+      "tag": "monumental_recipes:tools/hammers"
+    },
+    "a": {
+      "tag": "chipped:cherry_planks"
+    }
+  },
+  "result": {
+    "id": "kubejs:plate_wood_cherry"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "undergarden"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kubejs"
+    }
+  ]
+}
+

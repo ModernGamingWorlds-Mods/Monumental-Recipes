@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:crops/garlic"
+    },
+    {
+      "tag": "c:crops/garlic"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "tag": "c:crops/eggplant"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "tag": "c:bowls"
+    }
+  ],
+  "result": {
+    "id": "minecolonies:veggie_soup"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecolonies"
+    }
+  ]
+}

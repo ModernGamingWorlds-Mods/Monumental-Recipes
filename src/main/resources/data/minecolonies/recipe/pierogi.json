@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:crops/garlic"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "item": "minecolonies:durum"
+    },
+    {
+      "item": "minecolonies:cheddar_cheese"
+    },
+    {
+      "item": "minecraft:potato"
+    }
+  ],
+  "result": {
+    "id": "minecolonies:pierogi"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecolonies"
+    }
+  ]
+}

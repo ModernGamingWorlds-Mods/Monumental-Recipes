@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wfc:chocolate_waffle"
+    },
+    {
+      "tag": "c:syrups"
+    },
+    {
+      "tag": "c:crops/banana"
+    }
+  ],
+  "result": {
+    "id": "wfc:banana_waffle",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "wfc"
+    }
+  ]
+}

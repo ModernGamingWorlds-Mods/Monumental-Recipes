@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": [
+      {
+        "item": "minecraft:hay_block"
+      },
+      {
+        "item": "minecraft:pumpkin"
+      }
+    ],
+    "L": {
+      "tag": "c:leathers"
+    },
+    "S": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "pattern": [
+    " H ",
+    "SLS",
+    " S "
+  ],
+  "result": {
+    "id": "minecolonies:blockhutfield"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecolonies"
+    }
+  ]
+}

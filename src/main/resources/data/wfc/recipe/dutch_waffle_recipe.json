@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wfc:waffle_iron"
+    },
+    {
+      "item": "croptopia:flour"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "c:butters"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:syrups"
+    }
+  ],
+  "result": {
+    "id": "wfc:dutch_waffles",
+    "count": 8
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "wfc"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mythicbotany:niflheim_rune"
+  },
+  "addition": {
+    "tag": "c:ingots/elementium"
+  },
+  "result": {
+    "id": "mythicbotany:ice_ring"
+  },
+  "template": {
+    "tag": "c:nuggets/elementium"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mythicbotany"
+    }
+  ]
+}

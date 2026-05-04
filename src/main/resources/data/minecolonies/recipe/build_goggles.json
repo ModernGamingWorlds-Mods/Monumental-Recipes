@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "L": {
+      "tag": "c:leathers"
+    },
+    "N": {
+      "item": "minecraft:gold_nugget"
+    },
+    "T": {
+      "item": "structurize:sceptergold"
+    }
+  },
+  "pattern": [
+    "NIN",
+    "GTG",
+    "L L"
+  ],
+  "result": {
+    "id": "minecolonies:build_goggles"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecolonies"
+    }
+  ]
+}
