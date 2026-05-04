@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "tag": "c:glass_blocks"
+    },
+    "R": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "I": {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    "P": {
+      "tag": "refinedstorage:parts/items/16384k"
+    }
+  },
+  "pattern": [
+    "GRG",
+    "RPR",
+    "III"
+  ],
+  "result": {
+    "id": "rebornstorage:larger_item_disk"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rebornstorage"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

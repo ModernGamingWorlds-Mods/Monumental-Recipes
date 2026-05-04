@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "refinedstorage:processor_binding"
+    },
+    {
+      "tag": "c:ingots/netherite"
+    },
+    {
+      "tag": "c:silicon"
+    },
+    {
+      "item": "extendedcrafting:redstone_component"
+    }
+  ],
+  "result": {
+    "id": "rebornstorage:raw_super_advanced_processor"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rebornstorage"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

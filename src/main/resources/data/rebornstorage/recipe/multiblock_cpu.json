@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FAF",
+    "SCS",
+    "FAF"
+  ],
+  "key": {
+    "F": [
+      {
+        "item": "rebornstorage:multiblock_frame"
+      }
+    ],
+    "A": [
+      {
+        "item": "refinedstorage:advanced_processor"
+      }
+    ],
+    "C": [
+      {
+        "tag": "c:player_workstations/crafting_tables"
+      }
+    ],
+    "S": [
+      {
+        "item": "refinedstorage:crafting_upgrade"
+      }
+    ]
+  },
+  "result": {
+    "id": "rebornstorage:multiblock_cpu"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rebornstorage"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}
