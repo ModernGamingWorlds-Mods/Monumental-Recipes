@@ -49,3 +49,6 @@
 ## Version 1.0.16
 - (1.19.2) Fixed missing smithing table recipes for some mods
 - Fixed more broken conditions
+
+## Version 1.0.17
+- First alpha release of 1.21.1
