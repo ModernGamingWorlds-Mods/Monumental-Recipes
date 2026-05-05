@@ -1,15 +1,6 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "ars_additions"
-    }
-  ],
   "type": "ars_nouveau:enchanting_apparatus",
   "keepNbtOfReagent": false,
-  "output": {
-    "id": "ars_additions:ender_source_jar"
-  },
   "pedestalItems": [
     {
       "tag": "c:ender_pearls"
@@ -36,10 +27,19 @@
       "item": "minecraft:popped_chorus_fruit"
     }
   ],
-  "reagent": [
-    {
-      "item": "ars_nouveau:source_jar"
-    }
-  ],
+  "reagent": {
+    "item": "ars_nouveau:source_jar"
+  },
+  "result": {
+    "count": 1,
+    "id": "ars_additions:ender_source_jar"
+  },
   "sourceCost": 0
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ]
 }

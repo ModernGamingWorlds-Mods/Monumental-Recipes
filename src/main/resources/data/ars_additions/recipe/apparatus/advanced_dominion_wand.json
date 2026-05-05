@@ -1,15 +1,6 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "ars_additions"
-    }
-  ],
   "type": "ars_nouveau:enchanting_apparatus",
   "keepNbtOfReagent": false,
-  "output": {
-    "id": "ars_additions:advanced_dominion_wand"
-  },
   "pedestalItems": [
     {
       "tag": "c:storage_blocks/amethyst"
@@ -21,10 +12,19 @@
       "tag": "c:ingots/gold"
     }
   ],
-  "reagent": [
-    {
-      "item": "ars_nouveau:dominion_wand"
-    }
-  ],
+  "reagent": {
+    "item": "ars_nouveau:dominion_wand"
+  },
+  "result": {
+    "count": 1,
+    "id": "ars_additions:advanced_dominion_wand"
+  },
   "sourceCost": 0
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_additions"
+    }
+  ]
 }
