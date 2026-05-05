@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "allthemodium",
+  "key": {
+    "a": {
+      "tag": "allthemodium:demonic_planks"
+    },
+    "b": {
+      "tag": "c:books"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "bbb",
+    "aaa"
+  ],
+  "result": {
+    "id": "allthemodium:demonic_bookshelf"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ]
+}
