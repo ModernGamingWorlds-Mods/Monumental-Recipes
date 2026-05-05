@@ -1,0 +1,39 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ],
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "ars_elemental:mirror_shield",
+  "level": 2,
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "mysticalagriculture:air_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:fire_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:earth_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:water_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_elemental:spell_mirror"
+      }
+    }
+  ],
+  "sourceCost": 5000
+}

@@ -1,0 +1,36 @@
+{
+  "type": "sauce:armor_upgrade",
+  "pedestalItems": [
+    {
+      "item": "ars_elemental:mark_of_mastery"
+    },
+    {
+      "item": "c:ingots/netherite"
+    },
+    {
+      "item": "mysticalagriculture:fire_essence"
+    },
+    {
+      "item": "mysticalagriculture:fire_essence"
+    }
+  ],
+  "reagent": {
+    "item": "ars_nouveau:arcanist_robes"
+  },
+  "result": {
+    "count": 1,
+    "id": "ars_elemental:fire_robes"
+  },
+  "sourceCost": 7000
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_elemental"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

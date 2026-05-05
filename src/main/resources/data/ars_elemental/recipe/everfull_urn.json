@@ -1,0 +1,40 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "pedestalItems": [
+    {
+      "tag": "c:gems/source"
+    },
+    {
+      "item": "mysticalagriculture:water_essence"
+    },
+    {
+      "item": "mysticalagriculture:water_essence"
+    },
+    {
+      "tag": "c:dusts/prismarine"
+    },
+    {
+      "tag": "c:dusts/prismarine"
+    }
+  ],
+  "reagent": {
+    "item": "minecraft:flower_pot"
+  },
+  "result": {
+    "count": 1,
+    "id": "ars_elemental:everfull_urn"
+  },
+  "sourceCost": 0
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_elemental"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

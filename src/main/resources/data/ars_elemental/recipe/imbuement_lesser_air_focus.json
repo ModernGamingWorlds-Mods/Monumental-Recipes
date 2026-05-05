@@ -1,0 +1,47 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ],
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "output": "ars_elemental:lesser_air_focus",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "mysticalagriculture:air_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:air_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:air_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:gold_ingot"
+      }
+    }
+  ],
+  "source": 5000
+}

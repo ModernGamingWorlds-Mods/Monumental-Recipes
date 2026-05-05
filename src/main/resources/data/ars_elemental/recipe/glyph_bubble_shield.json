@@ -1,0 +1,34 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ],
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 55,
+  "inputItems": [
+    {
+      "item": {
+        "item": "minecraft:heart_of_the_sea"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:prismarine_shard"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:bastion_pod"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:water_essence"
+      }
+    }
+  ],
+  "output": "ars_elemental:glyph_bubble_shield"
+}

@@ -1,0 +1,33 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ],
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "ars_elemental:water_bangle"
+  },
+  "pedestalItems": [
+    {
+      "item": "mysticalagriculture:water_essence"
+    },
+    {
+      "item": "mysticalagriculture:water_essence"
+    },
+    {
+      "item": "minecraft:powder_snow_bucket"
+    },
+    {
+      "item": "mysticalagriculture:water_essence"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "ars_elemental:base_bangle"
+    }
+  ],
+  "sourceCost": 0
+}

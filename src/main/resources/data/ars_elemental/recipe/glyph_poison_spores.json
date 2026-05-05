@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ],
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 55,
+  "inputItems": [
+    {
+      "item": {
+        "item": "minecraft:spore_blossom"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:red_mushroom"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:earth_essence"
+      }
+    }
+  ],
+  "output": "ars_elemental:glyph_poison_spores"
+}
