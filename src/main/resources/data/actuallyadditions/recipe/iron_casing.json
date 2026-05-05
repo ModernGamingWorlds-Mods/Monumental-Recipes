@@ -1,6 +1,6 @@
 {
   "type": "create:mechanical_crafting",
-  "acceptMirrored": false,
+  "accept_mirrored": false,
   "key": {
     "Q": {
       "item": "actuallyadditions:black_quartz"
