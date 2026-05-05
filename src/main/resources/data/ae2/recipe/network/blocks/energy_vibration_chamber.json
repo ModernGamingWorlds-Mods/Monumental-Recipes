@@ -21,7 +21,7 @@
   ],
   "result": {
     "count": 1,
-    "item": "ae2:vibration_chamber"
+    "id": "ae2:vibration_chamber"
   },
   "neoforge:conditions": [
     {

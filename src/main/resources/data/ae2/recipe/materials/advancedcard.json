@@ -20,7 +20,7 @@
     "AB "
   ],
   "result": {
-    "item": "ae2:advanced_card"
+    "id": "ae2:advanced_card"
   },
   "neoforge:conditions": [
     {
