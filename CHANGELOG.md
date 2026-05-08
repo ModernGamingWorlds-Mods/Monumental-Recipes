@@ -52,3 +52,7 @@
 
 ## Version 1.0.17
 - First alpha release of 1.21.1
+
+## Version 1.0.18
+- 2nd alpha release of 1.21.1 with more recipe fixes
+- Fixed broken recipes and conditions on 1.20.1
