@@ -6,21 +6,9 @@
     "A  "
   ],
   "key": {
-    "A": [
-      {
-        "item": "create:fluid_pipe"
-      }
-    ],
-    "B": [
-      {
-        "item": "immersiveengineering:fluid_pipe"
-      }
-    ],
-    "C": [
-      {
-        "item": "create:smart_fluid_pipe"
-      }
-    ]
+    "A": { "item": "create:fluid_pipe" },
+    "B": { "item": "immersiveengineering:fluid_pipe" },
+    "C": { "item": "create:smart_fluid_pipe" }
   },
   "result": {
     "item": "immersive_aircraft:sturdy_pipes"
