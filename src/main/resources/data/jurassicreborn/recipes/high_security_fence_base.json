@@ -1,6 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jurassicreborn"
+    }
+  ],
   "key": {
     "B": {
       "tag": "forge:ingots/iron"
@@ -19,9 +25,4 @@
     "item": "jurassicreborn:high_security_fence_base"
   },
   "show_notification": true
-},
-"conditions": [
-{
-"type": "forge:mod_loaded",
-"modid": "jurassicreborn"
 }

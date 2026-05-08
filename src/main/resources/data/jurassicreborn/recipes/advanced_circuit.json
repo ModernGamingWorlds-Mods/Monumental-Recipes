@@ -1,6 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jurassicreborn"
+    }
+  ],
   "ingredients": [
     {
       "item": "jurassicreborn:basic_circuit"
@@ -21,9 +27,4 @@
   "result": {
     "item": "jurassicreborn:advanced_circuit"
   }
-},
-"conditions": [
-{
-"type": "forge:mod_loaded",
-"modid": "jurassicreborn"
 }

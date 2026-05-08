@@ -2,6 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "group": "jurassicreborn:amber_cane",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jurassicreborn"
+    }
+  ],
   "key": {
     "A": {
       "item": "jurassicreborn:amber_mosquito"
@@ -20,8 +26,3 @@
   },
   "show_notification": true
 }
-"conditions": [
-{
-"type": "forge:mod_loaded",
-"modid": "jurassicreborn"
-},

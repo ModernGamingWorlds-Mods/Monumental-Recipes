@@ -2,6 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "group": "jurassicreborn:ford_explorer",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jurassicreborn"
+    }
+  ],
   "key": {
     "C": {
       "item": "jurassicreborn:unfinished_car"
@@ -28,9 +34,4 @@
     "item": "jurassicreborn:monorail"
   },
   "show_notification": true
-},
-"conditions": [
-{
-"type": "forge:mod_loaded",
-"modid": "jurassicreborn"
 }

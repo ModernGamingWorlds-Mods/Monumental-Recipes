@@ -1,6 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jurassicreborn"
+    }
+  ],
   "ingredients": [
     {
       "item": "jurassicreborn:dart_tranquilizer"
@@ -12,9 +18,4 @@
   "result": {
     "item": "jurassicreborn:dart_poison_cycasin"
   }
-},
-"conditions": [
-{
-"type": "forge:mod_loaded",
-"modid": "jurassicreborn"
 }

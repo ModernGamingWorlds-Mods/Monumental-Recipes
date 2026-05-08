@@ -2,6 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "group": "jurassicreborn:gyrosphere_interior",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jurassicreborn"
+    }
+  ],
   "key": {
     "A": {
       "item": "jurassicreborn:gyrosphere_seats"
@@ -22,9 +28,4 @@
     "item": "jurassicreborn:gyrosphere_interior"
   },
   "show_notification": true
-},
-"conditions": [
-{
-"type": "forge:mod_loaded",
-"modid": "jurassicreborn"
 }

@@ -1,6 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jurassicreborn"
+    }
+  ],
   "group": "jurassicreborn:mural",
   "key": {
     "A": {
@@ -22,9 +28,4 @@
     "item": "jurassicreborn:mural"
   },
   "show_notification": true
-},
-"conditions": [
-{
-"type": "forge:mod_loaded",
-"modid": "jurassicreborn"
 }

@@ -1,6 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jurassicreborn"
+    }
+  ],
   "key": {
     "A": {
       "tag": "forge:ingots/iron"
@@ -33,9 +39,4 @@
     "item": "jurassicreborn:computer_screen"
   },
   "show_notification": true
-},
-"conditions": [
-{
-"type": "forge:mod_loaded",
-"modid": "jurassicreborn"
 }

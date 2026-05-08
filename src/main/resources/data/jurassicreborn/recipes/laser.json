@@ -2,6 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "group": "jurassicreborn:laser",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jurassicreborn"
+    }
+  ],
   "key": {
     "A": {
       "tag": "forge:nuggets/iron"
@@ -25,9 +31,4 @@
     "item": "jurassicreborn:laser"
   },
   "show_notification": true
-},
-"conditions": [
-{
-"type": "forge:mod_loaded",
-"modid": "jurassicreborn"
 }

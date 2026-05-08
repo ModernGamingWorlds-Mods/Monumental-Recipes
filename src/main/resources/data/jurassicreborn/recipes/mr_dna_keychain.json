@@ -2,6 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "group": "jurassicreborn:mr_dna_keychain",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jurassicreborn"
+    }
+  ],
   "key": {
     "A": {
       "item": "jurassicreborn:dna_base_material"
@@ -18,9 +24,4 @@
     "item": "jurassicreborn:mr_dna_keychain"
   },
   "show_notification": true
-},
-"conditions": [
-{
-"type": "forge:mod_loaded",
-"modid": "jurassicreborn"
 }

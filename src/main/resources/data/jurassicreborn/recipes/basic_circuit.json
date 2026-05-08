@@ -1,6 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jurassicreborn"
+    }
+  ],
   "ingredients": [
     {
       "tag": "forge:nuggets/iron"
@@ -34,9 +40,4 @@
     "count": 2,
     "item": "jurassicreborn:basic_circuit"
   }
-},
-"conditions": [
-{
-"type": "forge:mod_loaded",
-"modid": "jurassicreborn"
 }

@@ -2,6 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "group": "jurassicreborn:feeder",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jurassicreborn"
+    }
+  ],
   "key": {
     "A": {
       "item": "minecraft:iron_trapdoor"
@@ -28,9 +34,4 @@
     "item": "jurassicreborn:feeder"
   },
   "show_notification": true
-},
-"conditions": [
-{
-"type": "forge:mod_loaded",
-"modid": "jurassicreborn"
 }

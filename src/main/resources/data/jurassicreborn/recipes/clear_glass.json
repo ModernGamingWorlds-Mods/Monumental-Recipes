@@ -2,6 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "group": "jurassicreborn:clear_glass",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jurassicreborn"
+    }
+  ],
   "key": {
     "A": {
       "item": "minecraft:glass"
@@ -20,9 +26,4 @@
     "item": "jurassicreborn:clear_glass"
   },
   "show_notification": true
-},
-"conditions": [
-{
-"type": "forge:mod_loaded",
-"modid": "jurassicreborn"
 }

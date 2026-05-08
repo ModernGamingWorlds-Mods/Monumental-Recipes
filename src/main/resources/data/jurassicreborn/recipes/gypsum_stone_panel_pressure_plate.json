@@ -23,9 +23,4 @@
   "result": {
     "item": "jurassicreborn:gypsum_stone_panel_pressure_plate"
   }
-},
-"conditions": [
-{
-"type": "forge:mod_loaded",
-"modid": "jurassicreborn"
 }

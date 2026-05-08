@@ -1,6 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jurassicreborn"
+    }
+  ],
   "key": {
     "A": {
       "tag": "forge:ingots/iron"
@@ -27,9 +33,4 @@
     "item": "jurassicreborn:dna_sequencer"
   },
   "show_notification": true
-},
-"conditions": [
-{
-"type": "forge:mod_loaded",
-"modid": "jurassicreborn"
 }
