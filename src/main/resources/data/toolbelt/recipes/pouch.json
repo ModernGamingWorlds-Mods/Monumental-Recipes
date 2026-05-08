@@ -5,7 +5,7 @@
       "tag": "forge:string"
     },
     "G": {
-      "item": "material_elements:leather_sheet"
+      "tag": "forge:leather"
     },
     "S": {
       "tag": "forge:ingots/gold"
