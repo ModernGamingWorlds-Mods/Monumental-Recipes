@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "conditions": [{ "type": "forge:mod_loaded", "modid": "forestry" }],
+  "conditions": [{ "type": "forge:mod_loaded", "modid": "industrialforestry" }],
   "group": "addon_chance",
   "pattern": [
     " H ",
@@ -11,7 +11,7 @@
     "C": { "tag": "forge:ingots/copper" },
     "S": { "item": "forestry:sturdy_machine" },
     "H": { "item": "minecraft:honeycomb" },
-    "L": { "item": "forge:dusts/glowstone" }
+    "L": { "tag": "forge:dusts/glowstone" }
   },
   "result": { "item": "industrialforestry:chance_upgrade_1", "count": 1 }
 }
