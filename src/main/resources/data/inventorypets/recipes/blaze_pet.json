@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "inventorypets:pet_blaze"
+  },
+  "pattern": [
+    "OFO",
+    "ONO",
+    "OGO"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "F": {
+      "tag": "forge:gems/quartz"
+    },
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "N": {
+      "tag": "forge:gems/diamond"
+    },
+    "O": {
+      "tag": "forge:nuggets/gold"
+    }
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "inventorypets"
+    }
+  ]
+}

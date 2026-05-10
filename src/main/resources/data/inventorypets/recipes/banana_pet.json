@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "inventorypets:pet_banana"
+  },
+  "pattern": [
+    "OFO",
+    "ODO",
+    "OGO"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "F": {
+      "tag": "forge:dusts/glowstone"
+    },
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "O": {
+      "tag": "forge:nuggets/gold"
+    }
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "inventorypets"
+    }
+  ]
+}

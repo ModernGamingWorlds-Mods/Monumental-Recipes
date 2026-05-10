@@ -1,0 +1,35 @@
+{
+  "result": {
+    "item": "inventorypets:pet_april_fool"
+  },
+  "pattern": [
+    "OFR",
+    "ODR",
+    "OGR"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "R": {
+      "item": "inventorypets:nugget_obsidian"
+    },
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "F": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "O": {
+      "tag": "forge:dusts/redstone"
+    }
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "inventorypets"
+    }
+  ]
+}
