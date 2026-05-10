@@ -1,28 +1,30 @@
 {
-  "result": {
-    "item": "inventorypets:pet_apple"
-  },
-  "pattern": [
-    "OFO",
-    "ODO",
-    "OGO"
-  ],
   "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OFR",
+    "ODR",
+    "OGR"
+  ],
   "key": {
+    "R": {
+      "item": "inventorypets:nugget_obsidian"
+    },
     "D": {
       "tag": "forge:gems/diamond"
     },
     "F": {
-      "tag": "forge:ingots/gold"
+      "item": "minecraft:tripwire_hook"
     },
     "G": {
       "tag": "forge:ingots/gold"
     },
     "O": {
-      "tag": "forge:crops/apple"
+      "tag": "forge:dusts/redstone"
     }
-  }
-},
+  },
+  "result": {
+    "item": "inventorypets:pet_april_fool"
+  },
   "conditions": [
     {
       "type": "forge:mod_loaded",

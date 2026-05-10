@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "W": {
-      "tag": "c:strings"
+      "tag": "c:string"
     },
     "G": {
       "tag": "c:leathers"
@@ -18,8 +18,7 @@
   ],
   "result": {
     "id": "toolbelt:pouch"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

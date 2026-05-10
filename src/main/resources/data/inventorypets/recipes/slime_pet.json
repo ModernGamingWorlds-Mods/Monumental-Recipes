@@ -20,10 +20,8 @@
     },
     "O": {
       "item": "inventorypets:nugget_emerald"
- 
     }
-  }
-},
+  },
   "conditions": [
     {
       "type": "forge:mod_loaded",

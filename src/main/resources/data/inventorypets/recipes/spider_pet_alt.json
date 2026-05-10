@@ -20,10 +20,8 @@
     },
     "O": {
       "tag": "monumental_recipes:chunks/coal"
- 
     }
-  }
-},
+  },
   "conditions": [
     {
       "type": "forge:mod_loaded",

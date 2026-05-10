@@ -21,8 +21,7 @@
     "O": {
       "tag": "forge:cobblestone"
     }
-  }
-},
+  },
   "conditions": [
     {
       "type": "forge:mod_loaded",

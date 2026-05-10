@@ -21,8 +21,7 @@
     "O": {
       "tag": "forge:rods/wooden"
     }
-  }
-},
+  },
   "conditions": [
     {
       "type": "forge:mod_loaded",

@@ -21,8 +21,7 @@
     "O": {
       "item": "inventorypets:nugget_lapis"
     }
-  }
-},
+  },
   "conditions": [
     {
       "type": "forge:mod_loaded",

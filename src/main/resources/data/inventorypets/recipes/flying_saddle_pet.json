@@ -18,8 +18,7 @@
     "D": {
       "item": "inventorypets:pet_saddle"
     }
-  }
-},
+  },
   "conditions": [
     {
       "type": "forge:mod_loaded",

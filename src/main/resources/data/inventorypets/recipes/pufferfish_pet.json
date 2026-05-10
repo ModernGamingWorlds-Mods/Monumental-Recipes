@@ -19,10 +19,9 @@
       "tag": "forge:gems/diamond"
     },
     "O": {
-      "tag": "forge:nuggets/gold" 
+      "tag": "forge:nuggets/gold"
     }
-  }
-},
+  },
   "conditions": [
     {
       "type": "forge:mod_loaded",

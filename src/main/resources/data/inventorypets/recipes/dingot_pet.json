@@ -21,8 +21,7 @@
     "O": {
       "tag": "forge:gems/diamond"
     }
-  }
-},
+  },
   "conditions": [
     {
       "type": "forge:mod_loaded",

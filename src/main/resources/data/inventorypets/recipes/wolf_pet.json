@@ -20,10 +20,8 @@
     },
     "O": {
       "tag": "forge:nuggets/iron"
- 
     }
-  }
-},
+  },
   "conditions": [
     {
       "type": "forge:mod_loaded",

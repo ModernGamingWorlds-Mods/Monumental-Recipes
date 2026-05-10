@@ -21,8 +21,7 @@
     "O": {
       "item": "inventorypets:nugget_obsidian"
     }
-  }
-},
+  },
   "conditions": [
     {
       "type": "forge:mod_loaded",

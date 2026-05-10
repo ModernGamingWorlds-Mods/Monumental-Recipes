@@ -36,8 +36,7 @@
     "N": {
       "item": "minecraft:snowball"
     }
-  }
-},
+  },
   "conditions": [
     {
       "type": "forge:mod_loaded",

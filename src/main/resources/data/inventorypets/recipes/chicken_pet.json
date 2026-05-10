@@ -21,8 +21,7 @@
     "O": {
       "tag": "forge:feathers"
     }
-  }
-},
+  },
   "conditions": [
     {
       "type": "forge:mod_loaded",

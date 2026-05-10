@@ -16,13 +16,12 @@
       "tag": "forge:grains/wheat"
     },
     "G": {
-      "tag": "forge:ingots/gold" 
+      "tag": "forge:ingots/gold"
     },
     "O": {
       "tag": "minecraft:wool"
     }
-  }
-},
+  },
   "conditions": [
     {
       "type": "forge:mod_loaded",

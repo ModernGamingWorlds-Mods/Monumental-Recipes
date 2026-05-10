@@ -23,10 +23,8 @@
     },
     "O": {
       "tag": "forge:ingots/gold"
- 
     }
-  }
-},
+  },
   "conditions": [
     {
       "type": "forge:mod_loaded",

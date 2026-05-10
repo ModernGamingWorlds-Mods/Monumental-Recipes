@@ -13,7 +13,7 @@
       "tag": "forge:nether_stars"
     },
     "F": {
-      "item": "inventorypets:nugget_diamond" 
+      "item": "inventorypets:nugget_diamond"
     },
     "G": {
       "tag": "forge:ingots/gold"
@@ -21,8 +21,7 @@
     "O": {
       "item": "inventorypets:nugget_lapis"
     }
-  }
-},
+  },
   "conditions": [
     {
       "type": "forge:mod_loaded",

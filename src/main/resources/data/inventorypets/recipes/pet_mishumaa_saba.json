@@ -27,8 +27,7 @@
     "O": {
       "item": "inventorypets:nugget_coal"
     }
-  }
-},
+  },
   "conditions": [
     {
       "type": "forge:mod_loaded",
