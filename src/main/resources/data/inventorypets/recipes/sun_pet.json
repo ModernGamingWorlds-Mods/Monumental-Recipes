@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "inventorypets:pet_sun"
+  },
+  "pattern": [
+    "OFO",
+    "ODO",
+    "OGO"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "tag": "forge:nether_stars"
+    },
+    "F": {
+      "tag": "forge:ingots/gold"
+    },
+    "G": {
+      "tag": "forge:gems/diamond"
+    },
+    "O": {
+      "tag": "forge:ingots/gold"
+ 
+    }
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "inventorypets"
+    }
+  ]
+}

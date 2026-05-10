@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "inventorypets:pet_grave"
+  },
+  "pattern": [
+    "OFO",
+    "ODO",
+    "OGO"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "tag": "forge:gems/emerald"
+    },
+    "F": {
+      "tag": "forge:bones"
+    },
+    "G": {
+      "tag": "forge:chests/wooden"
+    },
+    "O": {
+      "tag": "forge:stone"
+    }
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "inventorypets"
+    }
+  ]
+}

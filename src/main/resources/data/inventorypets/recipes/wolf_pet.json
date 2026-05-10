@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "inventorypets:pet_wolf"
+  },
+  "pattern": [
+    "OFO",
+    "ODO",
+    "OGO"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "F": {
+      "item": "minecraft:beef"
+    },
+    "G": {
+      "tag": "forge:ingot/gold"
+    },
+    "O": {
+      "tag": "forge:nuggets/iron"
+ 
+    }
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "inventorypets"
+    }
+  ]
+}

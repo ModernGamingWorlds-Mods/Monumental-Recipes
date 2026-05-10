@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "inventorypets:pet_slime"
+  },
+  "pattern": [
+    "OFO",
+    "ODO",
+    "OGO"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "tag": "forge:nether_stars"
+    },
+    "F": {
+      "item": "minecraft:golden_apple"
+    },
+    "G": {
+      "tag": "forge:gems/diamond"
+    },
+    "O": {
+      "item": "inventorypets:nugget_emerald"
+ 
+    }
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "inventorypets"
+    }
+  ]
+}

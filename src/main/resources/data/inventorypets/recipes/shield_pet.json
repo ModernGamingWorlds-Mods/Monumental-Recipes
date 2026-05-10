@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "inventorypets:pet_shield"
+  },
+  "pattern": [
+    "OFO",
+    "ODO",
+    "OGO"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "tag": "forge:gems/emerald"
+    },
+    "F": {
+      "tag": "forge:nuggets/iron"
+    },
+    "G": {
+      "tag": "forge:gems/diamond"
+    },
+    "O": {
+      "tag": "forge:nuggets/iron"
+    }
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "inventorypets"
+    }
+  ]
+}
