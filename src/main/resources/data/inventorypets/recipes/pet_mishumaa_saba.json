@@ -1,0 +1,38 @@
+{
+  "result": {
+    "item": "inventorypets:pet_mishumaa_saba"
+  },
+  "pattern": [
+    "TFT",
+    "ODO",
+    "UGU"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "T": {
+      "item": "inventorypets:nugget_emerald"
+    },
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "U": {
+      "tag": "forge:dusts/redstone"
+    },
+    "F": {
+      "tag": "forge:nuggets/gold"
+    },
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "O": {
+      "item": "inventorypets:nugget_coal"
+    }
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "inventorypets"
+    }
+  ]
+}

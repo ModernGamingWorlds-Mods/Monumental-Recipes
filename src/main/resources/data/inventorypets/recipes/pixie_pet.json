@@ -1,0 +1,36 @@
+{
+  "result": {
+    "item": "inventorypets:pet_pixie"
+  },
+  "pattern": [
+    "OFO",
+    "EDE",
+    "OGO"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "E": {
+      "tag": "forge:gems/emerald"
+    },
+    "F": {
+      "item": "inventorypets:nugget_emerald"
+    },
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "O": {
+      "tag": "forge:ingots/gold"
+ 
+    }
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "inventorypets"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "result": {
+    "item": "inventorypets:pet_purplicious_cow"
+  },
+  "pattern": [
+    "OFB",
+    "ODB",
+    "OGB"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "tag": "forge:nuggets/iron"
+    },
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "F": {
+      "item": "inventorypets:nugget_diamond"
+    },
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "O": {
+      "item": "inventorypets:nugget_lapis"
+    }
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "inventorypets"
+    }
+  ]
+}
