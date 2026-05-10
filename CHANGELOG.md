@@ -56,3 +56,8 @@
 ## Version 1.0.18
 - 2nd alpha release of 1.21.1 with more recipe fixes
 - Fixed broken recipes and conditions on 1.20.1
+
+## Version 1.0.19
+- Fixed Inventory pets recipes not using tags
+- Fixed ad_astra_giselle_addon recipes not using correct tags for recipes
+- Updated Aether Villagers loot table chest to use Mystical Essence
