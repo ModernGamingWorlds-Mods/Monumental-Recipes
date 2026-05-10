@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "inventorypets:pet_heart"
+  },
+  "pattern": [
+    "OFO",
+    "ODO",
+    "OGO"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "tag": "forge:gems/emerald"
+    },
+    "F": {
+      "item": "minecraft:red_tulip"
+    },
+    "G": {
+      "tag": "forge:gems/diamond"
+    },
+    "O": {
+      "tag": "forge:dusts/redstone"
+    }
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "inventorypets"
+    }
+  ]
+}

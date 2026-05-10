@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "inventorypets:pet_moon"
+  },
+  "pattern": [
+    "OFO",
+    "ODO",
+    "OGO"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "tag": "forge:gems/emerald"
+    },
+    "F": {
+      "item": "inventorypets:nugget_diamond"
+    },
+    "G": {
+      "tag": "forge:gems/diamond"
+    },
+    "O": {
+      "tag": "forge:gems/quartz"
+    }
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "inventorypets"
+    }
+  ]
+}

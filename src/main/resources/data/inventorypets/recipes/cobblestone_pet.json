@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "inventorypets:pet_cobblestone"
+  },
+  "pattern": [
+    "OFO",
+    "ODO",
+    "OGO"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "F": {
+      "item": "minecraft:dirt"
+    },
+    "G": {
+      "tag": "forge:gems/gold"
+    },
+    "O": {
+      "tag": "forge:cobblestone"
+    }
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "inventorypets"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "inventorypets:pet_flying_saddle"
+  },
+  "pattern": [
+    "OFO",
+    "FDF",
+    "OFO"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "O": {
+      "tag": "forge:gems/diamond"
+    },
+    "F": {
+      "tag": "forge:gems/diamond"
+    },
+    "D": {
+      "item": "inventorypets:pet_saddle"
+    }
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "inventorypets"
+    }
+  ]
+}

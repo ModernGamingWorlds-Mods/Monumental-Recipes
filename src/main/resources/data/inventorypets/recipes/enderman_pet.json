@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "inventorypets:pet_enderman"
+  },
+  "pattern": [
+    "OFO",
+    "ODO",
+    "OGO"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "F": {
+      "item": "inventorypets:nugget_obsidian"
+    },
+    "G": {
+      "item": "forge:ingots/gold"
+    },
+    "O": {
+      "item": "inventorypets:nugget_coal"
+    }
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "inventorypets"
+    }
+  ]
+}

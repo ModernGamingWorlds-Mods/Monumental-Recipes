@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"result": {
+        "item": "inventorypets:pet_meta"
+    },
+	"ingredients": [
+		{
+			"tag": "inventorypets:all_pets"
+		},
+		{
+			"tag": "inventorypets:all_pets"
+		},
+		{
+			"tag": "inventorypets:all_pets"
+		}
+	]
+}
+  
+
+
+  
+

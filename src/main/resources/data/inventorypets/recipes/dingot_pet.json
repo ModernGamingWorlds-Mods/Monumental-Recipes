@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "inventorypets:pet_dingot"
+  },
+  "pattern": [
+    "OFO",
+    "ONO",
+    "OGO"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "F": {
+      "tag": "forge:ingots/copper"
+    },
+    "G": {
+      "item": "inventorypets:pet_pingot"
+    },
+    "N": {
+      "item": "inventorypets:pet_biome"
+    },
+    "O": {
+      "tag": "forge:gems/diamond"
+    }
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "inventorypets"
+    }
+  ]
+}
