@@ -1,0 +1,28 @@
+{
+  "type": "ad_astra_giselle_addon:can_upgrading",
+  "result": {
+    "item": "ad_astra_giselle_addon:netherite_oxygen_can"
+  },
+  "pattern": [
+    " N ",
+    "OCO",
+    "OOO"
+  ],
+  "key": {
+    "N": {
+      "tag": "forge:ingots/netherite"
+    },
+    "O": {
+      "tag": "ad_astra:ostrum_plates"
+    },
+    "C": {
+      "item": "ad_astra_giselle_addon:oxygen_can"
+    }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra_giselle_addon"
+    }
+  ]
+}

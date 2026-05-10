@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "ad_astra_giselle_addon:fuel_loader"
+  },
+  "pattern": [
+    "SSS",
+    "PBP",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:plates/steel"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "B": {
+      "tag": "forge:buckets/empty"
+    }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra_giselle_addon"
+    }
+  ]
+}

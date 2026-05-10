@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra_giselle_addon"
+    }
+  ],
+  "result": {
+    "item": "ad_astra_giselle_addon:automation_nasa_workbench"
+  },
+  "pattern": [
+    "SHS",
+    "RNR",
+    "SHS"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:plates/steel"
+    },
+    "H": {
+      "tag": "monumental_recipes:hoppers"
+    },
+    "R": {
+      "tag": "forge:dusts/redstone"
+    },
+    "N": {
+      "item": "ad_astra:nasa_workbench"
+    }
+  }
+}
