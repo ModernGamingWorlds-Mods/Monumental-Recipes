@@ -18,8 +18,10 @@
     { "item": "minecraft:prismarine_shard" },
     { "item": "minecraft:prismarine_shard" }
   ],
-  "reagent": {
+  "reagent": [
+  {
     "item": "minecraft:soul_sand"
-  },
+  }
+  ],
   "sourceCost": 0
 }
