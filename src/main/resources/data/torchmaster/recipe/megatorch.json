@@ -21,8 +21,7 @@
   ],
   "result": {
     "id": "torchmaster:megatorch"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

@@ -18,8 +18,7 @@
   ],
   "result": {
     "id": "torchmaster:feral_flare_lantern"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
