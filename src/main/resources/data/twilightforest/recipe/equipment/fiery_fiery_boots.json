@@ -10,7 +10,7 @@
     "id": "twilightforest:fiery_boots"
   },
   "template": {
-    "tag": "forge:plates/netherite"
+    "tag": "c:plates/netherite"
   },
   "neoforge:conditions": [
     {
