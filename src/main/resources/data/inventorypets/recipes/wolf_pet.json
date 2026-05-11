@@ -16,7 +16,7 @@
       "item": "minecraft:beef"
     },
     "G": {
-      "tag": "forge:ingot/gold"
+      "tag": "forge:ingots/gold"
     },
     "O": {
       "tag": "forge:nuggets/iron"
