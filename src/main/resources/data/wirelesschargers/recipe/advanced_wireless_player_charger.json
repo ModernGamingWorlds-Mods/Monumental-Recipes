@@ -1,31 +1,38 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [" A ", "BCB", "DED"],
-    "key": {
-        "A": {
-            "tag": "c:ingots/refined_glowstone"
-        },
-        "B": {
-            "tag": "c:plates/gold"
-        },
-        "C": {
-            "item": "wirelesschargers:basic_wireless_player_charger"
-        },
-        "D": {
-            "item": "ars_nouveau:blaze_fiber"
-        },
-        "E": {
-            "tag": "c:storage_blocks/redstone_ingot"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:ingots/refined_glowstone"
     },
-    "result": {
-        "id": "wirelesschargers:advanced_wireless_player_charger"
+    "B": {
+      "tag": "c:plates/gold"
     },
-    "neoforge:conditions": [{
-        "type": "neoforge:mod_loaded",
-        "modid": "wirelesschargers"
-    }, {
-        "type": "neoforge:item_exists",
-        "item": "ars_nouveau:blaze_fiber"
-    }]
+    "C": {
+      "item": "wirelesschargers:basic_wireless_player_charger"
+    },
+    "D": {
+      "item": "ars_nouveau:blaze_fiber"
+    },
+    "E": {
+      "tag": "c:storage_blocks/redstone_ingot"
+    }
+  },
+  "result": {
+    "id": "wirelesschargers:advanced_wireless_player_charger"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "wirelesschargers"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "ars_nouveau:blaze_fiber"
+    }
+  ]
 }

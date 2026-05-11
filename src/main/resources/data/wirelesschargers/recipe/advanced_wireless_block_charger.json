@@ -7,10 +7,10 @@
   ],
   "key": {
     "A": {
-      "tag": "forge:ingots/refined_glowstone"
+      "tag": "c:ingots/refined_glowstone"
     },
     "B": {
-      "tag": "forge:ingots/compressed_iron"
+      "tag": "c:ingots/compressed_iron"
     },
     "C": {
       "item": "wirelesschargers:basic_wireless_block_charger"
@@ -19,17 +19,20 @@
       "item": "ars_nouveau:blaze_fiber"
     },
     "E": {
-      "tag": "forge:storage_blocks/redstone_ingot"
+      "tag": "c:storage_blocks/redstone_ingot"
     }
   },
   "result": {
     "item": "wirelesschargers:advanced_wireless_block_charger"
   },
-    "neoforge:conditions": [{
-        "type": "neoforge:mod_loaded",
-        "modid": "wirelesschargers"
-    }, {
-        "type": "neoforge:item_exists",
-        "item": "ars_nouveau:blaze_fiber"
-    }]
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "wirelesschargers"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "ars_nouveau:blaze_fiber"
+    }
+  ]
 }
