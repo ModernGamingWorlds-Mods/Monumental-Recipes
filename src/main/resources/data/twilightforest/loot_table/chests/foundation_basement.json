@@ -142,7 +142,13 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "mysticalagriculture:zombie_essence"
+          "name": "mysticalagriculture:zombie_essence",
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -262,11 +268,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "twilightforest:chests/foundation_basement",
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "twilightforest"
-    }
-  ]
+  "random_sequence": "twilightforest:chests/foundation_basement"
 }

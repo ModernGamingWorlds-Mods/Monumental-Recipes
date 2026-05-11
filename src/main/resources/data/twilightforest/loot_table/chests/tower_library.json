@@ -82,7 +82,13 @@
             }
           ],
           "name": "mysticalagriculture:skeleton_essence",
-          "weight": 75
+          "weight": 75,
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -349,7 +355,13 @@
             }
           ],
           "name": "mysticalagriculture:enderman_essence",
-          "weight": 25
+          "weight": 25,
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -371,11 +383,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "twilightforest:chests/tower_library",
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "twilightforest"
-    }
-  ]
+  "random_sequence": "twilightforest:chests/tower_library"
 }

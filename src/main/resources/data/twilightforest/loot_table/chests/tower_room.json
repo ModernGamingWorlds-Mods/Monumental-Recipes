@@ -71,7 +71,13 @@
         {
           "type": "minecraft:item",
           "name": "mysticalagriculture:ghast_essence",
-          "weight": 75
+          "weight": 75,
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -313,12 +319,24 @@
         {
           "type": "minecraft:item",
           "name": "mysticalagriculture:enderman_essence",
-          "weight": 25
+          "weight": 25,
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "name": "mysticalagriculture:diamond_essence",
-          "weight": 25
+          "weight": 25,
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -344,17 +362,17 @@
             }
           ],
           "name": "mysticalagriculture:obsidian_essence",
-          "weight": 25
+          "weight": 25,
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "twilightforest:chests/tower_room",
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "twilightforest"
-    }
-  ]
+  "random_sequence": "twilightforest:chests/tower_room"
 }

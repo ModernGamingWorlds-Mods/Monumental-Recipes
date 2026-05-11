@@ -62,7 +62,13 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "mysticalagriculture:nature_essence"
+          "name": "mysticalagriculture:nature_essence",
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -144,11 +150,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "twilightforest:chests/troll_garden",
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "twilightforest"
-    }
-  ]
+  "random_sequence": "twilightforest:chests/troll_garden"
 }

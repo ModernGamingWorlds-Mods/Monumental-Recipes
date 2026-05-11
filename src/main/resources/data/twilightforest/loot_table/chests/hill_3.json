@@ -122,7 +122,13 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "mysticalagriculture:creeper_essence"
+          "name": "mysticalagriculture:creeper_essence",
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -203,7 +209,13 @@
             }
           ],
           "name": "mysticalagriculture:diamond_essence",
-          "weight": 25
+          "weight": 25,
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -234,11 +246,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "twilightforest:chests/hill_3",
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "twilightforest"
-    }
-  ]
+  "random_sequence": "twilightforest:chests/hill_3"
 }

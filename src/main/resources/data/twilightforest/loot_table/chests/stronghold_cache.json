@@ -32,7 +32,13 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "mysticalagriculture:coal_essence"
+          "name": "mysticalagriculture:coal_essence",
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -85,7 +91,13 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "mysticalagriculture:iron_essence"
+          "name": "mysticalagriculture:iron_essence",
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         }
       ],
       "rolls": 4.0
@@ -110,7 +122,13 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "mysticalagriculture:iron_essence"
+          "name": "mysticalagriculture:iron_essence",
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -346,11 +364,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "twilightforest:chests/stronghold_cache",
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "twilightforest"
-    }
-  ]
+  "random_sequence": "twilightforest:chests/stronghold_cache"
 }

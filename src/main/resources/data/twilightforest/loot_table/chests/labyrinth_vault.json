@@ -17,7 +17,13 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "mysticalagriculture:iron_essence"
+          "name": "mysticalagriculture:iron_essence",
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -32,7 +38,13 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "mysticalagriculture:emerald_essence"
+          "name": "mysticalagriculture:emerald_essence",
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -298,11 +310,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "twilightforest:chests/labyrinth_vault",
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "twilightforest"
-    }
-  ]
+  "random_sequence": "twilightforest:chests/labyrinth_vault"
 }

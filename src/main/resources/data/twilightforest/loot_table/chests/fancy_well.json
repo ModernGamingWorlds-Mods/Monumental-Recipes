@@ -47,7 +47,13 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "mysticalagriculture:spider_essence"
+          "name": "mysticalagriculture:spider_essence",
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -110,7 +116,13 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "mysticalagriculture:iron_essence"
+          "name": "mysticalagriculture:iron_essence",
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -125,7 +137,13 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "mysticalagriculture:gold_essence"
+          "name": "mysticalagriculture:gold_essence",
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -140,7 +158,13 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "mysticalagriculture:copper_essence"
+          "name": "mysticalagriculture:copper_essence",
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         }
       ],
       "rolls": 2.0
@@ -188,7 +212,13 @@
             }
           ],
           "name": "mysticalagriculture:emerald_essence",
-          "weight": 25
+          "weight": 25,
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -204,7 +234,13 @@
             }
           ],
           "name": "mysticalagriculture:diamond_essence",
-          "weight": 25
+          "weight": 25,
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -231,11 +267,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "twilightforest:chests/fancy_well",
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "twilightforest"
-    }
-  ]
+  "random_sequence": "twilightforest:chests/fancy_well"
 }

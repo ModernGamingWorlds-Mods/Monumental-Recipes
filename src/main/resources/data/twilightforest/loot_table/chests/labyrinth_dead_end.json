@@ -39,7 +39,13 @@
             }
           ],
           "name": "mysticalagriculture:coal_essence",
-          "weight": 75
+          "weight": 75,
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -108,7 +114,13 @@
             }
           ],
           "name": "mysticalagriculture:cow_essence",
-          "weight": 75
+          "weight": 75,
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         }
       ],
       "rolls": 4.0
@@ -148,7 +160,13 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "mysticalagriculture:iron_essence"
+          "name": "mysticalagriculture:iron_essence",
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -211,7 +229,13 @@
         },
         {
           "type": "minecraft:item",
-          "name": "mysticalagriculture:blaze_essence"
+          "name": "mysticalagriculture:blaze_essence",
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -244,11 +268,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "twilightforest:chests/labyrinth_dead_end",
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "twilightforest"
-    }
-  ]
+  "random_sequence": "twilightforest:chests/labyrinth_dead_end"
 }
