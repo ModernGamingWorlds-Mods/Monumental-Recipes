@@ -21,8 +21,7 @@
   ],
   "result": {
     "id": "shrink:shrinking_device"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

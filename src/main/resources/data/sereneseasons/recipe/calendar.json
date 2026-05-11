@@ -1,5 +1,5 @@
 {
-  "type": "crafting_shaped",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "PPP",
     "PCP",
@@ -10,7 +10,7 @@
       "item": "minecraft:paper"
     },
     "C": {
-      "tag": "c:clocks"
+      "item": "minecraft:clock"
     }
   },
   "result": {
