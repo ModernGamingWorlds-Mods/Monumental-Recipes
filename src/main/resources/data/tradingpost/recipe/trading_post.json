@@ -18,8 +18,7 @@
   ],
   "result": {
     "id": "tradingpost:trading_post"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
