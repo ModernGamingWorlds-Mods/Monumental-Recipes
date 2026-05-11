@@ -5,7 +5,8 @@
       "item": "rftoolsutility:module_template"
     },
     "S": {
-      "item": "rftoolsutility:syringe"
+      "item": "rftoolsutility:syringe",
+	  "nbt": "{mob:\"minecraft:turtle\",level:10}"
     },
     "f": {
       "item": "mysticalagriculture:spider_essence"
