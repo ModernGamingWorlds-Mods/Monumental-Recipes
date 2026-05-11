@@ -3,6 +3,14 @@
     {
       "type": "sophisticatedcore:item_enabled",
       "itemRegistryName": "sophisticatedbackpacks:magnet_upgrade"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "sophisticatedbackpacks"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
     }
   ],
   "type": "sophisticatedcore:upgrade_next_tier",
@@ -33,15 +41,4 @@
     "count": 1,
     "id": "sophisticatedbackpacks:magnet_upgrade"
   }
-},
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "sophisticatedbackpacks"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
-    }
-  ]
 }

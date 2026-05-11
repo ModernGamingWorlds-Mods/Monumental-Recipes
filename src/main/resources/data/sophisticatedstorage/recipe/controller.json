@@ -21,8 +21,7 @@
   ],
   "result": {
     "id": "sophisticatedstorage:controller"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

@@ -18,8 +18,7 @@
   ],
   "result": {
     "id": "sophisticatedstorage:upgrade_base"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
