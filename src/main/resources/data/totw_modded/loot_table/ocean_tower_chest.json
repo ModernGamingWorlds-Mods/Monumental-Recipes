@@ -21,7 +21,13 @@
               }
             }
           ],
-          "name": "mysticalagriculture:iron_essence"
+          "name": "mysticalagriculture:iron_essence",
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -36,7 +42,13 @@
               }
             }
           ],
-          "name": "mysticalagriculture:prismarine_essence"
+          "name": "mysticalagriculture:prismarine_essence",
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -51,7 +63,13 @@
               }
             }
           ],
-          "name": "mysticalagriculture:emerald_essence"
+          "name": "mysticalagriculture:emerald_essence",
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -71,7 +89,13 @@
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "mysticalagriculture:enderman_essence"
+          "name": "mysticalagriculture:enderman_essence",
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -117,12 +141,6 @@
           "name": "minecraft:map"
         }
       ]
-    }
-  ],
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "totw_modded"
     }
   ]
 }
