@@ -1,34 +1,53 @@
 {
-    "type": "create:mixing",
-    "heat_requirement": "heated",
-    "ingredients": [{
-        "item": "kubejs:clay_plate"
-    }, {
-        "tag": "c:sands"
-    }, {
-        "tag": "c:sands"
-    }, {
-        "tag": "c:sands"
-    }, {
-        "tag": "c:sands"
-    }, {
-        "tag": "c:gravels"
-    }, {
-        "tag": "c:gravels"
-    }, {
-        "tag": "c:gravels"
-    }, {
-        "tag": "c:gravels"
-    }],
-    "results": [{
-        "id": "tconstruct:grout",
-        "count": 8
-    }],
-    "neoforge:conditions": [{
-        "type": "neoforge:mod_loaded",
-        "modid": "tconstruct"
-    }, {
-        "type": "neoforge:item_exists",
-        "item": "kubejs:clay_plate"
-    }]
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "kubejs:clay_plate"
+    },
+    {
+      "tag": "c:sands"
+    },
+    {
+      "tag": "c:sands"
+    },
+    {
+      "tag": "c:sands"
+    },
+    {
+      "tag": "c:sands"
+    },
+    {
+      "tag": "c:gravels"
+    },
+    {
+      "tag": "c:gravels"
+    },
+    {
+      "tag": "c:gravels"
+    },
+    {
+      "tag": "c:gravels"
+    }
+  ],
+  "results": [
+    {
+      "id": "tconstruct:grout",
+      "count": 8
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "kubejs:clay_plate"
+    }
+  ]
 }
