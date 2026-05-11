@@ -27,15 +27,11 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "neoforge:mod_loaded",
       "modid": "computercraft"
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "thermal"
+      "modid": "extendedcrafting"
     }
   ]
 }
