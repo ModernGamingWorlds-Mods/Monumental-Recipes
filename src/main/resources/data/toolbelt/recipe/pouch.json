@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "W": {
-      "tag": "c:string"
+      "tag": "c:strings"
     },
     "G": {
       "tag": "c:leathers"
