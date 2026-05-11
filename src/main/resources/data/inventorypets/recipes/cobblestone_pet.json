@@ -16,7 +16,7 @@
       "item": "minecraft:dirt"
     },
     "G": {
-      "tag": "forge:gems/gold"
+      "tag": "forge:ingots/gold"
     },
     "O": {
       "tag": "forge:cobblestone"
