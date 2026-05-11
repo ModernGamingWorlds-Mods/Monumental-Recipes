@@ -15,8 +15,7 @@
   },
   "result": {
     "id": "structurize:sceptergold"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

@@ -9,14 +9,13 @@
     "A": {
       "tag": "c:ingots/iron"
     },
-    "S": {
+    "B": {
       "tag": "c:rods/wooden"
     }
   },
   "result": {
     "id": "structurize:sceptersteel"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
