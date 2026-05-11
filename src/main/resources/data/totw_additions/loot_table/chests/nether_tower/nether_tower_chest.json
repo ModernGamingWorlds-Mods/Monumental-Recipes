@@ -35,6 +35,12 @@
                 "max": 2
               }
             }
+          ],
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
           ]
         },
         {
@@ -60,6 +66,12 @@
                 "max": 10
               }
             }
+          ],
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
           ]
         },
         {
@@ -73,6 +85,12 @@
                 "min": 4,
                 "max": 12
               }
+            }
+          ],
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
             }
           ]
         },
@@ -146,12 +164,6 @@
           "weight": 20
         }
       ]
-    }
-  ],
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "totw_additions"
     }
   ]
 }
