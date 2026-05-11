@@ -22,8 +22,7 @@
   "result": {
     "count": 1,
     "id": "rftoolspower:cell3"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
@@ -32,6 +31,10 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
     }
   ]
 }

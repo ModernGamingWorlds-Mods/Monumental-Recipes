@@ -28,8 +28,7 @@
   "result": {
     "count": 1,
     "id": "rftoolspower:power_core3"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
@@ -42,6 +41,10 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "actuallyadditions"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
     }
   ]
 }

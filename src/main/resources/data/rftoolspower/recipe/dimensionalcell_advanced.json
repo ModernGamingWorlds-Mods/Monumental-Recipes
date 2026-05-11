@@ -18,8 +18,7 @@
   ],
   "result": {
     "id": "rftoolspower:dimensionalcell_advanced"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

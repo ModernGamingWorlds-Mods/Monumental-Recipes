@@ -21,8 +21,7 @@
   ],
   "result": {
     "id": "rftoolspower:dimensionalcell_simple"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

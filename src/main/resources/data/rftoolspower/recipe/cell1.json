@@ -22,8 +22,7 @@
   "result": {
     "count": 1,
     "id": "rftoolspower:cell1"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
@@ -36,6 +35,10 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "rftoolsbase"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
     }
   ]
 }
