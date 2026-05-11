@@ -16,6 +16,12 @@
                 "max": 30
               }
             }
+          ],
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
           ]
         }
       ]
@@ -35,6 +41,12 @@
                 "max": 15
               }
             }
+          ],
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
           ]
         }
       ]
@@ -53,6 +65,12 @@
                 "min": 15,
                 "max": 25
               }
+            }
+          ],
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
             }
           ]
         }
@@ -92,6 +110,12 @@
                 "max": 64
               }
             }
+          ],
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
           ]
         }
       ]
@@ -130,11 +154,5 @@
       ]
     }
   ],
-  "random_sequence": "undead_revamp2:entities/deadclogger",
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "undead_revamp2"
-    }
-  ]
+  "random_sequence": "undead_revamp2:entities/deadclogger"
 }

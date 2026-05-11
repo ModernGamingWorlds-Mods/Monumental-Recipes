@@ -16,6 +16,12 @@
                 "max": 2
               }
             }
+          ],
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
           ]
         },
         {
@@ -35,11 +41,5 @@
       ]
     }
   ],
-  "random_sequence": "undead_revamp2:entities/thespitter",
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "undead_revamp2"
-    }
-  ]
+  "random_sequence": "undead_revamp2:entities/thespitter"
 }

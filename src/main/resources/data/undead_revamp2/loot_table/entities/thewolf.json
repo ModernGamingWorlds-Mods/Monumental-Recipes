@@ -16,6 +16,12 @@
                 "max": 2
               }
             }
+          ],
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
           ]
         },
         {
@@ -29,6 +35,12 @@
                 "min": 1,
                 "max": 2
               }
+            }
+          ],
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
             }
           ]
         }
@@ -63,16 +75,16 @@
                 "max": 3
               }
             }
+          ],
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
           ]
         }
       ]
     }
   ],
-  "random_sequence": "undead_revamp2:entities/thewolf",
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "undead_revamp2"
-    }
-  ]
+  "random_sequence": "undead_revamp2:entities/thewolf"
 }

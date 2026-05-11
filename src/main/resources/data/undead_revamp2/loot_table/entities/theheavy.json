@@ -16,6 +16,12 @@
                 "max": 5
               }
             }
+          ],
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
           ]
         }
       ]
@@ -34,6 +40,12 @@
                 "min": 4,
                 "max": 7
               }
+            }
+          ],
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
             }
           ]
         },
@@ -106,11 +118,5 @@
       ]
     }
   ],
-  "random_sequence": "undead_revamp2:entities/theheavy",
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "undead_revamp2"
-    }
-  ]
+  "random_sequence": "undead_revamp2:entities/theheavy"
 }

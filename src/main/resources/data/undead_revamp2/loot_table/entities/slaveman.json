@@ -16,6 +16,12 @@
                 "max": 6
               }
             }
+          ],
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
           ]
         }
       ]
@@ -34,6 +40,12 @@
                 "min": 2,
                 "max": 5
               }
+            }
+          ],
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
             }
           ]
         }
@@ -67,6 +79,12 @@
                 "min": 1,
                 "max": 4
               }
+            }
+          ],
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
             }
           ]
         },
@@ -115,16 +133,16 @@
                 "max": 2
               }
             }
+          ],
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "mysticalagriculture"
+            }
           ]
         }
       ]
     }
   ],
-  "random_sequence": "undead_revamp2:entities/slaveman",
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "undead_revamp2"
-    }
-  ]
+  "random_sequence": "undead_revamp2:entities/slaveman"
 }
