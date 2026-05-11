@@ -1,31 +1,40 @@
 {
-    "type":"immersiveengineering:sawmill",
-    "energy":1600,
-    "input":
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": {
+    "item": "farmersdelight:birch_cabinet"
+  },
+  "result": {
+    "count": 3,
+    "item": "minecraft:birch_slab"
+  },
+  "secondaries": [
     {
-        "item":"farmersdelight:birch_cabinet"
+      "output": {
+        "item": "thermal:sawdust"
+      },
+      "stripping": false
     },
-    "result":
     {
-        "count":3,
-        "item":"minecraft:birch_slab"
+      "output": {
+        "count": 1,
+        "item": "minecraft:birch_trapdoor"
+      },
+      "stripping": false
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
     },
-    "secondaries":
-    [
-        {
-            "output":
-            {
-                "item":"thermal:sawdust"
-            },
-            "stripping":false
-        },
-        {
-            "output":
-            {
-                "count":1,
-                "item":"minecraft:birch_trapdoor"
-            },
-            "stripping":false
-        }
-    ]
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
 }
