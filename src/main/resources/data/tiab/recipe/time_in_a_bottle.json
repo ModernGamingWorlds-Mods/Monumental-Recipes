@@ -31,7 +31,7 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "undergarden"
+      "modid": "tiab"
     },
     {
       "type": "neoforge:mod_loaded",
@@ -40,6 +40,10 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "tombstone"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental_recipes"
     }
   ]
 }
