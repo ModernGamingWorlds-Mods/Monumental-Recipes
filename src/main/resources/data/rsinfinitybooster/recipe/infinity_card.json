@@ -6,7 +6,7 @@
       "item": "minecraft:ender_eye"
     },
     "N": {
-      "item": "c:ingots/netherite"
+      "tag": "c:ingots/netherite"
     },
     "R": {
       "item": "refinedstorage:range_upgrade"

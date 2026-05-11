@@ -21,8 +21,7 @@
   ],
   "result": {
     "id": "rftoolsutility:crafter2"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

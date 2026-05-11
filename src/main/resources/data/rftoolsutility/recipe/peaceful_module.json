@@ -23,8 +23,7 @@
   "result": {
     "id": "rftoolsutility:peaceful_module"
   },
-  "syringe": 1
-},
+  "syringe": 1,
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

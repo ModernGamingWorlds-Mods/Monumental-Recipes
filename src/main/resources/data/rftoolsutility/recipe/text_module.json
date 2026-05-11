@@ -21,8 +21,7 @@
   ],
   "result": {
     "id": "rftoolsutility:text_module"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

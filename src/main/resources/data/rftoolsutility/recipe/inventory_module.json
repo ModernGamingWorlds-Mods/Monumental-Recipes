@@ -21,8 +21,7 @@
   ],
   "result": {
     "id": "rftoolsutility:inventory_module"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

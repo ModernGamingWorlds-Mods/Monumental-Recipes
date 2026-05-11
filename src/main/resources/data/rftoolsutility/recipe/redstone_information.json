@@ -18,8 +18,7 @@
   ],
   "result": {
     "id": "rftoolsutility:redstone_information"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

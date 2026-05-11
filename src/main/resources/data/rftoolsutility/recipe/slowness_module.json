@@ -20,8 +20,7 @@
   "result": {
     "id": "rftoolsutility:slowness_module"
   },
-  "syringe": 1
-},
+  "syringe": 1,
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
