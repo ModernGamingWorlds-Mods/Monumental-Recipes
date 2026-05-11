@@ -6,16 +6,16 @@
       "item": "thermal:rf_coil"
     },
     "I": {
-      "tag": "forge:plates/steel"
+      "tag": "c:plates/steel"
     },
     "X": {
       "item": "extendedcrafting:redstone_component"
     },
     "Y": {
-      "tag": "forge:gears/constantan"
+      "tag": "c:gears/constantan"
     },
     "G": {
-      "tag": "forge:gears/bronze"
+      "tag": "c:gears/bronze"
     }
   },
   "pattern": [
@@ -33,6 +33,14 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "thermal"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
     }
   ]
 }

@@ -5,6 +5,10 @@
       "modid": "thermal"
     },
     {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
       "type": "neoforge:registered",
       "registry": "minecraft:item",
       "value": "extendedcrafting:black_iron_ingot"

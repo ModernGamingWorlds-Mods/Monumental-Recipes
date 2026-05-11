@@ -6,7 +6,7 @@
       "item": "thermal:machine_frame"
     },
     "I": {
-      "tag": "cc:gears/constantan"
+      "tag": "c:gears/constantan"
     },
     "P": {
       "item": "thermal:rf_coil"

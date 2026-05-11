@@ -16,7 +16,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "P": {
-      "tag": "forge:gems/lapis"
+      "tag": "c:gems/lapis"
     },
     "X": {
       "item": "create:andesite_alloy"

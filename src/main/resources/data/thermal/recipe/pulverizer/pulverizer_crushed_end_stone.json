@@ -5,6 +5,10 @@
       "modid": "thermal"
     },
     {
+      "type": "neoforge:mod_loaded",
+      "modid": "occultism"
+    },
+    {
       "type": "neoforge:registered",
       "registry": "minecraft:item",
       "value": "occultism:crushed_end_stone"

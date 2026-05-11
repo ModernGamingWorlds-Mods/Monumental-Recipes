@@ -44,6 +44,10 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "ad_astra"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
     }
   ]
 }

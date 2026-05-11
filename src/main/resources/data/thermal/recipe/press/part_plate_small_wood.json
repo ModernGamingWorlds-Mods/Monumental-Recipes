@@ -1,20 +1,33 @@
 {
-    "type": "thermal:press",
-    "ingredients": [{
-        "tag": "monumental_recipes:wooden_plates",
-        "count": 4
-    }, {
-        "item": "thermal:press_packing_2x2_die"
-    }],
-    "result": [{
-        "id": "kubejs:part_plate_small_wood",
-        "count": 2
-    }],
-    "energy": 2400,
-    "neoforge:conditions": [
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "tag": "monumental_recipes:wooden_plates",
+      "count": 4
+    },
+    {
+      "item": "thermal:press_packing_2x2_die"
+    }
+  ],
+  "result": [
+    {
+      "id": "kubejs:part_plate_small_wood",
+      "count": 2
+    }
+  ],
+  "energy": 2400,
+  "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "thermal"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental_recipes"
     },
     {
       "type": "neoforge:registered",

@@ -16,7 +16,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "P": {
-      "tag": "forge:gems/quartz"
+      "tag": "c:gems/quartz"
     },
     "X": {
       "item": "create:andesite_alloy"
