@@ -29,5 +29,13 @@
       "type": "neoforge:mod_loaded",
       "modid": "twilightdelight"
     },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
+    }
   ]
 }
