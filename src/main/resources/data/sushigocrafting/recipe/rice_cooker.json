@@ -1,28 +1,33 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "category": "misc",
-    "key": {
-        "F": {
-            "tag": "c:furnaces"
-        },
-        "G": {
-            "item": "minecraft:light_weighted_pressure_plate"
-        },
-        "I": {
-            "tag": "c:ingots/iron"
-        },
-        "R": {
-            "tag": "c:dusts/redstone"
-        }
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "tag": "c:player_workstations/furnaces"
     },
-    "pattern": ["IGI", "IFI", "IRI"],
-    "result": {
-        "id": "sushigocrafting:rice_cooker"
+    "G": {
+      "item": "minecraft:light_weighted_pressure_plate"
     },
-    "show_notification": true
-}
-}], "neoforge:conditions": [{
-    "type": "neoforge:mod_loaded",
-    "modid": "sushigocrafting"
-}]
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    }
+  },
+  "pattern": [
+    "IGI",
+    "IFI",
+    "IRI"
+  ],
+  "result": {
+    "id": "sushigocrafting:rice_cooker"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "sushigocrafting"
+    }
+  ]
 }

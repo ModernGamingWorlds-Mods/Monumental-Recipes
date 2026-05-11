@@ -1,22 +1,27 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "category": "misc",
-    "key": {
-        "B": {
-            "item": "minecraft:bamboo"
-        },
-        "S": {
-            "tag": "c:strings"
-        }
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bamboo"
     },
-    "pattern": ["BBB", "SSS", "BBB"],
-    "result": {
-        "id": "sushigocrafting:roller"
-    },
-    "show_notification": true
-}
-}], "neoforge:conditions": [{
-    "type": "neoforge:mod_loaded",
-    "modid": "sushigocrafting"
-}]
+    "S": {
+      "tag": "c:strings"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "SSS",
+    "BBB"
+  ],
+  "result": {
+    "id": "sushigocrafting:roller"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "sushigocrafting"
+    }
+  ]
 }
