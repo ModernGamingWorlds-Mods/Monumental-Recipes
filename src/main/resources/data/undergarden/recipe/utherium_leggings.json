@@ -11,8 +11,7 @@
   },
   "template": {
     "tag": "c:plates/netherite"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

@@ -11,8 +11,7 @@
   },
   "template": {
     "tag": "c:plates/iron"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

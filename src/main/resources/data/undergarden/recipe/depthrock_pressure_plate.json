@@ -5,7 +5,7 @@
       "item": "undergarden:depthrock"
     },
     "B": {
-      "tag": "monumental_recipestools/hammers"
+      "tag": "monumental_recipes:tools/hammers"
     }
   },
   "pattern": [
@@ -15,12 +15,15 @@
   ],
   "result": {
     "id": "undergarden:depthrock_pressure_plate"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "undergarden"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental_recipes"
     }
   ]
 }
