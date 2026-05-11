@@ -22,6 +22,10 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "toms_storage"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental_recipes"
     }
   ]
 }
