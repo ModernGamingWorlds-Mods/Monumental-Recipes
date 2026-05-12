@@ -1,14 +1,4 @@
 {
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "enderio"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "forbidden_arcanus"
-    }
-  ],
   "type": "minecraft:crafting_shaped",
   "pattern": [
     " S ",
@@ -23,5 +13,15 @@
   "result": {
     "id": "enderio:broken_spawner",
     "count": 1
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enderio"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
+  ]
 }
