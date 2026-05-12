@@ -1,25 +1,38 @@
 {
   "type": "minecraft:crafting_shaped",
-  "key": {
-    "A": {
-      "item": "meadow:pine_planks"
-    },
-    "B": {
-      "tag": "monumental_recipes:tools/hammers"
-    }
-  },
   "pattern": [
-    " A ",
-    " A ",
-    " B "
+    " G ",
+    "GIY",
+    " GY"
   ],
+  "key": {
+    "I": [
+      {
+        "tag": "c:plates/iron"
+      }
+    ],
+    "Y": [
+      {
+        "tag": "chipped:yellow_wool"
+      }
+    ],
+    "G": [
+      {
+        "tag": "c:strings"
+      }
+    ]
+  },
   "result": {
-    "id": "meadow:pine_pressure_plate"
+    "id": "measurements:tape_measure"
   },
   "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "meadow"
+      "type": "neoforge:mod_loaded",
+      "modid": "measurements"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chipped"
     }
   ]
 }
