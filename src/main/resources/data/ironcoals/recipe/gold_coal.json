@@ -14,5 +14,15 @@
       "id": "ironcoals:gold_coal",
       "count": 2
     }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ironcoals"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
   ]
 }

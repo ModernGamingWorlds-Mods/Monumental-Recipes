@@ -25,5 +25,15 @@
   "result": {
     "count": 1,
     "id": "ironcoals:aeon_coal"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ironcoals"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
 }
