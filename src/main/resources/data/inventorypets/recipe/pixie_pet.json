@@ -1,39 +1,34 @@
 {
   "result": {
-    "item": "inventorypets:pet_enchanting_table"
+    "item": "inventorypets:pet_pixie"
   },
   "pattern": [
     "OFO",
-    "ODO",
+    "EDE",
     "OGO"
   ],
   "type": "minecraft:crafting_shaped",
   "key": {
     "D": {
-      "tag": "c:gems/mana_diamond"
+      "tag": "c:gems/diamond"
+    },
+    "E": {
+      "tag": "c:gems/emerald"
     },
     "F": {
-      "item": "reliquary:magicbane"
+      "item": "inventorypets:nugget_emerald"
     },
     "G": {
       "tag": "c:ingots/gold"
     },
     "O": {
-      "item": "compressium:obsidian_2"
+      "tag": "c:ingots/gold"
     }
   },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "inventorypets"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "compressium"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "reliquary"
     }
   ]
 }

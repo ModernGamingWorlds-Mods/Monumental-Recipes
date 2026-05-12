@@ -1,6 +1,6 @@
 {
   "result": {
-    "item": "inventorypets:pet_cloud"
+    "item": "inventorypets:pet_dubstep"
   },
   "pattern": [
     "OFO",
@@ -10,16 +10,16 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "D": {
-      "tag": "c:nether_stars"
+      "tag": "c:gems/emerald"
     },
     "F": {
-      "tag": "c:gems/quartz"
+      "item": "minecraft:note_block"
     },
     "G": {
-      "tag": "c:gems/mana_diamond"
+      "tag": "c:gems/diamond"
     },
     "O": {
-      "tag": "c:ingots/compressed_iron"
+      "item": "inventorypets:nugget_coal"
     }
   },
   "neoforge:conditions": [

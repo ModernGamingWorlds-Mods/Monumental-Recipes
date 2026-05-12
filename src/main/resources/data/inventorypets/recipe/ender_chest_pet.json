@@ -1,25 +1,22 @@
 {
   "result": {
-    "item": "inventorypets:pet_cloud"
+    "item": "inventorypets:pet_ender_chest"
   },
   "pattern": [
-    "OFO",
+    "OOO",
     "ODO",
     "OGO"
   ],
   "type": "minecraft:crafting_shaped",
   "key": {
     "D": {
-      "tag": "c:nether_stars"
-    },
-    "F": {
-      "tag": "c:gems/quartz"
+      "tag": "c:gems/diamond"
     },
     "G": {
-      "tag": "c:gems/mana_diamond"
+      "tag": "c:ingots/gold"
     },
     "O": {
-      "tag": "c:ingots/compressed_iron"
+      "item": "inventorypets:nugget_ender"
     }
   },
   "neoforge:conditions": [

@@ -1,0 +1,46 @@
+{
+  "result": {
+    "item": "inventorypets:pet_biome"
+  },
+  "pattern": [
+    "IFA",
+    "RDN",
+    "TGL"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "c:sand"
+    },
+    "R": {
+      "tag": "c:gravel"
+    },
+    "T": {
+      "tag": "c:cobblestone"
+    },
+    "D": {
+      "tag": "c:gems/diamond"
+    },
+    "F": {
+      "item": "minecraft:grass_block"
+    },
+    "G": {
+      "tag": "c:ingots/gold"
+    },
+    "I": {
+      "tag": "minecraft:dirt"
+    },
+    "L": {
+      "tag": "c:storage_blocks/clay"
+    },
+    "N": {
+      "item": "minecraft:snowball"
+    }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "inventorypets"
+    }
+  ]
+}

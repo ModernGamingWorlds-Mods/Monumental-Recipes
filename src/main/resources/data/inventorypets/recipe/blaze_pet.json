@@ -1,25 +1,25 @@
 {
   "result": {
-    "item": "inventorypets:pet_cloud"
+    "item": "inventorypets:pet_blaze"
   },
   "pattern": [
     "OFO",
-    "ODO",
+    "ONO",
     "OGO"
   ],
   "type": "minecraft:crafting_shaped",
   "key": {
-    "D": {
-      "tag": "c:nether_stars"
-    },
     "F": {
       "tag": "c:gems/quartz"
     },
     "G": {
-      "tag": "c:gems/mana_diamond"
+      "tag": "c:ingots/gold"
+    },
+    "N": {
+      "tag": "c:gems/diamond"
     },
     "O": {
-      "tag": "c:ingots/compressed_iron"
+      "tag": "c:nuggets/gold"
     }
   },
   "neoforge:conditions": [

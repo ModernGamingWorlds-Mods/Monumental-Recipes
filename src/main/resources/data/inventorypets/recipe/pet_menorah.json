@@ -1,39 +1,34 @@
 {
   "result": {
-    "item": "inventorypets:pet_enchanting_table"
+    "item": "inventorypets:pet_menorah"
   },
   "pattern": [
-    "OFO",
+    "TFT",
     "ODO",
     "OGO"
   ],
   "type": "minecraft:crafting_shaped",
   "key": {
+    "T": {
+      "item": "inventorypets:nugget_lapis"
+    },
     "D": {
-      "tag": "c:gems/mana_diamond"
+      "tag": "c:gems/diamond"
     },
     "F": {
-      "item": "reliquary:magicbane"
+      "tag": "c:gems/lapis"
     },
     "G": {
       "tag": "c:ingots/gold"
     },
     "O": {
-      "item": "compressium:obsidian_2"
+      "tag": "c:nuggets/gold"
     }
   },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "inventorypets"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "compressium"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "reliquary"
     }
   ]
 }

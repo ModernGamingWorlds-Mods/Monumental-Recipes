@@ -1,25 +1,25 @@
 {
   "result": {
-    "item": "inventorypets:pet_cloud"
+    "item": "inventorypets:pet_wither"
   },
   "pattern": [
     "OFO",
-    "ODO",
+    "ONO",
     "OGO"
   ],
   "type": "minecraft:crafting_shaped",
   "key": {
-    "D": {
-      "tag": "c:nether_stars"
-    },
     "F": {
-      "tag": "c:gems/quartz"
+      "item": "minecraft:soul_sand"
     },
     "G": {
-      "tag": "c:gems/mana_diamond"
+      "tag": "c:ingots/gold"
+    },
+    "N": {
+      "tag": "c:nether_stars"
     },
     "O": {
-      "tag": "c:ingots/compressed_iron"
+      "item": "inventorypets:nugget_coal"
     }
   },
   "neoforge:conditions": [

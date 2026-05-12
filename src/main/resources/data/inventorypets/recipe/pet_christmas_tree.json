@@ -1,25 +1,28 @@
 {
   "result": {
-    "item": "inventorypets:pet_cloud"
+    "item": "inventorypets:pet_christmas_tree"
   },
   "pattern": [
-    "OFO",
-    "ODO",
-    "OGO"
+    "OFT",
+    "ODT",
+    "OGT"
   ],
   "type": "minecraft:crafting_shaped",
   "key": {
+    "T": {
+      "item": "inventorypets:nugget_emerald"
+    },
     "D": {
-      "tag": "c:nether_stars"
+      "tag": "c:gems/diamond"
     },
     "F": {
-      "tag": "c:gems/quartz"
+      "item": "minecraft:cookie"
     },
     "G": {
-      "tag": "c:gems/mana_diamond"
+      "tag": "c:ingots/gold"
     },
     "O": {
-      "tag": "c:ingots/compressed_iron"
+      "tag": "c:dusts/redstone"
     }
   },
   "neoforge:conditions": [

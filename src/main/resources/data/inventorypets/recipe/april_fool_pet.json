@@ -1,25 +1,28 @@
 {
   "result": {
-    "item": "inventorypets:pet_cloud"
+    "item": "inventorypets:pet_april_fool"
   },
   "pattern": [
-    "OFO",
-    "ODO",
-    "OGO"
+    "OFR",
+    "ODR",
+    "OGR"
   ],
   "type": "minecraft:crafting_shaped",
   "key": {
+    "R": {
+      "item": "inventorypets:nugget_obsidian"
+    },
     "D": {
-      "tag": "c:nether_stars"
+      "tag": "c:gems/diamond"
     },
     "F": {
-      "tag": "c:gems/quartz"
+      "item": "minecraft:tripwire_hook"
     },
     "G": {
-      "tag": "c:gems/mana_diamond"
+      "tag": "c:ingots/gold"
     },
     "O": {
-      "tag": "c:ingots/compressed_iron"
+      "tag": "c:dusts/redstone"
     }
   },
   "neoforge:conditions": [

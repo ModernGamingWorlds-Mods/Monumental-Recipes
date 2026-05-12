@@ -10,22 +10,26 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "D": {
-      "tag": "forge:nether_stars"
+      "tag": "c:nether_stars"
     },
     "F": {
       "item": "compressium:obsidian_2"
     },
     "G": {
-      "tag": "forge:gems/mana_diamond"
+      "tag": "c:gems/mana_diamond"
     },
     "O": {
       "item": "compressium:coal_2"
     }
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "inventorypets"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "compressium"
     }
   ]
 }

@@ -10,22 +10,30 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "D": {
-      "tag": "forge:gems/mana_diamond"
+      "tag": "c:gems/mana_diamond"
     },
     "F": {
       "item": "immersiveengineering:gunpowder_barrel"
     },
     "G": {
-      "tag": "forge:ingots/gold"
+      "tag": "c:ingots/gold"
     },
     "O": {
       "item": "compressium:emerald_3"
     }
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "inventorypets"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "compressium"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
     }
   ]
 }

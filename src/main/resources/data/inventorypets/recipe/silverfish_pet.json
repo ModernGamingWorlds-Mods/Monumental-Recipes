@@ -1,6 +1,6 @@
 {
   "result": {
-    "item": "inventorypets:pet_enchanting_table"
+    "item": "inventorypets:pet_silverfish"
   },
   "pattern": [
     "OFO",
@@ -10,30 +10,22 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "D": {
-      "tag": "c:gems/mana_diamond"
+      "tag": "c:gems/diamond"
     },
     "F": {
-      "item": "reliquary:magicbane"
+      "tag": "c:cobblestone"
     },
     "G": {
       "tag": "c:ingots/gold"
     },
     "O": {
-      "item": "compressium:obsidian_2"
+      "tag": "c:nuggets/iron"
     }
   },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "inventorypets"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "compressium"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "reliquary"
     }
   ]
 }

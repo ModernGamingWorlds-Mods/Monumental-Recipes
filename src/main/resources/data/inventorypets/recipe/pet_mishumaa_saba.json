@@ -1,35 +1,37 @@
 {
   "result": {
-    "item": "inventorypets:pet_brewing_stand"
+    "item": "inventorypets:pet_mishumaa_saba"
   },
   "pattern": [
-    "OFO",
+    "TFT",
     "ODO",
-    "OGO"
+    "UGU"
   ],
   "type": "minecraft:crafting_shaped",
   "key": {
+    "T": {
+      "item": "inventorypets:nugget_emerald"
+    },
     "D": {
-      "tag": "c:gems/mana_diamond"
+      "tag": "c:gems/diamond"
+    },
+    "U": {
+      "tag": "c:dusts/redstone"
     },
     "F": {
-      "item": "minecraft:nether_wart_block"
+      "tag": "c:nuggets/gold"
     },
     "G": {
       "tag": "c:ingots/gold"
     },
     "O": {
-      "item": "compressium:cobblestone_3"
+      "item": "inventorypets:nugget_coal"
     }
   },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "inventorypets"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "compressium"
     }
   ]
 }

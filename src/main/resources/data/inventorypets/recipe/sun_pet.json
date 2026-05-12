@@ -1,6 +1,6 @@
 {
   "result": {
-    "item": "inventorypets:pet_cloud"
+    "item": "inventorypets:pet_sun"
   },
   "pattern": [
     "OFO",
@@ -13,13 +13,13 @@
       "tag": "c:nether_stars"
     },
     "F": {
-      "tag": "c:gems/quartz"
+      "tag": "c:ingots/gold"
     },
     "G": {
-      "tag": "c:gems/mana_diamond"
+      "tag": "c:gems/diamond"
     },
     "O": {
-      "tag": "c:ingots/compressed_iron"
+      "tag": "c:ingots/gold"
     }
   },
   "neoforge:conditions": [

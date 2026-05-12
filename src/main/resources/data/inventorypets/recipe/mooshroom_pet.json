@@ -1,25 +1,28 @@
 {
   "result": {
-    "item": "inventorypets:pet_cloud"
+    "item": "inventorypets:pet_mooshroom"
   },
   "pattern": [
-    "OFO",
-    "ODO",
-    "OGO"
+    "OFB",
+    "ODB",
+    "OGB"
   ],
   "type": "minecraft:crafting_shaped",
   "key": {
+    "B": {
+      "tag": "c:nuggets/iron"
+    },
     "D": {
-      "tag": "c:nether_stars"
+      "tag": "c:gems/diamond"
     },
     "F": {
-      "tag": "c:gems/quartz"
+      "item": "minecraft:red_mushroom"
     },
     "G": {
-      "tag": "c:gems/mana_diamond"
+      "tag": "c:ingots/gold"
     },
     "O": {
-      "tag": "c:ingots/compressed_iron"
+      "tag": "c:dusts/redstone"
     }
   },
   "neoforge:conditions": [

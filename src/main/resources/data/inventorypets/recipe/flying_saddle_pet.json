@@ -1,25 +1,22 @@
 {
   "result": {
-    "item": "inventorypets:pet_cloud"
+    "item": "inventorypets:pet_flying_saddle"
   },
   "pattern": [
     "OFO",
-    "ODO",
-    "OGO"
+    "FDF",
+    "OFO"
   ],
   "type": "minecraft:crafting_shaped",
   "key": {
-    "D": {
-      "tag": "c:nether_stars"
+    "O": {
+      "tag": "c:gems/diamond"
     },
     "F": {
-      "tag": "c:gems/quartz"
+      "tag": "c:gems/diamond"
     },
-    "G": {
-      "tag": "c:gems/mana_diamond"
-    },
-    "O": {
-      "tag": "c:ingots/compressed_iron"
+    "D": {
+      "item": "inventorypets:pet_saddle"
     }
   },
   "neoforge:conditions": [

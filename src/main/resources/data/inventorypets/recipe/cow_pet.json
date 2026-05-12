@@ -1,25 +1,28 @@
 {
   "result": {
-    "item": "inventorypets:pet_cloud"
+    "item": "inventorypets:pet_cow"
   },
   "pattern": [
-    "OFO",
-    "ODO",
-    "OGO"
+    "OFB",
+    "ODB",
+    "OGB"
   ],
   "type": "minecraft:crafting_shaped",
   "key": {
+    "B": {
+      "item": "minecraft:iron_nugget"
+    },
     "D": {
-      "tag": "c:nether_stars"
+      "tag": "c:gems/diamond"
     },
     "F": {
-      "tag": "c:gems/quartz"
+      "item": "minecraft:wheat"
     },
     "G": {
-      "tag": "c:gems/mana_diamond"
+      "tag": "c:ingots/gold"
     },
     "O": {
-      "tag": "c:ingots/compressed_iron"
+      "item": "inventorypets:nugget_coal"
     }
   },
   "neoforge:conditions": [
