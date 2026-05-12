@@ -1,9 +1,15 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    { "item": "kubejs:blueprint" },
-    { "item": "quark:bamboo_planks" },
-    { "item": "quark:bamboo_planks" }
+    {
+      "item": "kubejs:blueprint"
+    },
+    {
+      "item": "quark:bamboo_planks"
+    },
+    {
+      "item": "quark:bamboo_planks"
+    }
   ],
   "result": {
     "id": "kubejs:quadrocopter_blueprint"
@@ -16,6 +22,10 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "immersive_aircraft"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "quark"
     }
   ]
 }
