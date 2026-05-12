@@ -15,5 +15,15 @@
   ],
   "result": {
     "id": "hexerei:willow_pressure_plate"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
 }
