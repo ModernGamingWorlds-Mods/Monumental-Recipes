@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "G": {
-      "tag": "forge:glass_blocks"
+      "tag": "c:glass_blocks"
     },
     "R": {
       "item": "extendedcrafting:redstone_component"
@@ -30,6 +30,10 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "refinedstorage"
     }
   ]
 }
