@@ -1,11 +1,21 @@
 {
-    "type": "naturesaura:altar",
-    "input": {
-        "item": "compressedblocks:c1_gold"
+  "type": "naturesaura:altar",
+  "input": {
+    "item": "compressedblocks:c1_gold"
+  },
+  "output": {
+    "item": "naturesaura:tainted_gold_block"
+  },
+  "aura": 27000,
+  "time": 2625,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "naturesaura"
     },
-    "output": {
-        "item": "naturesaura:tainted_gold_block"
-    },
-    "aura": 27000,
-    "time": 2625
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "compressedblocks"
+    }
+  ]
 }

@@ -1,11 +1,17 @@
 {
-    "type": "naturesaura:altar",
-    "input": {
-        "tag": "c:ingots/deorum"
-    },
-    "output": {
-        "id": "naturesaura:tainted_gold"
-    },
-    "aura": 3000,
-    "time": 300
+  "type": "naturesaura:altar",
+  "input": {
+    "tag": "c:ingots/deorum"
+  },
+  "output": {
+    "id": "naturesaura:tainted_gold"
+  },
+  "aura": 3000,
+  "time": 300,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "naturesaura"
+    }
+  ]
 }
