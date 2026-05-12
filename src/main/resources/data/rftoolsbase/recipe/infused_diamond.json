@@ -15,5 +15,15 @@
   ],
   "result": {
     "id": "rftoolsbase:infused_diamond"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rftoolsbase"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
 }
