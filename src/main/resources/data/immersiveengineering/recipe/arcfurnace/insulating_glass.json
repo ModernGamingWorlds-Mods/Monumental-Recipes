@@ -21,5 +21,11 @@
       "id": "immersiveengineering:insulating_glass"
     }
   ],
-  "time": 100
+  "time": 100,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
 }

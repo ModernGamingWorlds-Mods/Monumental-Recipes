@@ -24,5 +24,11 @@
   ],
   "result": {
     "id": "immersiveengineering:workbench"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
 }

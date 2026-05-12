@@ -13,5 +13,15 @@
     {
       "id": "immersiveengineering:blastbrick_reinforced"
     }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
   ]
 }

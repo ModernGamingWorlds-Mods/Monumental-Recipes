@@ -1,1 +1,35 @@
-{"type":"minecraft:crafting_shaped","key":{"d":{"tag":"c:dyes/blue"},"k":{"item":"ae2:printed_logic_processor"},"p":{"tag":"c:paper"}},"pattern":[" k ","ddd","ppp"],"result":{"id":"immersiveengineering:blueprint","nbt":{"blueprint":"components"}}}
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "d": {
+      "tag": "c:dyes/blue"
+    },
+    "k": {
+      "item": "ae2:printed_logic_processor"
+    },
+    "p": {
+      "tag": "c:paper"
+    }
+  },
+  "pattern": [
+    " k ",
+    "ddd",
+    "ppp"
+  ],
+  "result": {
+    "id": "immersiveengineering:blueprint",
+    "nbt": {
+      "blueprint": "components"
+    }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
+}

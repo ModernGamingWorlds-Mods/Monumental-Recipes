@@ -2,23 +2,28 @@
   "type": "immersiveengineering:metal_press",
   "neoforge:conditions": [
     {
-      "type": "neoforge:not",
-      "value": {
-        "type": "neoforge:tag_empty",
-        "tag": "monumental_recipeswooden_plates"
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental_recipes"
     },
     {
       "type": "neoforge:not",
       "value": {
         "type": "neoforge:tag_empty",
-        "tag": "monumental_recipeswooden_plates"
+        "tag": "monumental_recipes:wooden_plates"
       }
     }
   ],
   "energy": 2400,
   "input": {
-    "tag": "monumental_recipeswooden_plates"
+    "tag": "monumental_recipes:wooden_plates"
   },
   "mold": "immersiveengineering:mold_plate",
   "result": {

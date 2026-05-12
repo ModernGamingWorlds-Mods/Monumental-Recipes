@@ -19,5 +19,15 @@
   "result": {
     "count": 1,
     "id": "immersiveengineering:windmill"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
 }
