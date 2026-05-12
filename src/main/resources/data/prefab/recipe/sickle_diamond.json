@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "prefab:item_sickle_gold"
+  },
+  "addition": {
+    "tag": "c:gems/diamond"
+  },
+  "result": {
+    "item": "prefab:item_sickle_diamond"
+  },
+  "template": {
+    "tag": "c:rods/diamond"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "prefab"
+    }
+  ]
+}

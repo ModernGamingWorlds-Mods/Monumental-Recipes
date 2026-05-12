@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "prefab:item_sickle_wood"
+  },
+  "addition": {
+    "tag": "c:stones"
+  },
+  "result": {
+    "item": "prefab:item_sickle_stone"
+  },
+  "template": {
+    "item": "kubejs:stone_rod"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "prefab"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kubejs"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "type": "prefab:condition_crafting_shaped",
+  "configName": "House",
+  "group": "House",
+  "pattern": [
+    "abc",
+    "ded",
+    "fff"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:crafting_table"
+    },
+    "b": {
+      "item": "minecraft:clock"
+    },
+    "c": {
+      "item": "minecraft:furnace"
+    },
+    "d": {
+      "item": "compressium:stone_1"
+    },
+    "e": {
+      "tag": "minecraft:beds"
+    },
+    "f": {
+      "item": "prefab:item_bundle_of_timber"
+    }
+  },
+  "result": {
+    "item": "prefab:item_house",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "prefab"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "compressium"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "prefab:condition_crafting_shaped",
+  "configName": "Windmill",
+  "group": "Windmill",
+  "pattern": [
+    " a ",
+    "aba",
+    "cad"
+  ],
+  "key": {
+    "a": {
+      "item": "prefab:item_bundle_of_timber"
+    },
+    "b": {
+      "item": "compressium:stone_3"
+    },
+    "c": {
+      "item": "compressium:dirt_2"
+    },
+    "d": {
+      "item": "minecraft:hay_block"
+    }
+  },
+  "result": {
+    "item": "prefab:item_wind_mill",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "prefab"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "compressium"
+    }
+  ]
+}

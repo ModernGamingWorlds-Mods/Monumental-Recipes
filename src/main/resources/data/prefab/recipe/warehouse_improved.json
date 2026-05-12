@@ -1,0 +1,41 @@
+{
+  "type": "prefab:condition_crafting_shaped",
+  "configName": "Improved Warehouse",
+  "group": "Improved Warehouse",
+  "pattern": [
+    "aba",
+    "aca",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "compressium:stone_2"
+    },
+    "b": {
+      "item": "prefab:item_upgrade"
+    },
+    "c": {
+      "item": "prefab:item_compressed_chest"
+    },
+    "d": {
+      "tag": "c:storage_blocks/double_compressed_lights"
+    },
+    "e": {
+      "item": "compressium:stone_3"
+    }
+  },
+  "result": {
+    "item": "prefab:item_warehouse_improved",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "prefab"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "compressium"
+    }
+  ]
+}

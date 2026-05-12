@@ -1,0 +1,38 @@
+{
+  "type": "prefab:condition_crafting_shaped",
+  "configName": "Mineshaft Entrance",
+  "group": "Mineshaft Entrance",
+  "pattern": [
+    "aba",
+    "cdc",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "b": {
+      "item": "prefab:item_bundle_of_timber"
+    },
+    "c": {
+      "item": "compressium:stone_1"
+    },
+    "d": {
+      "tag": "minecraft:beds"
+    }
+  },
+  "result": {
+    "item": "prefab:item_mineshaft_entrance",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "prefab"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "compressium"
+    }
+  ]
+}

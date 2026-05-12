@@ -1,0 +1,41 @@
+{
+  "type": "prefab:condition_crafting_shaped",
+  "configName": "Aqua Base",
+  "group": "Aqua Base",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ede"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:glass_blocks"
+    },
+    "b": {
+      "item": "minecraft:conduit"
+    },
+    "c": {
+      "item": "minecraft:sea_lantern"
+    },
+    "d": {
+      "tag": "c:storage_blocks/double_compressed_lights"
+    },
+    "e": {
+      "item": "compressium:stone_3"
+    }
+  },
+  "result": {
+    "item": "prefab:item_aqua_base_improved",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "prefab"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "compressium"
+    }
+  ]
+}

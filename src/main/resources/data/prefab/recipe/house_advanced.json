@@ -1,0 +1,36 @@
+{
+  "type": "prefab:condition_crafting_shapeless",
+  "configName": "Advanced House",
+  "group": "Advanced House",
+  "ingredients": [
+    {
+      "item": "prefab:item_house_improved"
+    },
+    {
+      "item": "prefab:item_house_improved"
+    },
+    {
+      "item": "prefab:item_house_improved"
+    },
+    {
+      "item": "prefab:item_upgrade"
+    },
+    {
+      "item": "compressium:stone_3"
+    }
+  ],
+  "result": {
+    "item": "prefab:item_house_advanced",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "prefab"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "compressium"
+    }
+  ]
+}

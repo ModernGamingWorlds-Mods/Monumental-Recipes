@@ -1,0 +1,28 @@
+{
+  "type": "prefab:condition_crafting_shaped",
+  "configName": "Bulldozer",
+  "group": "Bulldozer",
+  "pattern": [
+    "a a",
+    "bab",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:pickaxes"
+    },
+    "b": {
+      "tag": "minecraft:shovels"
+    }
+  },
+  "result": {
+    "item": "prefab:item_bulldozer",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "prefab"
+    }
+  ]
+}
