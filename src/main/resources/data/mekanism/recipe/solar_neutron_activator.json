@@ -24,5 +24,11 @@
   ],
   "result": {
     "id": "mekanism:solar_neutron_activator"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
 }

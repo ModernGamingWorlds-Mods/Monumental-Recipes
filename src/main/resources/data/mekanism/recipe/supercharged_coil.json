@@ -21,5 +21,11 @@
   ],
   "result": {
     "id": "mekanism:supercharged_coil"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
 }

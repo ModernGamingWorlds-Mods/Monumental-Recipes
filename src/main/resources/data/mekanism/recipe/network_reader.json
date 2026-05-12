@@ -21,5 +21,15 @@
   ],
   "result": {
     "id": "mekanism:network_reader"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
 }

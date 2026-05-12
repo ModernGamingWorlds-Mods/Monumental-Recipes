@@ -19,5 +19,19 @@
   "result": {
     "id": "mekanism:diversion_transporter",
     "count": 2
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kubejs"
+    }
+  ]
 }

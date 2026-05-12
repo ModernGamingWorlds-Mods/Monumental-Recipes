@@ -18,5 +18,15 @@
   ],
   "result": {
     "id": "mekanism:laser_amplifier"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
 }

@@ -21,5 +21,11 @@
   ],
   "result": {
     "id": "mekanism:advanced_tier_installer"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
 }

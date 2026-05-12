@@ -21,5 +21,15 @@
   ],
   "result": {
     "id": "mekanism:resistive_heater"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
 }

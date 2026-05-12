@@ -21,5 +21,11 @@
   ],
   "result": {
     "id": "mekanism:advanced_energy_cube"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
 }

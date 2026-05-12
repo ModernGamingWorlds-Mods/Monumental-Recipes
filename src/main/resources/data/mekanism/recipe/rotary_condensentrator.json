@@ -24,5 +24,15 @@
   ],
   "result": {
     "id": "mekanism:rotary_condensentrator"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
 }

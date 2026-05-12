@@ -19,5 +19,15 @@
   "result": {
     "id": "mekanism:upgrade_muffling",
     "count": 2
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
 }

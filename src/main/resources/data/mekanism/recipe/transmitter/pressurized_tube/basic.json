@@ -19,5 +19,19 @@
   "result": {
     "id": "mekanism:basic_pressurized_tube",
     "count": 4
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kubejs"
+    }
+  ]
 }

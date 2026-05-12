@@ -21,5 +21,11 @@
   ],
   "result": {
     "id": "mekanism:atomic_disassembler"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
 }

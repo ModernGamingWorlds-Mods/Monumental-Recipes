@@ -1,1 +1,25 @@
-{"type":"mekanism:metallurgic_infusing","chemicalInput":{"amount":10,"tag":"mekanism:redstone"},"itemInput":{"ingredient":{"item":"extendedcrafting:black_iron_ingot"}},"output":{"id":"mekanism:alloy_infused"}}
+{
+  "type": "mekanism:metallurgic_infusing",
+  "chemicalInput": {
+    "amount": 10,
+    "tag": "mekanism:redstone"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "extendedcrafting:black_iron_ingot"
+    }
+  },
+  "output": {
+    "id": "mekanism:alloy_infused"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

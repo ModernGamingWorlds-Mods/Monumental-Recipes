@@ -1,1 +1,26 @@
-{"type":"minecraft:crafting_shaped","key":{"#":{"tag":"minecraft:logs"},"O":{"tag":"c:ingots/osmium"}},"pattern":["O O","O#O","O O"],"result":{"count":24,"id":"minecraft:rail"}}
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "minecraft:logs"
+    },
+    "O": {
+      "tag": "c:ingots/osmium"
+    }
+  },
+  "pattern": [
+    "O O",
+    "O#O",
+    "O O"
+  ],
+  "result": {
+    "count": 24,
+    "id": "minecraft:rail"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
+}
