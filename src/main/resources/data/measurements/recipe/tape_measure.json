@@ -3,7 +3,8 @@
   "pattern": [
     " G ",
     "GIY",
-    " GY"  ],
+    " GY"
+  ],
   "key": {
     "I": [
       {
@@ -23,6 +24,15 @@
   },
   "result": {
     "id": "measurements:tape_measure"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "measurements"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chipped"
+    }
+  ]
 }
-
