@@ -25,5 +25,11 @@
   "result": {
     "id": "pipez:universal_pipe",
     "count": 6
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pipez"
+    }
+  ]
 }
