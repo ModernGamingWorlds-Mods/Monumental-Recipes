@@ -18,12 +18,11 @@
   ],
   "result": {
     "id": "minecraft:blast_furnace"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "minecraft"
+      "modid": "compressium"
     }
   ]
 }

@@ -13,12 +13,11 @@
     {
       "id": "minecraft:ender_eye"
     }
-  ]
-},
+  ],
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "minecraft"
+      "modid": "create"
     }
   ]
 }

@@ -19,16 +19,15 @@
   "result": {
     "count": 6,
     "id": "minecraft:powered_rail"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "minecraft"
+      "modid": "extendedcrafting"
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
+      "modid": "monumental_recipes"
     }
   ]
 }

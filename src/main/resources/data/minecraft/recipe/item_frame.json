@@ -15,17 +15,15 @@
   ],
   "result": {
     "id": "minecraft:item_frame"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "minecraft"
+      "modid": "quark"
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "quark"
+      "modid": "monumental_recipes"
     }
   ]
 }
-

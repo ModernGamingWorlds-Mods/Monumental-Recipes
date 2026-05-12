@@ -1,28 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-  
     "S A"
   ],
-  
   "key": {
     "S": {
       "tag": "c:buckets/lava"
     },
     "A": {
       "item": "minecraft:ice"
-    }    
+    }
   },
-  
-  
   "result": {
     "id": "minecraft:obsidian"
   }
-},
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "minecraft"
-    }
-  ]
 }

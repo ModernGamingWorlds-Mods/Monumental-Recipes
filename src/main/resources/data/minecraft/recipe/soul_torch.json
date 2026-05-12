@@ -19,12 +19,11 @@
   "result": {
     "id": "minecraft:soul_torch",
     "count": 2
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "minecraft"
+      "modid": "monumental_recipes"
     }
   ]
 }

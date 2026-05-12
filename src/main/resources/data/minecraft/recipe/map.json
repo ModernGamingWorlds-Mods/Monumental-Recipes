@@ -15,13 +15,8 @@
   ],
   "result": {
     "id": "minecraft:map"
-  }
-},
+  },
   "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "minecraft"
-    },
     {
       "type": "neoforge:mod_loaded",
       "modid": "domum_ornamentum"

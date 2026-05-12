@@ -16,11 +16,4 @@
   "result": {
     "id": "minecraft:trapped_chest"
   }
-},
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "minecraft"
-    }
-  ]
 }

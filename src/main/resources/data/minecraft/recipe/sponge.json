@@ -19,11 +19,4 @@
   "result": {
     "id": "minecraft:sponge"
   }
-},
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "minecraft"
-    }
-  ]
 }

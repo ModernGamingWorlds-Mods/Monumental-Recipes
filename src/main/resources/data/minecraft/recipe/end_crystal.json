@@ -18,16 +18,15 @@
   ],
   "result": {
     "id": "minecraft:end_crystal"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "minecraft"
+      "modid": "monumental_recipes"
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "minecraft"
+      "modid": "thermal"
     }
   ]
 }

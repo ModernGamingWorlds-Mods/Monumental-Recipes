@@ -11,12 +11,11 @@
   },
   "template": {
     "item": "kubejs:stone_rod"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "minecraft"
+      "modid": "kubejs"
     }
   ]
 }

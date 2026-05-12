@@ -11,12 +11,11 @@
   },
   "template": {
     "tag": "monumental_recipes:chains"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "minecraft"
+      "modid": "monumental_recipes"
     }
   ]
 }

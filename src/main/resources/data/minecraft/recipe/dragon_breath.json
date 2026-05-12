@@ -18,13 +18,8 @@
   ],
   "result": {
     "id": "minecraft:dragon_breath"
-  }
-},
+  },
   "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "minecraft"
-    },
     {
       "type": "neoforge:mod_loaded",
       "modid": "mysticalagriculture"

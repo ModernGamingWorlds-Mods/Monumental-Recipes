@@ -18,13 +18,8 @@
   },
   "result": {
     "id": "minecraft:elytra"
-  }
-},
+  },
   "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "minecraft"
-    },
     {
       "type": "neoforge:mod_loaded",
       "modid": "mysticalagriculture"

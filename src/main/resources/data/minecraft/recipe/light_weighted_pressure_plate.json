@@ -15,13 +15,11 @@
   ],
   "result": {
     "id": "minecraft:light_weighted_pressure_plate"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "minecraft"
+      "modid": "monumental_recipes"
     }
   ]
 }
-

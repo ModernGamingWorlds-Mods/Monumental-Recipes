@@ -11,12 +11,11 @@
   },
   "template": {
     "tag": "c:leathers"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "minecraft"
+      "modid": "monumental_recipes"
     }
   ]
 }

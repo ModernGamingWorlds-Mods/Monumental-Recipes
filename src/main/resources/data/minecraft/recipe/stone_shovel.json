@@ -10,13 +10,6 @@
     "id": "minecraft:stone_shovel"
   },
   "template": {
-    "tag": "forge:rods/wooden"
+    "tag": "c:rods/wooden"
   }
-},
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "minecraft"
-    }
-  ]
 }

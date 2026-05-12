@@ -18,12 +18,11 @@
   ],
   "result": {
     "id": "minecraft:dispenser"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "minecraft"
+      "modid": "compressium"
     }
   ]
 }

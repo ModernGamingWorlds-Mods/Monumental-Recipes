@@ -19,13 +19,8 @@
   "result": {
     "count": 6,
     "id": "minecraft:detector_rail"
-  }
-},
+  },
   "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "minecraft"
-    },
     {
       "type": "neoforge:mod_loaded",
       "modid": "extendedcrafting"

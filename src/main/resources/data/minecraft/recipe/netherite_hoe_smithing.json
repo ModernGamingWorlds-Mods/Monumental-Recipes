@@ -12,11 +12,4 @@
   "template": {
     "tag": "c:plates/diamond"
   }
-},
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "minecraft"
-    }
-  ]
 }
