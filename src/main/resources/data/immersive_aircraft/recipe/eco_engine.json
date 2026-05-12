@@ -30,14 +30,14 @@
   "result": {
     "id": "immersive_aircraft:eco_engine"
   },
-  "neoforge_conditions": [
+  "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "immersive_aircraft"
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "create"
+      "modid": "mekanism"
     }
   ]
 }

@@ -6,7 +6,6 @@
       "modid": "immersive_aircraft"
     }
   ],
-  "type": "minecraft:crafting_shaped",
   "pattern": [
     "AAA",
     "BCB",
