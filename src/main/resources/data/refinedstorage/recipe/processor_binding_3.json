@@ -8,7 +8,7 @@
     {
       "count": 2,
       "tag": "monumental_recipes:cloth"
-    }
+    },
     {
       "count": 2,
       "item": "industrialforegoing:pink_slime_ingot"
@@ -20,8 +20,7 @@
       "count": 1,
       "id": "refinedstorage:processor_binding"
     }
-  ]
-},
+  ],
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
@@ -34,6 +33,14 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "industrialforegoing"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental_recipes"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
     }
   ]
 }

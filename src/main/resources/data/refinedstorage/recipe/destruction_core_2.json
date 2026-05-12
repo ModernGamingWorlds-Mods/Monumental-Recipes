@@ -16,8 +16,7 @@
       "count": 1,
       "id": "refinedstorage:destruction_core"
     }
-  ]
-},
+  ],
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
