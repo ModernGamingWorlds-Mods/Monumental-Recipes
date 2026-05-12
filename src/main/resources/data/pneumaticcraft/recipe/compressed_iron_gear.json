@@ -15,5 +15,15 @@
   ],
   "result": {
     "id": "pneumaticcraft:compressed_iron_gear"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
 }

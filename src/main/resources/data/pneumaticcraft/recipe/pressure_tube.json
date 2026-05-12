@@ -16,5 +16,11 @@
   "result": {
     "id": "pneumaticcraft:pressure_tube",
     "count": 4
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
 }

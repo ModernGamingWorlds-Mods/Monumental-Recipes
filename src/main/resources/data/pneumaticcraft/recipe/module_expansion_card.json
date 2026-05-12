@@ -21,5 +21,11 @@
     "count": 4,
     "id": "pneumaticcraft:module_expansion_card"
   },
-  "show_notification": true
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
 }
