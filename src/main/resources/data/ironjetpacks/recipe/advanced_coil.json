@@ -18,5 +18,19 @@
   ],
   "result": {
     "id": "ironjetpacks:advanced_coil"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ironjetpacks"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "actuallyadditions"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
 }
