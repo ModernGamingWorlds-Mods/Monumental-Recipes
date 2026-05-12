@@ -1,6 +1,10 @@
 {
   "neoforge:conditions": [
     {
+      "type": "neoforge:mod_loaded",
+      "modid": "reliquary"
+    },
+    {
       "type": "reliquary:potions_enabled"
     }
   ],
@@ -32,11 +36,4 @@
     "count": 1,
     "id": "reliquary:fertile_potion"
   }
-},
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "reliquary"
-    }
-  ]
 }

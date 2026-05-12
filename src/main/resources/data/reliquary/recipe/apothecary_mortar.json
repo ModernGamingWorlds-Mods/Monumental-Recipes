@@ -1,6 +1,18 @@
 {
   "neoforge:conditions": [
     {
+      "type": "neoforge:mod_loaded",
+      "modid": "reliquary"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
       "type": "reliquary:potions_enabled"
     }
   ],
@@ -23,19 +35,4 @@
     "count": 1,
     "id": "reliquary:apothecary_mortar"
   }
-},
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "reliquary"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "create"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "botania"
-    }
-  ]
 }

@@ -31,8 +31,7 @@
   "result": {
     "count": 1,
     "id": "reliquary:emperor_chalice"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
