@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "jurassicreborn:basic_circuit"
+    },
+    {
+      "item": "jurassicreborn:basic_circuit"
+    },
+    {
+      "tag": "c:nuggets/iron"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "tag": "c:dusts/redstone"
+    }
+  ],
+  "result": {
+    "item": "jurassicreborn:advanced_circuit"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "jurassicreborn"
+    }
+  ]
+}

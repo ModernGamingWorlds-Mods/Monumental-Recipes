@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "jurassicreborn:mr_dna_keychain",
+  "key": {
+    "A": {
+      "item": "jurassicreborn:dna_base_material"
+    },
+    "B": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "result": {
+    "item": "jurassicreborn:mr_dna_keychain"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "jurassicreborn"
+    }
+  ]
+}

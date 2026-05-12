@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "jurassicreborn:car_seats"
+    },
+    "B": {
+      "item": "jurassicreborn:car_chassis"
+    },
+    "C": {
+      "item": "jurassicreborn:car_windscreen"
+    },
+    "D": {
+      "item": "jurassicreborn:car_tire"
+    },
+    "E": {
+      "item": "jurassicreborn:engine_system"
+    },
+    "F": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DEF",
+    "DDD"
+  ],
+  "result": {
+    "item": "jurassicreborn:unfinished_car"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "jurassicreborn"
+    }
+  ]
+}

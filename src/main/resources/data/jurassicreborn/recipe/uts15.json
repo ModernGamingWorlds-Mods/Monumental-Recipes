@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:string"
+    },
+    "C": {
+      "tag": "c:ingots/iron"
+    },
+    "D": {
+      "tag": "c:ingots/gold"
+    },
+    "E": {
+      "tag": "c:dusts/redstone"
+    }
+  },
+  "pattern": [
+    " AE",
+    "CCC",
+    "DDC"
+  ],
+  "result": {
+    "item": "jurassicreborn:uts15"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "jurassicreborn"
+    }
+  ]
+}

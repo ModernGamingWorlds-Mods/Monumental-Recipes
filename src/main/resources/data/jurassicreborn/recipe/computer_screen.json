@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:ingots/iron"
+    },
+    "B": {
+      "item": "minecraft:green_dye"
+    },
+    "C": {
+      "item": "minecraft:orange_dye"
+    },
+    "D": {
+      "item": "minecraft:glass_pane"
+    },
+    "E": {
+      "item": "minecraft:blue_dye"
+    },
+    "F": {
+      "item": "jurassicreborn:basic_circuit"
+    },
+    "G": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDE",
+    "FGA"
+  ],
+  "result": {
+    "item": "jurassicreborn:computer_screen"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "jurassicreborn"
+    }
+  ]
+}
