@@ -25,6 +25,14 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "minecolonies"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "structurize"
     }
   ]
 }
