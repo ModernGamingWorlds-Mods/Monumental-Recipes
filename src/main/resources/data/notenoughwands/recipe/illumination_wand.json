@@ -11,5 +11,15 @@
   },
   "template": {
     "tag": "c:storage_blocks/glowstone"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "notenoughwands"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createchromaticreturn"
+    }
+  ]
 }

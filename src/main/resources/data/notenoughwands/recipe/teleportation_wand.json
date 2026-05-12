@@ -11,5 +11,19 @@
   },
   "template": {
     "tag": "monumental_recipes:eyes"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "notenoughwands"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental_recipes"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
 }

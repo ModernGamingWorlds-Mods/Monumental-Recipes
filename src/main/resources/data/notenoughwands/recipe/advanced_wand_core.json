@@ -21,5 +21,15 @@
   ],
   "result": {
     "id": "notenoughwands:advanced_wand_core"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "notenoughwands"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
 }
