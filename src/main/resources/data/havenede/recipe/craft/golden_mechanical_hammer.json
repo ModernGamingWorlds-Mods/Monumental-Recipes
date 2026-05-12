@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "c:storage_blocks/gold"
+    },
+    "I": {
+      "tag": "c:ingots/gold"
+    },
+    "M": {
+      "item": "exdeorum:mechanical_hammer"
+    }
+  },
+  "pattern": [
+    "III",
+    "IMI",
+    "BBB"
+  ],
+  "result": {
+    "item": "havenede:golden_mechanical_hammer"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "havenede"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "exdeorum"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "c:storage_blocks/diamond"
+    },
+    "I": {
+      "tag": "c:gems/diamond"
+    },
+    "M": {
+      "item": "havenede:golden_mechanical_hammer"
+    }
+  },
+  "pattern": [
+    "III",
+    "IMI",
+    "BBB"
+  ],
+  "result": {
+    "item": "havenede:diamond_mechanical_hammer"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "havenede"
+    }
+  ]
+}
