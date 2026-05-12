@@ -25,5 +25,23 @@
   "result": {
     "count": 1,
     "id": "mininggadgets:mininggadget_fancy"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mininggadgets"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enderio"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
 }

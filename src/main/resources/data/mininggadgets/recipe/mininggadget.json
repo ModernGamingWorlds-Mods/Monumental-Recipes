@@ -31,5 +31,19 @@
   "result": {
     "count": 1,
     "id": "mininggadgets:mininggadget"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mininggadgets"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enderio"
+    }
+  ]
 }
