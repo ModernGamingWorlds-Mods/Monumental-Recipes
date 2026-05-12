@@ -19,6 +19,14 @@
   ],
   "neoforge:conditions": [
     {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
       "type": "forge:mod_loaded",
       "modid": "mysticalagriculture"
     }

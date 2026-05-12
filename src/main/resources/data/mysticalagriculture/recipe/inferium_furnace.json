@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "base": {
-    "tag": "c:furnaces"
+    "tag": "c:player_workstations/furnaces"
   },
   "addition": {
     "item": "mysticalagriculture:inferium_block"
@@ -10,12 +10,16 @@
     "id": "mysticalagriculture:inferium_furnace"
   },
   "template": {
-    "tag": "forge:plates/diamond"
+    "tag": "c:plates/diamond"
   },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "mysticalagriculture"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
     }
   ]
 }

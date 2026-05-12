@@ -11,5 +11,11 @@
   },
   "template": {
     "item": "mysticalagriculture:inferium_essence"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
 }
