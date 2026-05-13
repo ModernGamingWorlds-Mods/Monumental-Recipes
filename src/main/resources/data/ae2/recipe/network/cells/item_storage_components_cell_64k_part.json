@@ -24,7 +24,7 @@
   ],
   "result": {
     "count": 1,
-    "item": "ae2:cell_component_64k"
+    "id": "ae2:cell_component_64k"
   },
   "neoforge:conditions": [
     {
