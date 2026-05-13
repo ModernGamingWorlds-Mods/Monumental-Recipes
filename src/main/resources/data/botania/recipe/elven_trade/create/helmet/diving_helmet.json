@@ -1,0 +1,30 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "mekanism:scuba_tank"
+    },
+    {
+      "tag": "c:ingots/copper"
+    }
+  ],
+  "output": [
+    {
+      "item": "create:diving_helmet"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "create:diving_helmet"
+    }
+  ]
+}

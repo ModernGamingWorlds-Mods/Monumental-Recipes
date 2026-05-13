@@ -1,0 +1,26 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:golden_boots"
+    },
+    {
+      "tag": "c:gems/diamond"
+    }
+  ],
+  "output": [
+    {
+      "item": "minecraft:diamond_boots"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:diamond_boots"
+    }
+  ]
+}

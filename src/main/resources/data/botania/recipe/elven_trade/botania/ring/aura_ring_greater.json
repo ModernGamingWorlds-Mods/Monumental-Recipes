@@ -1,0 +1,26 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "botania:aura_ring"
+    },
+    {
+      "tag": "c:ingots/terrasteel"
+    }
+  ],
+  "output": [
+    {
+      "item": "botania:aura_ring_greater"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "botania:aura_ring_greater"
+    }
+  ]
+}

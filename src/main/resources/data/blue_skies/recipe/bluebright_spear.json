@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "tag": "c:rods/wooden"
+  },
+  "addition": {
+    "item": "blue_skies:bluebright_planks"
+  },
+  "result": {
+    "item": "blue_skies:bluebright_spear"
+  },
+  "template": {
+    "tag": "monumental_recipes:wooden_plates"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "blue_skies"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

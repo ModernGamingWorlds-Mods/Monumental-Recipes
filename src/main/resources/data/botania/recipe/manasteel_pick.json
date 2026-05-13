@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_pickaxe"
+  },
+  "addition": {
+    "tag": "c:ingots/manasteel"
+  },
+  "result": {
+    "item": "botania:manasteel_pick"
+  },
+  "template": {
+    "tag": "c:nuggets/manasteel"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

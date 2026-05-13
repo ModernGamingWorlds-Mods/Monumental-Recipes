@@ -1,0 +1,30 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "createchromaticreturn:glowing_ingot"
+    },
+    {
+      "item": "notenoughwands:wand_core"
+    }
+  ],
+  "output": [
+    {
+      "item": "notenoughwands:illumination_wand"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createchromaticreturn"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "notenoughwands:illumination_wand"
+    }
+  ]
+}

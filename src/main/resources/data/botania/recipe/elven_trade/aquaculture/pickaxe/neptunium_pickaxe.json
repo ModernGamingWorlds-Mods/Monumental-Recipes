@@ -1,0 +1,26 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    {
+      "tag": "c:ingots/neptunium"
+    }
+  ],
+  "output": [
+    {
+      "item": "aquaculture:neptunium_pickaxe"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "aquaculture:neptunium_pickaxe"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "tag": "c:storage_blocks/clay"
+  },
+  "addition": {
+    "tag": "c:ingots/manasteel"
+  },
+  "result": {
+    "item": "botania:swap_ring"
+  },
+  "template": {
+    "item": "ars_nouveau:ring_of_potential"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

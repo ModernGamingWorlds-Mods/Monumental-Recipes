@@ -1,0 +1,26 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    {
+      "item": "blue_skies:lunar_planks"
+    }
+  ],
+  "output": [
+    {
+      "item": "blue_skies:lunar_pickaxe"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "blue_skies:lunar_pickaxe"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "botania:mana_tablet"
+    },
+    {
+      "tag": "c:ingots/manasteel"
+    }
+  ],
+  "output": [
+    {
+      "item": "botania:mana_ring"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "botania:mana_ring"
+    }
+  ]
+}

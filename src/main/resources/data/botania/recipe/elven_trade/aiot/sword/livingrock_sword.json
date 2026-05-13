@@ -1,0 +1,26 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:stone_sword"
+    },
+    {
+      "item": "botania:livingrock"
+    }
+  ],
+  "output": [
+    {
+      "item": "aiotbotania:livingrock_sword"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "aiotbotania:livingrock_sword"
+    }
+  ]
+}

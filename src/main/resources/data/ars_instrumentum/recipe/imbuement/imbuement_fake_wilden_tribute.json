@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_instrumentum"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
+  "type": "ars_nouveau:imbuement",
+  "input": {
+    "tag": "c:storage_blocks/diamond"
+  },
+  "output": {
+    "id": "ars_instrumentum:fake_wilden_tribute",
+    "count": 1
+  },
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:archmage_spell_book"
+    },
+    {
+      "tag": "c:nether_stars"
+    },
+    {
+      "item": "minecraft:totem_of_undying"
+    }
+  ],
+  "source": 5000
+}

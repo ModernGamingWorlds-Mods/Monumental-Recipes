@@ -1,0 +1,26 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:chainmail_boots"
+    },
+    {
+      "item": "forbidden_arcanus:cloth"
+    }
+  ],
+  "output": [
+    {
+      "item": "forbidden_arcanus:mortem_boots"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "forbidden_arcanus:mortem_boots"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "framedblocks:framed_wrench"
+    },
+    {
+      "tag": "c:gems/quartz"
+    }
+  ],
+  "output": [
+    {
+      "item": "ae2:nether_quartz_wrench"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "ae2:nether_quartz_wrench"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "framedblocks:framed_wrench"
+    }
+  ]
+}

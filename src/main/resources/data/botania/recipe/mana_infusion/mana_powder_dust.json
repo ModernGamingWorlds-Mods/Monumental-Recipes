@@ -1,0 +1,38 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "tag": "c:storage_blocks/gunpowder"
+    },
+    {
+      "item": "extendedcrafting:redstone_component"
+    },
+    {
+      "tag": "c:storage_blocks/glowstone"
+    },
+    {
+      "tag": "c:storage_blocks/sugar_cane"
+    }
+  ],
+  "results": [
+    {
+      "item": "botania:mana_powder",
+      "count": 2
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

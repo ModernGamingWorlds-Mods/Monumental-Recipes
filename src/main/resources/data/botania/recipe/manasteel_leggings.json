@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_leggings"
+  },
+  "addition": {
+    "tag": "c:ingots/manasteel"
+  },
+  "result": {
+    "item": "botania:manasteel_leggings"
+  },
+  "template": {
+    "tag": "c:nuggets/manasteel"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

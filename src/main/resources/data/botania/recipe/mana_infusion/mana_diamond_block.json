@@ -1,0 +1,21 @@
+{
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "botania:conjuration_catalyst"
+  },
+  "input": {
+    "tag": "c:storage_blocks/diamond"
+  },
+  "mana": 90000,
+  "output": {
+    "count": 1,
+    "item": "botania:mana_diamond_block"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

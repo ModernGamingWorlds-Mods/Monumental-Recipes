@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "botania:rune_earth"
+  },
+  "addition": {
+    "tag": "c:ingots/manasteel"
+  },
+  "result": {
+    "item": "botania:mining_ring"
+  },
+  "template": {
+    "tag": "c:nuggets/manasteel"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
+}

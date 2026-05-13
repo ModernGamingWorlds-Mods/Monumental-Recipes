@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:stone_hoe"
+  },
+  "addition": {
+    "item": "blue_skies:lunar_cobblestone"
+  },
+  "result": {
+    "item": "blue_skies:lunar_stone_hoe"
+  },
+  "template": {
+    "tag": "c:stone"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "blue_skies"
+    }
+  ]
+}

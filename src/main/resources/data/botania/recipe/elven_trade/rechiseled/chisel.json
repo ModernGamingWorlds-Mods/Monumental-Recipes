@@ -1,0 +1,30 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "chiselsandbits:chisel_stone"
+    },
+    {
+      "tag": "c:rods/iron"
+    }
+  ],
+  "output": [
+    {
+      "item": "rechiseled:chisel"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chiselsandbits"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "rechiseled:chisel"
+    }
+  ]
+}

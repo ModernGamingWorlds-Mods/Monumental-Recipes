@@ -1,0 +1,26 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "tag": "c:strings"
+    },
+    {
+      "item": "gobber2:gobber2_rod"
+    }
+  ],
+  "output": [
+    {
+      "item": "gobber2:gobber2_bow"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "gobber2:gobber2_bow"
+    }
+  ]
+}

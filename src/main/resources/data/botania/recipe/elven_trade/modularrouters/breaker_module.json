@@ -1,0 +1,26 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "tag": "c:tools/pickaxes"
+    },
+    {
+      "item": "modularrouters:blank_module"
+    }
+  ],
+  "output": [
+    {
+      "item": "modularrouters:breaker_module"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "modularrouters:breaker_module"
+    }
+  ]
+}

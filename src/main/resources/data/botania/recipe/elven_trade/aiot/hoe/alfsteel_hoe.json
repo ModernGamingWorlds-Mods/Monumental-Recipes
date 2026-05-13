@@ -1,0 +1,26 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "aiotbotania:terra_hoe"
+    },
+    {
+      "tag": "c:ingots/alfsteel"
+    }
+  ],
+  "output": [
+    {
+      "item": "aiotbotania:alfsteel_hoe"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aiotbotania"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:stone_sword"
+  },
+  "addition": {
+    "item": "blue_skies:turquoise_cobblestone"
+  },
+  "result": {
+    "item": "blue_skies:turquoise_stone_sword"
+  },
+  "template": {
+    "tag": "c:stone"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "blue_skies"
+    }
+  ]
+}
