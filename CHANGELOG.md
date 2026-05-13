@@ -61,3 +61,7 @@
 - Fixed Inventory pets recipes not using tags
 - Fixed ad_astra_giselle_addon recipes not using correct tags for recipes
 - Updated Aether Villagers loot table chest to use Mystical Essence
+
+## Version 1.0.20
+- Misc Neoforge recipe fixes and improvements
+- Fixed broken 1.20.1 Inventory pets recipes
