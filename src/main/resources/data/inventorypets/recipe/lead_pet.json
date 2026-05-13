@@ -1,6 +1,6 @@
 {
   "result": {
-    "item": "inventorypets:pet_lead"
+    "id": "inventorypets:pet_lead"
   },
   "pattern": [
     "OFO",
@@ -13,7 +13,7 @@
       "tag": "c:gems/diamond"
     },
     "F": {
-      "tag": "c:string"
+      "tag": "c:strings"
     },
     "G": {
       "tag": "c:ingots/gold"

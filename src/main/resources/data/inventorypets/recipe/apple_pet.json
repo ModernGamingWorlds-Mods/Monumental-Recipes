@@ -1,6 +1,6 @@
 {
   "result": {
-    "item": "inventorypets:pet_apple"
+    "id": "inventorypets:pet_apple"
   },
   "pattern": [
     "OFO",
@@ -25,10 +25,6 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "inventorypets"
-    },
-    {
-      "type": "forge:mod_loaded",
       "modid": "inventorypets"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "result": {
-    "item": "inventorypets:temp_feed_bag"
+    "id": "inventorypets:temp_feed_bag"
   },
   "pattern": [
     "OFO",
@@ -13,13 +13,13 @@
       "tag": "c:gems/diamond"
     },
     "F": {
-      "tag": "c:string"
+      "tag": "c:strings"
     },
     "G": {
       "tag": "c:chests"
     },
     "O": {
-      "tag": "c:leather"
+      "tag": "c:leathers"
     }
   },
   "neoforge:conditions": [

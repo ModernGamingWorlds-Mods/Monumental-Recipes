@@ -1,6 +1,6 @@
 {
   "result": {
-    "item": "inventorypets:pet_saddle"
+    "id": "inventorypets:pet_saddle"
   },
   "pattern": [
     "OFO",
@@ -19,7 +19,7 @@
       "tag": "c:ingots/gold"
     },
     "O": {
-      "tag": "c:leather"
+      "tag": "c:leathers"
     }
   },
   "neoforge:conditions": [

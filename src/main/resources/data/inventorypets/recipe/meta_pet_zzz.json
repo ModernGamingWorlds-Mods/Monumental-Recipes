@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "result": {
-    "item": "inventorypets:pet_meta"
+    "id": "inventorypets:pet_meta"
   },
   "ingredients": [
     {
