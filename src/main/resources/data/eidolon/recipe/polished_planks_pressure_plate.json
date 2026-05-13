@@ -14,12 +14,16 @@
     " B "
   ],
   "result": {
-    "item": "eidolon:polished_pressure_plate"
+    "id": "eidolon:polished_pressure_plate"
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "eidolon"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental_recipes"
     }
   ]
 }

@@ -10,7 +10,7 @@
     "id": "the_bumblezone:honey_compass"
   },
   "template": {
-    "id": "the_bumblezone:honey_crystal_shards"
+    "item": "the_bumblezone:honey_crystal_shards"
   },
   "neoforge:conditions": [
     {

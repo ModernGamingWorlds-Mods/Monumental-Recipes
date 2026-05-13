@@ -11,7 +11,7 @@
       "tag": "c:strings"
     },
     "b": {
-      "tag": "c:ingots/brick"
+      "tag": "c:bricks/normal"
     },
     "c": {
       "item": "undead_revamp2:the_somnolenceextract"
