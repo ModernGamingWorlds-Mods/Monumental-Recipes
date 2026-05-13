@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "chiselsandbits:chisel_diamond"
+  },
+  "addition": {
+    "tag": "c:ingots/netherite"
+  },
+  "result": {
+    "item": "chiselsandbits:chisel_netherite"
+  },
+  "template": {
+    "tag": "c:plates/netherite"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chiselsandbits"
+    }
+  ]
+}

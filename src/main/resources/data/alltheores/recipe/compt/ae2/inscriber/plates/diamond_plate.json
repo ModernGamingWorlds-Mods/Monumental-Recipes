@@ -22,11 +22,11 @@
       "item": "immersiveengineering:mold_plate"
     },
     "top": {
-      "tag": "forge:gems/diamond"
+      "tag": "c:gems/diamond"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:diamond_plate"
+    "id": "alltheores:diamond_plate"
   }
 }

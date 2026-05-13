@@ -26,11 +26,11 @@
       "item": "immersiveengineering:mold_rod"
     },
     "top": {
-      "tag": "forge:ingots/steel"
+      "tag": "c:ingots/steel"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:steel_rod"
+    "id": "alltheores:steel_rod"
   }
 }

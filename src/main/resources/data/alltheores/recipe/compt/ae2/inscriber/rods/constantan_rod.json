@@ -26,11 +26,11 @@
       "item": "immersiveengineering:mold_rod"
     },
     "top": {
-      "tag": "forge:ingots/constantan"
+      "tag": "c:ingots/constantan"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:constantan_rod"
+    "id": "alltheores:constantan_rod"
   }
 }

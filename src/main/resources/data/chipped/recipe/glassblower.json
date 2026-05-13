@@ -27,5 +27,11 @@
   },
   "result": {
     "id": "chipped:glassblower"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chipped"
+    }
+  ]
 }

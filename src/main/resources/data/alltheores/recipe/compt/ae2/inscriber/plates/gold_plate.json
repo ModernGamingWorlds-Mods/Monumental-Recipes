@@ -22,11 +22,11 @@
       "item": "immersiveengineering:mold_plate"
     },
     "top": {
-      "tag": "forge:ingots/gold"
+      "tag": "c:ingots/gold"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:gold_plate"
+    "id": "alltheores:gold_plate"
   }
 }

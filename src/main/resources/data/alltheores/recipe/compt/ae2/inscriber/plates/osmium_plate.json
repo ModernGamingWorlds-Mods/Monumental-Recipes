@@ -22,11 +22,11 @@
       "item": "immersiveengineering:mold_plate"
     },
     "top": {
-      "tag": "forge:ingots/osmium"
+      "tag": "c:ingots/osmium"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:osmium_plate"
+    "id": "alltheores:osmium_plate"
   }
 }

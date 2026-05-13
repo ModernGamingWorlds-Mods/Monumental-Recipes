@@ -26,11 +26,11 @@
       "item": "immersiveengineering:mold_rod"
     },
     "top": {
-      "tag": "forge:ingots/tin"
+      "tag": "c:ingots/tin"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:tin_rod"
+    "id": "alltheores:tin_rod"
   }
 }

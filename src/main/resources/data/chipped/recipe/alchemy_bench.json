@@ -21,5 +21,11 @@
   },
   "result": {
     "id": "chipped:alchemy_bench"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chipped"
+    }
+  ]
 }

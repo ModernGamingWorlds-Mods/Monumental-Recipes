@@ -21,5 +21,11 @@
   },
   "result": {
     "id": "chipped:botanist_workbench"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chipped"
+    }
+  ]
 }

@@ -26,11 +26,11 @@
       "item": "immersiveengineering:mold_rod"
     },
     "top": {
-      "tag": "forge:ingots/silver"
+      "tag": "c:ingots/silver"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:silver_rod"
+    "id": "alltheores:silver_rod"
   }
 }

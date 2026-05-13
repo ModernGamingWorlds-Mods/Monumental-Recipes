@@ -26,11 +26,11 @@
       "item": "immersiveengineering:mold_rod"
     },
     "top": {
-      "tag": "forge:ingots/gold"
+      "tag": "c:ingots/gold"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:gold_rod"
+    "id": "alltheores:gold_rod"
   }
 }

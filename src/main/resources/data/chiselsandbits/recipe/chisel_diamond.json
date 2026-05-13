@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "chiselsandbits:chisel_gold"
+  },
+  "addition": {
+    "tag": "c:gems/diamond"
+  },
+  "result": {
+    "item": "chiselsandbits:chisel_diamond"
+  },
+  "template": {
+    "tag": "c:gems/diamond"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chiselsandbits"
+    }
+  ]
+}

@@ -22,11 +22,11 @@
       "item": "immersiveengineering:mold_plate"
     },
     "top": {
-      "tag": "forge:ingots/constantan"
+      "tag": "c:ingots/constantan"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:constantan_plate"
+    "id": "alltheores:constantan_plate"
   }
 }

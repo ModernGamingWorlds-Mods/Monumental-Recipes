@@ -22,11 +22,11 @@
       "item": "immersiveengineering:mold_plate"
     },
     "top": {
-      "tag": "forge:ingots/copper"
+      "tag": "c:ingots/copper"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:copper_plate"
+    "id": "alltheores:copper_plate"
   }
 }

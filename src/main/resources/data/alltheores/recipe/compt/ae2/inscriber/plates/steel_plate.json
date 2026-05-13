@@ -22,11 +22,11 @@
       "item": "immersiveengineering:mold_plate"
     },
     "top": {
-      "tag": "forge:ingots/steel"
+      "tag": "c:ingots/steel"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:steel_plate"
+    "id": "alltheores:steel_plate"
   }
 }

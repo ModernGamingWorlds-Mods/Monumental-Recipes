@@ -22,11 +22,11 @@
       "item": "immersiveengineering:mold_plate"
     },
     "top": {
-      "tag": "forge:ingots/electrum"
+      "tag": "c:ingots/electrum"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:electrum_plate"
+    "id": "alltheores:electrum_plate"
   }
 }

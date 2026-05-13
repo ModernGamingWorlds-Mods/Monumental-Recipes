@@ -26,11 +26,11 @@
       "item": "immersiveengineering:mold_rod"
     },
     "top": {
-      "tag": "forge:ingots/signalum"
+      "tag": "c:ingots/signalum"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:signalum_rod"
+    "id": "alltheores:signalum_rod"
   }
 }

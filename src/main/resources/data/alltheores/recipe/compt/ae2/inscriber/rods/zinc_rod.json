@@ -26,11 +26,11 @@
       "item": "immersiveengineering:mold_rod"
     },
     "top": {
-      "tag": "forge:ingots/zinc"
+      "tag": "c:ingots/zinc"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:zinc_rod"
+    "id": "alltheores:zinc_rod"
   }
 }

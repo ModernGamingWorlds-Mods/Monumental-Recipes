@@ -22,11 +22,11 @@
       "item": "immersiveengineering:mold_plate"
     },
     "top": {
-      "tag": "forge:ingots/uranium"
+      "tag": "c:ingots/uranium"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:uranium_plate"
+    "id": "alltheores:uranium_plate"
   }
 }

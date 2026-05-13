@@ -26,11 +26,11 @@
       "item": "immersiveengineering:mold_rod"
     },
     "top": {
-      "tag": "forge:ingots/aluminum"
+      "tag": "c:ingots/aluminum"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:aluminum_rod"
+    "id": "alltheores:aluminum_rod"
   }
 }

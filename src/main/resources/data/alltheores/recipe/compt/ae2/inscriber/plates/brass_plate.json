@@ -22,11 +22,11 @@
       "item": "immersiveengineering:mold_plate"
     },
     "top": {
-      "tag": "forge:ingots/brass"
+      "tag": "c:ingots/brass"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:brass_plate"
+    "id": "alltheores:brass_plate"
   }
 }

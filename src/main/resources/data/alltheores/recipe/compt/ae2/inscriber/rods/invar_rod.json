@@ -26,11 +26,11 @@
       "item": "immersiveengineering:mold_rod"
     },
     "top": {
-      "tag": "forge:ingots/invar"
+      "tag": "c:ingots/invar"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:invar_rod"
+    "id": "alltheores:invar_rod"
   }
 }

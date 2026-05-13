@@ -26,11 +26,11 @@
       "item": "immersiveengineering:mold_rod"
     },
     "top": {
-      "tag": "forge:ingots/brass"
+      "tag": "c:ingots/brass"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:brass_rod"
+    "id": "alltheores:brass_rod"
   }
 }

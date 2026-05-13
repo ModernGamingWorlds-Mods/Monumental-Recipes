@@ -22,11 +22,11 @@
       "item": "immersiveengineering:mold_plate"
     },
     "top": {
-      "tag": "forge:ingots/nickel"
+      "tag": "c:ingots/nickel"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:nickel_plate"
+    "id": "alltheores:nickel_plate"
   }
 }

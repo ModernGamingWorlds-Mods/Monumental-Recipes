@@ -26,11 +26,11 @@
       "item": "immersiveengineering:mold_rod"
     },
     "top": {
-      "tag": "forge:ingots/osmium"
+      "tag": "c:ingots/osmium"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:osmium_rod"
+    "id": "alltheores:osmium_rod"
   }
 }

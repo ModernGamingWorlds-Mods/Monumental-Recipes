@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "chiselsandbits:chisel_iron"
+  },
+  "addition": {
+    "tag": "c:ingots/gold"
+  },
+  "result": {
+    "item": "chiselsandbits:chisel_gold"
+  },
+  "template": {
+    "tag": "c:plates/gold"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chiselsandbits"
+    }
+  ]
+}

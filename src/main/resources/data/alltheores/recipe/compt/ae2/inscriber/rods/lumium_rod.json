@@ -26,11 +26,11 @@
       "item": "immersiveengineering:mold_rod"
     },
     "top": {
-      "tag": "forge:ingots/lumium"
+      "tag": "c:ingots/lumium"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:lumium_rod"
+    "id": "alltheores:lumium_rod"
   }
 }

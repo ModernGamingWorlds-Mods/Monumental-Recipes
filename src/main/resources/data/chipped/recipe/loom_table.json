@@ -21,5 +21,11 @@
   },
   "result": {
     "id": "chipped:loom_table"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chipped"
+    }
+  ]
 }

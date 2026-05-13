@@ -26,11 +26,11 @@
       "item": "immersiveengineering:mold_rod"
     },
     "top": {
-      "tag": "forge:ingots/iridium"
+      "tag": "c:ingots/iridium"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:iridium_rod"
+    "id": "alltheores:iridium_rod"
   }
 }

@@ -22,11 +22,11 @@
       "item": "immersiveengineering:mold_plate"
     },
     "top": {
-      "tag": "forge:ingots/invar"
+      "tag": "c:ingots/invar"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:invar_plate"
+    "id": "alltheores:invar_plate"
   }
 }

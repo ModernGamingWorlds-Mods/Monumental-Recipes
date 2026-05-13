@@ -22,11 +22,11 @@
       "item": "immersiveengineering:mold_plate"
     },
     "top": {
-      "tag": "forge:ingots/platinum"
+      "tag": "c:ingots/platinum"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:platinum_plate"
+    "id": "alltheores:platinum_plate"
   }
 }

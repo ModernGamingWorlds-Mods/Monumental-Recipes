@@ -26,11 +26,11 @@
       "item": "immersiveengineering:mold_rod"
     },
     "top": {
-      "tag": "forge:ingots/nickel"
+      "tag": "c:ingots/nickel"
     }
   },
   "mode": "press",
   "result": {
-    "item": "alltheores:nickel_rod"
+    "id": "alltheores:nickel_rod"
   }
 }
