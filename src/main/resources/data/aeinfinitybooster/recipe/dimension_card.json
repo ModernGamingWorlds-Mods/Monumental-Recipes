@@ -23,6 +23,10 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "aeinfinitybooster"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental_recipes"
     }
   ]
 }
