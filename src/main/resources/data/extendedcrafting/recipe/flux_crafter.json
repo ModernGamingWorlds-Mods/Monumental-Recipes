@@ -18,5 +18,15 @@
   ],
   "result": {
     "id": "extendedcrafting:flux_crafter"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rftoolsutility"
+    }
+  ]
 }
