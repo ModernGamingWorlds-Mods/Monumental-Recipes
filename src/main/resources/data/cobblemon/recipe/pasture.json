@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PCP",
+    "WHW"
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "C": {
+      "item": "cobblemon:pc"
+    },
+    "W": {
+      "tag": "c:crops/wheat"
+    },
+    "H": {
+      "tag": "monumental_recipes:hoppers"
+    }
+  },
+  "result": {
+    "item": "cobblemon:pasture"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cobblemon"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

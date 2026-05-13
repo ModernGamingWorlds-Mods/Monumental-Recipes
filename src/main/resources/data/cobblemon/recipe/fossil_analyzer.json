@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DAD",
+    "IGI",
+    "DRD"
+  ],
+  "key": {
+    "I": {
+      "item": "mysticalagriculture:iron_essence"
+    },
+    "D": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "G": {
+      "tag": "c:glass_blocks"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "A": {
+      "tag": "c:gems/amethyst"
+    }
+  },
+  "result": {
+    "item": "cobblemon:fossil_analyzer"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cobblemon"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

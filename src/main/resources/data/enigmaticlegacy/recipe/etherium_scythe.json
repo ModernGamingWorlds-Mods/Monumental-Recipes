@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "mysticalagriculture:diamond_scythe"
+  },
+  "addition": {
+    "item": "enigmaticlegacy:etherium_ingot"
+  },
+  "result": {
+    "item": "enigmaticlegacy:etherium_scythe"
+  },
+  "template": {
+    "item": "enigmaticlegacy:ender_rod"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enigmaticlegacy"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

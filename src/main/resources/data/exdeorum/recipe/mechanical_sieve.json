@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:storage_blocks/compressed_iron"
+    },
+    "G": {
+      "tag": "c:glass_blocks"
+    },
+    "H": {
+      "tag": "monumental_recipes:hoppers"
+    },
+    "I": {
+      "tag": "chipped:iron_bars"
+    },
+    "J": {
+      "tag": "exmachinis:sieves"
+    }
+  },
+  "pattern": [
+    "#G#",
+    "IHI",
+    "IJI"
+  ],
+  "result": {
+    "item": "exdeorum:mechanical_sieve"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "exdeorum"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "exmachinis"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}
