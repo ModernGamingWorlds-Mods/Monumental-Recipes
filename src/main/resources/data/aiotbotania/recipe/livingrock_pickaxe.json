@@ -7,7 +7,7 @@
     "item": "botania:livingrock"
   },
   "result": {
-    "item": "aiotbotania:livingrock_pickaxe"
+    "id": "aiotbotania:livingrock_pickaxe"
   },
   "template": {
     "tag": "c:stones"

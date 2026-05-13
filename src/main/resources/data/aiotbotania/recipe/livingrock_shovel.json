@@ -10,7 +10,7 @@
     "id": "aiotbotania:livingrock_shovel"
   },
   "template": {
-    "tag": "forge:stone"
+    "tag": "c:stones"
   },
   "neoforge:conditions": [
     {
