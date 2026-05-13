@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "tag": "minecraft:axes"
+    },
+    {
+      "item": "forestry:carton"
+    }
+  ],
+  "result": {
+    "item": "forestry:axe_kit"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forestry"
+    }
+  ]
+}

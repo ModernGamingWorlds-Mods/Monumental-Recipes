@@ -1,0 +1,28 @@
+{
+  "type": "forestry:carpenter",
+  "box": [],
+  "recipe": {
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      {
+        "item": "forestry:crated_apatite"
+      }
+    ],
+    "result": {
+      "count": 9,
+      "item": "thermal:apatite"
+    }
+  },
+  "time": 5,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

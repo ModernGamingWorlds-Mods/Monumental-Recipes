@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "forestry:kapok_planks"
+    },
+    "B": {
+      "tag": "monumental_recipes:tools/hammers"
+    },
+    "C": {
+      "item": "forestry:kapok_fireproof_planks"
+    }
+  },
+  "pattern": [
+    " A ",
+    " C ",
+    " B "
+  ],
+  "result": {
+    "item": "forestry:kapok_pressure_plate"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forestry"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "tag": "minecraft:shovels"
+    },
+    {
+      "item": "forestry:carton"
+    }
+  ],
+  "result": {
+    "item": "forestry:kit_shovel"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forestry"
+    }
+  ]
+}
