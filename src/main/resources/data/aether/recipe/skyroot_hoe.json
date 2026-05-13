@@ -6,7 +6,6 @@
       "modid": "aether"
     }
   ],
-  "type": "minecraft:smithing_transform",
   "base": {
     "item": "minecraft:wooden_hoe"
   },
