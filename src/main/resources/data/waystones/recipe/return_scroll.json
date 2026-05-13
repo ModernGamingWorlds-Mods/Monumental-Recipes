@@ -8,7 +8,7 @@
       "tag": "c:dyes/purple"
     },
     "P": {
-      "tag": "c:paper"
+      "item": "minecraft:paper"
     }
   },
   "pattern": [
