@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "b": {
+      "item": "fluxnetworks:basic_flux_storage"
+    },
+    "g": {
+      "tag": "thermal:glass/hardened"
+    }
+  },
+  "pattern": [
+    "bbb",
+    "g g",
+    "bbb"
+  ],
+  "result": {
+    "item": "fluxnetworks:herculean_flux_storage"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fluxnetworks"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

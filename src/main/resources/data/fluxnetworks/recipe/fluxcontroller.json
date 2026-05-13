@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": {
+      "item": "fluxnetworks:flux_core"
+    },
+    "b": {
+      "item": "fluxnetworks:flux_block"
+    },
+    "x": {
+      "tag": "thermal:glass/hardened"
+    },
+    "a": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    }
+  },
+  "pattern": [
+    "bxb",
+    "cac",
+    "bbb"
+  ],
+  "result": {
+    "item": "fluxnetworks:flux_controller",
+    "count": 4
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fluxnetworks"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": {
+      "item": "fluxnetworks:flux_block"
+    },
+    "b": {
+      "item": "fluxnetworks:flux_core"
+    },
+    "x": {
+      "tag": "c:plastic"
+    }
+  },
+  "pattern": [
+    "xcx",
+    "cbc",
+    "xcx"
+  ],
+  "result": {
+    "item": "fluxnetworks:flux_point"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fluxnetworks"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "industrialforegoing"
+    }
+  ]
+}
