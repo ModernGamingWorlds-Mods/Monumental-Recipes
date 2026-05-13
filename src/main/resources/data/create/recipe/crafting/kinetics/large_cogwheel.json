@@ -19,5 +19,11 @@
   "result": {
     "id": "create:large_cogwheel",
     "count": 2
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
 }

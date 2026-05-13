@@ -31,5 +31,15 @@
     "count": 2,
     "id": "create:andesite_alloy"
   },
-  "processingTime": 300
+  "processingTime": 300,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "industrialforegoing"
+    }
+  ]
 }

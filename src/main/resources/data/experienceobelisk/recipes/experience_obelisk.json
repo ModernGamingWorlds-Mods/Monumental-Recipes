@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "A": {
-      "tag": "forge:ingots/compressed_iron"
+      "tag": "c:ingots/compressed_iron"
     },
     "B": {
       "item": "experienceobelisk:cognitive_amalgam"
@@ -22,9 +22,9 @@
   "result": {
     "item": "experienceobelisk:experience_obelisk"
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "experienceobelisk"
     }
   ]

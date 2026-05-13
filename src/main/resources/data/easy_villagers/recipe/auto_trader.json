@@ -21,5 +21,15 @@
   },
   "result": {
     "id": "easy_villagers:auto_trader"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "easy_villagers"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "compressedblocks"
+    }
+  ]
 }

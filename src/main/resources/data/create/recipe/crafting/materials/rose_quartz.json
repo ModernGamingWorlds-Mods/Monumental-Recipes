@@ -36,5 +36,15 @@
     "fluid": "minecraft:lava"
   },
   "fluidLevelsConsumed": 1500,
-  "heatRequirement": "heated"
+  "heatRequirement": "heated",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hexerei"
+    }
+  ]
 }

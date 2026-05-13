@@ -21,5 +21,15 @@
     "count": 4,
     "id": "create:fluid_pipe"
   },
-  "show_notification": true
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chipped"
+    }
+  ]
 }

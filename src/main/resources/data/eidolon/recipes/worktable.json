@@ -14,16 +14,20 @@
       "item": "eidolon:pewter_inlay"
     },
     "z": {
-      "tag": "forge:treated_wood"
+      "tag": "c:treated_wood"
     }
   },
   "result": {
     "item": "eidolon:worktable"
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "eidolon"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
     }
   ]
 }

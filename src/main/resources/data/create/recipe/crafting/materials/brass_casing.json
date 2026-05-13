@@ -19,5 +19,15 @@
   "result": {
     "id": "create:brass_casing",
     "count": 4
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ]
 }
