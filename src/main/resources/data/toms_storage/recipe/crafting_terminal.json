@@ -13,11 +13,11 @@
       "tag": "c:player_workstations/crafting_tables"
     },
     "t": {
-      "item": "toms_storage:ts.storage_terminal"
+      "item": "toms_storage:storage_terminal"
     }
   },
   "result": {
-    "id": "toms_storage:ts.crafting_terminal"
+    "id": "toms_storage:crafting_terminal"
   },
   "neoforge:conditions": [
     {

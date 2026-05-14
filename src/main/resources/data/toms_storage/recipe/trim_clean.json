@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "toms_storage:ts.painted_trim"
+      "item": "toms_storage:painted_trim"
     },
     {
       "tag": "c:buckets/water"
     }
   ],
   "result": {
-    "id": "toms_storage:ts.trim",
+    "id": "toms_storage:trim",
     "count": 1
   },
   "neoforge:conditions": [

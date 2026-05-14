@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "toms_storage:ts.item_filter"
+      "item": "toms_storage:item_filter"
     },
     {
       "item": "minecraft:comparator"
@@ -12,7 +12,7 @@
     }
   ],
   "result": {
-    "id": "toms_storage:ts.polymorphic_item_filter",
+    "id": "toms_storage:polymorphic_item_filter",
     "count": 1
   },
   "neoforge:conditions": [

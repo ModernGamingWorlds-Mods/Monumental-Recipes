@@ -7,14 +7,14 @@
   ],
   "key": {
     "C": {
-      "item": "toms_storage:ts.inventory_cable_connector"
+      "item": "toms_storage:inventory_cable_connector"
     },
     "S": {
       "tag": "c:rods/wooden"
     }
   },
   "result": {
-    "id": "toms_storage:ts.inventory_cable_connector_framed",
+    "id": "toms_storage:inventory_cable_connector_framed",
     "count": 1
   },
   "neoforge:conditions": [

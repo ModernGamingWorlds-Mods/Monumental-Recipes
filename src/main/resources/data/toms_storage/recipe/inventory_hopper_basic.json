@@ -9,14 +9,14 @@
       "tag": "minecraft:planks"
     },
     "c": {
-      "item": "toms_storage:ts.inventory_cable"
+      "item": "toms_storage:inventory_cable"
     },
     "H": {
       "tag": "monumental_recipes:hoppers"
     }
   },
   "result": {
-    "id": "toms_storage:ts.inventory_hopper_basic"
+    "id": "toms_storage:inventory_hopper_basic"
   },
   "neoforge:conditions": [
     {
