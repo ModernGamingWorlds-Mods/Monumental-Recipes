@@ -1,12 +1,12 @@
 {
   "type": "create:mixing",
-  "heatRequirement": "heated",
+  "heat_requirement": "heated",
   "ingredients": [
     {
-      "tag": "c:slimeballs"
+      "tag": "c:slime_balls"
     },
     {
-      "tag": "c:gems/prismarine"
+      "tag": "c:dusts/prismarine"
     },
     {
       "tag": "minecraft:small_flowers"
