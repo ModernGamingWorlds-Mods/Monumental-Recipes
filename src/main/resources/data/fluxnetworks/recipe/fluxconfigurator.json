@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "o": {
-      "tag": "c:ingots/obsidian"
+      "tag": "c:ingots/obsidiansteel"
     },
     "f": {
       "item": "fluxnetworks:flux_dust"
@@ -17,7 +17,7 @@
     "o  "
   ],
   "result": {
-    "item": "fluxnetworks:flux_configurator"
+    "id": "fluxnetworks:flux_configurator"
   },
   "neoforge:conditions": [
     {

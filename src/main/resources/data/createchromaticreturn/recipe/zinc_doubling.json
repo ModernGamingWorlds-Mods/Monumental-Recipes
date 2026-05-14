@@ -56,8 +56,8 @@
   "results": [
     {
       "count": 32,
-      "item": "alltheores:zinc_ingot"
+      "id": "alltheores:zinc_ingot"
     }
   ],
-  "heatRequirement": "heated"
+  "heat_requirement": "heated"
 }

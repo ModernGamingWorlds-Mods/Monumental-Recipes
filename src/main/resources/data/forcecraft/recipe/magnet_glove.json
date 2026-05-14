@@ -7,7 +7,7 @@
     "item": "forcecraft:force_ingot"
   },
   "result": {
-    "item": "forcecraft:magnet_glove"
+    "id": "forcecraft:magnet_glove"
   },
   "template": {
     "tag": "c:leathers"

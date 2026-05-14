@@ -14,7 +14,7 @@
     "bbb"
   ],
   "result": {
-    "item": "fluxnetworks:basic_flux_storage"
+    "id": "fluxnetworks:basic_flux_storage"
   },
   "neoforge:conditions": [
     {

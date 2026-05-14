@@ -36,7 +36,7 @@
     "fluid": "minecraft:lava"
   },
   "fluidLevelsConsumed": 2000,
-  "heatRequirement": "heated",
+  "heat_requirement": "heated",
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

@@ -1,6 +1,6 @@
 {
   "type": "create:mixing",
-  "heatRequirement": "heated",
+  "heat_requirement": "heated",
   "ingredients": [
     {
       "tag": "minecraft:planks"
@@ -15,8 +15,9 @@
       "tag": "minecraft:planks"
     },
     {
-      "fluidTag": "forge:creosote",
-      "amount": 500
+      "type": "neoforge:tag",
+      "amount": 500,
+      "tag": "c:creosote"
     }
   ],
   "results": [

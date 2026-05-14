@@ -14,7 +14,7 @@
     "AAA"
   ],
   "result": {
-    "item": "glassential:glass_redstone"
+    "id": "glassential:glass_redstone"
   },
   "neoforge:conditions": [
     {

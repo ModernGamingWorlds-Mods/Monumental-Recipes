@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "strainers:netherite_mesh"
+    "id": "strainers:netherite_mesh"
   },
   "neoforge:conditions": [
     {

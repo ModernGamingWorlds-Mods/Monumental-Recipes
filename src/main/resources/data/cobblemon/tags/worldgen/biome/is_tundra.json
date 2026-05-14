@@ -74,7 +74,7 @@
   ],
   "conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "ad_astra"
     }
   ]

@@ -6,7 +6,7 @@
   "ingredient": {
     "tag": "pneumaticcraft:smooth_plastic_bricks"
   },
-  "result": "industrialforegoing:plastic",
+  "id": "industrialforegoing:plastic",
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

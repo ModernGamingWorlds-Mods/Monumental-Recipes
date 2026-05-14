@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "strainers:amethyst_mesh"
+    "id": "strainers:amethyst_mesh"
   },
   "neoforge:conditions": [
     {

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "prefab:item_sickle_iron"
+      "id": "prefab:item_sickle_iron"
     }
   ],
   "neoforge:conditions": [

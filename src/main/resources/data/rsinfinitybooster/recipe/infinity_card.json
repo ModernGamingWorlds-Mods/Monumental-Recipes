@@ -21,7 +21,7 @@
     "NNN"
   ],
   "result": {
-    "item": "rsinfinitybooster:infinity_card"
+    "id": "rsinfinitybooster:infinity_card"
   },
   "show_notification": true,
   "neoforge:conditions": [

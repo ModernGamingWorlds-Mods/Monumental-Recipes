@@ -17,11 +17,11 @@
     }
   },
   "result": {
-    "item": "opolisutilities:home_stone"
+    "id": "opolisutilities:home_stone"
   },
   "conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "opolisutilities"
     }
   ]

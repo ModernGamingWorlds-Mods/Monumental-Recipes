@@ -1,6 +1,6 @@
 {
   "type": "create:mixing",
-  "heatRequirement": "heated",
+  "heat_requirement": "heated",
   "ingredients": [
     {
       "tag": "c:dusts/redstone"
@@ -11,7 +11,7 @@
   ],
   "results": [
     {
-      "item": "fluxnetworks:flux_dust"
+      "id": "fluxnetworks:flux_dust"
     }
   ],
   "neoforge:conditions": [

@@ -7,7 +7,7 @@
     "tag": "c:ingots/gold"
   },
   "result": {
-    "item": "prefab:item_sickle_gold"
+    "id": "prefab:item_sickle_gold"
   },
   "template": {
     "tag": "c:rods/gold"

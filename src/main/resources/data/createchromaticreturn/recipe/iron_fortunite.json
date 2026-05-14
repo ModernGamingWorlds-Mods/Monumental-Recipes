@@ -59,8 +59,8 @@
   "results": [
     {
       "count": 64,
-      "item": "minecraft:iron_ingot"
+      "id": "minecraft:iron_ingot"
     }
   ],
-  "heatRequirement": "superheated"
+  "heat_requirement": "superheated"
 }

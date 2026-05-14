@@ -1,7 +1,7 @@
 {
   "conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "ars_elemental"
     }
   ],
@@ -18,7 +18,7 @@
       "item": "ars_nouveau:conjuration_essence"
     },
     {
-      "tag": "forge:bones"
+      "tag": "c:bones"
     },
     {
       "item": "ars_nouveau:wilden_horn"

@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "B": {
-      "tag": "monumental_recipes:piston"
+      "tag": "monumental_recipes:pistons"
     },
     "C": {
       "tag": "c:circuits/advanced"

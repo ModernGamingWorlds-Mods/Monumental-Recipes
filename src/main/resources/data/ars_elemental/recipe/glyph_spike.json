@@ -1,7 +1,7 @@
 {
   "conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "ars_elemental"
     }
   ],
@@ -16,7 +16,7 @@
     },
     {
       "item": {
-        "tag": "forge:ingots/netherite"
+        "tag": "c:ingots/netherite"
       }
     },
     {

@@ -5,8 +5,8 @@
       "reliquary:cloth",
       "reliquary:crimson_cloth",
       "hexerei:cloth",
-      //"botania:manaweave_cloth",
+      "botania:manaweave_cloth",
       "#create:table_cloths",
-      //"tconstruct:silky_cloth"
+      "tconstruct:silky_cloth"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "ars_elemental"
     }
   ],
@@ -12,14 +12,16 @@
       "item": "ars_nouveau:green_archwood_log"
     },
     {
-      "tag": "forge:ingots/iron"
+      "tag": "c:ingots/iron"
     },
     {
-      "tag": "forge:ingots/iron"
+      "tag": "c:ingots/iron"
     },
     {
       "item": "mysticalagriculture:earth_essence"
     }
   ],
-  "result": {"item": "ars_elemental:ritual_attraction"}
+  "result": {
+    "id": "ars_elemental:ritual_attraction"
+  }
 }

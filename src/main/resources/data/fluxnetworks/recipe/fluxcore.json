@@ -1,6 +1,6 @@
 {
   "type": "create:mixing",
-  "heatRequirement": "heated",
+  "heat_requirement": "heated",
   "ingredients": [
     {
       "tag": "c:obsidians"
@@ -14,7 +14,7 @@
   ],
   "results": [
     {
-      "item": "fluxnetworks:flux_core",
+      "id": "fluxnetworks:flux_core",
       "count": 2
     }
   ],

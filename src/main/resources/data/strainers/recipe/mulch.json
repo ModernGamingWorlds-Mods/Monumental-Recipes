@@ -15,7 +15,7 @@
     "LLL"
   ],
   "result": {
-    "item": "strainers:mulch"
+    "id": "strainers:mulch"
   },
   "show_notification": true,
   "neoforge:conditions": [

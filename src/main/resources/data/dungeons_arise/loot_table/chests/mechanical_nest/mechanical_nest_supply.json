@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Imported Kayra\\'s Curse\",\"italic\":false}',Lore:['{\"text\":\"Distilled from boiled frog legs and enhanced by the occult.\",\"italic\":true}','{\"text\":\"Nobody shall build a fortress higher than a man\\'s step.\",\"italic\":true}','{\"text\":\"Note: supplier has since cut contact.\",\"italic\":true}']},CustomPotionEffects:[{Id:8,Amplifier:80b,Duration:400},{Id:28,Amplifier:0b,Duration:4800}],Potion:\"minecraft:weakness\",CustomPotionColor:6519211}"
+              "tag": "{display:{Name:'{\"text\":\"Imported Kayra's Curse\",\"italic\":false}',Lore:['{\"text\":\"Distilled from boiled frog legs and enhanced by the occult.\",\"italic\":true}','{\"text\":\"Nobody shall build a fortress higher than a man's step.\",\"italic\":true}','{\"text\":\"Note: supplier has since cut contact.\",\"italic\":true}']},CustomPotionEffects:[{Id:8,Amplifier:80b,Duration:400},{Id:28,Amplifier:0b,Duration:4800}],Potion:\"minecraft:weakness\",CustomPotionColor:6519211}"
             }
           ]
         },
@@ -63,7 +63,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Imported Will O\\' The Beer\",\"italic\":false}',Lore:['{\"text\":\"Some people describe its effects\",\"italic\":true}','{\"text\":\"as incredibly light and liberating.\",\"italic\":true}','{\"text\":\"But captives always spill out the\",\"italic\":true}','{\"text\":\"truth when they\\'re high enough.\",\"italic\":true}','{\"text\":\"Note: supplier has since cut contact.\",\"italic\":true}']},CustomPotionEffects:[{Id:25,Amplifier:1b,Duration:9600}],Potion:\"minecraft:harming\",CustomPotionColor:0}"
+              "tag": "{display:{Name:'{\"text\":\"Imported Will O' The Beer\",\"italic\":false}',Lore:['{\"text\":\"Some people describe its effects\",\"italic\":true}','{\"text\":\"as incredibly light and liberating.\",\"italic\":true}','{\"text\":\"But captives always spill out the\",\"italic\":true}','{\"text\":\"truth when they're high enough.\",\"italic\":true}','{\"text\":\"Note: supplier has since cut contact.\",\"italic\":true}']},CustomPotionEffects:[{Id:25,Amplifier:1b,Duration:9600}],Potion:\"minecraft:harming\",CustomPotionColor:0}"
             }
           ]
         },
