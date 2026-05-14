@@ -16,8 +16,7 @@
     "count": 1,
     "id": "ars_additions:fall_prevention_charm"
   },
-  "sourceCost": 0
-},
+  "sourceCost": 0,
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

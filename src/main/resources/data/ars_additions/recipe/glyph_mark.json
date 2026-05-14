@@ -18,8 +18,7 @@
   "output": {
     "count": 1,
     "id": "ars_additions:glyph_mark"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

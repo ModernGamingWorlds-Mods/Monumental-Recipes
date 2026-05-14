@@ -12,8 +12,7 @@
   "output": {
     "count": 1,
     "id": "ars_elemental:glyph_undead_filter"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

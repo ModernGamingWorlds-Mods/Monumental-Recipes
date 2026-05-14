@@ -18,8 +18,7 @@
   "output": {
     "count": 1,
     "id": "ars_elemental:glyph_homing_projectile"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

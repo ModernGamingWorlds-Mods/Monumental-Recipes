@@ -19,8 +19,7 @@
     "count": 1,
     "id": "ars_additions:unstable_reliquary"
   },
-  "sourceCost": 0
-},
+  "sourceCost": 0,
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

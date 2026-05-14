@@ -18,8 +18,7 @@
   "output": {
     "count": 1,
     "id": "ars_additions:glyph_recall"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

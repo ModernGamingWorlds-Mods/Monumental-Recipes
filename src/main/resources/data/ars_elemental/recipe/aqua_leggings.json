@@ -21,8 +21,7 @@
     "count": 1,
     "id": "ars_elemental:aqua_leggings"
   },
-  "sourceCost": 7000
-},
+  "sourceCost": 7000,
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
