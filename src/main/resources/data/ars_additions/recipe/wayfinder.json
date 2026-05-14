@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "a": {
-      "item": "c:gems/amethyst"
+      "tag": "c:gems/amethyst"
     },
     "g": {
       "tag": "c:ingots/gold"
@@ -17,8 +17,7 @@
   "result": {
     "count": 1,
     "id": "ars_additions:wayfinder"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
