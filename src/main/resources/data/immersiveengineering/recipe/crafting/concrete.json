@@ -1,9 +1,9 @@
 {
   "type": "create:mixing",
-  "heatRequirement": "heated",
+  "heat_requirement": "heated",
   "ingredients": [
     {
-      "tag": "c:clay"
+      "item": "minecraft:clay"
     },
     {
       "tag": "c:gravels"
@@ -15,8 +15,9 @@
       "tag": "c:sands"
     },
     {
-      "fluid": "minecraft:water",
-      "amount": 500
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "minecraft:water"
     }
   ],
   "results": [
