@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "P": {
+      "item": "refinedstorage:improved_processor"
+    },
+    "A": {
+      "item": "refinedstorage:pattern"
+    },
+    "G": {
+      "item": "ae2:semi_dark_monitor"
+    },
+    "E": {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    "M": {
+      "item": "refinedstorage:machine_casing"
+    }
+  },
+  "pattern": [
+    "PAG",
+    "EMG",
+    "PAG"
+  ],
+  "result": {
+    "id": "refinedstorage:autocrafting_monitor"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "refinedstorage"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
+}
