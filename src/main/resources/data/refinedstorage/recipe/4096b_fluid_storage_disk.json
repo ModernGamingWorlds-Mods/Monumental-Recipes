@@ -8,7 +8,7 @@
       "item": "extendedcrafting:redstone_component"
     },
     "P": {
-      "item": "refinedstorage:4096k_fluid_storage_part"
+      "item": "refinedstorage:4096b_fluid_storage_part"
     },
     "E": {
       "item": "refinedstorage:quartz_enriched_iron"
@@ -20,7 +20,7 @@
     "EEE"
   ],
   "result": {
-    "id": "refinedstorage:4096k_fluid_storage_disk"
+    "id": "refinedstorage:4096b_fluid_storage_disk"
   },
   "neoforge:conditions": [
     {
