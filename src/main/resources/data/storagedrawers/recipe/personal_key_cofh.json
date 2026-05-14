@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cofh_core"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "storagedrawers"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "storagedrawers:personal_key"
+    },
+    {
+      "tag": "cofh_core:crafting/locks"
+    }
+  ],
+  "result": {
+    "id": "storagedrawers:personal_key_cofh"
+  }
+}

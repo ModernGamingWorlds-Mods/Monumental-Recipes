@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "tag": "c:foods/boiled_egg"
+    },
+    {
+      "tag": "c:cooked_eggs"
+    },
+    {
+      "tag": "c:cooked_eggs"
+    },
+    {
+      "tag": "c:vegetables/onion"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "id": "mynethersdelight:egg_soup"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mynethersdelight"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
+}

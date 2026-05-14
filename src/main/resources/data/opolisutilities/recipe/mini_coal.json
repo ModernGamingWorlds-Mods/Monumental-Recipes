@@ -9,12 +9,12 @@
     }
   },
   "result": {
-    "item": "inventorypets:nugget_coal",
+    "id": "inventorypets:nugget_coal",
     "count": 8
   },
   "conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "opolisutilities"
     }
   ]

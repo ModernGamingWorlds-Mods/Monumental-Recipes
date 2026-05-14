@@ -1,6 +1,6 @@
 {
   "type": "create:mixing",
-  "heatRequirement": "heated",
+  "heat_requirement": "heated",
   "ingredients": [
     {
       "item": "thermal:glowstone_mushroom_spores"

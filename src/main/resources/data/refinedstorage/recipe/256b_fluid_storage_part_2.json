@@ -3,7 +3,7 @@
   "accept_mirrored": false,
   "key": {
     "X": {
-      "item": "refinedstorage:64k_fluid_storage_part"
+      "item": "refinedstorage:64b_fluid_storage_part"
     },
     "I": {
       "item": "refinedstorage:basic_processor"

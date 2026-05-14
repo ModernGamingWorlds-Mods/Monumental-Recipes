@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mysticalagriculture:inferium_sickle"
+      "id": "mysticalagriculture:inferium_sickle"
     }
   ],
   "neoforge:conditions": [

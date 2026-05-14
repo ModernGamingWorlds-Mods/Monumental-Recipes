@@ -1,8 +1,12 @@
 {
   "conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "ars_elemental"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
     }
   ],
   "type": "ars_nouveau:enchantment",
@@ -10,29 +14,19 @@
   "level": 2,
   "pedestalItems": [
     {
-      "item": {
         "item": "mysticalagriculture:air_essence"
-      }
     },
     {
-      "item": {
         "item": "mysticalagriculture:fire_essence"
-      }
     },
     {
-      "item": {
         "item": "mysticalagriculture:earth_essence"
-      }
     },
     {
-      "item": {
         "item": "mysticalagriculture:water_essence"
-      }
     },
     {
-      "item": {
         "item": "ars_elemental:spell_mirror"
-      }
     }
   ],
   "sourceCost": 5000

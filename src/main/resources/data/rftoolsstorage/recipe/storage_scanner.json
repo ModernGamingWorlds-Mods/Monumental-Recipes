@@ -27,7 +27,7 @@
   ],
   "result": {
     "count": 1,
-    "item": "rftoolsstorage:storage_scanner"
+    "id": "rftoolsstorage:storage_scanner"
   },
   "neoforge:conditions": [
     {

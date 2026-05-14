@@ -3,6 +3,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "ars_elemental"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
     }
   ],
   "type": "ars_nouveau:imbuement",
@@ -13,24 +17,16 @@
   "output": "ars_elemental:earth_turret",
   "pedestalItems": [
     {
-      "item": {
         "item": "mysticalagriculture:earth_essence"
-      }
     },
     {
-      "item": {
         "item": "mysticalagriculture:earth_essence"
-      }
     },
     {
-      "item": {
         "item": "mysticalagriculture:earth_essence"
-      }
     },
     {
-      "item": {
         "item": "ars_elemental:earth_focus"
-      }
     }
   ],
   "source": 5000

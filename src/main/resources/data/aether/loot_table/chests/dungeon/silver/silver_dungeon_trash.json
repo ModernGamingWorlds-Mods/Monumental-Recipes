@@ -115,12 +115,11 @@
       }
     }
   ],
-  "random_sequence": "aether:chests/dungeon/silver/silver_dungeon_trash"
-},
-"conditions": [
-{
-"type": "forge:mod_loaded",
-"modid": "aether"
-}
-]
+  "random_sequence": "aether:chests/dungeon/silver/silver_dungeon_trash",
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aether"
+    }
+  ]
 }

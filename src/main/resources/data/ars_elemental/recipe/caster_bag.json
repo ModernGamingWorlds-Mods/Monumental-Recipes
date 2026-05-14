@@ -28,8 +28,7 @@
     "count": 1,
     "id": "ars_elemental:caster_bag"
   },
-  "sourceCost": 0
-},
+  "sourceCost": 0,
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

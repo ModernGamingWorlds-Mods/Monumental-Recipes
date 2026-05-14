@@ -18,8 +18,7 @@
   "output": {
     "count": 1,
     "id": "ars_elemental:glyph_arc_projectile"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

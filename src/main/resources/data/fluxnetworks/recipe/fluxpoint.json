@@ -17,7 +17,7 @@
     "xcx"
   ],
   "result": {
-    "item": "fluxnetworks:flux_point"
+    "id": "fluxnetworks:flux_point"
   },
   "neoforge:conditions": [
     {

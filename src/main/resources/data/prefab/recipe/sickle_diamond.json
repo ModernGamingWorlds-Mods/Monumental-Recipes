@@ -7,7 +7,7 @@
     "tag": "c:gems/diamond"
   },
   "result": {
-    "item": "prefab:item_sickle_diamond"
+    "id": "prefab:item_sickle_diamond"
   },
   "template": {
     "tag": "c:rods/diamond"

@@ -56,8 +56,8 @@
   "results": [
     {
       "count": 32,
-      "item": "minecraft:copper_ingot"
+      "id": "minecraft:copper_ingot"
     }
   ],
-  "heatRequirement": "heated"
+  "heat_requirement": "heated"
 }

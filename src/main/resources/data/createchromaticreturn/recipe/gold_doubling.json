@@ -56,8 +56,8 @@
   "results": [
     {
       "count": 32,
-      "item": "minecraft:gold_ingot"
+      "id": "minecraft:gold_ingot"
     }
   ],
-  "heatRequirement": "heated"
+  "heat_requirement": "heated"
 }

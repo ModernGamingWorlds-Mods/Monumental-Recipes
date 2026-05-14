@@ -15,8 +15,7 @@
   "output": {
     "count": 1,
     "id": "ars_elemental:glyph_poison_spores"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

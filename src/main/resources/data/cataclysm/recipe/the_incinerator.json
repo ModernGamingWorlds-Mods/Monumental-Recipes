@@ -21,7 +21,7 @@
   ],
   "result": {
     "count": 1,
-    "item": "cataclysm:the_incinerator"
+    "id": "cataclysm:the_incinerator"
   },
   "neoforge:conditions": [
     {

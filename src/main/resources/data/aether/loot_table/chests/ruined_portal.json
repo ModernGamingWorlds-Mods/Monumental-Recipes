@@ -258,12 +258,11 @@
       }
     }
   ],
-  "random_sequence": "aether:chests/ruined_portal"
-},
-"conditions": [
-{
-"type": "forge:mod_loaded",
-"modid": "ad_astra"
-}
-]
+  "random_sequence": "aether:chests/ruined_portal",
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ad_astra"
+    }
+  ]
 }

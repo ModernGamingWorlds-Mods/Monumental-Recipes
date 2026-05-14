@@ -7,7 +7,7 @@
     "tag": "c:stones"
   },
   "result": {
-    "item": "prefab:item_sickle_stone"
+    "id": "prefab:item_sickle_stone"
   },
   "template": {
     "item": "kubejs:stone_rod"

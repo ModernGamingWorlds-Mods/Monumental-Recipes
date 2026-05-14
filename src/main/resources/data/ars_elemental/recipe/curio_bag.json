@@ -17,8 +17,7 @@
   "result": {
     "count": 1,
     "id": "ars_elemental:curio_bag"
-  }
-},
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

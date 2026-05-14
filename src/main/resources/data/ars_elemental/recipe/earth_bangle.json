@@ -22,8 +22,7 @@
     "count": 1,
     "id": "ars_elemental:earth_bangle"
   },
-  "sourceCost": 0
-},
+  "sourceCost": 0,
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

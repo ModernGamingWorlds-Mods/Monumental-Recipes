@@ -27,7 +27,7 @@
   ],
   "result": {
     "count": 2,
-    "item": "immersiveengineering:capacitor_hv"
+    "id": "immersiveengineering:capacitor_hv"
   },
   "neoforge:conditions": [
     {

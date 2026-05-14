@@ -7,7 +7,7 @@
     "multipiston:multipistonblock",
     "securitycraft:reinforced_piston",
     "securitycraft:reinforced_sticky_piston",
-    //"essentials:multi_piston",
-    //"essentials:multi_piston_sticky"
+    "essentials:multi_piston",
+    "essentials:multi_piston_sticky"
   ]
 }

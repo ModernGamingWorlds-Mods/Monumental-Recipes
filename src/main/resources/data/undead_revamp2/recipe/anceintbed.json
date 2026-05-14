@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 1.5,
+  "cookingtime": 500,
+  "ingredient": {
+    "tag": "c:foods/breads"
+  },
+  "id": "undead_revamp2:ancientbread",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
+}

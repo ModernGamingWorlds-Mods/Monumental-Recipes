@@ -59,8 +59,8 @@
   "results": [
     {
       "count": 64,
-      "item": "alltheores:zinc_ingot"
+      "id": "alltheores:zinc_ingot"
     }
   ],
-  "heatRequirement": "superheated"
+  "heat_requirement": "superheated"
 }

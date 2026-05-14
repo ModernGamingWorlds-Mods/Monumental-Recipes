@@ -1,8 +1,12 @@
 {
   "conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "ars_elemental"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
     }
   ],
   "type": "ars_nouveau:imbuement",
@@ -13,34 +17,22 @@
   "output": "ars_elemental:lesser_air_focus",
   "pedestalItems": [
     {
-      "item": {
         "item": "mysticalagriculture:air_essence"
-      }
     },
     {
-      "item": {
         "item": "mysticalagriculture:air_essence"
-      }
     },
     {
-      "item": {
         "item": "mysticalagriculture:air_essence"
-      }
     },
     {
-      "item": {
         "item": "minecraft:gold_ingot"
-      }
     },
     {
-      "item": {
         "item": "minecraft:gold_ingot"
-      }
     },
     {
-      "item": {
         "item": "minecraft:gold_ingot"
-      }
     }
   ],
   "source": 5000

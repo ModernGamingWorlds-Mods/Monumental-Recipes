@@ -31,8 +31,7 @@
     "count": 1,
     "id": "ars_elemental:air_upstream"
   },
-  "sourceCost": 0
-},
+  "sourceCost": 0,
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

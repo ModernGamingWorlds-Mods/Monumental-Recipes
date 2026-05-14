@@ -9,31 +9,31 @@
       "item": "immersiveengineering:hemp_fiber"
     },
     {
-      "tag": "monumental_recipes:cloth"
+      "tag": "monumental_recipes:cloths"
     },
     {
       "item": "industrialforegoing:pink_slime_ingot"
     },
     {
-      "tag": "monumental_recipes:cloth"
+      "tag": "monumental_recipes:cloths"
     },
     {
       "item": "immersiveengineering:hemp_fiber"
     },
     {
-      "tag": "monumental_recipes:cloth"
+      "tag": "monumental_recipes:cloths"
     },
     {
       "item": "industrialforegoing:pink_slime_ingot"
     },
     {
-      "tag": "monumental_recipes:cloth"
+      "tag": "monumental_recipes:cloths"
     }
   ],
   "output": {
     "id": "refinedstorage:processor_binding"
   },
-  "heatRequirement": "heated",
+  "heat_requirement": "heated",
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

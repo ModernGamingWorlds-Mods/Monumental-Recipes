@@ -1,7 +1,7 @@
 {
   "conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "ars_elemental"
     }
   ],
@@ -24,16 +24,16 @@
       "item": "minecraft:gold_ingot"
     },
     {
-      "tag": "forge:gems/source"
+      "tag": "c:gems/source"
     },
     {
-      "tag": "forge:gems/source"
+      "tag": "c:gems/source"
     },
     {
-      "tag": "forge:gems/source"
+      "tag": "c:gems/source"
     },
     {
-      "tag": "forge:gems/source"
+      "tag": "c:gems/source"
     }
   ],
   "reagent": [

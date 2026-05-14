@@ -13,7 +13,7 @@
       "item": "refinedstorage:detector"
     },
     "C": {
-      "item": "refinedstorage:crafting_upgrade"
+      "item": "refinedstorage:autocrafting_upgrade"
     },
     "F": {
       "item": "refinedstorage:machine_casing"

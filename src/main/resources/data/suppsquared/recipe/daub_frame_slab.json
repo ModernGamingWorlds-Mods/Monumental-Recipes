@@ -1,11 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "###"
+    "AAA"
   ],
   "key": {
-    "#": {
-      "tag": "supplementaries:wattle_and_daub"
+    "A": {
+      "tag": "supplementaries:wattle_and_daubs"
     }
   },
   "result": {
