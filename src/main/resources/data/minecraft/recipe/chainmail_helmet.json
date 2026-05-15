@@ -4,7 +4,7 @@
     "item": "minecraft:leather_helmet"
   },
   "addition": {
-    "tag": "monumental_recipes:chains"
+    "tag": "c:chains"
   },
   "result": {
     "id": "minecraft:chainmail_helmet"
