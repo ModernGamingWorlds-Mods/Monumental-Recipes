@@ -14,7 +14,7 @@
     " B "
   ],
   "result": {
-    "item": "environmental:pine_pressure_plate"
+    "id": "environmental:pine_pressure_plate"
   },
   "conditions": [
     {
