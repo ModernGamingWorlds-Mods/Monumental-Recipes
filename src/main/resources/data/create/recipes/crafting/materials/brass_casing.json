@@ -24,6 +24,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "createdeco"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
     }
   ]
 }

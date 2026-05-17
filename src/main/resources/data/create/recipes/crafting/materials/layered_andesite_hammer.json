@@ -1,33 +1,29 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
+    "A": {
+      "item": "minecraft:andesite"
+    },
     "S": {
-      "tag": "monumental_recipes:wooden_plates"
+      "tag": "monumental_recipes:tools/hammers"
     },
     "C": {
       "item": "create:andesite_alloy"
-    },
-    "D": {
-      "item": "create:cogwheel"
     }
   },
   "pattern": [
-    "SDS",
-    "DCD",
-    "SDS"
+    "ASA",
+    "ACA",
+    "ASA"
   ],
   "result": {
-    "item": "create:large_cogwheel",
+    "item": "create:layered_andesite",
     "count": 2
   },
   "conditions": [
     {
       "type": "forge:mod_loaded",
       "modid": "create"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "kubejs"
     }
   ]
 }

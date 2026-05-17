@@ -1,21 +1,33 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    {
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "P": {
+      "tag": "monumental_recipes:wooden_plates"
+    },
+    "S": {
       "item": "create:shaft"
     },
-    {
+    "C": {
       "item": "supplementaries:crank"
     }
+  },
+  "pattern": [
+    "PSP",
+    "SCS",
+    "PSP"
   ],
   "result": {
-    "item": "create:cogwheel"
+    "item": "create:cogwheel",
+    "count": 2
   },
   "conditions": [
     {
       "type": "forge:mod_loaded",
       "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
     }
   ]
 }

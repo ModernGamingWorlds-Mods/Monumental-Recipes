@@ -30,7 +30,8 @@
     }
   ],
   "output": {
-    "item": "create:rose_quartz"
+    "item": "create:rose_quartz",
+    "count": 4
   },
   "liquidOutput": {
     "fluid": "minecraft:lava"
@@ -41,6 +42,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
     }
   ]
 }
