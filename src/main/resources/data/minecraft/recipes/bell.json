@@ -5,17 +5,14 @@
     "SSS",
     "S S"
   ],
-  
   "key": {
     "X": {
       "tag": "forge:rods/wooden"
     },
     "S": {
       "tag": "forge:ingots/copper"
-    }    
+    }
   },
-  
-  
   "result": {
     "item": "minecraft:bell"
   }

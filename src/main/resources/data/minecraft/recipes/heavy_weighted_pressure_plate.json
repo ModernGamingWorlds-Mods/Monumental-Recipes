@@ -15,5 +15,11 @@
   ],
   "result": {
     "item": "minecraft:heavy_weighted_pressure_plate"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
 }

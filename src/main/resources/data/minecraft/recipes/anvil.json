@@ -15,5 +15,11 @@
   ],
   "result": {
     "item": "minecraft:anvil"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
 }

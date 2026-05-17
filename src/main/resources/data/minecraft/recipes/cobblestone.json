@@ -1,20 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-  
     "S A"
   ],
-  
   "key": {
     "S": {
       "tag": "forge:buckets/water"
     },
     "A": {
       "tag": "forge:buckets/lava"
-    }    
+    }
   },
-  
-  
   "result": {
     "item": "minecraft:cobblestone"
   }

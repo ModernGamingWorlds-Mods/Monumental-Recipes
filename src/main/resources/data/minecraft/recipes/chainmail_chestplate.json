@@ -11,5 +11,11 @@
   },
   "template": {
     "tag": "forge:leather"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
 }
