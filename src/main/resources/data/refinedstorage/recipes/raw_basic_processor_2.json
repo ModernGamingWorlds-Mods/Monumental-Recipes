@@ -25,6 +25,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "refinedstorage"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
     }
   ]
 }
