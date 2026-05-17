@@ -19,5 +19,15 @@
   "result": {
     "count": 6,
     "item": "minecraft:detector_rail"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
 }

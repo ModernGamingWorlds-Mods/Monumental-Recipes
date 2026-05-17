@@ -22,5 +22,11 @@
   "result": {
     "item": "minecraft:sticky_piston",
     "count": 1
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    }
+  ]
 }

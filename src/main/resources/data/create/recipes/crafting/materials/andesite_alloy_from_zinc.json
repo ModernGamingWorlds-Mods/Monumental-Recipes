@@ -30,17 +30,22 @@
     }
   ],
   "output": {
-    "item": "create:andesite_alloy"
+    "item": "create:andesite_alloy",
+    "count": 4
   },
   "liquidOutput": {
     "fluid": "minecraft:lava"
   },
-  "fluidLevelsConsumed": 250,
+  "fluidLevelsConsumed": 100,
   "heatRequirement": "heated",
   "conditions": [
     {
       "type": "forge:mod_loaded",
       "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
     }
   ]
 }

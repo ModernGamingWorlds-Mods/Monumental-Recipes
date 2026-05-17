@@ -5,7 +5,7 @@
       "item": "mysticalagriculture:certus_quartz_essence"
     },
     "C": {
-      "item": "rftoolsutility:timer"
+      "item": "thermal:redstone_servo"
     }
   },
   "pattern": [
@@ -21,6 +21,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "ae2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
     }
   ]
 }

@@ -12,5 +12,11 @@
   ],
   "result": {
     "item": "minecraft:bucket"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
 }

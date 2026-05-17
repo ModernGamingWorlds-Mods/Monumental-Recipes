@@ -15,5 +15,11 @@
   ],
   "result": {
     "item": "minecraft:crimson_pressure_plate"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
 }

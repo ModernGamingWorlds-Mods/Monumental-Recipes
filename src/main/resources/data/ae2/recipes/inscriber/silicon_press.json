@@ -21,6 +21,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "ae2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
     }
   ]
 }

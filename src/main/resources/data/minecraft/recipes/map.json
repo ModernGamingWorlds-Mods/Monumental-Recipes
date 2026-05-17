@@ -15,5 +15,11 @@
   ],
   "result": {
     "item": "minecraft:map"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "domum_ornamentum"
+    }
+  ]
 }

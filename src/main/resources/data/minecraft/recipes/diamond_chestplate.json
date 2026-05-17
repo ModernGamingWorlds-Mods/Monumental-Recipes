@@ -11,5 +11,11 @@
   },
   "template": {
     "tag": "forge:plates/gold"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
 }

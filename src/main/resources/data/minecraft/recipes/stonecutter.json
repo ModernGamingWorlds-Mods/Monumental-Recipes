@@ -14,5 +14,11 @@
   ],
   "result": {
     "item": "minecraft:stonecutter"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    }
+  ]
 }

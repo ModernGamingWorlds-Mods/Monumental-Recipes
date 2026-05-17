@@ -11,5 +11,11 @@
   },
   "template": {
     "tag": "monumental_recipes:chains"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
 }

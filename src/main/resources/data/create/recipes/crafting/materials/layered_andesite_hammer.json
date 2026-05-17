@@ -2,24 +2,28 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "A": {
-      "item": "minecraft:mangrove_planks"
+      "item": "minecraft:andesite"
     },
-    "B": {
+    "S": {
       "tag": "monumental_recipes:tools/hammers"
+    },
+    "C": {
+      "item": "create:andesite_alloy"
     }
   },
   "pattern": [
-    " A ",
-    " A ",
-    " B "
+    "ASA",
+    "ACA",
+    "ASA"
   ],
   "result": {
-    "item": "minecraft:mangrove_pressure_plate"
+    "item": "create:layered_andesite",
+    "count": 2
   },
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
+      "modid": "create"
     }
   ]
 }

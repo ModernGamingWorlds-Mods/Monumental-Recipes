@@ -1,15 +1,19 @@
 {
-  "type": "minecraft:smithing_transform",
-  "base": {
-    "tag": "forge:string"
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "tag": "forge:string"
+    },
+    "W": {
+      "tag": "forge:rods/wooden"
+    }
   },
-  "addition": {
-    "tag": "forge:rods/wooden"
-  },
+  "pattern": [
+    " WS",
+    "W S",
+    " WS"
+  ],
   "result": {
     "item": "minecraft:bow"
-  },
-  "template": {
-    "tag": "forge:string"
   }
 }

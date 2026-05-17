@@ -13,5 +13,11 @@
     {
       "item": "minecraft:ender_eye"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
   ]
 }

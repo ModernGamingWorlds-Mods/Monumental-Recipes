@@ -18,5 +18,11 @@
   ],
   "result": {
     "item": "minecraft:dispenser"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressium"
+    }
+  ]
 }
