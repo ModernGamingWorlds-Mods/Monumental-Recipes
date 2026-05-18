@@ -25,6 +25,18 @@
     {
       "type": "forge:mod_loaded",
       "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "createaddition"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "industrialforegoing"
     }
   ]
 }
