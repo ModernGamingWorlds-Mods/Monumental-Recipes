@@ -11,6 +11,10 @@
     {
       "type": "forge:item_exists",
       "item": "appmek:chemical_storage_cell_256k"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "appmek"
     }
   ],
   "type": "extendedcrafting:compressor",

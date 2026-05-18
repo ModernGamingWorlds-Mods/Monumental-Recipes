@@ -11,13 +11,18 @@
   ],
   "results": [
     {
-      "item": "extendedcrafting:redstone_ingot"
+      "item": "extendedcrafting:redstone_ingot",
+      "count": 2
     }
   ],
   "conditions": [
     {
       "type": "forge:mod_loaded",
       "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
     }
   ]
 }

@@ -11,6 +11,10 @@
     {
       "type": "forge:item_exists",
       "item": "botania:fabulous_pool"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
     }
   ],
   "type": "extendedcrafting:compressor",

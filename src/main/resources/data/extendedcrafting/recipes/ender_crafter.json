@@ -8,6 +8,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
     }
   ],
   "pattern": [

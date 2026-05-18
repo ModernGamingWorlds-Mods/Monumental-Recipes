@@ -11,6 +11,10 @@
     {
       "type": "forge:item_exists",
       "item": "immersiveengineering:capacitor_hv"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
     }
   ],
   "type": "extendedcrafting:compressor",

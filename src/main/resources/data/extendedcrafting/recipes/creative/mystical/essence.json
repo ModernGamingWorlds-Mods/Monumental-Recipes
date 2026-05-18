@@ -11,6 +11,10 @@
     {
       "type": "forge:item_exists",
       "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagradditions"
     }
   ],
   "type": "extendedcrafting:compressor",

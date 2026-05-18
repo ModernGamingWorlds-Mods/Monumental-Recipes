@@ -10,7 +10,11 @@
     },
     {
       "type": "forge:item_exists",
-      "item": "create:creative_blaze_cake"
+      "item": "create:blaze_cake"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
     }
   ],
   "type": "extendedcrafting:compressor",
