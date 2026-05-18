@@ -8,6 +8,18 @@
     {
       "type": "forge:mod_loaded",
       "modid": "apotheosis"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
     }
   ],
   "group": "what",
@@ -18,16 +30,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:smooth_stone"
+      "item": "pneumaticcraft:reinforced_stone"
     },
     "S": {
       "item": "thermal:saw_blade"
     },
     "P": {
-      "tag": "planks"
+      "tag": "forge:plates/diamond"
     },
     "G": {
-      "item": "apotheosis:gem_dust"
+      "item": "mysticalagriculture:diamond_essence"
     }
   },
   "result": {

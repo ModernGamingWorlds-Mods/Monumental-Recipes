@@ -8,17 +8,32 @@
     {
       "type": "forge:mod_loaded",
       "modid": "apotheosis"
+o    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "villagersplus"
     }
   ],
   "group": "something",
   "pattern": [
-    " N ",
+    "SNS",
     "GEG",
     "BBB"
   ],
   "key": {
+    "S": {
+      "item": "apotheosis:sigil_of_withdrawal"
+    },
     "N": {
-      "tag": "forge:ingots/compressed_iron"
+      "item": "extendedcrafting:redstone_component"
     },
     "G": {
       "item": "apotheosis:gem_dust"
@@ -27,7 +42,7 @@
       "item": "villagersplus:occultist_table"
     },
     "B": {
-      "item": "minecraft:smooth_stone"
+      "item": "pneumaticcraft:reinforced_stone"
     }
   },
   "result": {
