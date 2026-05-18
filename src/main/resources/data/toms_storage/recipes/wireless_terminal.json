@@ -32,6 +32,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "toms_storage"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
     }
   ]
 }
