@@ -68,3 +68,6 @@
 
 ## Version 1.0.21
 - Rebalanced some 1.20.1 recipes pt 1
+
+## Version 1.0.22
+- Rebalanced some 1.20.1 recipes pt 2
