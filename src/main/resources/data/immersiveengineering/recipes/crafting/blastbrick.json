@@ -22,6 +22,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "immersiveengineering"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
     }
   ]
 }

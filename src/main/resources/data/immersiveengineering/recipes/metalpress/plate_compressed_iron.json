@@ -18,6 +18,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "immersiveengineering"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kubejs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
     }
   ],
   "energy": 2400,
