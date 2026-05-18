@@ -1,14 +1,20 @@
 {
-    "type": "actuallyadditions:laser",
-    "energy": 80,
-    "ingredient": {
-        "tag": "forge:ingots/compressed_iron"
+  "type": "actuallyadditions:laser",
+  "energy": 80,
+  "ingredient": {
+    "tag": "forge:ingots/compressed_iron"
+  },
+  "result": {
+    "item": "actuallyadditions:enori_crystal"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "actuallyadditions"
     },
-    "result": {
-        "item": "actuallyadditions:enori_crystal"
-    },
-    "conditions": [{
-        "type": "forge:mod_loaded",
-        "modid": "actuallyadditions"
-    }]
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
 }

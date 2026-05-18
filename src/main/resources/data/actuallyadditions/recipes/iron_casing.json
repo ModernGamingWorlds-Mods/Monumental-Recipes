@@ -25,6 +25,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "actuallyadditions"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
     }
   ]
 }
