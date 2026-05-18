@@ -7,6 +7,14 @@
     {
       "type": "forge:item_exists",
       "item": "thermal:rubber"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "industrialforegoing"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
     }
   ],
   "type": "create:mixing",

@@ -7,6 +7,10 @@
     {
       "type": "forge:item_exists",
       "item": "extendedcrafting:black_iron_ingot"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
     }
   ],
   "type": "thermal:pulverizer",

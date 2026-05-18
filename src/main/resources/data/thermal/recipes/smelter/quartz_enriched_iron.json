@@ -11,6 +11,14 @@
     {
       "type": "forge:item_exists",
       "item": "refinedstorage:quartz_enriched_iron"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
     }
   ],
   "type": "thermal:smelter",

@@ -26,6 +26,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "thermal"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
     }
   ]
 }

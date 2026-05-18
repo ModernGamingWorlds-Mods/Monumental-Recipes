@@ -7,6 +7,10 @@
     {
       "type": "forge:item_exists",
       "item": "thermal:signalum_glass"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
     }
   ],
   "type": "create:mixing",

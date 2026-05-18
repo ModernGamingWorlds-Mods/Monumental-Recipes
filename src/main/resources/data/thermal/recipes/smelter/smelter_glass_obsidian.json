@@ -11,6 +11,14 @@
     {
       "type": "forge:item_exists",
       "item": "immersiveengineering:insulating_glass"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
     }
   ],
   "type": "thermal:smelter",
