@@ -5,7 +5,7 @@
       "item": "mysticalagriculture:ghast_essence"
     },
     "x": {
-      "tag": "forge:nether_stars"
+      "item": "mysticalagriculture:nether_star_essence"
     },
     "w": {
       "item": "notenoughwands:wand_core"
@@ -26,6 +26,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "notenoughwands"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
     }
   ]
 }

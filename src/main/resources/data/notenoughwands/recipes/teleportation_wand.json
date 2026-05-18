@@ -4,7 +4,7 @@
     "item": "mysticalagriculture:enderman_essence"
   },
   "addition": {
-    "item": "notenoughwands:wand_core"
+    "item": "notenoughwands:advanced_wand_core"
   },
   "result": {
     "item": "notenoughwands:teleportation_wand"
@@ -16,6 +16,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "notenoughwands"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
     }
   ]
 }

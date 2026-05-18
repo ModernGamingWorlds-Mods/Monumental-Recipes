@@ -20,6 +20,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "notenoughwands"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forcecraft"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
     }
   ]
 }
