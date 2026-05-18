@@ -3,7 +3,7 @@
   "energy": 2400,
   "input": {
     "base_ingredient": {
-      "tag": "forge:gems/diamond"
+      "tag": "forge:ingots/iridium"
     },
     "count": 1
   },
@@ -16,6 +16,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "alltheores"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
     }
   ]
 }
