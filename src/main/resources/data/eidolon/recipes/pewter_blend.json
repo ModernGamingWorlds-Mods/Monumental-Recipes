@@ -3,19 +3,19 @@
   "group": "eidolon",
   "ingredients": [
     {
-      "tag": "c:ingots/lead"
+      "tag": "forge:ingots/lead"
     },
     {
-      "tag": "c:ingots/compressed_iron"
+      "tag": "forge:ingots/compressed_iron"
     }
   ],
   "result": {
     "item": "eidolon:pewter_blend",
     "count": 2
   },
-  "neoforge:conditions": [
+  "conditions": [
     {
-      "type": "neoforge:mod_loaded",
+      "type": "forge:mod_loaded",
       "modid": "eidolon"
     }
   ]

@@ -11,21 +11,17 @@
       "tag": "minecraft:wooden_slabs"
     },
     "y": {
-      "tag": "c:treated_wood"
+      "tag": "forge:treated_wood"
     }
   },
   "result": {
     "item": "eidolon:wooden_altar",
     "count": 4
   },
-  "neoforge:conditions": [
+  "conditions": [
     {
-      "type": "neoforge:mod_loaded",
+      "type": "forge:mod_loaded",
       "modid": "eidolon"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "immersiveengineering"
     }
   ]
 }
