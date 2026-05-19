@@ -3,20 +3,20 @@
   "pattern": [
     "GGG",
     "GBG",
-    "IWI"
+    "ISI"
   ],
   "key": {
     "G": {
       "tag": "forge:glass_panes/colorless"
     },
     "I": {
-      "tag": "forge:ingots/compressed_iron"
+      "tag": "forge:storage_blocks/iron"
     },
     "B": {
       "tag": "forge:storage_blocks/gold"
     },
-    "W": {
-      "item": "compressium:soulsand_3"
+    "S": {
+      "item": "compressium:soulsand_2"
     }
   },
   "result": {
