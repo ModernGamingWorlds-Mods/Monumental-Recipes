@@ -4,6 +4,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "cobblemon"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
     }
   ],
   "group": "wooden_pressure_plate",
@@ -21,6 +25,6 @@
     " B "
   ],
   "result": {
-  "item": "cobblemon:apricorn_pressure_plate"
+    "item": "cobblemon:apricorn_pressure_plate"
   }
 }

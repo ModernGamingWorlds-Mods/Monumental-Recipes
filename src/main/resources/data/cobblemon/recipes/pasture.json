@@ -1,31 +1,35 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "conditions": [
-        {
-            "type": "forge:mod_loaded",
-            "modid": "cobblemon"
-        }
-    ],
-    "pattern": [
-        "PPP",
-        "PCP",
-        "WHW"
-    ],
-    "key": {
-        "P": {
-            "tag": "minecraft:planks"
-        },
-        "C": {
-            "item": "cobblemon:pc"
-        },
-        "W": {
-            "tag": "forge:crops/wheat"
-        },
-        "H": {
-            "tag": "monumental_recipes:hoppers"
-        }
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cobblemon"
     },
-    "result": {
-        "item": "cobblemon:pasture"
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
     }
+  ],
+  "pattern": [
+    "PPP",
+    "PCP",
+    "WHW"
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "C": {
+      "item": "cobblemon:pc"
+    },
+    "W": {
+      "tag": "forge:crops/wheat"
+    },
+    "H": {
+      "tag": "monumental_recipes:hoppers"
+    }
+  },
+  "result": {
+    "item": "cobblemon:pasture"
+  }
 }
