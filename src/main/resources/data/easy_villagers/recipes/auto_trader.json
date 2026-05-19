@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "GGG",
-    "GRG",
+    "ERE",
     "INI"
   ],
   "key": {
@@ -10,10 +10,13 @@
       "tag": "forge:glass_panes/colorless"
     },
     "I": {
-      "tag": "forge:ingots/compressed_iron"
+      "tag": "forge:storage_blocks/iron"
     },
     "R": {
       "item": "easy_villagers:trader"
+    },
+    "E": {
+      "item": "mysticalagriculture:gold_essence"
     },
     "N": {
       "tag": "forge:ingots/netherite"
@@ -26,6 +29,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "easy_villagers"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
     }
   ]
 }

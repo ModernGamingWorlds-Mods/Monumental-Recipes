@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "GGG",
-    "GRG",
+    "GEG",
     "III"
   ],
   "key": {
@@ -10,10 +10,10 @@
       "tag": "forge:glass_panes/colorless"
     },
     "I": {
-      "tag": "forge:ingots/compressed_iron"
+      "tag": "forge:storage_blocks/iron"
     },
-    "R": {
-      "item": "compressium:redstone_3"
+    "E": {
+      "tag": "forge:storage_blocks/emerald"
     }
   },
   "result": {

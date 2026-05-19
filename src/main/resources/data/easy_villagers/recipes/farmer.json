@@ -10,13 +10,13 @@
       "tag": "forge:glass_panes/colorless"
     },
     "I": {
-      "tag": "forge:ingots/compressed_iron"
-    },
-    "D": {
-      "tag": "chipped:dirt"
+      "tag": "forge:storage_blocks/iron"
     },
     "W": {
-      "item": "compressedcreativity:mesh_splashing"
+      "item": "mysticalagriculture:nature_essence"
+    },
+    "D": {
+      "item": "compressium:dirt_2"
     }
   },
   "result": {
@@ -26,6 +26,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "easy_villagers"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
     }
   ]
 }
