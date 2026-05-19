@@ -7,6 +7,10 @@
     {
       "type": "forge:item_exists",
       "item": "rechiseled:chisel"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chiselsandbits"
     }
   ],
   "type": "botania:elven_trade",
