@@ -1,5 +1,6 @@
 {
-  "type": "extendedcrafting:shaped_ender_crafter",
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
   "pattern": [
     "AAA",
     "ABA",
@@ -7,13 +8,13 @@
   ],
   "key": {
     "A": {
-      "tag": "forge:plates/bronze"
+      "tag": "forge:plates/iron"
     },
     "B": {
       "item": "computercraft:computer_normal"
     },
     "C": {
-      "tag": "forge:gears/bronze"
+      "tag": "forge:gears/iron"
     }
   },
   "result": {
@@ -23,6 +24,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "computercraft"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
     }
   ]
 }
