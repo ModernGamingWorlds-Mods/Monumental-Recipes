@@ -7,12 +7,16 @@
     {
       "type": "forge:item_exists",
       "item": "notenoughwands:illumination_wand"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
     }
   ],
   "type": "botania:elven_trade",
   "ingredients": [
     {
-      "item": "createchromaticreturn:glowing_ingot"
+      "item": "mekanism:refined_glowstone_ingot"
     },
     {
       "item": "notenoughwands:wand_core"

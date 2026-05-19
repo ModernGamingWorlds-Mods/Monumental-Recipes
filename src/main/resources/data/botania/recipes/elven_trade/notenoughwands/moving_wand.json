@@ -7,6 +7,10 @@
     {
       "type": "forge:item_exists",
       "item": "notenoughwands:moving_wand"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
     }
   ],
   "type": "botania:elven_trade",
@@ -15,7 +19,7 @@
       "tag": "monumental_recipes:conveyors"
     },
     {
-      "item": "notenoughwands:wand_core"
+      "item": "notenoughwands:advanced_wand_core"
     }
   ],
   "output": [
