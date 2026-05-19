@@ -12,6 +12,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "bloodmagic"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "naturesaura"
     }
   ]
 }
