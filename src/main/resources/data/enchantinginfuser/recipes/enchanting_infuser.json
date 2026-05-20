@@ -3,13 +3,13 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "compressium:obsidian_5"
+      "tag": "chipped:obsidian"
     },
     "A": {
-      "item": "minecraft:amethyst_shard"
+      "tag": "forge:gems/arcane_crystal"
     },
     "B": {
-      "item": "minecraft:book"
+      "tag": "forge:books"
     },
     "T": {
       "item": "minecraft:enchanting_table"
@@ -28,6 +28,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "enchantinginfuser"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
     }
   ]
 }

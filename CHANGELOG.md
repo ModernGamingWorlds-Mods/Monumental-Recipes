@@ -75,3 +75,6 @@
 ## Version 1.0.23
 - Rebalanced some 1.20.1 recipes pt 3
 - Fixed broke Eidolon recipes using Neoforge stuff on 1.20
+
+## Version 1.0.24
+- Rebalanced some 1.20.1 recipes pt 4

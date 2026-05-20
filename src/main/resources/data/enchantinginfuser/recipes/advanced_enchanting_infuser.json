@@ -3,13 +3,13 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "compressium:obsidian_5"
+      "tag": "chipped:obsidian"
     },
     "A": {
       "tag": "forge:ingots/netherite"
     },
     "B": {
-      "item": "minecraft:book"
+      "tag": "forge:books"
     },
     "T": {
       "item": "enchantinginfuser:enchanting_infuser"
@@ -28,6 +28,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "enchantinginfuser"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
     }
   ]
 }
