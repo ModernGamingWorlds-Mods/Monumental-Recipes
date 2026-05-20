@@ -17,25 +17,25 @@
     }
   },
   "result": {
-    "id": "xnet:netcable_routing",
+    "item": "xnet:netcable_routing",
     "count": 16
   },
-  "neoforge:conditions": [
+  "conditions": [
     {
-      "type": "neoforge:mod_loaded",
+      "type": "forge:mod_loaded",
       "modid": "xnet"
     },
     {
-      "type": "neoforge:mod_loaded",
-      "modid": "computercraft"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "thermal"
-    },
-    {
-      "type": "neoforge:mod_loaded",
+      "type": "forge:mod_loaded",
       "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "computercraft"
+    },,
+    {
+      "type": "forge:mod_loaded",
+      "modid": "computercraft"
     }
   ]
 }
