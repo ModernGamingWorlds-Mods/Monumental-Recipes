@@ -4,6 +4,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "exdeorum"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
     }
   ],
   "base": {
