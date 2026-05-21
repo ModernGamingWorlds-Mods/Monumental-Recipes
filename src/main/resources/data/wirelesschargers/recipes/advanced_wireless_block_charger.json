@@ -25,11 +25,26 @@
   "result": {
     "item": "wirelesschargers:advanced_wireless_block_charger"
   },
-    "conditions": [{
-        "type": "forge:mod_loaded",
-        "modid": "wirelesschargers"
-    },{
-        "type": "forge:item_exists",
-        "item": "ars_nouveau:blaze_fiber"
-    }]
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "wirelesschargers"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "ars_nouveau:blaze_fiber"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
 }

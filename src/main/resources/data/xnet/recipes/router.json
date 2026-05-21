@@ -1,43 +1,61 @@
 {
-    "type": "extendedcrafting:shaped_ender_crafter",
-    "pattern": ["ABA", "CDC", "EFE"],
-    "key": {
-        "A": {
-            "tag": "forge:fences/steel"
-        },
-        "B": {
-            "item": "immersiveengineering:electron_tube"
-        },
-        "C": {
-            "item": "extendedcrafting:redstone_component"
-        },
-        "D": {
-            "item": "rftoolsbase:machine_frame"
-        },
-        "E": {
-            "item": "kubejs:compressed_iron_plate"
-        },
-        "F": {
-            "tag": "monumental_recipes:eyes"
-        }
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:fences/steel"
     },
-    "result": {
-        "item": "xnet:router"
+    "B": {
+      "item": "immersiveengineering:electron_tube"
     },
-    "conditions": [{
-        "type": "forge:mod_loaded",
-        "modid": "xnet"
-    }, {
-        "type": "forge:mod_loaded",
-        "modid": "immersiveengineering"
-    }, {
-        "type": "forge:mod_loaded",
-        "modid": "extendedcrafting"
-    }, {
-        "type": "forge:mod_loaded",
-        "modid": "rftoolsbase"
-    }, {
-        "type": "forge:item_exists",
-        "item": "kubejs:compressed_iron_plate"
-    }]
+    "C": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "D": {
+      "item": "rftoolsbase:machine_frame"
+    },
+    "E": {
+      "item": "kubejs:compressed_iron_plate"
+    },
+    "F": {
+      "tag": "monumental_recipes:eyes"
+    }
+  },
+  "result": {
+    "item": "xnet:router"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "xnet"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsbase"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "kubejs:compressed_iron_plate"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
 }

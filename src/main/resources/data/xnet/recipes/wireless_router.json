@@ -32,11 +32,16 @@
       "modid": "cyclic"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "xnet"
-    },{
       "type": "forge:item_exists",
       "item": "kubejs:compressed_iron_plate"
-}
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
   ]
 }
