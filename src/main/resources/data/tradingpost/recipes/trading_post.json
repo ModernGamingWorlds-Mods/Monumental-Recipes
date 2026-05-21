@@ -5,10 +5,10 @@
       "item": "mysticalagriculture:emerald_essence"
     },
     "E": {
-      "tag": "minecraft:planks"
+      "tag": "forge:ingots/iron"
     },
     "S": {
-      "tag": "forge:rods/wooden"
+      "tag": "forge:storage_blocks/iron"
     }
   },
   "pattern": [
@@ -23,6 +23,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "tradingpost"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
     }
   ]
 }
