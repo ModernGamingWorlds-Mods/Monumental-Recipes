@@ -3,6 +3,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "ars_instrumentum"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
     }
   ],
   "type": "ars_nouveau:book_upgrade",
@@ -29,5 +33,7 @@
       "tag": "forge:ender_pearls"
     }
   ],
-  "result": {"item": "ars_nouveau:archmage_spell_book"}
+  "result": {
+    "item": "ars_nouveau:archmage_spell_book"
+  }
 }

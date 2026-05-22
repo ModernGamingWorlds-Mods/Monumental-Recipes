@@ -3,6 +3,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "ars_instrumentum"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
     }
   ],
   "type": "ars_nouveau:imbuement",
