@@ -26,6 +26,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "aeinfinitybooster"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
     }
   ]
 }
