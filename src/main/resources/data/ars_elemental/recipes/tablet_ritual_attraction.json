@@ -3,6 +3,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "ars_elemental"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
     }
   ],
   "type": "minecraft:crafting_shapeless",
@@ -21,5 +29,7 @@
       "item": "mysticalagriculture:earth_essence"
     }
   ],
-  "result": {"item": "ars_elemental:ritual_attraction"}
+  "result": {
+    "item": "ars_elemental:ritual_attraction"
+  }
 }

@@ -3,6 +3,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "ars_elemental"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
     }
   ],
   "type": "ars_elemental:armor_upgrade",
@@ -22,12 +30,12 @@
     },
     {
       "item": {
-      "item": "mysticalagriculture:earth_essence"
+        "item": "mysticalagriculture:earth_essence"
       }
     },
     {
       "item": {
-      "item": "mysticalagriculture:earth_essence"
+        "item": "mysticalagriculture:earth_essence"
       }
     }
   ],

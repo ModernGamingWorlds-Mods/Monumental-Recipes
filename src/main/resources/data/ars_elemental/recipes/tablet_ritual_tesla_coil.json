@@ -3,6 +3,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "ars_elemental"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
     }
   ],
   "type": "minecraft:crafting_shapeless",
@@ -27,5 +31,7 @@
       "tag": "forge:storage_blocks/source"
     }
   ],
-  "result": {"item": "ars_elemental:ritual_tesla_coil"}
+  "result": {
+    "item": "ars_elemental:ritual_tesla_coil"
+  }
 }

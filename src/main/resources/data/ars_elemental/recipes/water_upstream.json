@@ -3,6 +3,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "ars_elemental"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
     }
   ],
   "type": "ars_nouveau:enchanting_apparatus",
@@ -11,17 +19,29 @@
     "item": "ars_elemental:water_upstream"
   },
   "pedestalItems": [
-    { "item": "ars_nouveau:air_essence" },
-    { "item": "mysticalagriculture:water_essence" },
-    { "item": "minecraft:prismarine_shard" },
-    { "item": "minecraft:prismarine_shard" },
-    { "item": "minecraft:prismarine_shard" },
-    { "item": "minecraft:prismarine_shard" }
+    {
+      "item": "mysticalagriculture:water_essence"
+    },
+    {
+      "item": "mysticalagriculture:water_essence"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    }
   ],
   "reagent": [
-  {
-    "item": "minecraft:soul_sand"
-  }
+    {
+      "item": "minecraft:soul_sand"
+    }
   ],
   "sourceCost": 0
 }

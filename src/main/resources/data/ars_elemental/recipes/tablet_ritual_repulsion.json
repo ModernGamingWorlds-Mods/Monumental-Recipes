@@ -3,6 +3,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "ars_elemental"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "monumental_recipes"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
     }
   ],
   "type": "minecraft:crafting_shapeless",
@@ -21,5 +29,7 @@
       "tag": "monumental_recipes:pistons"
     }
   ],
-  "result": {"item": "ars_elemental:ritual_repulsion"}
+  "result": {
+    "item": "ars_elemental:ritual_repulsion"
+  }
 }

@@ -3,6 +3,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "ars_elemental"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
     }
   ],
   "type": "minecraft:crafting_shaped",
@@ -22,5 +26,7 @@
       "tag": "forge:gems/diamond"
     }
   },
-  "result": {"item": "ars_elemental:caster_bag"}
+  "result": {
+    "item": "ars_elemental:caster_bag"
+  }
 }
