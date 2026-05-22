@@ -27,5 +27,7 @@
       "tag": "forge:gems/source"
     }
   ],
-  "result": {"item": "ars_nouveau:ritual_binding"}
+  "result": {
+    "item": "ars_nouveau:ritual_binding"
+  }
 }

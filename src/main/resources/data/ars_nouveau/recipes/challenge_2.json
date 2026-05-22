@@ -18,5 +18,7 @@
       "tag": "forge:gems/emerald"
     }
   ],
-  "result": {"item": "ars_nouveau:ritual_challenge"}
+  "result": {
+    "item": "ars_nouveau:ritual_challenge"
+  }
 }

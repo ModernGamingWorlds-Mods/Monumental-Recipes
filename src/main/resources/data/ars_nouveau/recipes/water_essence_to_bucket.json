@@ -3,6 +3,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "ars_nouveau"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
     }
   ],
   "type": "minecraft:crafting_shapeless",
@@ -15,5 +19,7 @@
       "item": "minecraft:bucket"
     }
   ],
-  "result": {"item": "minecraft:water_bucket"}
+  "result": {
+    "item": "minecraft:water_bucket"
+  }
 }

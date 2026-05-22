@@ -15,5 +15,7 @@
       "tag": "forge:leather"
     }
   ],
-  "result": {"item": "ars_nouveau:annotated_codex"}
+  "result": {
+    "item": "ars_nouveau:annotated_codex"
+  }
 }

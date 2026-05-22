@@ -3,6 +3,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "ars_nouveau"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
     }
   ],
   "type": "minecraft:crafting_shapeless",
@@ -18,5 +22,7 @@
       "item": "mysticalagriculture:earth_essence"
     }
   ],
-  "result": {"item": "ars_nouveau:ritual_conjure_island_desert"}
+  "result": {
+    "item": "ars_nouveau:ritual_conjure_island_desert"
+  }
 }

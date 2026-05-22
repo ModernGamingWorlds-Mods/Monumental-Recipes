@@ -24,5 +24,7 @@
       "tag": "forge:clocks"
     }
   ],
-  "result": {"item": "ars_nouveau:ritual_sunrise"}
+  "result": {
+    "item": "ars_nouveau:ritual_sunrise"
+  }
 }

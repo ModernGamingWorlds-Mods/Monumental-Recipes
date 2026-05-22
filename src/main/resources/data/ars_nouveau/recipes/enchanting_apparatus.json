@@ -23,6 +23,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "ars_nouveau"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
     }
   ]
 }

@@ -18,5 +18,7 @@
       "tag": "forge:storage_blocks/source"
     }
   ],
-  "result": {"item": "ars_nouveau:ritual_cloudshaping"}
+  "result": {
+    "item": "ars_nouveau:ritual_cloudshaping"
+  }
 }

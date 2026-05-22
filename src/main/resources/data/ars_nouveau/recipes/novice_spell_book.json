@@ -23,5 +23,7 @@
       "item": "minecraft:iron_sword"
     }
   ],
-  "result": {"item": "ars_nouveau:novice_spell_book"}
+  "result": {
+    "item": "ars_nouveau:novice_spell_book"
+  }
 }
