@@ -3,6 +3,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "ars_additions"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
     }
   ],
   "type": "minecraft:crafting_shapeless",
@@ -21,5 +25,7 @@
       "item": "ars_additions:wayfinder"
     }
   ],
-  "result": {"item": "ars_additions:ritual_locate_structure"}
+  "result": {
+    "item": "ars_additions:ritual_locate_structure"
+  }
 }

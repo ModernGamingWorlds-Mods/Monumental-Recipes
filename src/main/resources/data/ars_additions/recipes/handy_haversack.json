@@ -3,6 +3,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "ars_additions"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
     }
   ],
   "type": "minecraft:crafting_shaped",

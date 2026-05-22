@@ -9,7 +9,7 @@
   "category": "misc",
   "key": {
     "a": {
-      "item": "forge:gems/amethyst"
+      "tag": "forge:gems/amethyst"
     },
     "g": {
       "tag": "forge:ingots/gold"

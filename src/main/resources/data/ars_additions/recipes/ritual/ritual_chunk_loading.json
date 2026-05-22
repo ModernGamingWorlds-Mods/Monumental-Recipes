@@ -10,6 +10,14 @@
         {
           "type": "forge:mod_loaded",
           "modid": "ars_additions"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ars_nouveau"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mysticalagriculture"
         }
       ],
       "recipe": {
@@ -20,7 +28,7 @@
             "item": "ars_nouveau:blue_archwood_log"
           },
           {
-            "item": "forge:nether_stars"
+            "tag": "forge:nether_stars"
           },
           {
             "item": "ars_nouveau:source_gem"
