@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "c:ores/allthemodium"
+  },
+  "result": {
+    "fluid": "allthemodium:molten_allthemodium",
+    "amount": 100
+  },
+  "temperature": 1500,
+  "time": 175,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ]
+}

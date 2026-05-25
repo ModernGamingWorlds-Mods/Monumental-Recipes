@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "c:molten_allthemodium",
+    "amount": 100
+  },
+  "temperature": 1500,
+  "output": "allthemodium:allthemodium",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ]
+}
