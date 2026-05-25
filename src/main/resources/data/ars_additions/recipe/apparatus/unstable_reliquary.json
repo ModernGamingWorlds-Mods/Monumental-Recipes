@@ -1,6 +1,9 @@
 {
   "type": "ars_nouveau:enchanting_apparatus",
   "keepNbtOfReagent": false,
+  "output": {
+    "item": "ars_additions:unstable_reliquary"
+  },
   "pedestalItems": [
     {
       "item": "ars_nouveau:conjuration_essence"
@@ -12,18 +15,20 @@
       "tag": "c:ender_pearls"
     }
   ],
-  "reagent": {
-    "item": "ars_nouveau:mob_jar"
-  },
-  "result": {
-    "count": 1,
-    "id": "ars_additions:unstable_reliquary"
-  },
+  "reagent": [
+    {
+      "item": "ars_nouveau:mob_jar"
+    }
+  ],
   "sourceCost": 0,
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "undergarden"
+      "modid": "ars_additions"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
     }
   ]
 }

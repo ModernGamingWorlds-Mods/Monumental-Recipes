@@ -1,28 +1,38 @@
 {
   "type": "ars_nouveau:glyph",
+  "count": 1,
   "exp": 160,
-  "inputs": [
+  "inputItems": [
     {
-      "item": "ars_nouveau:conjuration_essence"
+      "item": {
+        "item": "ars_nouveau:conjuration_essence"
+      }
     },
     {
-      "item": "c:ender_pearls"
+      "item": {
+        "tag": "c:ender_pearls"
+      }
     },
     {
-      "item": "ars_nouveau:scryer_scroll"
+      "item": {
+        "item": "ars_nouveau:scryer_scroll"
+      }
     },
     {
-      "item": "ars_nouveau:enchanters_eye"
+      "item": {
+        "item": "ars_nouveau:enchanters_eye"
+      }
     }
   ],
-  "output": {
-    "count": 1,
-    "id": "ars_additions:glyph_recall"
-  },
+  "output": "ars_additions:glyph_recall",
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "ars_additions"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
     }
   ]
 }

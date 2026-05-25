@@ -15,9 +15,9 @@
     " g "
   ],
   "result": {
-    "count": 1,
     "id": "ars_additions:wayfinder"
   },
+  "show_notification": true,
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

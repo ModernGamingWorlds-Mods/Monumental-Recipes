@@ -1,6 +1,9 @@
 {
   "type": "ars_nouveau:enchanting_apparatus",
   "keepNbtOfReagent": false,
+  "output": {
+    "item": "ars_additions:stabilized_warp_index"
+  },
   "pedestalItems": [
     {
       "tag": "c:ingots/netherite"
@@ -12,13 +15,11 @@
       "tag": "c:chests/ender"
     }
   ],
-  "reagent": {
-    "item": "ars_additions:warp_index"
-  },
-  "result": {
-    "count": 1,
-    "id": "ars_additions:stabilized_warp_index"
-  },
+  "reagent": [
+    {
+      "item": "ars_additions:warp_index"
+    }
+  ],
   "sourceCost": 0,
   "neoforge:conditions": [
     {

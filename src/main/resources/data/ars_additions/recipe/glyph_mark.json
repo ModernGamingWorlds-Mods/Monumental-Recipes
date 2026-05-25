@@ -1,28 +1,38 @@
 {
   "type": "ars_nouveau:glyph",
+  "count": 1,
   "exp": 160,
-  "inputs": [
+  "inputItems": [
     {
-      "item": "ars_nouveau:manipulation_essence"
+      "item": {
+        "item": "ars_nouveau:manipulation_essence"
+      }
     },
     {
-      "tag": "c:ender_pearls"
+      "item": {
+        "tag": "c:ender_pearls"
+      }
     },
     {
-      "item": "ars_nouveau:mob_jar"
+      "item": {
+        "item": "ars_nouveau:mob_jar"
+      }
     },
     {
-      "item": "ars_nouveau:ritual_containment"
+      "item": {
+        "item": "ars_nouveau:ritual_containment"
+      }
     }
   ],
-  "output": {
-    "count": 1,
-    "id": "ars_additions:glyph_mark"
-  },
+  "output": "ars_additions:glyph_mark",
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "ars_additions"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
     }
   ]
 }
