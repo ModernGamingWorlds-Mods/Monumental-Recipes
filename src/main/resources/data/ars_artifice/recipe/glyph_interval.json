@@ -1,0 +1,28 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 27,
+  "inputItems": [
+    {
+      "item": {
+        "tag": "c:clocks"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:source_gem"
+      }
+    }
+  ],
+  "output": "ars_artifice:glyph_interval",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_artifice"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}
