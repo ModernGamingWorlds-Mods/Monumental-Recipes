@@ -1,6 +1,5 @@
 {
   "type": "create:mechanical_crafting",
-  "accept_mirrored": false,
   "key": {
     "A": {
       "item": "extendedcrafting:redstone_component"
@@ -30,7 +29,12 @@
     },
     {
       "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
       "modid": "extendedcrafting"
     }
-  ]
+  ],
+  "accept_mirrored": false
 }

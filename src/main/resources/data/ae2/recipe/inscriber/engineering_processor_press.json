@@ -24,11 +24,11 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "mysticalagriculture"
+      "modid": "botania"
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "botania"
+      "modid": "mysticalagriculture"
     }
   ]
 }

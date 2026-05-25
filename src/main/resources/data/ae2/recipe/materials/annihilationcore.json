@@ -1,6 +1,5 @@
 {
   "type": "create:mixing",
-  "heat_requirement": "superheated",
   "ingredients": [
     {
       "tag": "c:gems/quartz"
@@ -21,6 +20,11 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "ae2"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
     }
-  ]
+  ],
+  "heat_requirement": "superheated"
 }

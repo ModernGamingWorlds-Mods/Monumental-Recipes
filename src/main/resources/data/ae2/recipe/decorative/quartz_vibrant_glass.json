@@ -1,6 +1,5 @@
 {
   "type": "create:mixing",
-  "heat_requirement": "heated",
   "ingredients": [
     {
       "tag": "c:ingots/refined_glowstone"
@@ -27,5 +26,6 @@
       "type": "neoforge:mod_loaded",
       "modid": "mekanism"
     }
-  ]
+  ],
+  "heat_requirement": "heated"
 }

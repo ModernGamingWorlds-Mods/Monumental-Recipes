@@ -1,6 +1,5 @@
 {
   "type": "create:mechanical_crafting",
-  "accept_mirrored": false,
   "key": {
     "A": {
       "tag": "c:sheetmetals/steel"
@@ -33,11 +32,20 @@
     },
     {
       "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createdeco"
+    },
+    {
+      "type": "neoforge:mod_loaded",
       "modid": "immersiveengineering"
     },
     {
       "type": "neoforge:mod_loaded",
       "modid": "kubejs"
     }
-  ]
+  ],
+  "accept_mirrored": false
 }

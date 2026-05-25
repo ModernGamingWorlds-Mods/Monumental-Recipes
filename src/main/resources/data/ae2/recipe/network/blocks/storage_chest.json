@@ -1,6 +1,5 @@
 {
   "type": "create:mechanical_crafting",
-  "accept_mirrored": false,
   "key": {
     "A": {
       "tag": "thermal:glass/hardened"
@@ -36,7 +35,7 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "thermal"
+      "modid": "create"
     },
     {
       "type": "neoforge:mod_loaded",
@@ -45,6 +44,11 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "mysticalagriculture"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
     }
-  ]
+  ],
+  "accept_mirrored": false
 }

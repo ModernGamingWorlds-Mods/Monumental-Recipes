@@ -1,6 +1,5 @@
 {
   "type": "create:mixing",
-  "heat_requirement": "heated",
   "ingredients": [
     {
       "tag": "thermal:glass/hardened"
@@ -27,11 +26,16 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "thermal"
+      "modid": "computercraft"
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "computercraft"
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
     }
-  ]
+  ],
+  "heat_requirement": "heated"
 }
