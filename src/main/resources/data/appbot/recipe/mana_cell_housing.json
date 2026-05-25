@@ -1,18 +1,4 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "appbot"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "ae2"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "botania"
-    }
-  ],
   "type": "minecraft:crafting_shaped",
   "key": {
     "A": {
@@ -33,5 +19,19 @@
   "result": {
     "count": 1,
     "id": "appbot:mana_cell_housing"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "appbot"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
 }
