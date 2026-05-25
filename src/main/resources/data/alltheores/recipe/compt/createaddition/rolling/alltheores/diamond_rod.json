@@ -4,8 +4,8 @@
     "tag": "c:gems/diamond"
   },
   "result": {
-    "id": "alltheores:diamond_rod",
-    "count": 2
+    "count": 2,
+    "id": "alltheores:diamond_rod"
   },
   "neoforge:conditions": [
     {

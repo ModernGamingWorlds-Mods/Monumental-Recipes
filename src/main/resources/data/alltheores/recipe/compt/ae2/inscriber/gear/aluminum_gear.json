@@ -18,22 +18,19 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
+      "modid": "alltheores"
+    },
+    {
+      "type": "neoforge:mod_loaded",
       "modid": "ae2"
     },
     {
-      "type": "neoforge:registered",
-      "registry": "minecraft:item",
-      "item": "alltheores:aluminum_gear"
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
     },
     {
-      "type": "neoforge:registered",
-      "registry": "minecraft:item",
-      "item": "thermal:press_gear_die"
-    },
-    {
-      "type": "neoforge:registered",
-      "registry": "minecraft:item",
-      "item": "create:andesite_alloy"
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
     }
   ]
 }
