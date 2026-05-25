@@ -1,22 +1,4 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "appmek"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "ae2"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "mekanism"
-    }
-  ],
   "type": "minecraft:crafting_shaped",
   "key": {
     "A": {
@@ -37,5 +19,11 @@
   "result": {
     "count": 1,
     "id": "appmek:chemical_cell_housing"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "appmek"
+    }
+  ]
 }
