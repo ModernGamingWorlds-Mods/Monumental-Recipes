@@ -1,5 +1,32 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    "SNS",
+    "GEG",
+    "BBB"
+  ],
+  "key": {
+    "S": {
+      "item": "apotheosis:sigil_of_withdrawal"
+    },
+    "N": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "G": {
+      "item": "apotheosis:gem_dust"
+    },
+    "E": {
+      "item": "villagersplus:occultist_table"
+    },
+    "B": {
+      "item": "pneumaticcraft:reinforced_stone"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "apotheosis:simple_reforging_table"
+  },
   "neoforge:conditions": [
     {
       "type": "apotheosis:module",
@@ -11,31 +38,15 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "illagerinvasion"
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "villagersplus"
     }
-  ],
-  "group": "something",
-  "pattern": [
-    " N ",
-    "GEG",
-    "BBB"
-  ],
-  "key": {
-    "N": {
-      "tag": "c:ingots/compressed_iron"
-    },
-    "G": {
-      "item": "apotheosis:gem_dust"
-    },
-    "E": {
-      "item": "illagerinvasion:imbuing_table"
-    },
-    "B": {
-      "item": "minecraft:smooth_stone"
-    }
-  },
-  "result": {
-    "id": "apotheosis:simple_reforging_table",
-    "count": 1
-  }
+  ]
 }

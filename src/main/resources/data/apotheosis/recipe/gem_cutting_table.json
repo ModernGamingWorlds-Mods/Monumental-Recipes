@@ -1,5 +1,29 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "what",
+  "pattern": [
+    "TST",
+    "PGP",
+    "P P"
+  ],
+  "key": {
+    "T": {
+      "item": "pneumaticcraft:reinforced_stone"
+    },
+    "S": {
+      "item": "thermal:saw_blade"
+    },
+    "P": {
+      "tag": "c:plates/diamond"
+    },
+    "G": {
+      "item": "mysticalagriculture:diamond_essence"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "apotheosis:gem_cutting_table"
+  },
   "neoforge:conditions": [
     {
       "type": "apotheosis:module",
@@ -11,31 +35,15 @@
     },
     {
       "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "neoforge:mod_loaded",
       "modid": "thermal"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
     }
-  ],
-  "group": "what",
-  "pattern": [
-    "TST",
-    "PGP",
-    "P P"
-  ],
-  "key": {
-    "T": {
-      "item": "minecraft:smooth_stone"
-    },
-    "S": {
-      "item": "thermal:saw_blade"
-    },
-    "P": {
-      "tag": "minecraft:planks"
-    },
-    "G": {
-      "item": "apotheosis:gem_dust"
-    }
-  },
-  "result": {
-    "id": "apotheosis:gem_cutting_table",
-    "count": 1
-  }
+  ]
 }
