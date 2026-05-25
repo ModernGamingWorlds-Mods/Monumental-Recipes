@@ -1,6 +1,7 @@
 {
   "type": "create:mechanical_crafting",
   "accept_mirrored": false,
+  "category": "misc",
   "key": {
     "R": {
       "item": "actuallyadditions:black_quartz_block"

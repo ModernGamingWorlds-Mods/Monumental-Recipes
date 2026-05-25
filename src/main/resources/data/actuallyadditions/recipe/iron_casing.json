@@ -1,6 +1,7 @@
 {
   "type": "create:mechanical_crafting",
   "accept_mirrored": false,
+  "category": "misc",
   "key": {
     "Q": {
       "item": "actuallyadditions:black_quartz"
@@ -29,6 +30,10 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
     }
   ]
 }
