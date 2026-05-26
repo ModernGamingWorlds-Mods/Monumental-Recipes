@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:fire_charge"
+    },
+    {
+      "tag": "c:storage_blocks/redstone"
+    },
+    {
+      "tag": "c:ingots/gold"
+    },
+    {
+      "tag": "c:buckets/honey"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "id": "cyclic:gem_amber"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ],
+  "heat_requirement": "heated"
+}

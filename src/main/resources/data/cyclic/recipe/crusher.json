@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "compressium:cobblestone_1"
+    },
+    "B": {
+      "tag": "c:plates/copper"
+    },
+    "C": {
+      "item": "sophisticatedbackpacks:stonecutter_upgrade"
+    },
+    "D": {
+      "tag": "c:storage_blocks/flint"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "result": {
+    "id": "cyclic:crusher"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ]
+}

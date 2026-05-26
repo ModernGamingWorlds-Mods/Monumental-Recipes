@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    "ncn",
+    "nnn"
+  ],
+  "key": {
+    "n": {
+      "tag": "c:nuggets/iron"
+    },
+    "s": {
+      "item": "kubejs:compressed_iron_plate"
+    },
+    "c": {
+      "item": "storagedrawers:void_upgrade"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "cyclic:trash"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ]
+}

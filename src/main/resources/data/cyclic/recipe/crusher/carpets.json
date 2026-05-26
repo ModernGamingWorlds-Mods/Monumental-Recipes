@@ -1,0 +1,25 @@
+{
+  "type": "cyclic:crusher",
+  "input": {
+    "tag": "minecraft:wool_carpets"
+  },
+  "energy": {
+    "ticks": 100,
+    "rfpertick": 10
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:string"
+  },
+  "percent": 75,
+  "bonus": {
+    "item": "minecraft:string",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ]
+}

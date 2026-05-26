@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "B": {
+      "tag": "c:furnaces"
+    },
+    "C": {
+      "tag": "c:ingots/obsidian"
+    },
+    "P": {
+      "item": "create:electron_tube"
+    },
+    "W": {
+      "item": "createaddition:capacitor"
+    },
+    "X": {
+      "item": "immersiveengineering:insulating_glass"
+    }
+  },
+  "pattern": [
+    " CPC ",
+    " XBX ",
+    " CWC ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "cyclic:melter"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ],
+  "accept_mirrored": false
+}

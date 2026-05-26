@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ddd",
+    " d ",
+    "ses"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:anvil"
+    },
+    "d": {
+      "tag": "c:storage_blocks/iron"
+    },
+    "e": {
+      "item": "cataclysm:void_eye"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "cyclic:anvil_void"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ]
+}

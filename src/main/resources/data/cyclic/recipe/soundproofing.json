@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    "sos",
+    " s "
+  ],
+  "key": {
+    "s": {
+      "tag": "c:dyes/orange"
+    },
+    "o": {
+      "item": "mekanism:upgrade_muffling"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "cyclic:soundproofing"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ]
+}

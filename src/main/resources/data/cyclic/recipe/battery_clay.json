@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cbc",
+    "bab",
+    "cbc"
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "b": {
+      "tag": "c:storage_blocks/cobblestone"
+    },
+    "a": {
+      "item": "kubejs:clay_plate"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "cyclic:battery_clay"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ]
+}

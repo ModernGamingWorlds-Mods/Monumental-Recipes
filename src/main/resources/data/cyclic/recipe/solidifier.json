@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "B": {
+      "item": "create:basin"
+    },
+    "C": {
+      "tag": "c:ingots/obsidian"
+    },
+    "P": {
+      "tag": "c:gems/lapis"
+    },
+    "W": {
+      "item": "createaddition:capacitor"
+    },
+    "X": {
+      "item": "immersiveengineering:insulating_glass"
+    }
+  },
+  "pattern": [
+    " CPC ",
+    " XBX ",
+    " CWC ",
+    "     ",
+    "     "
+  ],
+  "result": {
+    "count": 1,
+    "id": "cyclic:solidifier"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ],
+  "accept_mirrored": false
+}

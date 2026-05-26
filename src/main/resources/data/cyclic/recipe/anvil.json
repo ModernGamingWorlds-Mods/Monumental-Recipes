@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ddd",
+    "rer",
+    "iii"
+  ],
+  "key": {
+    "r": {
+      "item": "createaddition:large_connector"
+    },
+    "i": {
+      "tag": "c:storage_blocks/steel"
+    },
+    "d": {
+      "tag": "c:gems/mana_diamond"
+    },
+    "e": {
+      "item": "cyclic:gem_obsidian"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "cyclic:anvil"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ]
+}
