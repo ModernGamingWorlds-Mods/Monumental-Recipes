@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "blue_skies:aquite_pickaxe"
+      "id": "blue_skies:aquite_pickaxe"
     }
   ],
   "neoforge:conditions": [

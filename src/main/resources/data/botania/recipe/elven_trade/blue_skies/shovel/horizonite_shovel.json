@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "blue_skies:horizonite_shovel"
+      "id": "blue_skies:horizonite_shovel"
     }
   ],
   "neoforge:conditions": [

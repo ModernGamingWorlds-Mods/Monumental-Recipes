@@ -7,7 +7,7 @@
     "tag": "c:ingots/elementium"
   },
   "result": {
-    "item": "botania:elementium_hoe"
+    "id": "botania:elementium_hoe"
   },
   "template": {
     "tag": "c:nuggets/elementium"

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:magnet_ring_greater"
+      "id": "botania:magnet_ring_greater"
     }
   ],
   "neoforge:conditions": [

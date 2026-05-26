@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:terrasteel_helmet"
+      "id": "botania:terrasteel_helmet"
     }
   ],
   "neoforge:conditions": [

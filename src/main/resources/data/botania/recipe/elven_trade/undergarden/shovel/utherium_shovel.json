@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "undergarden:utherium_shovel"
+      "id": "undergarden:utherium_shovel"
     }
   ],
   "neoforge:conditions": [

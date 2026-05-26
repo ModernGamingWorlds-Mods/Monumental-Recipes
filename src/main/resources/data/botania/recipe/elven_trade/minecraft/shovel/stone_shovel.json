@@ -5,12 +5,12 @@
       "item": "minecraft:wooden_shovel"
     },
     {
-      "tag": "c:stone"
+      "tag": "c:stones"
     }
   ],
   "output": [
     {
-      "item": "minecraft:stone_shovel"
+      "id": "minecraft:stone_shovel"
     }
   ],
   "neoforge:conditions": [

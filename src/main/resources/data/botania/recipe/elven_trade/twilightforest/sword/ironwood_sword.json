@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "twilightforest:ironwood_sword"
+      "id": "twilightforest:ironwood_sword"
     }
   ],
   "neoforge:conditions": [

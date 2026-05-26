@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mysticalagriculture:supremium_reprocessor"
+      "id": "mysticalagriculture:supremium_reprocessor"
     }
   ],
   "neoforge:conditions": [

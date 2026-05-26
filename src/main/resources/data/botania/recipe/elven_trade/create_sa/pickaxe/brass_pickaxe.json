@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "create_sa:brass_pickaxe"
+      "id": "create_sa:brass_pickaxe"
     }
   ],
   "neoforge:conditions": [

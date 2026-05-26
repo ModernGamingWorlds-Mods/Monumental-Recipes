@@ -20,7 +20,7 @@
     "SGS"
   ],
   "result": {
-    "item": "botania:conjuration_catalyst"
+    "id": "botania:conjuration_catalyst"
   },
   "neoforge:conditions": [
     {

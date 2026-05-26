@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "minecraft:netherite_axe"
+      "id": "minecraft:netherite_axe"
     }
   ],
   "neoforge:conditions": [

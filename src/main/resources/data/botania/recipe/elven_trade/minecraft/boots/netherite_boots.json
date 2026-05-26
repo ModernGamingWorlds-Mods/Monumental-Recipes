@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "minecraft:netherite_boots"
+      "id": "minecraft:netherite_boots"
     }
   ],
   "neoforge:conditions": [

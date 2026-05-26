@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "minecraft:compass"
+      "id": "minecraft:compass"
     }
   ],
   "neoforge:conditions": [

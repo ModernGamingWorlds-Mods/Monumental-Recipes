@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "minecraft:iron_leggings"
+      "id": "minecraft:iron_leggings"
     }
   ],
   "neoforge:conditions": [

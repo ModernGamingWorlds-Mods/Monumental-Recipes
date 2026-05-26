@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "forbidden_arcanus:deorum_chestplate"
+      "id": "forbidden_arcanus:deorum_chestplate"
     }
   ],
   "neoforge:conditions": [

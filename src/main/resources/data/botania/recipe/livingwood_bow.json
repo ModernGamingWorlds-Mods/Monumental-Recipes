@@ -7,7 +7,7 @@
     "item": "botania:livingwood_twig"
   },
   "result": {
-    "item": "botania:livingwood_bow"
+    "id": "botania:livingwood_bow"
   },
   "template": {
     "tag": "c:rods/wooden"

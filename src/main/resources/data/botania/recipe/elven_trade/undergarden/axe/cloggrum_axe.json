@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "undergarden:cloggrum_axe"
+      "id": "undergarden:cloggrum_axe"
     }
   ],
   "neoforge:conditions": [

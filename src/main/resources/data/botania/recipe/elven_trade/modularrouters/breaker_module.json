@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "modularrouters:breaker_module"
+      "id": "modularrouters:breaker_module"
     }
   ],
   "neoforge:conditions": [

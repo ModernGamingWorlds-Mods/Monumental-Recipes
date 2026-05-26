@@ -10,7 +10,7 @@
   "mana": 6000,
   "output": {
     "count": 2,
-    "item": "botania:mana_pearl"
+    "id": "botania:mana_pearl"
   },
   "neoforge:conditions": [
     {

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "undergarden:froststeel_pickaxe"
+      "id": "undergarden:froststeel_pickaxe"
     }
   ],
   "neoforge:conditions": [

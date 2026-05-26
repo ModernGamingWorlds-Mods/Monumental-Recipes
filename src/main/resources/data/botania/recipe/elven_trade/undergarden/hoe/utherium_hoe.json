@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "undergarden:utherium_hoe"
+      "id": "undergarden:utherium_hoe"
     }
   ],
   "neoforge:conditions": [

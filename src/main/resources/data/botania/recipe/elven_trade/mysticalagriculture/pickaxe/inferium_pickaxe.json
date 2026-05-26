@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mysticalagriculture:inferium_pickaxe"
+      "id": "mysticalagriculture:inferium_pickaxe"
     }
   ],
   "neoforge:conditions": [

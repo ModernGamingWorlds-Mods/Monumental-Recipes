@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:crystal_sword"
+      "id": "cyclic:crystal_sword"
     }
   ],
   "neoforge:conditions": [

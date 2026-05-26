@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:emerald_sword"
+      "id": "cyclic:emerald_sword"
     }
   ],
   "neoforge:conditions": [

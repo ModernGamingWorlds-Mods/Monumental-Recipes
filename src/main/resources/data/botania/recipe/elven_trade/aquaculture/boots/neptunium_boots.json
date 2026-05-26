@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "aquaculture:neptunium_boots"
+      "id": "aquaculture:neptunium_boots"
     }
   ],
   "neoforge:conditions": [

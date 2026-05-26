@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "blue_skies:maple_spear"
+      "id": "blue_skies:maple_spear"
     }
   ],
   "neoforge:conditions": [

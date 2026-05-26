@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mysticalagriculture:tertium_reprocessor"
+      "id": "mysticalagriculture:tertium_reprocessor"
     }
   ],
   "neoforge:conditions": [

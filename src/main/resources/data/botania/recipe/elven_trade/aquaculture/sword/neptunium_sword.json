@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "aquaculture:neptunium_sword"
+      "id": "aquaculture:neptunium_sword"
     }
   ],
   "neoforge:conditions": [

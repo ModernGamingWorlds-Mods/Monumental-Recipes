@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "forbidden_arcanus:deorum_helmet"
+      "id": "forbidden_arcanus:deorum_helmet"
     }
   ],
   "neoforge:conditions": [

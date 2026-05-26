@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:emerald_pickaxe"
+      "id": "cyclic:emerald_pickaxe"
     }
   ],
   "neoforge:conditions": [

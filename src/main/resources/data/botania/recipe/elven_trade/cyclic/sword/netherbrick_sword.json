@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:netherbrick_sword"
+      "id": "cyclic:netherbrick_sword"
     }
   ],
   "neoforge:conditions": [

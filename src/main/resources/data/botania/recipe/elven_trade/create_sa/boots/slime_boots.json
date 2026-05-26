@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "create_sa:slime_boots"
+      "id": "create_sa:slime_boots"
     }
   ],
   "neoforge:conditions": [

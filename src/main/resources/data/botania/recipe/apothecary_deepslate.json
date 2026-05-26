@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "botania:apothecary_deepslate"
+    "id": "botania:apothecary_deepslate"
   },
   "neoforge:conditions": [
     {

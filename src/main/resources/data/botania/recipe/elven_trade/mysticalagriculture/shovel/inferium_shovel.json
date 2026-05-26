@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mysticalagriculture:inferium_shovel"
+      "id": "mysticalagriculture:inferium_shovel"
     }
   ],
   "neoforge:conditions": [

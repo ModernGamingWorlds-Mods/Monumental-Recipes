@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "forbidden_arcanus:draco_arcanus_pickaxe"
+      "id": "forbidden_arcanus:draco_arcanus_pickaxe"
     }
   ],
   "neoforge:conditions": [

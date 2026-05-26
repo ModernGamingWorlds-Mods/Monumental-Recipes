@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:elementium_axe"
+      "id": "botania:elementium_axe"
     }
   ],
   "neoforge:conditions": [

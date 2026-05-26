@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "blue_skies:lunar_shovel"
+      "id": "blue_skies:lunar_shovel"
     }
   ],
   "neoforge:conditions": [

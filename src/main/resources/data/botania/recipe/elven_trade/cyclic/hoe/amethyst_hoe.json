@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:amethyst_hoe"
+      "id": "cyclic:amethyst_hoe"
     }
   ],
   "neoforge:conditions": [

@@ -7,7 +7,7 @@
     "tag": "c:ingots/elementium"
   },
   "result": {
-    "item": "botania:elementium_shovel"
+    "id": "botania:elementium_shovel"
   },
   "template": {
     "tag": "c:nuggets/elementium"

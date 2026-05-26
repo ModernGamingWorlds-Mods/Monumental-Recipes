@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mysticalagriculture:inferium_furnace"
+      "id": "mysticalagriculture:inferium_furnace"
     }
   ],
   "neoforge:conditions": [

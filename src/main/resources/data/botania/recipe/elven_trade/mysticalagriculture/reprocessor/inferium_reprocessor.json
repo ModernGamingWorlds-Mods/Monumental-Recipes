@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mysticalagriculture:inferium_reprocessor"
+      "id": "mysticalagriculture:inferium_reprocessor"
     }
   ],
   "neoforge:conditions": [

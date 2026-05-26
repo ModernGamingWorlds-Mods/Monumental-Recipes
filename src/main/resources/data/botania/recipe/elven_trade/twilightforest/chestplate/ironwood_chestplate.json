@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "twilightforest:ironwood_chestplate"
+      "id": "twilightforest:ironwood_chestplate"
     }
   ],
   "neoforge:conditions": [

@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "botania:apothecary_mossy"
+    "id": "botania:apothecary_mossy"
   },
   "neoforge:conditions": [
     {

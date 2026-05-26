@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "immersiveengineering:shovel_steel"
+      "id": "immersiveengineering:shovel_steel"
     }
   ],
   "neoforge:conditions": [

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "twilightforest:steeleaf_shovel"
+      "id": "twilightforest:steeleaf_shovel"
     }
   ],
   "neoforge:conditions": [

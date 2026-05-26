@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:netherbrick_shovel"
+      "id": "cyclic:netherbrick_shovel"
     }
   ],
   "neoforge:conditions": [

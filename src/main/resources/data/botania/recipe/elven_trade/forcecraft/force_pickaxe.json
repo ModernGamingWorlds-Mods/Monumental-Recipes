@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "forcecraft:force_pickaxe"
+      "id": "forcecraft:force_pickaxe"
     }
   ],
   "neoforge:conditions": [

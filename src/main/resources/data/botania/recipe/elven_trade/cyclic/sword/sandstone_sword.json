@@ -5,12 +5,12 @@
       "item": "minecraft:stone_sword"
     },
     {
-      "tag": "c:sandstone"
+      "tag": "c:sandstones"
     }
   ],
   "output": [
     {
-      "item": "cyclic:sandstone_sword"
+      "id": "cyclic:sandstone_sword"
     }
   ],
   "neoforge:conditions": [

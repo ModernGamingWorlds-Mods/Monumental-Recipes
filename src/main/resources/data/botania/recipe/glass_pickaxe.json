@@ -7,7 +7,7 @@
     "tag": "c:ingots/manasteel"
   },
   "result": {
-    "item": "botania:glass_pickaxe"
+    "id": "botania:glass_pickaxe"
   },
   "template": {
     "tag": "monumental_recipes:wooden_plates"

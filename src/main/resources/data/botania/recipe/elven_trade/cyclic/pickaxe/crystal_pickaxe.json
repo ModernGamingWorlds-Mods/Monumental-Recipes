@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:crystal_pickaxe"
+      "id": "cyclic:crystal_pickaxe"
     }
   ],
   "neoforge:conditions": [

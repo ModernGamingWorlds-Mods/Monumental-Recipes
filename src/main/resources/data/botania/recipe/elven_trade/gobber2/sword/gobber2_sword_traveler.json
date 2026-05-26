@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "gobber2:gobber2_sword_traveler"
+      "id": "gobber2:gobber2_sword_traveler"
     }
   ],
   "neoforge:conditions": [

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:dodge_ring"
+      "id": "botania:dodge_ring"
     }
   ],
   "neoforge:conditions": [

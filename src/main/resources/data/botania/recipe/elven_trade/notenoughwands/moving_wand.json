@@ -5,12 +5,12 @@
       "tag": "monumental_recipes:conveyors"
     },
     {
-      "item": "notenoughwands:wand_core"
+      "item": "notenoughwands:advanced_wand_core"
     }
   ],
   "output": [
     {
-      "item": "notenoughwands:moving_wand"
+      "id": "notenoughwands:moving_wand"
     }
   ],
   "neoforge:conditions": [
@@ -19,12 +19,12 @@
       "modid": "botania"
     },
     {
-      "type": "neoforge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
       "type": "neoforge:item_exists",
       "item": "notenoughwands:moving_wand"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental_recipes"
     }
   ]
 }

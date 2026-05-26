@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:crystal_shovel"
+      "id": "cyclic:crystal_shovel"
     }
   ],
   "neoforge:conditions": [

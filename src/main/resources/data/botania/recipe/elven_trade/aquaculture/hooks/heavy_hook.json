@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "aquaculture:heavy_hook"
+      "id": "aquaculture:heavy_hook"
     }
   ],
   "neoforge:conditions": [

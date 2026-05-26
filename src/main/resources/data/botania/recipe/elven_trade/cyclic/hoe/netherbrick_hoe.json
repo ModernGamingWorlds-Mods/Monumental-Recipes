@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:netherbrick_hoe"
+      "id": "cyclic:netherbrick_hoe"
     }
   ],
   "neoforge:conditions": [

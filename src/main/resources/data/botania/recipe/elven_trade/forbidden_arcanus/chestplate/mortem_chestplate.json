@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "forbidden_arcanus:mortem_chestplate"
+      "id": "forbidden_arcanus:mortem_chestplate"
     }
   ],
   "neoforge:conditions": [

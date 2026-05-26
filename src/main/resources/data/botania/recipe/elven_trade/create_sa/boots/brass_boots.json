@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "create_sa:brass_boots"
+      "id": "create_sa:brass_boots"
     }
   ],
   "neoforge:conditions": [

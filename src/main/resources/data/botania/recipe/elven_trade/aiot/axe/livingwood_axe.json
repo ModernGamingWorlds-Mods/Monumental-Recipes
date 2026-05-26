@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "aiotbotania:livingwood_axe"
+      "id": "aiotbotania:livingwood_axe"
     }
   ],
   "neoforge:conditions": [

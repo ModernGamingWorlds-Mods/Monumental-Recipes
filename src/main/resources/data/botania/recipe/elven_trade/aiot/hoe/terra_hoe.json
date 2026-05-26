@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "aiotbotania:terra_hoe"
+      "id": "aiotbotania:terra_hoe"
     }
   ],
   "neoforge:conditions": [

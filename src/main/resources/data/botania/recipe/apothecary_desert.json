@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "botania:apothecary_desert"
+    "id": "botania:apothecary_desert"
   },
   "neoforge:conditions": [
     {

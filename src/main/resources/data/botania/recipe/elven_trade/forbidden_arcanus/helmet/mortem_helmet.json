@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "forbidden_arcanus:mortem_helmet"
+      "id": "forbidden_arcanus:mortem_helmet"
     }
   ],
   "neoforge:conditions": [

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "ae2:nether_quartz_pickaxe"
+      "id": "ae2:nether_quartz_pickaxe"
     }
   ],
   "neoforge:conditions": [

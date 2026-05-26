@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "constructionwand:iron_wand"
+      "id": "constructionwand:iron_wand"
     }
   ],
   "neoforge:conditions": [

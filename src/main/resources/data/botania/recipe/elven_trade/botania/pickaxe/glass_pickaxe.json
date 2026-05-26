@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:glass_pickaxe"
+      "id": "botania:glass_pickaxe"
     }
   ],
   "neoforge:conditions": [

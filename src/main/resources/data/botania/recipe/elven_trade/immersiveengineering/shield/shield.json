@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "immersiveengineering:shield"
+      "id": "immersiveengineering:shield"
     }
   ],
   "neoforge:conditions": [

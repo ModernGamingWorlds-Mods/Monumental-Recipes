@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mysticalagriculture:prudentium_reprocessor"
+      "id": "mysticalagriculture:prudentium_reprocessor"
     }
   ],
   "neoforge:conditions": [

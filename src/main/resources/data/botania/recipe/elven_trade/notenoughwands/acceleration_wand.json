@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "notenoughwands:acceleration_wand"
+      "id": "notenoughwands:acceleration_wand"
     }
   ],
   "neoforge:conditions": [

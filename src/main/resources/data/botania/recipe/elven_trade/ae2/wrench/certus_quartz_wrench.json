@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "ae2:certus_quartz_wrench"
+      "id": "ae2:certus_quartz_wrench"
     }
   ],
   "neoforge:conditions": [

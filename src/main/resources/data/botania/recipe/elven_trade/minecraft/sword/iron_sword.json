@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "minecraft:iron_sword"
+      "id": "minecraft:iron_sword"
     }
   ],
   "neoforge:conditions": [

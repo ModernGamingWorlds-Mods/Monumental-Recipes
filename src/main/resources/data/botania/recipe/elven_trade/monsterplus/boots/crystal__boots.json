@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "monsterplus:crystal_boots"
+      "id": "monsterplus:crystal_boots"
     }
   ],
   "neoforge:conditions": [

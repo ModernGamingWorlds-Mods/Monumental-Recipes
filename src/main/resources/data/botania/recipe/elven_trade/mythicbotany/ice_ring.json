@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mythicbotany:ice_ring"
+      "id": "mythicbotany:ice_ring"
     }
   ],
   "neoforge:conditions": [

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "monsterplus:crystal_helmet"
+      "id": "monsterplus:crystal_helmet"
     }
   ],
   "neoforge:conditions": [

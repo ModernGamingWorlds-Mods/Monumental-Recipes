@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mysticalagriculture:imperium_shovel"
+      "id": "mysticalagriculture:imperium_shovel"
     }
   ],
   "neoforge:conditions": [

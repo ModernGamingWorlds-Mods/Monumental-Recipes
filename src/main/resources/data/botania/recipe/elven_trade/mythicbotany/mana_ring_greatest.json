@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mythicbotany:mana_ring_greatest"
+      "id": "mythicbotany:mana_ring_greatest"
     }
   ],
   "neoforge:conditions": [

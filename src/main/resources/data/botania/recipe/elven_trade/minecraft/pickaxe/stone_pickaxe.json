@@ -5,12 +5,12 @@
       "item": "minecraft:wooden_pickaxe"
     },
     {
-      "tag": "c:stone"
+      "tag": "c:stones"
     }
   ],
   "output": [
     {
-      "item": "minecraft:stone_pickaxe"
+      "id": "minecraft:stone_pickaxe"
     }
   ],
   "neoforge:conditions": [

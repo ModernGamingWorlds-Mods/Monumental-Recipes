@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "create_sa:zinc_axe"
+      "id": "create_sa:zinc_axe"
     }
   ],
   "neoforge:conditions": [

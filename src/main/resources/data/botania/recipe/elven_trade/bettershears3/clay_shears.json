@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "bettershears3:clay_shears"
+      "id": "bettershears3:clay_shears"
     }
   ],
   "neoforge:conditions": [

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mysticalagriculture:prudentium_furnace"
+      "id": "mysticalagriculture:prudentium_furnace"
     }
   ],
   "neoforge:conditions": [

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "undergarden:froststeel_shovel"
+      "id": "undergarden:froststeel_shovel"
     }
   ],
   "neoforge:conditions": [

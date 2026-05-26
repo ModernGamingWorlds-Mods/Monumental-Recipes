@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "monsterplus:crystal_chestplate"
+      "id": "monsterplus:crystal_chestplate"
     }
   ],
   "neoforge:conditions": [

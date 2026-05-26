@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:crystal_helmet"
+      "id": "cyclic:crystal_helmet"
     }
   ],
   "neoforge:conditions": [

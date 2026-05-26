@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "naturesaura:infused_iron_pickaxe"
+      "id": "naturesaura:infused_iron_pickaxe"
     }
   ],
   "neoforge:conditions": [

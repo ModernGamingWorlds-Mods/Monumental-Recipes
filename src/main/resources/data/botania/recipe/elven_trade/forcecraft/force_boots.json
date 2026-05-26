@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "forcecraft:force_boots"
+      "id": "forcecraft:force_boots"
     }
   ],
   "neoforge:conditions": [

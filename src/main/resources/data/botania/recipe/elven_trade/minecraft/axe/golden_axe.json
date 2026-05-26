@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "minecraft:golden_axe"
+      "id": "minecraft:golden_axe"
     }
   ],
   "neoforge:conditions": [

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "undergarden:utherium_pickaxe"
+      "id": "undergarden:utherium_pickaxe"
     }
   ],
   "neoforge:conditions": [

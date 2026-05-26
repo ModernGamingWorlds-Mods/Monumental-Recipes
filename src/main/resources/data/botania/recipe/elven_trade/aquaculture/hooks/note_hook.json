@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "aquaculture:note_hook"
+      "id": "aquaculture:note_hook"
     }
   ],
   "neoforge:conditions": [

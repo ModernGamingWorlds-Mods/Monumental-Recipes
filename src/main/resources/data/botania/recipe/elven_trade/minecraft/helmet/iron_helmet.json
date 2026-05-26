@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "minecraft:iron_helmet"
+      "id": "minecraft:iron_helmet"
     }
   ],
   "neoforge:conditions": [

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "minecraft:golden_sword"
+      "id": "minecraft:golden_sword"
     }
   ],
   "neoforge:conditions": [

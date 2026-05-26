@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "undergarden:masticated_chestplate"
+      "id": "undergarden:masticated_chestplate"
     }
   ],
   "neoforge:conditions": [

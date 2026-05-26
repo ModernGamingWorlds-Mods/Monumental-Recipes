@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:terrasteel_chestplate"
+      "id": "botania:terrasteel_chestplate"
     }
   ],
   "neoforge:conditions": [

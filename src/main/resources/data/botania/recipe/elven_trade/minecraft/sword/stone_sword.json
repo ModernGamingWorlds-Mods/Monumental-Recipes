@@ -5,12 +5,12 @@
       "item": "minecraft:wooden_sword"
     },
     {
-      "tag": "c:stone"
+      "tag": "c:stones"
     }
   ],
   "output": [
     {
-      "item": "minecraft:stone_sword"
+      "id": "minecraft:stone_sword"
     }
   ],
   "neoforge:conditions": [

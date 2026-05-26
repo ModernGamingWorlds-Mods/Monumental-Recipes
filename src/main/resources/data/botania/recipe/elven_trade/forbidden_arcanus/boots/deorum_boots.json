@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "forbidden_arcanus:deorum_boots"
+      "id": "forbidden_arcanus:deorum_boots"
     }
   ],
   "neoforge:conditions": [

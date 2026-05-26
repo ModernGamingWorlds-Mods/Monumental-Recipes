@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:amethyst_shovel"
+      "id": "cyclic:amethyst_shovel"
     }
   ],
   "neoforge:conditions": [

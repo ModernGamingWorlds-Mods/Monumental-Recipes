@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:reach_ring"
+      "id": "botania:reach_ring"
     }
   ],
   "neoforge:conditions": [

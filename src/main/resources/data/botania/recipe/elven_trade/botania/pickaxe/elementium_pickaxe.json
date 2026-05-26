@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:elementium_pick"
+      "id": "botania:elementium_pick"
     }
   ],
   "neoforge:conditions": [

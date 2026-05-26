@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:crystal_chestplate"
+      "id": "cyclic:crystal_chestplate"
     }
   ],
   "neoforge:conditions": [

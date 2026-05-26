@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "twilightforest:steeleaf_helmet"
+      "id": "twilightforest:steeleaf_helmet"
     }
   ],
   "neoforge:conditions": [

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mysticalagriculture:inferium_shears"
+      "id": "mysticalagriculture:inferium_shears"
     }
   ],
   "neoforge:conditions": [

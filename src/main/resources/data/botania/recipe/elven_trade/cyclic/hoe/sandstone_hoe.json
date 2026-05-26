@@ -5,12 +5,12 @@
       "item": "minecraft:stone_hoe"
     },
     {
-      "tag": "c:sandstone"
+      "tag": "c:sandstones"
     }
   ],
   "output": [
     {
-      "item": "cyclic:sandstone_hoe"
+      "id": "cyclic:sandstone_hoe"
     }
   ],
   "neoforge:conditions": [

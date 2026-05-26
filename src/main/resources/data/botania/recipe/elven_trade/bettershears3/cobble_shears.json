@@ -5,12 +5,12 @@
       "item": "bettershears3:clay_shears"
     },
     {
-      "tag": "c:cobblestone"
+      "tag": "c:cobblestones"
     }
   ],
   "output": [
     {
-      "item": "bettershears3:cobble_shears"
+      "id": "bettershears3:cobble_shears"
     }
   ],
   "neoforge:conditions": [

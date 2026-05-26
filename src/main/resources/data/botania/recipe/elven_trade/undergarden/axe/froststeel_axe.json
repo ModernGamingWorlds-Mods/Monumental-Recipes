@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "undergarden:froststeel_axe"
+      "id": "undergarden:froststeel_axe"
     }
   ],
   "neoforge:conditions": [

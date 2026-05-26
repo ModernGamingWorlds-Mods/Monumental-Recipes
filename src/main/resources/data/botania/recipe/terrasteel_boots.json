@@ -7,7 +7,7 @@
     "tag": "c:ingots/terrasteel"
   },
   "result": {
-    "item": "botania:terrasteel_boots"
+    "id": "botania:terrasteel_boots"
   },
   "template": {
     "tag": "c:plates/netherite"

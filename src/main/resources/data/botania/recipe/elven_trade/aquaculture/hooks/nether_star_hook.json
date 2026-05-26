@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "aquaculture:nether_star_hook"
+      "id": "aquaculture:nether_star_hook"
     }
   ],
   "neoforge:conditions": [

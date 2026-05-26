@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "pneumaticcraft:compressed_iron_boots"
+      "id": "pneumaticcraft:compressed_iron_boots"
     }
   ],
   "neoforge:conditions": [

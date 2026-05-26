@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mysticalagriculture:inferium_scythe"
+      "id": "mysticalagriculture:inferium_scythe"
     }
   ],
   "neoforge:conditions": [

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:manasteel_boots"
+      "id": "botania:manasteel_boots"
     }
   ],
   "neoforge:conditions": [

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:crystal_hoe"
+      "id": "cyclic:crystal_hoe"
     }
   ],
   "neoforge:conditions": [

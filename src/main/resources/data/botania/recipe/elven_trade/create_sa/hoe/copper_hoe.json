@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "create_sa:copper_hoe"
+      "id": "create_sa:copper_hoe"
     }
   ],
   "neoforge:conditions": [

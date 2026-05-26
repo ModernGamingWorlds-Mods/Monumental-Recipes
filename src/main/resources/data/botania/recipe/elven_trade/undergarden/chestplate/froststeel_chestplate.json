@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "undergarden:froststeel_chestplate"
+      "id": "undergarden:froststeel_chestplate"
     }
   ],
   "neoforge:conditions": [

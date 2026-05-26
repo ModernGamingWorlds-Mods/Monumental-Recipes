@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "notenoughwands:capturing_wand"
+      "id": "notenoughwands:capturing_wand"
     }
   ],
   "neoforge:conditions": [

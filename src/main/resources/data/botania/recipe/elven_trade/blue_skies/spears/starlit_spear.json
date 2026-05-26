@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "blue_skies:starlit_spear"
+      "id": "blue_skies:starlit_spear"
     }
   ],
   "neoforge:conditions": [

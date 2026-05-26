@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "botania:apothecary_mesa"
+    "id": "botania:apothecary_mesa"
   },
   "neoforge:conditions": [
     {

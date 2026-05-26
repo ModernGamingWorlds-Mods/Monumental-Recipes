@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:glowing_helmet"
+      "id": "cyclic:glowing_helmet"
     }
   ],
   "neoforge:conditions": [

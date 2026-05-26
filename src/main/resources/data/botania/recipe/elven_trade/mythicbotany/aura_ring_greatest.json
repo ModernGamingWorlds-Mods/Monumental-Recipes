@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mythicbotany:aura_ring_greatest"
+      "id": "mythicbotany:aura_ring_greatest"
     }
   ],
   "neoforge:conditions": [

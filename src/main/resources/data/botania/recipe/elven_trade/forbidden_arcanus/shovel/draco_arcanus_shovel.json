@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "forbidden_arcanus:draco_arcanus_shovel"
+      "id": "forbidden_arcanus:draco_arcanus_shovel"
     }
   ],
   "neoforge:conditions": [

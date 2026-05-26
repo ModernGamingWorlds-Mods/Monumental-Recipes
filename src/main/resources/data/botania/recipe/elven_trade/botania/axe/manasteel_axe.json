@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:manasteel_axe"
+      "id": "botania:manasteel_axe"
     }
   ],
   "neoforge:conditions": [

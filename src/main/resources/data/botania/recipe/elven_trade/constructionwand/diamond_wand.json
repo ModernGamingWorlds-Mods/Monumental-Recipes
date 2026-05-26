@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "constructionwand:diamond_wand"
+      "id": "constructionwand:diamond_wand"
     }
   ],
   "neoforge:conditions": [

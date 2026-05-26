@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "immersiveengineering:armor_faraday_legs"
+      "id": "immersiveengineering:armor_faraday_legs"
     }
   ],
   "neoforge:conditions": [

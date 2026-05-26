@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:manasteel_pick"
+      "id": "botania:manasteel_pick"
     }
   ],
   "neoforge:conditions": [

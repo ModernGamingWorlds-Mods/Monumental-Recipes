@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "minecraft:diamond_chestplate"
+      "id": "minecraft:diamond_chestplate"
     }
   ],
   "neoforge:conditions": [

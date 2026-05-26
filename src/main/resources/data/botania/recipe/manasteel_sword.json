@@ -7,7 +7,7 @@
     "tag": "c:ingots/manasteel"
   },
   "result": {
-    "item": "botania:manasteel_sword"
+    "id": "botania:manasteel_sword"
   },
   "template": {
     "tag": "c:nuggets/manasteel"

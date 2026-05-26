@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mysticalagriculture:imperium_reprocessor"
+      "id": "mysticalagriculture:imperium_reprocessor"
     }
   ],
   "neoforge:conditions": [

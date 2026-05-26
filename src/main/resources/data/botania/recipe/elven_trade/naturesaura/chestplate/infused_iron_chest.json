@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "naturesaura:infused_iron_chest"
+      "id": "naturesaura:infused_iron_chest"
     }
   ],
   "neoforge:conditions": [

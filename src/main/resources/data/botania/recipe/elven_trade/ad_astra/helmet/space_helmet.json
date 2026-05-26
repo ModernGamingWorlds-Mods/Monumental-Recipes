@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "ad_astra:space_helmet"
+      "id": "ad_astra:space_helmet"
     }
   ],
   "neoforge:conditions": [

@@ -5,12 +5,12 @@
       "item": "minecraft:stone_shovel"
     },
     {
-      "tag": "c:sandstone"
+      "tag": "c:sandstones"
     }
   ],
   "output": [
     {
-      "item": "cyclic:sandstone_shovel"
+      "id": "cyclic:sandstone_shovel"
     }
   ],
   "neoforge:conditions": [

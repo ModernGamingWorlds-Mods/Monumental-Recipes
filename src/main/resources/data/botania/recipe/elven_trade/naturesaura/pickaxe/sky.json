@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "naturesaura:sky_pickaxe"
+      "id": "naturesaura:sky_pickaxe"
     }
   ],
   "neoforge:conditions": [

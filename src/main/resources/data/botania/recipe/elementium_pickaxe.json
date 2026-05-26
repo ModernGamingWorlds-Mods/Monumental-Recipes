@@ -7,7 +7,7 @@
     "tag": "c:ingots/elementium"
   },
   "result": {
-    "item": "botania:elementium_pickaxe"
+    "id": "botania:elementium_pickaxe"
   },
   "template": {
     "tag": "c:nuggets/elementium"

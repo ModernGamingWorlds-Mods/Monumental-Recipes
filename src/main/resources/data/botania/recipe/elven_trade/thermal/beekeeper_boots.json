@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "thermal:beekeeper_boots"
+      "id": "thermal:beekeeper_boots"
     }
   ],
   "neoforge:conditions": [

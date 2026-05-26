@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "blue_skies:lunar_pickaxe"
+      "id": "blue_skies:lunar_pickaxe"
     }
   ],
   "neoforge:conditions": [

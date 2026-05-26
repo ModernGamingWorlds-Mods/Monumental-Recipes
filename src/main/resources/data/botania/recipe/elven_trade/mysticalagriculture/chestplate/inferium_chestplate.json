@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mysticalagriculture:inferium_chestplate"
+      "id": "mysticalagriculture:inferium_chestplate"
     }
   ],
   "neoforge:conditions": [

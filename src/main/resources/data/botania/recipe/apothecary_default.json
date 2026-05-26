@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "botania:apothecary_default"
+    "id": "botania:apothecary_default"
   },
   "neoforge:conditions": [
     {

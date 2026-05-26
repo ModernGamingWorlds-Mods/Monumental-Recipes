@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "minecraft:netherite_helmet"
+      "id": "minecraft:netherite_helmet"
     }
   ],
   "neoforge:conditions": [

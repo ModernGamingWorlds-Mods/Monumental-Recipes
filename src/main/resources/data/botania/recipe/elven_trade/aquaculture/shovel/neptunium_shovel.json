@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "aquaculture:neptunium_shovel"
+      "id": "aquaculture:neptunium_shovel"
     }
   ],
   "neoforge:conditions": [

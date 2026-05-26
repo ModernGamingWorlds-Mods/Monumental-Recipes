@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "notenoughwands:swapping_wand"
+      "id": "notenoughwands:swapping_wand"
     }
   ],
   "neoforge:conditions": [

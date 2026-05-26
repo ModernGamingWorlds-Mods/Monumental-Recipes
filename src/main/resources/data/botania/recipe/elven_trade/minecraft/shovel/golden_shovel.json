@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "minecraft:golden_shovel"
+      "id": "minecraft:golden_shovel"
     }
   ],
   "neoforge:conditions": [

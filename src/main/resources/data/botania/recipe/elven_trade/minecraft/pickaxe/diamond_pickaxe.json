@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "minecraft:diamond_pickaxe"
+      "id": "minecraft:diamond_pickaxe"
     }
   ],
   "neoforge:conditions": [

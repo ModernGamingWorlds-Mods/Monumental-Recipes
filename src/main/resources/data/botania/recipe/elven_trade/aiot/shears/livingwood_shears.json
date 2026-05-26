@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "aiotbotania:livingwood_shears"
+      "id": "aiotbotania:livingwood_shears"
     }
   ],
   "neoforge:conditions": [

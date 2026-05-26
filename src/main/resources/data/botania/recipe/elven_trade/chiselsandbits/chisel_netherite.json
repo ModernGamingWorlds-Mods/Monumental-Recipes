@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "chiselsandbits:chisel_netherite"
+      "id": "chiselsandbits:chisel_netherite"
     }
   ],
   "neoforge:conditions": [

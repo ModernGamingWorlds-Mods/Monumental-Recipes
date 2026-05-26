@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "constructionwand:infinity_wand"
+      "id": "constructionwand:infinity_wand"
     }
   ],
   "neoforge:conditions": [

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "create_sa:zinc_shovel"
+      "id": "create_sa:zinc_shovel"
     }
   ],
   "neoforge:conditions": [

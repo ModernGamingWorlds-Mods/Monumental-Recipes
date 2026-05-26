@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:emerald_hoe"
+      "id": "cyclic:emerald_hoe"
     }
   ],
   "neoforge:conditions": [

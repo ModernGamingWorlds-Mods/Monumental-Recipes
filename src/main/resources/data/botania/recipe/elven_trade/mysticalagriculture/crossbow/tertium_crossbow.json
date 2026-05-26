@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mysticalagriculture:tertium_crossbow"
+      "id": "mysticalagriculture:tertium_crossbow"
     }
   ],
   "neoforge:conditions": [

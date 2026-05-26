@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "undergarden:utherium_chestplate"
+      "id": "undergarden:utherium_chestplate"
     }
   ],
   "neoforge:conditions": [

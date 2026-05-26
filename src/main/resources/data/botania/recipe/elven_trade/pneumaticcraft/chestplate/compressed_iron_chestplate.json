@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "pneumaticcraft:compressed_iron_chestplate"
+      "id": "pneumaticcraft:compressed_iron_chestplate"
     }
   ],
   "neoforge:conditions": [

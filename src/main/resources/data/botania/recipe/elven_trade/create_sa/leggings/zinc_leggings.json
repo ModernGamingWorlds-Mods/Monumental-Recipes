@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "create_sa:zinc_leggings"
+      "id": "create_sa:zinc_leggings"
     }
   ],
   "neoforge:conditions": [

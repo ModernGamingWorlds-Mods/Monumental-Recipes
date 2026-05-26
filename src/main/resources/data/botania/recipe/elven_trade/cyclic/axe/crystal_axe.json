@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:crystal_axe"
+      "id": "cyclic:crystal_axe"
     }
   ],
   "neoforge:conditions": [

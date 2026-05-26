@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:netherbrick_axe"
+      "id": "cyclic:netherbrick_axe"
     }
   ],
   "neoforge:conditions": [

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:elementium_sword"
+      "id": "botania:elementium_sword"
     }
   ],
   "neoforge:conditions": [

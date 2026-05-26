@@ -5,12 +5,12 @@
       "item": "minecraft:stone_axe"
     },
     {
-      "tag": "c:sandstone"
+      "tag": "c:sandstones"
     }
   ],
   "output": [
     {
-      "item": "cyclic:sandstone_axe"
+      "id": "cyclic:sandstone_axe"
     }
   ],
   "neoforge:conditions": [

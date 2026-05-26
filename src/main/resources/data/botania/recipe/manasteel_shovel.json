@@ -7,7 +7,7 @@
     "tag": "c:ingots/manasteel"
   },
   "result": {
-    "item": "botania:manasteel_shovel"
+    "id": "botania:manasteel_shovel"
   },
   "template": {
     "tag": "c:plates/iron"

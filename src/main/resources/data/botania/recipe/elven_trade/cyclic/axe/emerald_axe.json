@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:emerald_axe"
+      "id": "cyclic:emerald_axe"
     }
   ],
   "neoforge:conditions": [

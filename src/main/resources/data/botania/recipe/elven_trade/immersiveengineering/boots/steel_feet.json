@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "immersiveengineering:armor_steel_feet"
+      "id": "immersiveengineering:armor_steel_feet"
     }
   ],
   "neoforge:conditions": [

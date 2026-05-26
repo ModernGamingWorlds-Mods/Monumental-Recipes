@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "twilightforest:steeleaf_pickaxe"
+      "id": "twilightforest:steeleaf_pickaxe"
     }
   ],
   "neoforge:conditions": [

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:mining_ring"
+      "id": "botania:mining_ring"
     }
   ],
   "neoforge:conditions": [

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mysticalagriculture:inferium_hoe"
+      "id": "mysticalagriculture:inferium_hoe"
     }
   ],
   "neoforge:conditions": [

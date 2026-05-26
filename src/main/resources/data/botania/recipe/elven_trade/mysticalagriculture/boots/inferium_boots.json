@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mysticalagriculture:inferium_boots"
+      "id": "mysticalagriculture:inferium_boots"
     }
   ],
   "neoforge:conditions": [

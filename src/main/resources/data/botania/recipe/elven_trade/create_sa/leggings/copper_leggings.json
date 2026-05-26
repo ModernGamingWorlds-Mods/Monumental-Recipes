@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "create_sa:copper_leggings"
+      "id": "create_sa:copper_leggings"
     }
   ],
   "neoforge:conditions": [

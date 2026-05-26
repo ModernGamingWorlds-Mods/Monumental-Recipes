@@ -5,12 +5,12 @@
       "item": "minecraft:stone_pickaxe"
     },
     {
-      "tag": "c:sandstone"
+      "tag": "c:sandstones"
     }
   ],
   "output": [
     {
-      "item": "cyclic:sandstone_pickaxe"
+      "id": "cyclic:sandstone_pickaxe"
     }
   ],
   "neoforge:conditions": [

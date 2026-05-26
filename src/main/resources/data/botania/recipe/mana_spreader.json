@@ -1,6 +1,5 @@
 {
   "type": "create:mechanical_crafting",
-  "acceptMirrored": false,
   "key": {
     "B": {
       "tag": "c:feathers"
@@ -24,7 +23,7 @@
   ],
   "result": {
     "count": 1,
-    "item": "botania:mana_spreader"
+    "id": "botania:mana_spreader"
   },
   "neoforge:conditions": [
     {
@@ -39,5 +38,6 @@
       "type": "neoforge:mod_loaded",
       "modid": "extendedcrafting"
     }
-  ]
+  ],
+  "accept_mirrored": false
 }

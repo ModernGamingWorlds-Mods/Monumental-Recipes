@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "blue_skies:aquite_shovel"
+      "id": "blue_skies:aquite_shovel"
     }
   ],
   "neoforge:conditions": [

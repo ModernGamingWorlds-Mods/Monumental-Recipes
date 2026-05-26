@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "aquaculture:neptunium_axe"
+      "id": "aquaculture:neptunium_axe"
     }
   ],
   "neoforge:conditions": [

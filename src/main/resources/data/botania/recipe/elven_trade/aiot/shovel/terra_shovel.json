@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "aiotbotania:terra_shovel"
+      "id": "aiotbotania:terra_shovel"
     }
   ],
   "neoforge:conditions": [

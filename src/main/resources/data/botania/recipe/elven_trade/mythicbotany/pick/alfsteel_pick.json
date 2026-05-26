@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mythicbotany:alfsteel_pick"
+      "id": "mythicbotany:alfsteel_pick"
     }
   ],
   "neoforge:conditions": [

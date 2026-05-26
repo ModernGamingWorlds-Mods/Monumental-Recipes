@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:crystal_leggings"
+      "id": "cyclic:crystal_leggings"
     }
   ],
   "neoforge:conditions": [

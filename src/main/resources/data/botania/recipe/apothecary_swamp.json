@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "botania:apothecary_swamp"
+    "id": "botania:apothecary_swamp"
   },
   "neoforge:conditions": [
     {

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "aquaculture:diamond_hook"
+      "id": "aquaculture:diamond_hook"
     }
   ],
   "neoforge:conditions": [

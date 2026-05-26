@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "chiselsandbits:chisel_diamond"
+      "id": "chiselsandbits:chisel_diamond"
     }
   ],
   "neoforge:conditions": [

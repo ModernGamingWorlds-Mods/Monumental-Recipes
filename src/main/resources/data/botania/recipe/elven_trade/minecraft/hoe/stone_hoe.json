@@ -5,12 +5,12 @@
       "item": "minecraft:wooden_hoe"
     },
     {
-      "tag": "c:stone"
+      "tag": "c:stones"
     }
   ],
   "output": [
     {
-      "item": "minecraft:stone_hoe"
+      "id": "minecraft:stone_hoe"
     }
   ],
   "neoforge:conditions": [

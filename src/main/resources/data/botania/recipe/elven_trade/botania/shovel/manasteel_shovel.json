@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:manasteel_shovel"
+      "id": "botania:manasteel_shovel"
     }
   ],
   "neoforge:conditions": [

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "explorerscompass:explorerscompass"
+      "id": "explorerscompass:explorerscompass"
     }
   ],
   "neoforge:conditions": [

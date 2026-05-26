@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "immersiveengineering:armor_steel_chest"
+      "id": "immersiveengineering:armor_steel_chest"
     }
   ],
   "neoforge:conditions": [

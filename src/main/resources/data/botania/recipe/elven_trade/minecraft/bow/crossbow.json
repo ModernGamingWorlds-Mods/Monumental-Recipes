@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "minecraft:crossbow"
+      "id": "minecraft:crossbow"
     }
   ],
   "neoforge:conditions": [

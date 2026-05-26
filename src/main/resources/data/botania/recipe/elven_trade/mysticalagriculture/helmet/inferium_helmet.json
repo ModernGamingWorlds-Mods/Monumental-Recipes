@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mysticalagriculture:inferium_helmet"
+      "id": "mysticalagriculture:inferium_helmet"
     }
   ],
   "neoforge:conditions": [

@@ -7,7 +7,7 @@
     "tag": "c:ingots/elementium"
   },
   "result": {
-    "item": "botania:elementium_helmet"
+    "id": "botania:elementium_helmet"
   },
   "template": {
     "tag": "c:nuggets/elementium"

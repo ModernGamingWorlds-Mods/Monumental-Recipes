@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "twilightforest:ironwood_pickaxe"
+      "id": "twilightforest:ironwood_pickaxe"
     }
   ],
   "neoforge:conditions": [

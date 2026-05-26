@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:emerald_shovel"
+      "id": "cyclic:emerald_shovel"
     }
   ],
   "neoforge:conditions": [

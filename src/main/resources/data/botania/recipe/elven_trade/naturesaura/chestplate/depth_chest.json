@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "naturesaura:depth_chest"
+      "id": "naturesaura:depth_chest"
     }
   ],
   "neoforge:conditions": [

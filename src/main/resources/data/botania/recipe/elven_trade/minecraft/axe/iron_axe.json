@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "minecraft:iron_axe"
+      "id": "minecraft:iron_axe"
     }
   ],
   "neoforge:conditions": [

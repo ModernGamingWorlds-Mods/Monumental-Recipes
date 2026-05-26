@@ -10,7 +10,7 @@
   "mana": 300,
   "output": {
     "count": 2,
-    "item": "botania:quartz_mana"
+    "id": "botania:quartz_mana"
   },
   "neoforge:conditions": [
     {

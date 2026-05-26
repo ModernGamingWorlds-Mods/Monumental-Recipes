@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "create:diving_boots"
+      "id": "create:diving_boots"
     }
   ],
   "neoforge:conditions": [
@@ -19,12 +19,12 @@
       "modid": "botania"
     },
     {
-      "type": "neoforge:mod_loaded",
-      "modid": "mekanism"
-    },
-    {
       "type": "neoforge:item_exists",
       "item": "create:diving_boots"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
     }
   ]
 }

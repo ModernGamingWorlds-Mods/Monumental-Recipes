@@ -5,12 +5,12 @@
       "item": "mysticalagriculture:enderman_essence"
     },
     {
-      "item": "notenoughwands:wand_core"
+      "item": "notenoughwands:advanced_wand_core"
     }
   ],
   "output": [
     {
-      "item": "notenoughwands:teleportation_wand"
+      "id": "notenoughwands:teleportation_wand"
     }
   ],
   "neoforge:conditions": [
@@ -19,12 +19,12 @@
       "modid": "botania"
     },
     {
-      "type": "neoforge:mod_loaded",
-      "modid": "mysticalagriculture"
-    },
-    {
       "type": "neoforge:item_exists",
       "item": "notenoughwands:teleportation_wand"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
     }
   ]
 }

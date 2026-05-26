@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "naturesaura:sky_chest"
+      "id": "naturesaura:sky_chest"
     }
   ],
   "neoforge:conditions": [

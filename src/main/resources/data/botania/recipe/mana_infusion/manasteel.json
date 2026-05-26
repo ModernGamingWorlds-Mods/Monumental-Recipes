@@ -10,7 +10,7 @@
   "mana": 3000,
   "output": {
     "count": 2,
-    "item": "botania:manasteel_ingot"
+    "id": "botania:manasteel_ingot"
   },
   "neoforge:conditions": [
     {

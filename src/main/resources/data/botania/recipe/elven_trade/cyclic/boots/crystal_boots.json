@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:crystal_boots"
+      "id": "cyclic:crystal_boots"
     }
   ],
   "neoforge:conditions": [

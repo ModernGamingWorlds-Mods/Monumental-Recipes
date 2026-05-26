@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "minecraft:bow"
+      "id": "minecraft:bow"
     }
   ],
   "neoforge:conditions": [

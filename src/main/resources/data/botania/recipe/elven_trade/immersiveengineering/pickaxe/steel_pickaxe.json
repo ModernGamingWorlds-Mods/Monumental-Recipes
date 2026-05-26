@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "immersiveengineering:pickaxe_steel"
+      "id": "immersiveengineering:pickaxe_steel"
     }
   ],
   "neoforge:conditions": [

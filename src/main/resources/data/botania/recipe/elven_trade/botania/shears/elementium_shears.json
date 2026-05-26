@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:elementium_shears"
+      "id": "botania:elementium_shears"
     }
   ],
   "neoforge:conditions": [

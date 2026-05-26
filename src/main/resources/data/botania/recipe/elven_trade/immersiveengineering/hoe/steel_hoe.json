@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "immersiveengineering:hoe_steel"
+      "id": "immersiveengineering:hoe_steel"
     }
   ],
   "neoforge:conditions": [

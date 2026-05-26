@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "minecraft:recovery_compass"
+      "id": "minecraft:recovery_compass"
     }
   ],
   "neoforge:conditions": [

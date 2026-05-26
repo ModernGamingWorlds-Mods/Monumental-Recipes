@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:terra_sword"
+      "id": "botania:terra_sword"
     }
   ],
   "neoforge:conditions": [

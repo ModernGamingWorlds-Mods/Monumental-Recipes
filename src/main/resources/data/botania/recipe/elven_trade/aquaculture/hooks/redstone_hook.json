@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "aquaculture:redstone_hook"
+      "id": "aquaculture:redstone_hook"
     }
   ],
   "neoforge:conditions": [

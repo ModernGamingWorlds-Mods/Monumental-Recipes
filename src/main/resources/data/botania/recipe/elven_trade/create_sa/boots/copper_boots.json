@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "create_sa:copper_boots"
+      "id": "create_sa:copper_boots"
     }
   ],
   "neoforge:conditions": [

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "gobber2:gobber2_hammer_end"
+      "id": "gobber2:gobber2_hammer_end"
     }
   ],
   "neoforge:conditions": [
@@ -19,12 +19,12 @@
       "modid": "botania"
     },
     {
-      "type": "neoforge:mod_loaded",
-      "modid": "hexerei"
-    },
-    {
       "type": "neoforge:item_exists",
       "item": "gobber2:gobber2_hammer_end"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hexerei"
     }
   ]
 }

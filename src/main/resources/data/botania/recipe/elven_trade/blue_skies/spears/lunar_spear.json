@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "blue_skies:lunar_spear"
+      "id": "blue_skies:lunar_spear"
     }
   ],
   "neoforge:conditions": [

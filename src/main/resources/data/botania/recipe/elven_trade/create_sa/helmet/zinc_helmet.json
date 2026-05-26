@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "create_sa:zinc_helmet"
+      "id": "create_sa:zinc_helmet"
     }
   ],
   "neoforge:conditions": [

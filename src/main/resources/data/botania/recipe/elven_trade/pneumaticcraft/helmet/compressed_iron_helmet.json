@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "pneumaticcraft:compressed_iron_helmet"
+      "id": "pneumaticcraft:compressed_iron_helmet"
     }
   ],
   "neoforge:conditions": [

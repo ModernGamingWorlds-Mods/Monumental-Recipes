@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "botania:apothecary_mountain"
+    "id": "botania:apothecary_mountain"
   },
   "neoforge:conditions": [
     {

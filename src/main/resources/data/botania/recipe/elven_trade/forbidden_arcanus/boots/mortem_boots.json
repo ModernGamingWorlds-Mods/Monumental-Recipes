@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "forbidden_arcanus:mortem_boots"
+      "id": "forbidden_arcanus:mortem_boots"
     }
   ],
   "neoforge:conditions": [

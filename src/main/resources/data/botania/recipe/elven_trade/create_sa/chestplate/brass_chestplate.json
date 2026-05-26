@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "create_sa:brass_chestplate"
+      "id": "create_sa:brass_chestplate"
     }
   ],
   "neoforge:conditions": [

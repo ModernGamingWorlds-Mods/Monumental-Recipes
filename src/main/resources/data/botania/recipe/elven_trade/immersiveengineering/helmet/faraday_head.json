@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "immersiveengineering:armor_faraday_head"
+      "id": "immersiveengineering:armor_faraday_head"
     }
   ],
   "neoforge:conditions": [

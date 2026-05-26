@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "cyclic:netherbrick_pickaxe"
+      "id": "cyclic:netherbrick_pickaxe"
     }
   ],
   "neoforge:conditions": [

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "create_sa:copper_shovel"
+      "id": "create_sa:copper_shovel"
     }
   ],
   "neoforge:conditions": [

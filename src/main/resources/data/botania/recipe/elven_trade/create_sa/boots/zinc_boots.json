@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "create_sa:zinc_boots"
+      "id": "create_sa:zinc_boots"
     }
   ],
   "neoforge:conditions": [

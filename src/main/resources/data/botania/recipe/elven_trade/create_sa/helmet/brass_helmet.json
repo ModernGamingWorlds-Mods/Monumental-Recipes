@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "create_sa:brass_helmet"
+      "id": "create_sa:brass_helmet"
     }
   ],
   "neoforge:conditions": [

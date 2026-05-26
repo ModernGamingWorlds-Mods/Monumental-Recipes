@@ -5,12 +5,12 @@
       "item": "gobber2:gobber2_ring_nether"
     },
     {
-      "tag": "c:magma"
+      "tag": "c:magma_blocks"
     }
   ],
   "output": [
     {
-      "item": "gobber2:gobber2_ring_phoenix"
+      "id": "gobber2:gobber2_ring_phoenix"
     }
   ],
   "neoforge:conditions": [

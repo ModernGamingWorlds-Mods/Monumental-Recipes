@@ -1,6 +1,5 @@
 {
   "type": "create:mixing",
-  "heat_requirement": "superheated",
   "ingredients": [
     {
       "tag": "c:storage_blocks/gunpowder"
@@ -17,8 +16,8 @@
   ],
   "results": [
     {
-      "item": "botania:mana_powder",
-      "count": 2
+      "count": 2,
+      "id": "botania:mana_powder"
     }
   ],
   "neoforge:conditions": [
@@ -34,5 +33,6 @@
       "type": "neoforge:mod_loaded",
       "modid": "extendedcrafting"
     }
-  ]
+  ],
+  "heat_requirement": "superheated"
 }

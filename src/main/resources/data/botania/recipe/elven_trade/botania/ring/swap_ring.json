@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:swap_ring"
+      "id": "botania:swap_ring"
     }
   ],
   "neoforge:conditions": [

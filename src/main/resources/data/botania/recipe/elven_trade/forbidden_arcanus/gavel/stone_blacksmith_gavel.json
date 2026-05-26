@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "forbidden_arcanus:stone_blacksmith_gavel"
+      "id": "forbidden_arcanus:stone_blacksmith_gavel"
     }
   ],
   "neoforge:conditions": [

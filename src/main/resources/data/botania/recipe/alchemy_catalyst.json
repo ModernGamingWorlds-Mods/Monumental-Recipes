@@ -20,7 +20,7 @@
     }
   },
   "result": {
-    "item": "botania:alchemy_catalyst"
+    "id": "botania:alchemy_catalyst"
   },
   "neoforge:conditions": [
     {

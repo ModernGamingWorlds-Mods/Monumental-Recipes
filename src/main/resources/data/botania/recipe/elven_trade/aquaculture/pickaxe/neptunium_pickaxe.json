@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "aquaculture:neptunium_pickaxe"
+      "id": "aquaculture:neptunium_pickaxe"
     }
   ],
   "neoforge:conditions": [

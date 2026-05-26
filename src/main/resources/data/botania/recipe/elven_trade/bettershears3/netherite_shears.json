@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "bettershears3:netherite_shears"
+      "id": "bettershears3:netherite_shears"
     }
   ],
   "neoforge:conditions": [

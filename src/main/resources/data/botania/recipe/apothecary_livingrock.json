@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "botania:apothecary_livingrock"
+    "id": "botania:apothecary_livingrock"
   },
   "neoforge:conditions": [
     {

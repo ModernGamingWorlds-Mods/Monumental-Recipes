@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "minecraft:diamond_leggings"
+      "id": "minecraft:diamond_leggings"
     }
   ],
   "neoforge:conditions": [

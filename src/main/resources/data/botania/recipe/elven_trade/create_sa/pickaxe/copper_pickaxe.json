@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "create_sa:copper_pickaxe"
+      "id": "create_sa:copper_pickaxe"
     }
   ],
   "neoforge:conditions": [

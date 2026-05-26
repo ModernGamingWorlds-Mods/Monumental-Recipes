@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "create_sa:copper_helmet"
+      "id": "create_sa:copper_helmet"
     }
   ],
   "neoforge:conditions": [

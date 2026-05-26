@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "aiotbotania:livingwood_shovel"
+      "id": "aiotbotania:livingwood_shovel"
     }
   ],
   "neoforge:conditions": [

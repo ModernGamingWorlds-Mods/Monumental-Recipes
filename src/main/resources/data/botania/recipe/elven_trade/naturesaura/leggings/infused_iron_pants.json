@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "naturesaura:infused_iron_pants"
+      "id": "naturesaura:infused_iron_pants"
     }
   ],
   "neoforge:conditions": [

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:mana_ring_greater"
+      "id": "botania:mana_ring_greater"
     }
   ],
   "neoforge:conditions": [

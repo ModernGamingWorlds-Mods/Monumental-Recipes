@@ -7,7 +7,7 @@
     "tag": "c:storage_blocks/elementium"
   },
   "result": {
-    "item": "botania:elementium_shears"
+    "id": "botania:elementium_shears"
   },
   "template": {
     "tag": "c:nuggets/elementium"

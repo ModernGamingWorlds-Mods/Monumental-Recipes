@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "rechiseled:chisel"
+      "id": "rechiseled:chisel"
     }
   ],
   "neoforge:conditions": [
@@ -19,12 +19,12 @@
       "modid": "botania"
     },
     {
-      "type": "neoforge:mod_loaded",
-      "modid": "chiselsandbits"
-    },
-    {
       "type": "neoforge:item_exists",
       "item": "rechiseled:chisel"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chiselsandbits"
     }
   ]
 }

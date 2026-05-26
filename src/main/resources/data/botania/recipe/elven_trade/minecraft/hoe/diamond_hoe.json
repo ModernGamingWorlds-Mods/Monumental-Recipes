@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "minecraft:diamond_hoe"
+      "id": "minecraft:diamond_hoe"
     }
   ],
   "neoforge:conditions": [

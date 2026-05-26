@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "modularrouters:extruder_module_1"
+      "id": "modularrouters:extruder_module_1"
     }
   ],
   "neoforge:conditions": [

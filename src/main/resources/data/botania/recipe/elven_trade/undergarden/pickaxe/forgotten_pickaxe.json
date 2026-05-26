@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "undergarden:forgotten_pickaxe"
+      "id": "undergarden:forgotten_pickaxe"
     }
   ],
   "neoforge:conditions": [

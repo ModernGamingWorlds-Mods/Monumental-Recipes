@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "naturescompass:naturescompass"
+      "id": "naturescompass:naturescompass"
     }
   ],
   "neoforge:conditions": [

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "create_sa:copper_axe"
+      "id": "create_sa:copper_axe"
     }
   ],
   "neoforge:conditions": [

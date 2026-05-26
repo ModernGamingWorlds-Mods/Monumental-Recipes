@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:aura_ring"
+      "id": "botania:aura_ring"
     }
   ],
   "neoforge:conditions": [

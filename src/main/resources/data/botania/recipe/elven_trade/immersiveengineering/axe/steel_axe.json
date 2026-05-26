@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "immersiveengineering:axe_steel"
+      "id": "immersiveengineering:axe_steel"
     }
   ],
   "neoforge:conditions": [

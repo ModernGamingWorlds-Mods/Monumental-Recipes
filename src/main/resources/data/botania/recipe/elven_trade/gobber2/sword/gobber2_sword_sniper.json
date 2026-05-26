@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "gobber2:gobber2_sword_sniper"
+      "id": "gobber2:gobber2_sword_sniper"
     }
   ],
   "neoforge:conditions": [

@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mysticalagriculture:imperium_furnace"
+      "id": "mysticalagriculture:imperium_furnace"
     }
   ],
   "neoforge:conditions": [

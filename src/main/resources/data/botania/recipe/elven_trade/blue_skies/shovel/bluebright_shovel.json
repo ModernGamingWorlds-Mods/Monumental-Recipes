@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "blue_skies:bluebright_shovel"
+      "id": "blue_skies:bluebright_shovel"
     }
   ],
   "neoforge:conditions": [

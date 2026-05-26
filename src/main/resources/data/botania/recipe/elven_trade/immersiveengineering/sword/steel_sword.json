@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "immersiveengineering:sword_steel"
+      "id": "immersiveengineering:sword_steel"
     }
   ],
   "neoforge:conditions": [

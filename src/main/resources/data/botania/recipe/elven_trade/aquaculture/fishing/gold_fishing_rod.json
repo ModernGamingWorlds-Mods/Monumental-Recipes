@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "aquaculture:gold_fishing_rod"
+      "id": "aquaculture:gold_fishing_rod"
     }
   ],
   "neoforge:conditions": [

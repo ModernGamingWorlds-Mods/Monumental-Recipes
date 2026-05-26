@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "material_elements:leather_shears"
+      "id": "material_elements:leather_shears"
     }
   ],
   "neoforge:conditions": [

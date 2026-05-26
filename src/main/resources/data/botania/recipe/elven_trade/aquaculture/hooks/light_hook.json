@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "aquaculture:light_hook"
+      "id": "aquaculture:light_hook"
     }
   ],
   "neoforge:conditions": [

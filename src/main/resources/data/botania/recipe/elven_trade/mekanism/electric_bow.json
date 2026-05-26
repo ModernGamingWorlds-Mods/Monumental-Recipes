@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mekanism:electric_bow"
+      "id": "mekanism:electric_bow"
     }
   ],
   "neoforge:conditions": [

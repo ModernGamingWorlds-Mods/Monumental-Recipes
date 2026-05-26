@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:elementium_leggings"
+      "id": "botania:elementium_leggings"
     }
   ],
   "neoforge:conditions": [

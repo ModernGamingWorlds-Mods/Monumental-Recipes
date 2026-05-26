@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:pixie_ring"
+      "id": "botania:pixie_ring"
     }
   ],
   "neoforge:conditions": [

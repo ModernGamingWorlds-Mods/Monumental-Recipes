@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "ae2:certus_quartz_shovel"
+      "id": "ae2:certus_quartz_shovel"
     }
   ],
   "neoforge:conditions": [

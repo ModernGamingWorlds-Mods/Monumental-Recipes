@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:terrasteel_boots"
+      "id": "botania:terrasteel_boots"
     }
   ],
   "neoforge:conditions": [

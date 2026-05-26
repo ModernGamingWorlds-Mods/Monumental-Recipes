@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:elementium_hoe"
+      "id": "botania:elementium_hoe"
     }
   ],
   "neoforge:conditions": [

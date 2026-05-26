@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "create_sa:brass_shovel"
+      "id": "create_sa:brass_shovel"
     }
   ],
   "neoforge:conditions": [

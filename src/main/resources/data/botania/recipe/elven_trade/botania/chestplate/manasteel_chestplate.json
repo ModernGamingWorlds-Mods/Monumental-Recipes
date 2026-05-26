@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:manasteel_chestplate"
+      "id": "botania:manasteel_chestplate"
     }
   ],
   "neoforge:conditions": [

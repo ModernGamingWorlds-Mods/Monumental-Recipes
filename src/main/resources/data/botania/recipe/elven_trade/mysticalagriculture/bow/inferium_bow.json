@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mysticalagriculture:inferium_bow"
+      "id": "mysticalagriculture:inferium_bow"
     }
   ],
   "neoforge:conditions": [

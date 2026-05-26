@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "undergarden:cloggrum_pickaxe"
+      "id": "undergarden:cloggrum_pickaxe"
     }
   ],
   "neoforge:conditions": [

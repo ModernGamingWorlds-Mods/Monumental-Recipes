@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "botania:elementium_shovel"
+      "id": "botania:elementium_shovel"
     }
   ],
   "neoforge:conditions": [

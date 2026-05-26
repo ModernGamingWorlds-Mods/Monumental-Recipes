@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "create_sa:zinc_pickaxe"
+      "id": "create_sa:zinc_pickaxe"
     }
   ],
   "neoforge:conditions": [

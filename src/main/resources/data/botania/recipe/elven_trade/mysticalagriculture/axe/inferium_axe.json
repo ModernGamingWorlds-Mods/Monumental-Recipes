@@ -10,7 +10,7 @@
   ],
   "output": [
     {
-      "item": "mysticalagriculture:inferium_axe"
+      "id": "mysticalagriculture:inferium_axe"
     }
   ],
   "neoforge:conditions": [
