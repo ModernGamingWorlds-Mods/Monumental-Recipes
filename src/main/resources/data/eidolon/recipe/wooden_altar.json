@@ -15,8 +15,8 @@
     }
   },
   "result": {
-    "id": "eidolon:wooden_altar",
-    "count": 4
+    "count": 4,
+    "id": "eidolon:wooden_altar"
   },
   "neoforge:conditions": [
     {
