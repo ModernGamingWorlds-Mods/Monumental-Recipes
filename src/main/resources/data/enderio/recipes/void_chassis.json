@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "B": {
-      "item": "graveyard:dark_iron_bars"
+      "tag": "chipped:iron_bars"
     },
     "G": {
       "tag": "forge:dusts/grains_of_infinity"
@@ -28,7 +28,7 @@
     },
     {
       "type": "forge:mod_loaded",
-      "modid": "graveyard"
+      "modid": "chipped"
     },
     {
       "type": "forge:mod_loaded",
