@@ -29,22 +29,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "extradisks"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "ae2"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "create"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "refinedstorage"
     }
   ]
 }
