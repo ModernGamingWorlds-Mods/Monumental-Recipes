@@ -1,10 +1,4 @@
 {
-  "conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "ars_elemental"
-    }
-  ],
   "type": "ars_elemental:netherite_upgrade",
   "keepNbtOfReagent": true,
   "pedestalItems": [
@@ -39,5 +33,19 @@
       "tag": "ars_nouveau:spellbook"
     }
   ],
-  "sourceCost" : 2000
+  "sourceCost": 2000,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_elemental"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
 }

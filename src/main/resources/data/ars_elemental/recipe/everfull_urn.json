@@ -1,6 +1,9 @@
 {
   "type": "ars_nouveau:enchanting_apparatus",
   "keepNbtOfReagent": false,
+  "output": {
+    "id": "ars_elemental:everfull_urn"
+  },
   "pedestalItems": [
     {
       "tag": "c:gems/source"
@@ -12,24 +15,26 @@
       "item": "mysticalagriculture:water_essence"
     },
     {
-      "tag": "c:dusts/prismarine"
+      "item": "minecraft:prismarine_shard"
     },
     {
-      "tag": "c:dusts/prismarine"
+      "item": "minecraft:prismarine_shard"
     }
   ],
-  "reagent": {
-    "item": "minecraft:flower_pot"
-  },
-  "result": {
-    "count": 1,
-    "id": "ars_elemental:everfull_urn"
-  },
+  "reagent": [
+    {
+      "item": "minecraft:flower_pot"
+    }
+  ],
   "sourceCost": 0,
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "ars_elemental"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
     },
     {
       "type": "neoforge:mod_loaded",

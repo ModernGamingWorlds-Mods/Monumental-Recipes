@@ -18,13 +18,17 @@
     "QSQ"
   ],
   "result": {
-    "count": 1,
     "id": "ars_elemental:advanced_prism"
   },
+  "show_notification": true,
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "ars_elemental"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
     }
   ]
 }

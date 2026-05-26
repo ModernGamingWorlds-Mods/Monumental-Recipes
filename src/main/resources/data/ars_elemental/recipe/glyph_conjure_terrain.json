@@ -1,22 +1,28 @@
 {
   "type": "ars_nouveau:glyph",
+  "count": 1,
   "exp": 27,
-  "inputs": [
+  "inputItems": [
     {
-      "item": "mysticalagriculture:earth_essence"
+      "item": {
+        "item": "mysticalagriculture:earth_essence"
+      }
     },
     {
-      "item": "minecraft:dirt"
+      "item": {
+        "item": "minecraft:dirt"
+      }
     }
   ],
-  "output": {
-    "count": 1,
-    "id": "ars_elemental:glyph_conjure_terrain"
-  },
+  "output": "ars_elemental:glyph_conjure_terrain",
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "ars_elemental"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
     },
     {
       "type": "neoforge:mod_loaded",

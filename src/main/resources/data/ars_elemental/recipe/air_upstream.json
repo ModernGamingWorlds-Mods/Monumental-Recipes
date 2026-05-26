@@ -1,6 +1,9 @@
 {
   "type": "ars_nouveau:enchanting_apparatus",
   "keepNbtOfReagent": false,
+  "output": {
+    "id": "ars_elemental:air_upstream"
+  },
   "pedestalItems": [
     {
       "item": "mysticalagriculture:air_essence"
@@ -24,18 +27,20 @@
       "item": "minecraft:shulker_shell"
     }
   ],
-  "reagent": {
-    "tag": "c:storage_blocks/gold"
-  },
-  "result": {
-    "count": 1,
-    "id": "ars_elemental:air_upstream"
-  },
+  "reagent": [
+    {
+      "item": "minecraft:gold_block"
+    }
+  ],
   "sourceCost": 0,
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "ars_elemental"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
     },
     {
       "type": "neoforge:mod_loaded",

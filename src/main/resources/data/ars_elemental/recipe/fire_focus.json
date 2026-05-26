@@ -1,29 +1,20 @@
 {
   "type": "ars_nouveau:enchanting_apparatus",
-  "keepNbtOfReagent": false,
+  "keepNbtOfReagent": true,
   "output": {
-    "id": "ars_elemental:summon_bangle"
+    "id": "ars_elemental:fire_focus"
   },
   "pedestalItems": [
     {
-      "item": "ars_nouveau:conjuration_essence"
-    },
-    {
-      "item": "ars_nouveau:conjuration_essence"
-    },
-    {
-      "tag": "c:bones"
-    },
-    {
-      "item": "ars_nouveau:wilden_horn"
+      "item": "ars_elemental:mark_of_mastery"
     }
   ],
   "reagent": [
     {
-      "item": "ars_elemental:base_bangle"
+      "item": "ars_elemental:lesser_fire_focus"
     }
   ],
-  "sourceCost": 0,
+  "sourceCost": 5000,
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

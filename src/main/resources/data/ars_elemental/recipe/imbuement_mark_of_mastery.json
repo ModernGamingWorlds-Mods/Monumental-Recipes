@@ -1,14 +1,4 @@
 {
-  "conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "ars_elemental"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "mysticalagriculture"
-    }
-  ],
   "type": "ars_nouveau:imbuement",
   "count": 5,
   "input": {
@@ -57,5 +47,19 @@
       }
     }
   ],
-  "source": 10000
+  "source": 10000,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_elemental"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
 }

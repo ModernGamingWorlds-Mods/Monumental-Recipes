@@ -1,6 +1,9 @@
 {
   "type": "ars_nouveau:enchanting_apparatus",
   "keepNbtOfReagent": false,
+  "output": {
+    "id": "ars_elemental:base_bangle"
+  },
   "pedestalItems": [
     {
       "tag": "c:storage_blocks/source"
@@ -15,18 +18,20 @@
       "item": "minecraft:end_crystal"
     }
   ],
-  "reagent": {
-    "item": "ars_nouveau:ring_of_potential"
-  },
-  "result": {
-    "count": 1,
-    "id": "ars_elemental:base_bangle"
-  },
+  "reagent": [
+    {
+      "item": "ars_nouveau:ring_of_potential"
+    }
+  ],
   "sourceCost": 0,
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "ars_elemental"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
     }
   ]
 }

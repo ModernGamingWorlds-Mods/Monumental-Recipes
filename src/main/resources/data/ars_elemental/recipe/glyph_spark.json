@@ -1,25 +1,33 @@
 {
   "type": "ars_nouveau:glyph",
+  "count": 1,
   "exp": 27,
-  "inputs": [
+  "inputItems": [
     {
-      "item": "mysticalagriculture:air_essence"
+      "item": {
+        "item": "mysticalagriculture:air_essence"
+      }
     },
     {
-      "tag": "minecraft:wool"
+      "item": {
+        "tag": "minecraft:wool"
+      }
     },
     {
-      "item": "minecraft:iron_bars"
+      "item": {
+        "item": "minecraft:iron_bars"
+      }
     }
   ],
-  "output": {
-    "count": 1,
-    "id": "ars_elemental:glyph_spark"
-  },
+  "output": "ars_elemental:glyph_spark",
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "ars_elemental"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
     },
     {
       "type": "neoforge:mod_loaded",

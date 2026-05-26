@@ -1,27 +1,29 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "C": {
-      "tag": "c:chests/wooden"
-    },
-    "M": {
-      "item": "ars_nouveau:magebloom_fiber"
-    }
-  },
   "pattern": [
     "MMM",
     "MCM",
     "MMM"
   ],
+  "key": {
+    "M": {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    "C": {
+      "tag": "c:chests/wooden"
+    }
+  },
   "result": {
-    "count": 1,
     "id": "ars_elemental:curio_bag"
   },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "ars_elemental"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
     }
   ]
 }

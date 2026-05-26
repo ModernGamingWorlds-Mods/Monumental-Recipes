@@ -1,28 +1,38 @@
 {
   "type": "ars_nouveau:glyph",
+  "count": 1,
   "exp": 55,
-  "inputs": [
+  "inputItems": [
     {
-      "item": "minecraft:arrow"
+      "item": {
+        "item": "minecraft:arrow"
+      }
     },
     {
-      "item": "minecraft:snowball"
+      "item": {
+        "item": "minecraft:snowball"
+      }
     },
     {
-      "tag": "c:slimeballs"
+      "item": {
+        "tag": "c:slimeballs"
+      }
     },
     {
-      "tag": "c:ender_pearls"
+      "item": {
+        "tag": "c:ender_pearls"
+      }
     }
   ],
-  "output": {
-    "count": 1,
-    "id": "ars_elemental:glyph_arc_projectile"
-  },
+  "output": "ars_elemental:glyph_arc_projectile",
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "ars_elemental"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
     }
   ]
 }

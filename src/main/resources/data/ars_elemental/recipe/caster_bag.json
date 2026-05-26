@@ -1,38 +1,32 @@
 {
-  "type": "ars_nouveau:enchanting_apparatus",
-  "keepNbtOfReagent": true,
-  "pedestalItems": [
-    {
-      "item": "ars_nouveau:manipulation_essence"
-    },
-    {
-      "item": "ars_nouveau:manipulation_essence"
-    },
-    {
-      "item": "minecraft:blaze_powder"
-    },
-    {
-      "item": "minecraft:blaze_powder"
-    },
-    {
-      "tag": "c:storage_blocks/gold"
-    },
-    {
-      "tag": "c:storage_blocks/gold"
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MDM",
+    "MCM",
+    "MMM"
   ],
-  "reagent": {
-    "item": "ars_elemental:curio_bag"
+  "key": {
+    "M": {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    "C": {
+      "tag": "c:chests/wooden"
+    },
+    "D": {
+      "tag": "c:gems/diamond"
+    }
   },
   "result": {
-    "count": 1,
     "id": "ars_elemental:caster_bag"
   },
-  "sourceCost": 0,
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "ars_elemental"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
     }
   ]
 }
