@@ -8,7 +8,7 @@
       "tag": "monumental_recipes:tools/hammers"
     },
     "C": {
-      "tag": "c:wools"
+      "tag": "minecraft:wool"
     }
   },
   "pattern": [
@@ -23,10 +23,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "enderio"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "monumental_recipes"
     }
   ]
 }

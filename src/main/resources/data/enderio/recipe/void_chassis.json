@@ -29,6 +29,10 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "graveyard"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
     }
   ]
 }
