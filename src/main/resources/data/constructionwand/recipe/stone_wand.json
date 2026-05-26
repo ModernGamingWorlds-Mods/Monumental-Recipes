@@ -15,11 +15,11 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "notenoughwands"
+      "modid": "constructionwand"
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "constructionwand"
+      "modid": "notenoughwands"
     },
     {
       "type": "neoforge:mod_loaded",
