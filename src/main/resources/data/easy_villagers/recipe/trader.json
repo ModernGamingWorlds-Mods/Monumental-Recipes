@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "GGG",
-    "GRG",
+    "GEG",
     "III"
   ],
   "key": {
@@ -10,10 +10,10 @@
       "tag": "c:glass_panes/colorless"
     },
     "I": {
-      "tag": "c:ingots/compressed_iron"
+      "tag": "c:storage_blocks/iron"
     },
-    "R": {
-      "item": "compressedblocks:c1_redstone_block"
+    "E": {
+      "tag": "c:storage_blocks/emerald"
     }
   },
   "result": {
@@ -23,10 +23,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "easy_villagers"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "compressedblocks"
     }
   ]
 }

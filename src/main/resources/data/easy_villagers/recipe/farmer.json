@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "GGG",
-    "GZG",
-    "ICI"
+    "GWG",
+    "IDI"
   ],
   "key": {
     "G": {
@@ -12,15 +12,15 @@
     "I": {
       "tag": "c:storage_blocks/iron"
     },
-    "Z": {
-      "item": "mysticalagriculture:zombie_essence"
+    "W": {
+      "item": "mysticalagriculture:nature_essence"
     },
-    "C": {
-      "item": "pneumaticcraft:reinforced_stone"
+    "D": {
+      "item": "compressium:dirt_2"
     }
   },
   "result": {
-    "id": "easy_villagers:converter"
+    "id": "easy_villagers:farmer"
   },
   "neoforge:conditions": [
     {
@@ -30,10 +30,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "mysticalagriculture"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "pneumaticcraft"
     }
   ]
 }
