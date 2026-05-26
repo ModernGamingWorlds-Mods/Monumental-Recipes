@@ -5,7 +5,7 @@
       "item": "create:water_wheel"
     },
     "S": {
-      "tag": "immersiveengineering:treated_wood"
+      "tag": "c:treated_wood"
     }
   },
   "pattern": [

@@ -1,15 +1,17 @@
 {
-  "type": "create:pressing",
   "ingredients": [
     {
-      "tag": "chipped:oak_planks"
+      "item": "forbidden_arcanus:stripped_cherry_wood"
     }
   ],
+  "processingTime": 50,
   "results": [
     {
-      "id": "kubejs:plate_wood_oak"
+      "count": 6,
+      "id": "forbidden_arcanus:cherry_planks"
     }
   ],
+  "type": "create:cutting",
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

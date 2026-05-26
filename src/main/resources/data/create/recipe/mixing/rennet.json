@@ -2,18 +2,24 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "tag": "c:gems/quartz"
+      "tag": "c:eggs"
     },
     {
-      "tag": "c:dusts/redstone"
+      "tag": "c:dusts/salt"
     }
   ],
   "results": [
     {
-      "id": "create:rose_quartz"
+      "fluid": "doaddonfluids:rennet",
+      "nbt": {},
+      "amount": 250
     }
   ],
   "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "meadow"
+    },
     {
       "type": "neoforge:mod_loaded",
       "modid": "create"

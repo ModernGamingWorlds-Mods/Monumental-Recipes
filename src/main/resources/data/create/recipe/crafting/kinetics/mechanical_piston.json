@@ -11,13 +11,16 @@
       "item": "create:andesite_casing"
     },
     "I": {
-      "item": "create:piston_extension_pole"
+      "item": "create:shaft"
+    },
+    "P": {
+      "tag": "c:plates/iron"
     }
   },
   "pattern": [
     " B ",
     "SCS",
-    " I "
+    "PIP"
   ],
   "result": {
     "id": "create:mechanical_piston"
@@ -26,10 +29,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "create"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "monumental_recipes"
     }
   ]
 }

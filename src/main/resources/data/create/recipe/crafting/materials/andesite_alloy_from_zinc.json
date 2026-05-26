@@ -30,13 +30,14 @@
     }
   ],
   "output": {
+    "count": 4,
     "id": "create:andesite_alloy"
   },
   "liquidOutput": {
     "fluid": "minecraft:lava"
   },
-  "fluidLevelsConsumed": 250,
-  "heat_requirement": "heated",
+  "fluidLevelsConsumed": 100,
+  "heatRequirement": "heated",
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

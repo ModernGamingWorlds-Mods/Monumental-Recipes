@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "A": {
-      "item": "create:brass_hand"
+      "item": "createdeco:brass_sheet_metal"
     },
     "C": {
       "tag": "c:plates/brass"
@@ -17,13 +17,17 @@
     "AAA"
   ],
   "result": {
-    "id": "create:brass_casing",
-    "count": 4
+    "count": 4,
+    "id": "create:brass_casing"
   },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createdeco"
     },
     {
       "type": "neoforge:mod_loaded",

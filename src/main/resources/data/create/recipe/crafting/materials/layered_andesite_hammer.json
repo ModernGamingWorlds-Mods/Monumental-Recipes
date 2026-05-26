@@ -2,32 +2,28 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "A": {
-      "item": "create:layered_andesite"
+      "item": "minecraft:andesite"
+    },
+    "S": {
+      "tag": "monumental_recipes:tools/hammers"
     },
     "C": {
       "item": "create:andesite_alloy"
-    },
-    "S": {
-      "item": "supplementaries:timber_frame"
     }
   },
   "pattern": [
-    "AAA",
-    "CSC",
-    "AAA"
+    "ASA",
+    "ACA",
+    "ASA"
   ],
   "result": {
-    "count": 4,
-    "id": "create:andesite_casing"
+    "count": 2,
+    "id": "create:layered_andesite"
   },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "create"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "supplementaries"
     }
   ]
 }

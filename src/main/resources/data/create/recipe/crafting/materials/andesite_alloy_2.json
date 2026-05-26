@@ -26,7 +26,10 @@
       "item": "minecraft:andesite"
     }
   ],
-  "inputFluid": "{Amount:500,FluidName:\"industrialforegoing:pink_slime\"}",
+  "inputFluid": {
+    "id": "industrialforegoing:pink_slime",
+    "amount": 500
+  },
   "output": {
     "count": 2,
     "id": "create:andesite_alloy"

@@ -5,7 +5,7 @@
       "item": "minecraft:andesite"
     },
     "C": {
-      "tag": "c:plates/zinc"
+      "tag": "c:nuggets/zinc"
     },
     "S": {
       "tag": "monumental_recipes:tools/hammers"
@@ -17,16 +17,13 @@
     "ACA"
   ],
   "result": {
+    "count": 2,
     "id": "create:andesite_alloy"
   },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "create"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "monumental_recipes"
     }
   ]
 }

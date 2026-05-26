@@ -9,7 +9,7 @@
       "tag": "c:plates/copper"
     },
     "W": {
-      "item": "chipped:watering_can"
+      "tag": "c:gears/copper"
     }
   },
   "pattern": [
@@ -29,7 +29,7 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "chipped"
+      "modid": "thermal"
     }
   ]
 }

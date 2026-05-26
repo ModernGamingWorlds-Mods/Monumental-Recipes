@@ -17,8 +17,8 @@
     "AAA"
   ],
   "result": {
-    "id": "create:copper_casing",
-    "count": 4
+    "count": 4,
+    "id": "create:copper_casing"
   },
   "neoforge:conditions": [
     {

@@ -30,13 +30,14 @@
     }
   ],
   "output": {
+    "count": 4,
     "id": "create:rose_quartz"
   },
   "liquidOutput": {
     "fluid": "minecraft:lava"
   },
   "fluidLevelsConsumed": 1500,
-  "heat_requirement": "heated",
+  "heatRequirement": "heated",
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

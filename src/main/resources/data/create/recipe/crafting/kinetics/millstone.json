@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "B": {
-      "tag": "immersiveengineering:treated_wood"
+      "tag": "c:treated_wood"
     },
     "S": {
       "item": "create:andesite_alloy"

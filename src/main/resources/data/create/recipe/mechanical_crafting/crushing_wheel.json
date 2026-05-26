@@ -1,6 +1,5 @@
 {
   "type": "create:mechanical_crafting",
-  "accept_mirrored": false,
   "key": {
     "A": {
       "item": "create:andesite_alloy"
@@ -12,7 +11,7 @@
       "tag": "c:sheetmetals/iron"
     },
     "D": {
-      "tag": "immersiveengineering:treated_wood"
+      "tag": "c:treated_wood"
     }
   },
   "pattern": [
@@ -30,10 +29,7 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "create"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "immersiveengineering"
     }
-  ]
+  ],
+  "accept_mirrored": false
 }
