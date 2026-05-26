@@ -1,0 +1,48 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 55,
+  "inputItems": [
+    {
+      "item": {
+        "item": "mysticalagriculture:fire_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:blast_furnace"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:blast_furnace"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:blast_furnace"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:blast_furnace"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:rods/blaze"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_smelt",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

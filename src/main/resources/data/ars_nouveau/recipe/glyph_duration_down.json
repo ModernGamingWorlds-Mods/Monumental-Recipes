@@ -1,0 +1,24 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 55,
+  "inputItems": [
+    {
+      "item": {
+        "tag": "c:clocks"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:glowstone_dust"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_duration_down",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

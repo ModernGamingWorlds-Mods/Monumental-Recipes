@@ -1,0 +1,36 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "tag": "c:gems/source"
+  },
+  "output": "mysticalagriculture:water_essence",
+  "pedestalItems": [
+    {
+      "item": {
+        "tag": "c:buckets/water"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:snow_block"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:kelp"
+      }
+    }
+  ],
+  "source": 2000,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

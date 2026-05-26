@@ -1,0 +1,24 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "id": "ars_nouveau:timer_spell_turret"
+  },
+  "pedestalItems": [
+    {
+      "tag": "c:clocks"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "ars_nouveau:basic_spell_turret"
+    }
+  ],
+  "sourceCost": 0,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

@@ -1,21 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "key": {
-    "A": {
-      "item": "ars_nouveau:archwood_planks"
+    "x": {
+      "tag": "c:stones"
     },
-    "B": {
-      "tag": "monumental_recipes:tools/hammers"
+    "y": {
+      "item": "mysticalagriculture:fire_essence"
     }
   },
   "pattern": [
-    " A ",
-    " A ",
-    " B "
+    "xxx",
+    "xyx",
+    "xxx"
   ],
   "result": {
-    "id": "ars_nouveau:archwood_pressure_plate"
+    "count": 8,
+    "id": "minecraft:magma_block"
   },
+  "show_notification": true,
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
@@ -23,7 +26,7 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "monumental_recipes"
+      "modid": "mysticalagriculture"
     }
   ]
 }

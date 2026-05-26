@@ -1,0 +1,58 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "minecraft:looting",
+  "level": 2,
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "mysticalagriculture:earth_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:earth_essence"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:gems/emerald"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:gems/emerald"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:gems/emerald"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:gems/emerald"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:storage_blocks/source"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:storage_blocks/source"
+      }
+    }
+  ],
+  "sourceCost": 8000,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

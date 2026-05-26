@@ -1,0 +1,43 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 55,
+  "inputItems": [
+    {
+      "item": {
+        "item": "mysticalagriculture:fire_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:tnt"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:tnt"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:tnt"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:fire_charge"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_explosion",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

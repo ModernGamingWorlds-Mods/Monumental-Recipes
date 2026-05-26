@@ -1,0 +1,43 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "id": "ars_nouveau:thread_whirlisprig"
+  },
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:whirlisprig_shards"
+    },
+    {
+      "item": "ars_nouveau:whirlisprig_shards"
+    },
+    {
+      "item": "ars_nouveau:whirlisprig_shards"
+    },
+    {
+      "item": "mysticalagriculture:earth_essence"
+    },
+    {
+      "item": "mysticalagriculture:earth_essence"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "ars_nouveau:blank_thread"
+    }
+  ],
+  "sourceCost": 0,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

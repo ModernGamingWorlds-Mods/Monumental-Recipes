@@ -1,0 +1,58 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "minecraft:respiration",
+  "level": 2,
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "mysticalagriculture:water_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:water_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:water_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:water_essence"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:storage_blocks/source"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:storage_blocks/source"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:storage_blocks/source"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:storage_blocks/source"
+      }
+    }
+  ],
+  "sourceCost": 6000,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

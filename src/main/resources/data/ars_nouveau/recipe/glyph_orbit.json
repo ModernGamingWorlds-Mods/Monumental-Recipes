@@ -1,0 +1,29 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 160,
+  "inputItems": [
+    {
+      "item": {
+        "tag": "minecraft:compasses"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:rods/blaze"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_orbit",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

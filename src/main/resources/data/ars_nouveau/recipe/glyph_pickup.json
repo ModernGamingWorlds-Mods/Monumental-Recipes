@@ -1,0 +1,28 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 27,
+  "inputItems": [
+    {
+      "item": {
+        "tag": "monumental_recipes:hoppers"
+      }
+    },
+    {
+      "item": {
+        "tag": "monumental_recipes:hoppers"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_pickup",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 160,
+  "inputItems": [
+    {
+      "item": {
+        "item": "ars_nouveau:manipulation_essence"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:clocks"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:clocks"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:clocks"
+      }
+    }
+  ],
+  "output": "ars_nouveau:rewind",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

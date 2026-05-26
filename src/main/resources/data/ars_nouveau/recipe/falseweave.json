@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "x": {
+      "item": "ars_nouveau:magebloom_block"
+    },
+    "y": {
+      "item": "mysticalagriculture:air_essence"
+    }
+  },
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "result": {
+    "count": 8,
+    "id": "ars_nouveau:falseweave"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

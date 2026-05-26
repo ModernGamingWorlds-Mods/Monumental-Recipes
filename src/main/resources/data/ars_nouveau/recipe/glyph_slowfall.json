@@ -1,0 +1,53 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 55,
+  "inputItems": [
+    {
+      "item": {
+        "item": "mysticalagriculture:air_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:wilden_wing"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:feathers"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:feathers"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:feathers"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:rods/blaze"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:crops/nether_wart"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_slowfall",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:green_archwood_log"
+    },
+    {
+      "item": "mysticalagriculture:earth_essence"
+    },
+    {
+      "item": "minecraft:iron_hoe"
+    }
+  ],
+  "result": {
+    "id": "ars_nouveau:ritual_harvest"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

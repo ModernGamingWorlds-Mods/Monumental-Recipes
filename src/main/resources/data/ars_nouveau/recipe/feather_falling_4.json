@@ -1,0 +1,58 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "minecraft:feather_falling",
+  "level": 4,
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "mysticalagriculture:air_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:air_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:air_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:air_essence"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:storage_blocks/source"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:storage_blocks/source"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:storage_blocks/lapis"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:storage_blocks/lapis"
+      }
+    }
+  ],
+  "sourceCost": 6500,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

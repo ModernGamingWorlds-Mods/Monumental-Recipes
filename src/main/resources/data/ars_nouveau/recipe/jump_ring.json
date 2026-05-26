@@ -1,0 +1,37 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "id": "ars_nouveau:jump_ring"
+  },
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:wilden_wing"
+    },
+    {
+      "item": "ars_nouveau:wilden_wing"
+    },
+    {
+      "item": "ars_nouveau:wilden_wing"
+    },
+    {
+      "item": "mysticalagriculture:air_essence"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "ars_nouveau:ring_of_potential"
+    }
+  ],
+  "sourceCost": 0,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

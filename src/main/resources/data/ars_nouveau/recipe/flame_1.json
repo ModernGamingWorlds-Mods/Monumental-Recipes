@@ -1,0 +1,33 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "minecraft:flame",
+  "level": 1,
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "mysticalagriculture:fire_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:air_essence"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:rods/blaze"
+      }
+    }
+  ],
+  "sourceCost": 5000,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

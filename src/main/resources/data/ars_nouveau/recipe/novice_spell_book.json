@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:books"
+    },
+    {
+      "item": "minecraft:iron_shovel"
+    },
+    {
+      "item": "minecraft:iron_pickaxe"
+    },
+    {
+      "item": "minecraft:iron_axe"
+    },
+    {
+      "item": "minecraft:iron_sword"
+    }
+  ],
+  "result": {
+    "id": "ars_nouveau:novice_spell_book"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

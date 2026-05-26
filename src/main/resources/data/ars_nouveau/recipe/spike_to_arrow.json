@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "x": {
+      "item": "ars_nouveau:wilden_spike"
+    },
+    "y": {
+      "tag": "c:rods/wooden"
+    },
+    "z": {
+      "tag": "c:feathers"
+    }
+  },
+  "pattern": [
+    " x ",
+    " y ",
+    " z "
+  ],
+  "result": {
+    "count": 32,
+    "id": "minecraft:arrow"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

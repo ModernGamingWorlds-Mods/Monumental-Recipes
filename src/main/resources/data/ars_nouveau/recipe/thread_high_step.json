@@ -1,0 +1,34 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "id": "ars_nouveau:thread_high_step"
+  },
+  "pedestalItems": [
+    {
+      "item": "mysticalagriculture:air_essence"
+    },
+    {
+      "item": "mysticalagriculture:air_essence"
+    },
+    {
+      "item": "mysticalagriculture:air_essence"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "ars_nouveau:blank_thread"
+    }
+  ],
+  "sourceCost": 0,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 55,
+  "inputItems": [
+    {
+      "item": {
+        "tag": "c:clocks"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:storage_blocks/redstone"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_extend_time",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

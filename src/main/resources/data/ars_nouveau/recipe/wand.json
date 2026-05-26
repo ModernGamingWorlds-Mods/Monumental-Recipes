@@ -1,0 +1,49 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "id": "ars_nouveau:wand"
+  },
+  "pedestalItems": [
+    {
+      "tag": "c:gems/source"
+    },
+    {
+      "tag": "c:gems/source"
+    },
+    {
+      "tag": "c:gems/source"
+    },
+    {
+      "tag": "c:gems/source"
+    },
+    {
+      "tag": "c:ingots/gold"
+    },
+    {
+      "tag": "c:ingots/gold"
+    },
+    {
+      "item": "mysticalagriculture:air_essence"
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    }
+  ],
+  "reagent": [
+    {
+      "tag": "c:logs/archwood"
+    }
+  ],
+  "sourceCost": 0,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:blue_archwood_log"
+    },
+    {
+      "tag": "c:feathers"
+    },
+    {
+      "tag": "c:storage_blocks/source"
+    }
+  ],
+  "result": {
+    "id": "ars_nouveau:ritual_cloudshaping"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

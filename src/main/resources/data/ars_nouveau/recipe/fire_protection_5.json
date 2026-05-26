@@ -1,0 +1,58 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "minecraft:fire_protection",
+  "level": 5,
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "mysticalagriculture:fire_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:fire_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:fire_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:abjuration_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:abjuration_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:abjuration_essence"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:storage_blocks/source"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:rods/blaze"
+      }
+    }
+  ],
+  "sourceCost": 8000,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

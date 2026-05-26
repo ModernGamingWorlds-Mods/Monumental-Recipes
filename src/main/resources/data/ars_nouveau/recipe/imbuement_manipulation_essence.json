@@ -1,0 +1,32 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "tag": "c:gems/source"
+  },
+  "output": "ars_nouveau:manipulation_essence",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "minecraft:stone_button"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:dusts/redstone"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:clocks"
+      }
+    }
+  ],
+  "source": 2000,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

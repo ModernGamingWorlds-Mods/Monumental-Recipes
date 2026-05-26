@@ -1,0 +1,24 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 55,
+  "inputItems": [
+    {
+      "item": {
+        "item": "ars_nouveau:manipulation_essence"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:chests/ender"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_ender_inventory",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

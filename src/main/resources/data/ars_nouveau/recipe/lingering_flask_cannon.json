@@ -1,0 +1,34 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "id": "ars_nouveau:lingering_flask_cannon"
+  },
+  "pedestalItems": [
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "mysticalagriculture:air_essence"
+    },
+    {
+      "item": "mysticalagriculture:air_essence"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "ars_nouveau:splash_flask_cannon"
+    }
+  ],
+  "sourceCost": 0,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

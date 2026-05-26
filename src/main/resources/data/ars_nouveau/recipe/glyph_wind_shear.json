@@ -1,0 +1,38 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 55,
+  "inputItems": [
+    {
+      "item": {
+        "item": "mysticalagriculture:air_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_sword"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_wind_shear",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

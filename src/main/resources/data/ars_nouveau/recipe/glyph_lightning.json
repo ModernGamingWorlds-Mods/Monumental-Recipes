@@ -1,0 +1,43 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 160,
+  "inputItems": [
+    {
+      "item": {
+        "item": "mysticalagriculture:air_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:lightning_rod"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:lightning_rod"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:lightning_rod"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:heart_of_the_sea"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_lightning",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

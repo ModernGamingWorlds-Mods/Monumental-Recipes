@@ -1,0 +1,19 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 27,
+  "inputItems": [
+    {
+      "item": {
+        "tag": "c:player_workstations/crafting_tables"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_craft",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:blue_archwood_log"
+    },
+    {
+      "item": "minecraft:ink_sac"
+    },
+    {
+      "tag": "c:storage_blocks/coal"
+    },
+    {
+      "tag": "c:clocks"
+    }
+  ],
+  "result": {
+    "id": "ars_nouveau:ritual_moonfall"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

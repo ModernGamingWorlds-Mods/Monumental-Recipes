@@ -1,0 +1,58 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "minecraft:power",
+  "level": 3,
+  "pedestalItems": [
+    {
+      "item": {
+        "tag": "c:gems/diamond"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:gems/diamond"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:gems/diamond"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:air_essence"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:storage_blocks/source"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:storage_blocks/source"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:storage_blocks/lapis"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:storage_blocks/lapis"
+      }
+    }
+  ],
+  "sourceCost": 5000,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

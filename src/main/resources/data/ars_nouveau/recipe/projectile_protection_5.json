@@ -1,0 +1,58 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "minecraft:projectile_protection",
+  "level": 5,
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "minecraft:arrow"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:air_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:air_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:air_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:abjuration_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:abjuration_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:abjuration_essence"
+      }
+    },
+    {
+      "item": {
+        "tag": "c:storage_blocks/source"
+      }
+    }
+  ],
+  "sourceCost": 8000,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

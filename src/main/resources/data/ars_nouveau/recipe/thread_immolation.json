@@ -1,0 +1,34 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "id": "ars_nouveau:thread_immolation"
+  },
+  "pedestalItems": [
+    {
+      "item": "mysticalagriculture:fire_essence"
+    },
+    {
+      "item": "mysticalagriculture:fire_essence"
+    },
+    {
+      "item": "mysticalagriculture:fire_essence"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "ars_nouveau:blank_thread"
+    }
+  ],
+  "sourceCost": 0,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

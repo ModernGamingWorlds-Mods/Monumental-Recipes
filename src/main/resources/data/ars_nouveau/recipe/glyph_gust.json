@@ -1,0 +1,42 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 27,
+  "inputItems": [
+    {
+      "item": {
+        "item": "mysticalagriculture:air_essence"
+      }
+    },
+    {
+      "item": {
+        "tag": "monumental_recipes:pistons"
+      }
+    },
+    {
+      "item": {
+        "tag": "monumental_recipes:pistons"
+      }
+    },
+    {
+      "item": {
+        "tag": "monumental_recipes:pistons"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_gust",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental_recipes"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

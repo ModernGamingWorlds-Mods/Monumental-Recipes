@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:red_archwood_log"
+    },
+    {
+      "item": "minecraft:dandelion"
+    },
+    {
+      "item": "minecraft:dandelion"
+    },
+    {
+      "item": "minecraft:dandelion"
+    },
+    {
+      "tag": "c:clocks"
+    }
+  ],
+  "result": {
+    "id": "ars_nouveau:ritual_sunrise"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

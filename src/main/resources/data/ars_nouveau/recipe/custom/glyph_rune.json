@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "ars_nouveau:runic_chalk"
+    },
+    {
+      "item": "minecraft:tripwire_hook"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "ars_nouveau:glyph_rune"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "heat_requirement": "superheated"
+}
