@@ -1,25 +1,23 @@
 {
-  "type": "create:compacting",
+  "type": "create:mixing",
   "ingredients": [
     {
-      "item": "extendedcrafting:black_iron_slate"
+      "item": "thermal:glowstone_mushroom_spores"
     },
     {
-      "item": "extendedcrafting:luminessence"
+      "item": "thermal:glowstone_mushroom_spores"
     },
     {
-      "tag": "c:ingots/steel"
+      "item": "cyclic:spark"
     },
     {
-      "tag": "c:ingots/steel"
-    },
-    {
-      "tag": "c:ingots/steel"
+      "item": "cyclic:spark"
     }
   ],
   "results": [
     {
-      "id": "extendedcrafting:basic_component"
+      "count": 1,
+      "id": "extendedcrafting:luminessence"
     }
   ],
   "neoforge:conditions": [
@@ -30,6 +28,10 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cyclic"
     },
     {
       "type": "neoforge:mod_loaded",

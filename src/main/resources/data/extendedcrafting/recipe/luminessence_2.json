@@ -15,8 +15,8 @@
   "pressure": 5.0,
   "results": [
     {
-      "id": "extendedcrafting:luminessence",
-      "count": 2
+      "count": 2,
+      "id": "extendedcrafting:luminessence"
     }
   ],
   "neoforge:conditions": [

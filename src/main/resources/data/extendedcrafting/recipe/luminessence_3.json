@@ -26,8 +26,8 @@
   ],
   "result": [
     {
-      "id": "extendedcrafting:luminessence",
-      "count": 2
+      "count": 2,
+      "id": "extendedcrafting:luminessence"
     }
   ],
   "energy": 12000,

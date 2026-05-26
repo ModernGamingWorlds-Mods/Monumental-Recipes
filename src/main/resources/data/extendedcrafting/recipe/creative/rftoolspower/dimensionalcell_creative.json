@@ -1,4 +1,16 @@
 {
+  "type": "extendedcrafting:compressor",
+  "powerCost": 500000,
+  "inputCount": 10000,
+  "ingredient": {
+    "item": "rftoolspower:dimensionalcell_advanced"
+  },
+  "catalyst": {
+    "item": "extendedcrafting:the_ultimate_catalyst"
+  },
+  "result": {
+    "id": "rftoolspower:dimensionalcell_creative"
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
@@ -11,18 +23,10 @@
     {
       "type": "neoforge:item_exists",
       "item": "rftoolspower:dimensionalcell_advanced"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rftoolspower"
     }
-  ],
-  "type": "extendedcrafting:compressor",
-  "powerCost": 500000,
-  "inputCount": 10000,
-  "ingredient": {
-    "item": "rftoolspower:dimensionalcell_advanced"
-  },
-  "catalyst": {
-    "item": "extendedcrafting:the_ultimate_catalyst"
-  },
-  "result": {
-    "item": "rftoolspower:dimensionalcell_creative"
-  }
+  ]
 }

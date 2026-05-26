@@ -1,6 +1,5 @@
 {
   "type": "create:mixing",
-  "heat_requirement": "heated",
   "ingredients": [
     {
       "item": "thermal:glowstone_mushroom_spores"
@@ -29,6 +28,7 @@
   ],
   "results": [
     {
+      "count": 4,
       "id": "extendedcrafting:luminessence"
     }
   ],
@@ -49,5 +49,6 @@
       "type": "neoforge:mod_loaded",
       "modid": "thermal"
     }
-  ]
+  ],
+  "heat_requirement": "superheated"
 }

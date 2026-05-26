@@ -1,6 +1,5 @@
 {
   "type": "create:compacting",
-  "heat_requirement": "heated",
   "ingredients": [
     {
       "item": "extendedcrafting:advanced_component"
@@ -35,5 +34,6 @@
       "type": "neoforge:mod_loaded",
       "modid": "create"
     }
-  ]
+  ],
+  "heat_requirement": "heated"
 }

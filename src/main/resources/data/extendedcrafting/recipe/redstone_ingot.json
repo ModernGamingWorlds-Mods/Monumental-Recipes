@@ -1,6 +1,5 @@
 {
   "type": "create:mixing",
-  "heat_requirement": "heated",
   "ingredients": [
     {
       "tag": "c:dusts/redstone"
@@ -11,6 +10,7 @@
   ],
   "results": [
     {
+      "count": 2,
       "id": "extendedcrafting:redstone_ingot"
     }
   ],
@@ -23,5 +23,6 @@
       "type": "neoforge:mod_loaded",
       "modid": "create"
     }
-  ]
+  ],
+  "heat_requirement": "heated"
 }

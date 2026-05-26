@@ -1,6 +1,5 @@
 {
   "type": "create:compacting",
-  "heat_requirement": "superheated",
   "ingredients": [
     {
       "item": "extendedcrafting:black_iron_slate"
@@ -32,5 +31,6 @@
       "type": "neoforge:mod_loaded",
       "modid": "create"
     }
-  ]
+  ],
+  "heat_requirement": "superheated"
 }

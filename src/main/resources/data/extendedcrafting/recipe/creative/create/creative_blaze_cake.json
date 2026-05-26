@@ -1,4 +1,16 @@
 {
+  "type": "extendedcrafting:compressor",
+  "powerCost": 500000,
+  "inputCount": 10000,
+  "ingredient": {
+    "item": "create:blaze_cake"
+  },
+  "catalyst": {
+    "item": "extendedcrafting:the_ultimate_catalyst"
+  },
+  "result": {
+    "id": "create:creative_blaze_cake"
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
@@ -10,19 +22,11 @@
     },
     {
       "type": "neoforge:item_exists",
-      "item": "create:creative_blaze_cake"
+      "item": "create:blaze_cake"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
     }
-  ],
-  "type": "extendedcrafting:compressor",
-  "powerCost": 500000,
-  "inputCount": 10000,
-  "ingredient": {
-    "item": "create:blaze_cake"
-  },
-  "catalyst": {
-    "item": "extendedcrafting:the_ultimate_catalyst"
-  },
-  "result": {
-    "item": "create:creative_blaze_cake"
-  }
+  ]
 }

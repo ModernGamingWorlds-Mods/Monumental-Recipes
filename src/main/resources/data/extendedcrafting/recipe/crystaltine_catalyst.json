@@ -1,6 +1,5 @@
 {
   "type": "create:compacting",
-  "heat_requirement": "superheated",
   "ingredients": [
     {
       "item": "extendedcrafting:crystaltine_component"
@@ -35,5 +34,6 @@
       "type": "neoforge:mod_loaded",
       "modid": "create"
     }
-  ]
+  ],
+  "heat_requirement": "superheated"
 }
