@@ -1,0 +1,20 @@
+{
+  "type": "enderio:tank",
+  "fluid": {
+    "amount": 250,
+    "fluid": "create_enchantment_industry:experience"
+  },
+  "input": {
+    "item": "minecraft:glass_bottle"
+  },
+  "is_emptying": false,
+  "output": {
+    "id": "minecraft:experience_bottle"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enderio"
+    }
+  ]
+}
