@@ -16,20 +16,10 @@
   "result": {
     "id": "environmental:pine_pressure_plate"
   },
-  "conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "environmental"
-    }
-  ],
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "environmental"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "monumental_recipes"
     }
   ]
 }
