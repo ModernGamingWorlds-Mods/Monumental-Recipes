@@ -1,5 +1,5 @@
 {
-  "type": "extendedcrafting:shaped_ender_crafter",
+  "type": "create:mechanical_crafting",
   "pattern": [
     "AAA",
     "ABA",
@@ -16,6 +16,7 @@
   "result": {
     "id": "computercraft:wired_modem"
   },
+  "accept_mirrored": false,
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
@@ -23,7 +24,7 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
+      "modid": "create"
     },
     {
       "type": "neoforge:mod_loaded",

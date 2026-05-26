@@ -1,5 +1,5 @@
 {
-  "type": "extendedcrafting:shaped_ender_crafter",
+  "type": "create:mechanical_crafting",
   "pattern": [
     "AAA",
     "ABA",
@@ -10,7 +10,7 @@
       "item": "pneumaticcraft:reinforced_stone"
     },
     "B": {
-      "tag": "c:paper"
+      "tag": "c:papers"
     },
     "C": {
       "item": "immersiveengineering:wirecoil_redstone"
@@ -19,6 +19,7 @@
   "result": {
     "id": "computercraft:printer"
   },
+  "accept_mirrored": false,
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
@@ -26,15 +27,15 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "immersiveengineering"
+      "modid": "create"
     },
     {
       "type": "neoforge:mod_loaded",
       "modid": "pneumaticcraft"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
     }
   ]
 }

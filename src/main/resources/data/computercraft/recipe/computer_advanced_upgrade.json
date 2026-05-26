@@ -1,5 +1,5 @@
 {
-  "type": "extendedcrafting:shaped_ender_crafter",
+  "type": "create:mechanical_crafting",
   "pattern": [
     "AAA",
     "ABA",
@@ -7,18 +7,19 @@
   ],
   "key": {
     "A": {
-      "tag": "c:plates/bronze"
+      "tag": "c:plates/iron"
     },
     "B": {
       "item": "computercraft:computer_normal"
     },
     "C": {
-      "tag": "c:gears/bronze"
+      "tag": "c:gears/iron"
     }
   },
   "result": {
     "id": "computercraft:computer_advanced"
   },
+  "accept_mirrored": false,
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
@@ -26,7 +27,11 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
     }
   ]
 }
