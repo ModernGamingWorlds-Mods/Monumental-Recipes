@@ -11,7 +11,7 @@
       "item": "extrastorage:raw_neural_processor"
     }
   },
-  "mode": "press",
+  "mode": "inscribe",
   "result": {
     "id": "extrastorage:neural_processor"
   },
@@ -23,10 +23,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "ae2"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
     }
   ]
 }
