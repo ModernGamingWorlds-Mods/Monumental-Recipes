@@ -23,7 +23,7 @@
     }
   },
   "result": {
-    "item": "cobblemon:fossil_analyzer"
+    "id": "cobblemon:fossil_analyzer"
   },
   "neoforge:conditions": [
     {

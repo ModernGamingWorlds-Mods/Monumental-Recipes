@@ -23,7 +23,7 @@
     }
   },
   "result": {
-    "item": "cobblemon:healing_machine"
+    "id": "cobblemon:healing_machine"
   },
   "neoforge:conditions": [
     {

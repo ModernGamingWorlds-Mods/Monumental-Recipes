@@ -20,7 +20,7 @@
     }
   },
   "result": {
-    "item": "cobblemon:pc"
+    "id": "cobblemon:pc"
   },
   "neoforge:conditions": [
     {

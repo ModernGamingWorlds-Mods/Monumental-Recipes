@@ -20,7 +20,7 @@
     }
   },
   "result": {
-    "item": "cobblemon:monitor"
+    "id": "cobblemon:monitor"
   },
   "neoforge:conditions": [
     {

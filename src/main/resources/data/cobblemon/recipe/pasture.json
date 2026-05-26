@@ -20,7 +20,7 @@
     }
   },
   "result": {
-    "item": "cobblemon:pasture"
+    "id": "cobblemon:pasture"
   },
   "neoforge:conditions": [
     {
