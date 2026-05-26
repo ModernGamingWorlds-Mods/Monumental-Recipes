@@ -7,7 +7,7 @@
     "tag": "minecraft:stone_tool_materials"
   },
   "result": {
-    "item": "exdeorum:stone_watering_can"
+    "id": "exdeorum:stone_watering_can"
   },
   "template": {
     "tag": "monumental_recipes:wooden_plates"

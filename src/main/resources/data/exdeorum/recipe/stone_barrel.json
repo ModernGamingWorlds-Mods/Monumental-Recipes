@@ -18,7 +18,7 @@
     "sms"
   ],
   "result": {
-    "item": "exdeorum:stone_barrel"
+    "id": "exdeorum:stone_barrel"
   },
   "show_notification": true,
   "neoforge:conditions": [

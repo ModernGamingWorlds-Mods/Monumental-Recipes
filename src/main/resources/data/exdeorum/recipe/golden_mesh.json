@@ -7,7 +7,7 @@
     "tag": "c:ingots/gold"
   },
   "result": {
-    "item": "exdeorum:golden_mesh"
+    "id": "exdeorum:golden_mesh"
   },
   "template": {
     "tag": "c:strings"

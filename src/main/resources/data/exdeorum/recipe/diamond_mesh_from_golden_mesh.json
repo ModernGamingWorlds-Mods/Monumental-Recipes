@@ -7,7 +7,7 @@
     "tag": "c:gems/diamond"
   },
   "result": {
-    "item": "exdeorum:diamond_mesh"
+    "id": "exdeorum:diamond_mesh"
   },
   "template": {
     "tag": "c:strings"

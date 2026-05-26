@@ -7,7 +7,7 @@
     "tag": "c:ingots/iron"
   },
   "result": {
-    "item": "exdeorum:iron_hammer"
+    "id": "exdeorum:iron_hammer"
   },
   "template": {
     "tag": "c:rods/wooden"

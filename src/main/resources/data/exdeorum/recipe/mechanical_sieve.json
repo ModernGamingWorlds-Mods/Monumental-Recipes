@@ -24,7 +24,7 @@
     "IJI"
   ],
   "result": {
-    "item": "exdeorum:mechanical_sieve"
+    "id": "exdeorum:mechanical_sieve"
   },
   "show_notification": true,
   "neoforge:conditions": [
@@ -43,6 +43,10 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "monumental_recipes"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
     }
   ]
 }
