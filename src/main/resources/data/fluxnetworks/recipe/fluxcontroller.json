@@ -20,8 +20,8 @@
     "bbb"
   ],
   "result": {
-    "id": "fluxnetworks:flux_controller",
-    "count": 4
+    "count": 4,
+    "id": "fluxnetworks:flux_controller"
   },
   "neoforge:conditions": [
     {

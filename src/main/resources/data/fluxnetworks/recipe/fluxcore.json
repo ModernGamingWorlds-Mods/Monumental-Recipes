@@ -1,6 +1,5 @@
 {
   "type": "create:mixing",
-  "heat_requirement": "heated",
   "ingredients": [
     {
       "tag": "c:obsidians"
@@ -14,8 +13,8 @@
   ],
   "results": [
     {
-      "id": "fluxnetworks:flux_core",
-      "count": 2
+      "count": 2,
+      "id": "fluxnetworks:flux_core"
     }
   ],
   "neoforge:conditions": [
@@ -31,5 +30,6 @@
       "type": "neoforge:mod_loaded",
       "modid": "monumental_recipes"
     }
-  ]
+  ],
+  "heat_requirement": "heated"
 }

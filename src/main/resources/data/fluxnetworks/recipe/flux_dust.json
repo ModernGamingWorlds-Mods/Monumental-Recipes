@@ -1,6 +1,5 @@
 {
   "type": "create:mixing",
-  "heat_requirement": "heated",
   "ingredients": [
     {
       "tag": "c:dusts/redstone"
@@ -23,5 +22,6 @@
       "type": "neoforge:mod_loaded",
       "modid": "create"
     }
-  ]
+  ],
+  "heat_requirement": "heated"
 }
