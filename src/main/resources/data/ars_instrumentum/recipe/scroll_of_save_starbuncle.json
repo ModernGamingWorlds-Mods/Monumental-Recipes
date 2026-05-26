@@ -1,14 +1,4 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "ars_instrumentum"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "ars_nouveau"
-    }
-  ],
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
@@ -27,5 +17,15 @@
   ],
   "result": {
     "id": "ars_instrumentum:scroll_of_save_starbuncle"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_instrumentum"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
 }
