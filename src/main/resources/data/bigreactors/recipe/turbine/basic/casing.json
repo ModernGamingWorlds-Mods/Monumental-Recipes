@@ -1,14 +1,4 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "bigreactors"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
-    }
-  ],
   "type": "minecraft:crafting_shaped",
   "key": {
     "A": {
@@ -27,7 +17,21 @@
     "CAC"
   ],
   "result": {
-    "id": "bigreactors:basic_turbinecasing",
-    "count": 2
-  }
+    "count": 2,
+    "id": "bigreactors:basic_turbinecasing"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "bigreactors"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
 }
