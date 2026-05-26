@@ -1,23 +1,26 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "d": {
-      "item": "mysticalagriculture:lapis_lazuli_essence"
+    "P": {
+      "tag": "c:plates/iron"
     },
-    "i": {
-      "tag": "c:ingots/iron"
+    "E": {
+      "item": "create:electron_tube"
     },
-    "l": {
+    "G": {
+      "tag": "c:gears/iron"
+    },
+    "L": {
+      "tag": "c:gems/lapis"
+    },
+    "C": {
       "item": "pneumaticcraft:charging_station"
-    },
-    "r": {
-      "tag": "c:dusts/redstone"
     }
   },
   "pattern": [
-    "iri",
-    "drd",
-    "ili"
+    "PEP",
+    "GCG",
+    "PLP"
   ],
   "result": {
     "id": "charginggadgets:charging_station"
@@ -29,11 +32,15 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "pneumaticcraft"
+      "modid": "create"
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "mysticalagriculture"
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
     }
   ]
 }
