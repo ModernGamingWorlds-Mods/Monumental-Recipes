@@ -7,7 +7,7 @@
     "item": "enigmaticlegacy:etherium_ingot"
   },
   "result": {
-    "item": "enigmaticlegacy:etherium_axe"
+    "id": "enigmaticlegacy:etherium_axe"
   },
   "template": {
     "item": "enigmaticlegacy:ender_rod"
