@@ -3,20 +3,20 @@
   "pattern": [
     "GGG",
     "GBG",
-    "IWI"
+    "ISI"
   ],
   "key": {
     "G": {
       "tag": "c:glass_panes/colorless"
     },
     "I": {
-      "tag": "c:ingots/compressed_iron"
+      "tag": "c:storage_blocks/iron"
     },
     "B": {
       "tag": "c:storage_blocks/gold"
     },
-    "W": {
-      "item": "compressedblocks:c2_soul_sand"
+    "S": {
+      "item": "compressium:soulsand_2"
     }
   },
   "result": {
@@ -26,10 +26,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "easy_piglins"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "compressedblocks"
     }
   ]
 }
