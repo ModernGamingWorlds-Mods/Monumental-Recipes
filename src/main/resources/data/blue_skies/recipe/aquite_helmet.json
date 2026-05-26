@@ -7,7 +7,7 @@
     "tag": "blue_skies:gems/aquite"
   },
   "result": {
-    "item": "blue_skies:aquite_helmet"
+    "id": "blue_skies:aquite_helmet"
   },
   "template": {
     "tag": "c:plates/diamond"

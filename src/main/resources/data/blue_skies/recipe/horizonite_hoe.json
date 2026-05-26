@@ -7,7 +7,7 @@
     "tag": "blue_skies:ingots/horizonite"
   },
   "result": {
-    "item": "blue_skies:horizonite_hoe"
+    "id": "blue_skies:horizonite_hoe"
   },
   "template": {
     "tag": "c:plates/iron"

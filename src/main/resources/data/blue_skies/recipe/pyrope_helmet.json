@@ -7,7 +7,7 @@
     "tag": "blue_skies:gems/pyrope"
   },
   "result": {
-    "item": "blue_skies:pyrope_helmet"
+    "id": "blue_skies:pyrope_helmet"
   },
   "template": {
     "tag": "c:plates/iron"

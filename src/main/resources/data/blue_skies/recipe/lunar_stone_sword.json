@@ -7,10 +7,10 @@
     "item": "blue_skies:lunar_cobblestone"
   },
   "result": {
-    "item": "blue_skies:lunar_stone_sword"
+    "id": "blue_skies:lunar_stone_sword"
   },
   "template": {
-    "tag": "c:stone"
+    "tag": "c:stones"
   },
   "neoforge:conditions": [
     {

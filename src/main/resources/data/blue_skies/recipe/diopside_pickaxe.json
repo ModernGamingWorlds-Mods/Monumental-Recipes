@@ -7,7 +7,7 @@
     "tag": "blue_skies:gems/diopside"
   },
   "result": {
-    "item": "blue_skies:diopside_pickaxe"
+    "id": "blue_skies:diopside_pickaxe"
   },
   "template": {
     "tag": "c:plates/netherite"

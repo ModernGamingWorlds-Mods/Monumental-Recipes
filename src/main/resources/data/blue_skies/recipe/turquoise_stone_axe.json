@@ -7,10 +7,10 @@
     "item": "blue_skies:turquoise_cobblestone"
   },
   "result": {
-    "item": "blue_skies:turquoise_stone_axe"
+    "id": "blue_skies:turquoise_stone_axe"
   },
   "template": {
-    "tag": "c:stone"
+    "tag": "c:stones"
   },
   "neoforge:conditions": [
     {

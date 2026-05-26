@@ -7,7 +7,7 @@
     "tag": "blue_skies:gems/diopside"
   },
   "result": {
-    "item": "blue_skies:diopside_shovel"
+    "id": "blue_skies:diopside_shovel"
   },
   "template": {
     "tag": "c:plates/netherite"

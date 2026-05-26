@@ -7,7 +7,7 @@
     "tag": "blue_skies:gems/charoite"
   },
   "result": {
-    "item": "blue_skies:charoite_hoe"
+    "id": "blue_skies:charoite_hoe"
   },
   "template": {
     "tag": "c:plates/diamond"

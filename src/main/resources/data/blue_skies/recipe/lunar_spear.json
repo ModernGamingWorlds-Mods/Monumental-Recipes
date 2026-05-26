@@ -7,10 +7,10 @@
     "item": "blue_skies:lunar_planks"
   },
   "result": {
-    "item": "blue_skies:lunar_spear"
+    "id": "blue_skies:lunar_spear"
   },
   "template": {
-    "tag": "c:stone"
+    "tag": "c:stones"
   },
   "neoforge:conditions": [
     {

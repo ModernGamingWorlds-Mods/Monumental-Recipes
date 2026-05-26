@@ -7,7 +7,7 @@
     "tag": "blue_skies:ingots/horizonite"
   },
   "result": {
-    "item": "blue_skies:horizonite_pickaxe"
+    "id": "blue_skies:horizonite_pickaxe"
   },
   "template": {
     "tag": "c:plates/iron"
