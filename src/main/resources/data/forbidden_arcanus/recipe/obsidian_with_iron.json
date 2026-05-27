@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " O ",
+    "ONO",
+    " O "
+  ],
+  "key": {
+    "O": {
+      "item": "kubejs:compressed_iron_plate"
+    },
+    "N": {
+      "item": "compressium:obsidian_2"
+    }
+  },
+  "result": {
+    "id": "forbidden_arcanus:obsidian_with_iron"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
+  ]
+}
