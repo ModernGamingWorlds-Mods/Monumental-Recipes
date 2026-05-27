@@ -1,20 +1,5 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "sophisticatedcore:item_enabled",
-      "itemRegistryName": "sophisticatedbackpacks:magnet_upgrade"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "sophisticatedbackpacks"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
-    }
-  ],
   "type": "sophisticatedcore:upgrade_next_tier",
-  "category": "misc",
   "key": {
     "E": {
       "tag": "c:ender_pearls"
@@ -26,19 +11,31 @@
       "tag": "c:gems/lapis"
     },
     "P": {
-      "item": "sophisticatedbackpacks:pickup_upgrade"
+      "item": "immersiveengineering:toolupgrade_shield_magnet"
     },
     "R": {
       "item": "extendedcrafting:redstone_component"
+    },
+    "K": {
+      "item": "sophisticatedbackpacks:upgrade_base"
     }
   },
   "pattern": [
     "EIE",
     "IPI",
-    "R L"
+    "RKL"
   ],
   "result": {
-    "count": 1,
     "id": "sophisticatedbackpacks:magnet_upgrade"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:magnet_upgrade"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "sophisticatedbackpacks"
+    }
+  ]
 }
