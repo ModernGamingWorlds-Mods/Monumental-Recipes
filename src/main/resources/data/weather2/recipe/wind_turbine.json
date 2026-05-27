@@ -29,6 +29,7 @@
   "result": {
     "id": "weather2:wind_turbine"
   },
+  "show_notification": true,
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

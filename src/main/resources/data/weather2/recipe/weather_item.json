@@ -13,9 +13,9 @@
     }
   },
   "pattern": [
-    "X X",
+    " X ",
     "DID",
-    "X X"
+    " X "
   ],
   "result": {
     "id": "weather2:weather_item"
