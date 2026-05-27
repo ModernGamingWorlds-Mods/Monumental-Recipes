@@ -29,10 +29,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "rftoolspower"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
     }
   ]
 }

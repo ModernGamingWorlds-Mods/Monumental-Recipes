@@ -1,6 +1,5 @@
 {
   "type": "create:mechanical_crafting",
-  "accept_mirrored": true,
   "key": {
     "K": {
       "item": "rftoolspower:power_core1"
@@ -27,18 +26,7 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "rftoolspower"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "rftoolsbase"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "create"
     }
-  ]
+  ],
+  "accept_mirrored": false
 }

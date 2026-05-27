@@ -1,9 +1,8 @@
 {
   "type": "create:mechanical_crafting",
-  "accept_mirrored": true,
   "key": {
     "r": {
-      "item": "actuallyadditions:advanced_coil"
+      "item": "thermal:rf_coil"
     },
     "R": {
       "tag": "c:gears/compressed_iron"
@@ -33,18 +32,7 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "rftoolspower"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "actuallyadditions"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "create"
     }
-  ]
+  ],
+  "accept_mirrored": false
 }

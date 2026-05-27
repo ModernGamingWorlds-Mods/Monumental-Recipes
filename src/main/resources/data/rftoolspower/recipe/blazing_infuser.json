@@ -1,12 +1,11 @@
 {
   "type": "create:mechanical_crafting",
-  "accept_mirrored": true,
   "key": {
     "F": {
       "item": "rftoolsbase:machine_frame"
     },
     "X": {
-      "item": "handcrafted:blaze_trophy"
+      "item": "botania:blaze_block"
     },
     "s": {
       "item": "rftoolsbase:dimensionalshard"
@@ -27,18 +26,7 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "rftoolspower"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "handcrafted"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "create"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "rftoolsbase"
     }
-  ]
+  ],
+  "accept_mirrored": false
 }
