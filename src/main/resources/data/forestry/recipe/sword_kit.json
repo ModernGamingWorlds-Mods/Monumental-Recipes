@@ -10,7 +10,7 @@
     }
   ],
   "result": {
-    "item": "forestry:sword_kit"
+    "id": "forestry:sword_kit"
   },
   "neoforge:conditions": [
     {

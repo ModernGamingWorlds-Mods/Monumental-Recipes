@@ -10,7 +10,7 @@
     }
   ],
   "result": {
-    "item": "forestry:kit_pickaxe"
+    "id": "forestry:kit_pickaxe"
   },
   "neoforge:conditions": [
     {

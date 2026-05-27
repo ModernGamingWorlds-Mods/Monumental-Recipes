@@ -3,14 +3,14 @@
   "category": "equipment",
   "ingredients": [
     {
-      "tag": "minecraft:hoes"
+      "tag": "c:tools/hoe"
     },
     {
       "item": "forestry:carton"
     }
   ],
   "result": {
-    "item": "forestry:hoe_kit"
+    "id": "forestry:hoe_kit"
   },
   "neoforge:conditions": [
     {

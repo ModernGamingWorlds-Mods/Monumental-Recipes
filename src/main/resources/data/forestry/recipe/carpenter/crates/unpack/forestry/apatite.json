@@ -11,18 +11,8 @@
     ],
     "result": {
       "count": 9,
-      "item": "thermal:apatite"
+      "id": "thermal:apatite"
     }
   },
-  "time": 5,
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "forestry"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "thermal"
-    }
-  ]
+  "time": 5
 }

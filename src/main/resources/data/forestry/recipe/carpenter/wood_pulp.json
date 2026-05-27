@@ -15,7 +15,7 @@
     ],
     "result": {
       "count": 4,
-      "item": "thermal:sawdust"
+      "id": "thermal:sawdust"
     }
   },
   "time": 5,
@@ -23,10 +23,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "forestry"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "thermal"
     }
   ]
 }

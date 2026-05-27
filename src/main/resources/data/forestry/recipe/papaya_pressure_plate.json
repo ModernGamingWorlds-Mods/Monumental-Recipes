@@ -17,16 +17,12 @@
     " B "
   ],
   "result": {
-    "item": "forestry:papaya_pressure_plate"
+    "id": "forestry:papaya_pressure_plate"
   },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "forestry"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "monumental_recipes"
     }
   ]
 }

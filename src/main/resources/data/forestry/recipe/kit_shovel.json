@@ -3,14 +3,14 @@
   "category": "equipment",
   "ingredients": [
     {
-      "tag": "minecraft:shovels"
+      "tag": "c:tools/shovel"
     },
     {
       "item": "forestry:carton"
     }
   ],
   "result": {
-    "item": "forestry:kit_shovel"
+    "id": "forestry:kit_shovel"
   },
   "neoforge:conditions": [
     {

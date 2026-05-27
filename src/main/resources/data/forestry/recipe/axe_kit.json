@@ -3,14 +3,14 @@
   "category": "equipment",
   "ingredients": [
     {
-      "tag": "minecraft:axes"
+      "tag": "c:tools/axe"
     },
     {
       "item": "forestry:carton"
     }
   ],
   "result": {
-    "item": "forestry:axe_kit"
+    "id": "forestry:axe_kit"
   },
   "neoforge:conditions": [
     {
