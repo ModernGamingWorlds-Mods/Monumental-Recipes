@@ -1,15 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "stevescarts"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "botania"
-    }
-  ],
   "pattern": [
     "#X#",
     "XGX",
@@ -28,5 +18,15 @@
   },
   "result": {
     "id": "stevescarts:component_simple_pcb"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "stevescarts"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
 }
