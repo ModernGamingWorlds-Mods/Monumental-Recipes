@@ -32,8 +32,8 @@
     }
   },
   "result": {
-    "id": "toms_storage:paint_kit",
-    "count": 1
+    "count": 1,
+    "id": "toms_storage:ts.paint_kit"
   },
   "neoforge:conditions": [
     {

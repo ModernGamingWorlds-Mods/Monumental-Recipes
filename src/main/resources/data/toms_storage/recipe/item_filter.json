@@ -17,8 +17,8 @@
     }
   },
   "result": {
-    "id": "toms_storage:item_filter",
-    "count": 1
+    "count": 1,
+    "id": "toms_storage:ts.item_filter"
   },
   "neoforge:conditions": [
     {
