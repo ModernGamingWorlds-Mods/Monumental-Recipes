@@ -1,6 +1,5 @@
 {
   "type": "create:mixing",
-  "heat_requirement": "heated",
   "ingredients": [
     {
       "item": "forbidden_arcanus:mundabitur_dust"
@@ -9,22 +8,22 @@
       "tag": "c:ingots/gold"
     },
     {
-      "tag": "c:charcoal"
+      "tag": "c:charcoals"
     },
     {
-      "tag": "c:charcoal"
+      "tag": "c:charcoals"
     },
     {
-      "tag": "c:charcoal"
+      "tag": "c:charcoals"
     },
     {
       "item": "forbidden_arcanus:mundabitur_dust"
     },
     {
-      "item": "forbidden_arcanus:arcane_crystal_dust"
+      "tag": "c:dusts/arcane_crystal"
     },
     {
-      "tag": "c:charcoal"
+      "tag": "c:charcoals"
     }
   ],
   "results": [
@@ -36,10 +35,7 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "forbidden_arcanus"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "create"
     }
-  ]
+  ],
+  "heat_requirement": "heated"
 }

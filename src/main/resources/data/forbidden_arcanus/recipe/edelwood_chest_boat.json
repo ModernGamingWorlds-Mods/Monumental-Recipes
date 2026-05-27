@@ -9,8 +9,8 @@
     }
   ],
   "result": {
-    "id": "forbidden_arcanus:edelwood_chest_boat",
-    "count": 1
+    "count": 1,
+    "id": "forbidden_arcanus:edelwood_chest_boat"
   },
   "neoforge:conditions": [
     {

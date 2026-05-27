@@ -4,7 +4,7 @@
     "item": "minecraft:netherite_shovel"
   },
   "addition": {
-    "tag": "monumental_recipes:dragon_scales"
+    "tag": "c:dragon_scales"
   },
   "result": {
     "id": "forbidden_arcanus:draco_arcanus_shovel"
@@ -16,10 +16,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "forbidden_arcanus"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "monumental_recipes"
     }
   ]
 }

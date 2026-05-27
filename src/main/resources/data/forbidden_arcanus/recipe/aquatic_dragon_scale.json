@@ -1,15 +1,14 @@
 {
   "type": "create:mixing",
-  "heat_requirement": "superheated",
   "ingredients": [
     {
-      "item": "forbidden_arcanus:arcane_crystal_dust"
+      "tag": "c:dusts/arcane_crystal"
     },
     {
-      "item": "forbidden_arcanus:arcane_crystal_dust"
+      "tag": "c:dusts/arcane_crystal"
     },
     {
-      "item": "forbidden_arcanus:arcane_crystal_dust"
+      "tag": "c:dusts/arcane_crystal"
     },
     {
       "item": "forbidden_arcanus:dragon_scale"
@@ -24,10 +23,7 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "forbidden_arcanus"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "create"
     }
-  ]
+  ],
+  "heat_requirement": "superheated"
 }

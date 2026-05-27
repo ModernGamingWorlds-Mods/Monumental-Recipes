@@ -10,7 +10,7 @@
     "id": "forbidden_arcanus:stone_blacksmith_gavel"
   },
   "template": {
-    "tag": "minecraft:logs"
+    "tag": "monumental_recipes:wooden_plates"
   },
   "neoforge:conditions": [
     {
