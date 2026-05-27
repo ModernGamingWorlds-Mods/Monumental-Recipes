@@ -10,7 +10,7 @@
   ],
   "result": {
     "count": 7,
-    "item": "minecraft:iron_ingot"
+    "id": "minecraft:iron_ingot"
   },
   "neoforge:conditions": [
     {

@@ -1,0 +1,22 @@
+{
+  "type": "forcecraft:infuser",
+  "ingredient": {
+    "item": "compressium:netherrack_6"
+  },
+  "center": {
+    "item": "botania:conjuration_catalyst"
+  },
+  "tier": 2,
+  "time": 30,
+  "output": {
+    "count": 2,
+    "id": "gobber2:gobber2_ore_nether"
+  },
+  "result": "forcecraft:item",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forcecraft"
+    }
+  ]
+}

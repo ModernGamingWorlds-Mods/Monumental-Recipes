@@ -1,0 +1,22 @@
+{
+  "type": "forcecraft:infuser",
+  "ingredient": {
+    "item": "naturesaura:infused_iron"
+  },
+  "center": {
+    "item": "botania:alchemy_catalyst"
+  },
+  "tier": 2,
+  "time": 30,
+  "output": {
+    "count": 2,
+    "id": "botania:manasteel_ingot"
+  },
+  "result": "forcecraft:item",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forcecraft"
+    }
+  ]
+}

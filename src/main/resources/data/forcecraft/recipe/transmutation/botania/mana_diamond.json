@@ -1,0 +1,22 @@
+{
+  "type": "forcecraft:infuser",
+  "ingredient": {
+    "item": "occultism:soul_gem"
+  },
+  "center": {
+    "item": "botania:conjuration_catalyst"
+  },
+  "tier": 2,
+  "time": 30,
+  "output": {
+    "count": 2,
+    "id": "botania:mana_diamond"
+  },
+  "result": "forcecraft:item",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forcecraft"
+    }
+  ]
+}
