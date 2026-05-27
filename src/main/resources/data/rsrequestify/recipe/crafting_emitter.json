@@ -29,10 +29,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "rsrequestify"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "refinedstorage"
     }
   ]
 }

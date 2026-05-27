@@ -13,7 +13,7 @@
       "item": "refinedstorage:detector"
     },
     "C": {
-      "item": "refinedstorage:autocrafting_upgrade"
+      "item": "refinedstorage:crafting_upgrade"
     },
     "F": {
       "item": "refinedstorage:machine_casing"
@@ -29,10 +29,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "rsrequestify"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "refinedstorage"
     }
   ]
 }
