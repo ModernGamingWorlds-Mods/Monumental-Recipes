@@ -16,10 +16,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "snad"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "chipped"
     }
   ]
 }
