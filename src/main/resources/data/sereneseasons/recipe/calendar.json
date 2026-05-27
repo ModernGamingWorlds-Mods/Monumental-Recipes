@@ -10,7 +10,7 @@
       "item": "minecraft:paper"
     },
     "C": {
-      "item": "minecraft:clock"
+      "tag": "c:clocks"
     }
   },
   "result": {
