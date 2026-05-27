@@ -21,8 +21,8 @@
     }
   },
   "result": {
-    "id": "undead_revamp2:chainsword",
-    "count": 1
+    "count": 1,
+    "id": "undead_revamp2:chainsword"
   },
   "neoforge:conditions": [
     {

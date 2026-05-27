@@ -18,8 +18,8 @@
     }
   },
   "result": {
-    "id": "undead_revamp2:cloggerupgrade",
-    "count": 2
+    "count": 2,
+    "id": "undead_revamp2:cloggerupgrade"
   },
   "neoforge:conditions": [
     {

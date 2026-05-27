@@ -19,8 +19,8 @@
     }
   ],
   "result": {
-    "id": "undead_revamp2:f_iresack",
-    "count": 1
+    "count": 1,
+    "id": "undead_revamp2:f_iresack"
   },
   "neoforge:conditions": [
     {

@@ -14,8 +14,8 @@
     }
   },
   "result": {
-    "id": "undead_revamp2:bonedagger",
-    "count": 1
+    "count": 1,
+    "id": "undead_revamp2:bonedagger"
   },
   "neoforge:conditions": [
     {

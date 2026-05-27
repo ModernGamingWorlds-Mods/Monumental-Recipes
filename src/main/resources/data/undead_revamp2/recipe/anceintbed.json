@@ -4,9 +4,11 @@
   "experience": 1.5,
   "cookingtime": 500,
   "ingredient": {
-    "tag": "c:foods/breads"
+    "tag": "c:bread"
   },
-  "id": "undead_revamp2:ancientbread",
+  "result": {
+    "id": "undead_revamp2:ancientbread"
+  },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",

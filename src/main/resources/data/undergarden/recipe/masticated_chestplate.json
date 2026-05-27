@@ -1,21 +1,21 @@
 {
   "type": "minecraft:smithing_transform",
   "base": {
-    "item": "minecraft:wooden_sword"
+    "item": "minecraft:iron_chestplate"
   },
   "addition": {
-    "item": "undead_revamp2:bostroxingot"
+    "item": "undergarden:masticator_scales"
   },
   "result": {
-    "id": "undead_revamp2:bostroxsword"
+    "id": "undergarden:masticated_chestplate"
   },
   "template": {
-    "tag": "monumental_recipes:wooden_plates"
+    "tag": "c:plates/iron"
   },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "undead_revamp2"
+      "modid": "undergarden"
     }
   ]
 }

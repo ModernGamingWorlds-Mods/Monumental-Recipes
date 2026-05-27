@@ -20,8 +20,8 @@
     }
   },
   "result": {
-    "id": "minecraft:gunpowder",
-    "count": 8
+    "count": 8,
+    "id": "minecraft:gunpowder"
   },
   "neoforge:conditions": [
     {

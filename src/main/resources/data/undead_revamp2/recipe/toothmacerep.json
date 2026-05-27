@@ -18,8 +18,8 @@
     }
   },
   "result": {
-    "id": "undead_revamp2:toothmace",
-    "count": 1
+    "count": 1,
+    "id": "undead_revamp2:toothmace"
   },
   "neoforge:conditions": [
     {

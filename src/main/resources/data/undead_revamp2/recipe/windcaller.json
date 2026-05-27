@@ -27,8 +27,8 @@
     }
   },
   "result": {
-    "id": "undead_revamp2:wincallerfan",
-    "count": 1
+    "count": 1,
+    "id": "undead_revamp2:wincallerfan"
   },
   "neoforge:conditions": [
     {
