@@ -7,7 +7,7 @@
   ],
   "key": {
     "T": {
-      "tag": "c:paper"
+      "tag": "c:papers"
     },
     "Q": {
       "item": "immersiveengineering:wirecoil_redstone"
@@ -23,14 +23,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "rftoolscontrol"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "immersiveengineering"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
     }
   ]
 }

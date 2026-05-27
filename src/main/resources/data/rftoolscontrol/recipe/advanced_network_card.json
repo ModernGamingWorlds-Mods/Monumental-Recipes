@@ -25,10 +25,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "rftoolscontrol"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "immersiveengineering"
     }
   ]
 }
