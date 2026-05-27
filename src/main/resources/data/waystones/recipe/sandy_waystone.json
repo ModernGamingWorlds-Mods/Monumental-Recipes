@@ -1,15 +1,14 @@
 {
   "type": "create:mixing",
-  "heat_requirement": "heated",
   "ingredients": [
     {
       "item": "waystones:warp_stone"
     },
     {
-      "tag": "c:sandstone/blocks"
+      "tag": "c:sandstones"
     },
     {
-      "tag": "c:ingots/obsidiansteel"
+      "tag": "c:ingots/obsidian"
     }
   ],
   "results": [
@@ -25,6 +24,11 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
     }
-  ]
+  ],
+  "heat_requirement": "heated"
 }

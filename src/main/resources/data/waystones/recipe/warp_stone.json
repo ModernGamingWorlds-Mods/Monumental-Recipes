@@ -1,6 +1,5 @@
 {
   "type": "create:mixing",
-  "heat_requirement": "heated",
   "ingredients": [
     {
       "tag": "c:gems/emerald"
@@ -24,11 +23,12 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "botania"
+      "modid": "create"
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "create"
+      "modid": "botania"
     }
-  ]
+  ],
+  "heat_requirement": "heated"
 }
