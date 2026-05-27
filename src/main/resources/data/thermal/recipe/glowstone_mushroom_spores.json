@@ -16,8 +16,8 @@
     }
   ],
   "result": {
-    "id": "thermal:glowstone_mushroom_spores",
-    "count": 2
+    "count": 2,
+    "id": "thermal:glowstone_mushroom_spores"
   },
   "neoforge:conditions": [
     {

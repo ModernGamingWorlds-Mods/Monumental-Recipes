@@ -11,8 +11,8 @@
   ],
   "result": [
     {
-      "id": "kubejs:plate_wood_cherry",
-      "count": 2
+      "count": 2,
+      "id": "kubejs:plate_wood_cherry"
     }
   ],
   "energy": 2400,
@@ -28,11 +28,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "kubejs"
-    },
-    {
-      "type": "neoforge:registered",
-      "registry": "minecraft:item",
-      "value": "kubejs:plate_wood_cherry"
     }
   ]
 }

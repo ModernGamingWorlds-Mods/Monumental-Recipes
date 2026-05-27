@@ -1,6 +1,5 @@
 {
   "type": "create:mechanical_crafting",
-  "accept_mirrored": false,
   "key": {
     "C": {
       "item": "thermal:machine_frame"
@@ -36,15 +35,16 @@
     },
     {
       "type": "neoforge:mod_loaded",
+      "modid": "chipped"
+    },
+    {
+      "type": "neoforge:mod_loaded",
       "modid": "create"
     },
     {
       "type": "neoforge:mod_loaded",
       "modid": "extendedcrafting"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "chipped"
     }
-  ]
+  ],
+  "accept_mirrored": false
 }

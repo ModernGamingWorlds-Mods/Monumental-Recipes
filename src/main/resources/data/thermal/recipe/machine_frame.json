@@ -1,6 +1,5 @@
 {
   "type": "create:mechanical_crafting",
-  "accept_mirrored": false,
   "key": {
     "G": {
       "tag": "thermal:glass/hardened"
@@ -31,6 +30,11 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createdeco"
     }
-  ]
+  ],
+  "accept_mirrored": false
 }

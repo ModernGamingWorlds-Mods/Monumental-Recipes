@@ -10,7 +10,7 @@
     "id": "thermal:beekeeper_chestplate"
   },
   "template": {
-    "tag": "c:leather"
+    "tag": "c:leathers"
   },
   "neoforge:conditions": [
     {

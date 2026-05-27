@@ -1,19 +1,4 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "thermal"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "create"
-    },
-    {
-      "type": "neoforge:registered",
-      "registry": "minecraft:item",
-      "value": "create:polished_rose_quartz"
-    }
-  ],
   "type": "minecraft:crafting_shaped",
   "key": {
     "G": {
@@ -36,5 +21,23 @@
   ],
   "result": {
     "id": "thermal:upgrade_augment_2"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "thermal:upgrade_augment_2"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "create:polished_rose_quartz"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
 }

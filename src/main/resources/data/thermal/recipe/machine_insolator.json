@@ -1,6 +1,5 @@
 {
   "type": "create:mechanical_crafting",
-  "accept_mirrored": false,
   "key": {
     "C": {
       "item": "thermal:machine_frame"
@@ -39,15 +38,16 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "cyclic"
-    },
-    {
-      "type": "neoforge:mod_loaded",
       "modid": "ad_astra"
     },
     {
       "type": "neoforge:mod_loaded",
       "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cyclic"
     }
-  ]
+  ],
+  "accept_mirrored": false
 }

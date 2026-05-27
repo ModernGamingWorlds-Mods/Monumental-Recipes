@@ -1,6 +1,5 @@
 {
   "type": "create:mixing",
-  "heat_requirement": "heated",
   "ingredients": [
     {
       "tag": "c:mushrooms"
@@ -17,8 +16,8 @@
   ],
   "results": [
     {
-      "id": "thermal:glowstone_mushroom_spores",
-      "count": 4
+      "count": 4,
+      "id": "thermal:glowstone_mushroom_spores"
     }
   ],
   "neoforge:conditions": [
@@ -30,5 +29,6 @@
       "type": "neoforge:mod_loaded",
       "modid": "create"
     }
-  ]
+  ],
+  "heat_requirement": "heated"
 }

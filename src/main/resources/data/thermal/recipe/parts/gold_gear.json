@@ -15,7 +15,7 @@
     " # "
   ],
   "result": {
-    "item": "thermal:tin_gear"
+    "id": "thermal:tin_gear"
   },
   "show_notification": true,
   "neoforge:conditions": [

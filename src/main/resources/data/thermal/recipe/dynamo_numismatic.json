@@ -1,6 +1,5 @@
 {
   "type": "create:mechanical_crafting",
-  "acceptMirrored": false,
   "key": {
     "C": {
       "item": "thermal:rf_coil"
@@ -27,7 +26,7 @@
   ],
   "result": {
     "count": 1,
-    "item": "thermal:dynamo_numismatic"
+    "id": "thermal:dynamo_numismatic"
   },
   "neoforge:conditions": [
     {
@@ -42,5 +41,6 @@
       "type": "neoforge:mod_loaded",
       "modid": "extendedcrafting"
     }
-  ]
+  ],
+  "accept_mirrored": false
 }

@@ -7,10 +7,10 @@
     "item": "thermal:beekeeper_fabric"
   },
   "result": {
-    "item": "thermal:beekeeper_boots"
+    "id": "thermal:beekeeper_boots"
   },
   "template": {
-    "tag": "c:leather"
+    "tag": "c:leathers"
   },
   "neoforge:conditions": [
     {

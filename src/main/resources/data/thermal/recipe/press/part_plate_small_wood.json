@@ -11,8 +11,8 @@
   ],
   "result": [
     {
-      "id": "kubejs:part_plate_small_wood",
-      "count": 2
+      "count": 2,
+      "id": "kubejs:part_plate_small_wood"
     }
   ],
   "energy": 2400,
@@ -28,11 +28,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "monumental_recipes"
-    },
-    {
-      "type": "neoforge:registered",
-      "registry": "minecraft:item",
-      "value": "kubejs:part_plate_small_wood"
     }
   ]
 }

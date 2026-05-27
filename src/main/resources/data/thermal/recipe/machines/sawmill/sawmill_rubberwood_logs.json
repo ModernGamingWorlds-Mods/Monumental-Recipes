@@ -5,12 +5,12 @@
   },
   "result": [
     {
-      "item": "thermal:rubberwood_planks",
-      "count": 6
+      "count": 6,
+      "id": "thermal:rubberwood_planks"
     },
     {
-      "item": "thermal:sawdust",
-      "chance": 1.25
+      "chance": 1.25,
+      "id": "thermal:sawdust"
     }
   ],
   "energy": 1000,

@@ -8,8 +8,8 @@
   "processingTime": 200,
   "results": [
     {
-      "id": "thermal:lapis_dust",
-      "count": 4
+      "count": 4,
+      "id": "thermal:lapis_dust"
     }
   ],
   "neoforge:conditions": [

@@ -1,20 +1,5 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "create"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "thermal"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "industrialforegoing"
-    }
-  ],
   "type": "create:mixing",
-  "heat_requirement": "heated",
   "ingredients": [
     {
       "item": "industrialforegoing:latex_bucket"
@@ -25,8 +10,27 @@
   ],
   "results": [
     {
-      "id": "thermal:rubber",
-      "count": 2
+      "count": 2,
+      "id": "thermal:rubber"
     }
-  ]
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "thermal:rubber"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "industrialforegoing"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    }
+  ],
+  "heat_requirement": "heated"
 }

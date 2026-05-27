@@ -1,16 +1,5 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "create"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "thermal"
-    }
-  ],
   "type": "create:mixing",
-  "heat_requirement": "superheated",
   "ingredients": [
     {
       "item": "thermal:obsidian_glass"
@@ -24,8 +13,23 @@
   ],
   "results": [
     {
-      "id": "thermal:enderium_glass",
-      "count": 2
+      "count": 2,
+      "id": "thermal:enderium_glass"
     }
-  ]
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "thermal:enderium_glass"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    }
+  ],
+  "heat_requirement": "superheated"
 }

@@ -1,6 +1,5 @@
 {
   "type": "create:mechanical_crafting",
-  "accept_mirrored": false,
   "key": {
     "C": {
       "item": "thermal:rf_coil"
@@ -39,5 +38,6 @@
       "type": "neoforge:mod_loaded",
       "modid": "immersiveengineering"
     }
-  ]
+  ],
+  "accept_mirrored": false
 }

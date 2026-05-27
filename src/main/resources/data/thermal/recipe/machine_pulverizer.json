@@ -1,6 +1,5 @@
 {
   "type": "create:mechanical_crafting",
-  "accept_mirrored": false,
   "key": {
     "C": {
       "item": "thermal:machine_frame"
@@ -27,12 +26,16 @@
   ],
   "result": {
     "count": 1,
-    "item": "thermal:machine_pulverizer"
+    "id": "thermal:machine_pulverizer"
   },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "thermal"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "compressium"
     },
     {
       "type": "neoforge:mod_loaded",
@@ -42,5 +45,6 @@
       "type": "neoforge:mod_loaded",
       "modid": "monumental_recipes"
     }
-  ]
+  ],
+  "accept_mirrored": false
 }

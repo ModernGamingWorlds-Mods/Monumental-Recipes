@@ -1,18 +1,4 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "thermal"
-    },
-    {
-      "type": "neoforge:item_exists",
-      "item": "thermal:emerald_gear"
-    },
-    {
-      "type": "neoforge:item_exists",
-      "item": "create:andesite_alloy"
-    }
-  ],
   "type": "minecraft:crafting_shaped",
   "key": {
     "P": {
@@ -28,6 +14,24 @@
     " P "
   ],
   "result": {
-    "item": "thermal:emerald_gear"
-  }
+    "id": "thermal:emerald_gear"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "thermal:emerald_gear"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "create:andesite_alloy"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
 }
