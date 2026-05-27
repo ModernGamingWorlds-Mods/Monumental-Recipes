@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "X": {
-      "item": "mysticalagriculture:water_agglomeratio"
+      "item": "ad_astra:water_pump"
     },
     "Z": {
       "tag": "c:dyes/black"
@@ -26,14 +26,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "rftoolsutility"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "mysticalagriculture"
     }
   ]
 }

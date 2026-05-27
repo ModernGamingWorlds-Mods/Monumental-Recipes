@@ -8,7 +8,7 @@
       "tag": "c:ingots/compressed_iron"
     },
     "p": {
-      "tag": "c:paper"
+      "tag": "c:papers"
     },
     "r": {
       "item": "extendedcrafting:redstone_component"
@@ -26,10 +26,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "rftoolsutility"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
     }
   ]
 }

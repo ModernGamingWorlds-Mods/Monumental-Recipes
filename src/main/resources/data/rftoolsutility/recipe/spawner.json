@@ -1,32 +1,32 @@
 {
   "type": "create:mechanical_crafting",
   "key": {
-    "o": {
-      "tag": "monumental_recipes:eyes"
-    },
     "F": {
       "item": "rftoolsbase:machine_frame"
     },
     "r": {
-      "item": "extendedcrafting:redstone_component"
+      "item": "extendedcrafting:redstone_catalyst"
     },
-    "i": {
-      "tag": "c:sheetmetals/steel"
+    "P": {
+      "tag": "c:hearts"
     },
-    "s": {
-      "item": "cyclic:eye_redstone"
+    "z": {
+      "tag": "c:dragon_scales"
+    },
+    "o": {
+      "tag": "c:bones"
     }
   },
   "pattern": [
-    " oso ",
-    " rFr ",
-    " iii ",
+    " rzr ",
+    " oFo ",
+    " rPr ",
     "     ",
     "     "
   ],
   "result": {
     "count": 1,
-    "id": "rftoolsutility:matter_transmitter"
+    "id": "rftoolsutility:spawner"
   },
   "neoforge:conditions": [
     {
