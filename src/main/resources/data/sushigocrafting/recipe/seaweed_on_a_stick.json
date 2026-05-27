@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "c:tools/fishing_rods"
+      "tag": "c:tools/fishing_rod"
     },
     {
       "item": "minecraft:kelp"
