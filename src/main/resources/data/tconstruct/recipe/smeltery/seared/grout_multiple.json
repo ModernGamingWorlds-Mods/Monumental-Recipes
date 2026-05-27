@@ -1,6 +1,5 @@
 {
   "type": "create:mixing",
-  "heat_requirement": "heated",
   "ingredients": [
     {
       "item": "kubejs:clay_plate"
@@ -32,22 +31,15 @@
   ],
   "results": [
     {
-      "id": "tconstruct:grout",
-      "count": 8
+      "count": 8,
+      "id": "tconstruct:grout"
     }
   ],
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "tconstruct"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "create"
-    },
-    {
-      "type": "neoforge:item_exists",
-      "item": "kubejs:clay_plate"
     }
-  ]
+  ],
+  "heat_requirement": "heated"
 }

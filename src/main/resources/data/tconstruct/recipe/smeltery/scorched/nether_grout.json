@@ -1,6 +1,5 @@
 {
   "type": "create:mixing",
-  "heat_requirement": "heated",
   "ingredients": [
     {
       "item": "minecraft:magma_cream"
@@ -17,22 +16,15 @@
   ],
   "results": [
     {
-      "id": "tconstruct:nether_grout",
-      "count": 2
+      "count": 2,
+      "id": "tconstruct:nether_grout"
     }
   ],
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "tconstruct"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "chipped"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "create"
     }
-  ]
+  ],
+  "heat_requirement": "heated"
 }

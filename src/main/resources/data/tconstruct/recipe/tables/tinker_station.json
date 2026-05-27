@@ -1,6 +1,5 @@
 {
   "type": "create:mechanical_crafting",
-  "accept_mirrored": false,
   "pattern": [
     "ppp",
     "w w",
@@ -21,10 +20,7 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "tconstruct"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "create"
     }
-  ]
+  ],
+  "accept_mirrored": true
 }
