@@ -1,6 +1,5 @@
 {
   "type": "create:mechanical_crafting",
-  "accept_mirrored": true,
   "key": {
     "p": {
       "tag": "c:gears/electrum"
@@ -30,14 +29,7 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "rftoolsbase"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "create"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "immersiveengineering"
     }
-  ]
+  ],
+  "accept_mirrored": false
 }
