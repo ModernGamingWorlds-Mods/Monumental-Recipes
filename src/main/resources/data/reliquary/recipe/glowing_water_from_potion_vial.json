@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredient": [
+  "ingredients": [
     {
       "item": "reliquary:empty_potion_vial"
     },
@@ -11,7 +11,7 @@
       "tag": "c:dusts/glowstone"
     },
     {
-      "tag": "c:gunpowder"
+      "tag": "c:gunpowders"
     },
     {
       "tag": "c:crops/nether_wart"

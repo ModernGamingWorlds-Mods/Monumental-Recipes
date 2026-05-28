@@ -5,7 +5,7 @@
       "item": "reliquary:catalyzing_gland"
     },
     "S": {
-      "tag": "c:gunpowder"
+      "tag": "c:gunpowders"
     },
     "T": {
       "tag": "c:bones"
@@ -17,10 +17,7 @@
     "PPP"
   ],
   "result": {
-    "components": {
-      "reliquary:entity_name": "minecraft:creeper"
-    },
-    "count": 1,
+    "nbt": "{entity:\"minecraft:creeper\"}",
     "id": "reliquary:mob_charm_fragment"
   },
   "neoforge:conditions": [

@@ -17,20 +17,13 @@
     "PPP"
   ],
   "result": {
-    "components": {
-      "reliquary:entity_name": "minecraft:zombie"
-    },
-    "count": 1,
+    "nbt": "{entity:\"minecraft:zombie\"}",
     "id": "reliquary:mob_charm_fragment"
   },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "reliquary"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "mysticalagriculture"
     }
   ]
 }

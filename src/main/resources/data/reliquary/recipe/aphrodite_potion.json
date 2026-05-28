@@ -1,13 +1,4 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "reliquary"
-    },
-    {
-      "type": "reliquary:potions_enabled"
-    }
-  ],
   "type": "minecraft:crafting_shaped",
   "key": {
     "B": {
@@ -33,5 +24,14 @@
   ],
   "result": {
     "id": "reliquary:aphrodite_potion"
-  }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "reliquary"
+    },
+    {
+      "type": "reliquary:potions_enabled"
+    }
+  ]
 }
