@@ -1,6 +1,5 @@
 {
   "type": "create:compacting",
-  "heat_requirement": "heated",
   "ingredients": [
     {
       "item": "extendedcrafting:black_iron_ingot"
@@ -21,11 +20,12 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
+      "modid": "create"
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "create"
+      "modid": "extendedcrafting"
     }
-  ]
+  ],
+  "heat_requirement": "heated"
 }

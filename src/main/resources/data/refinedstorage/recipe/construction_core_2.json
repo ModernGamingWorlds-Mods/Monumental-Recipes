@@ -2,11 +2,9 @@
   "type": "pneumaticcraft:pressure_chamber",
   "inputs": [
     {
-      "count": 1,
       "item": "refinedstorage:basic_processor"
     },
     {
-      "count": 1,
       "tag": "c:dusts/glowstone"
     }
   ],

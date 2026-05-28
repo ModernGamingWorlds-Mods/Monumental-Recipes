@@ -17,8 +17,8 @@
     }
   },
   "result": {
-    "id": "refinedstorage:16k_storage_part",
-    "count": 1
+    "count": 1,
+    "id": "refinedstorage:16k_storage_part"
   },
   "neoforge:conditions": [
     {

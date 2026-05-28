@@ -2,14 +2,17 @@
   "type": "pneumaticcraft:pressure_chamber",
   "inputs": [
     {
+      "type": "pneumaticcraft:stacked_item",
       "count": 2,
       "item": "immersiveengineering:hemp_fiber"
     },
     {
+      "type": "pneumaticcraft:stacked_item",
       "count": 2,
-      "tag": "monumental_recipes:cloths"
+      "tag": "monumental_recipes:cloth"
     },
     {
+      "type": "pneumaticcraft:stacked_item",
       "count": 2,
       "item": "industrialforegoing:pink_slime_ingot"
     }
@@ -17,7 +20,6 @@
   "pressure": 4.0,
   "results": [
     {
-      "count": 1,
       "id": "refinedstorage:processor_binding"
     }
   ],

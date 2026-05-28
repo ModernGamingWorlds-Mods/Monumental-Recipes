@@ -9,31 +9,32 @@
       "item": "immersiveengineering:hemp_fiber"
     },
     {
-      "tag": "monumental_recipes:cloths"
+      "tag": "monumental_recipes:cloth"
     },
     {
       "item": "industrialforegoing:pink_slime_ingot"
     },
     {
-      "tag": "monumental_recipes:cloths"
+      "tag": "monumental_recipes:cloth"
     },
     {
       "item": "immersiveengineering:hemp_fiber"
     },
     {
-      "tag": "monumental_recipes:cloths"
+      "tag": "monumental_recipes:cloth"
     },
     {
       "item": "industrialforegoing:pink_slime_ingot"
     },
     {
-      "tag": "monumental_recipes:cloths"
+      "tag": "monumental_recipes:cloth"
     }
   ],
   "output": {
     "id": "refinedstorage:processor_binding"
   },
-  "heat_requirement": "heated",
+  "heatRequirement": "heated"
+},
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
@@ -41,7 +42,7 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "industrialforegoing"
+      "modid": "hexerei"
     },
     {
       "type": "neoforge:mod_loaded",
@@ -49,11 +50,12 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "hexerei"
+      "modid": "industrialforegoing"
     },
     {
       "type": "neoforge:mod_loaded",
       "modid": "monumental_recipes"
     }
-  ]
+  ],
+  "heat_requirement": "heated"
 }

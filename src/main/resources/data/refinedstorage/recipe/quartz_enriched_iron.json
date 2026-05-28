@@ -1,6 +1,5 @@
 {
   "type": "create:mixing",
-  "heat_requirement": "heated",
   "ingredients": [
     {
       "tag": "c:silicon"
@@ -14,8 +13,8 @@
   ],
   "results": [
     {
-      "id": "refinedstorage:quartz_enriched_iron",
-      "count": 2
+      "count": 2,
+      "id": "refinedstorage:quartz_enriched_iron"
     }
   ],
   "neoforge:conditions": [
@@ -25,11 +24,12 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
+      "modid": "create"
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "create"
+      "modid": "extendedcrafting"
     }
-  ]
+  ],
+  "heat_requirement": "heated"
 }

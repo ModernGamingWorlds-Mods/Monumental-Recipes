@@ -17,8 +17,8 @@
     "EEE"
   ],
   "result": {
-    "id": "refinedstorage:cable",
-    "count": 6
+    "count": 6,
+    "id": "refinedstorage:cable"
   },
   "neoforge:conditions": [
     {

@@ -1,6 +1,5 @@
 {
   "type": "create:mixing",
-  "heat_requirement": "superheated",
   "ingredients": [
     {
       "item": "refinedstorage:basic_processor"
@@ -23,5 +22,6 @@
       "type": "neoforge:mod_loaded",
       "modid": "create"
     }
-  ]
+  ],
+  "heat_requirement": "superheated"
 }

@@ -20,8 +20,8 @@
   "pressure": 4.0,
   "results": [
     {
-      "id": "refinedstorage:raw_improved_processor",
-      "count": 2
+      "count": 2,
+      "id": "refinedstorage:raw_improved_processor"
     }
   ],
   "neoforge:conditions": [
