@@ -1,0 +1,37 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "IXI",
+    "XBX",
+    "IXI"
+  ],
+  "key": {
+    "B": {
+      "tag": "monumental_recipes:tanks"
+    },
+    "X": {
+      "item": "refinedstorage:64k_fluid_storage_part"
+    },
+    "I": {
+      "item": "refinedstorage:basic_processor"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "refinedstorage:256k_fluid_storage_part"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "refinedstorage"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental_recipes"
+    }
+  ]
+}
