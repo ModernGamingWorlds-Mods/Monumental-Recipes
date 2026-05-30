@@ -22,17 +22,13 @@
     }
   },
   "result": {
-    "item": "prefab:item_defense_bunker",
-    "count": 1
+    "count": 1,
+    "id": "prefab:item_defense_bunker"
   },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "prefab"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "compressium"
     }
   ]
 }

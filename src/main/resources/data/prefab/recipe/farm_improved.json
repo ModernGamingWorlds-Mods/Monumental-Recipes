@@ -25,17 +25,13 @@
     }
   },
   "result": {
-    "item": "prefab:item_farm_improved",
-    "count": 1
+    "count": 1,
+    "id": "prefab:item_farm_improved"
   },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "prefab"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "compressium"
     }
   ]
 }

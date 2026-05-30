@@ -25,17 +25,13 @@
     }
   },
   "result": {
-    "item": "prefab:item_modern_buildings_advanced",
-    "count": 1
+    "count": 1,
+    "id": "prefab:item_modern_buildings_advanced"
   },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "prefab"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "compressium"
     }
   ]
 }

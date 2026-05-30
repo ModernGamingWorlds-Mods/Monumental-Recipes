@@ -9,15 +9,15 @@
   ],
   "key": {
     "a": {
-      "tag": "minecraft:pickaxes"
+      "tag": "c:tools/pickaxe"
     },
     "b": {
-      "tag": "minecraft:shovels"
+      "tag": "c:tools/shovel"
     }
   },
   "result": {
-    "item": "prefab:item_bulldozer",
-    "count": 1
+    "count": 1,
+    "id": "prefab:item_bulldozer"
   },
   "neoforge:conditions": [
     {

@@ -16,17 +16,13 @@
     }
   },
   "result": {
-    "item": "prefab:item_instant_bridge",
-    "count": 1
+    "count": 1,
+    "id": "prefab:item_instant_bridge"
   },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "prefab"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "compressium"
     }
   ]
 }
