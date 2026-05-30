@@ -14,8 +14,8 @@
     "   "
   ],
   "result": {
-    "id": "pneumaticcraft:pressure_tube",
-    "count": 4
+    "count": 4,
+    "id": "pneumaticcraft:pressure_tube"
   },
   "neoforge:conditions": [
     {

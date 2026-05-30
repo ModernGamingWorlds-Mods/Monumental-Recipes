@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "C": {
-      "tag": "chipped:black_wool"
+      "item": "minecraft:black_wool"
     },
     "L": {
       "tag": "pneumaticcraft:upgrade_components"
@@ -28,7 +28,7 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "chipped"
+      "modid": "industrialforegoing"
     }
   ]
 }

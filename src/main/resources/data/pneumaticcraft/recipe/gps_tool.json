@@ -5,7 +5,7 @@
       "item": "extendedcrafting:redstone_ingot"
     },
     "P": {
-      "tag": "c:paper"
+      "tag": "c:papers"
     },
     "G": {
       "item": "immersiveengineering:insulating_glass"
@@ -37,6 +37,10 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "immersiveengineering"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
     }
   ]
 }

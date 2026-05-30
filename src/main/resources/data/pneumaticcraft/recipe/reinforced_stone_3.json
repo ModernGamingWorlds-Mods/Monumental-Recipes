@@ -15,8 +15,8 @@
   "pressure": 5.0,
   "results": [
     {
-      "id": "pneumaticcraft:reinforced_stone",
-      "count": 2
+      "count": 2,
+      "id": "pneumaticcraft:reinforced_stone"
     }
   ],
   "neoforge:conditions": [

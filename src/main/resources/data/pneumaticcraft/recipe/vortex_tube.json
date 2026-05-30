@@ -20,13 +20,17 @@
     "ITI"
   ],
   "result": {
-    "id": "pneumaticcraft:vortex_tube",
-    "count": 2
+    "count": 2,
+    "id": "pneumaticcraft:vortex_tube"
   },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "pneumaticcraft"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
     }
   ]
 }

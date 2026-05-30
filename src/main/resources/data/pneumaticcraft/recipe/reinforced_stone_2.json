@@ -10,8 +10,8 @@
   ],
   "result": [
     {
-      "id": "pneumaticcraft:reinforced_stone",
-      "count": 2
+      "count": 2,
+      "id": "pneumaticcraft:reinforced_stone"
     }
   ],
   "energy": 2500,
