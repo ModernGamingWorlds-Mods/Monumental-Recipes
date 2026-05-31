@@ -1,0 +1,17 @@
+{
+  "type": "occultism:spirit_fire",
+  "ingredient": [
+    {
+      "item": "eidolon:lesser_soul_gem"
+    }
+  ],
+  "result": {
+    "id": "occultism:spirit_attuned_gem"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "occultism"
+    }
+  ]
+}
