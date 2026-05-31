@@ -10,7 +10,7 @@
     "id": "modularrouters:extruder_module_1"
   },
   "template": {
-    "tag": "c:tools/mining_tools"
+    "tag": "c:tools/pickaxe"
   },
   "neoforge:conditions": [
     {
