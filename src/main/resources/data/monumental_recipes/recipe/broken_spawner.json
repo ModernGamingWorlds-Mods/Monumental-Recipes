@@ -11,8 +11,8 @@
     }
   },
   "result": {
-    "id": "enderio:broken_spawner",
-    "count": 1
+    "count": 1,
+    "id": "enderio:broken_spawner"
   },
   "neoforge:conditions": [
     {
