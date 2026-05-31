@@ -17,17 +17,13 @@
     }
   },
   "result": {
-    "id": "pipez:ultimate_upgrade",
-    "count": 1
+    "count": 1,
+    "id": "pipez:ultimate_upgrade"
   },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
       "modid": "pipez"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "mysticalagriculture"
     }
   ]
 }
