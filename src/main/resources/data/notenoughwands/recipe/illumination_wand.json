@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "base": {
-    "item": "createchromaticreturn:glowing_ingot"
+    "item": "mekanism:refined_glowstone_ingot"
   },
   "addition": {
     "item": "notenoughwands:wand_core"
@@ -19,7 +19,7 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "createchromaticreturn"
+      "modid": "mekanism"
     }
   ]
 }

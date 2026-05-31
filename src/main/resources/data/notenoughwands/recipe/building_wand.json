@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "base": {
-    "tag": "chipped:moss_block"
+    "item": "quark:moss_paste"
   },
   "addition": {
     "item": "notenoughwands:wand_core"
@@ -10,7 +10,7 @@
     "id": "notenoughwands:building_wand"
   },
   "template": {
-    "item": "rftoolsbuilder:shape_card_def"
+    "item": "cyclic:shape_data"
   },
   "neoforge:conditions": [
     {
@@ -19,11 +19,11 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "chipped"
+      "modid": "cyclic"
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "rftoolsbuilder"
+      "modid": "quark"
     }
   ]
 }

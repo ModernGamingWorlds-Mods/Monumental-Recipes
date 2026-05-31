@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "base": {
-    "tag": "monumental_recipes:clocks"
+    "tag": "c:clocks"
   },
   "addition": {
     "item": "notenoughwands:advanced_wand_core"
@@ -20,10 +20,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "mekanism"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "monumental_recipes"
     }
   ]
 }

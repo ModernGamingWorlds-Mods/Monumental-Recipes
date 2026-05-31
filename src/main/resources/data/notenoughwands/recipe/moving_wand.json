@@ -4,7 +4,7 @@
     "tag": "monumental_recipes:conveyors"
   },
   "addition": {
-    "item": "notenoughwands:wand_core"
+    "item": "notenoughwands:advanced_wand_core"
   },
   "result": {
     "id": "notenoughwands:moving_wand"

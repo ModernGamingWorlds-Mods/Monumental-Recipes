@@ -10,7 +10,7 @@
     "id": "notenoughwands:capturing_wand"
   },
   "template": {
-    "item": "farmersdelight:safety_net"
+    "item": "naturalist:bug_net"
   },
   "neoforge:conditions": [
     {
@@ -19,7 +19,7 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "farmersdelight"
+      "modid": "naturalist"
     },
     {
       "type": "neoforge:mod_loaded",
