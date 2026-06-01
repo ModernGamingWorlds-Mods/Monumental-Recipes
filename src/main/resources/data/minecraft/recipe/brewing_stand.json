@@ -14,5 +14,6 @@
   ],
   "result": {
     "id": "minecraft:brewing_stand"
-  }
+  },
+  "neoforge:conditions": []
 }

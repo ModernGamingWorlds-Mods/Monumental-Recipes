@@ -17,8 +17,8 @@
     " C "
   ],
   "result": {
-    "id": "minecraft:soul_torch",
-    "count": 2
+    "count": 2,
+    "id": "minecraft:soul_torch"
   },
   "neoforge:conditions": [
     {

@@ -1,20 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "S": {
-      "tag": "c:strings"
+    "#": {
+      "tag": "c:grains"
     },
-    "W": {
-      "tag": "c:rods/wooden"
+    "X": {
+      "item": "minecraft:cocoa_beans"
     }
   },
   "pattern": [
-    " WS",
-    "W S",
-    " WS"
+    "#X#"
   ],
   "result": {
-    "id": "minecraft:bow"
+    "count": 8,
+    "id": "minecraft:cookie"
   },
   "neoforge:conditions": []
 }

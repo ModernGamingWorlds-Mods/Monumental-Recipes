@@ -1,17 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "S A"
+    "SA"
   ],
   "key": {
     "S": {
       "tag": "c:buckets/lava"
     },
     "A": {
-      "item": "minecraft:ice"
+      "item": "minecraft:packed_ice"
     }
   },
   "result": {
     "id": "minecraft:obsidian"
-  }
+  },
+  "neoforge:conditions": []
 }

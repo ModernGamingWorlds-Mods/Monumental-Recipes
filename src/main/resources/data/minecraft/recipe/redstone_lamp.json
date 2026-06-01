@@ -15,5 +15,6 @@
   ],
   "result": {
     "id": "minecraft:redstone_lamp"
-  }
+  },
+  "neoforge:conditions": []
 }

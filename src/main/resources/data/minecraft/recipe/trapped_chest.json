@@ -15,5 +15,6 @@
   ],
   "result": {
     "id": "minecraft:trapped_chest"
-  }
+  },
+  "neoforge:conditions": []
 }

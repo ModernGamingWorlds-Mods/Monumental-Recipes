@@ -11,5 +11,6 @@
   },
   "template": {
     "tag": "c:rods/wooden"
-  }
+  },
+  "neoforge:conditions": []
 }

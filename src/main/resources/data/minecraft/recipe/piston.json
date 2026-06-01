@@ -20,17 +20,21 @@
     "XPX"
   ],
   "result": {
-    "id": "minecraft:piston",
-    "count": 2
+    "count": 2,
+    "id": "minecraft:piston"
   },
   "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "compressium"
+    },
     {
       "type": "neoforge:mod_loaded",
       "modid": "create"
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "compressium"
+      "modid": "pneumaticcraft"
     }
   ]
 }

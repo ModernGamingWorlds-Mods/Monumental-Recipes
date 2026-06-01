@@ -18,5 +18,6 @@
   ],
   "result": {
     "id": "minecraft:sponge"
-  }
+  },
+  "neoforge:conditions": []
 }

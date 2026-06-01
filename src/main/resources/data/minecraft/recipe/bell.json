@@ -15,5 +15,6 @@
   },
   "result": {
     "id": "minecraft:bell"
-  }
+  },
+  "neoforge:conditions": []
 }
