@@ -8,13 +8,13 @@
       "tag": "c:ingots/gold"
     },
     {
-      "tag": "c:charcoals"
+      "tag": "c:charcoal"
     },
     {
-      "tag": "c:charcoals"
+      "tag": "c:charcoal"
     },
     {
-      "tag": "c:charcoals"
+      "tag": "c:charcoal"
     },
     {
       "item": "forbidden_arcanus:mundabitur_dust"
@@ -23,7 +23,7 @@
       "tag": "c:dusts/arcane_crystal"
     },
     {
-      "tag": "c:charcoals"
+      "tag": "c:charcoal"
     }
   ],
   "results": [
