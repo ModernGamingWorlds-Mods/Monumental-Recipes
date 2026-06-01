@@ -1,0 +1,26 @@
+{
+  "type": "mekanism:sawing",
+  "input": {
+    "ingredient": {
+      "tag": "minecraft:cherry_logs"
+    }
+  },
+  "mainOutput": {
+    "count": 6,
+    "id": "minecraft:cherry_planks"
+  },
+  "secondaryChance": 0.25,
+  "secondaryOutput": {
+    "id": "thermal:sawdust"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}
