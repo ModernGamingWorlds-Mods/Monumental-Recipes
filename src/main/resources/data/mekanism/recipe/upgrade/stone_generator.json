@@ -20,8 +20,8 @@
     " A "
   ],
   "result": {
-    "id": "mekanism:upgrade_stone_generator",
-    "count": 1
+    "count": 1,
+    "id": "mekanism:upgrade_stone_generator"
   },
   "neoforge:conditions": [
     {

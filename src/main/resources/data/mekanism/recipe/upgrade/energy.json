@@ -17,8 +17,8 @@
     " A "
   ],
   "result": {
-    "id": "mekanism:upgrade_energy",
-    "count": 2
+    "count": 2,
+    "id": "mekanism:upgrade_energy"
   },
   "neoforge:conditions": [
     {

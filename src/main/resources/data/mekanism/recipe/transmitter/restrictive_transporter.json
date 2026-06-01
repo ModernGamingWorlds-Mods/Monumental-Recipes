@@ -17,8 +17,8 @@
     " B "
   ],
   "result": {
-    "id": "mekanism:restrictive_transporter",
-    "count": 2
+    "count": 2,
+    "id": "mekanism:restrictive_transporter"
   },
   "neoforge:conditions": [
     {

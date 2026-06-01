@@ -17,8 +17,8 @@
     " A "
   ],
   "result": {
-    "id": "mekanism:upgrade_speed",
-    "count": 2
+    "count": 2,
+    "id": "mekanism:upgrade_speed"
   },
   "neoforge:conditions": [
     {

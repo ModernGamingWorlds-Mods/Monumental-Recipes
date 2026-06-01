@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "tag": "minecraft:logs"
+      "tag": "monumental_recipes:wooden_plates"
     },
     "O": {
       "tag": "c:ingots/osmium"
@@ -21,6 +21,10 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "mekanism"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monumental_recipes"
     }
   ]
 }

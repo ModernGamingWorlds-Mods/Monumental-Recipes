@@ -14,8 +14,8 @@
     "   "
   ],
   "result": {
-    "id": "mekanism:basic_universal_cable",
-    "count": 4
+    "count": 4,
+    "id": "mekanism:basic_universal_cable"
   },
   "neoforge:conditions": [
     {

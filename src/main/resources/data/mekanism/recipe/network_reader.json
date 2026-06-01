@@ -30,6 +30,14 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "ae2"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "alltheores"
     }
   ]
 }

@@ -17,8 +17,8 @@
     " A "
   ],
   "result": {
-    "id": "mekanism:basic_pressurized_tube",
-    "count": 4
+    "count": 4,
+    "id": "mekanism:basic_pressurized_tube"
   },
   "neoforge:conditions": [
     {

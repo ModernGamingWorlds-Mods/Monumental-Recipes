@@ -17,8 +17,8 @@
     " B "
   ],
   "result": {
-    "id": "mekanism:diversion_transporter",
-    "count": 2
+    "count": 2,
+    "id": "mekanism:diversion_transporter"
   },
   "neoforge:conditions": [
     {

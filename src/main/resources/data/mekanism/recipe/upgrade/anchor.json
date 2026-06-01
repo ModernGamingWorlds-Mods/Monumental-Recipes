@@ -17,8 +17,8 @@
     " A "
   ],
   "result": {
-    "id": "mekanism:upgrade_anchor",
-    "count": 1
+    "count": 1,
+    "id": "mekanism:upgrade_anchor"
   },
   "neoforge:conditions": [
     {

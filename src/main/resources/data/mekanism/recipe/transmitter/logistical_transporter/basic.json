@@ -5,7 +5,7 @@
       "item": "kubejs:compressed_iron_plate"
     },
     "C": {
-      "item": "enderio:glider_wing"
+      "item": "hangglider:glider_framework"
     },
     "B": {
       "tag": "c:circuits/basic"
@@ -26,7 +26,7 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "enderio"
+      "modid": "hangglider"
     },
     {
       "type": "neoforge:mod_loaded",
