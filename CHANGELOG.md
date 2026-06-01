@@ -78,3 +78,6 @@
 
 ## Version 1.0.24
 - Rebalanced some 1.20.1 recipes pt 4
+
+## Version 1.0.25
+- Ported Rebalanced 1.20.1 recipes to 1.21 hopefully
