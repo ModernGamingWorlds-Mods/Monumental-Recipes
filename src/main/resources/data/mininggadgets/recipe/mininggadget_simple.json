@@ -1,6 +1,5 @@
 {
   "type": "create:mechanical_crafting",
-  "accept_mirrored": false,
   "key": {
     "S": {
       "tag": "c:plates/diamond"
@@ -33,15 +32,16 @@
     },
     {
       "type": "neoforge:mod_loaded",
+      "modid": "alltheores"
+    },
+    {
+      "type": "neoforge:mod_loaded",
       "modid": "create"
     },
     {
       "type": "neoforge:mod_loaded",
       "modid": "enderio"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "monumental_recipes"
     }
-  ]
+  ],
+  "accept_mirrored": false
 }
