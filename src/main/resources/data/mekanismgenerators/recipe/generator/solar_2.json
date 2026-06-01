@@ -1,6 +1,5 @@
 {
   "type": "create:mechanical_crafting",
-  "accept_mirrored": false,
   "key": {
     "A": {
       "tag": "mekanism:alloys/infused"
@@ -41,6 +40,11 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "mekanism"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
     }
-  ]
+  ],
+  "accept_mirrored": false
 }

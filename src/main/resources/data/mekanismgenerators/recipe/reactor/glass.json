@@ -17,8 +17,8 @@
     "SIS"
   ],
   "result": {
-    "id": "mekanismgenerators:reactor_glass",
-    "count": 2
+    "count": 2,
+    "id": "mekanismgenerators:reactor_glass"
   },
   "neoforge:conditions": [
     {
@@ -32,6 +32,10 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "mekanism"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
     }
   ]
 }

@@ -1,6 +1,5 @@
 {
   "type": "create:mechanical_crafting",
-  "accept_mirrored": false,
   "key": {
     "P": {
       "item": "mekanismgenerators:solar_generator"
@@ -40,5 +39,6 @@
       "type": "neoforge:mod_loaded",
       "modid": "mekanism"
     }
-  ]
+  ],
+  "accept_mirrored": false
 }
