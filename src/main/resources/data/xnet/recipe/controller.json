@@ -3,7 +3,7 @@
     "pattern": ["ICI", "rFr", "jgj"],
     "key": {
         "I": {
-            "tag": "forge:sheetmetals/steel"
+            "tag": "c:sheetmetals/steel"
         },
         "C": {
             "item": "immersiveengineering:coil_mv"
