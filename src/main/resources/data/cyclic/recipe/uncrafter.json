@@ -1,1 +1,35 @@
-{}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ror",
+    "gsg",
+    "ccc"
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:calcite"
+    },
+    "s": {
+      "item": "cyclic:gem_obsidian"
+    },
+    "o": {
+      "tag": "c:obsidians"
+    },
+    "g": {
+      "item": "compressium:netherite_4"
+    },
+    "r": {
+      "item": "compressium:diamond_4"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "cyclic:uncrafter"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ]
+}
