@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:netherite_chest"
+    }
+  ],
+  "type": "sophisticatedstorage:storage_tier_upgrade_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sophisticatedstorage:diamond_chest"
+    },
+    {
+      "tag": "c:ingots/netherite"
+    },
+    {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "sophisticatedstorage:netherite_chest"
+  }
+}
