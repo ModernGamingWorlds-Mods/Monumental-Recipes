@@ -1,0 +1,33 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironchest"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "tag": "forge:glass"
+    },
+    "M": {
+      "tag": "forge:gems/diamond"
+    },
+    "S": {
+      "tag": "forge:ingots/gold"
+    },
+    "X": {
+      "tag": "forge:gears/diamond"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "MSM",
+    "GXG"
+  ],
+  "result": {
+    "item": "ironchest:gold_to_diamond_chest_upgrade"
+  },
+  "show_notification": true
+}

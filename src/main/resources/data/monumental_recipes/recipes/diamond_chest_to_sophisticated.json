@@ -1,0 +1,30 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sophisticatedstorage"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironchest"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      {
+        "item": "ironchest:diamond_chest"
+      },
+      {
+        "item": "ironchest:obsidian_chest"
+      },
+      {
+        "item": "ironchest:crystal_chest"
+      }
+    ]
+  ],
+  "result": {
+    "item": "sophisticatedstorage:diamond_chest",
+    "nbt": "{woodType:\"oak\"}"
+  }
+}
