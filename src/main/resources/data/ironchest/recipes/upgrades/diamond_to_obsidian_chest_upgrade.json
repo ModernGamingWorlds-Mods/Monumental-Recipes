@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironchest"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "mysticalagriculture:obsidian_essence"
+    },
+    "S": {
+      "item": "forge:gems/diamond"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MSM",
+    "MMM"
+  ],
+  "result": {
+    "item": "ironchest:diamond_to_obsidian_chest_upgrade"
+  },
+  "show_notification": true
+}

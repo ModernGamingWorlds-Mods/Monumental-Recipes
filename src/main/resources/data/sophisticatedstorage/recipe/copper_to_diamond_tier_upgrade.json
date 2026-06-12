@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "sophisticatedstorage"
+    },
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:copper_to_diamond_tier_upgrade"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "tag": "c:glass_blocks"
+    },
+    "D": {
+      "tag": "c:gems/diamond"
+    },
+    "T": {
+      "item": "sophisticatedstorage:copper_to_gold_tier_upgrade"
+    },
+    "g": {
+      "tag": "c:gears/diamond"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "DTD",
+    "GgG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sophisticatedstorage:copper_to_diamond_tier_upgrade"
+  }
+}
