@@ -1,0 +1,32 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sophisticatedstorage"
+    },
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:basic_to_iron_tier_upgrade"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "tag": "forge:ingots/compressed_iron"
+    },
+    "R": {
+      "item": "sophisticatedstorage:basic_to_copper_tier_upgrade"
+    },
+    "G": {
+      "tag": "forge:glass"
+    }
+  },
+  "pattern": [
+    "IGI",
+    "GRG",
+    "IGI"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:basic_to_iron_tier_upgrade"
+  }
+}

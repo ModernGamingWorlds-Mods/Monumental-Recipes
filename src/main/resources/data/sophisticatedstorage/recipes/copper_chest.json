@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sophisticatedstorage"
+    },
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:copper_chest"
+    }
+  ],
+  "type": "sophisticatedstorage:storage_tier_upgrade",
+  "key": {
+    "C": {
+      "tag": "forge:plates/copper"
+    },
+    "S": {
+      "item": "sophisticatedstorage:chest"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CSC",
+    "CCC"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:copper_chest"
+  }
+}

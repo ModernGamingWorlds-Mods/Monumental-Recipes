@@ -1,0 +1,35 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sophisticatedstorage"
+    },
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:diamond_chest"
+    }
+  ],
+  "type": "sophisticatedstorage:storage_tier_upgrade",
+  "key": {
+    "G": {
+      "tag": "forge:glass"
+    },
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "S": {
+      "item": "sophisticatedstorage:gold_chest"
+    },
+    "g": {
+      "tag": "forge:gears/diamond"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "DSD",
+    "GgG"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:diamond_chest"
+  }
+}

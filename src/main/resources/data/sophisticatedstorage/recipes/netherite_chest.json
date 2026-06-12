@@ -1,0 +1,30 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sophisticatedstorage"
+    },
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:netherite_chest"
+    }
+  ],
+  "type": "sophisticatedstorage:storage_tier_upgrade",
+  "key": {
+    "T":{
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "C":{
+      "item": "sophisticatedstorage:diamond_chest"
+    },
+    "N":{
+      "tag": "forge:ingots/netherite"
+    }
+  },
+  "pattern": [
+    "TCN"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:netherite_chest"
+  }
+}
