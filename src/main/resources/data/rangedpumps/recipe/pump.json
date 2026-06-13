@@ -8,7 +8,7 @@
       "tag": "c:tools/pickaxe"
     },
     "L": {
-      "tag": "c:ingots/obsidian"
+      "tag": "c:ingots/refined_obsidian"
     },
     "D": {
       "item": "immersiveengineering:fluid_pump"
