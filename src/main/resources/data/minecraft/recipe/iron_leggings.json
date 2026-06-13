@@ -10,7 +10,7 @@
     "id": "minecraft:iron_leggings"
   },
   "template": {
-    "tag": "monumental_recipes:chains"
+    "tag": "c:chains"
   },
   "neoforge:conditions": [
     {
