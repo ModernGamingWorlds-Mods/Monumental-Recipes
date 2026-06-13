@@ -13,7 +13,7 @@
       "tag": "c:ingots/gold"
     },
     "#": {
-      "item": "botania:redstone_root"
+      "item": "the_bumblezone:sticky_honey_redstone"
     }
   },
   "result": {
@@ -26,7 +26,7 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "botania"
+      "modid": "the_bumblezone"
     }
   ]
 }
