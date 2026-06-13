@@ -31,5 +31,6 @@
       "type": "neoforge:mod_loaded",
       "modid": "rftoolsbuilder"
     }
-  ]
+  ],
+  "accept_mirrored": false
 }
