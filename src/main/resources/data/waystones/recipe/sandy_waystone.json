@@ -8,7 +8,7 @@
       "tag": "c:sandstones"
     },
     {
-      "tag": "c:ingots/obsidian"
+      "tag": "c:ingots/refined_obsidian"
     }
   ],
   "results": [
@@ -24,10 +24,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "create"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "thermal"
     }
   ],
   "heat_requirement": "heated"

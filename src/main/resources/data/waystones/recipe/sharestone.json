@@ -8,7 +8,7 @@
       "tag": "chipped:mossy_stone_bricks"
     },
     {
-      "tag": "c:ingots/obsidian"
+      "tag": "c:ingots/refined_obsidian"
     }
   ],
   "results": [
@@ -28,10 +28,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "chipped"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "thermal"
     }
   ],
   "heat_requirement": "heated"

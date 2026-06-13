@@ -16,7 +16,7 @@
       "item": "wirelesschargers:basic_wireless_block_charger"
     },
     "D": {
-      "item": "ars_nouveau:blaze_fiber"
+      "tag": "c:leathers"
     },
     "E": {
       "tag": "c:storage_blocks/redstone_ingot"
@@ -29,10 +29,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "wirelesschargers"
-    },
-    {
-      "type": "neoforge:item_exists",
-      "item": "ars_nouveau:blaze_fiber"
     },
     {
       "type": "neoforge:mod_loaded",
