@@ -23,7 +23,7 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "create"
+      "modid": "kubejs"
     }
   ]
 }

@@ -15,7 +15,7 @@
       "item": "prefab:item_bundle_of_timber"
     },
     "c": {
-      "item": "compressium:stone_1"
+      "item": "compressedblocks:c1_stone"
     },
     "d": {
       "tag": "minecraft:beds"

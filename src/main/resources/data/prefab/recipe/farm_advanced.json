@@ -18,10 +18,10 @@
       "item": "prefab:item_pallet_of_bricks"
     },
     "d": {
-      "item": "compressium:dirt_2"
+      "item": "compressedblocks:c2_dirt"
     },
     "e": {
-      "item": "compressium:stone_2"
+      "item": "compressedblocks:c2_stone"
     },
     "f": {
       "item": "prefab:item_compressed_chest"

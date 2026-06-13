@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "B": {
-      "tag": "c:ingots/obsidian"
+      "tag": "c:ingots/refined_obsidian"
     },
     "I": {
       "tag": "c:ingots/compressed_iron"
@@ -27,10 +27,6 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "monumental_recipes"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "thermal"
     }
   ]
 }

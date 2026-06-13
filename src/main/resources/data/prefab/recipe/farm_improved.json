@@ -12,10 +12,10 @@
       "item": "prefab:item_heap_of_timber"
     },
     "b": {
-      "item": "compressium:stone_1"
+      "item": "compressedblocks:c1_stone"
     },
     "c": {
-      "item": "compressium:dirt_2"
+      "item": "compressedblocks:c2_dirt"
     },
     "d": {
       "tag": "c:buckets/water"
