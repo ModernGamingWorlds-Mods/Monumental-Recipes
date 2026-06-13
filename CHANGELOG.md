@@ -82,3 +82,6 @@
 ## Version 1.0.25
 - Ported Rebalanced 1.20.1 recipes to 1.21 hopefully
 - Fixed more 1.20.1 misc recipe issues
+
+## Version 1.0.26
+- Fixed more broken 1.21.1 recipes

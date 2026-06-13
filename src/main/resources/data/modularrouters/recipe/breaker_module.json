@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "base": {
-    "tag": "c:tools/pickaxes"
+    "tag": "minecraft:pickaxes"
   },
   "addition": {
     "item": "modularrouters:blank_module"
