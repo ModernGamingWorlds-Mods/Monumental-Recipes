@@ -3,10 +3,7 @@
   "category": "components",
   "inputs": [
     {
-      "base_ingredient": {
-        "item": "immersiveengineering:wirecoil_redstone"
-      },
-      "count": 1
+      "tag": "immersiveengineering:wirecoil_redstone"
     },
     {
       "tag": "c:dusts/ender_pearl"
@@ -20,7 +17,8 @@
   ],
   "result": {
     "id": "rftoolscontrol:advanced_network_card"
-  },
+  }
+},
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
