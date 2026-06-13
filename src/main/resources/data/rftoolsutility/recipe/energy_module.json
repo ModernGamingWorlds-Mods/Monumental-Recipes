@@ -5,7 +5,7 @@
       "tag": "c:dyes/black"
     },
     "i": {
-      "item": "ad_astra:energizer"
+      "item": "actuallyadditions:energizer"
     },
     "r": {
       "item": "extendedcrafting:redstone_component"
@@ -22,7 +22,7 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "ad_astra"
+      "modid": "actuallyadditions"
     },
     {
       "type": "neoforge:mod_loaded",
