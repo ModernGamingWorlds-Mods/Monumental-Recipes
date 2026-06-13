@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "X": {
-      "item": "ad_astra:water_pump"
+      "item": "mysticalagriculture:water_essence"
     },
     "Z": {
       "tag": "c:dyes/black"
@@ -25,7 +25,7 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "ad_astra"
+      "modid": "mysticalagriculture"
     },
     {
       "type": "neoforge:mod_loaded",
