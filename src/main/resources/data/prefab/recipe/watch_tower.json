@@ -9,10 +9,10 @@
   ],
   "key": {
     "a": {
-      "item": "compressium:stone_1"
+      "item": "compressedblocks:c1_stone"
     },
     "b": {
-      "item": "compressium:stone_2"
+      "item": "compressedblocks:c2_stone"
     },
     "c": {
       "tag": "c:storage_blocks/iron"

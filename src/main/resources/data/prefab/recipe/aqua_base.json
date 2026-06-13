@@ -21,7 +21,7 @@
       "tag": "c:storage_blocks/double_compressed_lights"
     },
     "e": {
-      "item": "compressium:stone_3"
+      "item": "compressedblocks:c3_stone"
     }
   },
   "result": {

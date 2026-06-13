@@ -9,10 +9,10 @@
   ],
   "key": {
     "a": {
-      "tag": "c:tools/pickaxe"
+      "tag": "minecraft:pickaxes"
     },
     "b": {
-      "tag": "c:tools/shovel"
+      "tag": "minecraft:shovels"
     }
   },
   "result": {

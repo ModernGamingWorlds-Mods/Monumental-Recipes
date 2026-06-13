@@ -9,7 +9,7 @@
   ],
   "key": {
     "a": {
-      "item": "compressium:stone_2"
+      "item": "compressedblocks:c2_stone"
     },
     "b": {
       "item": "prefab:item_compressed_chest"
@@ -18,7 +18,7 @@
       "tag": "c:storage_blocks/double_compressed_lights"
     },
     "d": {
-      "item": "compressium:stone_3"
+      "item": "compressedblocks:c3_stone"
     }
   },
   "result": {

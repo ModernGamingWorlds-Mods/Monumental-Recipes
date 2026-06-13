@@ -18,7 +18,7 @@
       "item": "minecraft:furnace"
     },
     "d": {
-      "item": "compressium:stone_1"
+      "item": "compressedblocks:c1_stone"
     },
     "e": {
       "tag": "minecraft:beds"

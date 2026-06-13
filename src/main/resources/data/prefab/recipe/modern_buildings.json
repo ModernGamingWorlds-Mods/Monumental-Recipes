@@ -12,16 +12,16 @@
       "tag": "c:storage_blocks/compressed_lights"
     },
     "b": {
-      "item": "compressium:stone_1"
+      "item": "compressedblocks:c1_stone"
     },
     "c": {
-      "item": "compressium:stone_2"
+      "item": "compressedblocks:c2_stone"
     },
     "d": {
       "tag": "c:storage_blocks/iron"
     },
     "e": {
-      "item": "compressium:quartz_1"
+      "item": "compressedblocks:c1_quartz_block"
     }
   },
   "result": {

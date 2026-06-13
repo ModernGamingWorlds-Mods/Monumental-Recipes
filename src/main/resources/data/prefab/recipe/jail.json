@@ -12,13 +12,13 @@
       "item": "minecraft:iron_bars"
     },
     "b": {
-      "item": "compressium:stone_3"
+      "item": "compressedblocks:c3_stone"
     },
     "c": {
-      "item": "compressium:dirt_2"
+      "item": "compressedblocks:c2_dirt"
     },
     "d": {
-      "item": "compressium:stone_2"
+      "item": "compressedblocks:c2_stone"
     }
   },
   "result": {
