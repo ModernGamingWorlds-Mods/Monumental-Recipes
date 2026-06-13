@@ -4,7 +4,7 @@
     "item": "minecraft:chainmail_leggings"
   },
   "addition": {
-    "tag": "monumental_recipes:cloth"
+    "tag": "monumental_recipes:cloths"
   },
   "result": {
     "id": "forbidden_arcanus:mortem_leggings"
