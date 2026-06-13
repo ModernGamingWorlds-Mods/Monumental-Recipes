@@ -7,7 +7,7 @@
     "tag": "c:rods/iron"
   },
   "result": {
-    "id": "rechiseled:chisel"
+    "id": "chipped:chisel"
   },
   "template": {
     "tag": "c:stones"
@@ -19,7 +19,7 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "chiselsandbits"
+      "modid": "chipped"
     }
   ]
 }
