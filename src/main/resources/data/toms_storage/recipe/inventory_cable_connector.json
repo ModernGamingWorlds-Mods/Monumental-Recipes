@@ -16,7 +16,7 @@
       "tag": "c:gems/diamond"
     },
     "C": {
-      "item": "toms_storage:ts.inventory_cable"
+      "item": "toms_storage:inventory_cable"
     },
     "E": {
       "tag": "c:ender_pearls"
@@ -26,7 +26,7 @@
     }
   },
   "result": {
-    "id": "toms_storage:ts.inventory_cable_connector"
+    "id": "toms_storage:inventory_cable_connector"
   },
   "neoforge:conditions": [
     {

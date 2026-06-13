@@ -17,8 +17,8 @@
     }
   },
   "result": {
-    "id": "refinedstorage:64b_fluid_storage_part",
-    "count": 1
+    "count": 1,
+    "id": "refinedstorage:64b_fluid_storage_part"
   },
   "neoforge:conditions": [
     {
@@ -27,11 +27,11 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "extendedcrafting"
+      "modid": "ae2"
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "ae2"
+      "modid": "extendedcrafting"
     },
     {
       "type": "neoforge:mod_loaded",

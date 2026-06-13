@@ -5,7 +5,7 @@
       "item": "handcrafted:witch_trophy"
     },
     "D": {
-      "item": "easy_mob_farm:witch_bottle"
+      "item": "herbalbrews:witch_hat"
     }
   },
   "pattern": [
@@ -17,6 +17,14 @@
     "id": "reliquary:witch_hat"
   },
   "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "handcrafted"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "herbalbrews"
+    },
     {
       "type": "neoforge:mod_loaded",
       "modid": "reliquary"

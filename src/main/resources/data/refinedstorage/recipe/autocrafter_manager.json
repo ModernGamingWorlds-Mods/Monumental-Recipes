@@ -23,7 +23,7 @@
     "PCG"
   ],
   "result": {
-    "id": "refinedstorage:autocrafter_manager"
+    "id": "refinedstorage:autocrafter_monitor"
   },
   "neoforge:conditions": [
     {
