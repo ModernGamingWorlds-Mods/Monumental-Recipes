@@ -14,7 +14,7 @@
       "tag": "c:sheetmetals/steel"
     },
     "s": {
-      "item": "cyclic:eye_redstone"
+      "item": "redstonepen:control_box"
     }
   },
   "pattern": [
@@ -32,6 +32,10 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "rftoolsutility"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "redstonepen"
     }
   ],
   "accept_mirrored": false
