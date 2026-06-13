@@ -12,7 +12,7 @@
       "tag": "c:storage_blocks/coal"
     },
     {
-      "tag": "c:clocks"
+      "item": "minecraft:clock"
     }
   ],
   "result": {
