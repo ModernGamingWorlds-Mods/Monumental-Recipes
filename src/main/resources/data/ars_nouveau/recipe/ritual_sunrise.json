@@ -15,7 +15,7 @@
       "item": "minecraft:dandelion"
     },
     {
-      "tag": "c:clocks"
+      "item": "minecraft:clock"
     }
   ],
   "result": {

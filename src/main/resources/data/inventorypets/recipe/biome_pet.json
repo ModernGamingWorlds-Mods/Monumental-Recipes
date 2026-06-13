@@ -10,13 +10,13 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "A": {
-      "tag": "c:sand"
+      "tag": "c:sands"
     },
     "R": {
-      "tag": "c:gravel"
+      "tag": "c:gravels"
     },
     "T": {
-      "tag": "c:cobblestone"
+      "tag": "c:cobblestones"
     },
     "D": {
       "tag": "c:gems/diamond"
