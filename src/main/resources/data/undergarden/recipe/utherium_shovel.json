@@ -4,7 +4,7 @@
     "item": "minecraft:diamond_shovel"
   },
   "addition": {
-    "tag": "c:ingots/utherium"
+    "tag": "c:gems/utherium"
   },
   "result": {
     "id": "undergarden:utherium_shovel"

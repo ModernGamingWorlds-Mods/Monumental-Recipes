@@ -1,6 +1,5 @@
 {
   "type": "create:mechanical_crafting",
-  "accept_mirrored": false,
   "key": {
     "P": {
       "item": "refinedstorage:improved_processor"
@@ -36,5 +35,6 @@
       "type": "neoforge:mod_loaded",
       "modid": "monumental_recipes"
     }
-  ]
+  ],
+  "accept_mirrored": false
 }

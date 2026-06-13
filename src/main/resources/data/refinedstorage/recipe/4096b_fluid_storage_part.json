@@ -17,8 +17,8 @@
     }
   },
   "result": {
-    "id": "refinedstorage:4096b_fluid_storage_part",
-    "count": 1
+    "count": 1,
+    "id": "refinedstorage:4096b_fluid_storage_part"
   },
   "neoforge:conditions": [
     {

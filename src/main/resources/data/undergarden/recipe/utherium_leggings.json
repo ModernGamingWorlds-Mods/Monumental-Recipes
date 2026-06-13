@@ -4,7 +4,7 @@
     "item": "minecraft:netherite_leggings"
   },
   "addition": {
-    "tag": "c:ingots/utherium"
+    "tag": "c:gems/utherium"
   },
   "result": {
     "id": "undergarden:utherium_leggings"

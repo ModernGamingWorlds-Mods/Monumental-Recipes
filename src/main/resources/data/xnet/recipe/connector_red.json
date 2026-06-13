@@ -20,7 +20,7 @@
     "1r1"
   ],
   "result": {
-    "id": "xnet:connector_red",
+    "id": "xnet:netcable_red",
     "count": 2
   },
   "neoforge:conditions": [

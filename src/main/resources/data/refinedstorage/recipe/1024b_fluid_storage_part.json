@@ -17,8 +17,8 @@
     }
   },
   "result": {
-    "id": "refinedstorage:1024b_fluid_storage_part",
-    "count": 1
+    "count": 1,
+    "id": "refinedstorage:1024b_fluid_storage_part"
   },
   "neoforge:conditions": [
     {

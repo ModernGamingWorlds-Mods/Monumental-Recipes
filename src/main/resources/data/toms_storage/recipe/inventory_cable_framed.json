@@ -7,7 +7,7 @@
   ],
   "key": {
     "C": {
-      "item": "toms_storage:ts.inventory_cable"
+      "item": "toms_storage:inventory_cable"
     },
     "S": {
       "tag": "c:rods/wooden"
@@ -15,7 +15,7 @@
   },
   "result": {
     "count": 1,
-    "id": "toms_storage:ts.inventory_cable_framed"
+    "id": "toms_storage:inventory_cable_framed"
   },
   "neoforge:conditions": [
     {

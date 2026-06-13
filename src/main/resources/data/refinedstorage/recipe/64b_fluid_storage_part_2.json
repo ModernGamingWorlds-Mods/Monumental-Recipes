@@ -1,6 +1,5 @@
 {
   "type": "create:mechanical_crafting",
-  "accept_mirrored": false,
   "key": {
     "X": {
       "tag": "monumental_recipes:tanks"
@@ -30,15 +29,16 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "create"
+      "modid": "ae2"
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "ae2"
+      "modid": "create"
     },
     {
       "type": "neoforge:mod_loaded",
       "modid": "monumental_recipes"
     }
-  ]
+  ],
+  "accept_mirrored": false
 }
