@@ -9,7 +9,7 @@
     {
       "type": "pneumaticcraft:stacked_item",
       "count": 2,
-      "tag": "monumental_recipes:cloth"
+      "tag": "monumental_recipes:cloths"
     },
     {
       "type": "pneumaticcraft:stacked_item",
@@ -46,3 +46,5 @@
     }
   ]
 }
+
+
