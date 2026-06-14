@@ -3,7 +3,7 @@
   "accept_mirrored": false,
   "key": {
     "X": {
-      "tag": "c:treated_wood"
+      "tag": "immersiveengineering:treated_wood"
     },
     "T": {
       "item": "immersiveengineering:electron_tube"
