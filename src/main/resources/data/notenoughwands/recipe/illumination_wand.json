@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "base": {
-    "item": "mekanism:refined_glowstone_ingot"
+    "item": "mekanism:ingot_refined_glowstone"
   },
   "addition": {
     "item": "notenoughwands:wand_core"
