@@ -19,7 +19,7 @@
       "tag": "c:ingots/gold"
     },
     "O": {
-      "item": "compressium:obsidian_2"
+      "item": "compressedblocks:c1_obsidian"
     }
   },
   "neoforge:conditions": [

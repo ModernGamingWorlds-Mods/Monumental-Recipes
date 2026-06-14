@@ -19,7 +19,7 @@
       "tag": "c:ingots/gold"
     },
     "O": {
-      "item": "compressium:emerald_3"
+      "item": "compressedblocks:c2_emerald_block"
     }
   },
   "neoforge:conditions": [

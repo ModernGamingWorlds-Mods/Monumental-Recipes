@@ -19,7 +19,7 @@
       "tag": "c:ingots/gold"
     },
     "O": {
-      "item": "compressium:cobblestone_3"
+      "item": "compressedblocks:c2_cobblestone"
     }
   },
   "neoforge:conditions": [

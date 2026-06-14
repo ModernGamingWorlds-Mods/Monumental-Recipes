@@ -16,7 +16,7 @@
       "tag": "c:nether_stars"
     },
     "O": {
-      "item": "compressium:emerald_4"
+      "item": "compressedblocks:c3_emerald_block"
     }
   },
   "neoforge:conditions": [

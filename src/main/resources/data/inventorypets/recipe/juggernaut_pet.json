@@ -19,7 +19,7 @@
       "tag": "c:nether_stars"
     },
     "O": {
-      "item": "compressium:redstone_2"
+      "item": "compressedblocks:c1_redstone_block"
     }
   },
   "neoforge:conditions": [
