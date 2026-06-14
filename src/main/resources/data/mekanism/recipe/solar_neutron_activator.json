@@ -32,10 +32,6 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "thermal"
-    },
-    {
-      "type": "neoforge:mod_loaded",
       "modid": "alltheores"
     }
   ]
