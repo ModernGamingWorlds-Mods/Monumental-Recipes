@@ -1,47 +1,43 @@
 {
   "type": "occultism:ritual",
-  "ritual_type": "occultism:craft",
   "activation_item": {
     "item": "occultism:book_of_binding_bound_djinni"
   },
-  "pentacle_id": "occultism:craft_djinni",
-  "duration": 60,
-  "ritual_dummy": {
-    "item": "occultism:ritual_dummy/craft_soul_gem"
-  },
+  "duration": 150,
   "ingredients": [
     {
       "item": "mysticalagriculture:diamond_essence"
     },
     {
-      "tag": "c:ingots/copper"
+      "item": "mysticalagriculture:copper_essence"
     },
     {
-      "tag": "c:ingots/silver"
+      "item": "mysticalagriculture:silver_essence"
     },
     {
-      "tag": "c:ingots/gold"
+      "item": "mysticalagriculture:gold_essence"
     },
     {
-      "item": "minecraft:soul_sand"
+      "item": "occultism:fragile_soul_gem"
     },
     {
-      "item": "minecraft:soul_sand"
+      "tag": "minecraft:soul_fire_base_blocks"
     },
     {
-      "item": "minecraft:soul_sand"
+      "tag": "minecraft:soul_fire_base_blocks"
     },
     {
-      "item": "minecraft:soul_sand"
+      "tag": "minecraft:soul_fire_base_blocks"
     }
   ],
+  "pentacle_id": "occultism:craft_djinni",
   "result": {
+    "count": 1,
     "id": "occultism:soul_gem"
   },
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "occultism"
-    }
-  ]
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/craft_soul_gem"
+  },
+  "ritual_type": "occultism:craft"
 }
