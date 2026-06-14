@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "key": {
     "d": {
       "tag": "c:dyes/blue"
@@ -17,11 +18,14 @@
     "ppp"
   ],
   "result": {
-    "id": "immersiveengineering:blueprint",
-    "nbt": {
-      "blueprint": "components"
-    }
+    "components": {
+      "immersiveengineering:blueprint": "components"
+    },
+    "count": 1,
+    "id": "immersiveengineering:blueprint"
   },
+  "show_notification": false
+},
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
