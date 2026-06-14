@@ -6,33 +6,20 @@
     " GY"
   ],
   "key": {
-    "I": [
-      {
-        "tag": "c:plates/iron"
-      }
-    ],
-    "Y": [
-      {
-        "tag": "chipped:yellow_wool"
-      }
-    ],
-    "G": [
-      {
-        "tag": "c:strings"
-      }
-    ]
+    "A": {
+      "item": "meadow:pine_planks"
+    },
+    "B": {
+      "tag": "monumental_recipes:tools/hammers"
+    }
   },
   "result": {
-    "id": "measurements:tape_measure"
+    "item": "meadow:pine_pressure_plate"
   },
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "measurements"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "chipped"
+      "modid": "meadow"
     }
   ]
 }
