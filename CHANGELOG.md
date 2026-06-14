@@ -85,3 +85,6 @@
 
 ## Version 1.0.26
 - Fixed more broken 1.21.1 recipes
+
+## Version 1.0.27
+- Fixed more broken 1.21.1 recipes pt 2
