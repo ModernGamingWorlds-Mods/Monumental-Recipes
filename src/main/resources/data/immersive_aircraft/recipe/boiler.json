@@ -16,7 +16,7 @@
       "item": "create:steam_engine"
     },
     "C": {
-      "tag": "c:player_workstations/furnaces"
+      "tag": "c:furnaces"
     },
     "D": {
       "tag": "c:plates/aluminum"
