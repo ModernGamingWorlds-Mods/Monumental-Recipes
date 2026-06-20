@@ -15,10 +15,10 @@
       "tag": "c:storage_blocks/double_compressed_lights"
     },
     "c": {
-      "item": "compressium:stone_3"
+      "item": "compressedblocks:c2_stone"
     },
     "d": {
-      "item": "compressium:obsidian_2"
+      "item": "compressedblocks:c1_obsidian"
     }
   },
   "result": {
