@@ -12,7 +12,7 @@
       "tag": "c:glass_blocks"
     },
     "b": {
-      "item": "compressium:stone_1"
+      "item": "compressedblocks:c1_stone"
     },
     "c": {
       "item": "minecraft:sea_lantern"
