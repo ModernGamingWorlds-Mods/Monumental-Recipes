@@ -1,6 +1,22 @@
 {
-  "type": "prefab:condition_crafting_shaped",
+  "type": "minecraft:crafting_shaped",
   "configName": "Improved Warehouse",
+  "fabric:load_conditions": [
+    {
+      "condition": "prefab:recipe_enabled",
+      "configName": "Improved Warehouse"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "prefab:recipe_enabled",
+      "value": "Improved Warehouse"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "compressedblocks"
+    }
+  ],
   "group": "Improved Warehouse",
   "pattern": [
     "aba",
@@ -9,7 +25,7 @@
   ],
   "key": {
     "a": {
-      "item": "compressedblocks:c2_stone"
+      "item": "compressedblocks:c1_stone"
     },
     "b": {
       "item": "prefab:item_upgrade"
@@ -18,20 +34,14 @@
       "item": "prefab:item_compressed_chest"
     },
     "d": {
-      "tag": "c:storage_blocks/double_compressed_lights"
+      "tag": "c:double_compressed_lights"
     },
     "e": {
-      "item": "compressedblocks:c3_stone"
+      "item": "compressedblocks:c2_stone"
     }
   },
   "result": {
-    "count": 1,
-    "id": "prefab:item_warehouse_improved"
-  },
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "prefab"
-    }
-  ]
+    "id": "prefab:item_warehouse_improved",
+    "count": 1
+  }
 }

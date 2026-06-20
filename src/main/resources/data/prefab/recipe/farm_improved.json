@@ -1,6 +1,22 @@
 {
-  "type": "prefab:condition_crafting_shaped",
+  "type": "minecraft:crafting_shaped",
   "configName": "Moderate Farm",
+  "fabric:load_conditions": [
+    {
+      "condition": "prefab:recipe_enabled",
+      "configName": "Moderate Farm"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "prefab:recipe_enabled",
+      "value": "Moderate Farm"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "prefab"
+    }
+  ],
   "group": "Moderate Farm",
   "pattern": [
     "aba",
@@ -12,10 +28,10 @@
       "item": "prefab:item_heap_of_timber"
     },
     "b": {
-      "item": "compressedblocks:c1_stone"
+      "item": "compressedblocks:c0_stone"
     },
     "c": {
-      "item": "compressedblocks:c2_dirt"
+      "item": "compressedblocks:c1_dirt"
     },
     "d": {
       "tag": "c:buckets/water"
@@ -25,13 +41,7 @@
     }
   },
   "result": {
-    "count": 1,
-    "id": "prefab:item_farm_improved"
-  },
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "prefab"
-    }
-  ]
+    "id": "prefab:item_farm_improved",
+    "count": 1
+  }
 }

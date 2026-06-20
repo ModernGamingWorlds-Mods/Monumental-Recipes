@@ -1,6 +1,22 @@
 {
-  "type": "prefab:condition_crafting_shaped",
+  "type": "minecraft:crafting_shaped",
   "configName": "Bulldozer",
+  "fabric:load_conditions": [
+    {
+      "condition": "prefab:recipe_enabled",
+      "configName": "Bulldozer"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "prefab:recipe_enabled",
+      "value": "Bulldozer"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "prefab"
+    }
+  ],
   "group": "Bulldozer",
   "pattern": [
     "a a",
@@ -16,13 +32,7 @@
     }
   },
   "result": {
-    "count": 1,
-    "id": "prefab:item_bulldozer"
-  },
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "prefab"
-    }
-  ]
+    "id": "prefab:item_bulldozer",
+    "count": 1
+  }
 }

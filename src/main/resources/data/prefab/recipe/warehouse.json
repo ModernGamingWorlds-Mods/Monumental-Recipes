@@ -1,6 +1,22 @@
 {
-  "type": "prefab:condition_crafting_shaped",
+  "type": "minecraft:crafting_shaped",
   "configName": "Warehouse",
+  "fabric:load_conditions": [
+    {
+      "condition": "prefab:recipe_enabled",
+      "configName": "Warehouse"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "prefab:recipe_enabled",
+      "value": "Warehouse"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "compressedblocks"
+    }
+  ],
   "group": "Warehouse",
   "pattern": [
     "a a",
@@ -9,26 +25,20 @@
   ],
   "key": {
     "a": {
-      "item": "compressedblocks:c2_stone"
+      "item": "compressedblocks:c1_stone"
     },
     "b": {
       "item": "prefab:item_compressed_chest"
     },
     "c": {
-      "tag": "c:storage_blocks/double_compressed_lights"
+      "tag": "c:double_compressed_lights"
     },
     "d": {
-      "item": "compressedblocks:c3_stone"
+      "item": "compressedblocks:c2_stone"
     }
   },
   "result": {
-    "count": 1,
-    "id": "prefab:item_warehouse"
-  },
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "prefab"
-    }
-  ]
+    "id": "prefab:item_warehouse",
+    "count": 1
+  }
 }

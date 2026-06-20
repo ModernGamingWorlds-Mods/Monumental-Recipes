@@ -1,6 +1,22 @@
 {
-  "type": "prefab:condition_crafting_shaped",
+  "type": "minecraft:crafting_shaped",
   "configName": "Villager Houses",
+  "fabric:load_conditions": [
+    {
+      "condition": "prefab:recipe_enabled",
+      "configName": "Villager Houses"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "prefab:recipe_enabled",
+      "value": "Villager Houses"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "compressedblocks"
+    }
+  ],
   "group": "Villager Houses",
   "pattern": [
     "aaa",
@@ -12,17 +28,11 @@
       "item": "prefab:item_bundle_of_timber"
     },
     "b": {
-      "item": "compressedblocks:c1_stone"
+      "item": "compressedblocks:c0_stone"
     }
   },
   "result": {
-    "count": 1,
-    "id": "prefab:item_villager_houses"
-  },
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "prefab"
-    }
-  ]
+    "id": "prefab:item_villager_houses",
+    "count": 1
+  }
 }

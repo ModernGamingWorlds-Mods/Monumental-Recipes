@@ -1,6 +1,22 @@
 {
-  "type": "prefab:condition_crafting_shaped",
+  "type": "minecraft:crafting_shaped",
   "configName": "Modern Buildings",
+  "fabric:load_conditions": [
+    {
+      "condition": "prefab:recipe_enabled",
+      "configName": "Modern Buildings"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "prefab:recipe_enabled",
+      "value": "Modern Buildings"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "compressedblocks"
+    }
+  ],
   "group": "Modern Buildings",
   "pattern": [
     "a a",
@@ -9,26 +25,20 @@
   ],
   "key": {
     "a": {
-      "tag": "c:storage_blocks/double_compressed_lights"
+      "tag": "c:double_compressed_lights"
     },
     "b": {
-      "item": "compressedblocks:c2_stone"
+      "item": "compressedblocks:c1_stone"
     },
     "c": {
       "tag": "c:storage_blocks/iron"
     },
     "d": {
-      "item": "compressedblocks:c2_quartz_block"
+      "item": "compressedblocks:c1_quartz_block"
     }
   },
   "result": {
-    "count": 1,
-    "id": "prefab:item_modern_buildings_improved"
-  },
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "prefab"
-    }
-  ]
+    "id": "prefab:item_modern_buildings_improved",
+    "count": 1
+  }
 }

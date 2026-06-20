@@ -1,6 +1,22 @@
 {
-  "type": "prefab:condition_crafting_shaped",
+  "type": "minecraft:crafting_shaped",
   "configName": "Farm",
+  "fabric:load_conditions": [
+    {
+      "condition": "prefab:recipe_enabled",
+      "configName": "Farm"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "prefab:recipe_enabled",
+      "value": "Farm"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "prefab"
+    }
+  ],
   "group": "Farm",
   "pattern": [
     "aaa",
@@ -9,13 +25,13 @@
   ],
   "key": {
     "a": {
-      "tag": "c:seeds/wheat"
+      "item": "minecraft:wheat_seeds"
     },
     "b": {
       "item": "prefab:item_bundle_of_timber"
     },
     "c": {
-      "item": "compressedblocks:c1_dirt"
+      "item": "compressedblocks:c0_dirt"
     },
     "d": {
       "tag": "minecraft:wool"
@@ -25,13 +41,7 @@
     }
   },
   "result": {
-    "count": 1,
-    "id": "prefab:item_farm"
-  },
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "prefab"
-    }
-  ]
+    "id": "prefab:item_farm",
+    "count": 1
+  }
 }

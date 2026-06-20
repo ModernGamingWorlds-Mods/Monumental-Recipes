@@ -1,6 +1,22 @@
 {
-  "type": "prefab:condition_crafting_shaped",
+  "type": "minecraft:crafting_shaped",
   "configName": "Defense Bunker",
+  "fabric:load_conditions": [
+    {
+      "condition": "prefab:recipe_enabled",
+      "configName": "Defense Bunker"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "compressedblocks"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "prefab:recipe_enabled",
+      "value": "Defense Bunker"
+    }
+  ],
   "group": "Defense Bunker",
   "pattern": [
     "aba",
@@ -12,7 +28,7 @@
       "tag": "c:storage_blocks/iron"
     },
     "b": {
-      "tag": "c:storage_blocks/double_compressed_lights"
+      "tag": "c:double_compressed_lights"
     },
     "c": {
       "item": "compressedblocks:c2_stone"
@@ -22,13 +38,7 @@
     }
   },
   "result": {
-    "count": 1,
-    "id": "prefab:item_defense_bunker"
-  },
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "prefab"
-    }
-  ]
+    "id": "prefab:item_defense_bunker",
+    "count": 1
+  }
 }
