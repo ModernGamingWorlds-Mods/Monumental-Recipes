@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "compressium:cobblestone_1"
+      "item": "compressedblocks:c1_cobblestone"
     },
     "R": {
       "tag": "c:dusts/redstone"
@@ -19,7 +19,7 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "compressium"
+      "modid": "compressedblocks"
     }
   ]
 }
