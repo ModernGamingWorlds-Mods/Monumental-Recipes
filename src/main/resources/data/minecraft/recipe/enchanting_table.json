@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "compressium:obsidian_1"
+      "item": "compressedblocks:c1_obsidian"
     },
     "B": {
       "tag": "c:books"
@@ -22,11 +22,7 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "compressium"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "thermal"
+      "modid": "compressedblocks"
     },
     {
       "type": "neoforge:mod_loaded",
