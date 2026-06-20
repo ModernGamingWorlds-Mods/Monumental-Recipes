@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "mysticalagriculture:emerald_essence"
+    },
+    "G": {
+      "item": "mysticalagriculture:gold_essence"
+    },
+    "L": {
+      "tag": "monumental_recipes:wooden_plates"
+    },
+    "T": {
+      "item": "minecraft:fire_charge"
+    }
+  },
+  "pattern": [
+    "GTG",
+    "#L#",
+    "#L#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "magnumtorch:emerald_magnum_torch"
+  }
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "magnumtorch"
+    }
+  ]
+}
