@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:ghast_tear"
+      "item": "mysticalagriculture:ghast_essence"
     },
     {
       "item": "reliquary:nebulous_heart"
