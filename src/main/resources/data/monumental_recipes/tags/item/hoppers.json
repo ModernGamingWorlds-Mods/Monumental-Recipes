@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#botanypotstiers:elite_hopper_botany_pots",
+    "#botanypotstiers:ultra_hopper_botany_pots",
+    "#botanypotstiers:mega_hopper_botany_pots",
+    "#botanypotstiers:regular_hopper_botany_pots",
+    "minecraft:hopper",
+    "securitycraft:reinforced_hopper",
+    "essentials:sorting_hopper",
+    "essentials:speed_hopper",
+    "framedblocks:framed_hopper",
+    "toms_storage:basic_inventory_hopper"
+  ]
+}
