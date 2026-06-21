@@ -9,7 +9,7 @@
       "tag": "c:ingots/netherite"
     },
     "B": {
-      "tag": "c:books"
+      "item": "minecraft:book"
     },
     "T": {
       "item": "enchantinginfuser:enchanting_infuser"
