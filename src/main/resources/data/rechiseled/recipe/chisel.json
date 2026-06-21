@@ -1,13 +1,13 @@
 {
   "type": "minecraft:smithing_transform",
   "base": {
-    "item": "chiselsandbits:chisel_stone"
+    "item": "chipped:chisel"
   },
   "addition": {
     "tag": "c:rods/iron"
   },
   "result": {
-    "id": "chipped:chisel"
+    "id": "rechiseled:chisel"
   },
   "template": {
     "tag": "c:stones"
