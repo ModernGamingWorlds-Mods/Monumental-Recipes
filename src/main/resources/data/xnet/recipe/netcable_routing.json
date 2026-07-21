@@ -7,7 +7,7 @@
   ],
   "key": {
     "A": {
-      "tag": "thermal:rockwool"
+      "item": "biomeswevegone:rocky_stone"
     },
     "B": {
       "item": "extendedcrafting:redstone_ingot"
@@ -17,25 +17,21 @@
     }
   },
   "result": {
-    "item": "xnet:netcable_routing",
+    "id": "xnet:netcable_routing",
     "count": 16
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "xnet"
     },
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "extendedcrafting"
     },
     {
-      "type": "forge:mod_loaded",
-      "modid": "computercraft"
-    },,
-    {
-      "type": "forge:mod_loaded",
-      "modid": "computercraft"
+      "type": "neoforge:mod_loaded",
+      "modid": "biomeswevegone"
     }
   ]
 }

@@ -93,3 +93,6 @@
 - Fixed broken 1.21 recipes
 - Added mising 1.21 custom tags
 - Added missing 1.21 custom loot tables
+
+## Version 1.0.29
+- Fixed broken 1.21 recipes
