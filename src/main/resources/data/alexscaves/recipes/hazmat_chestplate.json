@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:leather_chestplate"
+  },
+  "addition": {
+    "tag": "forge:dyes/yellow"
+  },
+  "result": {
+    "item": "alexscaves:hazmat_chestplate"
+  },
+  "template": {
+    "item": "alexscaves:polymer_plate"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ]
+}
