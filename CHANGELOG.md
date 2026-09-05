@@ -113,3 +113,7 @@
 ## Version 1.0.35
 - (1.20.1) Added Faktocraft support
 - Bumped mod version
+
+## Version 1.0.35
+- (1.20.1) Fixed worldgen crash
+- Bumped mod version
