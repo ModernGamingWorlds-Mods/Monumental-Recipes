@@ -117,3 +117,7 @@
 ## Version 1.0.36
 - (1.20.1) Fixed worldgen crash
 - Bumped mod version
+
+## Version 1.0.36
+- (1.20.1) Disabled Create, Forestry, and Ice and Fire Ore Gen
+- Bumped mod version
