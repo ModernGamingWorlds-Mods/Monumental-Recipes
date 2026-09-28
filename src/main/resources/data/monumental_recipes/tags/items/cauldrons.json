@@ -2,9 +2,12 @@
   "values": [
       "ars_nouveau:wixie_cauldron",
       "hexerei:mixing_cauldron",
+      "herbalbrews:cauldron"
       "minecraft:cauldron",
-      "mcwholidays:cauldron",
+      "meadow:wooden_cauldron",
+      "mcwholidays:witch_cauldron",
       "reliquary:apothecary_cauldron",
-      "securitycraft:reinforced_cauldron"
+      "securitycraft:reinforced_cauldron",
+      "theurgy:liquefaction_cauldron"
   ]
 }

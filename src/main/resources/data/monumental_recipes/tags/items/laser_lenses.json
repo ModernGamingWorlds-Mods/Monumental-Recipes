@@ -1,19 +1,21 @@
 {
   "values": [
-    "industrialforegoing:laser_lens0",
-    "industrialforegoing:laser_lens1",
-    "industrialforegoing:laser_lens2",
-    "industrialforegoing:laser_lens3",
-    "industrialforegoing:laser_lens5",
-    "industrialforegoing:laser_lens6",
-    "industrialforegoing:laser_lens7",
-    "industrialforegoing:laser_lens8",
-    "industrialforegoing:laser_lens9",
-    "industrialforegoing:laser_lens10",
-    "industrialforegoing:laser_lens11",
-    "industrialforegoing:laser_lens12",
-    "industrialforegoing:laser_lens13",
-    "industrialforegoing:laser_lens14",
-    "industrialforegoing:laser_lens15"
+    "industrialforegoing:white_laser_lens",
+    "industrialforegoing:orange_laser_lens",
+    "industrialforegoing:magenta_laser_lens",
+    "industrialforegoing:light_blue_laser_lens",
+    "industrialforegoing:yellow_laser_lens",
+    "industrialforegoing:lime_laser_lens",
+    "industrialforegoing:pink_laser_lens",
+    "industrialforegoing:gray_laser_lens",
+    "industrialforegoing:light_gray_laser_lens",
+    "industrialforegoing:cyan_laser_lens",
+    "industrialforegoing:purple_laser_lens",
+    "industrialforegoing:blue_laser_lens",
+    "industrialforegoing:brown_laser_lens",
+    "industrialforegoing:green_laser_lens",
+    "industrialforegoing:red_laser_lens",
+    "industrialforegoing:black_laser_lens",
+    "ifwootaddon:stygian_laser_lens"
   ]
 }

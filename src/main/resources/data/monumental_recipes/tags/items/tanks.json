@@ -12,10 +12,6 @@
     "cyclic:tank",
     "enderio:pressurized_fluid_tank",
     "enderio:fluid_tank",
-    "tconstruct:scorched_ingot_tank",
-    "tconstruct:scorched_fuel_tank",
-    "tconstruct:seared_ingot_tank",
-    "tconstruct:seared_fuel_tank",
     "forestry:raintank"
   ]
 }

@@ -3,9 +3,13 @@
     "framedblocks:framed_hammer",
     "mcwroofs:roofing_hammer",
     "mcwwindows:hammer",
+    "minecolonies:assistanthammer_gold",
+    "minecolonies:assistanthammer_iron",
+    "minecolonies:assistanthammer_diamond",
     "handcrafted:hammer",
+    "hexerei:warhammer",
     "grimoireofgaia:minotaur_hammer",
     "immersiveengineering:hammer",
-    "kubejs:wooden_hammer"
+    "woot_revived:stygian_hammer"
   ]
 }

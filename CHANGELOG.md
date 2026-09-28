@@ -121,3 +121,7 @@
 ## Version 1.0.36
 - (1.20.1) Disabled Create, Forestry, and Ice and Fire Ore Gen
 - Bumped mod version
+
+## Version 1.0.39
+- (1.20.1) Recipe, Loot Tables, Tags, and more revamp
+- Bumped mod version
