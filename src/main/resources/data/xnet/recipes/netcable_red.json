@@ -8,7 +8,7 @@
       "tag": "forge:plates/gold"
     },
     "r": {
-      "item": "extendedcrafting:redstone_component"
+      "tag": "monumental_recipes:redstone_components"
     },
     "s": {
       "item": "mysticalagriculture:spider_essence"
@@ -30,15 +30,7 @@
     },
     {
       "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
       "modid": "mysticalagriculture"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
     }
   ]
 }

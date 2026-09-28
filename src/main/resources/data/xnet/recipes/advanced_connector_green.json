@@ -11,7 +11,7 @@
       "tag": "forge:ender_pearls"
     },
     "r": {
-      "item": "extendedcrafting:redstone_component"
+      "tag": "monumental_recipes:redstone_components"
     }
   },
   "pattern": [
@@ -30,10 +30,6 @@
     {
       "type": "forge:mod_loaded",
       "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
     }
   ]
 }

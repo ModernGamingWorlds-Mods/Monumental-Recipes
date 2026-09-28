@@ -13,7 +13,7 @@
       "item": "immersiveengineering:electron_tube"
     },
     "C": {
-      "item": "extendedcrafting:redstone_component"
+      "tag": "monumental_recipes:redstone_components"
     },
     "D": {
       "item": "rftoolsbase:machine_frame"
@@ -39,23 +39,11 @@
     },
     {
       "type": "forge:mod_loaded",
-      "modid": "extendedcrafting"
-    },
-    {
-      "type": "forge:mod_loaded",
       "modid": "rftoolsbase"
     },
     {
       "type": "forge:item_exists",
       "item": "kubejs:compressed_iron_plate"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "monumental_recipes"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
     }
   ]
 }
