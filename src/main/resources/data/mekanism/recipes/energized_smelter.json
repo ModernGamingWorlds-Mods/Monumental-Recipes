@@ -8,7 +8,7 @@
       "tag": "forge:circuits/basic"
     },
     "C": {
-      "item": "extendedcrafting:redstone_component"
+      "tag": "monumental_recipes:redstone_components"
     },
     "D": {
       "item": "mekanism:steel_casing"

@@ -11,7 +11,7 @@
       "item": "pneumaticcraft:compressed_iron_gear"
     },
     "D": {
-      "item": "extendedcrafting:redstone_component"
+      "tag": "monumental_recipes:redstone_components"
     }
   },
   "pattern": [

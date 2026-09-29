@@ -8,7 +8,7 @@
       "item": "mysticalagriculture:enderman_essence"
     },
     {
-      "item": "extendedcrafting:redstone_component"
+      "tag": "monumental_recipes:redstone_components"
     },
     {
       "item": "minecraft:observer"

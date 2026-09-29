@@ -8,7 +8,7 @@
       "item": "mekanism:steel_casing"
     },
     "R": {
-      "item": "extendedcrafting:redstone_component"
+      "tag": "monumental_recipes:redstone_components"
     },
     "D": {
       "tag": "forge:bowls"

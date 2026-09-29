@@ -3,7 +3,7 @@
   "acceptMirrored": false,
   "key": {
     "A": {
-      "item": "extendedcrafting:redstone_component"
+      "tag": "monumental_recipes:redstone_components"
     },
     "B": {
       "item": "ae2:calculation_processor"

@@ -8,7 +8,7 @@
       "item": "create:andesite_alloy"
     },
     "D": {
-      "item": "create:cogwheel"
+      "tag": "monumental_recipes:cogwheels"
     }
   },
   "pattern": [

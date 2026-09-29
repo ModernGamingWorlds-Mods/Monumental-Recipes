@@ -12,7 +12,7 @@
       "item": "ae2:annihilation_core"
     },
     "D": {
-      "item": "create:mechanical_crafter"
+      "tag": "monumental_recipes:crafter"
     },
     "E": {
       "item": "ae2:formation_core"

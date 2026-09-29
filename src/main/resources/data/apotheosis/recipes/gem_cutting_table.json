@@ -33,7 +33,7 @@
       "item": "pneumaticcraft:reinforced_stone"
     },
     "S": {
-      "item": "thermal:saw_blade"
+      "tag": "forge:sawblades"
     },
     "P": {
       "tag": "forge:plates/diamond"

@@ -5,7 +5,7 @@
       "tag": "forge:glass"
     },
     "B": {
-      "item": "thermal:lumium_glass"
+      "item": "minecraft:lightning_rod"
     }
   },
   "pattern": [

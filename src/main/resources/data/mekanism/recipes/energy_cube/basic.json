@@ -11,7 +11,7 @@
       "item": "kubejs:compressed_iron_plate"
     },
     "D": {
-      "item": "extendedcrafting:redstone_component"
+      "tag": "monumental_recipes:redstone_components"
     }
   },
   "pattern": [

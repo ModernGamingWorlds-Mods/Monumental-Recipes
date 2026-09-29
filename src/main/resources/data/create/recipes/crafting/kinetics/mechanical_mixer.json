@@ -9,7 +9,7 @@
       "item": "create:whisk"
     },
     "S": {
-      "item": "create:cogwheel"
+      "tag": "monumental_recipes:cogwheels"
     },
     "A": {
       "tag": "forge:bowls"

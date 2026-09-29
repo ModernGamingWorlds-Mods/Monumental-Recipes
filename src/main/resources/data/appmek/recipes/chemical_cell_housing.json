@@ -5,7 +5,7 @@
       "item": "ae2:quartz_glass"
     },
     "B": {
-      "item": "extendedcrafting:redstone_component"
+      "tag": "monumental_recipes:redstone_components"
     },
     "C": {
       "tag": "forge:plates/osmium"

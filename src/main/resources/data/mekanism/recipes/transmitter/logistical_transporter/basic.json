@@ -5,7 +5,7 @@
       "item": "kubejs:compressed_iron_plate"
     },
     "C": {
-      "item": "hangglider:glider_framework"
+      "tag": "monumental_recipes:conveyors"
     },
     "B": {
       "tag": "forge:circuits/basic"
@@ -23,10 +23,6 @@
     {
       "type": "forge:mod_loaded",
       "modid": "mekanism"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "hangglider"
     },
     {
       "type": "forge:mod_loaded",

@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "C": {
-      "item": "create:water_wheel"
+      "tag": "monumental_recipes:water_wheels"
     },
     "S": {
       "tag": "forge:treated_wood"

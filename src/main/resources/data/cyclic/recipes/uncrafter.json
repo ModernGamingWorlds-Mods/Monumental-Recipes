@@ -7,7 +7,7 @@
   ],
   "key": {
     "c": {
-      "item": "minecraft:calcite"
+      "tag": "chipped:calcite"
     },
     "s": {
       "item": "cyclic:gem_obsidian"
@@ -30,6 +30,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "cyclic"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
     }
   ]
 }

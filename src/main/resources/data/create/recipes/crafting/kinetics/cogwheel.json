@@ -8,7 +8,7 @@
       "item": "create:shaft"
     },
     "C": {
-      "item": "supplementaries:crank"
+      "tag": "monumental_recipes:cranks"
     }
   },
   "pattern": [

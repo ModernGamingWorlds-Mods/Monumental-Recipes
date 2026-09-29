@@ -7,7 +7,7 @@
   ],
   "key": {
     "c": {
-      "item": "minecraft:copper_ingot"
+      "tag": "forge:ingots/copper"
     },
     "b": {
       "tag": "forge:storage_blocks/cobblestone"

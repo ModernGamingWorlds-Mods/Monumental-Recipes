@@ -8,7 +8,7 @@
       "item": "kubejs:compressed_iron_plate"
     },
     "C": {
-      "item": "extendedcrafting:redstone_component"
+      "tag": "monumental_recipes:redstone_components"
     },
     "D": {
       "item": "ae2:calculation_processor"
@@ -34,10 +34,6 @@
     {
       "type": "forge:mod_loaded",
       "modid": "kubejs"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
     }
   ]
 }

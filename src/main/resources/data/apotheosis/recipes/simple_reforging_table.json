@@ -33,7 +33,7 @@
       "item": "apotheosis:sigil_of_withdrawal"
     },
     "N": {
-      "item": "extendedcrafting:redstone_component"
+      "tag": "monumental_recipes:redstone_components"
     },
     "G": {
       "item": "apotheosis:gem_dust"
