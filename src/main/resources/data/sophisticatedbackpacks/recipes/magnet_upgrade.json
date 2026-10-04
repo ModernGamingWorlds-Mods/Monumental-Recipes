@@ -24,7 +24,7 @@
       "item": "immersiveengineering:toolupgrade_shield_magnet"
     },
     "R": {
-      "item": "extendedcrafting:redstone_component"
+      "tag": "monumental_recipes:redstone_components"
     },
     "K": {
       "item": "sophisticatedbackpacks:upgrade_base"

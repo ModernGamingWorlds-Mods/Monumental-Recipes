@@ -3,7 +3,7 @@
   "acceptMirrored": false,
   "key": {
     "Q": {
-      "item": "extendedcrafting:redstone_component"
+      "tag": "monumental_recipes:redstone_components"
     },
     "F": {
       "item": "rftoolsbase:machine_frame"

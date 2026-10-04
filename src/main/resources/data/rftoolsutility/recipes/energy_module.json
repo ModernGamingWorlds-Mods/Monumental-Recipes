@@ -8,7 +8,7 @@
       "item": "ad_astra:energizer"
     },
     "r": {
-      "item": "extendedcrafting:redstone_component"
+      "tag": "monumental_recipes:redstone_components"
     }
   },
   "pattern": [

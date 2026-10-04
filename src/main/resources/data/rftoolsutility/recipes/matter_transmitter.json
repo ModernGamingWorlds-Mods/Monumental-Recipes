@@ -9,7 +9,7 @@
       "item": "rftoolsbase:machine_frame"
     },
     "r": {
-      "item": "extendedcrafting:redstone_component"
+      "tag": "monumental_recipes:redstone_components"
     },
     "i": {
       "tag": "forge:sheetmetals/steel"

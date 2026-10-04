@@ -125,3 +125,9 @@
 ## Version 1.0.39
 - (1.20.1) Recipe, Loot Tables, Tags, and more revamp
 - Bumped mod version
+
+## Version 1.0.40
+- (1.20.1) Recipe, Loot Tables, Tags, and more revamp pt 2
+- (1.20.1) Fixed missing Chain tag
+- (1.20.1) Updated Forge version
+- Bumped mod version

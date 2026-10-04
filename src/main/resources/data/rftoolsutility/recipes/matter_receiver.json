@@ -15,7 +15,7 @@
       "tag": "forge:sheetmetals/steel"
     },
     "s": {
-      "item": "cyclic:eye_redstone"
+      "item": "redstonepen:control_box"
     }
   },
   "pattern": [

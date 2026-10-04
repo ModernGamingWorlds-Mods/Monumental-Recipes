@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "X": {
-      "item": "ad_astra:water_pump"
+      "item": "mysticalagriculture:water_essence"
     },
     "Z": {
       "tag": "forge:dyes/black"
@@ -11,7 +11,7 @@
       "item": "mysticalagriculture:compressed_iron_essence"
     },
     "r": {
-      "item": "extendedcrafting:redstone_component"
+      "tag": "monumental_recipes:redstone_components"
     }
   },
   "pattern": [

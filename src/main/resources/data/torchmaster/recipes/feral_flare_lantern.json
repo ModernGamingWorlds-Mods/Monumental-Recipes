@@ -8,7 +8,7 @@
       "tag": "forge:glass"
     },
     "D": {
-      "item": "mekanism:refined_glowstone_ingot"
+      "tag": "forge:ingots/refined_glowstone"
     }
   },
   "pattern": [

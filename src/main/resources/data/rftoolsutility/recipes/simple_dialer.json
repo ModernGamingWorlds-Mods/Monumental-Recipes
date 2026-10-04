@@ -9,7 +9,7 @@
       "item": "immersiveengineering:wirecoil_redstone"
     },
     "r": {
-      "item": "extendedcrafting:redstone_component"
+      "tag": "monumental_recipes:redstone_components"
     },
     "Y": {
       "item": "extendedcrafting:redstone_catalyst"
