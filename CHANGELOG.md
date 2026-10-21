@@ -131,3 +131,8 @@
 - (1.20.1) Fixed missing Chain tag
 - (1.20.1) Updated Forge version
 - Bumped mod version
+
+## Version 1.0.41
+- (1.20.1) Replaced Cyclic compressed cobblestone
+- (1.20.1) Updated Forge version
+- Bumped mod version
