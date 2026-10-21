@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " gd",
+    " ig",
+    "i  "
+  ],
+  "key": {
+    "i": {
+      "item": "compressium:cobblestone_1"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "g": {
+      "item": "minecraft:light_blue_stained_glass"
+    }
+  },
+  "result": {
+    "item": "cyclic:prospector",
+    "count": 1
+  }
+}

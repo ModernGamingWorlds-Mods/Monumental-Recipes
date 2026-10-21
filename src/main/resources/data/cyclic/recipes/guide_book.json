@@ -1,0 +1,31 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		{
+      "item": "compressium:cobblestone_1"
+		},
+		{
+			"item": "minecraft:book",
+			"count": 1
+		}
+	],
+	"result": {
+		"type": "forge:nbt",
+		"item": "patchouli:guide_book",
+		"count": 1,
+		"nbt": {
+			"patchouli:book": "cyclic:guide_book"
+		}
+	},
+	"conditions": [
+		{
+			"values": [
+				{
+					"modid": "patchouli",
+					"type": "forge:mod_loaded"
+				}
+			],
+			"type": "forge:and"
+		}
+	]
+}

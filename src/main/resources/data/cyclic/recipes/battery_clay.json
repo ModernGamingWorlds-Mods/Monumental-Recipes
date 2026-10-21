@@ -10,7 +10,7 @@
       "tag": "forge:ingots/copper"
     },
     "b": {
-      "tag": "forge:storage_blocks/cobblestone"
+      "item": "compressium:cobblestone_1"
     },
     "a": {
       "item": "kubejs:clay_plate"

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "fff",
+    "sss"
+  ],
+  "key": {
+    "f": {
+      "item": "cyclic:fan"
+    },
+    "s": {
+      "item": "compressium:cobblestone_1"
+    }
+  },
+  "result": {
+    "item": "cyclic:fan_slab",
+    "count":3
+  }
+}

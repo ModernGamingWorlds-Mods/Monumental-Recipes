@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "rsr",
+    "lml",
+    "ooo"
+  ],
+  "key": {
+    "o": {
+      "tag": "forge:storage_blocks/flint"
+    },
+    "s": {
+      "item": "minecraft:dispenser"
+    },
+    "l": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "m": {
+      "item": "compressium:cobblestone_1"
+    },
+    "r": {
+      "tag": "forge:ingots/gold"
+    }
+  },
+  "result": {
+    "item": "cyclic:user",
+    "count": 1
+  }
+}

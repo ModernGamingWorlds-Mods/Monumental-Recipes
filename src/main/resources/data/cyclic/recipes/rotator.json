@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    "lml",
+    "ooo"
+  ],
+  "key": {
+    "o": {
+      "tag": "forge:nuggets/copper"
+    },
+    "s": {
+      "tag": "monumental_recipes:pistons"
+    },
+    "l": {
+      "tag": "minecraft:logs"
+    },
+    "m": {
+      "item": "compressium:cobblestone_1"
+    }
+  },
+  "result": {
+    "item": "cyclic:rotator",
+    "count": 1
+  }
+}
