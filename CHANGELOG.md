@@ -136,3 +136,7 @@
 - (1.20.1) Replaced Cyclic compressed cobblestone
 - (1.20.1) Updated Forge version
 - Bumped mod version
+
+## Version 1.0.42
+- (1.20.1) Removed Ice and Fire copper tools
+- (1.20.1) Removed Cyclic copper tools
