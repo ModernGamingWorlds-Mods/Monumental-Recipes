@@ -141,3 +141,4 @@
 - (1.20.1) Removed Ice and Fire copper tools
 - (1.20.1) Removed Cyclic copper tools
 - (1.20.1) Bumped mod version
+- Updated gradle to 9.8.2
