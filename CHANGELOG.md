@@ -140,3 +140,4 @@
 ## Version 1.0.42
 - (1.20.1) Removed Ice and Fire copper tools
 - (1.20.1) Removed Cyclic copper tools
+- (1.20.1) Bumped mod version
