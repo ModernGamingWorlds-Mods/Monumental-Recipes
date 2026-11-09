@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " c ",
+        "i i",
+        " c "
+    ],
+    "key": {
+        "i": {
+            "tag": "forge:ingots/compressed_iron"
+        },
+        "c": {
+            "item": "envirocore:laser_core"
+        }
+
+    },
+    "result": {
+        "item": "envirocore:laser_lens_holder",
+        "count": 1
+    }
+}

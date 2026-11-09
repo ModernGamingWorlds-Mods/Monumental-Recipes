@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CDC",
+        "CMC",
+        "CLC"
+    ],
+    "key": {
+        "C": {
+            "tag": "forge:gems/pladium"
+        },
+        "D": {
+            "item": "compressium:diamond_2"
+        },
+        "M": {
+            "item": "envirotech:kyronite_void_miner_ccu"
+        },
+        "L": {
+            "item": "envirocore:laser_core"
+        }
+    },
+    "result": {
+        "item": "envirotech:pladium_void_miner_ccu",
+        "count": 1
+    }
+}

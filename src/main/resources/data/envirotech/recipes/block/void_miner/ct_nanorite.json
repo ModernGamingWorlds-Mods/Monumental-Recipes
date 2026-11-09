@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CDC",
+        "CMC",
+        "CLC"
+    ],
+    "key": {
+        "C": {
+            "item": "envirocore:nanorite_crystal"
+        },
+        "D": {
+            "item": "compressium:diamond_2"
+        },
+        "M": {
+            "item": "envirotech:aethium_void_miner_ccu"
+        },
+        "L": {
+            "item": "envirocore:laser_core"
+        }
+    },
+    "result": {
+        "item": "envirotech:nanorite_void_miner_ccu",
+        "count": 1
+    }
+}

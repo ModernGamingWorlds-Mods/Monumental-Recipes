@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "pip",
+        "i i",
+        "pip"
+    ],
+    "key": {
+        "i": {
+            "tag": "forge:ingots/compressed_iron"
+        },
+        "p": {
+            "tag": "forge:plates/obsidian"
+        }
+
+    },
+    "result": {
+        "item": "envirocore:laser_core",
+        "count": 1
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CDC",
+        "CMC",
+        "ILI"
+    ],
+    "key": {
+        "C": {
+            "tag": "forge:gems/litherite"
+        },
+        "D": {
+            "item": "compressium:diamond_2"
+        },
+        "M": {
+            "item": "envirocore:laser_diode"
+        },
+        "I": {
+            "tag": "envirocore:structure/panels"
+        },
+        "L": {
+            "item": "envirocore:laser_core"
+        }
+    },
+    "result": {
+        "item": "envirotech:litherite_void_miner_ccu",
+        "count": 1
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CDC",
+        "CMC",
+        "CLC"
+    ],
+    "key": {
+        "C": {
+            "tag": "forge:gems/erodium"
+        },
+        "D": {
+            "item": "compressium:diamond_2"
+        },
+        "M": {
+            "item": "envirotech:litherite_void_miner_ccu"
+        },
+        "L": {
+            "item": "envirocore:laser_core"
+        }
+    },
+    "result": {
+        "item": "envirotech:erodium_void_miner_ccu",
+        "count": 1
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "GGG",
+        "GRG",
+        "CCC"
+    ],
+    "key": {
+        "G": {
+            "tag": "forge:glass"
+        },
+        "R": {
+            "item": "redstonepen:control_box"
+        },
+        "C": {
+            "tag": "forge:ingots/gold"
+        }
+    },
+    "result": {
+        "item": "envirocore:laser_diode",
+        "count": 1
+    }
+}
