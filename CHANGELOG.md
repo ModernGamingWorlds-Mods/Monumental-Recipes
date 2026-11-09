@@ -142,3 +142,9 @@
 - (1.20.1) Removed Cyclic copper tools
 - (1.20.1) Bumped mod version
 - Updated gradle to 9.8.2
+
+## Version 1.0.43
+- (1.20.1) Added envirocore custom recipes
+- (1.20.1) Added envirotech custom recipes
+- (1.20.1) Updated forge version
+- Bumped version

@@ -5,7 +5,7 @@ license = "MIT"
 
 [[mods]]
 modId = "monumental_recipes"
-version = "1.0.42"
+version = "1.0.43"
 displayName = "Monumental Recipes"
 authors = "ModernGamingWorld"
 description = '''
@@ -513,6 +513,13 @@ side = "BOTH"
 
 [[dependencies.monumental_recipes]]
 modId = "easy_villagers"
+mandatory = false
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.monumental_recipes]]
+modId = "envirocore"
 mandatory = false
 versionRange = "*"
 ordering = "AFTER"
