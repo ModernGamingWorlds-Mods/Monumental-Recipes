@@ -156,6 +156,7 @@
 - (1.20.1) Disabled Forestry guide from spawning in inventories
 - (1.20.1) Disabled Railcraft guide from spawning in inventories
 - (1.20.1) Disabled Railcraft ore gen from spawning
+- (1.20.1) Added faktocraft plastic to forge plastic tag
 - Updated mod publish plugin version
 - Updated stonecutter version to latest 0.10
 - Added early support for 26.3
