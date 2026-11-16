@@ -153,6 +153,10 @@
 - (1.20.1) Modified Alex's mobs loot tables to drop Mystical essence
 - (1.20.1) Modified Botania loot tables to include Dirt essence
 - (1.20.1) Modified Forestry loot tables to include Dirt essence
+- (1.20.1) Disabled Forestry guide from spawning in inventories
+- (1.20.1) Disabled Railcraft guide from spawning in inventories
+- (1.20.1) Disabled Railcraft ore gen from spawning
+- Updated mod publish plugin version
 - Updated stonecutter version to latest 0.10
 - Added early support for 26.3
 - Bumped version
