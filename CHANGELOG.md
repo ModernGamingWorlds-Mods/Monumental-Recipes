@@ -148,3 +148,11 @@
 - (1.20.1) Added envirotech custom recipes
 - (1.20.1) Updated forge version
 - Bumped version
+
+## Version 1.0.44
+- (1.20.1) Modified Alex's mobs loot tables to drop Mystical essence
+- (1.20.1) Modified Botania loot tables to include Dirt essence
+- (1.20.1) Modified Forestry loot tables to include Dirt essence
+- Updated stonecutter version to latest 0.10
+- Added early support for 26.3
+- Bumped version
