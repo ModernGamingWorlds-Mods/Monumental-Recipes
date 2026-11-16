@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "mysticalagriculture:diamond_essence"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "mysticalagriculture:emerald_essence"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "alexsmobs:mimicream"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "minecraft:raw_copper"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "mysticalagriculture:nether_quartz_essence"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "mysticalagriculture:amethyst_essence"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "mysticalagriculture:lapis_lazuli_essence"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 9,
+          "name": "mysticalagriculture:enderman_essence"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "mysticalagriculture:blaze_essence"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "minecraft:prismarine_crystals"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "minecraft:prismarine_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:shulker_shell"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:end_rod"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:nautilus_shell"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:gilded_blackstone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "mysticalagriculture:ghast_essence"
+        }
+      ]
+    }
+  ]
+}

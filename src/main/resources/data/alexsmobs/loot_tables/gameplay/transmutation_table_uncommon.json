@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:raw_iron"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "minecraft:raw_copper"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:raw_gold"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "mysticalagriculture:coal_essence"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "mysticalagriculture:glowstone_essence"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mysticalagriculture:slime_essence"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mysticalagriculture:chiecken_essence"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 22,
+          "name": "minecraft:flint"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "mysticalagriculture:zombie_essence"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "mysticalagriculture:redstone_essence"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:pumpkin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:melon_slice"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 9,
+          "name": "minecraft:wheat"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "alexsmobs:capsid"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "alexsmobs:acacia_blossom"
+        }
+      ]
+    }
+  ]
+}
