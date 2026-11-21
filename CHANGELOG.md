@@ -161,3 +161,8 @@
 - Updated stonecutter version to latest 0.10
 - Added early support for 26.3
 - Bumped version
+
+## Version 1.0.45
+- (1.20.1) Added Missing Edelwood Sapling to Farming for Blockhead Market
+- (1.20.1) Added Ars Elemental Sapling to Farming for Blockhead Market
+- Bumped version

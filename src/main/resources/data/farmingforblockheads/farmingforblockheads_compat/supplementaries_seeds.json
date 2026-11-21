@@ -4,7 +4,7 @@
   "group": {
     "name": "Supplementaries Seeds",
     "enabledByDefault": true,
-    "defaultPayment": { "item": "minecraft:diamond", "count": 7 },
+    "defaultPayment": { "item": "minecraft:gold_ingot", "count": 2 },
     "defaultCategory": "farmingforblockheads:seeds"
   },
   "customEntries": [
