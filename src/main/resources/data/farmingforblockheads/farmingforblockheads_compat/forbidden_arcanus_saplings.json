@@ -10,6 +10,9 @@
   "customEntries": [
     {
       "output": "forbidden_arcanus:aurum_sapling"
+    },
+    {
+      "output": "forbidden_arcanus:growing_edelwood"
     }
   ]
 }
