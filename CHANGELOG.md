@@ -166,3 +166,7 @@
 - (1.20.1) Added Missing Edelwood Sapling to Farming for Blockhead Market
 - (1.20.1) Added Ars Elemental Sapling to Farming for Blockhead Market
 - Bumped version
+
+## Version 1.0.46
+- (1.20.1) Added Simple Mining Dimension Dim minespar custom recipe
+- Bumped version
