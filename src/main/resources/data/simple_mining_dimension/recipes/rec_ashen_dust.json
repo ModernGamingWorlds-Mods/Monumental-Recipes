@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "ashendust",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "ironcoals:gold_coal"
+    },
+    {
+      "item": "mysticalagriculture:creeper_essence"
+    },
+    {
+      "item": "minecraft:warped_fungus"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    }
+  ],
+  "result": {
+    "item": "simple_mining_dimension:dim_minespar",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "simple_mining_dimension"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironcoals"
+    }
+  ]
+}
