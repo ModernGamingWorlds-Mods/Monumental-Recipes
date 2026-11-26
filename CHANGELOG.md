@@ -170,3 +170,7 @@
 ## Version 1.0.46
 - (1.20.1) Added Simple Mining Dimension Dim minespar custom recipe
 - Bumped version
+
+## Version 1.0.47
+- (1.20.1) Disabled another quark vanilla furnace recipe
+- Bumped version
