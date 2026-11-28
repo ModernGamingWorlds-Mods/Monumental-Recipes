@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "tag": "forge:obsidian"
+    },
+    "h": {
+      "tag": "alltheores:ore_hammers"
+    }
+  },
+  "pattern": [
+    "ha ",
+    "a  ",
+    "   "
+  ],
+  "result": {
+    "item": "envirocore:obsidian_plate",
+    "count": 2
+  },
+  "show_notification": true
+}

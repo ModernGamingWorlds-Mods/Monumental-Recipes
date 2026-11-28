@@ -1,0 +1,24 @@
+{
+  "type": "envirocore:assembler",
+  "duration": {
+    "raw:int": 100
+  },
+  "top": {
+    "raw:item_tag": "forge:dusts/redstone"
+  },
+  "bottom": {
+    "raw:item_tag": "forge:dusts/redstone"
+  },
+  "left": {
+    "raw:item_tag": "forge:dusts/redstone"
+  },
+  "right": {
+    "raw:item_tag": "forge:dusts/redstone"
+  },
+  "center": {
+    "raw:item_tag": "forge:plates/obsidian"
+  },
+  "output": {
+    "raw:item": "envirocore:redstone_imbued_obsidian_plate"
+  }
+}
