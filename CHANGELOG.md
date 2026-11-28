@@ -174,3 +174,7 @@
 ## Version 1.0.47
 - (1.20.1) Disabled another quark vanilla furnace recipe
 - Bumped version
+
+## Version 1.0.48
+- (1.20.1) Fixed Environmental core/tech recipe issues 
+- Bumped version
